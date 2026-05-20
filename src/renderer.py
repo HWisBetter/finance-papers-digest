@@ -201,7 +201,10 @@ def render(papers: list[dict], output_dir: Path | None = None) -> Path:
     all_fs = [p.get("first_seen") for p in papers if p.get("first_seen")]
     latest_fs = max(all_fs) if all_fs else None
     latest_papers = sorted(
-        [p for p in papers if p.get("first_seen") == latest_fs] if latest_fs else [],
+        [p for p in papers
+         if p.get("first_seen") == latest_fs
+         and p.get("source") != "SSRN"]   # SSRN 已有大佬前瞻，不重复出现在首页最新栏
+        if latest_fs else [],
         key=_date_key, reverse=True,
     )
 
