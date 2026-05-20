@@ -21,7 +21,8 @@
   <section class="latest">
     <h1 class="sec-title">🔄 最新更新{% if latest_date %} <span class="sec-sub">（{{ latest_date }}）</span>{% endif %}</h1>
     {% if latest_papers %}
-      <p class="count">最近一次更新抓到 {{ latest_papers | length }} 篇；更早的请到下方按期刊浏览。</p>
+      <p class="count">最近一次更新抓到 {{ latest_papers | length }} 篇；更早的请到下方按期刊浏览。
+        其中 SSRN 论文显示的是<b>本站收录时间</b>，并非实际发布日期（SSRN 不公开精确日期）。</p>
       {% for p in latest_papers %}{{ paper_card(p) }}{% endfor %}
     {% else %}
       <div class="empty">本次更新没有新论文 🌙</div>
