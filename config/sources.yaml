@@ -1,0 +1,73 @@
+# 论文来源配置 —— 加期刊只改这里，不用动代码。
+# 每条：name 唯一名（也是页面来源徽章文字）、type 决定用哪个 fetcher、
+#       enabled 开关；其余按 type 取参数。
+#
+# type 与所需参数：
+#   nber_rss       无额外参数（NBER 工作论文，无日期由 main.py 盖章）
+#   wiley_rss      issn（不带连字符，如 JF=15406261）
+#   cambridge_rss  feed_url（Cambridge Core 的 rss/product/id/... 地址）
+#   crossref       issn（带连字符）、rows（最近取多少篇，默认 40）
+#   ssrn_stub      留白桩，永远返回空；watch_authors 待你提供后再启用
+
+sources:
+  - name: NBER
+    type: nber_rss
+    enabled: true
+
+  - name: JF            # Journal of Finance
+    type: wiley_rss
+    issn: "15406261"
+    enabled: true
+
+  - name: JAR           # Journal of Accounting Research
+    type: wiley_rss
+    issn: "1475679X"
+    enabled: true
+
+  - name: JFQA          # Journal of Financial and Quantitative Analysis
+    type: cambridge_rss
+    feed_url: "https://www.cambridge.org/core/rss/product/id/FB35548FF614F4556E96D01FA2CB412E"
+    enabled: true
+
+  - name: RFS           # Review of Financial Studies（Oxford 反爬，走 Crossref）
+    type: crossref
+    issn: "1465-7368"
+    rows: 40
+    enabled: true
+
+  - name: JFE           # Journal of Financial Economics（Elsevier 不存摘要，走 Crossref；多为无摘要，保留链接）
+    type: crossref
+    issn: "0304-405X"
+    rows: 40
+    enabled: true
+
+  - name: MS            # Management Science（综合管理刊，全收，靠高亮浮出重点）
+    type: crossref
+    issn: "1526-5501"
+    rows: 40
+    enabled: true
+
+  # SSRN：追踪关注学者的 working paper。type 已切换为真实 fetcher。
+  # per_id 来自 SSRN author page URL（papers.ssrn.com/.../AbsByAuth.cfm?per_id=XXXXX）
+  # 代理查询并人工验证，2026-05-20。
+  # SSRN：通过 OpenAlex API 获取关注学者的 working paper
+  # openalex_id 经过实际 SSRN 论文验证（2026-05-20）
+  - name: SSRN
+    type: ssrn
+    enabled: true
+    watch_authors:
+      - {name: "Bryan Kelly",              openalex_id: "A5005696029"}
+      - {name: "Dacheng Xiu",             openalex_id: "A5050253426"}
+      - {name: "Wei Jiang",               openalex_id: "A5024857449"}
+      - {name: "Jianqing Fan",            openalex_id: "A5053226275"}
+      - {name: "Itay Goldstein",          openalex_id: "A5023527413"}
+      - {name: "Zhiguo He",               openalex_id: "A5089595588"}
+      - {name: "Baozhong Yang",           openalex_id: "A5084538885"}
+      - {name: "Lin William Cong",        openalex_id: "A5080547297"}
+      - {name: "Stijn Van Nieuwerburgh",  openalex_id: "A5064406662"}
+      - {name: "Svetlana Bryzgalova",     openalex_id: "A5076303223"}
+      - {name: "Nicholas Barberis",       openalex_id: "A5018894035"}
+      - {name: "Andrei Shleifer",         openalex_id: "A5110890240"}
+      - {name: "Campbell Harvey",         openalex_id: "A5088627183"}
+      - {name: "David Hirshleifer",       openalex_id: "A5067662277"}
+      - {name: "Stefan Nagel",            openalex_id: "A5088371729"}

@@ -1,0 +1,36 @@
+{# 全站共享骨架：head + 站点头 + 导航 + 内容块 + 页脚。
+   index / journal 页都 extends 它，样式统一改 docs/style.css 即可。 #}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}金融论文每日摘要{% endblock %}</title>
+<link rel="stylesheet" href="{{ css_href }}">
+</head>
+<body>
+  <header class="site" id="top">
+    <div class="wrap">
+      <a class="brand" href="{{ home_href }}">📚 金融论文摘要</a>
+      <span class="updated">上次更新：{{ updated_at }}</span>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <div class="wrap">
+      <a href="{{ home_href }}"{% if active == '__home__' %} class="on"{% endif %}>🏠 首页</a>
+      <a href="{{ featured.href }}"{% if active == '__featured__' %} class="on"{% endif %}>⭐ {{ featured.name }} <em>{{ featured.count }}</em></a>
+      <a href="{{ leaderboard_nav.href }}"{% if active == '__leaderboard__' %} class="on"{% endif %}>🔥 {{ leaderboard_nav.name }}</a>
+      {% for j in journals %}
+      <a href="{{ j.href }}"{% if active == j.source %} class="on"{% endif %}>{{ j.source }} <em>{{ j.count }}</em></a>
+      {% endfor %}
+    </div>
+  </nav>
+
+  <main class="wrap">
+    {% block content %}{% endblock %}
+    <footer>由 fetchers → summarizer → renderer 自动生成 · DeepSeek 提供 AI 总结 · 共 {{ total }} 篇</footer>
+  </main>
+  <a class="totop" href="#top" title="回到顶部">↑ 顶部</a>
+</body>
+</html>

@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 语义搜索本地模型缓存（不入库）
+models/
+
+# 语义搜索模型不入 git（>100MB push 会被拒）；本地保留预览，CI 部署时注入
+docs/models/
+.aider*
+
+# Claude Code 本地记忆/会话文件（含个人信息，不入库）
+.claude/
+
+# 临时派单文件
+_aider_*.txt
+
+# 奇怪的空格文件
+" cd"
+$'\302\240cd'

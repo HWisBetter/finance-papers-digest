@@ -1,0 +1,56 @@
+# [DeepSeek-Patch: daily update workflow]
+name: Daily Update
+
+on:
+  schedule:
+    # 02:00 UTC = 10:00 Beijing time
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONIOENCODING: utf-8
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      ELSEVIER_API_KEY: ${{ secrets.ELSEVIER_API_KEY }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run daily update
+        run: python main.py
+
+      - name: Rebuild search index
+        run: python build_search_index.py
+
+      - name: Re-render site
+        run: python -c 'from src.renderer import render_all; from main import load_papers; render_all(load_papers())'
+
+      - name: Commit and push changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs/ data/papers.json data/seen.json data/embeddings.json
+          git diff --staged --quiet || git commit -m 'chore: daily update [skip ci]'
+          git push

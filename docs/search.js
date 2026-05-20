@@ -68,7 +68,6 @@ function renderResults(query, top) {
     <h1 class="sec-title">🔍 搜索结果
       <span class="sec-sub">（"${esc(query)}"，按语义相关度排序）</span></h1>
     <p class="count">${top.length ? `Top ${top.length} / 全库 ${total} 篇` : "未找到相关论文"}</p>
-    // [DeepSeek-Patch: replace card template with authors/abstract]
     ${top.map(r => `
       <article class="card">
         <h2 class="title"><a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.t)}</a></h2>

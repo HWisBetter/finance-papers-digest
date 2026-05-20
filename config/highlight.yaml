@@ -1,0 +1,186 @@
+# 高亮规则配置 —— 改这里，下次跑流水线就生效，不用动代码或数据。
+#
+# 两类高亮（仅视觉标记，不影响排序/筛选）：
+#   1) AI 相关论文：标题/摘要/关键词/AI总结里命中下面的词
+#   2) 关注作者（"大佬"）：论文作者里出现下面名单中的人
+#
+# 说明：feed 里作者名都是【英文】，所以名单也用英文写。
+# 重名风险真实存在（如 "Wei Jiang" 是常见名，feed 里没有机构信息消歧），
+# v1 接受一定误差；需要时可在名单里写更精确的全名变体。
+
+# --- AI 相关：词组（大小写不敏感，子串匹配；中英混排）---
+ai_keywords:
+  - machine learning
+  - deep learning
+  - neural network
+  - reinforcement learning
+  - large language model
+  - language model
+  - natural language processing
+  - generative ai
+  - artificial intelligence
+  - transformer
+  - textual analysis
+  - text analysis
+  - word embedding
+  - chatgpt
+  - 机器学习
+  - 深度学习
+  - 神经网络
+  - 强化学习
+  - 大语言模型
+  - 大模型
+  - 自然语言处理
+  - 人工智能
+  - 生成式
+  - 文本分析
+
+# --- AI 相关：缩写（按整词匹配，避免 Shanghai 里的 "ai" 这种误伤）---
+ai_acronyms:
+  - ai
+  - llm
+  - nlp
+  - gpt
+
+# --- 关注作者（"大佬"）：用 feed 里的英文名；按"姓名规范化后精确匹配"---
+# 括号里中文仅供你对照，程序不用。可随时增删；以后有 SSRN 关注名单也可并到这里。
+featured_authors:
+  - Wei Jiang          # 姜纬
+  - Baozhong Yang      # 杨保中
+  - Dacheng Xiu        # 修大成
+  - Bryan Kelly        # Kelly
+  - Bryan T. Kelly     # Kelly（带中间名变体）
+  - Jianqing Fan       # Jianqing Fan
+  # —— 2026-05-20 数据驱动扩充：Top-3(JF/JFE/RFS) ChatGPT 后高频活跃学者 ——
+  # Kai Li 暂未加：实测为至少 2 个不同学者同名（UBC 公司治理 vs CMU 资产定价），
+  # 缺机构数据无法精确区分，待以后加 OpenAlex 机构信息再决定。
+  - Itay Goldstein
+  - Stijn Van Nieuwerburgh
+  - Svetlana Bryzgalova
+  - Cecilia Parlatore
+  - Snehal Banerjee
+  - Zhiguo He
+  - Francisco Gomes
+  - Zhengyang Jiang
+  - Erica Xuewei Jiang
+  # —— 2026-05-20 复合指数(h-index + log₁₀(1+总被引)) Top-10 里未 curated 的 3 位 ——
+  - Dmitriy Muravyev
+  - David Hirshleifer
+  - Janet Gao
+  # —— 2026-05-20 互联网公认金融学界重要学者（AI 辅助整理，人工审核后加入）——
+  - Nicholas Barberis        # 耶鲁，行为金融 / 资产定价
+  - Robert Stambaugh         # 宾夕法尼亚 Wharton，实证资产定价
+  - Tobias Moskowitz         # 耶鲁，因子投资 / 动量
+  - Campbell Harvey          # 杜克，因子模型 / 市场异象
+  - Xavier Gabaix            # 哈佛，宏观金融 / 非理性
+  - Maureen O'Hara           # 康奈尔，市场微观结构
+  - Harrison Hong            # 哥伦比亚，行为金融 / 社会互动
+  - Malcolm Baker            # 哈佛商学院，行为公司金融
+  - Annette Vissing-Jørgensen  # 伯克利，家庭金融 / 资产定价
+  - Annette Vissing-Jorgensen  # 同人，ASCII 变体（feed 可能用此写法）
+  - Jessica Wachter          # 宾夕法尼亚，资产定价 / 稀有灾难
+  - Tim Bollerslev           # 杜克，金融计量 / GARCH / 波动率
+  - Tarun Chordia            # 埃默里，流动性 / 实证资产定价
+  - Arvind Krishnamurthy     # 斯坦福，宏观金融 / 信贷市场
+  - Stefan Nagel             # 芝加哥，资产定价 / 经验资产定价
+  - Serhiy Kozak             # 马里兰，机器学习 + 资产定价
+  - Ralph Koijen             # 芝加哥，资产定价 / 需求系统
+  - Hanno Lustig             # 斯坦福，国际金融 / 汇率
+  - Andrei Shleifer          # 哈佛，行为金融 / 市场效率
+  - Bing Han                 # 多伦多，行为金融
+  - Yueran Ma                # 芝加哥，宏观金融 / 预期
+  - Lin William Cong         # 康奈尔，FinTech / AI 金融
+  - Will Cong                # 同人变体
+  # —— 2026-05-20 期刊编委 + AFA 学会领导（ABS4★ 金融主刊）——
+  # ·· Journal of Finance（JF）主编 / 副主编 ··
+  - Antoinette Schoar        # MIT，执行主编
+  - Leonid Kogan             # MIT，联合主编，资产定价
+  - Jonathan Lewellen        # 达特茅斯，联合主编，实证资产定价
+  - Thomas Philippon         # NYU，联合主编，宏观金融 / FinTech
+  - Adi Sunderam             # 哈佛，联合主编，货币与银行
+  - Manuel Adelino           # 杜克，副主编，公司金融
+  - Kenneth Ahern            # 南加州，副主编，公司金融
+  - Kerry Back               # 莱斯，副主编，资产定价
+  - Alon Brav                # 杜克，副主编，行为金融 / 股东激进主义
+  - Mikhail Chernov          # UCLA，副主编，宏观金融
+  - James Choi               # 耶鲁，副主编，家庭金融
+  - Anna Cieslak             # 杜克，副主编，固定收益
+  - Vicente Cuñat            # LSE，副主编，公司金融
+  - Zhi Da                   # 圣母大学，副主编，实证资产定价
+  - Gregory Duffee           # 约翰霍普金斯，副主编，固定收益
+  - Thierry Foucault         # 巴黎HEC，副主编，市场微观结构
+  - Carola Frydman           # 西北大学，副主编，企业史 / 公司金融
+  - Mariassunta Giannetti    # 斯德哥尔摩，副主编，公司金融
+  - Vincent Glode            # 沃顿，副主编，金融中介
+  - Brett Green              # 伯克利，副主编，公司金融
+  - Samuel Hartzmark         # 波士顿学院，副主编，行为金融
+  - Terry Hendershott        # 伯克利，副主编，市场微观结构
+  - Victoria Ivashina        # 哈佛，副主编，银行 / 信贷
+  - Dirk Jenter              # LSE，副主编，CEO / 公司治理
+  - Jonathan Karpoff         # 华盛顿大学，副主编，公司治理
+  - Benjamin Keys            # 沃顿，副主编，家庭金融 / 房产
+  - Jun Pan                  # 香港科大（原MIT），衍生品
+  - Stavros Panageas         # UCLA，副主编，宏观金融
+  - Giorgia Piacentino       # 哥伦比亚，副主编，公司金融
+  - Joshua Rauh              # 斯坦福，副主编，公共养老 / 公司金融
+  - David Robinson           # 杜克，副主编，私募股权
+  - Alexi Savov              # NYU，副主编，宏观金融
+  - Lukas Schmid             # 南加州，副主编，宏观金融
+  - Kelly Shue               # 耶鲁，副主编，行为公司金融
+  - Clemens Sialm            # 德克萨斯，副主编，家庭金融 / 资产定价
+  - David Sraer              # 伯克利，副主编，宏观金融
+  - David Thesmar            # MIT，副主编，公司金融 / 金融中介
+  - Margarita Tsoutsoura     # 康奈尔，副主编，公司金融
+  - Jules van Binsbergen     # 沃顿，副主编，资产定价
+  - Andrea Vedolin           # 波士顿大学，副主编，固定收益 / 宏观
+  - Adrien Verdelhan         # MIT，副主编，国际金融
+  - Motohiro Yogo            # 普林斯顿，副主编，资产定价 / 保险
+  # ·· Journal of Financial Economics（JFE）主编 / 副主编 ··
+  - Toni Whited              # 密歇根，主编，公司金融
+  - Dimitris Papanikolaou   # 西北大学，联合主编，公司金融
+  - Nikolai Roussanov        # 沃顿，联合主编，资产定价
+  - Philipp Schnabl          # NYU，联合主编，银行 / 货币政策
+  - Federico Bandi           # 约翰霍普金斯，副主编，金融计量
+  - Jack Bao                 # 特拉华，副主编，公司债
+  # ·· Review of Financial Studies（RFS）主编 / 副主编 ··
+  - Tarun Ramadorai          # 帝国理工，执行主编，家庭金融
+  - Viral Acharya            # NYU，编辑，银行 / 系统性风险
+  - Xavier Giroud            # 哥伦比亚，编辑，公司金融
+  - Andrey Malenko           # 密歇根，编辑，公司金融
+  - Anna Pavlova             # 伦敦商学院，编辑，资产定价
+  - George Aragon            # 亚利桑那州立，副主编，对冲基金
+  - Turan Bali               # 乔治城，副主编，实证资产定价
+  - Nicolas Crouzet          # 西北大学，副主编，公司金融
+  - Mark Egan                # 哈佛，副主编，银行 / 财富管理
+  - Francesco Franzoni       # USI，副主编，资产定价
+  - Umit Gurun               # 德克萨斯，副主编，媒体与金融
+  - Sabrina T. Howell        # NYU，副主编，创业 / 创新
+  - Alan Moreira             # 罗彻斯特，副主编，宏观金融
+  - Andrew Patton            # 杜克，副主编，金融计量
+  - Kim Peijnenburg          # 巴黎HEC，副主编，家庭金融
+  - Joel Peress              # INSEAD，副主编，信息与金融
+  - Carolin Pflueger         # 芝加哥，副主编，宏观金融 / 固定收益
+  - Matt Ringgenberg         # 犹他，副主编，卖空 / 资产定价
+  - Victoria Vanasco         # CEMFI，副主编，银行 / 公司金融
+  # ·· Journal of Financial & Quantitative Analysis（JFQA）编委 ··
+  - Hendrik Bessembinder     # 亚利桑那州立，管理主编，长期股票收益
+  - Ran Duchin               # 波士顿大学，管理主编，公司金融
+  - Jarrad Harford           # 华盛顿大学，管理主编，公司治理
+  - George Pennacchi         # 伊利诺伊，管理主编，银行
+  - Stephan Siegel           # 华盛顿大学，管理主编，家庭金融
+  - Mara Faccio              # 普渡大学，顾问编辑，公司治理
+  - Mark Grinblatt           # UCLA，顾问编辑，行为金融
+  # ·· AFA（美国金融学会）历届主席 ··
+  - Sydney Ludvigson         # NYU，AFA候任主席2027，资产定价 / 宏观
+  - Andrea Eisfeldt          # UCLA，AFA副主席2026，公司金融
+  - Ulrike Malmendier        # 伯克利，AFA前主席2025，行为金融 / 公司金融
+  - Kathleen Weiss Hanley    # 里海大学，AFA秘书长
+
+# --- 同一人的多种写法 -> 规范显示名（仅影响【展示/分组】，匹配仍用上面全部写法）---
+# 作用：上面为了多匹配保留了 "Bryan Kelly" 和 "Bryan T. Kelly" 两种写法，
+# 但页面（大佬名单条 + 分组标题）只显示规范名，避免用户误以为是两个人。
+# 写法：变体名: 规范名
+featured_aliases:
+  Bryan T. Kelly: Bryan Kelly
+  Annette Vissing-Jorgensen: Annette Vissing-Jørgensen
+  Will Cong: Lin William Cong

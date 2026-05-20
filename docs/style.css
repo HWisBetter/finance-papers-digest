@@ -214,9 +214,9 @@ footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 2
 }
 
 /* [DeepSeek-Patch: search result tier badges] */
-.tier-high { background: #dc2626; color: #fff; }
-.tier-mid  { background: #ea580c; color: #fff; }
-.tier-low  { background: #6b7280; color: #fff; }
+.badge.sim.tier-high { background: #dc2626; }
+.badge.sim.tier-mid  { background: #ea580c; }
+.badge.sim.tier-low  { background: #6b7280; }
 
 /* [DeepSeek-Patch: search result authors and abstract lines] */
 .card-authors { font-size: 13px; color: #555; margin: 4px 0 2px; }

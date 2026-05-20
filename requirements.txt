@@ -1,0 +1,21 @@
+# finance-papers-digest 的 Python 依赖
+# 安装方法（激活虚拟环境后）：pip install -r requirements.txt
+#
+# MVP 阶段不锁定版本，安装最新稳定版即可。
+# 等流程跑通、要上 GitHub Actions 之前，我们再用 `pip freeze` 锁定具体版本，保证 CI 可复现。
+
+feedparser        # 解析 RSS/Atom 订阅源（抓 NBER、JF 等期刊的论文列表）
+requests          # HTTP 客户端（SSRN RSS fetcher 用）
+openai            # 调用 DeepSeek API（DeepSeek 提供 OpenAI 兼容接口，所以用 openai 这个库）
+jinja2            # HTML 模板引擎（用模板渲染出 docs/index.html）
+pyyaml            # 读取 config/ 下的 YAML 配置（以后管理多个论文源用）
+python-dotenv     # 从 .env 文件把 API key 加载进环境变量（本地开发用）
+tenacity          # 给 API 调用加自动重试（指数退避，应对网络抖动 / 限流）
+
+# 语义搜索：离线给论文算 embedding。用和浏览器 transformers.js 完全相同的
+# 量化 ONNX（multilingual-e5-small），保证向量可比。轻依赖（非 torch）。
+# 版本已锁定：numpy 2.x 与 onnxruntime 1.17.x 有 ABI 冲突（Windows 上
+# 报 "DLL 初始化例程失败"）；这个组合实测稳定，CI 也照此装。
+numpy<2           # 向量运算（mean-pooling / 归一化 / 余弦）
+onnxruntime==1.17.3  # 跑 ONNX 嵌入模型（CPU，轻量；勿随意升到与 numpy2 不配的版本）
+tokenizers        # 加载模型的 fast tokenizer（tokenizer.json）

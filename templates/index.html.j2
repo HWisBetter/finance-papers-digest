@@ -1,0 +1,53 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import paper_card %}
+{% block title %}金融论文摘要 · 首页{% endblock %}
+
+{% block content %}
+  {# 顶部语义搜索栏：跨中英，输入主题/想法，按语义相关度排序返回结果 #}
+  <section class="search">
+    <div class="search-row">
+      <input id="search-box" type="text" placeholder="🔍 按语义检索全库 {{ total }} 篇 —— 试试&quot;货币政策对银行信贷&quot;、&quot;LLM 与资产定价&quot;…" autocomplete="off">
+      <button id="search-go">搜索</button>
+      <button id="search-clear" title="清空，回到首页">清空</button>
+    </div>
+    <div id="search-status" class="search-status"></div>
+  </section>
+
+  {# 搜索结果占位：默认隐藏；search.js 把结果填进来时切换显示并隐藏 #home-main #}
+  <section id="search-results" style="display:none"></section>
+
+  {# 原首页内容包一层，便于搜索时整段隐藏；清空后恢复 #}
+  <div id="home-main">
+  <section class="latest">
+    <h1 class="sec-title">🔄 最新更新{% if latest_date %} <span class="sec-sub">（{{ latest_date }}）</span>{% endif %}</h1>
+    {% if latest_papers %}
+      <p class="count">最近一次更新抓到 {{ latest_papers | length }} 篇；更早的请到下方按期刊浏览。</p>
+      {% for p in latest_papers %}{{ paper_card(p) }}{% endfor %}
+    {% else %}
+      <div class="empty">本次更新没有新论文 🌙</div>
+    {% endif %}
+  </section>
+
+  <hr class="divider">
+
+  <section class="browse">
+    <h1 class="sec-title">📚 分类浏览</h1>
+    <div class="jgrid">
+      <a class="jcard feat" href="{{ featured.href }}">
+        <span class="jname badge star">⭐ {{ featured.name }}</span>
+        <span class="jcount">{{ featured.count }} 篇</span>
+        <span class="jdate">关注大佬的论文/前沿</span>
+      </a>
+      {% for j in journals %}
+      <a class="jcard" href="{{ j.href }}">
+        <span class="jname badge src-{{ j.source }}">{{ j.source }}</span>
+        <span class="jcount">{{ j.count }} 篇</span>
+        {% if j.latest %}<span class="jdate">最近发表 {{ j.latest }}</span>{% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  </div>
+
+  <script type="module" src="search.js"></script>
+{% endblock %}

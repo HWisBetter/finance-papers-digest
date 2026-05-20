@@ -1,0 +1,23 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import paper_card %}
+{% block title %}{{ source }} · 金融论文摘要{% endblock %}
+
+{% block content %}
+  <section>
+    <h1 class="sec-title"><span class="badge src-{{ source }}">{{ source }}</span> 全部 {{ papers_total }} 篇</h1>
+    <p class="count">按主题分组；组内按发表日期倒序。点下方主题可直接跳转。</p>
+
+    {% if groups | length > 1 %}
+    <nav class="topicnav">
+      {% for grp in groups %}<a href="#t-{{ loop.index }}">{{ grp.topic }} <em>{{ grp.papers | length }}</em></a>{% endfor %}
+    </nav>
+    {% endif %}
+
+    {% for grp in groups %}
+    <h2 class="topic" id="t-{{ loop.index }}">{{ grp.topic }} <span class="sec-sub">（{{ grp.papers | length }}）</span></h2>
+    {% for p in grp.papers %}{{ paper_card(p, show_source=False) }}{% endfor %}
+    {% else %}
+    <div class="empty">该期刊暂无论文</div>
+    {% endfor %}
+  </section>
+{% endblock %}

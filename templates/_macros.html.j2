@@ -1,0 +1,49 @@
+{# 单篇论文卡片：首页"最新栏"和各期刊页共用，保证样式一致、改一处即可。 #}
+{% macro paper_card(p, show_source=True) %}
+<article class="card{% if p.is_retracted %} retracted{% elif p.is_featured %} featured{% elif p.is_ai %} ai{% endif %}">
+  <h2 class="title">
+    <a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
+  </h2>
+
+  <div class="meta">
+    {% if show_source %}<span class="badge src-{{ p.source }}">{{ p.source }}</span>{% endif %}
+    {% if p.is_new %}<span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>{% endif %}
+    {% if p.is_retracted %}<span class="badge retracted" title="该论文已被期刊撤稿">⚠ 已撤稿</span>{% endif %}
+    {% if p.is_ai %}<span class="badge ai">AI</span>{% endif %}
+    {% if p.abstract_missing %}<span class="badge no-abs">摘要缺失</span>{% endif %}
+    {% if p.authors %}
+    <span class="authors">
+      {%- set matched = p.featured_matched | default([]) -%}
+      {%- for a in p.authors[:6] -%}
+        {%- if a in matched -%}<b class="fa" title="关注学者">{{ a }}</b>{%- else -%}{{ a }}{%- endif -%}
+        {%- if not loop.last %}, {% endif -%}
+      {%- endfor -%}
+      {%- if p.authors | length > 6 %} <span class="more">等 {{ p.authors | length }} 位作者</span>{% endif %}
+    </span>
+    {% endif %}
+    {% if p.published_date %}<span class="sep">·</span><span>{{ p.published_date }}</span>{% endif %}
+  </div>
+
+  {% if p.is_retracted %}
+    <div class="notice retracted">⚠ 此文已被期刊撤稿（RETRACTED）。结论可能不可靠，仅为完整性保留，引用须极其谨慎。</div>
+  {% endif %}
+
+  {% if p.abstract_missing %}
+    <div class="notice">{{ p.summary }}</div>
+  {% elif p.summary %}
+    <p class="summary">{{ p.summary }}</p>
+  {% endif %}
+
+  {% if p.keywords %}
+  <div class="keywords">
+    {% for k in p.keywords %}<span class="tag">{{ k }}</span>{% endfor %}
+  </div>
+  {% endif %}
+
+  {% if p.ai_comment %}<div class="comment">💡 {{ p.ai_comment }}</div>{% endif %}
+
+  <div class="links">
+    <a href="{{ p.url }}" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+{% endmacro %}

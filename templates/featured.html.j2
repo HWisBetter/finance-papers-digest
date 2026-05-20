@@ -1,0 +1,31 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import paper_card %}
+{% block title %}{{ featured.name }} · 金融论文摘要{% endblock %}
+
+{% block content %}
+  <section>
+    <h1 class="sec-title">⭐ {{ featured.name }} <span class="sec-sub">（{{ papers_total }} 篇）</span></h1>
+    <p class="count">
+      大佬前瞻收录关注学者在 <b>SSRN 上发布的 working paper</b>（尚未正式发表的前沿研究）。
+      已发表论文见各期刊页（大佬名字加粗标注）。
+      · <a href="{{ leaderboard_nav.href }}">🔥 数据驱动的发文活跃榜</a>另见独立页面。
+    </p>
+
+    {% set roster = featured_roster | default([]) %}
+    {% if roster %}
+    <nav class="topicnav rosternav">
+      {% for r in roster %}{% if r.anchor %}<a href="#a-{{ r.anchor }}">{{ r.name }} <em>{{ r.count }}</em></a>{% else %}<span class="off" title="名单中，暂无命中论文">{{ r.name }}</span>{% endif %}{% endfor %}
+    </nav>
+    {% endif %}
+
+    {% for grp in groups %}
+    <h2 class="topic" id="a-{{ loop.index }}">{{ grp.author }} <span class="sec-sub">（{{ grp.papers | length }}）</span></h2>
+    {% for p in grp.papers %}{{ paper_card(p, show_source=True) }}{% endfor %}
+    {% else %}
+    <div class="empty">
+      <p>📭 暂无大佬 SSRN working paper</p>
+      <p style="font-size:13px;margin-top:8px;">SSRN 来源尚未启用。完善关注学者名单后，在 <code>config/sources.yaml</code> 中开启 SSRN 并配置 <code>watch_authors</code> 即可自动抓取。</p>
+    </div>
+    {% endfor %}
+  </section>
+{% endblock %}
