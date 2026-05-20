@@ -1,0 +1,214 @@
+:root {
+  --bg: #f6f6ef;
+  --card-bg: #ffffff;
+  --ink: #1a1a1a;
+  --muted: #6b6b6b;
+  --line: #e5e5e0;
+  --accent: #2a5db0;
+  --tag-bg: #eef3fb;
+  --tag-ink: #2a5db0;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "PingFang SC", "Microsoft YaHei", Roboto, Helvetica, Arial, sans-serif;
+}
+.wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+main.wrap { padding-bottom: 48px; }
+
+header.site { background: var(--accent); color: #fff; padding: 14px 0; }
+header.site .wrap {
+  display: flex; align-items: baseline; justify-content: space-between;
+  flex-wrap: wrap; gap: 6px;
+}
+header.site .brand { color: #fff; font-size: 18px; font-weight: 700; text-decoration: none; }
+header.site .updated { font-size: 12.5px; opacity: .9; }
+
+/* 期刊导航条 */
+nav.tabs { background: #21478a; border-bottom: 1px solid rgba(0,0,0,.15); }
+nav.tabs .wrap { display: flex; flex-wrap: wrap; gap: 2px; padding-top: 4px; padding-bottom: 4px; }
+nav.tabs a {
+  color: #dfe7f5; text-decoration: none; font-size: 13px;
+  padding: 6px 10px; border-radius: 4px;
+}
+nav.tabs a:hover { background: rgba(255,255,255,.12); color: #fff; }
+nav.tabs a.on { background: #fff; color: var(--accent); font-weight: 700; }
+nav.tabs a em { font-style: normal; opacity: .7; font-size: 11px; }
+
+.sec-title { font-size: 19px; margin: 22px 0 4px; }
+.sec-sub { color: var(--muted); font-size: 14px; font-weight: 400; }
+.count { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+/* 期刊页内的主题跳转条 */
+.topicnav {
+  display: flex; flex-wrap: wrap; gap: 7px;
+  margin: 10px 0 6px; padding: 10px 12px;
+  background: var(--card-bg); border: 1px solid var(--line); border-radius: 6px;
+}
+.topicnav a {
+  font-size: 12.5px; text-decoration: none; color: var(--accent);
+  background: var(--tag-bg); padding: 3px 10px; border-radius: 999px;
+}
+.topicnav a:hover { background: var(--accent); color: #fff; }
+.topicnav a em { font-style: normal; opacity: .65; font-size: 11px; }
+.rosternav span.off {
+  font-size: 12.5px; color: var(--muted); background: #f0f0ea;
+  padding: 3px 10px; border-radius: 999px; opacity: .7;
+}
+
+.topic {
+  font-size: 16px; margin: 26px 0 10px; padding-bottom: 5px;
+  border-bottom: 2px solid var(--line); color: #243b66;
+  scroll-margin-top: 12px;   /* 锚点跳转留点上边距 */
+}
+hr.divider { border: 0; border-top: 2px dashed #c9c9bf; margin: 30px 0 6px; }
+
+/* 期刊入口网格 */
+.jgrid {
+  display: grid; gap: 10px; margin: 12px 0 8px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+.jcard {
+  display: flex; flex-direction: column; gap: 5px;
+  background: var(--card-bg); border: 1px solid var(--line);
+  border-radius: 6px; padding: 14px; text-decoration: none; color: var(--ink);
+}
+.jcard:hover { border-color: var(--accent); box-shadow: 0 1px 6px rgba(0,0,0,.06); }
+.jcard.feat { border-left: 4px solid #c8901a; background: #fffdf3; }
+.jname { align-self: flex-start; }
+.jcount { font-size: 15px; font-weight: 700; }
+.jdate { font-size: 12px; color: var(--muted); }
+
+article.card {
+  background: var(--card-bg); border: 1px solid var(--line);
+  border-radius: 6px; padding: 14px 16px; margin-bottom: 12px;
+}
+.title { font-size: 16px; margin: 0 0 6px; line-height: 1.4; }
+.title a { color: var(--ink); text-decoration: none; }
+.title a:hover { color: var(--accent); text-decoration: underline; }
+
+.meta {
+  font-size: 12.5px; color: var(--muted); margin-bottom: 9px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+}
+.badge {
+  display: inline-block; font-size: 11px; font-weight: 700;
+  padding: 1px 7px; border-radius: 3px; color: #fff;
+  background: var(--muted); letter-spacing: .3px;
+}
+.badge.src-NBER { background: #b03a2e; }
+.badge.src-JF   { background: #1f7a4d; }
+.badge.src-JFE  { background: #2a5db0; }
+.badge.src-RFS  { background: #7a5230; }
+.badge.src-MS   { background: #555; }
+.badge.src-JAR  { background: #6b3fa0; }
+.badge.src-JFQA { background: #166b6b; }
+.badge.no-abs   { background: #8a6d1d; }
+.badge.ai       { background: #6b3fa0; }
+.badge.star     { background: #c8901a; }
+.badge.retracted{ background: #8a1c1c; }
+.badge.new      { background: #1f7a4d; }
+.meta .authors { color: #444; }
+.meta .authors .more { color: var(--muted); font-style: italic; }
+.meta .sep { color: var(--line); }
+
+article.card.featured { border-left: 3px solid #d8a840; }
+b.fa { color: #8a5c00; font-weight: 700; }
+article.card.ai       { border-left: 4px solid #6b3fa0; }
+article.card.retracted{ border-left: 4px solid #8a1c1c; background: #fcf1f1; }
+
+.summary { margin: 0 0 10px; }
+.notice {
+  margin: 0 0 10px; padding: 8px 11px; background: #fdf3f2;
+  border-left: 3px solid #b03a2e; border-radius: 0 4px 4px 0;
+  font-size: 14px; color: #7a2a20;
+}
+.notice.retracted { background: #fbeaea; border-left-color: #8a1c1c; color: #7a1c1c; font-weight: 600; }
+.comment {
+  margin: 0 0 10px; padding: 8px 11px; background: #fbf7e9;
+  border-left: 3px solid #d8b34a; border-radius: 0 4px 4px 0; font-size: 14px;
+}
+.keywords { margin: 0 0 10px; }
+.tag {
+  display: inline-block; background: var(--tag-bg); color: var(--tag-ink);
+  font-size: 12px; padding: 2px 9px; border-radius: 999px; margin: 0 6px 6px 0;
+}
+.links { font-size: 13px; }
+.links a { color: var(--accent); text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+
+.empty {
+  background: var(--card-bg); border: 1px dashed var(--line);
+  border-radius: 6px; padding: 40px 16px; text-align: center; color: var(--muted);
+}
+footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 26px; }
+
+/* 回到顶部：固定右下角，全站通用 */
+.totop {
+  position: fixed; right: 18px; bottom: 18px; z-index: 50;
+  background: var(--accent); color: #fff; text-decoration: none;
+  font-size: 13px; padding: 9px 13px; border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.18); opacity: .85;
+}
+.totop:hover { opacity: 1; }
+
+/* 语义搜索栏（首页顶部） */
+.search { margin: 14px 0 6px; }
+.search-row { display: flex; gap: 8px; }
+#search-box {
+  flex: 1; min-width: 0; padding: 9px 12px; font-size: 14px;
+  border: 1px solid var(--line); border-radius: 6px; outline: none;
+  background: var(--card-bg); color: var(--ink);
+}
+#search-box:focus { border-color: var(--accent); }
+#search-go, #search-clear {
+  border: 1px solid var(--line); background: var(--card-bg); color: var(--ink);
+  padding: 9px 14px; border-radius: 6px; cursor: pointer; font-size: 13px;
+}
+#search-go { background: var(--accent); color: #fff; border-color: var(--accent); }
+#search-go:hover { opacity: .9; }
+#search-go:disabled { opacity: .55; cursor: progress; }
+#search-clear:hover { border-color: var(--accent); color: var(--accent); }
+.search-status { font-size: 12.5px; color: var(--muted); margin: 6px 2px 0; min-height: 1em; }
+.badge.sim { background: #2a5db0; }
+.badge.topic-badge { background: #5a6677; }
+
+/* 🔥 当前最活跃 Top-N 排行 widget */
+.lb { margin: 4px 0 12px; }
+.lb-formula {
+  font-size: 13px; background: #fbf6e8; border-left: 3px solid #d8b34a;
+  padding: 8px 12px; border-radius: 0 4px 4px 0; margin: 6px 0 10px;
+}
+.lb-formula b { color: #6a4d10; }
+.lb-table {
+  width: 100%; border-collapse: collapse;
+  background: var(--card-bg); border: 1px solid var(--line); border-radius: 6px;
+  overflow: hidden; font-size: 13.5px;
+}
+.lb-table th, .lb-table td { padding: 7px 10px; text-align: left;
+  border-bottom: 1px solid var(--line); }
+.lb-table thead th { background: #eef3fb; color: #243b66; font-weight: 700; }
+.lb-table tbody tr:last-child td { border-bottom: 0; }
+.lb-table tbody tr:hover { background: #f7f9fd; }
+.lb-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+.lb-table tbody td:nth-child(1) { color: var(--muted); width: 32px; }
+
+/* 发文活跃榜独立页 */
+.lb-page { padding-top: 6px; }
+.lb-page .lb-formula { margin-bottom: 14px; }
+.lb-wrap {
+  max-height: 70vh; overflow-y: auto;
+  border: 1px solid var(--line); border-radius: 6px;
+}
+.lb-full { border: none; border-radius: 0; }
+.lb-full tbody tr.curated-row td { background: #fffdf3; }
+.lb-full .rank { color: var(--muted); width: 32px; }
+.lb-full .score { color: #6a4d10; }
+.star-tag { color: #c8901a; margin-left: 4px; }
+.lb-note {
+  font-size: 12.5px; color: var(--muted); margin: 12px 0 4px;
+  padding: 8px 12px; background: var(--card-bg);
+  border: 1px solid var(--line); border-radius: 6px;
+}
