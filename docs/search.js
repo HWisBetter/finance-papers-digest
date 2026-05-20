@@ -110,3 +110,14 @@ function clearResults() {
 $("search-go").addEventListener("click", doSearch);
 $("search-box").addEventListener("keydown", e => { if (e.key === "Enter") doSearch(); });
 $("search-clear").addEventListener("click", clearResults);
+
+// [DeepSeek-Patch: auto-trigger search from URL param ?q=]
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q');
+  if (q) {
+    const box = $('search-box');
+    if (box) { box.value = q; doSearch(); }
+  }
+});
+// [DeepSeek-Patch end]

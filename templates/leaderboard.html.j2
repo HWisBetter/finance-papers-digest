@@ -32,8 +32,10 @@
         <tr{% if r.is_curated %} class="curated-row"{% endif %}>
           <td class="rank">{{ loop.index }}</td>
           <td>
-            {{ r.name }}
+            <!-- [DeepSeek-Patch: wrap author name in link to search page] -->
+            <a href="index.html?q={{ r.name | urlencode }}" class="lb-author-link">{{ r.name }}</a>
             {% if r.is_curated %}<span class="star-tag" title="已在大佬前瞻名单">⭐</span>{% endif %}
+            <!-- [DeepSeek-Patch end] -->
           </td>
           <td class="num">{{ r.papers }}</td>
           <td class="num">{{ r.citations }}</td>
