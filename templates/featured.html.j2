@@ -19,7 +19,7 @@
         {% if r.anchor %}
           <a href="#a-{{ r.anchor }}">{{ r.name }} <em>{{ r.count }}</em></a>
         {% else %}
-          <span class="off roster-hidden" title="名单中，暂无命中论文">{{ r.name }}</span>
+          <span class="off roster-hidden" style="display:none" title="名单中，暂无命中论文">{{ r.name }}</span>
         {% endif %}
       {% endfor %}
       {% if inactive_count > 0 %}
