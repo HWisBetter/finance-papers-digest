@@ -39,7 +39,9 @@ _CN_TZ = timezone(timedelta(hours=8))  # 北京时间固定 UTC+8，无夏令时
 
 # 期刊在导航/首页里的固定展示顺序（金融核心在前，宽口径源靠后）；
 # 未列出的源按字母补在最后，保证新增源也不会丢。
-_JOURNAL_ORDER = ["JF", "JFE", "RFS", "JFQA", "JAR", "NBER", "MS", "SSRN"]
+_JOURNAL_ORDER = ["JF", "JFE", "RFS", "JFQA", "JAR", "NBER", "MS"]
+# SSRN 不单独出页面，其论文全部收入「大佬前瞻」
+_NAV_EXCLUDE = {"SSRN"}
 
 _UNTOPIC = "未分类"  # topic 字段还没回填时的兜底主题（阶段1b 后会被真主题替换）
 
@@ -160,7 +162,7 @@ def render(papers: list[dict], output_dir: Path | None = None) -> Path:
     for p in papers:
         by_src[p.get("source") or "?"].append(p)
 
-    sources = sorted(by_src, key=_journal_order_index)
+    sources = sorted((s for s in by_src if s not in _NAV_EXCLUDE), key=_journal_order_index)
     journals = []
     for s in sources:
         ps = by_src[s]
