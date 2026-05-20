@@ -209,6 +209,15 @@ def render(papers: list[dict], output_dir: Path | None = None) -> Path:
         loader=FileSystemLoader(str(_TEMPLATES_DIR)),
         autoescape=True,
     )
+
+    # alias_norm 和 leaderboard 提前算，供 index.html 嵌入作者快速跳转数据
+    _aliases = load_highlight_config().get("featured_aliases") or {}
+    alias_norm = {_normalize(k): v for k, v in _aliases.items() if k and v}
+    leaderboard_rows = active_top_n(papers, n=_LEADERBOARD_N)
+    for row in leaderboard_rows:
+        row["author_href"] = _safe_author_fn(row["name"])
+    author_index = [{"name": r["name"], "href": r["author_href"]} for r in leaderboard_rows]
+
     # 大佬前瞻 = 只收 SSRN working papers（已发表论文在各期刊页以加粗作者名标注）
     featured_papers = [p for p in papers
                        if p.get("is_featured") and p.get("source") == "SSRN"]
@@ -234,14 +243,11 @@ def render(papers: list[dict], output_dir: Path | None = None) -> Path:
         active="__home__",
         latest_papers=latest_papers,
         latest_date=latest_fs,
+        author_index=author_index,
         **common,
     )
     index_path = out_dir / "index.html"
     index_path.write_text(index_html, encoding="utf-8")
-
-    # alias_norm: 变体名归一 -> 规范显示名（影响分组展示，不影响召回）
-    _aliases = load_highlight_config().get("featured_aliases") or {}
-    alias_norm = {_normalize(k): v for k, v in _aliases.items() if k and v}
 
     # 「大佬前瞻」页（跨期刊，按大佬分组）
     featured_groups = _group_by_author(featured_papers, alias_norm)
@@ -254,10 +260,7 @@ def render(papers: list[dict], output_dir: Path | None = None) -> Path:
     )
     (out_dir / _FEATURED_HREF).write_text(featured_html, encoding="utf-8")
 
-    # 「发文活跃榜」独立页：先给每行附上作者页链接，再渲染
-    leaderboard_rows = active_top_n(papers, n=_LEADERBOARD_N)
-    for row in leaderboard_rows:
-        row["author_href"] = _safe_author_fn(row["name"])
+    # 「发文活跃榜」独立页（rows + author_href 已在上方预算好）
     leaderboard_html = env.get_template("leaderboard.html.j2").render(
         active="__leaderboard__",
         rows=leaderboard_rows,

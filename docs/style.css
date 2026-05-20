@@ -145,6 +145,15 @@ article.card.retracted{ border-left: 4px solid #8a1c1c; background: #fcf1f1; }
 }
 footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 26px; }
 
+/* 作者快速跳转 chip */
+.author-chip {
+  display: inline-block; text-decoration: none;
+  background: #eef3fb; color: var(--accent);
+  border: 1px solid #c5d8f5; border-radius: 999px;
+  padding: 5px 14px; font-size: 13px; font-weight: 600;
+}
+.author-chip:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+
 /* 大佬名单折叠按钮 */
 .roster-hidden { display: none; }
 .roster-toggle {

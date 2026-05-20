@@ -15,6 +15,17 @@ env.localModelPath = "models/";      // 本地优先：docs/models/Xenova/multil
 const $ = id => document.getElementById(id);
 let pipe = null, index = null;
 
+// 作者分词匹配：把查询按空格拆词，每个词都出现在作者名里（子串）即命中
+const AUTHORS = JSON.parse(document.getElementById('author-index')?.textContent || '[]');
+function matchAuthors(q) {
+  const tokens = q.toLowerCase().trim().split(/\s+/).filter(t => t.length >= 1);
+  if (!tokens.length) return [];
+  return AUTHORS.filter(a => {
+    const name = a.name.toLowerCase();
+    return tokens.every(t => name.includes(t));
+  });
+}
+
 async function ensureReady() {
   if (!pipe) {
     setStatus("首次加载语义模型 ~118MB（之后缓存秒开）…");
@@ -64,9 +75,19 @@ function tierBadge(pct) {
 
 function renderResults(query, top) {
   const total = index ? index.length : 0;
+  const authorHits = matchAuthors(query);
+  const authorSection = authorHits.length ? `
+    <h2 class="sec-title" style="font-size:15px;margin:0 0 8px">👤 作者快速跳转</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px">
+      ${authorHits.map(a => `
+        <a href="${esc(a.href)}" class="author-chip">
+          ${esc(a.name)} <span style="opacity:.7;font-size:11px">→ 查看全部论文</span>
+        </a>`).join("")}
+    </div>` : '';
   const html = `
     <h1 class="sec-title">🔍 搜索结果
       <span class="sec-sub">（"${esc(query)}"，按语义相关度排序）</span></h1>
+    ${authorSection}
     <p class="count">${top.length ? `Top ${top.length} / 全库 ${total} 篇` : "未找到相关论文"}</p>
     ${top.map(r => `
       <article class="card">
