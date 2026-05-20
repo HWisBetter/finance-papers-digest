@@ -79,10 +79,14 @@ _FINANCE_TERMS = [
     # 国际 / 宏观金融
     "exchange rate", "foreign exchange", "currency risk", "capital flow",
     "international finance", "carry trade", "cross-border",
-    # 泛金融（强信号词根）
-    "financ",  # finance/financial/financing/financed
+    # 强信号词（比 financ 更精确）
+    "financial market", "financial asset", "financial institution",
+    "financial system", "financial sector", "financial contract",
+    "financial econom",  # financial economics
     "stock market", "securitization", "asset-backed securit",
     "stock price", "equity market",
+    "safe asset", "safe securit",   # macrofinance / flight-to-quality
+    "portfolio",                     # 金融语境常见；操作/营销不常用此词
 ]
 
 # subject 只认这两个；【故意不含 generic economics】（NBER 几乎全是 economics）
