@@ -1,0 +1,112 @@
+// 语义搜索（前端）。
+// 关键：模型必须与离线嵌入用的同一个 ONNX（Xenova/multilingual-e5-small 量化版），
+// 否则向量不可比、检索失效。这里强制 allowRemoteModels=false 用同源本地模型。
+//
+// 本地预览需要静态服务器（ES 模块 + fetch 不能在 file:// 下用），
+// 启动：在 docs/ 目录跑 `python -m http.server 8000`，然后开 http://localhost:8000。
+// 部署到 GitHub Pages 时由 Actions 把模型注入到 docs/models/。
+
+import { pipeline, env } from "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2";
+
+env.allowRemoteModels = false;       // 绝不悄悄回退到 HF（国内不稳）
+env.allowLocalModels = true;
+env.localModelPath = "models/";      // -> docs/models/Xenova/multilingual-e5-small/...
+
+const $ = id => document.getElementById(id);
+let pipe = null, index = null;
+
+async function ensureReady() {
+  if (!pipe) {
+    setStatus("首次加载语义模型 ~118MB（之后缓存秒开）…");
+    pipe = await pipeline("feature-extraction", "Xenova/multilingual-e5-small",
+                          { quantized: true });
+  }
+  if (!index) {
+    setStatus("加载语料索引…");
+    const r = await fetch("search-index.json");
+    const data = await r.json();
+    // base64 int8 -> Float32 + L2 归一化（量化后再归一化更稳）
+    index = data.items.map(it => {
+      const bin = atob(it.v);
+      const v = new Float32Array(data.dim);
+      let s = 0;
+      for (let i = 0; i < data.dim; i++) {
+        const x = ((bin.charCodeAt(i) << 24) >> 24) / 127;  // 解 int8
+        v[i] = x; s += x * x;
+      }
+      const n = Math.sqrt(s) || 1;
+      for (let i = 0; i < data.dim; i++) v[i] /= n;
+      return { t: it.t, u: it.u, s: it.s, tp: it.tp, v };
+    });
+  }
+  setStatus("");
+}
+
+function setStatus(msg) { const el = $("search-status"); if (el) el.textContent = msg || ""; }
+
+// 把 e5 余弦(集中在 0.72-0.90)映射成更直观的"相关度 %"
+function scoreToPct(cos) {
+  const lo = 0.72, hi = 0.90;
+  return Math.round(Math.max(0, Math.min(1, (cos - lo) / (hi - lo))) * 100);
+}
+
+const esc = s => (s || "").replace(/[&<>"']/g,
+  c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+
+function renderResults(query, top) {
+  const total = index ? index.length : 0;
+  const html = `
+    <h1 class="sec-title">🔍 搜索结果
+      <span class="sec-sub">（"${esc(query)}"，按语义相关度排序）</span></h1>
+    <p class="count">${top.length ? `Top ${top.length} / 全库 ${total} 篇` : "未找到相关论文"}</p>
+    ${top.map(r => `
+      <article class="card">
+        <h2 class="title"><a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.t)}</a></h2>
+        <div class="meta">
+          <span class="badge src-${esc(r.s)}">${esc(r.s)}</span>
+          ${r.tp ? `<span class="badge topic-badge">${esc(r.tp)}</span>` : ""}
+          <span class="badge sim" title="语义相关度（越高越像）">相关度 ${r.pct}%</span>
+        </div>
+      </article>`).join("")}`;
+  $("search-results").innerHTML = html;
+  $("search-results").style.display = "";
+  $("home-main").style.display = "none";
+}
+
+async function doSearch() {
+  const q = ($("search-box").value || "").trim();
+  if (!q) return clearResults();
+  $("search-go").disabled = true;
+  try {
+    await ensureReady();
+    setStatus("计算中…");
+    const out = await pipe("query: " + q, { pooling: "mean", normalize: true });
+    const qv = out.data;
+    const scored = new Array(index.length);
+    for (let k = 0; k < index.length; k++) {
+      const v = index[k].v; let s = 0;
+      for (let i = 0; i < qv.length; i++) s += qv[i] * v[i];
+      scored[k] = { ...index[k], cos: s, pct: scoreToPct(s) };
+    }
+    scored.sort((a, b) => b.cos - a.cos);
+    setStatus("");
+    renderResults(q, scored.slice(0, 30));
+  } catch (e) {
+    console.error(e);
+    setStatus("搜索失败: " + (e?.message || e));
+  } finally {
+    $("search-go").disabled = false;
+  }
+}
+
+function clearResults() {
+  $("search-results").innerHTML = "";
+  $("search-results").style.display = "none";
+  $("home-main").style.display = "";
+  $("search-box").value = "";
+  setStatus("");
+}
+
+$("search-go").addEventListener("click", doSearch);
+$("search-box").addEventListener("keydown", e => { if (e.key === "Enter") doSearch(); });
+$("search-clear").addEventListener("click", clearResults);

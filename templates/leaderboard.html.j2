@@ -1,0 +1,56 @@
+{% extends "base.html.j2" %}
+{% block title %}发文活跃榜 · 金融论文摘要{% endblock %}
+
+{% block content %}
+<section class="lb-page">
+  <h1 class="sec-title">🔥 TOP3 发文活跃榜
+    <span class="sec-sub">（数据驱动，每次渲染自动重算）</span></h1>
+
+  <p class="lb-formula">
+    <b>活跃指数 = 语料内 h-index + log₁₀(1 + 总被引)</b><br>
+    <span class="sec-sub">
+      范围：JF / JFE / RFS 自 2022-11-30（ChatGPT 发布后）至今；
+      h-index 限定本语料内（被引≥h 次的论文数 h）；
+      总被引来自 OpenAlex；⭐ 表示已在"大佬前瞻"手工名单。<br>
+      同名风险：极少数常见姓名可能合并了多位学者（如 Kai Li），仅供参考。
+    </span>
+  </p>
+
+  {% if rows %}
+  <div class="lb-wrap">
+    <table class="lb-table lb-full">
+      <thead><tr>
+        <th>#</th>
+        <th>学者</th>
+        <th class="num">发文</th>
+        <th class="num">总被引</th>
+        <th class="num">h 指数</th>
+        <th class="num">活跃指数</th>
+      </tr></thead>
+      <tbody>
+        {% for r in rows %}
+        <tr{% if r.is_curated %} class="curated-row"{% endif %}>
+          <td class="rank">{{ loop.index }}</td>
+          <td>
+            {{ r.name }}
+            {% if r.is_curated %}<span class="star-tag" title="已在大佬前瞻名单">⭐</span>{% endif %}
+          </td>
+          <td class="num">{{ r.papers }}</td>
+          <td class="num">{{ r.citations }}</td>
+          <td class="num">{{ r.h_index }}</td>
+          <td class="num score"><b>{{ '%.2f' % r.score }}</b></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <div class="empty">暂无数据（需要 TOP3 语料中有被引数据）</div>
+  {% endif %}
+
+  <p class="lb-note">
+    榜单仅统计 JF / JFE / RFS 三刊本语料内的论文，不代表全球学术影响力的完整排名。
+    · <a href="{{ featured.href }}">⭐ 大佬前瞻</a>收录手工审核名单下的最新论文。
+  </p>
+</section>
+{% endblock %}
