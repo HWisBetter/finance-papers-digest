@@ -20,6 +20,7 @@
 """
 
 import logging
+import re as _re
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -150,6 +151,28 @@ def _featured_roster(groups: list[dict],
     return roster
 
 
+def _safe_author_fn(name: str) -> str:
+    """Convert author name to a safe HTML filename, e.g. 'Bryan Kelly' -> 'author_bryan_kelly.html'."""
+    return "author_" + _re.sub(r"[^\w]", "_", name.lower()).strip("_") + ".html"
+
+
+def _papers_by_author(author_name: str, papers: list[dict],
+                      alias_norm: dict[str, str] | None = None) -> list[dict]:
+    """Find all papers in archive where this author appears (searches authors list directly)."""
+    alias_norm = alias_norm or {}
+    canonical = _canon(author_name, alias_norm)
+    norm_canonical = _normalize(canonical)
+    target_norms: set[str] = {norm_canonical}
+    for k, v in alias_norm.items():
+        if _normalize(v) == norm_canonical:
+            target_norms.add(k)
+    result = [
+        p for p in papers
+        if any(_normalize(a) in target_norms for a in (p.get("authors") or []))
+    ]
+    return sorted(result, key=_date_key, reverse=True)
+
+
 def render(papers: list[dict], output_dir: Path | None = None) -> Path:
     out_dir = output_dir or _DOCS_DIR
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -216,12 +239,11 @@ def render(papers: list[dict], output_dir: Path | None = None) -> Path:
     index_path = out_dir / "index.html"
     index_path.write_text(index_html, encoding="utf-8")
 
-    # 「大佬前瞻」页（跨期刊，按大佬分组）；groups 复用一次，保证名单 chip
-    # 的锚点序号与正文分组的 loop.index 对齐。
-    # 同一人多写法 -> 规范显示名（匹配仍用 highlight 全名单，不影响召回）。
+    # alias_norm: 变体名归一 -> 规范显示名（影响分组展示，不影响召回）
     _aliases = load_highlight_config().get("featured_aliases") or {}
-    alias_norm = {_normalize(k): v for k, v in _aliases.items()
-                  if k and v}
+    alias_norm = {_normalize(k): v for k, v in _aliases.items() if k and v}
+
+    # 「大佬前瞻」页（跨期刊，按大佬分组）
     featured_groups = _group_by_author(featured_papers, alias_norm)
     featured_html = env.get_template("featured.html.j2").render(
         active="__featured__",
@@ -232,14 +254,38 @@ def render(papers: list[dict], output_dir: Path | None = None) -> Path:
     )
     (out_dir / _FEATURED_HREF).write_text(featured_html, encoding="utf-8")
 
-    # 「发文活跃榜」独立页
+    # 「发文活跃榜」独立页：先给每行附上作者页链接，再渲染
     leaderboard_rows = active_top_n(papers, n=_LEADERBOARD_N)
+    for row in leaderboard_rows:
+        row["author_href"] = _safe_author_fn(row["name"])
     leaderboard_html = env.get_template("leaderboard.html.j2").render(
         active="__leaderboard__",
         rows=leaderboard_rows,
         **common,
     )
     (out_dir / _LEADERBOARD_HREF).write_text(leaderboard_html, encoding="utf-8")
+
+    # 每个活跃榜学者生成独立页面（按来源分组）
+    author_tmpl = env.get_template("author.html.j2")
+    for row in leaderboard_rows:
+        a_papers = _papers_by_author(row["name"], papers, alias_norm)
+        if not a_papers:
+            continue
+        by_src_a: dict[str, list] = defaultdict(list)
+        for p in a_papers:
+            by_src_a[p.get("source") or "?"].append(p)
+        groups_a = [
+            {"source": s, "papers": sorted(by_src_a[s], key=_date_key, reverse=True)}
+            for s in sorted(by_src_a, key=_journal_order_index)
+        ]
+        page = author_tmpl.render(
+            author=row["name"],
+            papers_total=len(a_papers),
+            groups=groups_a,
+            active="__author__",
+            **common,
+        )
+        (out_dir / row["author_href"]).write_text(page, encoding="utf-8")
 
     # 每个期刊一页
     jtmpl = env.get_template("journal.html.j2")
@@ -254,8 +300,8 @@ def render(papers: list[dict], output_dir: Path | None = None) -> Path:
         )
         (out_dir / f"{s}.html").write_text(page, encoding="utf-8")
 
-    logger.info("已渲染多页站：首页 + 大佬前瞻 + %d 个期刊页（共 %d 篇）-> %s",
-                len(sources), total, index_path)
+    logger.info("已渲染多页站：首页 + 大佬前瞻 + %d 个学者页 + %d 个期刊页（共 %d 篇）-> %s",
+                len(leaderboard_rows), len(sources), total, index_path)
     return index_path
 
 

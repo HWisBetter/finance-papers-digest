@@ -1,0 +1,27 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import paper_card %}
+{% block title %}{{ author }} · 金融论文摘要{% endblock %}
+
+{% block content %}
+  <section>
+    <h1 class="sec-title">{{ author }} <span class="sec-sub">（{{ papers_total }} 篇）</span></h1>
+    <p class="count">该学者在本语料库中的全部收录论文，按来源分组、组内按发表日期倒序。</p>
+
+    {% if groups | length > 1 %}
+    <nav class="topicnav">
+      {% for grp in groups %}<a href="#s-{{ loop.index }}"><span class="badge src-{{ grp.source }}">{{ grp.source }}</span> <em>{{ grp.papers | length }}</em></a>{% endfor %}
+    </nav>
+    {% endif %}
+
+    {% for grp in groups %}
+    <h2 class="topic" id="s-{{ loop.index }}">
+      <span class="badge src-{{ grp.source }}">{{ grp.source }}</span>
+      <span class="sec-sub">（{{ grp.papers | length }}）</span>
+    </h2>
+    {% for p in grp.papers %}{{ paper_card(p, show_source=False) }}{% endfor %}
+    {% else %}
+    <div class="empty">该学者暂无论文收录</div>
+    {% endfor %}
+  </section>
+  <a class="totop" href="#">↑ 顶部</a>
+{% endblock %}

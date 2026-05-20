@@ -10,7 +10,6 @@
     {% if p.is_new %}<span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>{% endif %}
     {% if p.is_retracted %}<span class="badge retracted" title="该论文已被期刊撤稿">⚠ 已撤稿</span>{% endif %}
     {% if p.is_ai %}<span class="badge ai">AI</span>{% endif %}
-    {% if p.abstract_missing %}<span class="badge no-abs">摘要缺失</span>{% endif %}
     {% if p.authors %}
     <span class="authors">
       {%- set matched = p.featured_matched | default([]) -%}
@@ -28,14 +27,9 @@
     <div class="notice retracted">⚠ 此文已被期刊撤稿（RETRACTED）。结论可能不可靠，仅为完整性保留，引用须极其谨慎。</div>
   {% endif %}
 
-  {# [DeepSeek-Patch: clean card for abstract_missing papers] #}
-  {% if p.abstract_missing %}
-    {% if p.topic %}<div class="ssrn-topic">📂 {{ p.topic }}</div>{% endif %}
-    <div class="notice ssrn-notice">📄 原文为 working paper，摘要暂未公开收录——请点击标题查看全文。</div>
-  {% elif p.summary %}
+  {% if not p.abstract_missing and p.summary %}
     <p class="summary">{{ p.summary }}</p>
   {% endif %}
-  {# [DeepSeek-Patch end] #}
 
   {% if p.keywords %}
   <div class="keywords">
