@@ -44,9 +44,6 @@ jobs:
       - name: Rebuild search index
         run: python build_search_index.py
 
-      - name: Re-render site
-        run: python -c 'from src.renderer import render_all; from main import load_papers; render_all(load_papers())'
-
       - name: Commit and push changes
         run: |
           git config user.name 'github-actions[bot]'
