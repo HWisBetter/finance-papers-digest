@@ -212,3 +212,16 @@ footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 2
   padding: 8px 12px; background: var(--card-bg);
   border: 1px solid var(--line); border-radius: 6px;
 }
+
+/* [DeepSeek-Patch: search result tier badges] */
+.tier-high { background: #dc2626; color: #fff; }
+.tier-mid  { background: #ea580c; color: #fff; }
+.tier-low  { background: #6b7280; color: #fff; }
+
+/* [DeepSeek-Patch: search result authors and abstract lines] */
+.card-authors { font-size: 13px; color: #555; margin: 4px 0 2px; }
+.card-abstract { font-size: 13px; color: #444; line-height: 1.5; margin: 2px 0 0; }
+
+/* [DeepSeek-Patch: leaderboard author link style] */
+.lb-author-link { color: inherit; text-decoration: none; border-bottom: 1px dotted #888; }
+.lb-author-link:hover { color: #2563eb; border-bottom-color: #2563eb; }
