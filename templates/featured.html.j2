@@ -12,10 +12,31 @@
     </p>
 
     {% set roster = featured_roster | default([]) %}
+    {% set inactive_count = roster | selectattr('anchor', 'none') | list | length %}
     {% if roster %}
-    <nav class="topicnav rosternav">
-      {% for r in roster %}{% if r.anchor %}<a href="#a-{{ r.anchor }}">{{ r.name }} <em>{{ r.count }}</em></a>{% else %}<span class="off" title="名单中，暂无命中论文">{{ r.name }}</span>{% endif %}{% endfor %}
+    <nav class="topicnav rosternav" id="roster-nav">
+      {% for r in roster %}
+        {% if r.anchor %}
+          <a href="#a-{{ r.anchor }}">{{ r.name }} <em>{{ r.count }}</em></a>
+        {% else %}
+          <span class="off roster-hidden" title="名单中，暂无命中论文">{{ r.name }}</span>
+        {% endif %}
+      {% endfor %}
+      {% if inactive_count > 0 %}
+      <button class="roster-toggle" onclick="toggleRoster(this)" data-count="{{ inactive_count }}">
+        展开全部名单 (+{{ inactive_count }})
+      </button>
+      {% endif %}
     </nav>
+    <script>
+    function toggleRoster(btn) {
+      var hidden = document.querySelectorAll('.roster-hidden');
+      var expanded = btn.dataset.expanded === '1';
+      hidden.forEach(function(el) { el.style.display = expanded ? '' : 'inline-block'; });
+      btn.dataset.expanded = expanded ? '' : '1';
+      btn.textContent = expanded ? '展开全部名单 (+' + btn.dataset.count + ')' : '收起';
+    }
+    </script>
     {% endif %}
 
     {% for grp in groups %}

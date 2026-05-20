@@ -145,6 +145,14 @@ article.card.retracted{ border-left: 4px solid #8a1c1c; background: #fcf1f1; }
 }
 footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 26px; }
 
+/* 大佬名单折叠按钮 */
+.roster-hidden { display: none; }
+.roster-toggle {
+  font-size: 12px; color: var(--accent); background: none; border: 1px solid var(--accent);
+  padding: 2px 10px; border-radius: 999px; cursor: pointer; margin: 0 0 6px 0;
+}
+.roster-toggle:hover { background: var(--accent); color: #fff; }
+
 /* 回到顶部：固定右下角，全站通用 */
 .totop {
   position: fixed; right: 18px; bottom: 18px; z-index: 50;
