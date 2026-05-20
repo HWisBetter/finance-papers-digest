@@ -13,6 +13,8 @@ from src.fetchers.cambridge import fetch_cambridge
 from src.fetchers.crossref import fetch_crossref
 from src.fetchers.nber import fetch_nber
 from src.fetchers.wiley import fetch_wiley
+# [DeepSeek-Patch: added SSRN fetcher import]
+from src.fetchers.ssrn import fetch_ssrn
 
 logger = logging.getLogger(__name__)
 
@@ -60,6 +62,9 @@ def fetch_source(cfg: dict) -> list[dict]:
         return fetch_crossref(str(cfg["issn"]), name, int(cfg.get("rows", 40)))
     if stype == "ssrn_stub":
         return _fetch_ssrn_stub(cfg)
+    # [DeepSeek-Patch: added SSRN real fetcher]
+    if stype == "ssrn":
+        return fetch_ssrn(cfg.get("watch_authors", []), cfg.get("name", "SSRN"))
 
     logger.error("源 %s 的 type=%r 未知，跳过", name, stype)
     return []
