@@ -28,11 +28,14 @@
     <div class="notice retracted">⚠ 此文已被期刊撤稿（RETRACTED）。结论可能不可靠，仅为完整性保留，引用须极其谨慎。</div>
   {% endif %}
 
+  {# [DeepSeek-Patch: clean card for abstract_missing papers] #}
   {% if p.abstract_missing %}
-    <div class="notice">{{ p.summary }}</div>
+    {% if p.topic %}<div class="ssrn-topic">📂 {{ p.topic }}</div>{% endif %}
+    <div class="notice ssrn-notice">📄 原文为 working paper，摘要暂未公开收录——请点击标题查看全文。</div>
   {% elif p.summary %}
     <p class="summary">{{ p.summary }}</p>
   {% endif %}
+  {# [DeepSeek-Patch end] #}
 
   {% if p.keywords %}
   <div class="keywords">

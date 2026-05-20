@@ -225,3 +225,8 @@ footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 2
 /* [DeepSeek-Patch: leaderboard author link style] */
 .lb-author-link { color: inherit; text-decoration: none; border-bottom: 1px dotted #888; }
 .lb-author-link:hover { color: #2563eb; border-bottom-color: #2563eb; }
+
+/* [DeepSeek-Patch: SSRN no-abstract card styles] */
+.ssrn-topic { font-size: 12.5px; color: #5a6677; margin: 6px 0 2px; }
+.ssrn-notice { font-size: 12.5px; color: #888; font-style: italic; background: none; border: none; padding: 2px 0; margin: 0; }
+/* [DeepSeek-Patch end] */
