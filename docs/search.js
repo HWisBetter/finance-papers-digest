@@ -36,7 +36,8 @@ async function ensureReady() {
       }
       const n = Math.sqrt(s) || 1;
       for (let i = 0; i < data.dim; i++) v[i] /= n;
-      return { t: it.t, u: it.u, s: it.s, tp: it.tp, v };
+      // [DeepSeek-Patch: include authors and abstract fields]
+      return { t: it.t, u: it.u, s: it.s, tp: it.tp, a: it.a || '', ab: it.ab || '', v };
     });
   }
   setStatus("");
@@ -45,13 +46,21 @@ async function ensureReady() {
 function setStatus(msg) { const el = $("search-status"); if (el) el.textContent = msg || ""; }
 
 // 把 e5 余弦(集中在 0.72-0.90)映射成更直观的"相关度 %"
+// [DeepSeek-Patch: adjust hi threshold to 0.95]
 function scoreToPct(cos) {
-  const lo = 0.72, hi = 0.90;
+  const lo = 0.72, hi = 0.95;
   return Math.round(Math.max(0, Math.min(1, (cos - lo) / (hi - lo))) * 100);
 }
 
 const esc = s => (s || "").replace(/[&<>"']/g,
   c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+
+// [DeepSeek-Patch: add tierBadge helper]
+function tierBadge(pct) {
+  if (pct >= 85) return '<span class="badge sim tier-high" title="高度相关">相关度 ' + pct + '%</span>';
+  if (pct >= 60) return '<span class="badge sim tier-mid" title="相关">相关度 ' + pct + '%</span>';
+  return '<span class="badge sim tier-low" title="较相关">相关度 ' + pct + '%</span>';
+}
 
 function renderResults(query, top) {
   const total = index ? index.length : 0;
@@ -59,14 +68,17 @@ function renderResults(query, top) {
     <h1 class="sec-title">🔍 搜索结果
       <span class="sec-sub">（"${esc(query)}"，按语义相关度排序）</span></h1>
     <p class="count">${top.length ? `Top ${top.length} / 全库 ${total} 篇` : "未找到相关论文"}</p>
+    // [DeepSeek-Patch: replace card template with authors/abstract]
     ${top.map(r => `
       <article class="card">
         <h2 class="title"><a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.t)}</a></h2>
         <div class="meta">
           <span class="badge src-${esc(r.s)}">${esc(r.s)}</span>
-          ${r.tp ? `<span class="badge topic-badge">${esc(r.tp)}</span>` : ""}
-          <span class="badge sim" title="语义相关度（越高越像）">相关度 ${r.pct}%</span>
+          ${r.tp ? `<span class="badge topic-badge">${esc(r.tp)}</span>` : ''}
+          ${tierBadge(r.pct)}
         </div>
+        ${r.a ? `<p class="card-authors">${esc(r.a)}</p>` : ''}
+        ${r.ab ? `<p class="card-abstract">${esc(r.ab)}...</p>` : ''}
       </article>`).join("")}`;
   $("search-results").innerHTML = html;
   $("search-results").style.display = "";

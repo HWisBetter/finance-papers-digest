@@ -92,6 +92,9 @@ def main() -> None:
             "u": p.get("url") or "",
             "s": p.get("source") or "",
             "tp": p.get("topic") or "",
+            # [DeepSeek-Patch: add authors and summary fields]
+            'a': (', '.join(p.get('authors') or []))[:120],
+            'ab': (p.get('summary') or '')[:200],
             "v": b,
         })
     _IDX_PATH.parent.mkdir(parents=True, exist_ok=True)
