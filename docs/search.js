@@ -1,16 +1,16 @@
 // 语义搜索（前端）。
 // 关键：模型必须与离线嵌入用的同一个 ONNX（Xenova/multilingual-e5-small 量化版），
-// 否则向量不可比、检索失效。这里强制 allowRemoteModels=false 用同源本地模型。
+// 否则向量不可比、检索失效。
 //
-// 本地预览需要静态服务器（ES 模块 + fetch 不能在 file:// 下用），
-// 启动：在 docs/ 目录跑 `python -m http.server 8000`，然后开 http://localhost:8000。
-// 部署到 GitHub Pages 时由 Actions 把模型注入到 docs/models/。
+// 本地预览：先把模型下载到 docs/models/，再启动静态服务器：
+//   python -m http.server 8000（在 docs/ 目录），然后开 http://localhost:8000。
+// GitHub Pages 部署：本地无模型时自动从 HuggingFace CDN 加载（首次 ~30MB，之后浏览器缓存）。
 
 import { pipeline, env } from "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2";
 
-env.allowRemoteModels = false;       // 绝不悄悄回退到 HF（国内不稳）
+env.allowRemoteModels = true;        // GitHub Pages 无本地模型时回退到 HF CDN
 env.allowLocalModels = true;
-env.localModelPath = "models/";      // -> docs/models/Xenova/multilingual-e5-small/...
+env.localModelPath = "models/";      // 本地优先：docs/models/Xenova/multilingual-e5-small/...
 
 const $ = id => document.getElementById(id);
 let pipe = null, index = null;
