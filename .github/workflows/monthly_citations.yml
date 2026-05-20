@@ -1,0 +1,47 @@
+name: Monthly Citation Refresh
+
+on:
+  schedule:
+    # 每月1日 03:00 UTC = 11:00 北京时间
+    - cron: '0 3 1 * *'
+  workflow_dispatch:   # 也可在 Actions 页手动触发
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONIOENCODING: utf-8
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Refresh citation counts
+        run: python refresh_citations.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/papers.json docs/
+          git diff --staged --quiet || git commit -m 'chore: monthly citation refresh [skip ci]'
+          git push
