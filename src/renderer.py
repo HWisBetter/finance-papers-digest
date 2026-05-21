@@ -197,16 +197,26 @@ def render(papers: list[dict], output_dir: Path | None = None) -> Path:
             "latest": latest or None,
         })
 
-    # 首页"最新收录"= first_seen 最大的那一批（最近一次刷新抓到的）
+    # 首页"最近 7 天"：以最新 first_seen 为基准往前推 6 天，按日期分组
     all_fs = [p.get("first_seen") for p in papers if p.get("first_seen")]
     latest_fs = max(all_fs) if all_fs else None
-    latest_papers = sorted(
-        [p for p in papers
-         if p.get("first_seen") == latest_fs
-         and (p.get("source") != "SSRN" or p.get("is_featured"))]
-        if latest_fs else [],
-        key=_date_key, reverse=True,
-    )
+    if latest_fs:
+        cutoff = (datetime.strptime(latest_fs, "%Y-%m-%d") - timedelta(days=6)).strftime("%Y-%m-%d")
+        _recent_eligible = [
+            p for p in papers
+            if (p.get("first_seen") or "") >= cutoff
+            and (p.get("source") != "SSRN" or p.get("is_featured"))
+        ]
+    else:
+        _recent_eligible = []
+    _by_date: dict[str, list] = defaultdict(list)
+    for p in _recent_eligible:
+        _by_date[p.get("first_seen") or "unknown"].append(p)
+    recent_days = [
+        {"date": d, "papers": sorted(ps, key=_date_key, reverse=True)}
+        for d, ps in sorted(_by_date.items(), reverse=True)
+    ]
+    recent_total = sum(len(d["papers"]) for d in recent_days)
 
     env = Environment(
         loader=FileSystemLoader(str(_TEMPLATES_DIR)),
@@ -244,8 +254,8 @@ def render(papers: list[dict], output_dir: Path | None = None) -> Path:
     # 首页
     index_html = env.get_template("index.html.j2").render(
         active="__home__",
-        latest_papers=latest_papers,
-        latest_date=latest_fs,
+        recent_days=recent_days,
+        recent_total=recent_total,
         author_index=author_index,
         **common,
     )

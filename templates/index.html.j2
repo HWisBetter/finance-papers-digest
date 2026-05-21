@@ -19,12 +19,18 @@
   {# 原首页内容包一层，便于搜索时整段隐藏；清空后恢复 #}
   <div id="home-main">
   <section class="latest">
-    <h1 class="sec-title">🔄 最新更新{% if latest_date %} <span class="sec-sub">（{{ latest_date }}）</span>{% endif %}</h1>
-    {% if latest_papers %}
-      <p class="count">最近一次更新抓到 {{ latest_papers | length }} 篇；更早的请到下方按期刊浏览。</p>
-      {% for p in latest_papers %}{{ paper_card(p) }}{% endfor %}
+    <h1 class="sec-title">🔄 最近 7 天更新 <span class="sec-sub">（共 {{ recent_total }} 篇）</span></h1>
+    {% if recent_days %}
+      {% for day in recent_days %}
+        <div class="day-header">
+          <span class="day-date">📅 {{ day.date }}</span>
+          <span class="day-count">{{ day.papers | length }} 篇</span>
+        </div>
+        {% for p in day.papers %}{{ paper_card(p) }}{% endfor %}
+        {% if not loop.last %}<hr class="day-divider">{% endif %}
+      {% endfor %}
     {% else %}
-      <div class="empty">本次更新没有新论文 🌙</div>
+      <div class="empty">最近 7 天暂无新论文 🌙</div>
     {% endif %}
   </section>
 
