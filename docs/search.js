@@ -1,131 +1,166 @@
-// 语义搜索（前端）。
-// 关键：模型必须与离线嵌入用的同一个 ONNX（Xenova/multilingual-e5-small 量化版），
-// 否则向量不可比、检索失效。
+// 搜索模块：语义搜索（桌面）+ 关键词搜索后备（iPhone / 模型加载失败时自动切换）
 //
-// 本地预览：先把模型下载到 docs/models/，再启动静态服务器：
-//   python -m http.server 8000（在 docs/ 目录），然后开 http://localhost:8000。
-// GitHub Pages 部署：本地无模型时自动从 HuggingFace CDN 加载（首次 ~30MB，之后浏览器缓存）。
+// 加载策略：
+//   keyword_index.json (~2MB)  —— 页面加载时静默预取，随时可用
+//   search-index.json + 118MB ONNX 模型 —— 点击搜索时按需加载
+//
+// iOS Safari 有 50MB 缓存上限，无法缓存 118MB 模型，自动走关键词模式。
 
 import { pipeline, env } from "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2";
 
-env.allowRemoteModels = true;        // GitHub Pages 无本地模型时回退到 HF CDN
-env.allowLocalModels = true;
-env.localModelPath = "models/";      // 本地优先：docs/models/Xenova/multilingual-e5-small/...
+env.allowRemoteModels = true;
+env.allowLocalModels  = true;
+env.localModelPath    = "models/";
 
 const $ = id => document.getElementById(id);
-let pipe = null, index = null;
+const esc = s => (s || "").replace(/[&<>"']/g,
+  c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
-// 作者分词匹配：把查询按空格拆词，每个词都出现在作者名里（子串）即命中
+const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
+
+// ── 作者跳转（原有功能，不变）──────────────────────────────────────────────
 const AUTHORS = JSON.parse(document.getElementById('author-index')?.textContent || '[]');
 function matchAuthors(q) {
   const tokens = q.toLowerCase().trim().split(/\s+/).filter(t => t.length >= 1);
   if (!tokens.length) return [];
-  return AUTHORS.filter(a => {
-    const name = a.name.toLowerCase();
-    return tokens.every(t => name.includes(t));
-  });
+  return AUTHORS.filter(a => tokens.every(t => a.name.toLowerCase().includes(t)));
 }
 
-async function ensureReady() {
+// ── 关键词索引：静默预取 ────────────────────────────────────────────────────
+let kwIndex = null;
+fetch("keyword_index.json").then(r => r.json()).then(d => { kwIndex = d; }).catch(() => {});
+
+function keywordSearch(q) {
+  if (!kwIndex) return [];
+  const tokens = q.toLowerCase().split(/\s+/).filter(t => t.length >= 1);
+  if (!tokens.length) return [];
+  const scored = kwIndex.map(p => {
+    const text = [p.t, p.ab, p.a, (p.kw || []).join(" ")].join(" ").toLowerCase();
+    const hits = tokens.filter(t => text.includes(t));
+    const titleHits = tokens.filter(t => (p.t || "").toLowerCase().includes(t));
+    return { ...p, _h: hits.length, _th: titleHits.length };
+  }).filter(x => x._h > 0);
+  scored.sort((a, b) => b._th - a._th || b._h - a._h);
+  return scored.slice(0, 30);
+}
+
+// ── 语义索引：按需加载 ──────────────────────────────────────────────────────
+let pipe = null, semIndex = null;
+
+function scoreToPct(cos) {
+  return Math.round(Math.max(0, Math.min(1, (cos - 0.72) / (0.95 - 0.72))) * 100);
+}
+function tierBadge(pct) {
+  if (pct >= 85) return `<span class="badge sim tier-high">相关度 ${pct}%</span>`;
+  if (pct >= 60) return `<span class="badge sim tier-mid">相关度 ${pct}%</span>`;
+  return `<span class="badge sim tier-low">相关度 ${pct}%</span>`;
+}
+
+async function ensureSemantic() {
   if (!pipe) {
-    setStatus("首次加载语义模型 ~118MB（之后缓存秒开）…");
-    pipe = await pipeline("feature-extraction", "Xenova/multilingual-e5-small",
-                          { quantized: true });
+    setStatus("加载语义模型 ~118MB（之后缓存秒开）…");
+    pipe = await pipeline("feature-extraction", "Xenova/multilingual-e5-small", { quantized: true });
   }
-  if (!index) {
-    setStatus("加载语料索引…");
-    const r = await fetch("search-index.json");
-    const data = await r.json();
-    // base64 int8 -> Float32 + L2 归一化（量化后再归一化更稳）
-    index = data.items.map(it => {
+  if (!semIndex) {
+    setStatus("加载语义索引…");
+    const data = await fetch("search-index.json").then(r => r.json());
+    semIndex = data.items.map(it => {
       const bin = atob(it.v);
       const v = new Float32Array(data.dim);
       let s = 0;
       for (let i = 0; i < data.dim; i++) {
-        const x = ((bin.charCodeAt(i) << 24) >> 24) / 127;  // 解 int8
+        const x = ((bin.charCodeAt(i) << 24) >> 24) / 127;
         v[i] = x; s += x * x;
       }
       const n = Math.sqrt(s) || 1;
       for (let i = 0; i < data.dim; i++) v[i] /= n;
-      // [DeepSeek-Patch: include authors and abstract fields]
-      return { t: it.t, u: it.u, s: it.s, tp: it.tp, a: it.a || '', ab: it.ab || '', v };
+      return { t: it.t, u: it.u, s: it.s, tp: it.tp, a: it.a || "", ab: it.ab || "", v };
     });
   }
   setStatus("");
 }
 
+// ── 渲染 ───────────────────────────────────────────────────────────────────
 function setStatus(msg) { const el = $("search-status"); if (el) el.textContent = msg || ""; }
 
-// 把 e5 余弦(集中在 0.72-0.90)映射成更直观的"相关度 %"
-// [DeepSeek-Patch: adjust hi threshold to 0.95]
-function scoreToPct(cos) {
-  const lo = 0.72, hi = 0.95;
-  return Math.round(Math.max(0, Math.min(1, (cos - lo) / (hi - lo))) * 100);
-}
+function renderResults(q, items, mode) {
+  const total = mode === "semantic" ? (semIndex?.length || 0) : (kwIndex?.length || 0);
+  const authorHits = matchAuthors(q);
 
-const esc = s => (s || "").replace(/[&<>"']/g,
-  c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+  const modeNote = mode === "keyword"
+    ? `<p class="count kw-note">${isIOS
+        ? "⌨️ iPhone 使用关键词模式（语义模型需 ~118MB，超出 Safari 缓存限制）"
+        : "⌨️ 关键词模式（语义模型加载失败，已自动切换）"}</p>`
+    : "";
 
-// [DeepSeek-Patch: add tierBadge helper]
-function tierBadge(pct) {
-  if (pct >= 85) return '<span class="badge sim tier-high" title="高度相关">相关度 ' + pct + '%</span>';
-  if (pct >= 60) return '<span class="badge sim tier-mid" title="相关">相关度 ' + pct + '%</span>';
-  return '<span class="badge sim tier-low" title="较相关">相关度 ' + pct + '%</span>';
-}
-
-function renderResults(query, top) {
-  const total = index ? index.length : 0;
-  const authorHits = matchAuthors(query);
   const authorSection = authorHits.length ? `
     <h2 class="sec-title" style="font-size:15px;margin:0 0 8px">👤 作者快速跳转</h2>
     <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px">
-      ${authorHits.map(a => `
-        <a href="${esc(a.href)}" class="author-chip">
-          ${esc(a.name)} <span style="opacity:.7;font-size:11px">→ 查看全部论文</span>
-        </a>`).join("")}
-    </div>` : '';
+      ${authorHits.map(a => `<a href="${esc(a.href)}" class="author-chip">
+        ${esc(a.name)} <span style="opacity:.7;font-size:11px">→ 查看全部论文</span></a>`).join("")}
+    </div>` : "";
+
+  const label = mode === "semantic" ? "按语义相关度排序" : "按关键词匹配排序";
   const html = `
     <h1 class="sec-title">🔍 搜索结果
-      <span class="sec-sub">（"${esc(query)}"，按语义相关度排序）</span></h1>
-    ${authorSection}
-    <p class="count">${top.length ? `Top ${top.length} / 全库 ${total} 篇` : "未找到相关论文"}</p>
-    ${top.map(r => `
+      <span class="sec-sub">（"${esc(q)}"，${label}）</span></h1>
+    ${modeNote}${authorSection}
+    <p class="count">${items.length ? `Top ${items.length} / 全库 ${total} 篇` : "未找到相关论文"}</p>
+    ${items.map(r => `
       <article class="card">
         <h2 class="title"><a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.t)}</a></h2>
         <div class="meta">
           <span class="badge src-${esc(r.s)}">${esc(r.s)}</span>
-          ${r.tp ? `<span class="badge topic-badge">${esc(r.tp)}</span>` : ''}
-          ${tierBadge(r.pct)}
+          ${r.tp ? `<span class="badge topic-badge">${esc(r.tp)}</span>` : ""}
+          ${mode === "semantic" ? tierBadge(r.pct) : '<span class="badge kw-badge">关键词</span>'}
         </div>
-        ${r.a ? `<p class="card-authors">${esc(r.a)}</p>` : ''}
-        ${r.ab ? `<p class="card-abstract">${esc(r.ab)}...</p>` : ''}
+        ${r.a  ? `<p class="card-authors">${esc(r.a)}</p>`   : ""}
+        ${r.ab ? `<p class="card-abstract">${esc(r.ab)}…</p>` : ""}
       </article>`).join("")}`;
+
   $("search-results").innerHTML = html;
   $("search-results").style.display = "";
   $("home-main").style.display = "none";
 }
 
+// ── 主搜索入口 ─────────────────────────────────────────────────────────────
 async function doSearch() {
   const q = ($("search-box").value || "").trim();
   if (!q) return clearResults();
   $("search-go").disabled = true;
+
   try {
-    await ensureReady();
-    setStatus("计算中…");
-    const out = await pipe("query: " + q, { pooling: "mean", normalize: true });
-    const qv = out.data;
-    const scored = new Array(index.length);
-    for (let k = 0; k < index.length; k++) {
-      const v = index[k].v; let s = 0;
-      for (let i = 0; i < qv.length; i++) s += qv[i] * v[i];
-      scored[k] = { ...index[k], cos: s, pct: scoreToPct(s) };
+    if (isIOS) {
+      // iPhone：直接关键词模式，不尝试下载模型
+      setStatus("");
+      renderResults(q, keywordSearch(q), "keyword");
+      return;
     }
-    scored.sort((a, b) => b.cos - a.cos);
-    setStatus("");
-    renderResults(q, scored.slice(0, 30));
-  } catch (e) {
-    console.error(e);
-    setStatus("搜索失败: " + (e?.message || e));
+
+    // 桌面：先即时展示关键词结果，再在后台加载语义模型升级
+    const kwResults = keywordSearch(q);
+    if (kwResults.length || matchAuthors(q).length) {
+      renderResults(q, kwResults, "keyword");
+      setStatus("正在加载语义模型，稍后升级为语义搜索结果…");
+    }
+
+    try {
+      await ensureSemantic();
+      const out = await pipe("query: " + q, { pooling: "mean", normalize: true });
+      const qv = out.data;
+      const scored = semIndex.map(r => {
+        let s = 0;
+        for (let i = 0; i < qv.length; i++) s += qv[i] * r.v[i];
+        return { ...r, cos: s, pct: scoreToPct(s) };
+      });
+      scored.sort((a, b) => b.cos - a.cos);
+      setStatus("");
+      renderResults(q, scored.slice(0, 30), "semantic");
+    } catch (e) {
+      console.warn("语义搜索失败，保留关键词结果:", e);
+      setStatus("");
+      renderResults(q, keywordSearch(q), "keyword");
+    }
   } finally {
     $("search-go").disabled = false;
   }
@@ -143,13 +178,15 @@ $("search-go").addEventListener("click", doSearch);
 $("search-box").addEventListener("keydown", e => { if (e.key === "Enter") doSearch(); });
 $("search-clear").addEventListener("click", clearResults);
 
-// [DeepSeek-Patch: auto-trigger search from URL param ?q=]
-document.addEventListener('DOMContentLoaded', () => {
-  const params = new URLSearchParams(window.location.search);
-  const q = params.get('q');
-  if (q) {
-    const box = $('search-box');
-    if (box) { box.value = q; doSearch(); }
-  }
+// iOS：更新搜索框 placeholder 和提示
+if (isIOS) {
+  const box = $("search-box");
+  if (box) box.placeholder = box.placeholder.replace("按语义检索", "关键词搜索");
+  setStatus("iPhone 使用关键词搜索模式（全库可用）");
+}
+
+// URL 参数触发搜索
+document.addEventListener("DOMContentLoaded", () => {
+  const q = new URLSearchParams(window.location.search).get("q");
+  if (q) { const box = $("search-box"); if (box) { box.value = q; doSearch(); } }
 });
-// [DeepSeek-Patch end]

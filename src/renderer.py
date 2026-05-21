@@ -316,6 +316,23 @@ def render(papers: list[dict], output_dir: Path | None = None) -> Path:
         )
         (out_dir / f"{s}.html").write_text(page, encoding="utf-8")
 
+    # 关键词索引：轻量 JSON（~2MB），供手机/语义模型加载失败时后备搜索用
+    import json as _json
+    kw_items = [
+        {
+            "t": p.get("title") or "",
+            "u": p.get("url") or "",
+            "s": p.get("source") or "",
+            "tp": p.get("topic") or "",
+            "a": ", ".join((p.get("authors") or [])[:6])[:120],
+            "ab": (p.get("summary") or "")[:200] if not p.get("abstract_missing") else "",
+            "kw": p.get("keywords") or [],
+            "d": p.get("published_date") or "",
+        }
+        for p in papers
+    ]
+    kw_path = out_dir / "keyword_index.json"
+    kw_path.write_text(_json.dumps(kw_items, ensure_ascii=False), encoding="utf-8")
     logger.info("已渲染多页站：首页 + 大佬前瞻 + %d 个学者页 + %d 个期刊页（共 %d 篇）-> %s",
                 len(leaderboard_rows), len(sources), total, index_path)
     return index_path
