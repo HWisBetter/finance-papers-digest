@@ -227,6 +227,13 @@ docs/models/
 # Claude Code 本地记忆/会话文件（含个人信息，不入库）
 .claude/
 
+# 内部架构师工作流 + 项目档案（含 Windows 用户名路径、外包工作流等私人信息）
+CLAUDE.md
+PROJECT.md
+
+# 历史测试残留
+test_outsource.py
+
 # 临时派单文件
 _aider_*.txt
 
