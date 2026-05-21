@@ -46,6 +46,7 @@ for _stream in (sys.stdout, sys.stderr):
 
 from src.dedup import hash_paper, load_seen, save_seen
 from src.enrich import enrich_missing_abstracts
+from src.fetchers.nber import backfill_nber_abstracts
 from src.highlight import annotate_all
 from src.relevance import is_finance_or_ai_relevant
 from src.renderer import render
@@ -181,6 +182,10 @@ def main() -> None:
     if revivable_work:
         logger.info("归档里 abstract_missing 待复活 %d 篇", len(revivable_work))
     enrich_missing_abstracts(new_papers + revivable_work)
+
+    # 4b. NBER RSS 二次补全：S2 没收录的 NBER 缺摘要论文，尝试从当前 RSS 取摘要。
+    #     NBER 有时先发 RSS 再补摘要，延迟可达数天；每次运行顺手重拉一次。
+    backfill_nber_abstracts(revivable_work)
 
     # 5 + 6. 盖日期章 -> 逐篇总结（单篇失败不影响其他）
     newly_added: list[dict] = []

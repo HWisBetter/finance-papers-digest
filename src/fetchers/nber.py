@@ -177,6 +177,47 @@ def fetch_nber() -> list[dict]:
     return papers
 
 
+def backfill_nber_abstracts(papers: list[dict]) -> int:
+    """用当前 RSS 补回之前抓到时摘要为空的 NBER 论文摘要。
+
+    场景：NBER 有时先发 RSS 再补摘要，我们抓到的是"空白期"版本。
+    每次运行时重新拉 RSS，如果某篇 abstract_missing=True 的论文现在有摘要了，就更新。
+    返回补回摘要的篇数。
+    """
+    missing = {
+        p["id"]: p for p in papers
+        if p.get("source") == "NBER" and p.get("abstract_missing") and p.get("id")
+    }
+    if not missing:
+        return 0
+
+    logger.info("尝试从 RSS 补回 %d 篇 NBER 缺失摘要…", len(missing))
+    try:
+        parsed = feedparser.parse(NBER_FEED_URL, agent=BROWSER_UA)
+        entries = parsed.entries or []
+    except Exception as ex:
+        logger.warning("NBER backfill：RSS 拉取失败：%r", ex)
+        return 0
+
+    updated = 0
+    for entry in entries:
+        link = entry.get("link") or entry.get("id") or ""
+        nber_id = _extract_paper_id(link)
+        if nber_id not in missing:
+            continue
+        abstract = (entry.get("summary") or "").strip()
+        if not abstract:
+            continue
+        paper = missing[nber_id]
+        paper["abstract"] = abstract
+        paper["abstract_missing"] = False
+        updated += 1
+        logger.info("补回摘要：%s", paper.get("title", nber_id)[:60])
+
+    logger.info("NBER 摘要补回完成：%d 篇", updated)
+    return updated
+
+
 if __name__ == "__main__":
     # 直接运行本文件时的快速自测：python -m src.fetchers.nber
     # 配一个会输出到控制台的 logger，方便看过程。
