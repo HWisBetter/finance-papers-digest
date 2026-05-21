@@ -85,9 +85,9 @@ def annotate(paper: dict, cfg: dict) -> dict:
     """返回 paper 的副本，加上 is_ai / is_featured / featured_matched。"""
     # 待检文本：标题 + 摘要 + 关键词 + AI 总结，全部小写
     parts = [
-        paper.get("title", ""),
-        paper.get("abstract", ""),
-        paper.get("summary", ""),
+        paper.get("title") or "",
+        paper.get("abstract") or "",
+        paper.get("summary") or "",
         " ".join(paper.get("keywords") or []),
     ]
     text = _normalize(" ".join(parts))

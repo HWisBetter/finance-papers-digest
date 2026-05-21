@@ -5,7 +5,7 @@
 {% block content %}
   <section>
     <h1 class="sec-title"><span class="badge src-{{ source }}">{{ source }}</span> 全部 {{ papers_total }} 篇</h1>
-    <p class="count">按主题分组；组内按发表日期倒序。点下方主题可直接跳转。</p>
+    <p class="count">按主题分组；组内按发表日期倒序。点下方主题可直接跳转。{% if source == "NBER" %} · NBER working paper 近期发布的需要机构订阅或个人会员方可阅读全文，我站已收录摘要供参考。{% endif %}</p>
 
     {% if groups | length > 1 %}
     <nav class="topicnav">
