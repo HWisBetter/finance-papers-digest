@@ -20,9 +20,7 @@
       {%- if p.authors | length > 6 %} <span class="more">等 {{ p.authors | length }} 位作者</span>{% endif %}
     </span>
     {% endif %}
-    {% if p.source == "SSRN" %}
-      {% if p.first_seen %}<span class="sep">·</span><span class="ssrn-date" title="SSRN 不公开精确发布日期，此为本站首次收录时间">收录于 {{ p.first_seen }}</span>{% endif %}
-    {% elif p.published_date %}
+    {% if p.source != "SSRN" and p.published_date %}
       <span class="sep">·</span><span>{{ p.published_date }}</span>
     {% endif %}
   </div>
