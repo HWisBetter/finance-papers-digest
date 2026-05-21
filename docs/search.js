@@ -83,15 +83,22 @@ async function ensureSemantic() {
 // ── 渲染 ───────────────────────────────────────────────────────────────────
 function setStatus(msg) { const el = $("search-status"); if (el) el.textContent = msg || ""; }
 
-function renderResults(q, items, mode) {
+function renderResults(q, items, mode, phase) {
+  // mode: "semantic" | "keyword"  ·  phase: "final" | "pending"
   const total = mode === "semantic" ? (semIndex?.length || 0) : (kwIndex?.length || 0);
   const authorHits = matchAuthors(q);
 
-  const modeNote = mode === "keyword"
-    ? `<p class="count kw-note">${isIOS
-        ? "⌨️ iPhone 使用关键词模式（语义模型需 ~118MB，超出 Safari 缓存限制）"
-        : "⌨️ 关键词模式（语义模型加载失败，已自动切换）"}</p>`
-    : "";
+  let noteText = "";
+  if (mode === "keyword") {
+    if (phase === "pending") {
+      noteText = "⏳ 当前为关键词匹配结果，语义模型正在后台加载（~118MB，首次访问稍慢），加载完成后自动升级";
+    } else if (isIOS) {
+      noteText = "⌨️ iPhone 使用关键词模式（语义模型 ~118MB 超出 Safari 缓存限制）";
+    } else {
+      noteText = "⌨️ 关键词模式（语义模型加载失败或网络中断，已自动切换）";
+    }
+  }
+  const modeNote = noteText ? `<p class="count kw-note">${noteText}</p>` : "";
 
   const authorSection = authorHits.length ? `
     <h2 class="sec-title" style="font-size:15px;margin:0 0 8px">👤 作者快速跳转</h2>
@@ -133,15 +140,15 @@ async function doSearch() {
     if (isIOS) {
       // iPhone：直接关键词模式，不尝试下载模型
       setStatus("");
-      renderResults(q, keywordSearch(q), "keyword");
+      renderResults(q, keywordSearch(q), "keyword", "final");
       return;
     }
 
-    // 桌面：先即时展示关键词结果，再在后台加载语义模型升级
+    // 桌面：先即时展示关键词结果（标注"加载中"），再在后台加载语义模型升级
     const kwResults = keywordSearch(q);
     if (kwResults.length || matchAuthors(q).length) {
-      renderResults(q, kwResults, "keyword");
-      setStatus("正在加载语义模型，稍后升级为语义搜索结果…");
+      renderResults(q, kwResults, "keyword", "pending");
+      setStatus("正在加载语义模型，加载完成后自动升级为语义搜索结果…");
     }
 
     try {
@@ -155,11 +162,11 @@ async function doSearch() {
       });
       scored.sort((a, b) => b.cos - a.cos);
       setStatus("");
-      renderResults(q, scored.slice(0, 30), "semantic");
+      renderResults(q, scored.slice(0, 30), "semantic", "final");
     } catch (e) {
       console.warn("语义搜索失败，保留关键词结果:", e);
       setStatus("");
-      renderResults(q, keywordSearch(q), "keyword");
+      renderResults(q, keywordSearch(q), "keyword", "final");
     }
   } finally {
     $("search-go").disabled = false;
