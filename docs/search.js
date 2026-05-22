@@ -5,12 +5,15 @@
 //   search-index.json + 118MB ONNX 模型 —— 点击搜索时按需加载
 //
 // iOS Safari 有 50MB 缓存上限，无法缓存 118MB 模型，自动走关键词模式。
+// 搜索库自托管于 docs/vendor/transformers/；模型经 ModelScope 国内镜像加载。
 
-import { pipeline, env } from "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2";
+import { pipeline, env } from "./vendor/transformers/transformers.min.js";
 
 env.allowRemoteModels = true;
 env.allowLocalModels  = true;
 env.localModelPath    = "models/";
+env.remoteHost        = "https://modelscope.cn/models/";
+env.backends.onnx.wasm.wasmPaths = "vendor/transformers/";
 
 const $ = id => document.getElementById(id);
 const esc = s => (s || "").replace(/[&<>"']/g,
@@ -59,7 +62,7 @@ function tierBadge(pct) {
 async function ensureSemantic() {
   if (!pipe) {
     setStatus("加载语义模型 ~118MB（之后缓存秒开）…");
-    pipe = await pipeline("feature-extraction", "Xenova/multilingual-e5-small", { quantized: true });
+    pipe = await pipeline("feature-extraction", "Xenova/multilingual-e5-small", { quantized: true, revision: "master" });
   }
   if (!semIndex) {
     setStatus("加载语义索引…");
