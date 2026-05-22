@@ -50,4 +50,5 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add docs/ data/papers.json data/seen.json data/embeddings.json
           git diff --staged --quiet || git commit -m 'chore: daily update [skip ci]'
+          git pull --rebase origin main
           git push
