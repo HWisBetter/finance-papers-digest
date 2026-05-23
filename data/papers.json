@@ -1,5 +1,129 @@
 [
   {
+    "id": "10.1093/rfs/hhag040",
+    "title": "Global Capital and Local Assets: House Prices, Quantities, and Elasticities*",
+    "authors": [
+      "Caitlin S Gorback",
+      "Benjamin J Keys"
+    ],
+    "abstract": "We estimate price elasticities of housing supply for U.S. cities by examining the impact of foreign purchases on housing prices and quantities. After other countries introduced foreign-buyer taxes beginning in 2011, both house prices and quantities increased more in locations with high foreign-born populations. A 1% increase in global capital inflows, instrumented with tax policy changes scaled by immigrant exposure, increased prices and quantities by 3% and 0.5%, respectively, over 2011–2018. We combine these estimates to construct new local supply elasticities. Compared to prior estimates, our elasticities are more inelastic and change cities’ relative rankings.",
+    "url": "https://doi.org/10.1093/rfs/hhag040",
+    "published_date": "2026-05-22",
+    "source": "RFS",
+    "first_seen": "2026-05-23",
+    "abstract_missing": false,
+    "summary": "本文通过分析外国购房对房价和数量的影响，估计美国城市的住房供给价格弹性。利用2011年起其他国家引入外国买家税的政策外生冲击，以外国出生人口比例作为暴露度，构建工具变量。研究发现，全球资本流入每增加1%，房价和数量分别上升3%和0.5%（2011-2018年）。基于此估计，文章构建了新的地方供给弹性，相较于先前估计更缺乏弹性，并改变了城市的相对排名。",
+    "keywords": [
+      "住房供给弹性",
+      "外国买家税",
+      "全球资本流入",
+      "工具变量",
+      "房价"
+    ],
+    "ai_comment": "该研究巧妙利用外生政策变化和移民暴露度识别因果关系，所获弹性估计更符合现实且具有政策参考价值。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104309",
+    "title": "Dirty air and green investments: The impact of pollution information on portfolio allocations",
+    "authors": [
+      "Raymond Fisman",
+      "Pulak Ghosh",
+      "Arkodipta Sarkar",
+      "Jian Zhang"
+    ],
+    "abstract": "We study whether access to local pollution information causes investors to make greener portfolio allocations, exploiting the rollout of air quality monitoring stations in India. Using a triple-differences framework on the trading records of 19 million investors, we show that retail investors’ holdings in “brown” stocks become more negatively related to local pollution after a nearby station appears. This effect is more pronounced on “alert” dates when air quality is reported to be harmful. The effect is strongest among tech-savvy investors likely “treated” by real-time pollution data, and younger investors, who may be more sensitive to environmental concerns.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104309",
+    "published_date": "2026-05-22",
+    "source": "JFE",
+    "first_seen": "2026-05-23",
+    "abstract_missing": false,
+    "summary": "本文研究当地污染信息获取对投资者绿色投资组合分配的影响。利用印度空气质量监测站逐步铺设的自然实验，基于1900万投资者的交易记录，采用三重差分法分析发现：在监测站出现后，零售投资者持有的“棕色”股票（高污染行业）与当地污染水平的负相关性增强，尤其在空气质量被报告为有害的“警报”日期更为显著。这种效应在可能被实时污染数据“处理”的技术娴熟投资者以及对环境问题更敏感的年轻投资者中最为强烈。",
+    "keywords": [
+      "空气污染",
+      "绿色投资",
+      "投资组合分配",
+      "三重差分",
+      "印度"
+    ],
+    "ai_comment": "利用大规模交易数据和自然实验，揭示了环境信息对个人投资者实际资产配置行为的因果影响，为可持续金融决策提供了微观证据。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104308",
+    "title": "Out of sight, out of mind: Divestments and the global reallocation of pollutive assets",
+    "authors": [
+      "Tobias Berg",
+      "Lin Ma",
+      "Daniel Streitz"
+    ],
+    "abstract": "We document a global reallocation of pollutive assets as a response to investor pressure: large firms facing increased investor pressure divest foreign-located pollutive assets to firms that are less in the limelight. There is no evidence of increased engagement in any other emission reduction activities. We estimate that 369 million metric tons (mt) of CO2e are reallocated via divestments in the post-Paris Agreement period. Our results indicate that investor pressure to decarbonize reshapes the global conglomerate structure of large firms.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104308",
+    "published_date": "2026-05-22",
+    "source": "JFE",
+    "first_seen": "2026-05-23",
+    "abstract_missing": false,
+    "summary": "本文研究投资者压力如何导致污染资产的全球重新分配。大型企业为应对日益增加的投资者压力，将其位于国外的污染资产剥离给不太受关注的企业，而并未显著增加其他减排活动。在《巴黎协定》签署后，通过资产剥离重新分配了约3.69亿吨二氧化碳当量。结果表明，投资者去碳化压力重塑了大型企业的全球集团结构。",
+    "keywords": [
+      "资产剥离",
+      "污染资产",
+      "投资者压力",
+      "全球重新分配",
+      "巴黎协定"
+    ],
+    "ai_comment": "本文提供了投资者压力下企业通过资产剥离而非实质性减排来应对的实证证据，揭示了全球碳泄漏的新机制。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1111/jofi.70055",
+    "title": "Investing with Purpose: Evidence from Private Foundations",
+    "authors": [
+      "Matteo Binfarè",
+      "Kyle E. Zimmerschied"
+    ],
+    "abstract": "We study the asset allocation and investment performance of U.S. private foundations that support the charitable sector. Large foundations generated positive risk‐adjusted returns before 2008, driven by early access to private equity and venture capital funds, but have underperformed since. The median foundation underperforms by more than 100 bps. Foundations with concentrated stock holdings achieve higher returns but assume more risk. Due to the constraints imposed by the 5% minimum spending rule and accommodating monetary policy, foundations increase risk‐taking and reach for yield. Over time, a conservative asset allocation decreases real wealth, reducing charitable giving.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70055",
+    "published_date": "2026-05-20",
+    "source": "JF",
+    "first_seen": "2026-05-23",
+    "abstract_missing": false,
+    "summary": "本文研究美国私人基金会的资产配置和投资表现。大型基金会在2008年前通过早期投资私募股权和风险投资基金获得了正的风险调整后收益，但此后表现不佳。中位数基金会跑输基准超过100个基点。持有集中股票头寸的基金会获得了更高收益，但承担了更大风险。受5%最低支出规则和宽松货币政策的约束，基金会增加了风险承担并追求收益。长期来看，保守的资产配置降低了实际财富，进而减少了慈善捐赠。",
+    "keywords": [
+      "私人基金会",
+      "资产配置",
+      "风险调整收益",
+      "最低支出规则",
+      "风险承担"
+    ],
+    "ai_comment": "本文利用私人基金会的数据揭示了非营利机构投资行为的独特性，并指出监管政策（如最低支出规则）对投资决策有显著影响，对于理解慈善基金会的可持续性具有重要启示。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1093/rfs/hhag020",
+    "title": "Do Mutual Funds Walk the Talk? Evidence from Fund Risk Disclosure",
+    "authors": [
+      "Jinfei Sheng",
+      "Nan Xu",
+      "Lu Zheng"
+    ],
+    "abstract": "We examine the informativeness of fund risk disclosure by combining fund returns and textual data. We develop a novel measure, INF, to capture the explanatory power of disclosed risks for fund returns. Average INF is 55% after controlling for market risk and remains 26–29% after excluding risks related to fund name or strategy. We explain variations in INF through disclosure costs and benefits: (1) Funds with less informative disclosures face SEC comment letters and reduced flow, (2) informative disclosures attract institutional flows, and (3) performance concerns may disincentivize disclosure. Overall, funds face trade-offs between transparency and maintaining their competitive advantage. (JEL G12)",
+    "url": "https://doi.org/10.1093/rfs/hhag020",
+    "published_date": "2026-05-20",
+    "source": "RFS",
+    "first_seen": "2026-05-23",
+    "abstract_missing": false,
+    "summary": "本文结合基金收益与文本数据，研究基金风险披露的信息含量。通过开发新指标INF，衡量已披露风险对基金收益的解释力。在控制市场风险后，平均INF为55%，进一步排除与基金名称或策略相关的风险后，INF仍达26-29%。发现INF的截面差异源于披露成本与收益的权衡：信息披露较差的基金更易收到SEC意见函并面临资金净流出，而信息含量高的披露能吸引机构资金流入，但业绩压力可能抑制披露意愿。总体而言，基金在透明度与维持竞争优势之间面临权衡。",
+    "keywords": [
+      "基金风险披露",
+      "文本分析",
+      "信息含量",
+      "资金流动",
+      "SEC意见函"
+    ],
+    "ai_comment": "本文创新性地利用文本分析构建INF指标，实证揭示了基金风险披露与资金流动之间的因果关系，为监管和投资者提供了新的信息质量测度。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2023.01838",
     "title": "Know Your Users via Image Analytics Before Developing Posts: Data-Driven Optimization Framework to Enhance Social Media Engagement",
     "authors": [
@@ -6490,16 +6614,22 @@
     "authors": [
       "Yaron Levi"
     ],
-    "abstract": "",
+    "abstract": "We study whether information design influences consumer behavior in a randomized field experiment with users of an online account aggregation app. Participants received a personalized index representing their net worth as a lifetime monthly cash flow. The presentation of this index varied across treatments in its framing and the salience of its display. Consumers exposed to a consumption-oriented frame and a salient comparison of the index with their past spending reduced discretionary spending. These findings show that minor variations in information presentation can significantly affect financial behavior, highlighting the power of design in promoting saving and informing policy and regulation.",
     "url": "https://doi.org/10.1017/s0022109026102749",
     "published_date": "2026-03-24",
     "source": "JFQA",
     "first_seen": "2026-03-24",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本文通过一个在线账户聚合应用的随机实地实验，研究了个人财务信息呈现方式如何影响消费者支出行为。参与者收到一个代表其净资产的终身月度现金流个性化指数，该指数在框架（如消费导向或储蓄导向）和显著性（如是否与过去支出进行突出比较）上存在差异。实验发现，当消费者暴露于消费导向框架以及指数与过去支出的显著比较时，会减少可自由支配的支出。这些结果表明，信息呈现的微小变化能显著影响金融行为，凸显了设计在促进储蓄方面的力量，并为政策和监管提供了启示。",
+    "keywords": [
+      "信息设计",
+      "消费者支出",
+      "实地实验",
+      "行为金融",
+      "储蓄行为"
+    ],
+    "ai_comment": "该研究通过实地实验设计，为信息呈现的微小变化如何影响实际消费行为提供了因果证据，对金融产品设计和监管政策具有直接启示。",
+    "topic": "行为金融",
     "kw_norm": true,
     "cited_by_count": 0
   },
@@ -6511,16 +6641,21 @@
       "Seyoung Park",
       "Ryan Wilson"
     ],
-    "abstract": "",
+    "abstract": "Using the Credit Rating Agency Reform Act of 2006, we examine the effect of the credibility of mandatory disclosure by credit rating agencies (CRAs) on market feedback. We find an increase in investment-price sensitivity for firms affected by the act, and the increase is enhanced when managers have greater incentives to glean information from prices—when firms are exposed to multiple dimensions of uncertainty, have higher growth options, face more competition, have less informed managers, or have higher accounting fraud risk. Our findings suggest that the greater credibility of CRA mandatory disclosure improves managerial learning from stock prices.",
     "url": "https://doi.org/10.1017/s0022109026102725",
     "published_date": "2026-03-24",
     "source": "JFQA",
     "first_seen": "2026-03-24",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "利用2006年信用评级机构改革法案，研究信用评级机构（CRAs）强制性披露的可信度对市场反馈的影响。发现受影响公司的投资-价格敏感性增加，且当管理者面临多种不确定性、拥有高增长期权、竞争更激烈、信息较少或会计欺诈风险较高时，这种增加更为显著。结果表明，CRA强制性披露可信度的提高改善了管理者从股价中学习的能力。",
+    "keywords": [
+      "信用评级机构",
+      "强制性披露",
+      "市场反馈",
+      "投资-价格敏感性"
+    ],
+    "ai_comment": "利用法案外生冲击识别强制性披露可信度的影响，为信息披露与公司投资决策的互动提供新证据。",
+    "topic": "公司金融",
     "kw_norm": true,
     "cited_by_count": 0
   },
