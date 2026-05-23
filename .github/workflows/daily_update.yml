@@ -10,6 +10,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       PYTHONIOENCODING: utf-8
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
