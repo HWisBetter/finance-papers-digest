@@ -1,5 +1,58 @@
 [
   {
+    "id": "10.1111/jofi.70054",
+    "title": "Hedger of Last Resort: Evidence from Brazilian FX Interventions, Local Credit, and Global Financial Cycles",
+    "authors": [
+      "Rodrigo Barbone Gonzalez",
+      "Dmitry Khametshin",
+      "José‐Luis Peydró",
+      "Andrea Polo"
+    ],
+    "abstract": "We show that FX interventions can be effective, particularly in attenuating global financial spillovers. We exploit global financial shocks and Brazilian central bank interventions in FX derivatives using three matched administrative registers: bank credit (to firms), foreign credit to banks, and employer‐employees. After the U.S. Taper Tantrum (followed by emerging markets' FX turbulence), Brazilian banks with more foreign debt cut credit supply, reducing firm‐level employment. A subsequent large policy intervention supplying derivatives against FX risks —hedger of last resort— halved the negative effects. A 2008 to 2015 panel exploiting global FX shocks and local FX interventions confirms the results and the hedging channel. However, the FX policy entails fiscal and moral hazard costs.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70054",
+    "published_date": "2026-05-23",
+    "source": "JF",
+    "first_seen": "2026-05-24",
+    "abstract_missing": false,
+    "summary": "本文利用巴西央行在外汇衍生品市场上的干预作为准自然实验，结合银行信贷（对企业）、银行外债和雇主-雇员三个行政登记数据，研究外汇干预在缓解全球金融溢出效应中的作用。研究发现，在美国缩减恐慌（Taper Tantrum）引发新兴市场汇率动荡后，外债较多的巴西银行削减了信贷供给，导致企业就业下降。随后，巴西央行实施大规模外汇衍生品干预（即“hedger of last resort”），将上述负面效应减半。基于2008-2015年面板数据，利用全球外汇冲击和本地外汇干预的变动，证实了上述结果及其套期保值渠道。然而，该外汇政策也带来了财政成本和道德风险问题。",
+    "keywords": [
+      "外汇干预",
+      "全球金融周期",
+      "衍生品干预",
+      "信贷供给",
+      "新兴市场"
+    ],
+    "ai_comment": "本文利用独特的高频行政数据和准自然实验方法，首次量化了央行作为外汇衍生品市场“最后做市商”对缓解全球金融冲击的积极作用，同时也揭示了其财政与道德风险代价，为新兴市场外汇干预的有效性提供了新证据。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "10.1111/jofi.70048",
+    "title": "Quote Competition in Corporate Bonds",
+    "authors": [
+      "Terrence Hendershott",
+      "Dan Li",
+      "Dmitry Livdan",
+      "Norman Schürhoff",
+      "Kumar Venkataraman"
+    ],
+    "abstract": "Dealer quotes in corporate bonds, though indicative, lower trading costs and increase trading volume. Dealers offering higher quality quotes attract more order flow and execute trades at favorable prices. Dealers advertise quotes to manage their inventories and attract orders from nonrelationship clients. However, quote competition is imperfect. The best quotes often fail to attract orders, and trade‐throughs are common. Nevertheless, quote competition is important as clients exploit quotes from other dealers in negotiations, forcing dealers with lower quality quotes to offer price improvements. Quoting is not a zero‐sum game, as more active bond‐level quoting leads to more bond‐level trading.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70048",
+    "published_date": "2026-05-23",
+    "source": "JF",
+    "first_seen": "2026-05-24",
+    "abstract_missing": false,
+    "summary": "本文研究公司债券市场中交易商报价的作用。尽管报价仅具有指示性，但更高的报价质量能降低交易成本并增加交易量。提供高质量报价的交易商能吸引更多订单流并以有利价格执行交易。交易商通过报价来管理存货并吸引非关系客户订单。然而，报价竞争并不完美：最优报价常无法吸引订单，且交易绕过（trade-throughs）现象普遍。尽管如此，报价竞争依然重要，因为客户会在谈判中利用其他交易商的报价，迫使报价质量较低的交易商提供价格改善。报价并非零和游戏，因为更活跃的债券级别报价会带来更多的债券级别交易。",
+    "keywords": [
+      "公司债券",
+      "报价竞争",
+      "交易成本",
+      "订单流",
+      "交易量"
+    ],
+    "ai_comment": "本文揭示了公司债券市场中报价竞争的非完美性及其对交易价格和订单的影响，强调了报价在谈判中的重要性，挑战了报价为零和博弈的传统观点。",
+    "topic": "市场微观结构"
+  },
+  {
     "id": "10.1093/rfs/hhag040",
     "title": "Global Capital and Local Assets: House Prices, Quantities, and Elasticities*",
     "authors": [
@@ -38394,6 +38447,25 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Financial and Informational Integration Through Oracle Networks",
+    "authors": [
+      "Lin William Cong",
+      "Eswar Prasad",
+      "Daniel Rabetti"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5207586",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5207586",
+    "first_seen": "2026-05-24",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
