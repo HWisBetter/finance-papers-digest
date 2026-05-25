@@ -1,5 +1,455 @@
 [
   {
+    "id": "w35253",
+    "title": "The Sisyphean Pursuit of Evidence for Poverty Traps",
+    "authors": [
+      "Dean Karlan",
+      "Amol Singh Raswan",
+      "Christopher R. Udry"
+    ],
+    "abstract": "Much of development economics, both micro and macro, posits theories and explores the empirics of poverty traps. A common theory centers around asset-threshold poverty traps in which marginal returns to capital increase sharply over a certain threshold and financial markets are incomplete. This combination leads households above this threshold to prosper while those below continuously fall back, trapped in poverty. Yet in economics, as best as we can tell, far more papers assume such thresholds than empirically demonstrate them. In a key recent exception, Balboni et al. (2022) (hereinafter “BBBGH”) argues that data from Bangladesh identifies clear evidence of such a threshold at slightly above the cost of a cow for recent recipients of a big push transfer program. We apply this analysis to data from seven other similar programs in low-income countries and find no evidence of an asset-threshold poverty trap. We then return to BBBGH and argue that their data do not support the identification of a poverty trap, with the point of disagreement being a log-transformation challenge and a potential geographic confound. In long-term representative rural panel data from Bangladesh and Ghana we find no evidence of divergence away from any particular threshold. While the threshold theory is undoubtedly true for some households, we argue that the pursuit of clear evidence of an asset-threshold poverty trap for a broad population is likely an aspirational goal rendered unachievable by the intersection of a multitude of possible mechanisms as well as heterogeneous agents.",
+    "url": "https://www.nber.org/papers/w35253",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "这篇论文探讨了资产阈值贫困陷阱的实证证据。多数发展经济学研究假设存在资产阈值贫困陷阱，即资本边际回报在某个阈值以上急剧增加，且金融市场不完善，导致阈值以上的家庭繁荣，以下的家庭陷入贫困。然而，大多数论文假设这种阈值而非实证证明。近期Balboni等人（2022，简称BBBGH）声称在孟加拉国一个大推动转移支付项目的数据中发现了阈值证据（略高于一头牛的成本）。作者将BBBGH的分析应用于其他七个低收入国家的类似项目，未发现资产阈值贫困陷阱的证据。重新审视BBBGH后，作者认为其数据不支持贫困陷阱的识别，存在对数转换问题和潜在的地理混淆。此外，来自孟加拉国和加纳的长期代表性农村面板数据也未发现任何特定阈值上的发散证据。论文总结认为，尽管阈值理论对某些家庭成立，但为广泛人口寻找资产阈值贫困陷阱的清晰证据可能是一个无法实现的目标，原因是多种机制和异质性主体的交织。",
+    "keywords": [
+      "贫困陷阱",
+      "资产阈值",
+      "发展经济学",
+      "复制研究",
+      "异质性"
+    ],
+    "ai_comment": "该论文通过大规模复制分析，挑战了贫困陷阱实证证据的可靠性，揭示了方法论和数据处理中的关键问题，对发展经济学研究方法具有警示意义。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35249",
+    "title": "The Price of Protection: Tariff Incidence and Import Collapse under the Infamous Smoot-Hawley Tariff",
+    "authors": [
+      "Kris James Mitchener",
+      "Mathieu Pedemonte"
+    ],
+    "abstract": "Using newly digitized monthly data on the quantities and prices of imports as well as product-level data on tariff rates, we estimate that in the first year after the passage of the Smoot-Hawley Tariff Act, imports facing rate increases fell swiftly and dramatically relative to imports not affected by tariffs: for a one-percentage-point increase in the tariff rate, they declined by an average of 4%. We also estimate that the incidence of Smoot-Hawley was almost entirely borne by U.S. importers. Using an open-economy model, we attribute our high measured short-run trade elasticity of greater than 4 to fixed exchange rates that the U.S. maintained with most trade partners in the first 15 months after enactment. Our model also suggests that Smoot-Hawley accounted for 27% of the decline in total US imports in the first year after enactment. Finally, we construct both partial equilibrium and general equilibrium welfare estimates of Smoot-Hawley. Both methods deliver welfare losses of about 0.2% of GDP, reflecting the high measured elasticity of substitution and low US import-GDP ratio.",
+    "url": "https://www.nber.org/papers/w35249",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "本研究利用新数字化的月度进口数量和价格数据以及产品层面的关税税率数据，估计了斯穆特-霍利关税法案通过后第一年的影响。结果显示，面临税率上升的进口相对于未受关税影响的进口迅速且大幅下降：关税税率每增加一个百分点，进口平均下降4%。研究还发现，斯穆特-霍利关税的负担几乎全部由美国进口商承担。通过开放经济模型，将测量到的高短期贸易弹性（大于4）归因于法案实施后前15个月美国与大多数贸易伙伴维持的固定汇率。模型进一步表明，斯穆特-霍利关税占法案通过后第一年美国总进口下降的27%。最后，研究构建了部分均衡和一般均衡福利估计，两种方法均得出福利损失约为GDP的0.2%，反映了高替代弹性与低进口GDP比率。",
+    "keywords": [
+      "斯穆特-霍利关税",
+      "贸易弹性",
+      "关税转嫁",
+      "福利损失",
+      "固定汇率"
+    ],
+    "ai_comment": "该论文利用新颖的月度数据精确估计了斯穆特-霍利关税的短期贸易效应，并揭示了固定汇率制度在高贸易弹性中的关键作用，为历史贸易政策后果提供了量化分析。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "w35247",
+    "title": "Scaling Point-in-Time Language Models",
+    "authors": [
+      "Bryan T. Kelly",
+      "Semyon Malamud",
+      "Johannes Schwab",
+      "Teng Andrea Xu"
+    ],
+    "abstract": "Large language models trained on unrestricted internet corpora inevitably embed information from the future, introducing lookahead bias that compromises the validity of backtests and causal inference in finance and the social sciences. Point-in-time language models—trained exclusively on text available up to each calendar date—eliminate this leakage by construction, but existing efforts typically produce models that lag substantially behind their unconstrained counterparts. We show that this performance gap can be narrowed through scale. Training decoder-only transformers with up to 4 billion parameters on 1 trillion chronologically filtered tokens from FineWeb, we construct a sequence of monthly model checkpoints spanning 2013–2024. Across a range of common-sense reasoning and language understanding benchmarks, our models approach the performance of leading open-weight models of comparable size (such as Gemma-3-4B and LLaMA-7B) trained on temporally unrestricted data, although a performance gap remains on several tasks. Finally, in a strict out-of-sample economic evaluation task, portfolios built from point-in-time embeddings achieve robust positive Sharpe ratios and perform close to full-sample counterparts that violate temporal validity, indicating that chronologically consistent language models can extract economically meaningful signals without relying on look-ahead bias. We release the complete pipeline—including dataset construction, training infrastructure, and evaluation code—to enable reproducible point-in-time language modeling and to support research applications that require strict temporal validity.",
+    "url": "https://www.nber.org/papers/w35247",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "大型语言模型在无限制互联网语料上训练时，不可避免地嵌入未来信息，引入前瞻偏误，损害金融和社会科学中回测与因果推断的有效性。点时间语言模型——仅训练截止到每个日历日期的文本——从根本上消除了这种信息泄露，但现有努力通常导致模型性能大幅落后于无约束模型。本文通过规模扩展缩小了这一差距：在FineWeb的1万亿时间顺序过滤的token上训练了高达40亿参数的仅解码器变换器，构建了覆盖2013-2024年的月度模型检查点。在一系列常识推理和语言理解基准上，我们的模型接近同等规模领先开源模型（如Gemma-3-4B和LLaMA-7B）在时间无约束数据上训练的性能，尽管在若干任务上仍有差距。最后，在严格的样本外经济评估任务中，基于点时间嵌入构建的投资组合实现了稳健的正夏普比率，且表现接近违反时间有效性的全样本对应物，表明时间一致的语言模型可以在不依赖前瞻偏误的情况下提取有经济意义的信号。我们公开了完整流程——包括数据集构建、训练基础设施和评估代码——以实现可重复的点时间语言建模，并支持需要严格时间有效性的研究应用。",
+    "keywords": [
+      "点时间语言模型",
+      "前瞻偏误",
+      "规模扩展",
+      "金融经济评估",
+      "时间有效性"
+    ],
+    "ai_comment": "通过扩大模型规模显著缩小了时间约束语言模型与无约束模型的性能差距，并在严格的金融经济评估中验证了其有效性与无偏性，为因果推断和回测提供了可靠工具。",
+    "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "w35246",
+    "title": "Complex Modern Portfolio Theory",
+    "authors": [
+      "Oliver Hellum",
+      "Theis I. Jensen",
+      "Bryan T. Kelly",
+      "Semyon Malamud"
+    ],
+    "abstract": "The literature has long wrestled with the practical usefulness of Modern Portfolio Theory (MPT), and extensive evidence shows its performance decreases rapidly with the number of assets (N ). We present several new and counterintuitive facts about MPT. Most importantly, the performance of MPT in fact increases with N once the number of assets exceeds the number of training observations (T ). This finding holds in a variety of settings: in conjunction with popular portfolio regularization methods, in a variety of asset universes, and when T is large or small.",
+    "url": "https://www.nber.org/papers/w35246",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "文献长期探讨现代投资组合理论（MPT）的实际有用性，大量证据表明其表现随资产数量N增加而迅速下降。本文提出了几个关于MPT的新且反直觉的事实，最重要的是，一旦资产数量超过训练观测数T，MPT的表现实际上会随着N增加而提升。这一发现在多种设置下成立：连同流行的投资组合正则化方法、在多种资产范围内、以及T大或小时都成立。",
+    "keywords": [
+      "现代投资组合理论",
+      "资产数量",
+      "样本外表现",
+      "正则化方法"
+    ],
+    "ai_comment": "本文挑战了传统认知，揭示了MPT在N>T时的表现反转现象，为高维投资组合优化提供了新视角。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "w35244",
+    "title": "Will The University Endowment Tax Slow Scientific Progress? Evidence from Elite Economics PhD Programs",
+    "authors": [
+      "Joshua Angrist",
+      "Marc Diederichs",
+      "Glenn Ellison"
+    ],
+    "abstract": "The 2025 university endowment tax hike and other sources of financial pressure may lead the schools that train the most prolific economics researchers to reduce graduate enrollment. Will this affect long-run research output? We use a novel sample of MIT Economics PhD program applicants to estimate the research value-added of eight elite schools. Our estimates mitigate selection bias by controlling for MIT admissions committee rankings—a remarkably strong predictor of long-run research success—and for applicant aspirations as revealed by their application portfolios. While rank controls substantially reduce estimated gaps between elite and non-elite graduates, large differences in value-added remain. Graduates of high-tax and other top-eight schools produce 60-75% more impact-adjusted publications than do comparable graduates from non-top-eight US schools. The elite-school advantage is especially pronounced for top five journal publications. Differences in research success within the elite tier, however, are relatively modest. The out-performance of elite-school PhDs does not appear to be explained by editorial connections or peer effects in elite programs.",
+    "url": "https://www.nber.org/papers/w35244",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "本文研究2025年大学捐赠税上调及其他财务压力是否会导致培养最多经济学研究人才的精英学校减少研究生招生，从而影响长期研究产出。作者利用MIT经济学博士项目申请者的独特样本，估计八所精英学校的研究价值增量。通过控制MIT招生委员会排名（该排名是长期研究成功的强预测因子）以及申请者通过申请组合反映的意愿，缓解了选择偏差。虽然加入排名控制后，精英与非精英毕业生之间的估计差距显著缩小，但价值增量仍存在较大差异。高税收及其他前八名学校的毕业生在影响调整后的出版物数量上比美国非前八名学校的可比毕业生高60-75%，尤其在前五名期刊出版物上的优势更为明显。然而，精英学校内部的研究成功差异相对较小。精英学校博士生的优异表现似乎不能用编辑关系或同伴效应来解释。",
+    "keywords": [
+      "大学捐赠税",
+      "经济学博士项目",
+      "研究产出",
+      "精英学校",
+      "价值增量"
+    ],
+    "ai_comment": "本文巧妙利用MIT招生委员会排名作为代理变量控制选择性偏差，为估计教育项目的价值增量提供了新方法；其发现对理解精英教育在科研产出中的作用及政策影响具有启示意义。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35243",
+    "title": "A Tale of Two Market Returns: The Broad Market Factor and The Idiosyncratic Financial Factor",
+    "authors": [
+      "Sung Je Byun",
+      "Johnathan Loudis",
+      "Lawrence D.W. Schmidt"
+    ],
+    "abstract": "We construct a Broad Market Factor (BMF), which is a proxy for the value-weighted equity return on all firms in the US economy (public and private). The BMF differs from the standard Value-weighted Market Factor (VMF), which reflects the value-weighted equity return on public firms. We define the difference between the VMF and the BMF to be the Idiosyncratic Financial Factor (IFF). The IFF carries no risk premium and is uncorrelated with all macroeconomic proxies for investor marginal utility we consider. CAPM betas and, consequently, discount rates are underestimated when measured with respect to the VMF compared to the BMF for most portfolios. Size factors become redundant and the size anomaly is resolved when the VMF is replaced by the BMF in standard factor models. The intertemporal risk-return relation is substantially stronger when one replaces the VMF with the BMF. The unifying explanation for these results is that the IFF adds unpriced risk to the VMF, distorting both cross-sectional and time-series estimates of exposure to priced market risk.",
+    "url": "https://www.nber.org/papers/w35243",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "本文构建了一个包含美国所有企业（公有和私有）价值加权股权收益的Broad Market Factor (BMF)，并将其与仅包含公有企业的标准Value-weighted Market Factor (VMF)的差异定义为Idiosyncratic Financial Factor (IFF)。研究发现，IFF不携带风险溢价，且与所有宏观经济代理变量不相关。使用VMF会低估大部分投资组合的CAPM beta和贴现率。在标准因子模型中用BMF替代VMF后，规模因子变得冗余，规模异象消失；跨期风险-收益关系显著增强。统一解释是IFF向VMF添加了未定价风险，扭曲了对定价市场风险暴露的横截面和时间序列估计。",
+    "keywords": [
+      "市场因子",
+      "未定价风险",
+      "CAPM beta",
+      "规模异象",
+      "跨期风险-收益关系"
+    ],
+    "ai_comment": "该论文通过构建包含私有企业的市场因子，揭示了标准市场因子中隐含的未定价风险对资产定价的扭曲，为规模异象和跨期风险收益关系的争议提供了统一解释。方法创新且结论对实证资产定价有重要启示。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "w35242",
+    "title": "Comparative Advantage and Openness under Global Fragmentation: Lessons from the Past 65 Years",
+    "authors": [
+      "Joshua Aizenman",
+      "Hiro Ito",
+      "Jamel Saadaoui"
+    ],
+    "abstract": "This paper asks why openness has been such a strong catalyst for catch-up growth in some regions or countries, while in others openness has been followed by stalled convergence, divergence, or stagnation. We conclude that “openness” in today’s geoeconomically fragmented world is much more than trade intensity or trade integration. Positioning in trade networks, trade fundamentals, human capital, institutional capacity and stability matters for the potential for trade-induced productivity gains. We explore the global heterogeneity across continents between 1960 and 2024, unbalanced panel of up to 145 economies per year and estimate a growth equation using a dynamic approach for countries and years. We build a baseline equation relating real GDP growth to lagged income and growth. We complement the traditional drivers of growth by contorting for positionings variables the world economy: a proxy for economic integration measuring the number of regional trade arrangements ratified by each economy, a commodity dependence indicator; metrics related to export networks geoeconomic vulnerability (GeoV). measure country’s export position with geopolitically distant partnerships; geoeconomic connectivity (GeoC) measuring the degree that trade relationships are across greater spectrum of geopolitics. The GeoC measures external “connectors” positioning that may counterbalance costs of geoeconomic fragmentation by securing access to greeter variety of markets and resources. Notably, the Geoeconomic linkages add an important element of “positioning,” indicating that the more “geopolitically” connected is a country, the greater are the investment-growth links. A greater diverse positioning of countries’ economies improves their capacity to transform investment into output in a more diversified setting. This also indicate a lesser dependent growth on “momentum” by countries’ economy, pointing to a greater shock-absorption capacity, confirming the benefits of diversified structure for growth from investments facing pressures from fragmentation.",
+    "url": "https://www.nber.org/papers/w35242",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "本文探讨为什么开放在某些地区或国家成为追赶增长的强大催化剂，而在其他地区却导致收敛停滞、分化或停滞。研究认为，当今地缘经济碎片化世界中的“开放”远不止贸易强度或贸易一体化，贸易网络定位、贸易基础、人力资本、制度能力和稳定性对于贸易驱动的生产率增长潜力至关重要。基于1960年至2024年跨洲的不平衡面板数据（每年最多145个经济体），采用动态方法估计增长方程，构建了将实际GDP增长与滞后收入和增长率联系起来的基准方程，并加入了经济一体化代理变量（各经济体批准的区域贸易协定数量）、商品依赖指标、出口网络地缘经济脆弱性（GeoV）以及地缘经济连通性（GeoC），后者衡量贸易关系跨地缘政治光谱的程度。研究发现，地缘经济联系增加了重要的“定位”要素：一个国家的地缘政治联系越紧密，投资与增长的关联越强；更多样化的定位提升了国家将投资转化为产出的能力，降低了对“动量”的依赖，增强了冲击吸收能力，证实了面对碎片化压力时多样化结构对投资增长的好处。",
+    "keywords": [
+      "全球碎片化",
+      "开放",
+      "比较优势",
+      "地缘经济连通性",
+      "经济增长"
+    ],
+    "ai_comment": "本文通过引入地缘经济脆弱性和连通性等定位变量，为理解开放与增长的异质性关系提供了新视角，强调了贸易网络结构在碎片化时代的关键作用。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "w35240",
+    "title": "Preference for Explainable AI",
+    "authors": [
+      "Alex Chan"
+    ],
+    "abstract": "Participants acted as loan officers deciding whether to approve real $10,000-loans issued by a private U.S. lender using an AI’s default-risk predictions. When explanations revealed that the AI penalized non-White or female borrowers, participants were more likely to override the AI’s profit-maximizing recommendation. When their bonuses depended on repayment, however, they sought predictions but avoided explanations, consistent with willful ignorance; this effect faded when explanations were framed as purely financial or demographics were hidden. A secondary experiment reveals a novel bias: participants failed to reason contingently and undervalued explanations even when these complemented private information and improved decision accuracy.",
+    "url": "https://www.nber.org/papers/w35240",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "通过实验研究贷款决策中对可解释人工智能（AI）的偏好。参与者扮演贷款官员，使用AI的违约风险预测决定是否批准美国私人贷款机构发行的1万美元贷款。当AI的解释显示其惩罚非白人或女性借款人时，参与者更可能推翻AI的利润最大化建议。然而，当参与者的奖金取决于贷款偿还时，他们寻求预测但避免解释，表现出故意无知；当解释被框定为纯粹金融或人口统计信息被隐藏时，这种效应消失。第二个实验揭示了新的认知偏差：参与者未能进行条件推理，即使解释补充了私人信息并提高了决策准确性，他们也低估了其价值。",
+    "keywords": [
+      "可解释AI",
+      "贷款决策",
+      "故意无知",
+      "歧视",
+      "条件推理"
+    ],
+    "ai_comment": "该研究通过巧妙实验揭示了AI可解释性在道德与利益间的权衡，发现了故意无知和条件推理失败两种重要偏差，为算法公平性设计提供新视角。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "w35239",
+    "title": "The Heterogeneous Bank Lending Channel of Monetary Policy",
+    "authors": [
+      "Jorge Abad",
+      "Saki Bigio",
+      "Salomon Garcia-Villegas",
+      "Joël Marbet",
+      "Galo Nuño"
+    ],
+    "abstract": "How does heterogeneity in banks' interest-rate risk exposure shape monetary policy transmission? We develop a quantitative macroeconomic model of heterogeneous banks to answer this question. We establish an irrelevance result: differences in interest-rate risk exposure between fixed- and variable-rate banking systems matter for transmission only when bank solvency concerns become relevant. Calibrating the model to the euro area, we show that idiosyncratic default risk pushes a substantial share of banks toward the solvency threshold, making heterogeneity quantitatively important. When policy rates rise, fixed-rate banks suffer net interest margin compression---funding costs increase while legacy loan income stays unchanged---eroding capital and triggering sharper deleveraging. The lending elasticity to monetary policy is one-third larger in fixed-rate economies. The effects extend to financial stability: tightening raises bank failure rates in fixed-rate systems while lowering them in variable-rate systems. The results provide a rationale for macroprudential and monetary policy coordination and for monetary policy gradualism.",
+    "url": "https://www.nber.org/papers/w35239",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "本文研究银行利率风险暴露异质性如何影响货币政策传导。作者构建了一个包含异质性银行的定量宏观模型，发现一个无关性结果：固定利率与浮动利率银行系统在利率风险暴露上的差异只有在银行偿付能力问题变得重要时才会显著影响货币政策传导。通过将模型校准至欧元区数据，结果显示特质违约风险迫使大量银行接近偿付能力阈值，从而使异质性具有定量重要性。当政策利率上升时，固定利率银行因净息差压缩（融资成本上升而存量贷款收入不变）导致资本侵蚀，引发更剧烈的去杠杆；固定利率经济体中贷款对货币政策利率的弹性比浮动利率经济体中高出约三分之一。对金融稳定而言，紧缩性货币政策会提高固定利率系统的银行失败率，但同时降低浮动利率系统的失败率。上述结果为宏观审慎政策与货币政策的协调以及货币政策应保持渐进提供了理论依据。",
+    "keywords": [
+      "利率风险暴露",
+      "货币政策传导",
+      "异质性银行",
+      "固定利率贷款",
+      "银行偿付能力"
+    ],
+    "ai_comment": "本文通过严谨的量化模型揭示了固定利率与浮动利率银行系统在货币政策传导中的不对称性，强调了银行异质性在金融稳定中的作用，为政策协调提供了新的理论支撑。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "w35237",
+    "title": "Unlocking Mortgage Lock-In: Equilibrium Effects in a Spatial Housing Ladder Model",
+    "authors": [
+      "Julia Fonseca",
+      "Lu Liu",
+      "Pierre Mabille"
+    ],
+    "abstract": "Mortgage borrowers are \"locked in\": forgoing moves to hold on to low rates. Lock-in reduces both housing supply, through households who do not sell, and demand, through households who do not buy elsewhere, evidenced by a 40% drop in U.S. existing home sales between 2022 and 2024. We show that mortgage lock-in raises net housing demand: missing downsizers stay in larger homes, particularly in expensive areas, demanding more housing and offsetting a third of the aggregate house price decline caused by higher rates. Using individual-level mortgage data, we provide causal evidence that lock-in disproportionately reduces moves down the housing ladder. We design a spatial housing ladder model with long-term mortgages, which generates a distribution of locked-in rates and a causal effect on mobility consistent with the data, and use it to study the equilibrium effects of lock-in. A temporary rate hike causes lock-in, increasing aggregate house prices by 4.4% and rents by 1.5% relative to a counterfactual without lock-in, while mortgage borrowers' mobility falls by 25%. A $10k tax credit to starter-home sellers modestly increases mobility but raises trade-up home prices. We estimate a cost of $650k per marginal move, indicating that demand-based housing policies are poorly targeted responses to lock-in in our model.",
+    "url": "https://www.nber.org/papers/w35237",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "本文研究抵押贷款锁定效应，即借款人为保持低利率而放弃搬家，导致住房供应（不卖房）和需求（不买房）减少，这体现在2022-2024年间美国成屋销售下降40%。研究发现，抵押贷款锁定提高了净住房需求：不愿换小房的家庭留在更大的住房中，尤其是在昂贵地区，这抵消了因利率上升导致的房价下跌的三分之一。利用个人层面抵押贷款数据，本文提供了因果证据表明锁定不成比例地减少了向下换房。作者设计了一个包含长期抵押贷款的空间住房阶梯模型，该模型能生成锁定利率分布并与数据一致的流动性因果效应，并用于研究锁定的均衡效应。临时加息导致锁定，与无锁定反事实相比，整体房价上涨4.4%，租金上涨1.5%，而抵押贷款借款人的流动性下降25%。对首次购房者卖家提供1万美元税收抵免能适度增加流动性，但会推高换房房价。模型估计每次边际搬家的成本为65万美元，表明在锁定情况下，基于需求的住房政策针对性不强。",
+    "keywords": [
+      "抵押贷款锁定",
+      "住房阶梯",
+      "均衡效应",
+      "流动性",
+      "家庭金融"
+    ],
+    "ai_comment": "本文创新性地将空间住房阶梯模型与长期抵押贷款相结合，量化了锁定效应的均衡影响，并揭示出需求方政策在应对锁定时的低效性，为理解当前美国住房市场低迷提供了新视角。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "w35230",
+    "title": "The (Lack of) Efficacy of Social Belonging and Growth Mindset Interventions Among College Students",
+    "authors": [
+      "Abid N. Alam",
+      "Philip Oreopoulos",
+      "Uros Petronijevic"
+    ],
+    "abstract": "Using four large-scale experiments across two major Canadian universities, we experimentally evaluate the effects of growth mindset and social belonging interventions on student outcomes. In a sample of nearly 12,000 students, we find no immediate or dynamic effects on student grades and no effect on persistence through university. We further combine survey and administrative data with machine learning methods to explore treatment effect heterogeneity, finding no evidence of meaningful variation in treatment effects across student subgroups. Despite the recent promise of these light-touch interventions, our findings indicate further research is required to identify the contexts in which their benefits generalize.",
+    "url": "https://www.nber.org/papers/w35230",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "通过两所加拿大主要大学的四项大规模实验，本研究评估了成长心态和社交归属干预对大学生成绩和坚持学业的影响。在近12,000名学生样本中，没有发现这些轻触干预对学生成绩（无论是即时还是动态）或大学坚持度有任何影响。结合调查、行政数据和机器学习方法探索处理效应异质性，也未发现任何学生子群中存在有意义的效应差异。尽管近期对这些轻触干预寄予厚望，但研究结果表明需要进一步研究以确定其效益能够推广的情境。",
+    "keywords": [
+      "成长心态",
+      "社交归属",
+      "干预",
+      "高等教育",
+      "机器学习"
+    ],
+    "ai_comment": "本研究通过大规模多实验设计，严谨地检验了流行教育干预的有效性，其无效结果对政策实践具有重要警示意义。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35228",
+    "title": "Industrial Concentration, Property Values, and Municipal Bond Spreads",
+    "authors": [
+      "Kenneth R. Ahern"
+    ],
+    "abstract": "This paper shows that the industrial composition of a city's local economy affects its municipal borrowing costs.  In a panel of 1,177 U.S. cities from 2005 to 2022, greater sectoral concentration magnifies default risk and raises bond spreads, especially for cities dominated by industries associated with low property values.  Instrumental variables exploiting national sector-employment trends and regional house-price variation support a causal interpretation. A calibrated model of city default suggests that the observed spread effect understates the gross risk created by concentration, because higher concentration can generate agglomeration benefits that reduce spreads, especially for high-property-value cities.",
+    "url": "https://www.nber.org/papers/w35228",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "论文利用2005至2022年美国1177个城市的面板数据，研究城市经济产业结构集中度对市政债券利差的影响。研究发现，行业集中度显著放大违约风险并推高债券利差，尤其对于以低房产价值行业为主导的城市。通过工具变量方法，利用全国性行业就业趋势和区域房价差异，支持了因果解释。进一步，一个校准的城市违约模型表明，观测到的利差效应实际上低估了集中度产生的总风险，因为更高的集中度可能带来集聚效益，从而降低利差，尤其是对于高房产价值城市。",
+    "keywords": [
+      "产业集中度",
+      "市政债券利差",
+      "违约风险",
+      "房产价值",
+      "集聚效益"
+    ],
+    "ai_comment": "本文创新性地将产业组织与市政债券定价结合，利用工具变量策略识别因果，并揭示集聚效益对风险溢价的抵消作用，丰富了地方公共金融领域的研究。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35227",
+    "title": "The Optimal Use of AI in Financial Regulation",
+    "authors": [
+      "Christopher Clayton",
+      "Antonio Coppola"
+    ],
+    "abstract": "We study whether AI methods applied to large-scale portfolio holdings data can improve macroprudential financial regulation. We build a graph-based deep learning model tailored to security-level data on the holdings of financial intermediaries. The architecture incorporates economic priors and learns latent representations of both assets and investors from the network structure of portfolio positions. Applied to the universe of non-bank financial intermediaries, covering nearly $40 trillion in wealth, the model substantially outperforms existing approaches in out-of-sample forecasts of intermediary trading behavior, including in crisis episodes. The model has more than ten times the explanatory power for the cross-sectional variation in asset returns during stress events compared to traditional approaches, and it outperforms existing systemic risk metrics at the institution level. Its learned representations show that the holdings network encodes rich, economically interpretable information about fire- sale vulnerability. The architecture is fully inductive, producing informative estimates even when entire asset classes or investors are withheld from training. We embed our empirical approach into a macroprudential optimal policy framework to formalize why these objects matter for policy and welfare. We show that even in an equilibrium environment subject to the Lucas critique, the predictive information from the model improves welfare by sharpening the cross-sectional targeting of policy interventions, and we demonstrate a complementarity between prediction and structural knowledge.",
+    "url": "https://www.nber.org/papers/w35227",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "本文研究AI方法应用于大规模投资组合持有数据以改善宏观审慎金融监管。作者构建了一个基于图的深度学习模型，专门针对金融中介的证券级持有数据，该模型整合经济先验，从投资组合的网络结构中学习资产和投资者的潜在表征。应用于覆盖近40万亿美元财富的非银行金融中介，模型在预测中介交易行为（包括危机时期））上显著优于现有方法。在压力事件期间，模型对资产回报横截面变化的解释力是传统方法的10倍以上，并在机构层面优于现有系统性风险指标。学习到的表征表明，持有网络编码了关于火线销售脆弱性的丰富经济可解释信息。模型是完全归纳式的，即使整个资产类别或投资者被排除在训练之外也能产生信息性估计。作者将实证方法嵌入宏观审慎最优政策框架，证明即使在面临卢卡斯批判的均衡环境中，模型的预测信息通过加强政策干预的横截面针对性改善了福利，并展示了预测与结构性知识之间的互补性。",
+    "keywords": [
+      "金融监管",
+      "图深度学习",
+      "宏观审慎",
+      "系统性风险",
+      "投资组合持有数据"
+    ],
+    "ai_comment": "本文创新性地将图深度学习与宏观审慎监管结合，利用大规模持有网络数据显著提升了危机预测和系统性风险度量能力，并嵌入政策框架论证了AI对福利的改进。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35225",
+    "title": "States as Financiers: International Lending in War and Peace",
+    "authors": [
+      "Sebastian Horn",
+      "Carmen M. Reinhart",
+      "Christoph Trebesch"
+    ],
+    "abstract": "States are major international financiers, but their role is poorly understood. We study state-driven cross-border lending over two centuries using a new database covering 1.2 million official loans and grants by 134 governments and 70 multilateral institutions since 1790. We document a dual, state-contingent structure of international credit. In normal times, private creditors dominate cross-border lending. In adverse states of the world, such as wars and financial crises, official creditors step in, at times on a massive scale. These official flows are driven by great powers, are highly subsidized, and are largely absent from canonical models in international macroeconomics.",
+    "url": "https://www.nber.org/papers/w35225",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "该论文利用1790年以来134个政府和70个多边机构约120万笔官方贷款和赠款的新数据库，研究国家驱动的跨境贷款。研究发现国际信贷呈现双重、国家依赖的结构：在和平等正常时期，私人债权人主导跨境贷款；而在战争和金融危机等不利状态下，官方债权人大规模介入，这些官方流动由大国驱动、高度补贴，且在国际宏观经济学的经典模型中基本被忽视。",
+    "keywords": [
+      "国际贷款",
+      "国家金融",
+      "官方信贷",
+      "战争与金融危机",
+      "双重结构"
+    ],
+    "ai_comment": "论文通过构建长达两个世纪的官方贷款微观数据库，首次系统揭示了国际信贷中国家融资角色的双重性，对现有国际宏观经济学模型提出了挑战。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35224",
+    "title": "Credit Supply, Firms, and Earnings Inequality",
+    "authors": [
+      "Christian Moser",
+      "Farzad Saidi",
+      "Benjamin Wirth",
+      "Stefanie Wolter"
+    ],
+    "abstract": "We study the distributional consequences of monetary policy-induced credit supply in the German labor market. Firms in relationships with banks that are more exposed to the introduction of negative interest rates in 2014 experience a relative contraction in credit supply, associated with lower average wages. Within firms, initially lower-paid workers are more likely to leave employment, while initially higher-paid workers see a relative decline in wages. Between firms, wages fall by more at initially higher-paying employers. Our results suggest that credit affects the distribution of wages and employment both within and between firms.",
+    "url": "https://www.nber.org/papers/w35224",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "本文利用德国2014年引入负利率政策的准自然实验，研究货币政策引发的信贷供给变化对劳动力市场分配的影响。研究发现，与银行关系更紧密的企业（即受银行信贷收缩影响更大的企业）经历了信贷供给的相对收缩，导致其平均工资下降。在企业内部，初始工资较低的工人更可能离职，而初始工资较高的工人则面临相对工资下降。在企业之间，初始工资较高的雇主其工资下降幅度更大。结果表明，信贷供给通过企业内部和企业间两个渠道影响工资和就业的分布。",
+    "keywords": [
+      "信贷供给",
+      "工资不平等",
+      "货币政策",
+      "劳动力市场",
+      "企业"
+    ],
+    "ai_comment": "该研究从企业内部和企业间两个维度揭示了货币政策信贷渠道对收入分配的异质性影响，为理解货币政策的分配效应提供了微观证据。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35218",
+    "title": "California Billionaires: Wealth, Taxes, and Wealth Tax Revenue Estimates",
+    "authors": [
+      "Jasper Boll",
+      "Emmanuel Saez",
+      "Gabriel Zucman"
+    ],
+    "abstract": "This paper documents the wealth of California’s billionaires and the taxes they pay. California billionaires’ wealth exceeds $2 trillion today, the equivalent of 50% of California’s GDP. It has grown 144% from 2023 to 2025, fueled by the AI boom. Over the longer run, the real wealth of California’s billionaire class—the 0.0002% richest households—has been multiplied by 30 from 1982 to 2025, while average real family income in California has about doubled. California billionaires pay about 0.2% of their wealth in California income tax ($3.2 billion/year), representing 2.4% of total California income tax revenue on average over 2023-2025. Using Securities and Exchange Commission data from Alphabet, Meta, Oracle, and Nvidia since 2004, we estimate the trajectory of wealth, income, and taxes paid by the top 4 California billionaires—Page, Brin, Zuckerberg, Ellison (through 2020), and Huang (since 2021)—focusing on their business wealth. This group alone holds nearly $1 trillion in business wealth, almost half of total California billionaire wealth. For this group, wealth growth (+322% over 2023-2025) and low taxation (0.04% of wealth in annual California income tax) are more pronounced. The proposed one-off California billionaire tax of 5%, payable over 5 years, is both small relative to California billionaires’ wealth gains and large relative to the taxes they currently pay. We estimate that it could raise about $100 billion, with comparatively minor impacts on income tax revenue. Using empirical estimates of mobility responses to wealth taxation, we find that an annual wealth tax on California billionaires could raise substantial additional revenue even after accounting for income tax losses due to mobility.",
+    "url": "https://www.nber.org/papers/w35218",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "本文记录了加州亿万富翁的财富及其缴纳的税款。加州亿万富翁的财富目前超过2万亿美元，相当于加州GDP的50%，并在AI热潮推动下从2023年到2025年增长了144%。长期来看，从1982年到2025年，加州亿万富翁阶层（最富有的0.0002%家庭）的实际财富增长了30倍，而加州平均实际家庭收入大约翻了一番。加州亿万富翁每年缴纳的加州所得税约占其财富的0.2%（32亿美元），平均占2023-2025年加州所得税总收入的2.4%。利用美国证券交易委员会自2004年以来Alphabet、Meta、Oracle和Nvidia的数据，本文估计了前四大加州亿万富翁——Page、Brin、Zuckerberg、Ellison（截至2020年）和Huang（自2021年起）——的财富、收入和纳税轨迹，重点关注他们的商业财富。仅这一群体就持有近1万亿美元的商业财富，几乎占加州亿万富翁总财富的一半。对于这一群体，财富增长（2023-2025年+322%）和低税率（每年加州所得税占财富的0.04%）更为显著。拟议的一次性加州亿万富翁税率为5%，分5年缴纳，相对于加州亿万富翁的财富增长而言较小，而相对于他们当前缴纳的税款则较大。本文估计该税可筹集约1000亿美元，对所得税收入的影响相对较小。利用流动性对财富税反应的实证估计，本文发现，即使在考虑流动性导致的所得税损失后，对加州亿万富翁征收年度财富税仍可筹集大量额外收入。",
+    "keywords": [
+      "亿万富翁",
+      "财富税",
+      "加州",
+      "税收收入",
+      "流动性"
+    ],
+    "ai_comment": "本文利用详实的数据揭示了超级富豪财富激增与税收贡献极低之间的矛盾，为财富税政策提供了有力的实证依据。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35209",
+    "title": "State Dependence of Monetary Policy During Global Supply Chain Disruptions",
+    "authors": [
+      "Xiwen Bai",
+      "Jesús Fernández-Villaverde",
+      "Yiliang Li",
+      "Francesco Zanetti"
+    ],
+    "abstract": "We study how global supply chain disruptions affect monetary policy transmission. Post-pandemic evidence indicates surging transportation costs, goods-market imbalances, and rising prices. We develop a model in which logistical bottlenecks (upstream slack coexisting with downstream shortages) steepen the aggregate supply curve. This convexity amplifies price responses to monetary policy while dampening output effects. Threshold VAR and Local Projection estimates are consistent with this mechanism: during disruptions, contractionary policy reduces prices more at smaller output cost, easing the stabilization trade-off.",
+    "url": "https://www.nber.org/papers/w35209",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "本文研究全球供应链中断如何影响货币政策的传导机制。基于后疫情时代的证据，运输成本飙升、商品市场失衡和价格上涨并存。作者构建了一个模型，其中物流瓶颈（上游闲置与下游短缺并存）使总供给曲线变得陡峭。这种凸性放大了货币政策对价格的反应，同时削弱了对产出的影响。门槛向量自回归（Threshold VAR）和局部投影（Local Projections）的估计结果与这一机制一致：在供应链中断期间，紧缩性货币政策在牺牲较小产出的情况下更有效地降低价格，从而缓解了稳定权衡。",
+    "keywords": [
+      "货币政策传导",
+      "全球供应链中断",
+      "总供给曲线",
+      "门槛VAR",
+      "局部投影估计"
+    ],
+    "ai_comment": "本文通过理论与实证相结合，揭示了供应链中断下货币政策传导的非线性特征，为理解后疫情时代通胀与产出权衡提供了新视角。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35164",
+    "title": "How Should Central Banks Respond to Commodity Price Shocks? Optimal Monetary and Exchange Rate Frameworks for Commodity-Exposed Economies",
+    "authors": [
+      "Thomas Drechsel",
+      "Michael McLeay",
+      "Silvana Tenreyro",
+      "Enrico D. Turri"
+    ],
+    "abstract": "We show that the optimal monetary policy and exchange rate framework depend critically on the economy’s commodity exposure. We develop a flexible but tractable model economy with commodity exports and imports, in which international financial conditions may vary with the commodity cycle, and we compute the welfare-optimal policy in the presence of price and wage rigidities. Stabilizing domestic prices is welfare-optimal for commodity exporters, in line with standard open-economy policy prescriptions. But for economies that use commodities as inputs in production, optimal policy largely ‘looks through’ the direct and indirect effects of commodity shocks on domestic prices; this contrasts with some earlier findings and policy practice (which only ‘looks through’ the direct effect). Exchange-rate pegs increase welfare for commodity importers because they stabilize wages and employment, though it is not a robustly optimal policy. In emerging and developing economies, where financial conditions are more tied to the commodity cycle, trade-offs are starker and implementing the optimal policy may be challenging, since it requires enough credibility to keep inflation expectations anchored amidst greater volatility in some nominal variables.",
+    "url": "https://www.nber.org/papers/w35164",
+    "published_date": "2026-05-25",
+    "source": "NBER",
+    "first_seen": "2026-05-25",
+    "abstract_missing": false,
+    "summary": "本文研究了中央银行如何最优应对大宗商品价格冲击，并论证最优货币政策和汇率框架取决于经济体对大宗商品的暴露程度。作者构建了一个包含大宗商品进出口的灵活可解模型，其中国际金融条件可能随大宗商品周期变化，并在存在价格和工资刚性的条件下计算福利最优政策。主要发现：对于大宗商品出口国，稳定国内价格是福利最优的，这与标准开放经济政策建议一致；但对于将大宗商品作为生产投入的经济体，最优政策在很大程度上“看穿”大宗商品冲击对国内价格的直接和间接影响，这与仅“看穿”直接影响的早期发现和政策实践不同。汇率盯住制能够通过稳定工资和就业提高大宗商品进口国的福利，但并非稳健的最优政策。在新兴和发展中经济体中，由于金融条件与大宗商品周期联系更紧密，政策权衡更为突出，实施最优政策可能面临挑战，因为需要足够的可信度以在名义变量波动加剧时保持通胀预期锚定。",
+    "keywords": [
+      "大宗商品价格冲击",
+      "最优货币政策",
+      "汇率制度",
+      "福利分析",
+      "新兴经济体"
+    ],
+    "ai_comment": "本文创新地区分了大宗商品出口国与进口国的最优政策差异，并强调政策应“看穿”间接效应，为新兴经济体的政策制定提供了重要启示。",
+    "topic": "宏观金融"
+  },
+  {
     "id": "10.1111/jofi.70054",
     "title": "Hedger of Last Resort: Evidence from Brazilian FX Interventions, Local Credit, and Global Financial Cycles",
     "authors": [

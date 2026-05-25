@@ -12,7 +12,7 @@
   <header class="site" id="top">
     <div class="wrap">
       <a class="brand" href="index.html">📚 金融论文摘要</a>
-      <span class="updated">上次更新：2026-05-24 13:55 (北京时间 UTC+8)</span>
+      <span class="updated">上次更新：2026-05-25 14:22 (北京时间 UTC+8)</span>
     </div>
   </header>
 
@@ -32,7 +32,7 @@
       
       <a href="JAR.html">JAR <em>178</em></a>
       
-      <a href="NBER.html">NBER <em>522</em></a>
+      <a href="NBER.html">NBER <em>540</em></a>
       
       <a href="MS.html">MS <em>634</em></a>
       
@@ -42,12 +42,12 @@
   <main class="wrap">
     
   <section>
-    <h1 class="sec-title">Bryan Kelly <span class="sec-sub">（27 篇）</span></h1>
+    <h1 class="sec-title">Bryan Kelly <span class="sec-sub">（29 篇）</span></h1>
     <p class="count">该学者在本语料库中的全部收录论文，按来源分组、组内按发表日期倒序。</p>
 
     
     <nav class="topicnav">
-      <a href="#s-1"><span class="badge src-JF">JF</span> <em>7</em></a><a href="#s-2"><span class="badge src-RFS">RFS</span> <em>2</em></a><a href="#s-3"><span class="badge src-NBER">NBER</span> <em>4</em></a><a href="#s-4"><span class="badge src-SSRN">SSRN</span> <em>14</em></a>
+      <a href="#s-1"><span class="badge src-JF">JF</span> <em>7</em></a><a href="#s-2"><span class="badge src-RFS">RFS</span> <em>2</em></a><a href="#s-3"><span class="badge src-NBER">NBER</span> <em>6</em></a><a href="#s-4"><span class="badge src-SSRN">SSRN</span> <em>14</em></a>
     </nav>
     
 
@@ -408,9 +408,85 @@
     
     <h2 class="topic" id="s-3">
       <span class="badge src-NBER">NBER</span>
-      <span class="sec-sub">（4）</span>
+      <span class="sec-sub">（6）</span>
     </h2>
     
+<article class="card featured">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35246" target="_blank" rel="noopener">Complex Modern Portfolio Theory</a>
+  </h2>
+
+  <div class="meta">
+    
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    
+    
+    <span class="authors">Oliver Hellum, Theis I. Jensen, <b class="fa" title="关注学者">Bryan T. Kelly</b>, Semyon Malamud
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-05-25</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">文献长期探讨现代投资组合理论（MPT）的实际有用性，大量证据表明其表现随资产数量N增加而迅速下降。本文提出了几个关于MPT的新且反直觉的事实，最重要的是，一旦资产数量超过训练观测数T，MPT的表现实际上会随着N增加而提升。这一发现在多种设置下成立：连同流行的投资组合正则化方法、在多种资产范围内、以及T大或小时都成立。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">现代投资组合理论</span><span class="tag">资产数量</span><span class="tag">样本外表现</span><span class="tag">正则化方法</span>
+  </div>
+  
+
+  <div class="comment">💡 本文挑战了传统认知，揭示了MPT在N&gt;T时的表现反转现象，为高维投资组合优化提供了新视角。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35246" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card featured">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35247" target="_blank" rel="noopener">Scaling Point-in-Time Language Models</a>
+  </h2>
+
+  <div class="meta">
+    
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors"><b class="fa" title="关注学者">Bryan T. Kelly</b>, Semyon Malamud, Johannes Schwab, Teng Andrea Xu
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-05-25</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">大型语言模型在无限制互联网语料上训练时，不可避免地嵌入未来信息，引入前瞻偏误，损害金融和社会科学中回测与因果推断的有效性。点时间语言模型——仅训练截止到每个日历日期的文本——从根本上消除了这种信息泄露，但现有努力通常导致模型性能大幅落后于无约束模型。本文通过规模扩展缩小了这一差距：在FineWeb的1万亿时间顺序过滤的token上训练了高达40亿参数的仅解码器变换器，构建了覆盖2013-2024年的月度模型检查点。在一系列常识推理和语言理解基准上，我们的模型接近同等规模领先开源模型（如Gemma-3-4B和LLaMA-7B）在时间无约束数据上训练的性能，尽管在若干任务上仍有差距。最后，在严格的样本外经济评估任务中，基于点时间嵌入构建的投资组合实现了稳健的正夏普比率，且表现接近违反时间有效性的全样本对应物，表明时间一致的语言模型可以在不依赖前瞻偏误的情况下提取有经济意义的信号。我们公开了完整流程——包括数据集构建、训练基础设施和评估代码——以实现可重复的点时间语言建模，并支持需要严格时间有效性的研究应用。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">点时间语言模型</span><span class="tag">前瞻偏误</span><span class="tag">规模扩展</span><span class="tag">金融经济评估</span><span class="tag">时间有效性</span>
+  </div>
+  
+
+  <div class="comment">💡 通过扩大模型规模显著缩小了时间约束语言模型与无约束模型的性能差距，并在严格的金融经济评估中验证了其有效性与无偏性，为因果推断和回测提供了可靠工具。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35247" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
 <article class="card featured">
   <h2 class="title">
     <a href="https://www.nber.org/papers/w33351" target="_blank" rel="noopener">Artificial Intelligence Asset Pricing Models</a>
