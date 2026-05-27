@@ -1177,6 +1177,30 @@
     "cited_by_count": 0
   },
   {
+    "id": "10.1093/rfs/hhag024",
+    "title": "Collective Moral Hazard, Risk Sharing, and Banking Unions",
+    "authors": [
+      "Anatoli Segura",
+      "Sergio Vicente"
+    ],
+    "abstract": "We analyze optimal cross-country risk sharing and bank capital requirements amid collective moral hazard by governments and banks. Transfers provide insurance but weaken fiscal discipline. Since lenient fiscal policies amplify banks’ risk-shifting, optimal support must be contingent on banking system health. For fiscally weak countries, support is larger in sovereign crises with solvent banks. For fiscally strong countries, support is larger in joint sovereign and bank crises, requiring deposit insurance mutualization. Optimal contracts feature lower capital requirements than without cross-country transfers, raising the cost of joint sovereign and bank crises to strengthen fiscal discipline and enable greater risk sharing.",
+    "url": "https://doi.org/10.1093/rfs/hhag024",
+    "published_date": "2026-05-13",
+    "source": "RFS",
+    "first_seen": "2026-05-27",
+    "abstract_missing": false,
+    "summary": "本文分析了政府和银行存在集体道德风险时，跨国风险分担与银行资本要求的最优设计。转移支付能够提供保险，但会削弱财政纪律；宽松的财政政策会放大银行的风险转移行为，因此最优支持必须取决于银行体系的健康状况。对于财政薄弱的国家，在主权危机中且银行有偿付能力时，支持力度更大；对于财政强劲的国家，在主权和银行联合危机中，支持力度更大，这需要存款保险的相互化。最优合同的特征是比没有跨国转移时更低的资本要求，通过提高联合主权银行危机的成本来强化财政纪律，从而实现更大的风险分担。",
+    "keywords": [
+      "集体道德风险",
+      "风险分担",
+      "银行业联盟",
+      "资本要求",
+      "财政纪律"
+    ],
+    "ai_comment": "本文创新性地将集体道德风险纳入跨国风险分担模型，揭示了转移支付与资本要求之间的权衡，强调了财政纪律在实现有效风险分担中的关键作用，为银行业联盟设计提供了理论依据。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1017/s0022109026102956",
     "title": "When Is the Price of Analysts’ Disagreement Risk Positive?",
     "authors": [
@@ -2655,6 +2679,31 @@
     "topic": "公司金融",
     "kw_norm": true,
     "cited_by_count": 22
+  },
+  {
+    "id": "10.1093/rfs/hhag046",
+    "title": "The Cost of Regulatory Compliance in the United States",
+    "authors": [
+      "Francesco Trebbi",
+      "Miao Ben Zhang",
+      "Michael Simkovic"
+    ],
+    "abstract": "A key question for studying business dynamism is whether the costs of regulatory compliance fall homogeneously on small and large businesses. Using comprehensive establishment-level occupational microdata and occupation task information, we quantify a firm’s compliance costs as the share of wage bill for performing regulatory compliance tasks (RegIndex). We reveal an inverted-U relationship between firms’ RegIndex and their size: On average, RegIndex for mid-sized firms with around 500 employees is about 47% greater than that of the smallest firms and 18% greater than that of the largest firms. We further develop a shift-share methodology to disentangle the influence of regulatory requirements and enforcement on driving firms’ compliance costs.",
+    "url": "https://doi.org/10.1093/rfs/hhag046",
+    "published_date": "2026-04-29",
+    "source": "RFS",
+    "first_seen": "2026-05-27",
+    "abstract_missing": false,
+    "summary": "本文研究美国监管合规成本是否均匀地落在小企业和大企业上。利用全面的企业层面职业微观数据和职业任务信息，量化企业合规成本为工资单中用于执行监管合规任务的比例（RegIndex）。研究发现，企业的RegIndex与其规模呈倒U型关系：平均而言，拥有约500名员工的中型企业的RegIndex比最小企业高约47%，比最大企业高约18%。此外，本文进一步开发了一种shift-share方法，以区分监管要求和监管执行对合规成本的影响。",
+    "keywords": [
+      "监管合规成本",
+      "企业规模",
+      "倒U型关系",
+      "RegIndex",
+      "shift-share方法"
+    ],
+    "ai_comment": "本文通过精细的微观数据和创新的度量方法，揭示了监管合规成本与企业规模的非线性关系，为理解监管负担的分配效应提供了重要经验证据。",
+    "topic": "公司金融"
   },
   {
     "id": "10.1017/s0022109026102889",
