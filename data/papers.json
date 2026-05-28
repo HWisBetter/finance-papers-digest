@@ -1,5 +1,105 @@
 [
   {
+    "id": "10.1287/mnsc.2024.08264",
+    "title": "The Age Gap in Mortgage Access",
+    "authors": [
+      "Natee Amornsiripanitch"
+    ],
+    "abstract": "This paper uses a large data set of single family home mortgage applications to study the relationship between borrower age and application outcomes. Conditional on a rich set of observable characteristics, age is positively correlated with rejection probability and coupon rate. The results hold for young borrowers, implying that age, not just old age, is an important determinant of mortgage application outcomes. Empirical tests that exploit COVID-19 suggest that the rejection probability results are partly driven by age-related mortality risk. Survey data suggests that the pricing results are partly driven by insufficient shopping. This paper was accepted by Tomasz Piskorski, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08264 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08264",
+    "published_date": "2026-05-27",
+    "source": "MS",
+    "first_seen": "2026-05-28",
+    "abstract_missing": false,
+    "summary": "本文利用大型单户住宅抵押贷款申请数据集，研究借款人年龄与申请结果之间的关系。在控制一组丰富的可观测特征后，年龄与拒绝概率和票面利率呈正相关，这一结果对年轻借款人也成立，表明年龄（而不仅仅是老年）是抵押贷款申请结果的重要决定因素。利用COVID-19进行的实证检验表明，拒绝概率的结果部分由与年龄相关的死亡风险驱动。调查数据表明，定价结果部分由购物不足驱动。",
+    "keywords": [
+      "抵押贷款",
+      "年龄",
+      "拒绝概率",
+      "票面利率",
+      "COVID-19"
+    ],
+    "ai_comment": "本文揭示了年龄（包括年轻年龄）对抵押贷款获取成本的系统性影响，并创新性地通过COVID-19外生冲击和调查数据验证了死亡风险和购物不足两种机制，为理解信贷市场年龄歧视提供了新证据。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1287/mnsc.2024.06121",
+    "title": "Cheap Stock Options: Antecedents and Outcomes",
+    "authors": [
+      "Brad A. Badertscher",
+      "Bjørn N. Jørgensen",
+      "Sharon P. Katz",
+      "Jeremy Michels"
+    ],
+    "abstract": "We examine the prevalence, determinants, and consequences of cheap stock. Practitioners have adopted the label “cheap stock” to refer to equity-based compensation granted before a firm’s IPO that uses a share price below the IPO price. Cheap stock grants have drawn regulators’ attention with the Securities and Exchange Commission frequently commenting on issues related to cheap stock when reviewing firms’ IPO registration statements. We find that the average firm’s IPO price is more than five times the exercise price of options issued in the fiscal year before the IPO. This divergence between the IPO price and the exercise price of recently granted options is greater for firms that grant more options, have larger public offerings, and have venture capital backing. Finally, cheap stock options are associated with higher CEO compensation, lower post-IPO investment, lower post-IPO stock returns, and greater IPO underpricing. Collectively, our results illustrate the extent of cheap stock option grants and how these grants influence firms’ post-IPO behavior. This paper was accepted by Suraj Srinivasan, accounting. Funding: We thank Deloitte, the Mendoza College of Business, the Danish Finance Institute (DFI), and the Wharton-INSEAD Centre for Global Research and Education for financial support. Supplemental Material: The data files are available at https://doi.org/10.1287/mnsc.2024.06121 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.06121",
+    "published_date": "2026-05-27",
+    "source": "MS",
+    "first_seen": "2026-05-28",
+    "abstract_missing": false,
+    "summary": "本文研究了“低价股票期权”（指公司在IPO前以低于IPO价格的行使价授予的股权激励）的普遍性、决定因素和后果。基于样本发现，平均而言，公司IPO价格是IPO前一年内授予期权行使价的五倍以上。IPO价格与行权价之间的差距在授予更多期权、进行更大规模公开发行以及有风险投资支持的公司中更为显著。此外，低价股票期权与更高的CEO薪酬、更低的IPO后投资、更低的IPO后股票收益以及更大的IPO抑价相关联。这些结果揭示了低价股票期权的普遍程度及其对公司IPO后行为的影响。",
+    "keywords": [
+      "低价股票期权",
+      "IPO",
+      "股权激励",
+      "CEO薪酬",
+      "抑价"
+    ],
+    "ai_comment": "本文首次系统性地探讨了IPO前低价股票期权现象，揭示了其在公司治理和IPO定价中的重要作用，为监管机构提供了实证依据。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104306",
+    "title": "Intellectual property protection lost and competition: An examination using large language models",
+    "authors": [
+      "Utku U. Acikalin",
+      "Tolga Caskurlu",
+      "Gerard Hoberg",
+      "Gordon M. Phillips"
+    ],
+    "abstract": "We examine the impact of lost intellectual property protection on innovation, competition, firm performance, and valuation. We consider firms whose ability to protect intellectual property (IP) using patents is weakened following a major Supreme Court decision. We use large language models (LLM) to identify firms’ patent portfolios’ exposure to this decision and find an unequal impact. Large firms gain and small firms lose. Large impacted firms benefit as their sales growth increases and their exposure to lawsuits decreases. Small impacted firms lose as they face increased competition, product-market encroachment, and lower profits and valuations. They increase R&D and nondisclosure agreements.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104306",
+    "published_date": "2026-05-27",
+    "source": "JFE",
+    "first_seen": "2026-05-28",
+    "abstract_missing": false,
+    "summary": "本文研究知识产权保护丧失对创新、竞争、公司绩效和估值的影响。以美国最高法院一项大幅削弱企业利用专利保护知识产权能力的判例为背景，利用大型语言模型（LLM）识别企业专利组合受该判例影响的程度。研究发现影响不对称：大企业获益，小企业受损。受冲击的大企业销售增长加快、诉讼风险降低；受冲击的小企业面临加剧的竞争、产品市场侵占、利润和估值下降，同时增加研发投入和非公开协议。",
+    "keywords": [
+      "知识产权保护",
+      "专利冲击",
+      "竞争",
+      "大型语言模型（LLM）",
+      "公司创新"
+    ],
+    "ai_comment": "创新性地使用LLM度量专利组合受法律判决的暴露程度，揭示出知识产权保护变化对不同规模企业的非对称影响，为理解制度冲击的异质性效应提供了新视角。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104293",
+    "title": "Government debt management and inflation with real and nominal bonds",
+    "authors": [
+      "Lukas Schmid",
+      "Vytautas Valaitis",
+      "Alessandro T. Villa"
+    ],
+    "abstract": "Can governments use real bonds such as Treasury Inflation-Protected Securities (TIPS) to tame inflation? We propose a novel framework of optimal debt management with sticky prices and a government issuing nominal and real state-uncontingent bonds. A government debt portfolio with both nominal and real bonds helps completing markets unless the monetary policy stance renders them perfect substitutes. Under Full Commitment, the government borrows with nominal debt and accumulates real assets, to be able to use inflation to smooth taxes. With No Commitment, the government portfolio favors real bonds to strategically prevent future governments from monetizing debt ex-post. Quantitatively, our model with No Commitment is consistent with the small and persistent TIPS share in U.S. data. A higher TIPS share mitigates the commitment friction, and effectively curbs inflation.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104293",
+    "published_date": "2026-05-27",
+    "source": "JFE",
+    "first_seen": "2026-05-28",
+    "abstract_missing": false,
+    "summary": "本文研究政府能否通过发行真实债券（如TIPS）来抑制通胀。作者构建了一个包含粘性价格、政府发行名义与真实无意外债券的最优债务管理框架。研究发现，当政府具有完全承诺能力时，会借入名义债务并积累真实资产，以便利用通胀来平滑税收；而当政府缺乏承诺时，其债务组合更倾向于真实债券，以战略性防止未来政府事后对债务进行货币化。定量分析表明，无承诺模型与现实中美国TIPS份额较小且持久的特征一致。提高TIPS份额能够缓解承诺摩擦，有效抑制通胀。",
+    "keywords": [
+      "政府债务管理",
+      "通胀",
+      "真实债券",
+      "名义债券",
+      "承诺"
+    ],
+    "ai_comment": "本文从最优债务管理视角揭示了TIPS在抑制通胀中的战略作用，特别强调了承诺摩擦对政府债务选择的影响，为理解现实中的TIPS份额提供了理论支持。",
+    "topic": "宏观金融"
+  },
+  {
     "id": "w35253",
     "title": "The Sisyphean Pursuit of Evidence for Poverty Traps",
     "authors": [
