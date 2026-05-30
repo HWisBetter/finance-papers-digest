@@ -1,5 +1,53 @@
 [
   {
+    "id": "10.1287/mnsc.2024.08288",
+    "title": "Investor Reliance on ESG Ratings and Stock Price Performance",
+    "authors": [
+      "Aleksandra Rzeźnik",
+      "Kathleen Weiss Hanley",
+      "Loriana Pelizzon"
+    ],
+    "abstract": "We exploit a quasi-natural experiment, the change in Sustainalytics’ environmental, social, and governance (ESG) rating methodology, which reassesses risk and inverts the rating scale, to examine how reliance on ESG ratings impacts stock returns. The change in the ESG rating influences stocks’ returns, but this is due to retail investors’ misinterpretation about the change in the ratings scale. Sophisticated investors, such as 13F institutions and short sellers, take advantage of individual investors’ blind trust in ratings by taking the opposite side of their trades. Our results highlight the potential for blind reliance on ESG ratings that can generate mispricing and inefficiencies, especially among less informed market participants. This paper was accepted by Camelia Kuhnen, finance. Funding: This work was supported by Growing Resilient, INclusive and Sustainable (GRINS) [GRINS PE00000018 - CUP H73C22000930001]; European Commission as part of ESG UPTAKE project [101145727]; and Progetti di ricerca di Rilevante Interesse Nazionale (PRIN) as part of the National Recovery and Resilience Plan (PNRR) [CUP H53D23002190006 and CUP H53D23008390001]. L. Pelizzon thanks the Leibniz Institute for Financial Research SAFE and the European Investment Bank Institute for EIBURS Project “ESG-Credit.eu-ESG Factors and Climate Change for Credit Analysis and Rating” for financially sponsoring this research. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08288 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08288",
+    "published_date": "2026-05-29",
+    "source": "MS",
+    "first_seen": "2026-05-30",
+    "abstract_missing": false,
+    "summary": "本文利用Sustainalytics环境、社会和治理（ESG）评级方法变更这一准自然实验，该变更重新评估风险并反转评级标尺，研究了投资者对ESG评级的依赖如何影响股票回报。研究发现，ESG评级变化会影响股票回报，但这主要是由于散户投资者对评级标尺变化的误解所致。成熟的投资者（如13F机构和卖空者）利用散户对评级的盲目信任，进行反向交易。结果突出了盲目依赖ESG评级可能导致错误定价和低效率，尤其是在信息较少的市场参与者中。",
+    "keywords": [
+      "ESG评级",
+      "投资者行为",
+      "市场效率",
+      "散户投资者",
+      "错误定价"
+    ],
+    "ai_comment": "本文通过准自然实验揭示了ESG评级对市场效率的潜在负面影响，特别是散户投资者的行为偏差，为理解ESG评级的信息价值提供了新视角。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1287/mnsc.2024.07645",
+    "title": "Unified Moment-Based Simulation of Multivariate Polynomial Processes and Applications in Financial Engineering",
+    "authors": [
+      "Riccardo Brignone"
+    ],
+    "abstract": "I propose a general simulation scheme for multivariate polynomial processes, a class of stochastic processes for which the calculation of moments up to a fixed order requires only the computation of matrix exponentials. The methodology is based on the approximate computation of conditional moments given joint moments and on performing random sampling given such conditional moments. The general methodology can be adapted to the simulation of many stochastic models of practical relevance in financial engineering. It turns out to be very useful because it can be applied to stochastic volatility models (e.g., the Jacobi model) and commodity price models (e.g., the Pilipović model), for which semi-analytical European option pricing formulas or exact simulation schemes are not available, rendering it necessary to use approximations. I compare the proposed simulation schemes against various benchmarks and find that the new methodology improves the runtime/accuracy performances with respect to existing methods. This paper was accepted by Ata Baris, stochastic models and simulation. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07645 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07645",
+    "published_date": "2026-05-29",
+    "source": "MS",
+    "first_seen": "2026-05-30",
+    "abstract_missing": false,
+    "summary": "本文提出了一种针对多元多项式过程的通用模拟方案，该类过程具有只需计算矩阵指数即可得到固定阶矩的性质。该方法基于条件矩的近似计算以及根据这些条件矩进行随机抽样。该通用方法可适用于金融工程中许多实际相关的随机模型，例如随机波动率模型（如Jacobi模型）和商品价格模型（如Pilipović模型），这些模型缺乏半解析欧式期权定价公式或精确模拟方案，因此必须使用近似方法。通过与多种基准方法比较，发现新方法在运行时/准确度性能上优于现有方法。",
+    "keywords": [
+      "多元多项式过程",
+      "模拟",
+      "随机波动率",
+      "商品定价",
+      "金融工程"
+    ],
+    "ai_comment": "该研究提供了一个统一的模拟框架，能够高效处理缺乏解析解或精确模拟的随机模型，显著提升了计算效率与精度。",
+    "topic": "金融计量/机器学习"
+  },
+  {
     "id": "10.1287/mnsc.2024.08264",
     "title": "The Age Gap in Mortgage Access",
     "authors": [
