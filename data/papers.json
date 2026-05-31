@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104307",
+    "title": "Are patents with female inventors under-cited? Evidence from text estimation",
+    "authors": [
+      "Yael V. Hochberg",
+      "Ali Kakhbod",
+      "Peiyao Li",
+      "Kunal Sachdeva"
+    ],
+    "abstract": "Utilizing leading machine learning techniques to analyze the textual content and quality of patents, we demonstrate that patents with female lead inventors are under-cited relative to what would be expected had the lead inventor been male. Male inventors are the greatest contributors to the undercitation of patents with female inventors, followed by female inventors and male examiners, while female patent examiners appear to be even-handed. Using market reactions to patents suggests no average difference in market value by the inventor’s gender. The results have potential implications for research conclusions that rely on citation-based assessments of patent quality.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104307",
+    "published_date": "2026-05-30",
+    "source": "JFE",
+    "first_seen": "2026-05-31",
+    "abstract_missing": false,
+    "summary": "本文利用前沿机器学习技术分析专利的文本内容和质量，发现女性主导发明人的专利被引频次显著低于若发明人为男性时的预期水平。男性发明人是导致女性专利被低估引用的最大贡献者，其次是女性发明人和男性审查员，而女性审查员则表现出公平态度。基于市场对专利的反应分析表明，发明人性别并未导致平均市场价值的差异。该结果对依赖引文评估专利质量的研究结论具有潜在影响。",
+    "keywords": [
+      "专利引用",
+      "性别偏见",
+      "机器学习",
+      "文本分析"
+    ],
+    "ai_comment": "通过机器学习从专利文本中剥离质量因素，创新地量化了引用中的性别偏差，并揭示了不同群体贡献的异质性。",
+    "topic": "金融计量/机器学习"
+  },
+  {
     "id": "10.1287/mnsc.2024.08288",
     "title": "Investor Reliance on ESG Ratings and Stock Price Performance",
     "authors": [
