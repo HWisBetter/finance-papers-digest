@@ -351,6 +351,55 @@
     "topic": "其他"
   },
   {
+    "id": "10.1287/mnsc.2024.08215",
+    "title": "The Tragedy of Complexity",
+    "authors": [
+      "Martin Oehmke",
+      "Adam Zawadowski"
+    ],
+    "abstract": "Complexity can create value. At the same time, understanding more complex goods requires more of an agent’s attention. We show that equilibrium complexity is generally inefficient when agents face competing demands on their limited attention. Because attention allocation is hump-shaped in complexity, equilibrium complexity is distorted toward intermediate levels: well-understood goods are inefficiently complex, whereas less well-understood goods are oversimplified. We apply our model to financial institutions facing regulatory bodies and CEOs interacting with corporate divisions. This paper was accepted by Will Cong, finance. Funding: This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation program [Grant 715467].",
+    "url": "https://doi.org/10.1287/mnsc.2024.08215",
+    "published_date": "2026-06-01",
+    "source": "MS",
+    "first_seen": "2026-06-02",
+    "abstract_missing": false,
+    "summary": "本文研究复杂性在注意力有限的经济环境中的均衡效率。复杂性可以创造价值，但理解复杂商品需要更多注意力。当注意力有限时，均衡复杂性通常无效率，因为注意力分配在复杂性上呈驼峰形：对已被充分理解的商品，复杂性过高；对不太被理解的商品，复杂性过低。模型被应用于金融监管机构与银行、CEO与企业部门的互动中。",
+    "keywords": [
+      "复杂性",
+      "注意力分配",
+      "均衡效率",
+      "金融监管",
+      "企业部门"
+    ],
+    "ai_comment": "该文通过注意力分配的驼峰形机制揭示了复杂性市场失灵的内在逻辑，为理解监管和公司内部复杂性设计提供了新视角。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1111/jofi.70047",
+    "title": "Detecting Informed Trading Risk from Undercutting Activity",
+    "authors": [
+      "Yashar H. Barardehi",
+      "Peter Dixon",
+      "Qiyu Liu"
+    ],
+    "abstract": "We introduce a simple measure of informed trading risk, QIDres$QID^{res}$, the residual to liquidity quote‐improvement‐to‐deterioration ratio times −1$-1$. When facing with increased informed trading risk, liquidity providers compete less to provide liquidity, reducing their undercutting activity. Reductions in undercutting leave footprints in trade and quote data that are captured by QIDres$QID^{res}$. Unlike prior measures, QIDres$QID^{res}$ is easy to construct, can be computed intraday, and is orthogonal to liquidity. The QIDres$QID^{res}$ measure outperforms prominent existing alternatives in reflecting the extent of information asymmetry before earnings announcements, predicting unscheduled press releases, and identifying informed trading spillovers around them.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70047",
+    "published_date": "2026-06-01",
+    "source": "JF",
+    "first_seen": "2026-06-02",
+    "abstract_missing": false,
+    "summary": "本文提出一种简单的知情交易风险度量指标QID^{res}，定义为流动性报价改善与恶化比率的残差乘以-1。当知情交易风险增加时，流动性提供者减少竞争，报价下刺活动降低，这种变化在交易和报价数据中留下痕迹，被QID^{res}捕捉。与已有度量相比，QID^{res}易于构建、可日内计算且与流动性正交。在盈余公告前反映信息不对称程度、预测非计划新闻发布以及识别知情交易溢出效应方面，该指标优于现有主要替代指标。",
+    "keywords": [
+      "知情交易风险",
+      "市场微观结构",
+      "报价改善恶化比率",
+      "信息不对称",
+      "流动性提供"
+    ],
+    "ai_comment": "该指标简洁高效且正交于流动性，为日内信息不对称度量提供了新工具，具有重要的实证应用价值。",
+    "topic": "市场微观结构"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104307",
     "title": "Are patents with female inventors under-cited? Evidence from text estimation",
     "authors": [
