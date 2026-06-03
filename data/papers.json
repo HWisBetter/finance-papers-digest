@@ -1,5 +1,31 @@
 [
   {
+    "id": "10.1287/mnsc.2024.07804",
+    "title": "Selecting and Testing Asset-Pricing Models: A Stepwise Approach",
+    "authors": [
+      "Guanhao Feng",
+      "Wei Lan",
+      "Hansheng Wang",
+      "Jun Zhang"
+    ],
+    "abstract": "The asset-pricing literature emphasizes factor models that minimize pricing errors but overlooks unselected candidate factors that could enhance the performance of test assets. This paper proposes a framework for factor model selection and testing by (i) selecting the optimal model that spans the joint efficient frontier of test assets and all candidate factors and (ii) testing pricing performance on both test assets and unselected candidate factors. Our framework updates a baseline model (e.g., capital asset-pricing model) sequentially by adding or removing factors based on asset-pricing tests. Ensuring model selection consistency, our framework utilizes the asset-pricing duality; minimizing cross-sectionally unexplained pricing errors aligns with maximizing the Sharpe ratio of the selected factor model. Empirical evidence shows that workhorse factor models fail asset-pricing tests, whereas our proposed eight-factor model is not rejected and exhibits robust out-of-sample performance. This paper was accepted by Lukas Schmid, finance. Funding: G. Feng acknowledges financial support from the Hong Kong Research Grants Council [Grant GRF11502023] and the National Natural Science Foundation of China [Grant 72203190]. G. Feng is partially supported by the InnoHK Initiative of the Innovation and Technology Commission of the Hong Kong SAR and the Laboratory for AI-Powered Financial Technologies. The research of W. Lan was supported by the National Key R&D Program of China [Grant 2022YFA1003702]; the National Natural Science Foundation of China [Grants 72422020, 72333001, and 12531011]; and the Joint Lab of Data Science and Business Intelligence at Southwestern University of Finance and Economics. The research of H. Wang was partially supported by the National Natural Science Foundation of China [Grants 72495123 and 12271012]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07804 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07804",
+    "published_date": "2026-06-02",
+    "source": "MS",
+    "first_seen": "2026-06-03",
+    "abstract_missing": false,
+    "summary": "本文针对资产定价文献中因子模型选择的问题，提出一个同时考虑测试资产和所有候选因子的框架。该框架通过两步实现：首先选择能够张成测试资产和所有候选因子联合有效前沿的最优因子模型；然后对测试资产和未选中的候选因子进行定价测试。模型选择过程基于资产定价对偶性，即最小化横截面未解释定价误差等价于最大化所选因子模型的夏普比率，并采用顺序更新基线模型（如CAPM）的方式添加或移除因子。实证结果显示，主流工作因子模型未能通过资产定价测试，而本文提出的八因子模型未被拒绝，且具有稳健的样本外表现。",
+    "keywords": [
+      "因子模型选择",
+      "资产定价测试",
+      "夏普比率",
+      "有效前沿",
+      "CAPM"
+    ],
+    "ai_comment": "本文创新性地将未选中的候选因子纳入模型选择与测试框架，利用资产定价对偶性保证一致性，实证构建的八因子模型优于主流模型，为因子模型比较提供了新范式。",
+    "topic": "资产定价"
+  },
+  {
     "id": "w35286",
     "title": "Beliefs and Stock Market Fluctuations: New Evidence from the Past Seven Decades",
     "authors": [
@@ -373,6 +399,29 @@
     ],
     "ai_comment": "该文通过注意力分配的驼峰形机制揭示了复杂性市场失灵的内在逻辑，为理解监管和公司内部复杂性设计提供了新视角。",
     "topic": "行为金融"
+  },
+  {
+    "id": "10.1111/jofi.70059",
+    "title": "Cash Heterogeneity and the Payout Channel of Monetary Policy",
+    "authors": [
+      "Altan Pazarbaşi"
+    ],
+    "abstract": "This paper provides novel empirical evidence that cash‐rich firms have higher equity payouts and higher stock prices in response to expansionary monetary policy surprises. Stock prices rise despite weak cash‐flow, investment, and credit responses to monetary policy. I rationalize the empirical evidence in a heterogeneous‐firm New Keynesian model where firms finance investment with cash and equity issuance. Monetary easing weakens precautionary cash demand, leading cash‐rich firms to optimally allocate excess funds to shareholders. Since payouts are procyclical, cash‐rich firms earn higher returns in expansionary periods. My findings highlight a payout channel through which monetary policy impacts asset prices.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70059",
+    "published_date": "2026-06-01",
+    "source": "JF",
+    "first_seen": "2026-06-03",
+    "abstract_missing": false,
+    "summary": "本文提供了新颖的实证证据，表明在扩张性货币政策冲击下，现金充裕的公司具有更高的股权支付和更高的股价。尽管现金流、投资和信贷对货币政策的反应较弱，但股价仍然上涨。作者在异质性企业新凯恩斯主义模型中合理化这一经验证据，模型中企业用现金和股权发行来为投资融资。货币宽松减弱了预防性现金需求，导致现金充裕的公司将多余资金最优地分配给股东。由于支付是顺周期的，现金充裕的公司在扩张期获得更高的回报。研究结果突出了一个通过货币政策影响资产价格的支付渠道。",
+    "keywords": [
+      "货币政策",
+      "现金充裕公司",
+      "股权支付",
+      "股价",
+      "支付渠道"
+    ],
+    "ai_comment": "本文从现金异质性角度揭示了货币政策影响资产价格的新渠道，实证与理论建模紧密结合，为货币政策传导机制研究提供了新视角。",
+    "topic": "宏观金融"
   },
   {
     "id": "10.1111/jofi.70047",
@@ -3499,16 +3548,22 @@
       "Alexander Michaelides",
       "Yuxin Zhang"
     ],
-    "abstract": "",
+    "abstract": "Using a calibrated, collective life-cycle portfolio choice model for a dual-income couple, we show that an increase in the ability to share risk within the household due to a mean-preserving spread in the partners’ coefficients of relative risk aversion leads to a substantial increase in financial risk-taking. Importantly, we show that risk sharing has a larger economic impact on portfolio choice than risk diversification. While unitary models usually do not fully replicate the optimal portfolio choice of collective models, we propose approximations that work reasonably well for moderate background risk. We provide strong empirical support for our key findings.",
     "url": "https://doi.org/10.1017/s0022109026102920",
     "published_date": "2026-04-27",
     "source": "JFQA",
     "first_seen": "2026-04-27",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本文通过校准的双收入夫妻集体生命周期投资组合选择模型，展示配偶间相对风险厌恶系数的均值保持扩展增强了家庭内部风险分担能力，导致金融风险承担显著增加。重要的是，风险分担对投资组合选择的经济影响大于风险分散化。虽然单一模型通常无法完全复制集体模型的最优投资组合选择，但本文提出的近似方法在适度背景风险下表现合理。实证结果有力支持了核心发现。",
+    "keywords": [
+      "家庭内部风险分担",
+      "投资组合选择",
+      "集体模型",
+      "风险厌恶系数",
+      "生命周期模型"
+    ],
+    "ai_comment": "本文创新性地量化了家庭内部风险分担对投资组合的独立影响，并证明其效应超过传统风险分散，为家庭金融中的风险共担机制提供了新视角。",
+    "topic": "家庭金融",
     "kw_norm": true,
     "cited_by_count": 0
   },
