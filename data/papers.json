@@ -1,5 +1,105 @@
 [
   {
+    "id": "10.1287/mnsc.2025.00721",
+    "title": "Deep Parametric Portfolio Policies",
+    "authors": [
+      "Frederik Simon",
+      "Sebastian Weibels",
+      "Tom Zimmermann"
+    ],
+    "abstract": "We consider parametric portfolio policies of any complexity using deep neural networks to optimize investor utility. Risk aversion acts as an economic regularization mechanism, with higher risk aversion constraining model complexity. Empirically, Deep Parametric Portfolio Policies generate 43-102 basis points higher monthly certainty equivalent returns compared with linear policies. Looking beyond expected returns, nonlinear portfolio policies better capture the complex relationship between investor preferences and firm characteristics but the benefits of using complex models vary with investor preferences. Results hold across different utility functions and remain robust to transaction costs and short-selling restrictions. Overall, economic regularization constrains model complexity much like statistical regularization but emerges endogenously from investor preferences. This paper was accepted by Kay Giesecke, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.00721 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.00721",
+    "published_date": "2026-06-03",
+    "source": "MS",
+    "first_seen": "2026-06-04",
+    "abstract_missing": false,
+    "summary": "本文提出使用深度神经网络构建任意复杂度的参数化投资组合策略，以优化投资者效用。风险厌恶作为一种经济正则化机制，较高的风险厌恶会约束模型复杂度。实证表明，深度参数化组合策略相比线性策略每月产生43-102基点的确定性等价收益提升。除预期收益外，非线性组合策略能更好地捕捉投资者偏好与公司特征之间的复杂关系，但使用复杂模型的收益随投资者偏好而变化。结果在不同效用函数下均成立，并对交易成本和卖空限制保持稳健。总体而言，经济正则化对模型复杂度的约束与统计正则化类似，但内生于投资者偏好。",
+    "keywords": [
+      "深度神经网络",
+      "参数化组合策略",
+      "风险厌恶",
+      "经济正则化",
+      "资产定价"
+    ],
+    "ai_comment": "该文创新性地将风险厌恶作为经济正则化机制，利用深度学习构建非线性组合策略，实证效果显著，为金融机器学习提供了新视角。",
+    "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "10.1287/mnsc.2024.04715",
+    "title": "Dynamic Collusion, Vertical Competition, and Systematic Risk",
+    "authors": [
+      "Guoman She",
+      "K. C. John Wei",
+      "Haifeng You"
+    ],
+    "abstract": "This paper empirically investigates how exposures of an industry’s cash flows and stock returns to discount rate shocks are affected by the market concentration of its upstream and downstream industries. In the cross-section of U.S. industries, we find that industries’ cash flows and stock returns are more negatively exposed to fluctuations in the aggregate discount rate if their upstream or downstream industries are more concentrated. These industries also have higher expected stock returns and costs of capital. Our study highlights the role of vertical competition in determining firm risk exposure and expected returns. This paper was accepted by Lukas Schmid, finance. Funding: K. C. J. Wei received partial financial support from the Research Grants Council of the Hong Kong Special Administrative Region, China [Project 15510222]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.04715 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.04715",
+    "published_date": "2026-06-03",
+    "source": "MS",
+    "first_seen": "2026-06-04",
+    "abstract_missing": false,
+    "summary": "本文实证研究上游和下游行业的市场集中度如何影响行业现金流和股票收益对贴现率冲击的暴露。基于美国行业横截面数据，发现若上游或下游行业更集中，则该行业现金流和股票收益对总贴现率波动的负向暴露更强，且预期股票收益和资本成本更高。结论强调了垂直竞争在决定企业风险暴露和预期收益中的关键作用。",
+    "keywords": [
+      "垂直竞争",
+      "市场集中度",
+      "贴现率冲击",
+      "系统风险",
+      "预期收益"
+    ],
+    "ai_comment": "本文从垂直竞争视角揭示行业集中度对系统性风险的影响，为资产定价中风险暴露的决定因素提供了新证据。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1093/rfs/hhag053",
+    "title": "Partial Equilibrium Thinking, Extrapolation, and Bubbles",
+    "authors": [
+      "Francesca Bastianello",
+      "Paul Fontanier"
+    ],
+    "abstract": "We develop a dynamic theory of “Partial Equilibrium Thinking” (PET), which micro-founds time-varying return extrapolation: extrapolative beliefs are present at all times, but only sometimes manifest themselves in explosive ways. We formalize the distinction between normal times shocks and “displacement shocks,” and study their interaction with extrapolative beliefs. In normal times, PET generates constant extrapolation and momentum. After a displacement shock that increases uncertainty, PET leads to stronger and time-varying extrapolation, triggering bubbles and endogenous crashes. Our theory sheds light on both market dynamics in normal times and Kindleberger’s narrative of bubbles within a unified framework. (JEL D84, G12, G41)",
+    "url": "https://doi.org/10.1093/rfs/hhag053",
+    "published_date": "2026-06-03",
+    "source": "RFS",
+    "first_seen": "2026-06-04",
+    "abstract_missing": false,
+    "summary": "本文提出了“部分均衡思维”（PET）的动态理论，该理论为时变回报外推提供了微观基础：外推信念始终存在，但仅在特定时刻以爆炸性方式显现。论文正式区分了正常时期的冲击和“位移冲击”，并研究它们与外推信念的相互作用。在正常时期，PET产生恒定的外推和动量效应；而在增加不确定性的位移冲击后，PET导致更强且时变的外推，从而引发泡沫和内源性崩溃。该理论在统一框架下解释了正常时期的市场动态和金德尔伯格的泡沫叙事。",
+    "keywords": [
+      "部分均衡思维",
+      "外推",
+      "泡沫",
+      "动量",
+      "位移冲击"
+    ],
+    "ai_comment": "该文通过微观基础化时变外推，将正常时期与泡沫时期统一在一个理论框架中，具有重要的理论创新意义。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1093/rfs/hhag021",
+    "title": "Thematic Concentration and Mutual Fund Performance",
+    "authors": [
+      "John (Jianqiu) Bai",
+      "Yuehua Tang",
+      "Chi Wan",
+      "Zafer Yuksel"
+    ],
+    "abstract": "This study examines whether mutual fund managers generate alpha through thematic investment strategies that select stocks poised to benefit from specific themes. Using textual analysis of 10-K filings, we identify stocks’ thematic exposures and construct each fund’s thematic concentration index (TCI) from its holdings. High-TCI funds significantly outperform, with a top-minus-bottom decile spread of 4.26% in annualized four-factor alpha. Managers’ thematic expertise is related to their undergraduate field of study. Outperformance arises from superior stock selection rather than theme-related timing, with an informational advantage on firm earnings, particularly in stocks exposed to themes related to managers’ undergraduate training.",
+    "url": "https://doi.org/10.1093/rfs/hhag021",
+    "published_date": "2026-06-03",
+    "source": "RFS",
+    "first_seen": "2026-06-04",
+    "abstract_missing": false,
+    "summary": "该研究探讨共同基金经理是否通过主题投资策略（即选择受益于特定主题的股票）产生超额收益。利用对10-K文件的文本分析，识别股票的主题暴露，并根据基金持股构建每个基金的主题集中度指数（TCI）。研究发现，高TCI基金显著跑赢市场，最高与最低十分位基金的年化四因子alpha差为4.26%。经理的主题专长与其本科专业领域相关；超额收益源于选股能力而非主题择时，且经理对与其本科专业相关的主题暴露股票具有信息优势，尤其体现在公司盈利预测上。",
+    "keywords": [
+      "共同基金",
+      "主题投资",
+      "选股能力",
+      "文本分析",
+      "主题集中度指数"
+    ],
+    "ai_comment": "该文通过文本分析创新性地衡量基金的主题集中度，并揭示了经理教育背景对选股能力的影响，为理解基金超额收益来源提供了新视角。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2024.07804",
     "title": "Selecting and Testing Asset-Pricing Models: A Stepwise Approach",
     "authors": [
@@ -24,6 +124,32 @@
     ],
     "ai_comment": "本文创新性地将未选中的候选因子纳入模型选择与测试框架，利用资产定价对偶性保证一致性，实证构建的八因子模型优于主流模型，为因子模型比较提供了新范式。",
     "topic": "资产定价"
+  },
+  {
+    "id": "10.1093/rfs/hhag052",
+    "title": "The Real Effect of Sociopolitical Racial/Ethnic Animus: Mutual Fund Manager Performance during AAPI Hate",
+    "authors": [
+      "Vikas Agarwal",
+      "Wei Jiang",
+      "Yuchen Luo",
+      "Hong Zou"
+    ],
+    "abstract": "During the 2020–2021 “AAPI Hate,” mutual funds led by female managers perceived as East Asian underperformed relative to other female managers. This effect is stronger in states with higher anti-Asian animus, among more actively managed funds, and when these managers hold sole or senior roles. Factors concurrent with COVID-19, including childcare challenges, concerns for overseas families, marketplace and workplace discrimination, and exposure to the Chinese economy, cannot explain the effect. Underperformance is traceable to poor stock picking due to impairments in generating private information. Racial-ethnic animosity, even outside workplace or marketplace, hinders productivity and decision-making in high-skill professions.",
+    "url": "https://doi.org/10.1093/rfs/hhag052",
+    "published_date": "2026-06-02",
+    "source": "RFS",
+    "first_seen": "2026-06-04",
+    "abstract_missing": false,
+    "summary": "本研究考察了2020-2021年“AAPI仇恨”事件期间，被认为东亚裔的女性共同基金经理的业绩表现。研究发现，与其他人种/族裔的女性经理相比，这些经理的基金业绩显著更差。该效应在反亚裔情绪更高的州、更积极管理的基金以及经理担任唯一或高级职务时更加明显。分析排除了疫情期间的育儿挑战、对海外家人的担忧、市场和职场歧视以及中国经济敞口等竞争性解释。业绩下滑可归因于股票选择能力下降，具体表现为生成私有信息的能力受损。研究结论表明，即使发生在职场或市场之外的社会政治种族/族裔敌意，也会削弱高技能职业的生产率和决策能力。",
+    "keywords": [
+      "共同基金",
+      "基金经理",
+      "种族偏见",
+      "绩效",
+      "信息生产"
+    ],
+    "ai_comment": "该研究创新性地将社会政治层面的种族敌意与金融市场专业人员的业绩表现联系起来，为行为金融学提供了来自真实世界的新证据，并揭示了偏见通过损害信息生成机制影响决策的具体路径。",
+    "topic": "行为金融"
   },
   {
     "id": "w35286",
@@ -76933,6 +77059,27 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Exorbitant Privilege Gained and Lost: Fiscal Implications",
+    "authors": [
+      "Zefeng Chen",
+      "Zhengyang Jiang",
+      "Hanno N. Lustig",
+      "Stijn Van Nieuwerburgh",
+      "Mindy Z. Xiaolan"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4096091",
+    "published_date": "2022-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4096091",
+    "first_seen": "2026-06-04",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
