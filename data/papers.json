@@ -1,5 +1,55 @@
 [
   {
+    "id": "10.1287/mnsc.2023.03551",
+    "title": "Dynamic Portfolio Selection and Asset Pricing Under Neo-Additive Probability Weighting",
+    "authors": [
+      "Xue Dong He",
+      "Yu Sun"
+    ],
+    "abstract": "We study a dynamic portfolio selection problem in which an agent trades a stock and a risk-free asset with the objective of maximizing the rank-dependent utility of their wealth at the terminal time of the investment horizon. Because of time inconsistency, we consider three types of agents, namely precommitted, sophisticated, and naive agents, who differ from each other in whether they are aware of the time inconsistency and whether they have self-control. Assuming a neo-additive probability weighting function, we solve the strategies of these agents. We find that the precommitted agent takes a loss-exit strategy, leading to a positively skewed terminal wealth, and that the sophisticated agent is less willing to participate in the stock market than the precommitted and naive agents. We also study equilibrium asset pricing and find that with a precommitted representative agent, stock returns exhibit a reversal effect, and the initial stock price is lower than in the case of a naive representative agent or a sophisticated representative agent. This paper was accepted by Manel Baucells, behavioral economics and decision analysis. Funding: This work was supported by Research Grants Council, University Grants Committee [Grant GRF 14218022]. Y. Sun acknowledges financial support from a start-up fund at Peking University HSBC Business School. Supplemental Material: The online appendices and data files are available at https://doi.org/10.1287/mnsc.2023.03551 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.03551",
+    "published_date": "2026-06-04",
+    "source": "MS",
+    "first_seen": "2026-06-05",
+    "abstract_missing": false,
+    "summary": "本文研究动态投资组合选择问题，代理人在股票和无风险资产之间交易，以最大化投资期末财富的秩依赖效用。由于时间不一致性，考虑三种类型的代理人：预先承诺、老练和天真，它们在是否意识到时间不一致性以及是否有自我控制方面存在差异。假设新加性概率加权函数，求解这些代理人的策略。结果发现，预先承诺代理人采取损失退出策略，导致终端财富呈正偏态；老练代理人比预先承诺和天真代理人更不愿意参与股票市场。此外，研究均衡资产定价发现，当存在预先承诺的代表性代理人时，股票回报呈现反转效应，且初始股价低于天真或老练代表性代理人的情况。",
+    "keywords": [
+      "动态投资组合选择",
+      "资产定价",
+      "新加性概率加权",
+      "时间不一致性",
+      "秩依赖效用"
+    ],
+    "ai_comment": "本文创新性地将行为经济学中的概率加权与时间不一致性引入动态资产定价模型，揭示了不同代理人类型对市场均衡的差异化影响，为理解股票回报反转和参与度提供了新视角。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104310",
+    "title": "The impact of introducing a (nearly) redundant security: Evidence from Malaysian corporate bonds",
+    "authors": [
+      "Antje Berndt",
+      "Jean Helwege",
+      "Amanda Liu",
+      "Frank Packer"
+    ],
+    "abstract": "We develop a general equilibrium model in which firms issue nearly redundant securities to investor clienteles with participation constraints, with prices and demand determined endogenously in primary and secondary markets. The model characterizes how issuance costs, market frictions, and investor composition shape firms’ funding choices, equilibrium prices, and asset allocations. We test the model’s predictions using data from the Malaysian corporate bond market following the introduction of Islamic bonds. Consistent with the model, issuance decisions reflect trade-offs between collateral and liquidity benefits, Islamic and conventional bonds coexist without crowding out, and the expanded investor base increases access to debt financing.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104310",
+    "published_date": "2026-06-04",
+    "source": "JFE",
+    "first_seen": "2026-06-05",
+    "abstract_missing": false,
+    "summary": "我们开发了一个一般均衡模型，其中企业向具有参与约束的投资者客户发行近乎冗余的证券，价格和需求在一级和二级市场中内生决定。该模型刻画了发行成本、市场摩擦和投资者构成如何影响企业的融资选择、均衡价格和资产配置。我们利用马来西亚公司债券市场在引入伊斯兰债券后的数据检验了模型的预测。与模型一致，发行决策反映了抵押品和流动性利益之间的权衡，伊斯兰和传统债券共存而不相互挤出，且扩大的投资者基础增加了债务融资的可获得性。",
+    "keywords": [
+      "公司债券",
+      "伊斯兰债券",
+      "投资者客户",
+      "市场摩擦",
+      "一般均衡模型"
+    ],
+    "ai_comment": "该文通过一般均衡模型框架，首次系统分析了近乎冗余证券（伊斯兰债券）引入对公司债券市场的影响，并利用独特数据验证了理论，为理解市场摩擦和投资者客户在融资中的作用提供了新视角。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1287/mnsc.2025.00721",
     "title": "Deep Parametric Portfolio Policies",
     "authors": [
