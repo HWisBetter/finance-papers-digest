@@ -1,5 +1,99 @@
 [
   {
+    "id": "10.1287/mnsc.2026.01340",
+    "title": "Commentary by Dr. Hans-Paul Bürkner, Global Chair Emeritus of The Boston Consulting Group, on Cathy (Liu) Yang, Kevin Bauer, Xitong Li, and Oliver Hinz (2025) “My Advisor, Her AI, and Me: Evidence from a Field Experiment on Human-AI Collaboration and Investment Decisions”",
+    "authors": [
+      "Hans-Paul Bürkner"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.1287/mnsc.2026.01340",
+    "published_date": "2026-06-05",
+    "source": "MS",
+    "first_seen": "2026-06-06",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1287/mnsc.2024.05875",
+    "title": "Crypto Value, Factor Pricing, and Market Segmentation",
+    "authors": [
+      "Lin William Cong",
+      "G. Andrew Karolyi",
+      "Ke Tang",
+      "Weiyi Zhao"
+    ],
+    "abstract": "In the largest data set of crypto assets to date, we uncover a significant value effect based on the active-addresses-to-market-cap ratio. The corresponding novel value factor, together with the crypto market, size, and momentum factors adapted to our sample, forms a four-factor model that explains the cross-sectional return variations better than existing benchmarks. We show that the crypto value premium is plausibly driven by compensation for on-chain activity risk. We also provide the first comprehensive classification of major cryptocurrencies based on their economic functionality. Applying methodologies from international asset pricing, we document significant market segmentation across the token categories, with nonmonotone dynamics and implications for crypto investment strategy and regulation. This paper was accepted by Christoph Loch, finance. Conflict of Interest Statement: L. W. Cong serves as a senior economist and senior economic advisor to Chainlink Labs; G. A. Karolyi serves as an ad hoc consultant to Avantis Investors. Funding: K. Tang’s work was supported by the National Natural Science Foundation of China [Grants 72192802, 72342008]. W. Zhao’s work was supported by the National Natural Science Foundation of China [Grant 72503258], the China Postdoctoral Science Foundation [Grant 2025M773717], and the Innovation and Talent Base for Digital Technology and Finance [Grant B21038]. L. W. Cong’s work was supported by the Ripple University Blockchain Research Initiative. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.05875 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.05875",
+    "published_date": "2026-06-05",
+    "source": "MS",
+    "first_seen": "2026-06-06",
+    "abstract_missing": false,
+    "summary": "基于迄今为止最大的加密货币数据集，研究发现基于活跃地址数与市值比（active-addresses-to-market-cap ratio）的显著价值效应。构建了一个四因子模型，包含加密货币市场因子、规模因子、动量因子以及新发现的价值因子，该模型比现有基准更好地解释横截面收益差异。证据表明，加密货币价值溢价可能来自对链上活动风险（on-chain activity risk）的补偿。研究首次对主要加密货币进行了基于经济功能的全面分类。应用国际资产定价方法，发现代币类别间存在显著的市场分割（market segmentation），具有非单调的动态特征，并对加密货币投资策略和监管具有启示意义。",
+    "keywords": [
+      "加密货币价值效应",
+      "因子定价",
+      "市场分割",
+      "链上活动风险",
+      "代币分类"
+    ],
+    "ai_comment": "该论文在最大数据集上创新性地提出基于链上活跃度的价值因子，并揭示代币类别间的市场分割现象，为加密货币资产定价研究提供了新视角。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1287/mnsc.2023.04079",
+    "title": "Markovian Search with Ex Ante Constraints: Theory and Applications to Socially Aware Algorithmic Hiring",
+    "authors": [
+      "Mohammad Reza Aminian",
+      "Vahideh Manshadi",
+      "Rad Niazadeh"
+    ],
+    "abstract": "We study and develop an algorithmic framework for incorporating “ex ante” constraints—constraints on outcomes that hold only on average—into stateful sequential search problems with costly inspection. Our framework encompasses the classical Weitzman’s Pandora’s box and its extensions to joint Markovian scheduling, which model richer processes such as multistage search with multiple layers of inspection. Ex ante constraints are particularly motivated by social considerations in algorithmic hiring, where they can adjust outcome distributions to promote equity and access. Although most work in the algorithmic fairness literature in computer science and economics has focused on incorporating such constraints into machine learning tasks like classification and regression, far less attention has been devoted to operational problems such as sequential search, with their unique intricacies. Our work aims to bridge this gap. Building on the optimality of index-based policies in the unconstrained versions of these problems, we show that optimal policies under a single ex ante constraint (e.g., demographic parity) retain an index-based structure but require (i) dual-based adjustments of the indices and (ii) randomization between two such adjustments via a “tie-breaking rule,” both easy to compute and economically interpretable. We then extend our results to multiple affine constraints by reducing the problem to a variant of the exact Carathéodory problem and providing a polynomial-time algorithm that constructs an optimal randomized dual-adjusted index-based policy satisfying all constraints simultaneously. For general affine and convex constraints, we develop a primal-dual algorithm that randomizes over a polynomial number of dual-based adjustments, yielding a near-feasible, near-optimal policy. These results rely on the key observation that a suitable relaxation of the Lagrange dual function for these constrained problems admits index-based policies akin to those in the unconstrained setting. Finally, through a numerical study, we investigate the implications of imposing socially aware ex ante constraints and their socially desirable outcomes. This paper was accepted by Vivek Farias, data science. Funding: R. Niazadeh’s research was partially supported by the Asness Junior Faculty Fellowship at The University of Chicago Booth School of Business. Supplemental Material: The online appendix and data are available at https://doi.org/10.1287/mnsc.2023.04079 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.04079",
+    "published_date": "2026-06-05",
+    "source": "MS",
+    "first_seen": "2026-06-06",
+    "abstract_missing": false,
+    "summary": "本文建立了一个算法框架，将事前约束（仅平均意义上成立的约束）引入具有成本检查的状态序贯搜索问题。该框架涵盖经典的Weitzman潘多拉盒子及其向联合马尔可夫调度的扩展，可建模多层检查的多阶段搜索。事前约束在算法招聘中尤其重要，可用于调整结果分布以促进公平。作者基于无约束版本中指数策略的最优性，证明在单个事前约束（如人口统计均等）下，最优策略仍保持指数结构，但需要对指数进行对偶调整，并通过“破冰规则”在两种调整之间随机化。对于多个仿射约束，问题被转化为精确Carathéodory问题的一种变体，并给出多项式时间算法构造满足所有约束的最优随机双调整指数策略。对于一般仿射和凸约束，提出一种原始-对偶算法，在多项式数量的双调整结果上随机化，得到近似可行且近似最优的策略。数值研究展示了施加社会意识事前约束的影响及其社会期望的结果。",
+    "keywords": [
+      "事前约束",
+      "序贯搜索",
+      "指数策略",
+      "算法招聘",
+      "社会公平"
+    ],
+    "ai_comment": "本文创新地将事前公平约束引入序贯搜索问题，并证明了指数策略在约束下的可扩展性，为算法招聘中的公平性提供了可计算的理论框架。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1093/rfs/hhag051",
+    "title": "Voting on Public Goods: Citizens vs Shareholders",
+    "authors": [
+      "Robin Döttling",
+      "Doron Levit",
+      "Nadya Malenko",
+      "Magdalena Rola-Janicka"
+    ],
+    "abstract": "We study the interplay between a “one person-one vote” political system and a “one share-one vote” corporate governance regime. If shareholders push firms for more prosocial policies, political backlash may arise, undoing these initiatives. If public policy is frictionless, shareholder democracy becomes irrelevant: the political system fully offsets shareholder influence. With public policy frictions, prosocial corporations can mitigate regulatory shortcomings and enhance corporate public goods provision. Nevertheless, shareholder democracy can hurt citizens due to the representation problem: it favors the preferences of the wealthy. Investor diversification, pass-through voting, and corporate greenwashing have important implications for these trade-offs of shareholder democracy. (JEL D62, D72, G28, G34, G38, H23)",
+    "url": "https://doi.org/10.1093/rfs/hhag051",
+    "published_date": "2026-06-05",
+    "source": "RFS",
+    "first_seen": "2026-06-06",
+    "abstract_missing": false,
+    "summary": "本文研究“一人一票”政治体制与“一股一票”公司治理之间的相互作用。如果股东推动企业采取更亲社会的政策，可能会引发政治反弹，从而抵消这些倡议。当公共政策无摩擦时，股东民主变得无关紧要：政治体系完全抵消了股东的影响。但在公共政策存在摩擦的情况下，亲社会企业可以弥补监管不足，增加企业公共物品供给。然而，股东民主可能因代表性问题损害公民利益：它偏向富人的偏好。投资者多元化、传递投票和公司漂绿对股东民主的这些权衡具有重要影响。",
+    "keywords": [
+      "股东民主",
+      "公共物品",
+      "政治体制",
+      "公司治理",
+      "漂绿"
+    ],
+    "ai_comment": "本文巧妙地将政治体制与公司治理相结合，揭示了股东民主可能对普通公民造成的负面影响，为企业社会责任的政治经济学提供了新视角。",
+    "topic": "公司治理"
+  },
+  {
     "id": "10.1287/mnsc.2023.03551",
     "title": "Dynamic Portfolio Selection and Asset Pricing Under Neo-Additive Probability Weighting",
     "authors": [
@@ -575,6 +669,31 @@
     ],
     "ai_comment": "该文通过注意力分配的驼峰形机制揭示了复杂性市场失灵的内在逻辑，为理解监管和公司内部复杂性设计提供了新视角。",
     "topic": "行为金融"
+  },
+  {
+    "id": "10.1287/mnsc.2023.00985",
+    "title": "The Interplay Between Product Variety and Customer Retention: Theory and Evidence",
+    "authors": [
+      "Ulrich Kaiser",
+      "Reinhold Kesler",
+      "Markus Reisinger"
+    ],
+    "abstract": "The optimal number of products to offer consumers is one of the core strategic problems that firms face. This is increasingly so in digital markets where many firms offer a large product variety. In these markets, consumers purchase products repeatedly, making customer retention an important aspect for firm performance. In this paper, we study the interplay between these two variables, product variety and customer retention. First, we provide a novel game-theoretic model to analyze this interplay and also determine how the optimal product variety depends on the market environment. Second, we provide suggestive evidence for our theoretical predictions using data for video games from Steam. Our data set allows us to measure the key variables in our game-theoretic model and additionally contains plausible instrumental variables for empirical identification. We show theoretically that investment in product portfolio size and investment in customer retention are substitutes because the former increases demand from switching consumers, whereas the latter increases the repurchase probability of current consumers. We then derive predictions on how market conditions determine a firm’s product variety, for which we find evidence in our empirical analyses: there is (i) a negative relation between product portfolio size and customer retention, (ii) an inverted U-shaped relationship between market value and product variety, and (iii) a positive relation between consumer heterogeneity and product variety. Both our theoretical and empirical results are robust to a wide set of robustness checks. This paper was accepted by Alfonso Gambardella, business strategy. Funding: This work was supported by Deutsche Forschungsgemeinschaft (DFG) [Grant 462020252]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2023.00985 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.00985",
+    "published_date": "2026-06-01",
+    "source": "MS",
+    "first_seen": "2026-06-06",
+    "abstract_missing": false,
+    "summary": "本文研究产品种类与客户保留之间的相互作用，这是数字市场中企业面临的核心战略问题。首先，作者构建了一个新颖的博弈论模型来分析两者关系，并探讨最优产品种类如何取决于市场环境。其次，利用Steam平台的视频游戏数据为理论预测提供经验证据，数据集包含关键变量和合理的工具变量。理论表明，产品组合规模投资与客户保留投资是替代关系，因为前者增加转换消费者的需求，后者提高现有消费者的重复购买概率。经验分析发现：产品组合规模与客户保留负相关；市场价值与产品种类呈倒U型关系；消费者异质性与产品种类正相关。理论和实证结果通过多种稳健性检验。该论文被《管理科学》接收，属于商业战略领域。",
+    "keywords": [
+      "产品种类",
+      "客户保留",
+      "博弈论",
+      "视频游戏",
+      "数字市场"
+    ],
+    "ai_comment": "通过博弈论模型与实证数据的结合，揭示了产品组合规模与客户保留的替代关系，为企业战略决策提供了新视角。",
+    "topic": "其他"
   },
   {
     "id": "10.1111/jofi.70059",
