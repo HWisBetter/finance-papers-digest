@@ -1,5 +1,163 @@
 [
   {
+    "id": "w35314",
+    "title": "Innovation without Borders? The Geography of Technological Diffusion",
+    "authors": [
+      "Ursel Baumann",
+      "Zoë B. Cullen",
+      "Ester Faia",
+      "Annalisa Ferrando",
+      "Ricardo Perez-Truglia",
+      "Judit Rariga"
+    ],
+    "abstract": "How well does innovation diffuse across geographic boundaries? To shed light on this question, we present a large-scale field experiment involving 3,300 firms across twelve European Union countries. We elicit firms' perceptions of the share of similar firms in their own country that had invested in artificial intelligence (AI), as well as the corresponding share among similar firms in Germany, France, and Italy. We randomly provide half of the sample with accurate information about both domestic and foreign AI investment. We show that firms substantially underestimate competitors' current AI investment, both domestically and abroad, and that they update their expectations about competitors' future AI investment in response to the information treatment. The treatment also causes a statistically significant increase in firms' own expected AI investment rate (p-value < 0.001). We find strong strategic complementarities within borders: a 1 pp increase in the expected share of domestic peers investing in AI raises a firm's own expected AI investment rate by 0.570 pp. These complementarities are absent across borders: the effect of an increase in the expected share of foreign peers investing in AI on a firm's own expected AI investment rate is statistically insignificant. Overall, our evidence shows that innovation diffusion and strategic complementarities in AI investment are much stronger domestically than internationally.",
+    "url": "https://www.nber.org/papers/w35314",
+    "published_date": "2026-06-08",
+    "source": "NBER",
+    "first_seen": "2026-06-08",
+    "abstract_missing": false,
+    "summary": "本文通过一项涉及12个欧盟国家3300家企业的实地实验，研究创新是否跨越地理边界扩散。实验首先调查企业对本国及德国、法国、意大利类似企业已投资人工智能（AI）比例的认知，然后随机向一半样本提供国内外AI投资的真实信息。结果发现，企业显著低估了国内外竞争对手当前的AI投资，且信息干预后企业会更新对竞争对手未来投资的预期，并导致自身预期AI投资率显著增加（p值<0.001）。国内存在强战略互补性：预期国内同行投资比例上升1个百分点，企业自身预期投资率上升0.570个百分点；而跨境互补性统计不显著。结论表明，AI投资的创新扩散和战略互补性在国内远强于国际。",
+    "keywords": [
+      "技术扩散",
+      "人工智能投资",
+      "战略互补性",
+      "地理边界",
+      "实地实验"
+    ],
+    "ai_comment": "本文通过大规模实地实验量化了创新扩散中的地理边界效应，揭示了国内与跨境战略互补性的显著差异，为理解企业技术采纳行为的本地偏倚提供了新颖且坚实的实证证据。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "w35309",
+    "title": "But I Like Doing This! Enjoyable Tasks, Contracting, and Automation",
+    "authors": [
+      "Joshua S. Gans"
+    ],
+    "abstract": "Workers sometimes enjoy productive tasks and voluntarily devote unpaid time to them. We study O-ring jobs in which firms can either price a complete task bundle or specify paid task floors while workers remain free to add time. For any allocation supported by both hourly contracts, the wage bill is identical: voluntary top-up is not a discount. The contracts differ because paid floors cannot cap attractive tasks below the worker's voluntary supply. This implementability constraint adds a containment motive for automation alongside replacement and scale effects. It also makes payroll measures incomplete: conditional on a common automated set and a common AI technology, jobs with the same payroll footprint can differ in worked time and task mix. Rich salaried bundle pricing removes the hourly-contract distortion.",
+    "url": "https://www.nber.org/papers/w35309",
+    "published_date": "2026-06-08",
+    "source": "NBER",
+    "first_seen": "2026-06-08",
+    "abstract_missing": false,
+    "summary": "本文研究工人在喜欢某些生产性任务时自愿投入无偿时间的现象。分析O型工作（O-ring jobs）中企业的两种合同选择：要么为完整任务包定价，要么设定有偿任务底限而允许工人自由增加时间。在小时合同支持下，任何可实现的分配对应的工资单相同，即自愿补充非折扣。两种合同的区别在于，有偿底限无法将吸引人的任务限制在工人自愿供给以下，这种可实施性约束引入了自动化的遏制动机，与替代效应和规模效应并存。同时，这使得工资单度量不完整：在共同自动化和共同AI技术条件下，相同工资单的工作可能在劳动时间和任务组合上存在差异。丰富的薪资捆绑定价可以消除小时合同的扭曲。",
+    "keywords": [
+      "O型工作",
+      "自动化",
+      "合同设计",
+      "任务捆绑",
+      "自愿工作时间"
+    ],
+    "ai_comment": "本文创新性地将工人对任务的偏好引入合同设计与自动化决策，揭示了“遏制动机”这一新维度，为理解自动化对劳动市场的影响提供了新视角。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35304",
+    "title": "Regional Economic Impacts and Emission Responses under Solar Radiation Modification",
+    "authors": [
+      "Jenny Bjordal",
+      "Evelien van Dijk",
+      "Henri Cornec",
+      "Anthony A. Smith Jr.",
+      "Trude Storelvmo"
+    ],
+    "abstract": "Solar Radiation Modification (SRM) has been proposed as a potential tool to limit increases in global or regional temperatures caused by anthropogenic greenhouse gas emissions. While previous research has extensively examined the climate system’s response to various SRM strategies, as well as their aggregate economic consequences, the regional distribution of economic impacts has received less attention. In this study, we use NorESM2–DIAM—an Earth System Model coupled to a high-resolution integrated assessment model—to assess the economic impacts, measured in GDP per capita, in an idealised SRM scenario where incoming solar radiation is reduced by 1%. Our results suggest that, relative to a baseline without SRM, most countries experience economic gains under SRM, with only a few countries facing negative impacts. Low-income countries tend to see the largest benefits, reducing global economic inequality relative to the baseline. However, reduced damages and lower inequality are accompanied by higher emissions under SRM, potentially leading to additional adverse effects not captured here. These findings highlight potential trade-offs between economic benefits, reduced inequality, and increased emissions relevant for SRM governance.",
+    "url": "https://www.nber.org/papers/w35304",
+    "published_date": "2026-06-08",
+    "source": "NBER",
+    "first_seen": "2026-06-08",
+    "abstract_missing": false,
+    "summary": "本文利用地球系统模型NorESM2-DIAM（高分辨率综合评估模型耦合），评估了太阳辐射管理（SRM）策略（将入射太阳辐射减少1%）对全球各国人均GDP的经济影响。研究发现，与无SRM基准情景相比，大多数国家在SRM下获得经济收益，仅少数国家遭受负面冲击；低收入国家受益最大，从而降低了全球经济不平等。然而，SRM带来的经济损失减少和更低的全球不平等伴随更高的排放，可能引发未被模型捕捉的额外不利影响。这些结果揭示了SRM治理中经济收益、不平等减少与排放增加之间的潜在权衡。",
+    "keywords": [
+      "太阳辐射管理",
+      "经济影响",
+      "气候变化",
+      "不平等",
+      "排放"
+    ],
+    "ai_comment": "该研究首次使用耦合地球系统模型高分辨率评估SRM的区域经济分布，揭示了减少全球不平等与增加排放之间的关键权衡，为SRM治理政策提供了重要参考。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35302",
+    "title": "Leveraging Artificial Intelligence and Field Experiments to Explore Novel Features of Parental Speech and Foster Child Development",
+    "authors": [
+      "Julie Pernaudet",
+      "John A. List",
+      "Arnoldo Müller-Molina",
+      "Majid Ahmadi",
+      "Imrul Huda",
+      "Ajay Sailopal",
+      "Dana Suskind"
+    ],
+    "abstract": "Parents play a critical role in shaping children’s skills during the first years of life. Yet, identifying the contributors to richer learning environments remains difficult due to various unobservable factors. In this paper, we combine field experiments with AI to explore new acoustic features of parental speech. Specifically, we develop a signal processing model that uses more than 600 hours of recorded parent-child interactions combined with assessment data from two home-visiting experiments conducted in the Chicagoland area to identify features of parental speech that map into children’s skills. Our two experiments consist of the same intervention helping parents provide nurturing interactions to their child. We exploit the experimental and natural variation in our data to explore two causal channels and one potential moderator. First, our intervention improves parental speech consistently across the two studies, as measured by acoustic features that are predictive of higher socioemotional skills and adult-child conversational turns. Further, we find that it also increases children’s language skills in both experiments, as well as socioemotional skills in the second experiment. Interestingly, our heterogeneity analyses reveal that some of the interventions’ impacts vary by socioeconomic groups, with patterns across the two experiments suggesting that the mechanisms are context-dependent.",
+    "url": "https://www.nber.org/papers/w35302",
+    "published_date": "2026-06-08",
+    "source": "NBER",
+    "first_seen": "2026-06-08",
+    "abstract_missing": false,
+    "summary": "本研究结合现场实验与人工智能，探索父母言语的新声学特征及其对儿童发展的影响。作者开发了一个信号处理模型，利用超过600小时的亲子互动录音以及芝加哥地区两项家庭访问实验的评估数据，识别与儿童技能相关的父母言语特征。两项实验均采用同一干预措施，帮助父母提供养育互动。通过实验和自然变异，研究探讨了两个因果渠道和一个潜在调节因素。结果表明，干预措施一致改善了父母言语（以预测更高社会情感技能和成人与儿童对话轮次的声学特征衡量），并在两项实验中提高了儿童语言技能，在第二项实验中还提高了社会情感技能。异质性分析显示，部分干预效果因社会经济群体而异，且两项实验的模式表明机制具有情境依赖性。",
+    "keywords": [
+      "父母言语",
+      "人工智能",
+      "现场实验",
+      "儿童发展",
+      "声学特征"
+    ],
+    "ai_comment": "该研究创新性地将AI声学分析与实地实验结合，揭示了父母言语中可干预的细粒度特征，并通过跨实验的异质性分析突出了情境依赖的社会经济差异。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "w35297",
+    "title": "Macroeconomic and Fiscal Consequences of Quantitative Easing",
+    "authors": [
+      "Tobias Adrian",
+      "Christopher Erceg",
+      "Marcin Kolasa",
+      "Jesper Lindé",
+      "Pawel Zabczyk"
+    ],
+    "abstract": "Quantitative easing (QE) has been criticized for helping fuel the post-COVID inflation boom and causing large central bank losses. In this paper, we argue that QE should be evaluated mainly on its ability to achieve core macro-objectives as well for its effects on the consolidated fiscal position of the government and central bank, although central bank losses can matter to the extent that they may weaken central bank credibility. Using a DSGE model with segmented asset markets, we show how QE can provide a sizeable boost to output and inflation in a deep liquidity trap and can reduce public debt substantially. This contrasts to the rise in public debt that occurs under fiscal expansion and makes QE an attractive tool in a high debt environment. There is more reason for caution in using QE in a \"shallow\" liquidity trap in which the notional interest rate is only slightly negative: QE runs more risk of causing the economy to overheat, especially if forward guidance has a strong element of commitment, and is more likely to generate sizeable central bank losses. Some refinements in strategy, including the use of escape clauses, can help mitigate overheating risks.",
+    "url": "https://www.nber.org/papers/w35297",
+    "published_date": "2026-06-08",
+    "source": "NBER",
+    "first_seen": "2026-06-08",
+    "abstract_missing": false,
+    "summary": "本文旨在评估量化宽松（QE）的宏观经济和财政后果。作者认为，QE应主要基于其实现核心宏观目标的能力以及对政府和中央银行合并财政状况的影响进行评价，尽管中央银行损失可能削弱其信誉。通过采用具有分割资产市场的DSGE模型，文章展示了在深度流动性陷阱中，QE能够显著提振产出和通胀，并大幅减少公共债务。这与财政扩张导致公共债务上升形成对比，使得QE在高债务环境下成为一种有吸引力的工具。然而，在名义利率仅略为负的“浅”流动性陷阱中使用QE需更加谨慎：QE更容易导致经济过热，尤其是在前瞻性指引具有强承诺成分的情况下，并且更可能产生可观的中央银行损失。一些策略改进，包括使用退出条款，有助于缓解过热风险。",
+    "keywords": [
+      "量化宽松",
+      "DSGE模型",
+      "流动性陷阱",
+      "财政后果",
+      "中央银行损失"
+    ],
+    "ai_comment": "本文从财政整合视角重新审视QE，强调了其在降低公共债务方面的优势，同时指出了浅流动性陷阱下的过热风险与中央行损失问题。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35290",
+    "title": "What Investment Data Implies about the AI Transition",
+    "authors": [
+      "Jessica Wachter",
+      "Jonathan Wachter"
+    ],
+    "abstract": "The five largest U.S. technology firms spent $380 billion on capital expenditure in 2025 and are forecast to spend roughly double that in 2026. These firms risk bankruptcy unless expected profits grow commensurately. We embed this observation in a two-sector open-economy model with rare productivity booms. We calibrate the boom size to match the observed increase in investment projected through 2027, implying that a boom raises AI-sector productivity by a factor of roughly 2.7. We then calibrate a two-year window of a 50% annual probability of an increase of the same magnitude, generating a range of scenarios consistent with the wide variety of industry forecasts, along with an elevated permanent probability tied to the valuation of the aggregate market. The implied additional cumulative GDP growth ranges from 5 to 58 percentage points by 2030, with AI shares of the economy ranging from 8% to 39%. Long-term annual growth is in expectation approximately 7% but with substantial risk. With risk aversion of 3, and an elasticity of intertemporal substitution equal to 1, the risk-free rate increases by approximately half a percentage point, and the equity premium rises by approximately 3 percentage points.",
+    "url": "https://www.nber.org/papers/w35290",
+    "published_date": "2026-06-08",
+    "source": "NBER",
+    "first_seen": "2026-06-08",
+    "abstract_missing": false,
+    "summary": "本文指出美国五大科技公司在2025年资本支出达3800亿美元，预计2026年翻倍，除非预期利润相应增长，否则这些公司面临破产风险。作者将此观察嵌入一个包含罕见生产率激增的两部门开放经济模型中。通过校准使得激增规模匹配到2027年观察到的投资增长，得出激增使AI部门生产率提高约2.7倍。随后校准一个两年窗口期，每年有50%的概率出现同等幅度的增长，产生一系列与多种行业预测一致的场景，以及一个与整体市场估值相关的永久性概率提升。模型预测到2030年，累计GDP额外增长从5%到58%，AI在经济中的份额从8%到39%。长期年增长率预期约为7%，但存在显著风险。在风险厌恶系数为3、跨期替代弹性为1时，无风险利率上升约0.5个百分点，股权溢价上升约3个百分点。",
+    "keywords": [
+      "人工智能转型",
+      "资本支出",
+      "生产率冲击",
+      "经济增长",
+      "资产定价"
+    ],
+    "ai_comment": "该论文通过校准宏观模型，将AI投资、生产率增长与金融市场变量联系起来，提供了量化的增长和风险场景，对理解AI转型的经济影响具有启示意义。",
+    "topic": "宏观金融"
+  },
+  {
     "id": "10.1287/mnsc.2026.01340",
     "title": "Commentary by Dr. Hans-Paul Bürkner, Global Chair Emeritus of The Boston Consulting Group, on Cathy (Liu) Yang, Kevin Bauer, Xitong Li, and Oliver Hinz (2025) “My Advisor, Her AI, and Me: Evidence from a Field Experiment on Human-AI Collaboration and Investment Decisions”",
     "authors": [
