@@ -158,6 +158,58 @@
     "topic": "宏观金融"
   },
   {
+    "id": "10.1287/mnsc.2024.05036",
+    "title": "Liquidity Support in Financial Institutions",
+    "authors": [
+      "Falko Fecht",
+      "Egemen Genc",
+      "Yigitcan Karabulut",
+      "Patrick Weber"
+    ],
+    "abstract": "We document a novel support mechanism in financial institutions—the direct flow channel—through which banks coordinate client investments to stabilize affiliated mutual funds facing severe redemptions. Inflows from banks’ retail and institutional clients offset a sizable share of outflows, mitigating adverse performance effects, forced sales, and redemption spillovers. Support via the direct flow channel is liquidity driven, concentrated in fragile but viable funds, and most pronounced when cash and family support are insufficient, while complementing credit lines when they are available. Importantly, we find no evidence that bank clients incur systematic costs, underscoring the stabilizing role of banks as coordination devices. This paper was accepted by Camelia Kuhnen, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.05036 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.05036",
+    "published_date": "2026-06-08",
+    "source": "MS",
+    "first_seen": "2026-06-09",
+    "abstract_missing": false,
+    "summary": "本文记录了金融机构中的一种新型支持机制——直接流动渠道，通过该渠道，银行协调零售和机构客户的投资，以稳定面临严重赎回压力的关联共同基金。银行的客户资金流入抵消了相当一部分资金流出，从而减轻了赎回对基金业绩、被迫出售和传染效应的负面影响。直接流动渠道提供的支持是流动性驱动的，集中于脆弱但可行的基金，在现金和家族支持不足时最为显著，并在可获得信贷额度时与之互补。重要的是，没有发现银行客户承担系统性成本的证据，突出了银行作为协调工具的稳定作用。",
+    "keywords": [
+      "直接流动渠道",
+      "流动性支持",
+      "银行-基金关联",
+      "赎回稳定",
+      "协调机制"
+    ],
+    "ai_comment": "该文首次系统性地揭示了银行通过客户资金流入稳定关联基金的直接流动渠道，丰富了流动性支持和金融稳定领域的文献，且实证发现对银行在金融体系中的角色提供了新见解。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1287/mnsc.2023.03991",
+    "title": "The Value of Last-Mile Delivery in Online Retail",
+    "authors": [
+      "Zhikun Lu",
+      "Ruomeng Cui",
+      "Tianshu Sun",
+      "Lixia Wu"
+    ],
+    "abstract": "Last-mile delivery, the most expensive stage of the shipment process, has become increasingly important in online retail, raising the strategic question of whether firms should outsource it to customers via pickup stations or offer home delivery. In this paper, we examine the economic value of last-mile delivery to inform this high-stakes decision. Partnering with Cainiao, Alibaba’s logistics platform, we exploit a quasi-experiment where home delivery service was sequentially rolled out to pickup stations in 2021. A staggered difference-in-differences design reveals that home delivery significantly increases sales and customer spending on Alibaba’s retail platform. Because last-mile delivery is labor-intensive and capacity constrained, effectively allocating delivery resources is crucial. To address this challenge, we propose a novel operations-aware targeting framework that integrates causal machine learning with constrained optimization to identify and prioritize the most valuable customers. The framework incorporates both capacity and fairness constraints to maximize sales while maintaining equitable service access. We further extend it with routing optimization, enabling value-aware delivery planning that jointly considers sales uplift and spatial efficiency. We demonstrate that the resulting targeting and routing policies significantly improve revenue performance. Taken together, we show that last-mile delivery is not merely a cost center but also a revenue driver. By adopting tailored logistics strategies that balance customer needs with resource constraints, online retailers can unlock substantial value and win the last mile of e-commerce. This paper was accepted by Jeannette Song, operations management. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2023.03991 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.03991",
+    "published_date": "2026-06-08",
+    "source": "MS",
+    "first_seen": "2026-06-09",
+    "abstract_missing": false,
+    "summary": "本文研究在线零售中最后一公里配送（last-mile delivery）的经济价值，特别是企业应选择外包给顾客自提（pickup stations）还是提供上门配送（home delivery）。通过与阿里巴巴物流平台菜鸟（Cainiao）合作，利用2021年上门配送服务逐步推广到自提点的准实验，采用交错双重差分（staggered difference-in-differences）设计，发现上门配送显著增加了阿里巴巴零售平台的销售额和顾客支出。由于最后一公里配送劳动密集且产能受限，有效分配配送资源至关重要。为此，本文提出一个新颖的运营感知目标框架（operations-aware targeting framework），将因果机器学习（causal machine learning）与约束优化（constrained optimization）相结合，以识别并优先服务最有价值的顾客。该框架融入产能和公平性约束，以在最大化销售额的同时维持公平服务接入。进一步扩展加入路由优化（routing optimization），实现价值感知的配送规划，同时考虑销售提升和空间效率。结果表明，目标定位和路由策略显著改善了收入表现。综上，本文展示最后一公里配送不仅是成本中心，也是收入驱动因素。通过采用适应顾客需求和资源约束的定制化物流策略，在线零售商能够释放巨大价值，赢得电商最后一公里。",
+    "keywords": [
+      "最后一公里配送",
+      "在线零售",
+      "因果机器学习",
+      "约束优化",
+      "差异化营销"
+    ],
+    "ai_comment": "本文的亮点在于利用准实验设计识别了最后一公里配送的因果效应，并创新性地将因果机器学习与运营优化结合，为配送资源分配提供了可落地的决策框架。",
+    "topic": "其他"
+  },
+  {
     "id": "10.1287/mnsc.2026.01340",
     "title": "Commentary by Dr. Hans-Paul Bürkner, Global Chair Emeritus of The Boston Consulting Group, on Cathy (Liu) Yang, Kevin Bauer, Xitong Li, and Oliver Hinz (2025) “My Advisor, Her AI, and Me: Evidence from a Field Experiment on Human-AI Collaboration and Investment Decisions”",
     "authors": [
@@ -4415,6 +4467,31 @@
     "topic": "家庭金融",
     "kw_norm": true,
     "cited_by_count": 6
+  },
+  {
+    "id": "10.1093/rfs/hhag044",
+    "title": "What Drives Variation in Investor Portfolios? Estimating the Roles of Beliefs and Risk Preferences",
+    "authors": [
+      "Mark Egan",
+      "Alexander MacKay",
+      "Hanbin Yang"
+    ],
+    "abstract": "We present a portfolio choice demand model that allows for the nonparametric estimation of investors’ (subjective) expectations and risk preferences. Using comprehensive 401(k)-plan-level data from 2009 through 2019, we explore heterogeneity in asset allocations using our empirical framework. We recover investors’ beliefs about each asset and examine the implications and potential sources of those beliefs. Heterogeneity in expectations across investors accounts for twice as much variation in portfolio holdings as heterogeneity in risk aversion. Belief heterogeneity is partly driven by investors’ characteristics and experiences, reflecting local sources of information such as county-level GDP and employers’ past performance.",
+    "url": "https://doi.org/10.1093/rfs/hhag044",
+    "published_date": "2026-04-21",
+    "source": "RFS",
+    "first_seen": "2026-06-09",
+    "abstract_missing": false,
+    "summary": "本文提出了一个投资组合选择需求模型，允许对投资者的主观预期和风险偏好进行非参数估计。利用2009年至2019年间全面的401(k)计划层面数据，作者运用该实证框架探索资产配置的异质性。他们恢复了投资者对每种资产的信念，并考察了这些信念的含义和潜在来源。研究发现，投资者之间的预期异质性对投资组合持有变异的解释程度是风险厌恶异质性的两倍。信念异质性部分由投资者的特征和经验驱动，反映了当地信息源，如县级GDP和雇主的过往表现。",
+    "keywords": [
+      "信念异质性",
+      "风险偏好",
+      "非参数估计",
+      "401(k)计划",
+      "投资组合选择"
+    ],
+    "ai_comment": "该论文通过非参数方法有效分离了信念和偏好在投资组合决策中的作用，并利用大规模行政数据揭示了期望异质性的主导地位，为理解投资者行为提供了新视角。",
+    "topic": "家庭金融"
   },
   {
     "id": "10.1093/rfs/hhag042",
