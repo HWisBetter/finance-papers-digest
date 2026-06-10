@@ -1,5 +1,129 @@
 [
   {
+    "id": "10.1287/mnsc.2024.08557",
+    "title": "Artificial Collusion: Examining Supracompetitive Pricing by Q-Learning Algorithms",
+    "authors": [
+      "Arnoud den Boer",
+      "Janusz M. Meylahn",
+      "Maarten Pieter Schinkel"
+    ],
+    "abstract": "We examine concerns that pricing algorithms, employing reinforcement learning, used by competitors would autonomously and systematically learn to collude. Findings of supracompetitive prices with Q-learning have recently raised that alarm. However, a detailed analysis of the inner workings of this algorithm type reveals that it often does not satisfy conditions for what constitutes “autonomous” algorithmic collusion that would be a cartel risk in practice. We find that Q-learning can learn collusive equilibria only on timescales irrelevant to the firm’s objective. Competitors are committed to using the same Q-learning algorithm, starting at the same moment, with the same hyperparameters and action spaces, although it is outperformed by the first alternative pricing rule. This level of synchronization suggests the need for an explicit cartel agreement. Our analysis gives criteria for practically relevant, explicitly and tacitly colluding pricing algorithms that would constitute a threat to competition. Whether autonomous algorithmic collusion is a potential threat to competition remains to be seen. There is not yet reason for competition agencies to be overly suspicious of pricing algorithms, other than of “collusion by algorithm,” in which pricing software is used to implement cartel agreements or is coded with collusive intent. This paper was accepted by Martin Bichler, market design, platform, and demand analytics. Supplemental Material: The data files are available at https://doi.org/10.1287/mnsc.2024.08557 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08557",
+    "published_date": "2026-06-09",
+    "source": "MS",
+    "first_seen": "2026-06-10",
+    "abstract_missing": false,
+    "summary": "本文研究了使用强化学习（特别是Q-learning）的定价算法是否会自主、系统地学会合谋，从而产生超竞争价格。尽管有研究认为Q-learning可能导致算法合谋，但详细分析表明，Q-learning只能在与企业目标无关的时间尺度上学会合谋均衡，且需要竞争对手在相同时间、使用相同超参数和动作空间同时启动同一算法，而这种同步性远不如简单的替代定价规则有效，实际上暗示了明确的卡特尔协议。论文提出了评估定价算法是否构成实际竞争威胁的标准，并指出目前竞争机构不应过度怀疑定价算法，除非算法被用于实施卡特尔协议或具有合谋意图，即“算法合谋”尚未构成实质威胁。",
+    "keywords": [
+      "定价算法",
+      "强化学习",
+      "Q-learning",
+      "合谋",
+      "竞争政策"
+    ],
+    "ai_comment": "该文澄清了Q-learning算法在合谋上的实际条件限制，为区分算法自主合谋与传统人为合谋提供了重要依据，对反垄断监管具有现实指导意义。",
+    "topic": "市场微观结构"
+  },
+  {
+    "id": "10.1287/mnsc.2024.08311",
+    "title": "Doubly High-Dimensional Contextual Bandits: An Interpretable Model for Joint Assortment-Pricing",
+    "authors": [
+      "Junhui Cai",
+      "Ran Chen",
+      "Martin J. Wainwright",
+      "Linda Zhao"
+    ],
+    "abstract": "Key challenges in running a business include deciding which products or services to present to consumers (the assortment problem) and how to price products (the pricing problem) to maximize revenue or profit. Instead of considering these problems in isolation, we address assortment-pricing jointly and tackle the intrinsic doubly high dimensionality—both actions and contextual vectors can take continuous value in high-dimensional spaces. We propose a doubly high-dimensional contextual bandit model to formulate this problem. To circumvent the curse of dimensionality, our model is simple, yet flexible, capturing the interaction effects between covariates (context) and actions on the reward via a low-rank representation matrix. The resulting class of models is reasonably expressive while remaining interpretable through latent factors and includes various bandit and pricing models as special cases, making it suitable for applications involving simultaneous multiple decision-making beyond joint assortment-pricing. We develop a computationally tractable procedure that combines an exploration/exploitation protocol with an efficient low-rank matrix estimator. We provide a nonasymptotic instance-dependent regret bound involving dimensions and rank in addition to the time horizon. Simulations on standard bandit and pricing models—special cases of our model—demonstrate that our method yields lower regret than state-of-the-art methods. Real-world assortment-pricing case studies, from an industry-leading instant noodle manufacturer to an emerging beauty start-up, underscore the gains achievable using our method, showing at least three-fold gains in revenue/profit and the interpretability of the latent factor models that are learned. This paper was accepted by J. George Shanthikumar, data science. Funding: Financial support from The Wharton School [Wharton AI & Analytics Initiative Fund], the National Science Foundation [Grants DMS-2311072 and DMS-2515896), and the Office of Naval Research [Grant N00014-21-1-2842] is gratefully acknowledged. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08311 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08311",
+    "published_date": "2026-06-09",
+    "source": "MS",
+    "first_seen": "2026-06-10",
+    "abstract_missing": false,
+    "summary": "本文针对企业同时优化产品品类（assortment）和定价（pricing）以实现收益最大化的问题，提出双重高维上下文老虎机（doubly high-dimensional contextual bandit）模型。该模型应对动作和上下文向量均为连续高维的挑战，通过低秩表示矩阵捕捉协变量与动作对奖励的交互效应，在保持可解释性的同时具备灵活的表达能力，并将多种经典老虎机和定价模型作为特例。开发了结合探索/利用协议与高效低秩矩阵估计的计算方法，提供了依赖维度、秩和时间范围的非渐近遗憾界。在标准老虎机与定价模型的模拟中，该方法比现有方法遗憾更低；来自领先方便面制造商和新兴美妆初创公司的实际案例显示，收入/利润至少提升三倍，且学到的潜在因子模型具有可解释性。",
+    "keywords": [
+      "上下文老虎机",
+      "联合品类定价",
+      "低秩表示",
+      "遗憾界",
+      "可解释性"
+    ],
+    "ai_comment": "创新性地将品类与定价联合优化问题建模为双重高维上下文老虎机，低秩结构兼顾了模型表达力与可解释性，实际案例验证了显著的经济收益。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1287/mnsc.2023.04031",
+    "title": "Insufficient Sleep and Intraday Financial Decision Making",
+    "authors": [
+      "Paul G. Freed"
+    ],
+    "abstract": "Using online lending microdata, I show that sleep has important consequences for household financial outcomes. Insufficient sleep raises default risk, particularly for loan applications made in the morning when the effects of a lack of sleep are strongest. For identification, I apply a spatial regression discontinuity design leveraging exogenous discontinuities in sunset time across time zone boundaries, supplemented by analyses utilizing daylight savings time shifts. The results suggest that a behavioral mechanism behind this effect is increased levels of heuristic thinking in the application process, signaling a lack of deliberation in acquiring additional credit under the conditions of poor sleep. These findings are consistent with laboratory studies demonstrating that sleep loss is associated with lower risk aversion and impulsivity. Overall, this study provides the first evidence of the impact of insufficient sleep on household behavior and welfare in credit markets. This paper was accepted by Camelia Kuhnen, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2023.04031 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.04031",
+    "published_date": "2026-06-09",
+    "source": "MS",
+    "first_seen": "2026-06-10",
+    "abstract_missing": false,
+    "summary": "利用在线借贷微观数据，研究睡眠不足对家庭金融决策的影响。通过空间断点回归（利用时区边界日落时间的外生不连续性）和夏令时变更分析进行因果识别，发现睡眠不足显著提高贷款违约风险，尤其在早晨申请的贷款中效应最强。行为机制表明，睡眠不足导致申请人更依赖启发式思维，缺乏审慎考虑，与实验室研究中睡眠损失降低风险厌恶和增加冲动性的结论一致。该研究首次提供了睡眠不足影响家庭信贷市场行为和福利的证据。",
+    "keywords": [
+      "睡眠不足",
+      "家庭金融",
+      "违约风险",
+      "启发式思维",
+      "空间断点回归"
+    ],
+    "ai_comment": "利用时空自然实验（时区边界和夏令时）识别睡眠不足对家庭金融决策的因果效应，为行为金融和家庭金融领域提供了新颖证据。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "10.1111/1475-679x.70073",
+    "title": "Measuring Organizational Capital",
+    "authors": [
+      "Wei Cai",
+      "Andrea Prat",
+      "Jiehang Yu"
+    ],
+    "abstract": "Prior research has pointed to differences in organizational capital as a reason for the persistent performance discrepancies among otherwise similar firms. In this paper, we develop and validate a new measure of organizational capital. Based on over a million crowd‐sourced employee reviews scraped from Glassdoor, we construct the measure of organizational capital at the firm‐year level using the word embedding model and ChatGPT‐generated synthetic reviews. Our measure varies over time in accordance with macro trends, and differs both across and within firms, reflecting firm heterogeneity and major internal changes. We validate our measure by testing empirical predictions of the properties of organizational capital discussed in prior literature. Our findings suggest that this measure captures a slowly evolving intangible asset that is significantly associated with firm performance and top management's influence, aligning with the conceptualization of organizational capital by Dessein and Prat. We further showcase applications of our measure in accounting, economics, finance, and management literature. Taken together, the paper provides implications for various stakeholders who are interested in assessing and managing firms' organizational capital.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70073",
+    "published_date": "2026-06-09",
+    "source": "JAR",
+    "first_seen": "2026-06-10",
+    "abstract_missing": false,
+    "summary": "该论文开发并验证了一种新的组织资本度量方法，基于Glassdoor上超过一百万条众包员工评价，使用word embedding模型和ChatGPT生成的合成评论，构建了公司-年度层面的组织资本度量。该度量随时间变化符合宏观趋势，在不同公司及公司内部均存在差异，反映了公司异质性和重大内部变化。通过测试已有文献中关于组织资本特性的实证预测，验证了度量的有效性。研究发现该度量捕捉了一种缓慢演变的无形资产，与公司绩效和高管影响力显著相关，与Dessein和Prat提出的组织资本概念一致。论文进一步展示了该度量在会计、经济学、金融学和管理学文献中的应用，为评估和管理公司组织资本的利益相关者提供了启示。",
+    "keywords": [
+      "组织资本",
+      "员工评价",
+      "词嵌入",
+      "ChatGPT",
+      "公司绩效"
+    ],
+    "ai_comment": "创新性地结合众包评价与生成式AI构建组织资本度量，验证充分且跨领域应用前景广阔。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104311",
+    "title": "Firm-to-firm financial linkages and dollar risk transmission",
+    "authors": [
+      "Bryan Hardy",
+      "Felipe Saffie",
+      "Ina Simonovska"
+    ],
+    "abstract": "We study how U.S. dollar fluctuations transmit through domestic supply chains in emerging markets. Large firms borrow in foreign currency and extend trade credit to domestic partners, exposing the supply chain to exchange rate risk. We develop a model where financially constrained suppliers pass through shocks to buyers, while unconstrained firms absorb them. Using quarterly firm-level data from 19 emerging markets, we provide empirical evidence consistent with the model’s predictions. We find that even highly exposed firms reduce trade credit only modestly following a depreciation, while accepting large profit losses, suggesting that firm-to-firm credit relationships partially shield downstream firms from financial shocks.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104311",
+    "published_date": "2026-06-09",
+    "source": "JFE",
+    "first_seen": "2026-06-10",
+    "abstract_missing": false,
+    "summary": "本文研究美元汇率波动如何通过国内供应链在新兴市场中传导。大企业借入外币并为其国内合作伙伴提供贸易信贷，从而使供应链面临汇率风险。作者构建了一个模型，其中财务受限的供应商将冲击传递给买家，而财务不受限的企业则吸收冲击。利用19个新兴市场的季度企业层面数据，提供了与模型预测一致的实证证据。结果发现，即使高度暴露的企业在货币贬值后也仅适度减少贸易信贷，而承担了较大的利润损失，这表明企业间信贷关系在一定程度上保护了下游企业免受金融冲击。",
+    "keywords": [
+      "美元风险",
+      "贸易信贷",
+      "供应链",
+      "汇率风险",
+      "新兴市场"
+    ],
+    "ai_comment": "本文揭示了企业间金融联系在汇率风险传导中的关键作用，强调贸易信贷作为缓冲机制的重要性，为理解新兴市场供应链韧性提供了新视角。",
+    "topic": "国际金融"
+  },
+  {
     "id": "w35314",
     "title": "Innovation without Borders? The Geography of Technological Diffusion",
     "authors": [
@@ -208,6 +332,31 @@
     ],
     "ai_comment": "本文的亮点在于利用准实验设计识别了最后一公里配送的因果效应，并创新性地将因果机器学习与运营优化结合，为配送资源分配提供了可落地的决策框架。",
     "topic": "其他"
+  },
+  {
+    "id": "10.1111/jofi.70043",
+    "title": "Private Equity and Pay Gaps Inside the Firm",
+    "authors": [
+      "Lily Fang",
+      "Jim Goldman",
+      "Alexandra Roulet"
+    ],
+    "abstract": "Using two decades of French administrative data, we find that post‐leveraged buyout (LBO), target firms reduce within‐firm pay gaps while increasing profitability relative to control firms. Employee turnover drives the pay‐gap reduction. In target and control firms alike, turnovers reduce average pay more at the top of the wage distribution than at the bottom because separated employees are paid more—new joiners less—than similar employees, especially among skilled employees. LBOs amplify this effect through increased turnover among managers. Post‐buyout, p90/p10, gender, age, and managers/non‐managers pay gaps decline by 3%, 9%, 21%, and 4% and the employee pool becomes younger.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70043",
+    "published_date": "2026-06-08",
+    "source": "JF",
+    "first_seen": "2026-06-10",
+    "abstract_missing": false,
+    "summary": "基于二十年的法国行政数据，研究发现私募股权杠杆收购（LBO）后，目标公司相对于控制公司缩小了内部薪酬差距，同时提高了盈利能力。薪酬差距的缩小主要由员工流动驱动。在目标公司和控制公司中，离职均导致工资分布顶端的平均薪酬下降幅度大于底端，因为离职员工的薪酬高于类似员工，而新入职员工薪酬更低，尤其在技能员工中。LBO通过增加管理层的流动放大了这一效应。收购后，p90/p10、性别、年龄和管理层与非管理层之间的薪酬差距分别下降3%、9%、21%和4%，员工队伍趋于年轻化。",
+    "keywords": [
+      "私募股权",
+      "薪酬差距",
+      "员工流动",
+      "杠杆收购",
+      "法国"
+    ],
+    "ai_comment": "利用大规模行政数据深入剖析私募股权对内部薪酬结构的实际影响，揭示了员工流动作为核心机制，并细化了不同维度的薪酬差距变化，为相关研究提供了有力的微观证据。",
+    "topic": "公司金融"
   },
   {
     "id": "10.1287/mnsc.2026.01340",
@@ -4240,16 +4389,22 @@
       "John Chalmers",
       "Arash Dayani"
     ],
-    "abstract": "",
+    "abstract": "We document two distinct mutual fund strategies: “Swinging for the Fences” (SF), in which managers hold stocks with extreme style-adjusted returns on either tail of the return distribution, and “Batting for Average” (BA), in which managers seek stocks with consistently moderate performance. We provide evidence that these strategies are persistent and deliberate. Existing measures of active management and known asset-pricing factors do not explain the strategies. SF attracts more flow, particularly when funds mention specific stock holdings in shareholder reports. SF funds charge higher fees and hold riskier portfolios; yet, they fail to deliver higher risk-adjusted returns. In falsification tests, SF strategies are not present in passive funds, supporting our conclusion that SF and BA are intentional strategies.",
     "url": "https://doi.org/10.1017/s0022109026102865",
     "published_date": "2026-04-23",
     "source": "JFQA",
     "first_seen": "2026-04-23",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本文记录了两种显著不同的共同基金策略：“本垒打策略”（Swinging for the Fences, SF）和“保送策略”（Batting for Average, BA）。SF策略的管理者持有风格调整后极端收益（位于收益分布两端）的股票，而BA策略的管理者则寻求持续中等表现的股票。研究表明，这两种策略具有持续性和有意性。现有的主动管理度量指标和已知资产定价因子均无法解释这些策略。SF策略吸引了更多的资金流入，尤其是在基金股东报告中提及具体持仓时。SF基金收取更高的费用并持有风险更高的投资组合，但未能提供更高的风险调整后收益。在虚假检验中，被动基金中不存在SF策略，这支持了SF和BA是有意策略的结论。",
+    "keywords": [
+      "共同基金策略",
+      "SF策略",
+      "BA策略",
+      "主动管理",
+      "资金流"
+    ],
+    "ai_comment": "本文揭示了一种看似吸引眼球但并未带来超额收益的主动管理策略，为投资者提供了重要洞察，同时也对现有基金绩效评估框架提出了挑战。",
+    "topic": "公司金融",
     "kw_norm": true,
     "cited_by_count": 0
   },
@@ -8317,16 +8472,22 @@
       "Dominik Walter",
       "Patrick Weiss"
     ],
-    "abstract": "",
+    "abstract": "In January 2025, CRSP discontinued the existing stock tape used in many published papers. This transition rewrites 9.62% of monthly returns by more than 1 basis point (bp), primarily due to a change in the dividend reinvestment assumption. Analyzing the impact for a comprehensive set of premia in several thousand sorting specifications reveals that, on average, 11.43% of all monthly long-short returns differ by more than 10 bp—especially in early periods, NBER recessions, and return-based sorts. Reassuringly, average premia and their significance remain largely unaffected, suggesting CRSP changes mainly introduce unsystematic variation without altering key asset pricing conclusions.",
     "url": "https://doi.org/10.1017/s0022109026102774",
     "published_date": "2026-03-24",
     "source": "JFQA",
     "first_seen": "2026-03-24",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "这篇论文研究了CRSP数据库在2025年1月发生的重大更新，即停用旧股票数据库并采用新数据库，由于股息再投资假设的变化，导致9.62%的月度收益率变化超过1个基点。通过在数千种排序规范中检查多种因子溢价，发现平均有11.43%的月度多空组合收益率差异超过10个基点，这种影响在早期时期、NBER衰退期和基于收益率的排序中尤为显著。然而，平均溢价及其统计显著性基本未受影响，表明CRSP的变化主要引入了非系统性波动，并未改变关键的资产定价结论。",
+    "keywords": [
+      "CRSP数据库",
+      "月度收益率",
+      "资产定价",
+      "股息再投资",
+      "因子溢价"
+    ],
+    "ai_comment": "本文提供了一个关于数据更新如何影响实证资产定价研究的重要警示，表明虽然个别观测值发生显著变化，但总体结论稳健，强调了数据来源变更对复制研究和稳健性检验的重要性。",
+    "topic": "资产定价",
     "kw_norm": true,
     "cited_by_count": 0
   },
