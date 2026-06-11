@@ -1,5 +1,29 @@
 [
   {
+    "id": "10.1111/1475-679x.70074",
+    "title": "Textual Analysis by Hedge Funds",
+    "authors": [
+      "Sipeng Zeng",
+      "Kuo Zhou"
+    ],
+    "abstract": "Combining hedge funds’ quarterly position information with their access records on the SEC's EDGAR server, we explore whether hedge funds proactively gather and analyze textual information in 10‐K filings related to their stock holdings, and how these behaviors affect their positions. We find that hedge funds adjust their positions according to the textual information in the annual reports they download. Meanwhile, analyzing these reports helps them to generate excess returns. Overall, our evidence suggests that the textual content of annual reports contains crucial company insights, prompting a subset of hedge funds that engage in bulk downloads from the SEC's website to trade based on diligent analysis of 10‐K filings.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70074",
+    "published_date": "2026-06-10",
+    "source": "JAR",
+    "first_seen": "2026-06-11",
+    "abstract_missing": false,
+    "summary": "该研究结合对冲基金的季度持仓信息及其在SEC EDGAR服务器上的访问记录，探讨对冲基金是否主动收集和分析与其持股相关的10-K文件中的文本信息，以及这些行为如何影响其持仓。研究发现，对冲基金根据其下载的年度报告中的文本信息调整持仓，同时分析这些报告有助于其产生超额收益。总体而言，年度报告的文本内容包含关键的公司见解，促使一部分对冲基金基于对10-K文件的勤勉分析进行交易。",
+    "keywords": [
+      "对冲基金",
+      "文本分析",
+      "10-K文件",
+      "信息披露",
+      "超额收益"
+    ],
+    "ai_comment": "该研究通过独特的EDGAR访问记录数据，直接揭示了对冲基金利用公开文本信息进行交易决策的行为，为文本分析在资产定价中的应用提供了有力证据。",
+    "topic": "会计与信息披露"
+  },
+  {
     "id": "10.1287/mnsc.2024.08557",
     "title": "Artificial Collusion: Examining Supracompetitive Pricing by Q-Learning Algorithms",
     "authors": [
@@ -72,6 +96,30 @@
     ],
     "ai_comment": "利用时空自然实验（时区边界和夏令时）识别睡眠不足对家庭金融决策的因果效应，为行为金融和家庭金融领域提供了新颖证据。",
     "topic": "家庭金融"
+  },
+  {
+    "id": "10.1111/jofi.70060",
+    "title": "The Debt‐Equity Spread",
+    "authors": [
+      "Hui Chen",
+      "Zhiyao Chen",
+      "Jun Li"
+    ],
+    "abstract": "We propose a measure of the valuation gap between debt and equity—debt‐equity spread (DES)—based on the difference between actual and equity‐implied credit spreads. DES predicts cross‐sectional stock and bond returns in opposite directions. This predictability is unique compared to existing mispricing measures and cannot be explained by exposures to various risk factors. High‐DES firms are more likely to issue equity and retire debt, and have more insider equity selling. These findings are consistent with DES capturing relative mispricing between debt and equity, and provide empirical support for the model of partially segmented markets in Greenwood, Hanson, and Liao (2018, Review of Financial Studies 31, 3307–3343).",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70060",
+    "published_date": "2026-06-09",
+    "source": "JF",
+    "first_seen": "2026-06-11",
+    "abstract_missing": false,
+    "summary": "本文提出一种衡量债务与股权之间估值差距的新指标——债务-权益利差（DES），定义为实际信用利差与权益隐含信用利差之差。实证发现，DES能够反向预测横截面上股票和债券的未来收益，且这种预测能力相对于现有的错误定价指标是独特的，不能被常见的风险因子所解释。此外，高DES的公司更倾向于发行股权并偿还债务，同时内部人卖出股权的行为也更多。这些结果与DES捕捉债务与股权相对错误定价的解释一致，并为Greenwood、Hanson和Liao（2018）提出的部分分割市场模型提供了实证支持。",
+    "keywords": [
+      "债务-权益利差",
+      "相对错误定价",
+      "横截面收益预测",
+      "资本结构决策"
+    ],
+    "ai_comment": "创新性地利用债务与股权之间的定价差异构建了新的错误定价指标，并系统验证了其在资产定价和公司财务决策中的有效性，为理解市场分割提供了有力证据。",
+    "topic": "资产定价"
   },
   {
     "id": "10.1111/1475-679x.70073",
