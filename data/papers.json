@@ -1,5 +1,28 @@
 [
   {
+    "id": "10.1287/mnsc.2025.01690",
+    "title": "Fund Flows, Liquidity, and Asset Prices",
+    "authors": [
+      "Minsoo Kim"
+    ],
+    "abstract": "Unexpected fund flows may force mutual funds to liquidate assets, thereby depressing demand for securities that become illiquid during outflows. This paper shows that the liquidity beta on flows—defined as the comovement of a security’s liquidity costs with aggregate fund flow shocks—earns a significant risk premium in corporate bonds using firm-month fixed effects and a granular instrumental variables approach. The liquidity beta varies substantially even among bonds issued by the same firm and is largely driven by the interaction between redemption-driven forced sales and bond-level illiquidity. These findings highlight how fund flow shocks amplify liquidity risk through mutual funds' forced sales, shaping the cross section of expected corporate bond returns. This paper was accepted by Lukas Schmid, finance. Funding: This work was supported by the University of Melbourne and London Business School. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.01690 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.01690",
+    "published_date": "2026-06-11",
+    "source": "MS",
+    "first_seen": "2026-06-12",
+    "abstract_missing": false,
+    "summary": "本文研究共同基金资金流冲击如何通过强制资产清算影响公司债券的流动性风险定价。利用公司-月固定效应和粒度工具变量方法，论文发现证券的流动性成本与总基金流冲击的协同变动（即流动性贝塔）在公司债券中具有显著的风险溢价。同一公司发行的不同债券之间流动性贝塔差异巨大，且主要由赎回驱动的强制销售与债券层面非流动性之间的相互作用驱动。这些结论揭示了基金流冲击通过共同基金强制销售放大流动性风险，进而塑造公司债券预期收益横截面的机制。",
+    "keywords": [
+      "流动性贝塔",
+      "基金流",
+      "流动性风险",
+      "公司债券",
+      "强制销售"
+    ],
+    "ai_comment": "论文从共同基金资金流冲击的角度创新地度量了流动性风险溢价，并利用同一公司内债券的异质性验证了强制销售机制，为流动性定价提供了微观证据。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1111/1475-679x.70074",
     "title": "Textual Analysis by Hedge Funds",
     "authors": [
