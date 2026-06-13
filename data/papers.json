@@ -1,5 +1,52 @@
 [
   {
+    "id": "10.1287/mnsc.2025.00564",
+    "title": "Climate Transition Beliefs",
+    "authors": [
+      "Marco Ceccarelli",
+      "Stefano Ramelli"
+    ],
+    "abstract": "We study an overlooked driver of heterogeneity in green investment behavior: differences in expectations about the long-term trajectory of the energy transition (climate transition beliefs). Drawing on a survey of U.S. retail investors, we document considerable heterogeneity in climate transition beliefs at different long-term horizons. Transition optimism is positively associated with expected green financial performance and preferences for green investments, particularly among investors without strong pro-environmental attitudes. Two preregistered survey experiments provide causal evidence that transition beliefs play a key role in shaping green return expectations and investment decisions. Distinguishing between heterogeneous beliefs and preferences is crucial for a better understanding of the motivations behind green investment behavior. This paper was accepted by Caroline Flammer, sustainability. Funding: This work was supported by the Universität St. Gallen Basic Research Fund [Grant 2130787]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.00564 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.00564",
+    "published_date": "2026-06-12",
+    "source": "MS",
+    "first_seen": "2026-06-13",
+    "abstract_missing": false,
+    "summary": "研究了一个被忽视的绿色投资行为异质性的驱动因素：投资者对能源转型长期轨迹的预期差异（即climate transition beliefs）。基于对美国散户投资者的调查，发现不同长期期限下气候转型信念存在显著异质性。转型乐观与预期绿色财务表现和绿色投资偏好正相关，尤其是在没有强烈环保态度的投资者中。两个预先注册的调查实验提供了因果证据，表明转型信念在形成绿色回报预期和投资决策中起关键作用。区分异质性信念和偏好对于更好地理解绿色投资行为背后的动机至关重要。",
+    "keywords": [
+      "气候转型信念",
+      "绿色投资",
+      "预期异质性",
+      "调查实验"
+    ],
+    "ai_comment": "本文通过区分信念与偏好，揭示了绿色投资行为中预期异质性的重要作用，并利用实验方法提供了因果证据，对理解可持续投资动机有重要贡献。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1287/mnsc.2024.04717",
+    "title": "The AI Democratization Paradox: Evidence from Decentralized Knowledge Communities",
+    "authors": [
+      "Kai Zhu",
+      "Dylan Walker"
+    ],
+    "abstract": "Does AI democratize knowledge production or amplify existing disparities? We investigate this tension by studying the deployment of neural machine translation across more than 100 Wikipedia language communities. Leveraging rich, fine-grained data and exogenous variation from a natural experiment, we uncover the “AI democratization paradox,” where the technology simultaneously drives democratizing and concentrating forces. AI lowered barriers, leading to a substantial increase in content creation across diverse target languages without sacrificing quality or readership. However, the benefits were concentrated: well-resourced communities captured disproportionate gains—three to four times larger than mid-tier editions. Whereas editors actively leveraged AI to address representation gaps, translating female biographies at twice the expected rate, structural constraints still limited the impact in high-need areas. We conclude that technological solutions alone cannot overcome structural inequalities; AI’s distributional impact is contingent on the interplay between technological capabilities and existing social structures. This paper was accepted by Anindya Ghose, information systems. Funding: This work was supported by the Wikimedia Research & Technology Fund and European Union – NextGenerationEU funds, Component M4.C2, Investment 1.1, PRIN 2022 PNRR, CUP: J53D23015440001. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.04717 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.04717",
+    "published_date": "2026-06-12",
+    "source": "MS",
+    "first_seen": "2026-06-13",
+    "abstract_missing": false,
+    "summary": "该论文研究了神经机器翻译在100多个Wikipedia语言社区中的部署，通过利用丰富的细粒度数据和自然实验的外生变化，揭示了“AI民主化悖论”：AI降低了内容创建门槛，导致不同目标语言的内容创作大幅增加，且未牺牲质量或读者群。然而，收益集中在资源丰富的社区，其收益是中端社区的3到4倍。编辑者积极利用AI解决代表性差距，翻译女性传记的比例是预期的两倍，但结构性限制仍然限制了高需求领域的影响。论文结论认为，技术解决方案无法单独克服结构性不平等；AI的分配效应取决于技术能力与现有社会结构之间的相互作用。",
+    "keywords": [
+      "神经机器翻译",
+      "知识生产",
+      "结构不平等",
+      "Wikipedia社区",
+      "AI民主化悖论"
+    ],
+    "ai_comment": "本文通过自然实验设计，提供了AI对知识生产不平等影响的经验证据，揭示了技术赋能与结构性约束之间的张力。",
+    "topic": "其他"
+  },
+  {
     "id": "10.1287/mnsc.2025.01690",
     "title": "Fund Flows, Liquidity, and Asset Prices",
     "authors": [
