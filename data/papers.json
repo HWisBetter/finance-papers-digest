@@ -4991,15 +4991,19 @@
       "Mehrshad Motahari",
       "Ville Rantala"
     ],
-    "abstract": "",
+    "abstract": "An abstract is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
     "url": "https://doi.org/10.1017/s0022109026102610",
     "published_date": "2026-04-20",
     "source": "JFQA",
     "first_seen": "2026-04-20",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
+    "abstract_missing": false,
+    "summary": "由于摘要不可用，无法获取论文的具体内容。仅从标题推测，该论文可能研究明星企业（Star Firms）的信息溢出效应如何导致行业层面的可预测结果。",
+    "keywords": [
+      "明星企业",
+      "信息溢出",
+      "行业预测"
+    ],
+    "ai_comment": "摘要缺失，无法评估论文的具体贡献，但标题暗示了信息溢出在行业预测中的重要性。",
     "topic": "其他",
     "kw_norm": true,
     "cited_by_count": 0
@@ -10985,15 +10989,18 @@
       "Guanglian Hu",
       "Kris Jacobs"
     ],
-    "abstract": "",
+    "abstract": "An abstract is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
     "url": "https://doi.org/10.1017/s0022109026102683",
     "published_date": "2026-02-16",
     "source": "JFQA",
     "first_seen": "2026-02-16",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
+    "abstract_missing": false,
+    "summary": "摘要不可用，无法提供总结。",
+    "keywords": [
+      "波动率",
+      "收益"
+    ],
+    "ai_comment": "无摘要信息，无法评价。",
     "topic": "其他",
     "kw_norm": true,
     "cited_by_count": 0
@@ -11005,16 +11012,19 @@
       "Hamid Boustanifar",
       "Sasan Mansouri"
     ],
-    "abstract": "",
+    "abstract": "An abstract is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
     "url": "https://doi.org/10.1017/s0022109026102634",
     "published_date": "2026-02-16",
     "source": "JFQA",
     "first_seen": "2026-02-16",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "提供的论文摘要不可用，无法获取研究内容。",
+    "keywords": [
+      "管理层披露",
+      "媒体报道"
+    ],
+    "ai_comment": "由于摘要缺失，无法提供有效评论。",
+    "topic": "会计与信息披露",
     "kw_norm": true,
     "cited_by_count": 0
   },
@@ -15517,6 +15527,25 @@
     "topic": "其他"
   },
   {
+    "title": "CFOs Meet LLMs",
+    "authors": [
+      "Campbell R. Harvey",
+      "J. M. R. Graham",
+      "Manish Jha"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6920881",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6920881",
+    "first_seen": "2026-06-14",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "id": "10.1093/rfs/hhaf114",
     "title": "When Two Become One: Foreign Capital and Household Credit Expansion",
     "authors": [
@@ -18140,15 +18169,17 @@
       "Eric Ghysels",
       "Mirco Rubin"
     ],
-    "abstract": "",
+    "abstract": "An abstract is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
     "url": "https://doi.org/10.1017/s002210902510241x",
     "published_date": "2025-11-12",
     "source": "JFQA",
     "first_seen": "2025-11-12",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
+    "abstract_missing": false,
+    "summary": "论文摘要未提供，无法获取研究内容。",
+    "keywords": [
+      "无法确定"
+    ],
+    "ai_comment": "由于摘要缺失，无法进行有效点评。",
     "topic": "其他",
     "kw_norm": true,
     "cited_by_count": 1
@@ -26582,16 +26613,20 @@
       "Guangzhong Li",
       "Roni Michaely"
     ],
-    "abstract": "",
+    "abstract": "An abstract is not available for this content so a preview has been provided. As you have access to this content, a full PDF is available via the ‘Save PDF’ action button.",
     "url": "https://doi.org/10.1017/s0022109024000383",
     "published_date": "2025-08-08",
     "source": "JFQA",
     "first_seen": "2025-08-08",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本文没有提供摘要，只有预览。有访问权限的用户可以通过“保存PDF”按钮获取全文。",
+    "keywords": [
+      "信息溢出",
+      "公司政策",
+      "上市期权"
+    ],
+    "ai_comment": "该文为附录，未提供摘要，读者需通过全文了解具体内容。",
+    "topic": "衍生品",
     "kw_norm": true,
     "cited_by_count": 0
   },
