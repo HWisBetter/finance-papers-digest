@@ -1,5 +1,154 @@
 [
   {
+    "id": "w35342",
+    "title": "Measuring Financial Literacy with the Big Three: Why It Works",
+    "authors": [
+      "Tim Kaiser",
+      "Annamaria Lusardi",
+      "Olivia S. Mitchell",
+      "Luis Oberrauch"
+    ],
+    "abstract": "This paper investigates why the widely-used Big Three financial literacy index provides a reliable measure of financial literacy. Using an Item Response Theory framework, we estimate item difficulty and discrimination parameters and conduct a meta analysis to assess the stability of these properties across datasets and countries. Results confirm the scale's validity and reliability, with item characteristics that remain stable across populations and settings. We find no evidence of measurement differences across demographic subgroups or countries. Compared to the longer Big Five scale, the Big Three index performs similarly in measuring financial literacy and predicting financial behaviors.",
+    "url": "https://www.nber.org/papers/w35342",
+    "published_date": "2026-06-15",
+    "source": "NBER",
+    "first_seen": "2026-06-15",
+    "abstract_missing": false,
+    "summary": "本文探讨了广泛使用的Big Three金融素养指数为何能提供可靠的金融素养测量。运用项目反应理论（Item Response Theory）框架，估计了项目的难度和区分度参数，并进行了元分析以评估这些属性在不同数据集和国家间的稳定性。结果证实了该量表的效度和信度，项目特征在人群和环境间保持稳定。未发现不同人口统计子群体或国家间存在测量差异。与更长的Big Five量表相比，Big Three指数在测量金融素养和预测金融行为方面表现相似。",
+    "keywords": [
+      "金融素养",
+      "Big Three指数",
+      "项目反应理论",
+      "元分析",
+      "量表效度"
+    ],
+    "ai_comment": "该研究通过严谨的心理测量学和元分析方法，为Big Three指数的广泛应用提供了坚实的实证支持，并展示了其跨群体和国家的测量不变性，具有方法论贡献。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "w35335",
+    "title": "Monopsony Power and the Transmission of Monetary Policy",
+    "authors": [
+      "Bence Bardóczy",
+      "Gideon Bornstein",
+      "Sergio Salgado"
+    ],
+    "abstract": "This paper studies how labor market power affects the transmission of monetary policy. Using administrative U.S. Census data, we show that firms with high monopsony power—defined as those accounting for over 10 percent of the local wage bill—respond less to monetary policy in terms of their wage bill and employment. We then develop a New Keynesian model with heterogeneous firms and oligopsonistic competition to interpret these findings. Wage stickiness combined with firms’ labor market power is key to generating the heterogeneous responses that we document. Our model highlights two channels through which oligopsony shapes the aggregate effects of monetary policy: partial passthrough and misallocation. Calibrated to U.S. labor markets, the model implies that the decline in labor market power since the 1980s has increased the output response to monetary policy by about 10 percent and accounts for about 15 percent of the estimated flattening of the Phillips curve.",
+    "url": "https://www.nber.org/papers/w35335",
+    "published_date": "2026-06-15",
+    "source": "NBER",
+    "first_seen": "2026-06-15",
+    "abstract_missing": false,
+    "summary": "本文研究劳动力市场垄断势力如何影响货币政策的传导。利用美国人口普查行政数据，发现高垄断势力（占当地工资账单10%以上）的企业在工资和就业方面对货币政策的反应较小。作者构建了一个包含异质性企业和寡头垄断竞争的新凯恩斯模型，以解释这些发现。工资粘性结合企业劳动力市场力量是产生所记录的异质性反应的关键。模型突出了寡头垄断影响货币政策总体效应的两个渠道：部分传导和资源错配。校准至美国劳动力市场后，模型表明自1980年代以来劳动力市场力量的下降使货币政策对产出的响应增加了约10%，并解释了菲利普斯曲线平坦化估计值的约15%。",
+    "keywords": [
+      "垄断势力",
+      "货币政策传导",
+      "劳动市场力量",
+      "新凯恩斯模型",
+      "工资粘性"
+    ],
+    "ai_comment": "本文通过微观数据与宏观模型的结合，量化了劳动力市场力量对货币政策传导的影响，并揭示了其与菲利普斯曲线平坦化的重要关联，具有创新性和政策意义。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35323",
+    "title": "How Do Financial and Longevity Literacy Affect Annuity Demand?",
+    "authors": [
+      "Jeffrey R. Brown"
+    ],
+    "abstract": "Deciding whether to use an annuity to draw down accumulated retirement wealth is among the most complex financial decisions individuals face. It requires reasoning about longevity risk, stochastic income streams, and largely irreversible tradeoffs, often at older ages and with limited opportunities to learn from experience. This paper reviews theoretical, empirical, and experimental research to examine how financial literacy and longevity literacy shape annuitization decisions. While some extensions of the standard lifecycle model can rationalize low annuity demand, their explanatory power depends on individuals’ ability to optimize over a set of complex risks and tradeoffs. Evidence shows that, although financial and longevity literacy are only weakly and inconsistently related to annuity take-up, they are strongly associated with retirement planning, the coherence of annuity valuations, and sensitivity to framing and choice architecture. These patterns suggest that literacy should be understood not as a direct determinant of annuity demand, but as a constraint on the extent to which observed annuitization behavior can be interpreted as revealing true preferences.",
+    "url": "https://www.nber.org/papers/w35323",
+    "published_date": "2026-06-15",
+    "source": "NBER",
+    "first_seen": "2026-06-15",
+    "abstract_missing": false,
+    "summary": "该论文综述了理论、实证和实验研究，探讨金融素养和长寿素养如何影响年金化决策。研究发现，尽管金融素养和长寿素养与年金购买行为之间的直接关联较弱且不一致，但它们与退休规划、年金估值的一致性以及对框架和选择架构的敏感性密切相关。论文提出，素养不应被视为年金需求的直接决定因素，而应视为限制人们将观察到的年金化行为解释为真实偏好表达程度的约束条件。",
+    "keywords": [
+      "金融素养",
+      "长寿素养",
+      "年金需求",
+      "退休规划",
+      "行为金融"
+    ],
+    "ai_comment": "本文创新性地将素养视为解读年金行为的约束条件而非直接驱动因素，为低年金化之谜提供了新颖的理论视角。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "w35321",
+    "title": "Optimal Medical Liability for AI",
+    "authors": [
+      "Alex Chan"
+    ],
+    "abstract": "I study medical liability when artificial intelligence acts as a doctor rather than as a passive clinical tool. The central object is the legally usable medical record: the inputs, logs, warnings, prescriptions, follow-up instructions, and outcomes on which courts, contracts, insurers, and regulators can condition responsibility. I show that AI medical liability is an institutional design problem under imperfect legal information. If the record separates AI-controllable error from patient nonadherence and natural disease progression, high-powered AI-fault liability implements the standard accident-law ideal. If the record is coarse, the first best may be infeasible: the same transfer that disciplines the AI also insures the patient's hidden action. With joint causation, the relevant object is a marginal-responsibility score rather than a posterior cause label. I characterize the feasible set of liability incentives generated by the record and show when the optimal rule is no liability, strict liability, negligence, a safe harbor, comparative fault, or a continuous warranty. I then study algorithmic defensive design, through which AI developers can design not only medical recommendations but also the record on which future liability depends. Adoption, learning, enterprise liability, insurance, no-fault compensation, and regulation enter as ways to change the record, the liable entity, or the financing of compensation. The framework yields conditional implications rather than a one-size-fits-all rule.",
+    "url": "https://www.nber.org/papers/w35321",
+    "published_date": "2026-06-15",
+    "source": "NBER",
+    "first_seen": "2026-06-15",
+    "abstract_missing": false,
+    "summary": "本文研究当人工智能作为医生（而非被动临床工具）时的医疗责任问题。核心概念是“合法可用的医疗记录”，即法院、合同、保险公司和监管机构可据此划分责任的输入、日志、警告、处方、随访指示和结果。作者表明，在不完美法律信息下，AI医疗责任是一个制度设计问题。如果记录能区分AI可控错误、患者不依从和自然疾病进展，则基于AI过错的高强度责任可实现标准事故法理想；若记录粗糙，则最优可能不可行，因为约束AI的同一转移也保险了患者的隐藏行为。在共同因果关系下，相关对象是边际责任分数而非事后原因标签。论文刻画了记录产生的可行责任激励集，并展示了最优规则何时为无责任、严格责任、过失责任、安全港、比较过失或连续担保。随后研究了算法防御性设计，即AI开发者不仅设计医疗建议，还设计未来责任所依赖的记录。采纳、学习、企业责任、保险、无过错补偿和监管作为改变记录、责任实体或补偿融资的方式进入分析。该框架产生条件性含义而非一刀切规则。",
+    "keywords": [
+      "人工智能",
+      "医疗责任",
+      "制度设计",
+      "法律记录",
+      "最优责任规则"
+    ],
+    "ai_comment": "本文创新性地将AI医疗责任纳入制度设计框架，强调法律记录的信息角色，并提供了不同记录精细度下最优责任规则的条件性结论，对AI监管具有理论指导意义。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35319",
+    "title": "Beliefs and Actions under Government Policy Uncertainty: Evidence from Student Loan Forgiveness",
+    "authors": [
+      "Dmitri K. Koustas",
+      "Michael Weber",
+      "Constantine Yannelis"
+    ],
+    "abstract": "How does uncertainty about future government policy affect households’ beliefs and subsequent borrowing, spending and debt payment behavior? We study these questions through the lens of student loan forgiveness in the United States, which following electoral promises, was announced in 2022 but never implemented due to judicial rulings. We conduct a customized information provision experiment embedded in a survey eliciting real-time beliefs about future debt forgiveness and repayment, which we link to credit bureau data, employment verification data, and nondurables consumption. Eligible borrowers who are more optimistic about forgiveness reduce payments on student loans by \\$40 per month and increase non-durable spending by  $100 per month. We also find some evidence optimistic borrowers may postpone durable spending waiting for uncertainty to resolve. Borrowers  optimistic about future payment pauses make fewer payments on their student loans, reduce payment by $40 per month and are 7.5 percentage points more likely to be delinquent after payments resume. A quantification exercise finds welfare losses from incorrect beliefs can exceed 43 percent of the initial loan balance. Our results provide micro-evidence on the role of policy uncertainty in household decision-making, and have implications for government announcements and commitment policy.",
+    "url": "https://www.nber.org/papers/w35319",
+    "published_date": "2026-06-15",
+    "source": "NBER",
+    "first_seen": "2026-06-15",
+    "abstract_missing": false,
+    "summary": "本文研究政府政策不确定性如何影响家庭的信念及其后的借贷、支出和债务偿还行为，以美国学生贷款减免政策为案例。该政策于2022年宣布但因司法裁决未实施。作者通过嵌入在调查中的定制化信息提供实验，实时获取借款人对未来债务减免和还款的信念，并将其与信用局数据、就业验证数据和非耐用品消费数据相关联。研究发现，对减免更乐观的合格借款人每月学生贷款支付减少40美元，非耐用品支出增加100美元；乐观者可能推迟耐用品支出以等待不确定性解决。对未来还款暂停持乐观态度的借款人支付次数减少，月付降低40美元，且在还款恢复后违约可能性增加7.5个百分点。量化分析表明，错误信念导致的福利损失可超过初始贷款余额的43%。这些结果为政策不确定性在家庭决策中的作用提供了微观证据，并对政府公告和承诺政策具有启示意义。",
+    "keywords": [
+      "政策不确定性",
+      "学生贷款减免",
+      "家庭金融",
+      "信念",
+      "消费行为"
+    ],
+    "ai_comment": "本文通过自然实验与调查数据结合，首次量化了政策不确定性对家庭微观行为的因果效应，揭示了信念偏差对福利的显著影响，为政策设计与沟通提供了重要参考。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "10.1093/rfs/hhag057",
+    "title": "The Variance Premium and Seasonal Momentum in Option Returns",
+    "authors": [
+      "Steven L Heston",
+      "Christopher S Jones",
+      "Mehdi Khorram",
+      "Shuaiqi Li",
+      "Haitao Mo"
+    ],
+    "abstract": "We develop a model-free measure of the variance premium by constructing option portfolios whose returns are highly correlated with realized stock variance. This effectively decomposes returns into realized variance minus implied variance. We apply this decomposition to document a novel quarterly cross-sectional continuation pattern in both realized variance and implied variance of individual stocks. Implied variance underanticipates the seasonality of realized variance, so options that performed well at quarterly lags continue to earn high returns in the future. Quarterly periodicity in realized stock variance only occurs on days with analyst earning revisions, suggesting an informational channel for this pattern. (JEL G12, G13, G40)",
+    "url": "https://doi.org/10.1093/rfs/hhag057",
+    "published_date": "2026-06-13",
+    "source": "RFS",
+    "first_seen": "2026-06-15",
+    "abstract_missing": false,
+    "summary": "本文开发了一种无模型度量方差溢价的方法，通过构建与已实现股票方差高度相关的期权组合，将收益分解为已实现方差减去隐含方差。利用这一分解，论文在个股的已实现方差和隐含方差中发现了一种新的季度横截面延续模式。隐含方差低估了已实现方差的季节性，导致过去季度表现良好的期权未来继续获得高收益。已实现方差的季度周期性仅出现在分析师盈利修正日，表明该模式存在信息渠道。",
+    "keywords": [
+      "方差溢价",
+      "已实现方差",
+      "隐含方差",
+      "期权收益",
+      "季节动量"
+    ],
+    "ai_comment": "该文提出了一个简洁的方差溢价测度，并揭示了期权收益中的季度季节动量，通过分析师盈利修正提供了信息解释，丰富了行为资产定价文献。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2025.00564",
     "title": "Climate Transition Beliefs",
     "authors": [
@@ -2971,15 +3120,17 @@
       "James F. Albertus",
       "Matthew Denes"
     ],
-    "abstract": "",
+    "abstract": "An abstract is not available for this content so a preview has been provided. Please use the Get access link above for information on how to access this content.",
     "url": "https://doi.org/10.1017/s0022109026102890",
     "published_date": "2026-05-07",
     "source": "JFQA",
     "first_seen": "2026-05-07",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
+    "abstract_missing": false,
+    "summary": "摘要内容不可用，无法总结。",
+    "keywords": [
+      "不可用"
+    ],
+    "ai_comment": "摘要缺失，无法点评。",
     "topic": "其他",
     "kw_norm": true,
     "cited_by_count": 0
