@@ -1,5 +1,31 @@
 [
   {
+    "id": "10.1287/mnsc.2024.08833",
+    "title": "Do Hedge Funds Strategically Misreport Their Holdings? Evidence from 13F Restatements",
+    "authors": [
+      "Sean Cao",
+      "Zhi Da",
+      "Xin Daniel Jiang",
+      "Baozhong Yang"
+    ],
+    "abstract": "Hedge funds can subsequently amend their originally reported 13F quarterly holdings using restatements. We conduct the first systematic analysis of such filings, which are as common as confidential filings (used by funds to delay holding disclosures) but affect three times as many stocks. Restated holdings are associated with significant abnormal returns, suggesting that some original holdings are strategically misreported to hide funds’ trading intentions and that later restatements facilitate copycat trading and price convergence. We construct a restatement return gap measure to gauge the value added by such restatements and find that a positive return gap is predictive of superior future fund performance. This paper was accepted by Kay Giesecke, finance. Funding: S. Cao acknowledges support from the AI Initiative from Capital Markets Research at the University of Maryland. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08833 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08833",
+    "published_date": "2026-06-17",
+    "source": "MS",
+    "first_seen": "2026-06-18",
+    "abstract_missing": false,
+    "summary": "本文首次系统性地分析了对冲基金通过13F修正报告策略性地错误报告其季度持股的现象。研究发现，修正报告与保密报告同样普遍（用于延迟持股披露），但影响的股票数量是保密报告的三倍。修正后的持股与显著异常收益相关，表明原始持股可能被策略性错误报告以隐藏基金的交易意图，而后续修正则促进了跟风交易和价格收敛。作者构建了一个修正回报差距指标来衡量修正的附加值，并发现正向回报差距可以预测基金未来的优异表现。",
+    "keywords": [
+      "对冲基金",
+      "13F修正",
+      "策略性错报",
+      "异常收益",
+      "基金表现"
+    ],
+    "ai_comment": "该文首次将13F修正报告作为研究对象，揭示了其在市场信息传递中的重要作用，并构建了具有预测能力的修正回报差距指标。",
+    "topic": "会计与信息披露"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104322",
     "title": "Measuring firms’ capability to absorb external knowledge",
     "authors": [
