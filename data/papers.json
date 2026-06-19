@@ -1,5 +1,103 @@
 [
   {
+    "id": "10.1111/1475-679x.70072",
+    "title": "Consensus? An Examination of Differences in Earnings Information Across Forecast Data Providers",
+    "authors": [
+      "Stephannie Larocque",
+      "Jessica Watkins",
+      "Eric Weisbrod"
+    ],
+    "abstract": "We compare the earnings information produced by the five largest forecast data providers (FDPs)—Bloomberg, Capital IQ, FactSet, I/B/E/S, and Zacks—and observe substantial differences across FDPs in both forecasted and actual street earnings values, and thus the earnings surprise, for the same firm‐quarter. We provide evidence that differences in the earnings surprise across FDPs for the same firm‐quarter (i.e., “FDP differences”) have economically meaningful implications for price responsiveness and liquidity around earnings announcements. We also find that, for announcements where FDPs disagree about whether the announcing firm missed or beat earnings expectations, investors are more likely to side with higher‐quality FDPs but may not fully impound the implications of FDP quality differences during the announcement window. On average, relative to the other FDPs, I/B/E/S ranks highly in our measure of FDP quality, such that investor reactions are likely to align with I/B/E/S earnings information, validating its use as a representative FDP in academic research. Taken together, our results are consistent with FDPs pursuing differentiated information production strategies that generate capital market frictions when these strategies lead to material FDP differences.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70072",
+    "published_date": "2026-06-18",
+    "source": "JAR",
+    "first_seen": "2026-06-19",
+    "abstract_missing": false,
+    "summary": "本文比较了五大预测数据提供商（FDPs）——Bloomberg、Capital IQ、FactSet、I/B/E/S和Zacks——在相同公司-季度中产生的盈利信息，发现它们在预测值、实际street盈利值以及盈利意外方面存在显著差异。研究表明，这些FDP差异对盈利公告期间的价格反应和流动性具有经济意义的影响。当FDPs对公司是否达到或超出盈利预期存在分歧时，投资者更倾向于相信高质量FDPs（如I/B/E/S），但在公告窗口期内可能未能完全反映FDP质量差异的影响。总体而言，结果支持FDPs采用差异化信息生产策略，这些策略在导致实质性差异时会产生资本市场摩擦。",
+    "keywords": [
+      "预测数据提供商",
+      "盈利预测",
+      "盈利意外",
+      "市场微观结构",
+      "信息质量"
+    ],
+    "ai_comment": "本文首次系统比较了主要预测数据提供商的盈利信息差异，并揭示了其经济后果，为学术研究中常用I/B/E/S数据的合理性提供了实证支持。",
+    "topic": "市场微观结构"
+  },
+  {
+    "id": "10.1093/rfs/hhag055",
+    "title": "Green Investing and Political Behavior",
+    "authors": [
+      "Florian Heeb",
+      "Julian F Kölbel",
+      "Stefano Ramelli",
+      "Anna Vasileva"
+    ],
+    "abstract": "A fundamental concern about green investing is that it may crowd out political support for public policies addressing negative externalities. We examine this concern in a preregistered experiment conducted shortly before a real referendum on a climate law in Switzerland. We find that offering an opportunity to invest in a climate-friendly fund does not reduce individual support for climate regulation, measured by political donations and voting intentions. A replication of the experiment in the United Kingdom yields similar results. Our estimates reject a crowding-out effect, suggesting instead a modest crowding-in effect of green investing on political support for green policies. (JEL D14, H42, G18, P16)",
+    "url": "https://doi.org/10.1093/rfs/hhag055",
+    "published_date": "2026-06-18",
+    "source": "RFS",
+    "first_seen": "2026-06-19",
+    "abstract_missing": false,
+    "summary": "该论文通过预注册实验检验了绿色投资是否会挤出对公共政策（如气候法规）的政治支持。实验在瑞士一次气候法公投前夕进行，发现提供投资于气候友好型基金的机会并不会减少个人对气候监管的支持（以政治捐款和投票意向衡量）。在英国复现实验得到类似结果。估计否定了挤出效应，反而表明绿色投资对绿色政策的政治支持有微弱的挤入效应。",
+    "keywords": [
+      "绿色投资",
+      "政治支持",
+      "挤出效应",
+      "实验研究"
+    ],
+    "ai_comment": "该研究通过实地实验（真实公投情境）直接检验了绿色投资与政治支持间的因果关系，结果反驳了常见的挤出担忧，为绿色金融的积极外部性提供了证据。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104321",
+    "title": "Blended finance",
+    "authors": [
+      "Caroline Flammer",
+      "Thomas Giroux",
+      "Geoffrey M. Heal"
+    ],
+    "abstract": "Blended finance—the use of public and philanthropic funding to crowd in private capital—has emerged as a potential tool for financing sustainable development. Yet little is known about the design of blended finance contracts. We develop a conceptual framework in which development finance institutions (DFIs) allocate concessional capital across projects to maximize societal impact while crowding in private investors. Our framework highlights a trade-off between sustainability impact and the amount of concessionality required to make projects commercially viable and characterizes how DFIs optimally combine different instruments, including concessional debt, junior equity tranches, and risk management facilities. We then provide empirical evidence on blended finance using deal-level data from a major DFI. Consistent with our conceptual framework, projects with higher anticipated sustainability impact receive greater concessionality. Moreover, concessionality is higher in countries with greater political risk and information asymmetries, and these projects are more likely to include risk management provisions. Our findings provide new evidence on how DFIs deploy catalytic capital to mobilize private investment in sustainable development.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104321",
+    "published_date": "2026-06-18",
+    "source": "JFE",
+    "first_seen": "2026-06-19",
+    "abstract_missing": false,
+    "summary": "本文研究混合融资——利用公共和慈善资金撬动私人资本以促进可持续发展。作者构建了一个概念框架，其中开发性金融机构（DFIs）跨项目分配优惠资本以最大化社会影响，同时吸引私人投资者。框架揭示了可持续影响与使项目商业可行所需的优惠程度之间的权衡，并描述了DFIs如何最优组合不同工具，包括优惠债务、次级股权和风险管理设施。利用某大型DFI的交易级数据，实证发现：预期可持续影响较高的项目获得更多优惠；政治风险和信息不对称较高的国家中优惠程度更高，且这些项目更可能包含风险管理条款。研究提供了DFIs如何运用催化资本动员私人投资于可持续发展的新证据。",
+    "keywords": [
+      "混合融资",
+      "发展金融机构",
+      "优惠资本",
+      "可持续影响",
+      "政治风险"
+    ],
+    "ai_comment": "本文是首篇系统分析混合融资合同设计的研究，结合理论框架和独家实证数据，为理解优惠资本分配的内在权衡提供了重要洞见。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104319",
+    "title": "Asymmetric thin markets",
+    "authors": [
+      "Vincent Fardeau"
+    ],
+    "abstract": "Using a new equilibrium representation, I characterize dynamic, nonstationary risk sharing in a complete-information setting among strategic traders submitting demand schedules and heterogeneous in risk aversion. In equilibrium, more risk-averse (smaller) traders diversify more aggressively due to endogenously lower price impact. This creates term structure effects, where smaller traders dynamically hedge the persistent order flow of larger, slower traders and become the marginal pricers at short horizons. When pre-announced security issuances (e.g., bond reopenings) or predictable trades take place, the model generates the gradual, V-shaped price response observed around these events and delivers new predictions about institutional trading.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104319",
+    "published_date": "2026-06-18",
+    "source": "JFE",
+    "first_seen": "2026-06-19",
+    "abstract_missing": false,
+    "summary": "该论文提出了一个新的均衡表示，用于刻画在完全信息环境下，策略性交易者提交需求计划且风险厌恶程度异质时的动态非平稳风险分担。均衡结果表明，风险厌恶程度更高（即规模更小）的交易者因内生的较低价格影响而更积极地分散风险，从而产生期限结构效应：小交易者动态对冲大交易者的持续订单流，成为短期边际定价者。当存在预先宣布的证券发行（如债券重开）或可预测交易时，模型能够生成围绕这些事件的渐近V型价格响应，并提供关于机构交易的新预测。",
+    "keywords": [
+      "非对称薄市场",
+      "风险分担",
+      "风险厌恶异质性",
+      "价格影响",
+      "期限结构"
+    ],
+    "ai_comment": "该模型通过引入交易者风险厌恶异质性和内生价格影响，揭示了薄市场中的动态非对称风险分担机制，并成功解释了证券发行事件中的V型价格响应，理论贡献显著。",
+    "topic": "市场微观结构"
+  },
+  {
     "id": "10.1287/mnsc.2024.08833",
     "title": "Do Hedge Funds Strategically Misreport Their Holdings? Evidence from 13F Restatements",
     "authors": [
@@ -24,6 +122,31 @@
     ],
     "ai_comment": "该文首次将13F修正报告作为研究对象，揭示了其在市场信息传递中的重要作用，并构建了具有预测能力的修正回报差距指标。",
     "topic": "会计与信息披露"
+  },
+  {
+    "id": "10.1111/jofi.70062",
+    "title": "Learning to Navigate a New Financial Technology",
+    "authors": [
+      "Emily Breza",
+      "Martin Kanz",
+      "Leora Klapper"
+    ],
+    "abstract": "We present results from a field experiment that introduced digital payroll accounts to unbanked factory workers to examine how inexperienced consumers learn to use a new financial technology. We find that exposure to payroll accounts leads to increased account use, accelerated learning, and avoidance of common consumer protection risks. Those receiving electronic wage payments gradually build trust in the technology, learn to use accounts without assistance, and avoid illicit fees. Using experimental variation in assignment to bank versus mobile money accounts, we show that these impacts are concentrated in mobile money accounts, the newer, more complex, and less trusted financial technology.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70062",
+    "published_date": "2026-06-17",
+    "source": "JF",
+    "first_seen": "2026-06-19",
+    "abstract_missing": false,
+    "summary": "该论文通过一项实地实验，向无银行账户的工厂工人引入数字工资账户，研究经验不足的消费者如何学习使用新金融技术。实验发现，接触工资账户促进了账户使用增加、加速了学习过程，并帮助避免常见消费者保护风险。接收电子工资支付的工人逐渐建立对技术的信任，学会独立使用账户且避免非法费用。通过银行账户与移动货币账户的实验变异，研究显示这些积极影响主要集中在移动货币账户，即较新、更复杂且信任度较低的金融技术。",
+    "keywords": [
+      "实地实验",
+      "数字工资账户",
+      "金融科技采纳",
+      "移动货币",
+      "消费者学习"
+    ],
+    "ai_comment": "该研究通过精心设计的实地实验，清晰展示了消费者从陌生到熟悉新金融技术的动态学习过程，尤其突出了移动货币相对于传统银行的独特优势，为金融科技推广策略提供了实证基础。",
+    "topic": "家庭金融"
   },
   {
     "id": "10.1016/j.jfineco.2026.104322",
