@@ -1,5 +1,106 @@
 [
   {
+    "id": "10.1287/mnsc.2024.08999",
+    "title": "EnsembleIV: Creating Instrumental Variables from Ensemble Learners for Robust Statistical Inference with ML- Generated Variables",
+    "authors": [
+      "Gordon Burtch",
+      "Edward McFowland",
+      "Mochen Yang",
+      "Gediminas Adomavicius"
+    ],
+    "abstract": "Advances in machine learning have made it easier to extract useful information from both structured and unstructured data. Accordingly, empirical researchers often seek to leverage machine learning for statistical inference and hypothesis testing. We study an increasingly popular practice wherein a supervised machine learning model is trained to predict a certain variable of interest, and the predicted values are subsequently used in regression models as independent variables to draw statistical inferences. However, inevitably, errors in predictions manifest as measurement errors in regression models and lead to estimation biases. In this paper, we design and evaluate a novel approach, termed EnsembleIV, to address the issue. We propose the use of ensemble machine learning techniques to generate the predictions and show that individual learners in the ensemble (after a proposed special-purpose data-driven transformation procedure) can serve as instrumental variables to correct for the measurement error and avoid estimation biases. EnsembleIV’s effectiveness is demonstrated on both synthetic and real data sets for both linear and generalized linear regression models. We also compare EnsembleIV with several alternative bias correction methods and highlight its advantages. Overall, EnsembleIV represents a flexible algorithm that enables empirical researchers to draw robust statistical inferences with independent variables generated via machine learning. This paper was accepted by D.J. Wu, information systems. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08999 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08999",
+    "published_date": "2026-06-19",
+    "source": "MS",
+    "first_seen": "2026-06-20",
+    "abstract_missing": false,
+    "summary": "论文研究了当使用机器学习模型预测的值作为回归模型自变量进行统计推断时，预测误差会引发测量误差并导致估计偏差的问题。作者提出了一种名为EnsembleIV的新方法，利用集成机器学习技术生成预测，并证明集成中的个体学习器经过一种特殊的数据驱动变换后，可以作为工具变量来纠正测量误差，从而避免估计偏差。通过合成数据集和真实数据集在线性回归和广义线性回归模型中验证了EnsembleIV的有效性，并与多种替代偏差修正方法进行了比较，突出了其优势。EnsembleIV提供了一种灵活的算法，使得实证研究者能够利用机器学习生成的变量进行稳健的统计推断。",
+    "keywords": [
+      "EnsembleIV",
+      "工具变量",
+      "测量误差",
+      "集成学习",
+      "统计推断"
+    ],
+    "ai_comment": "针对机器学习预测变量在回归中引入测量误差这一普遍问题提供了严谨的解决方案，方法设计巧妙且实用性强。",
+    "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "10.1287/mnsc.2024.08673",
+    "title": "The Impact of Voluntary Carbon Goal Announcements on Stock Returns",
+    "authors": [
+      "Lukas Schnabel",
+      "Setareh Heidari",
+      "Stefan J. Hock",
+      "Sascha Raithel"
+    ],
+    "abstract": "This study quantifies the impact of voluntary carbon goal announcements on cumulative abnormal stock returns (CAR). Using 188 announcements of U.S. publicly traded firms between 2018 and 2024 across a variety of industries, this event study offers new and economically relevant insights on when and how firms should announce their carbon goals. First, a voluntary carbon goal announcement is associated with 0.65% positive CAR for the main event window (−2,+2), which translates to an increase of about $490 million based on the average market capitalization of firms in our data set. Notably, despite the substantial financial commitments implied by carbon neutrality, this corresponds to an average gain of about $75 in abnormal return per current ton of CO 2 -equivalent emissions. Second, our analysis of announcement-related media coverage using topic modeling reveals that investors respond more positively when the media highlights the expected business impact of the carbon goal. Third, firms with higher current emissions in the scopes they commit to eliminate are evaluated more favorably by the stock market, suggesting that investors value the larger emission reduction volume associated with such commitments. Finally, the positive effects of emphasizing business impact and promising to eliminate higher current emissions diminish over time. We conduct a series of robustness checks to ensure that our results are reliable and unbiased. Overall, this study provides a strong empirical foundation for understanding the consequences of voluntary carbon goal announcements of firms and discusses implications for theory and practice. This paper was accepted by Anita McGahan, business strategy. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08673 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08673",
+    "published_date": "2026-06-19",
+    "source": "MS",
+    "first_seen": "2026-06-20",
+    "abstract_missing": false,
+    "summary": "本研究量化了自愿碳目标公告对累积异常股票收益（CAR）的影响。基于2018年至2024年间188个美国上市公司在不同行业的公告，采用事件研究法，揭示了企业宣布碳目标的时间和方式的重要经济含义。首先，自愿碳目标公告在主事件窗口（-2,+2）内带来0.65%的正向CAR，按样本平均市值计算约增加4.9亿美元。值得注意的是，尽管碳中和意味着巨大的财务承诺，这相当于每吨当前二氧化碳当量排放产生约75美元的异常收益。其次，通过主题建模分析公告相关的媒体报道，发现当媒体强调碳目标预期的商业影响时，投资者反应更积极。第三，承诺消除当前较高排放范围的企业，股票市场评价更有利，表明投资者看重较大减排量。最后，强调商业影响和承诺消除高排放的正面效应随时间减弱。一系列稳健性检验确保了结果的可靠性。该研究为理解企业自愿碳目标公告的后果提供了坚实的实证基础，并讨论了理论与实践意义。",
+    "keywords": [
+      "自愿碳目标",
+      "事件研究",
+      "累积异常收益",
+      "股票市场反应",
+      "碳排放"
+    ],
+    "ai_comment": "该研究通过事件研究法量化了碳目标公告的短期市场收益，并创新性地结合媒体报道主题分析，揭示了投资者偏好商业影响和减排量大的特征，为企业在ESG信息披露策略上提供了实证依据。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1287/mnsc.2024.08619",
+    "title": "Second-Tier Stock Exchanges and Growth of Entrepreneurship",
+    "authors": [
+      "Huasheng Gao",
+      "Po-Hsuan Hsu",
+      "Yuxi Wang"
+    ],
+    "abstract": "We examine the role of second-tier stock exchanges in an entrepreneurial context from a global perspective. We construct a country-industry-year panel of global venture capitalist (VC)-invested startups, and find a significant increase in entrepreneurial activity following the launch of such markets. A causal interpretation is supported by additional tests for staggered difference-in-differences regressions and interacted regressions based on industry-specific dependence on second-tier stock exchanges. We propose a VC exit mechanism that receives empirical support: the launch of second-tier stock exchanges positively predicts (i) VC investment in startups, (ii) VCs’ valuation of startups, (iii) startups’ patenting records, (iv) startups’ initial public offering (IPO) likelihood, and (v) startups’ IPO valuation. We find that more startups are created in countries with more VC investment after the launch of such markets. We also find that the effect of second-tier stock exchanges on entrepreneurial ventures increases with financial resources, human capital, and intellectual property protection. This paper was accepted by Matt Marx, entrepreneurship and innovation. Funding: H. Gao acknowledges financial support from the National Natural Science Foundation of China [Grant 72472028]. P.-H. Hsu acknowledges research support from the National Science and Technology Council in Taiwan [Grants NSTC 113-2410-H-007-008-MY3 and NSTC 114-2410-H-007-016-MY3], the Mack Institute for Innovation Management of the Wharton School at the University of Pennsylvania, and the E.SUN Academic Award for financial and research support. Y. Wang acknowledges financial support from the National Natural Science Foundation of China [Grant 72402130]. This work was also supported by the Dalian Commodity Exchange. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08619 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08619",
+    "published_date": "2026-06-19",
+    "source": "MS",
+    "first_seen": "2026-06-20",
+    "abstract_missing": false,
+    "summary": "该论文从全球视角研究了二级股票交易所（second-tier stock exchanges）对创业活动的影响。作者构建了一个涵盖全球风险投资（VC）支持的初创企业的国家-行业-年度面板数据，发现在二级交易所推出后，创业活动显著增加。为支持因果解释，采用了交错双重差分回归（staggered difference-in-differences）和基于行业对二级交易所依赖程度的交互回归。论文提出了一个VC退出机制，并得到实证支持：二级交易所的推出正向预测（i）VC对初创企业的投资，（ii）VC对初创企业的估值，（iii）初创企业的专利申请记录，（iv）初创企业的首次公开募股（IPO）可能性，以及（v）初创企业的IPO估值。此外，在二级交易所推出后，VC投资更多的国家创造了更多的初创企业。二级交易所对创业企业的影响随着金融资源、人力资本和知识产权保护的增强而增大。",
+    "keywords": [
+      "二级股票交易所",
+      "创业活动",
+      "风险投资",
+      "首次公开募股",
+      "退出机制"
+    ],
+    "ai_comment": "该论文利用全球面板数据，识别了二级股票交易所促进创业的因果关系，并揭示了VC退出机制，对新兴市场政策有参考价值。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1287/mnsc.2024.07248",
+    "title": "Lemon Cycles",
+    "authors": [
+      "Feng Dong",
+      "Ernest Liu"
+    ],
+    "abstract": "We build a model of endogenous credit cycles arising from the dynamics of adverse selection. Heterogeneous entrepreneurs trade productive assets in an anonymous market subject to financial frictions. Cream-skimming rent-seekers create lemon assets that can be traded. Lemon assets are indistinguishable ex-ante from the productive assets but have no productive value ex-post. The average quality of assets is the key state variable of the economy. High asset prices today attract the creation of more lemons, thereby exacerbating adverse selection and depressing the future reallocation of productive assets and asset prices. Productive and lemon assets therefore exhibit predator-prey dynamics, and the quality of assets evolves endogenously over time. The equilibrium may feature endogenous cycles and chaos, with the credit market freezing and thawing recurrently and with deterministic ups and downs in asset prices and the volume of trades. We show that a social planner has incentives to tax credit market activities in order to reduce lemon assets and to eliminate endogenous cycles. This paper was accepted by Will Cong, finance. Funding: F. Dong acknowledges the financial support from the National Natural Science Foundation of China [Grant 72525004]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07248 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07248",
+    "published_date": "2026-06-19",
+    "source": "MS",
+    "first_seen": "2026-06-20",
+    "abstract_missing": false,
+    "summary": "本文构建了一个基于逆向选择动态的内生信贷周期模型。模型中，异质企业家在存在金融摩擦的匿名市场上交易生产性资产，而摘奶油式的寻租者会制造可交易的柠檬资产（事前无法与生产性资产区分，但事后无生产性价值）。资产的平均质量是经济的关键状态变量：当前的高资产价格吸引更多柠檬资产的创造，从而加剧逆向选择，抑制未来生产性资产的再配置和资产价格。生产性资产与柠檬资产因此呈现捕食者-猎物动态，资产质量内生演化。均衡可能出现内生周期和混沌，信贷市场周期性冻结和融化，资产价格和交易量呈现确定性涨跌。社会计划者可以通过对信贷市场活动征税来减少柠檬资产并消除内生周期。",
+    "keywords": [
+      "内生信贷周期",
+      "逆向选择",
+      "柠檬资产",
+      "资产质量",
+      "金融摩擦"
+    ],
+    "ai_comment": "该模型通过捕食者-猎物动力学巧妙地将柠檬资产创造与资产质量内生波动联系起来，揭示了信贷市场周期性和混沌行为的微观基础，并为政策干预提供了明确的理论依据。",
+    "topic": "宏观金融"
+  },
+  {
     "id": "10.1111/1475-679x.70072",
     "title": "Consensus? An Examination of Differences in Earnings Information Across Forecast Data Providers",
     "authors": [
