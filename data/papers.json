@@ -1,5 +1,280 @@
 [
   {
+    "id": "w35372",
+    "title": "Empowering Inclusive Work",
+    "authors": [
+      "Yanyou Chen",
+      "Mitchell Hoffman",
+      "Huilan Xu",
+      "Zhe Yuan"
+    ],
+    "abstract": "Can AI improve workplace outcomes for workers with disabilities? We examine the relative performance of deaf or hard of hearing (DHH) workers on one of China's largest food-delivery platforms. Pre-AI, DHH workers are slower than non-disabled workers and have worse customer ratings, although they supply more hours to the platform and are less likely to quit. Midway through our data, the platform suddenly introduces an AI-based intelligent outbound calling system designed to improve customer communication for DHH workers. Using a difference-in-differences design comparing DHH and non-disabled workers before and after the AI tool, we find that AI increases the speed and productivity of DHH workers, especially on tasks involving customer interaction; substantially reduces negative customer ratings; and increases labor supply and retention. AI eliminates one-third of the disability hourly pay gap and significantly increases the profitability of DHH workers for the platform.",
+    "url": "https://www.nber.org/papers/w35372",
+    "published_date": "2026-06-22",
+    "source": "NBER",
+    "first_seen": "2026-06-22",
+    "abstract_missing": false,
+    "summary": "本文研究人工智能（AI）是否能够改善残疾工人的工作表现。利用中国最大的食品配送平台的数据，比较聋哑或听力障碍（DHH）工人与非残疾工人的表现。在AI引入前，DHH工人速度较慢、客户评价较差，但工作时间更长且离职率更低。平台中途引入了基于AI的智能外呼系统，旨在改善DHH工人与客户的沟通。采用双重差分法比较AI工具引入前后DHH工人与非残疾工人的差异，发现AI提高了DHH工人的速度和生产率，特别是在涉及客户互动的任务上；显著减少了负面客户评价；增加了劳动供给和留任率。AI消除了三分之一的残疾时薪差距，并显著提高了DHH工人为平台带来的盈利能力。",
+    "keywords": [
+      "人工智能",
+      "残疾工人",
+      "食品配送平台",
+      "双重差分",
+      "生产率"
+    ],
+    "ai_comment": "该研究利用自然实验和详细的平台数据，为AI对残疾工人包容性就业的积极影响提供了因果证据，具有重要的政策启示。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35361",
+    "title": "On the Origins of the Multinational Premium",
+    "authors": [
+      "José L. Fillat",
+      "Stefania Garetto"
+    ],
+    "abstract": "We study the relationship between management, multinational expansion, and risk premia. We document two facts: firms run by better managers are more likely to become multinationals (MNEs), and risk premia are higher for current and future MNEs than for firms that remain exclusively domestic. We develop a model in which endogenous matching between heterogeneous firms and managers jointly determines selection into foreign direct investment (FDI) and risk premia. Quantitatively, we use the model to examine how corporate taxation and distortions in the market for managerial talent affect multinational activity, firm risk exposure, and financial market outcomes.",
+    "url": "https://www.nber.org/papers/w35361",
+    "published_date": "2026-06-22",
+    "source": "NBER",
+    "first_seen": "2026-06-22",
+    "abstract_missing": false,
+    "summary": "本文研究了企业管理质量、跨国扩张与风险溢价之间的关系。作者发现两个关键事实：由更优秀管理者领导的企业更有可能成为跨国公司（MNEs），并且当前及未来的跨国公司的风险溢价高于始终专注于国内运营的企业。为此，构建了一个理论模型，其中异质性企业与管理者之间的内生匹配共同决定了对外直接投资（FDI）的选择以及企业的风险溢价。在定量分析中，利用该模型考察了公司税收和经理人才市场扭曲对跨国活动、企业风险暴露以及金融市场结果的影响。",
+    "keywords": [
+      "跨国公司",
+      "管理质量",
+      "风险溢价",
+      "对外直接投资",
+      "公司税收"
+    ],
+    "ai_comment": "本文通过将管理质量纳入跨国企业的风险溢价分析，提供了一个新颖的理论框架，并量化了税收和人才市场扭曲的影响，具有重要的政策与学术意义。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "w35357",
+    "title": "Information Provision and Demand-Side Barriers to Healthcare Innovation: Experimental Evidence on Shared Medical Appointments in Menopause Care",
+    "authors": [
+      "Soledad Giardili",
+      "Monika Heller",
+      "Sanjay Jain",
+      "Amalia R. Miller",
+      "Kamalini Ramdas"
+    ],
+    "abstract": "Alternative care delivery models may offer benefits to patients and providers, but adoption often remains low. We study whether brief narrative testimonials shift willingness to attend virtual shared medical appointments (SMAs), a relatively little-used care format in which 5-15 patients with a shared non-urgent health condition meet simultaneously with a clinician. Using a pre-registered field experiment with over 4,000 women aged 45–60 in the UK, we randomly assigned participants to view only standard descriptive information about menopause appointment options (the control group) or to receive testimonials about SMAs from either previous patients or a clinician (treatment groups). Testimonials more than doubled the share of women choosing an SMA: when appointments were offered with a 6-8 week wait, 11% of the control group chose an SMA compared to 26% in the peer testimonials arm and 24% in the clinician testimonials arm. Shorter waiting times further increase uptake. When the SMA wait was reduced to one week, the share of women ever choosing an SMA rose by 14-19 percentage points across arms, reaching nearly 40% in the testimonial groups. Treatment effects are systematically larger among women with greater information-processing capacity: university education, higher baseline menopause knowledge, and broader information-seeking. Our findings suggest that women’s reluctance to choose SMAs is driven primarily by demand-side barriers, including unfamiliarity and uncertainty about their benefits, rather than deep-seated aversion to group-based care. Testimonials appear sufficient to meaningfully reduce these barriers.",
+    "url": "https://www.nber.org/papers/w35357",
+    "published_date": "2026-06-22",
+    "source": "NBER",
+    "first_seen": "2026-06-22",
+    "abstract_missing": false,
+    "summary": "这项研究探讨信息提供如何影响患者对新型医疗模式的接受度，具体关注虚拟共享医疗预约（SMAs），即5-15名患有相同非紧急疾病的患者同时与一名临床医生在线会诊。研究者通过一项预注册的实地实验，覆盖英国超过4000名45-60岁女性，随机将参与者分为三组：仅观看标准描述信息（对照组）、观看先前患者的推荐（患者推荐组）或观看临床医生的推荐（临床医生推荐组）。结果显示，推荐信息使选择SMA的女性比例翻倍以上：在等待6-8周的情况下，对照组有11%选择SMA，而患者推荐组和临床医生推荐组分别为26%和24%。缩短等待时间进一步提升了参与率：当等待时间缩短至一周时，各组选择过SMA的女性比例上升14-19个百分点，推荐组接近40%。处理效应在信息处理能力更强的女性中更大，包括受过大学教育、更年期基础知识更丰富以及信息搜索更广泛的群体。研究发现，女性对SMA的抵触主要源于需求侧障碍，如不熟悉和对其好处的不确定性，而非对群体医疗模式的深层厌恶，而推荐信息足以有效降低这些障碍。",
+    "keywords": [
+      "信息提供",
+      "共享医疗预约",
+      "需求侧障碍",
+      "随机实验",
+      "医疗创新采纳"
+    ],
+    "ai_comment": "该研究巧妙利用随机实验，揭示了简单信息干预（如患者或医生推荐）在改变医疗决策中的巨大潜力，为降低创新医疗服务采纳的障碍提供了低成本、可推广的政策启示。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35354",
+    "title": "The Perceived Inflation Wedge",
+    "authors": [
+      "Neville Francis"
+    ],
+    "abstract": "Standard measures of inflation, such as the Consumer Price Index (CPI), are designed to measure changes in the cost of living, not how households perceive price changes under limited attention and imperfect information. This paper introduces Perceived Inflation (PI), an attention-weighted inflation measure derived from a model in which households allocate attention across goods and observe noisy price signals. I construct monthly PI using disaggregated CPI data and attention proxies based on price salience, volatility, media mentions, and search behavior. The resulting PI series is highly correlated with CPI inflation but exhibits greater short-run volatility, especially during the Global Financial Crisis, the COVID-19 recession, and the 2021–22 inflation surge. A state-space version of the index implies a persistent latent attention component and a time-varying PI wedge. Finally, the paper embeds the estimated PI wedge into a heterogeneous-household model to demonstrate how attention-driven distortions in inflation perceptions affect saving and consumption through perceived real returns.",
+    "url": "https://www.nber.org/papers/w35354",
+    "published_date": "2026-06-22",
+    "source": "NBER",
+    "first_seen": "2026-06-22",
+    "abstract_missing": false,
+    "summary": "本文提出一种新的通胀度量——感知通胀（PI），它基于一个有限注意力和不完全信息下的家庭注意力分配模型，通过对不同商品的价格给予注意力权重（基于价格显著性、波动性、媒体报道和搜索行为）来构建。利用美国月度分类CPI数据，作者构建的PI序列与官方CPI高度相关，但短期波动更大，尤其在金融危机、COVID-19衰退和2021-22年通胀飙升期间。状态空间版本显示存在持久性的潜在注意力成分和时变的PI楔子。最后，将估计的PI楔子嵌入异质性家庭模型，证明注意力驱动的通胀感知扭曲通过感知实际回报影响储蓄和消费决策。",
+    "keywords": [
+      "感知通胀",
+      "注意力加权",
+      "通胀楔子",
+      "有限注意力",
+      "异质性家庭模型"
+    ],
+    "ai_comment": "本文创新性地将注意力经济学引入通胀测量，揭示了官方CPI与家庭实际感知的差异，对理解通胀预期和消费行为有重要理论和政策启示。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35353",
+    "title": "Task-Specific Technical Change and Comparative Advantage",
+    "authors": [
+      "Lukas Althoff",
+      "Hugo Reichardt"
+    ],
+    "abstract": "Artificial intelligence (AI) reshapes workers’ comparative advantage by altering the tasks they perform and the skills those tasks require. We develop a dynamic task-based model to quantify the general-equilibrium effects of task-specific technical change. Workers have multidimensional skills, choose occupations, and accumulate skills on the job; occupations combine tasks, and productivity depends on how workers’ skills match task requirements. We develop a computationally efficient procedure to estimate the model using panel data and a new database of task-level skill requirements. We apply the model to AI, allowing it to augment, automate, and simplify tasks. We find that AI narrows wage inequality and raises average wages across scenarios ranging from slow to rapid AI progress. The key equalizing force is simplification: by lowering tasks’ skill requirements, AI lets lower-skill workers compete for previously inaccessible jobs. Adoption costs, highest for lower-skill workers, dampen but do not eliminate the decline in inequality.",
+    "url": "https://www.nber.org/papers/w35353",
+    "published_date": "2026-06-22",
+    "source": "NBER",
+    "first_seen": "2026-06-22",
+    "abstract_missing": false,
+    "summary": "本文构建了一个动态任务模型，量化任务特定技术变革（如人工智能）对工人比较优势的均衡效应。模型考虑工人具有多维技能，选择职业并在工作中积累技能；职业由多项任务组成，生产率取决于工人技能与任务要求的匹配。作者利用面板数据和新的任务级技能要求数据库对模型进行估计，并应用于人工智能场景，允许其增强、自动化和简化任务。研究发现，无论AI进步速度如何，AI都会缩小工资不平等并提高平均工资；关键均等化力量是简化效应：通过降低任务技能要求，使低技能工人能够竞争以前无法从事的工作；低技能工人的采用成本会抑制但不会消除不平等的下降。",
+    "keywords": [
+      "人工智能",
+      "任务特定技术变革",
+      "比较优势",
+      "工资不平等",
+      "技能要求"
+    ],
+    "ai_comment": "本文创新性地将AI的简化效应纳入模型，揭示了其降低技能门槛、缩小工资差距的机制，为理解AI对劳动市场的均衡影响提供了新视角。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35349",
+    "title": "Planning Capital and Discovery-Based Learning-by-Doing: Investment as Staged Discovery in the Hyperscale Era",
+    "authors": [
+      "Andrew Caplin"
+    ],
+    "abstract": "This paper treats frontier investment as staged discovery. Firms invest through sequences of costly inquiry stages before deciding whether and how to realize value. At each stage, a firm may sharpen its diagnostic understanding, choose what question to ask, embody that question in a costly action, and interpret the answer that action produces. The answer changes what the firm knows, what it can do next, and how costly future inquiry will be. Successful histories can also carry over to later related problems, making the firm a better learner beyond the current investment path.\nThe paper calls the resulting asset planning capital in firm form. Planning capital is the accumulated diagnostic understanding a firm has built through costly inquiry and operation: understanding of technologies, processes, customers, tools, partners, failures, constraints, and opportunities, together with the capacity to keep learning. It becomes valuable because it helps the firm choose what to investigate, make the question answerable, interpret what happened, and carry what it learned into later investment stages. Building on classical investment theory, R&amp;D models, real-options theory, venture-capital models, classical learning-by-doing, the paper develops a model of investment as staged discovery. \nThe AI and semiconductor frontier makes this asset visible. Firms are being valued and funded for more than the physical capacity they already own. Chips, fabs, data centers, cloud platforms, power commitments, and model systems matter because they carry traces of accumulated learning and because their use generates more learning. They let firms train models, test demand, expose bottlenecks, improve yields, qualify customers, integrate tools, and discover which complements are missing. The current buildout is therefore investment in capacity and in the institutional learning system that makes capacity more valuable over time.\nThe framework explains why production systems, tool systems, research paths, sovereign capability programs, and infrastructure sponsorship belong in the same analysis. They are different institutional forms through which planning capital is accumulated. The paper treats terminal realization value in reduced form and focuses on the discovery process that precedes it: how institutions build capacity, learn from using it, and turn accumulated diagnostic understanding into an advantage in the next round of investment.",
+    "url": "https://www.nber.org/papers/w35349",
+    "published_date": "2026-06-22",
+    "source": "NBER",
+    "first_seen": "2026-06-22",
+    "abstract_missing": false,
+    "summary": "本文将前沿投资视为分阶段发现过程。企业通过一系列高成本探究阶段进行投资，然后决定是否以及如何实现价值。在每个阶段，企业可以加深诊断性理解、选择要探究的问题、将问题体现在成本高昂的行动中，并解读行动产生的答案。答案会改变企业所知、后续能力和未来探究成本。成功经验还可以延续到后续相关问题，使企业成为更好的学习者。论文将由此产生的资产称为企业形式的“规划资本”，即企业通过高成本探究和运营积累的诊断性理解，包括对技术、流程、客户、工具、合作伙伴、失败、约束和机会的理解，以及持续学习的能力。规划资本之所以有价值，是因为它帮助企业选择要调查的内容、使问题可回答、解释发生的情况、并将所学带入后续投资阶段。论文基于经典投资理论、研发模型、实物期权理论、风险投资模型和经典干中学，构建了投资作为分阶段发现的模型。人工智能和半导体前沿使这一资产变得可见。企业被估值和融资的依据不仅仅是已拥有的物理产能。芯片、晶圆厂、数据中心、云平台、电力承诺和模型系统之所以重要，是因为它们承载了累积学习的痕迹，其使用能产生更多学习。它们让企业训练模型、测试需求、暴露瓶颈、改进良率、验证客户、集成工具、发现缺失的互补品。因此，当前的扩张既是对产能的投资，也是对使产能随时间更有价值的机构学习系统的投资。该框架解释了为什么生产系统、工具系统、研究路径、主权能力项目和基础设施赞助属于同一分析范畴——它们是积累规划资本的不同制度形式。论文以简约形式处理终端实现价值，专注于其前的发现过程：机构如何建立产能、通过使用学习、并将累积的诊断性理解转化为下一轮投资中的优势。",
+    "keywords": [
+      "规划资本",
+      "分阶段发现",
+      "干中学",
+      "人工智能投资",
+      "企业投资理论"
+    ],
+    "ai_comment": "本文创新性地将投资视为分阶段发现过程，提出“规划资本”概念，为理解AI和半导体领域的巨额投资提供了新视角。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "w35348",
+    "title": "The Informed Insider: A Leading Measure of Quality",
+    "authors": [
+      "Wei Cai",
+      "Dennis Campbell",
+      "Yaxuan Chen",
+      "Yufei Chen",
+      "Andrea Prat"
+    ],
+    "abstract": "Product and service quality is fundamental to firm value creation, yet it is well recognized as difficult to observe ex ante. Existing quality proxies are limited in coverage, lack cross-firm comparability, and primarily rely on lagging indicators that capture product or service failures only after they materialize. Exploiting employees’ informational advantage as informed insiders and firsthand observers of firms’ internal operations, we develop and validate a novel, forward-looking measure of firm-year-level product and service quality using over 4.3 million employee reviews on Glassdoor. Leveraging machine learning models trained on a subset of firms with third-party customer satisfaction data, we construct quality indices for S&amp;P 1500 firms spanning 2008 to 2023. The resulting quality measures exhibit meaningful variation across firms and within firms over time. In out-of-sample tests, our quality indices demonstrate strong predictive power for future quality provision, emerging as the single most important predictor relative to firm fundamentals and Glassdoor ratings. We validate our measure by examining its association with alternative quality metrics. We show that our quality measures are useful in predicting important quality-related firm outcomes such as product recalls, brand value, and profitability. We also construct an alternative set of quality measures using a zero-shot prompt-based approach and a supervised fine-tuning approach with GPT models to assess the potential of LLMs and generative AI in capturing firm-level quality provision. Our paper shows the value of employee voices as a powerful, forward-looking, and scalable signal of firm quality provision. The paper offers implications for stakeholders seeking to identify quality-related risks and opportunities before they become externally visible.",
+    "url": "https://www.nber.org/papers/w35348",
+    "published_date": "2026-06-22",
+    "source": "NBER",
+    "first_seen": "2026-06-22",
+    "abstract_missing": false,
+    "summary": "本文利用员工作为知情内部人的信息优势，基于Glassdoor上超过430万条员工评论，开发并验证了一种新颖的、前瞻性的公司年度产品和服务质量衡量指标。通过机器学习模型，使用部分具有第三方客户满意度数据的公司进行训练，构建了2008至2023年间S&P 1500公司的质量指数。该指数在公司和时间维度上均表现出显著差异，并在样本外测试中展现出对未来质量提供的强大预测能力，成为相对于公司基本面和其他Glassdoor评级最重要的预测因子。进一步验证表明，该质量指标与产品召回、品牌价值和盈利能力等重要公司结果相关。此外，还使用GPT模型的零样本提示和监督微调方法构建了备选质量指标，评估了大语言模型和生成式AI在捕捉公司质量方面的潜力。本文展示了员工声音作为公司质量提供的强大、前瞻且可扩展信号的价值，为利益相关者识别质量相关风险和机会提供了启示。",
+    "keywords": [
+      "产品质量",
+      "服务质量",
+      "员工评论",
+      "机器学习",
+      "前瞻性指标"
+    ],
+    "ai_comment": "创新性地利用员工内部信息构建质量衡量指标，填补了现有滞后指标和不可比性的空白，为质量研究提供了新视角。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "w35347",
+    "title": "AI Diffusion Gaps: Unequal Integration of AI Across K-12 Schools",
+    "authors": [
+      "Christopher Campos",
+      "John D. Singleton"
+    ],
+    "abstract": "Although use of generative AI tools has quickly become widespread in education settings, emerging evidence suggests that effects on learning will depend on how that use is supported and guided. This paper reports findings from an original national survey of K-12 school principals designed to measure institutional integration of AI in schools through policies, teacher training, guidance for student use, leadership engagement, and the availability of AI-enabled tools. We find that AI use has spread rapidly across schools, largely as a productivity aid. Students mainly use AI for homework help and writing, while educators primarily use it for lesson planning and administrative tasks. The development of teacher training, guidance, and school policies has lagged adoption. We next document two diffusion gaps across schools: First, lower AI integration is associated with a higher share of disadvantaged students (a one standard deviation increase in disadvantage is associated with a 0.07-0.11 SD lower score on an index of AI integration); Second, private and charter schools score 0.23-0.44 SD lower on the AI integration index than traditional public schools. Although several surveyed school-level factors strongly predict AI integration, they do little to explain these gaps. Differences in district size account for roughly one-third of the disadvantage gap between public schools. These findings suggest that the factors associated with greater AI integration differ from those needed to narrow disparities in how schools support and guide AI use.",
+    "url": "https://www.nber.org/papers/w35347",
+    "published_date": "2026-06-22",
+    "source": "NBER",
+    "first_seen": "2026-06-22",
+    "abstract_missing": false,
+    "summary": "本文基于一项对美国K-12学校校长的全国调查，衡量了学校在政策、教师培训、学生使用指导、领导参与和AI工具可用性方面的AI整合程度。研究发现，生成式AI工具在教育领域迅速普及，学生主要用于作业和写作，教师用于备课和行政任务，但教师培训、指导和学校政策的发展滞后于技术采用。存在两个扩散差距：一是较低AI整合与较高比例的弱势学生相关（弱势程度每增加一个标准差，AI整合指数降低0.07-0.11个标准差）；二是私立学校和特许学校的AI整合指数比传统公立学校低0.23-0.44个标准差。尽管一些学校层面的因素能强烈预测AI整合，但它们几乎无法解释这些差距；学区规模差异仅能解释公立学校中约三分之一的弱势差距。这表明促进AI整合的因素与缩小学校在支持和引导AI使用方面差距所需的因素不同。",
+    "keywords": [
+      "生成式AI",
+      "K-12学校",
+      "教育技术",
+      "学校政策",
+      "数字鸿沟"
+    ],
+    "ai_comment": "该研究通过全国性调查揭示了K-12学校AI整合中的不平等现象，指出弱势学生群体和私立/特许学校面临更低整合水平，且传统因素无法完全解释差距，为政策干预提供了重要依据。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35346",
+    "title": "Elderly Health and Longevity in the US: Evidence and Implications",
+    "authors": [
+      "Liran Einav",
+      "Amy Finkelstein"
+    ],
+    "abstract": "Rising elderly life expectancy is a well-known source of fiscal pressure on Social Security and Medicare – but how have declining mortality and morbidity affected the two programs’ relative finances? Using nearly three decades of Medicare Current Beneficiary Survey data (1992-2019), we estimate that these demographic changes raised expected lifetime Social Security spending by over twice as much as expected lifetime Medicare spending: 14% compared to 6%. The slower growth of elderly lifetime health care spending than annuity spending reflects two features of how longevity has increased: the additional 2.4 years of remaining life expectancy were entirely healthy – free of physical or cognitive limitations – while the expected amount of time spent with severe health limitations fell by about 30%, reducing expected lifetime nursing-home and home-health use. We then write down a stylized life-cycle model of a risk-averse retiree facing stochastic mortality and health to illuminate the key forces that affect the optimal allocation of a fixed amount of public funds across Medicare and Social Security.",
+    "url": "https://www.nber.org/papers/w35346",
+    "published_date": "2026-06-22",
+    "source": "NBER",
+    "first_seen": "2026-06-22",
+    "abstract_missing": false,
+    "summary": "本文利用1992-2019年Medicare Current Beneficiary Survey数据，研究美国老年人口预期寿命延长对社会保障（Social Security）和医疗保险（Medicare）财政的影响。发现预期寿命延长2.4年且完全健康（无身体或认知限制），严重健康限制时间下降约30%，导致预期终身社会保障支出增长14%，而医疗保险支出仅增长6%（因养老院和家庭健康护理使用减少）。进一步构建包含随机死亡率和健康状态的退休者生命周期模型，分析如何在两大项目间最优分配固定公共资金。",
+    "keywords": [
+      "寿命延长",
+      "社会保障",
+      "医疗保险",
+      "健康预期",
+      "公共财政"
+    ],
+    "ai_comment": "通过近三十年微观数据揭示健康寿命延长对社保和医保财政影响的显著差异，并建立理论模型优化资金分配，为老龄化社会政策设计提供新视角。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35345",
+    "title": "Beta for Alpha: Neural Engagement in Financial Trading",
+    "authors": [
+      "Liang Chen",
+      "Tse-Chun Lin",
+      "Fei Wu",
+      "Xingjian Zheng",
+      "Eric Zou"
+    ],
+    "abstract": "The emergence of wearable electroencephalography (EEG) technologies presents new opportunities to identify and quantify neural correlates of decision-making in real-time, financially consequential settings. We report a field study in which we use wearable EEG devices to record brainwave activity from professional day traders during real-world, high-stakes trading. Using these signals, we construct an established psychophysiological Engagement Index (EI), which is defined as beta wave power divided by the sum of alpha and theta wave power, and document clear spike-and-decay patterns around trade execution. Linking EI dynamics to trading performance, we find that more successful trades are preceded by larger EI spikes in the 30 seconds before execution, while baseline or background EI levels have no predictive power and, if anything, are negatively associated with performance. We further show that higher EI is associated with attenuated behavioral biases in trading, including the round number heuristic and the disposition effect.",
+    "url": "https://www.nber.org/papers/w35345",
+    "published_date": "2026-06-22",
+    "source": "NBER",
+    "first_seen": "2026-06-22",
+    "abstract_missing": false,
+    "summary": "本研究利用可穿戴脑电图（EEG）设备，在真实高风险交易环境中记录专业日间交易员的脑电波活动，构建心理生理学参与度指数（Engagement Index, EI），即β波功率除以α波与θ波功率之和。研究发现，交易执行前后存在明显的尖峰-衰减模式；更成功的交易在执行前30秒内呈现更大的EI尖峰，而基线EI水平对交易绩效无预测能力，甚至呈现负相关。此外，更高的EI与减弱的行为偏差（如整数启发式和处置效应）相关。",
+    "keywords": [
+      "可穿戴EEG",
+      "神经参与度",
+      "金融交易",
+      "行为偏差",
+      "日内交易"
+    ],
+    "ai_comment": "该研究将神经科学方法引入金融决策研究，提供了实时神经活动与交易绩效的直接证据，为理解交易员决策过程开辟了新视角。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "w35337",
+    "title": "US Monetary Spillovers, Foreign Exchange, and Gold Reserves at Times of Geopolitical Fragmentation",
+    "authors": [
+      "Joshua Aizenman",
+      "Jamel Saadaoui",
+      "Gazi Salah Uddin",
+      "Naoki Yago"
+    ],
+    "abstract": "This paper studies the role of foreign exchange and gold reserves in mitigating the US monetary policy spillovers to exchange rates at times of geopolitical fragmentation and de-dollarization. US dollar reserves mitigate depreciation driven by US monetary tightening, while non-dollar reserves do not. Gold reserves are also associated with smaller exchange-rate responses, though less strongly than dollar reserves, suggesting novel complementarity between dollar and gold reserves. Moreover, the estimated effects of dollar and gold reserves are concentrated in countries without swap and repo lines. These findings are consistent with recent large-scale purchases and sales of gold reserves by emerging economies amid sanctions-related restrictions and geopolitical concerns about access to dollar liquidity. Our results suggest that not only the aggregate volume but also the composition of foreign exchange and gold reserves and access to dollar liquidity facilities are empirically relevant for exchange-rate responses to US monetary shocks. Finally, we exploit cross-country heterogeneity and show that countries with large dollar exposure exhibit smaller exchange-rate responses when dollar and gold reserve holdings are larger.",
+    "url": "https://www.nber.org/papers/w35337",
+    "published_date": "2026-06-22",
+    "source": "NBER",
+    "first_seen": "2026-06-22",
+    "abstract_missing": false,
+    "summary": "本文研究在地缘政治碎片化和去美元化背景下，外汇储备和黄金储备在缓解美国货币政策对汇率溢出效应中的作用。实证发现，美元储备能缓解美国货币紧缩导致的汇率贬值，而非美元储备则无此效果；黄金储备也与较小的汇率响应相关，但效果弱于美元储备，暗示美元与黄金储备之间存在新颖的互补性。此外，这些效应主要集中在没有互换和回购线的国家。结果表明，外汇和黄金储备的总量及构成，以及获取美元流动性设施的途径，对汇率应对美国货币政策冲击具有经验相关性。最后，利用跨国异质性发现，在美元敞口较大的国家，持有更多美元和黄金储备时汇率响应更小。",
+    "keywords": [
+      "美国货币政策溢出",
+      "外汇储备",
+      "黄金储备",
+      "汇率",
+      "地缘政治碎片化"
+    ],
+    "ai_comment": "论文创新地揭示了黄金储备与美元储备在缓冲美国货币政策溢出中的互补作用，尤其在地缘政治风险加剧时，对新兴经济体储备管理具有重要政策启示。",
+    "topic": "宏观金融"
+  },
+  {
     "id": "10.1287/mnsc.2024.08999",
     "title": "EnsembleIV: Creating Instrumental Variables from Ensemble Learners for Robust Statistical Inference with ML- Generated Variables",
     "authors": [
