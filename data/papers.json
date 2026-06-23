@@ -376,6 +376,30 @@
     "topic": "宏观金融"
   },
   {
+    "id": "10.1093/rfs/hhag013",
+    "title": "Can Discount Window Stigma Be Cured? An Experimental Investigation",
+    "authors": [
+      "Olivier Armantier",
+      "Charles Holt"
+    ],
+    "abstract": "A core responsibility of the Federal Reserve is to ensure financial stability by acting as the lender of last resort through its Discount Window (DW). The DW, however, has not been effective because its usage is stigmatized. In this paper, we use theory and experiments to study how such stigma can be cured. We find that behavioral inertia makes it difficult to fix a stigmatized DW, but adding a new backstop facility can help mitigate stigma. These results are consistent with the Federal Reserve’s experience. (JEL E58, G01, C92)",
+    "url": "https://doi.org/10.1093/rfs/hhag013",
+    "published_date": "2026-06-19",
+    "source": "RFS",
+    "first_seen": "2026-06-23",
+    "abstract_missing": false,
+    "summary": "本文研究美联储贴现窗口（DW）的污名化问题。贴现窗口作为最后贷款人工具，因使用污名化而效果不佳。通过理论和实验方法，发现行为惯性使得修复污名化的贴现窗口困难，但引入新的后盾设施有助于缓解污名。该结果与美联储的实际经验一致。",
+    "keywords": [
+      "贴现窗口",
+      "污名化",
+      "行为惯性",
+      "最后贷款人",
+      "美联储"
+    ],
+    "ai_comment": "采用实验方法研究中央银行工具污名化问题，创新性地揭示了行为惯性的阻碍作用，并为新后盾设施的政策价值提供了证据。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1111/1475-679x.70072",
     "title": "Consensus? An Examination of Differences in Earnings Information Across Forecast Data Providers",
     "authors": [
