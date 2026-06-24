@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104320",
+    "title": "Trade credit and relationships",
+    "authors": [
+      "Felipe Benguria",
+      "Alvaro Garcia-Marin",
+      "Tim Schmidt-Eisenlohr"
+    ],
+    "abstract": "Exploiting transaction-level international trade data, this paper documents that long-term firm-to-firm relationships facilitate the use of trade credit, with the strength of this effect varying with firm size, firms’ payment delays, and multinational affiliate status. Effects also depend on the strength of contract enforcement across countries and the complexity of products traded. Because trade credit can reduce the overall need to borrow from the financial sector, long-term relationships may reduce firms’ credit demand. The destruction of trade relationships, for example, through trade conflicts, may hence increase firms’ leverage.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104320",
+    "published_date": "2026-06-23",
+    "source": "JFE",
+    "first_seen": "2026-06-24",
+    "abstract_missing": false,
+    "summary": "利用交易层面的国际贸易数据，本文记录了长期的企业间关系如何促进贸易信贷的使用，并且这种效应的强度因企业规模、支付延迟以及跨国公司子公司身份而异。此外，效果还取决于跨国合同执行力度的强弱和所交易产品的复杂程度。由于贸易信贷可以降低企业对金融部门的总体借贷需求，长期关系可能减少企业的信贷需求。因此，贸易关系的破坏（例如通过贸易冲突）可能增加企业的杠杆率。",
+    "keywords": [
+      "贸易信贷",
+      "企业关系",
+      "国际贸易",
+      "杠杆",
+      "合同执行"
+    ],
+    "ai_comment": "本文利用微观交易数据揭示了企业间关系对贸易信贷的促进作用，并探讨了其对信贷需求和杠杆的宏观影响，为理解贸易冲突的金融后果提供了新视角。",
+    "topic": "公司金融"
+  },
+  {
     "id": "w35372",
     "title": "Empowering Inclusive Work",
     "authors": [
