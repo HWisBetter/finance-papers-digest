@@ -1,5 +1,31 @@
 [
   {
+    "id": "10.1287/mnsc.2024.07169",
+    "title": "ESG and the Stock Market: Is ESG Exposure Systematic?",
+    "authors": [
+      "Liya Chu",
+      "Kent Wang",
+      "Bohui Zhang",
+      "Guofu Zhou"
+    ],
+    "abstract": "We study the relation between firms’ environmental, social, and governance (ESG) performance and the aggregate stock market returns. Based on 38 individual ESG measures, we construct a market-level ESG index. With both the traditional predictive regression approach and two recently developed machine-learning methods, we find that the ESG index has strong and positive predictive power on the market both in- and out-of-sample, and both the cash flow and discount rate channels are the economic drivers of predictability. Our results are robust to a number of controls and set-ups. Our novel finding on the significant market-wide impact of the ESG provides support for the economy-wide importance of the ESG risk and for the central role played by governments. This paper was accepted by Caroline Flammer, sustainability. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07169 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07169",
+    "published_date": "2026-06-24",
+    "source": "MS",
+    "first_seen": "2026-06-25",
+    "abstract_missing": false,
+    "summary": "本文研究企业环境、社会和治理（ESG）表现与股票市场总回报之间的关系。基于38个单项ESG指标，构建了市场层面的ESG指数。使用传统预测回归方法和两种近期发展的机器学习方法，发现ESG指数对市场回报具有强烈且正向的预测能力，样本内和样本外均成立。现金流渠道和贴现率渠道是预测能力的经济驱动因素。结果在多种控制和设定下保持稳健。这一关于ESG具有显著市场范围影响的新发现，支持了ESG风险在经济全局中的重要性以及政府发挥的核心作用。",
+    "keywords": [
+      "ESG",
+      "股票市场",
+      "预测回归",
+      "机器学习",
+      "系统风险"
+    ],
+    "ai_comment": "本文创新性地构建了市场层面的ESG指数，并发现其能预测总体市场回报，为ESG风险的系统性影响提供了实证支持。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104320",
     "title": "Trade credit and relationships",
     "authors": [
