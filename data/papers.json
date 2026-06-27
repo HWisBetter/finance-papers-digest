@@ -1,5 +1,80 @@
 [
   {
+    "id": "10.1287/mnsc.2026.02442",
+    "title": "From Shadow AI to Governed AI Review: A Commentary on “Fighting Fire with Fire: Infusing AI into Peer Review to Sustain Quality Scholarship”",
+    "authors": [
+      "Zhenhui (Jack) Jiang"
+    ],
+    "abstract": "This paper was accepted by Christoph Loch, commentary.",
+    "url": "https://doi.org/10.1287/mnsc.2026.02442",
+    "published_date": "2026-06-26",
+    "source": "MS",
+    "first_seen": "2026-06-27",
+    "abstract_missing": false,
+    "summary": "这篇评论文章围绕将人工智能融入同行评审以维持学术质量的主题展开，提出了从不受监管的“影子AI”评审向受适当治理的“管治AI”评审转变的观点。摘要仅表明该文被接受为评论，未提供具体研究方法或实证分析。",
+    "keywords": [
+      "AI同行评审",
+      "影子AI",
+      "管治AI",
+      "学术质量"
+    ],
+    "ai_comment": "本文精准指出当前AI在学术评审中缺乏治理的问题，呼吁建立规范框架，具有前瞻性和现实指导意义。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1093/rfs/hhag059",
+    "title": "Mutual Fund Flows at Long Horizons",
+    "authors": [
+      "Hendrik Bessembinder",
+      "Shuaiyu Chen",
+      "Michael J Cooper",
+      "Jinming Xue",
+      "Feng Zhang"
+    ],
+    "abstract": "We show that positive flows to active mutual funds with high recent returns partially reverse at longer horizons. This outcome is robust across a broad range of alternative specifications. Reversal occurs from greater outflows associated with high prior returns, not reduced inflows. We test theories to explain the reversal: investment life cycles, tax loss selling, and a behavioral “disappointment” hypothesis based on investors’ overreaction to positive returns. While both tax loss selling and short investor life cycles can contribute, the evidence supports a role for investor disappointment, whereby investors redeem their capital when return performance fails to meet expectations. (JEL G10, G23)",
+    "url": "https://doi.org/10.1093/rfs/hhag059",
+    "published_date": "2026-06-26",
+    "source": "RFS",
+    "first_seen": "2026-06-27",
+    "abstract_missing": false,
+    "summary": "本文研究了主动型共同基金在长期视角下的资金流动态，发现具有高近期收益的基金在长期内资金流入会出现部分反转。该结果在多种替代设定下保持稳健。反转主要由高前期收益导致的资金流出增加而非流入减少引起。作者检验了三种理论解释：投资生命周期、税收亏损出售以及基于投资者对正收益过度反应的行为“失望”假说。虽然税收亏损出售和短投资生命周期均有一定贡献，但证据支持投资者失望假说的作用，即当收益表现未达到预期时投资者会赎回资金。",
+    "keywords": [
+      "共同基金",
+      "资金流反转",
+      "投资者行为",
+      "失望假说",
+      "基金业绩"
+    ],
+    "ai_comment": "该论文通过长期视角的实证分析，揭示了资金流反转现象中投资者失望机制的关键作用，为理解基金资金流动态提供了新见解。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1111/jofi.70058",
+    "title": "Twin Defaults and Bank Capital Requirements",
+    "authors": [
+      "Caterina Mendicino",
+      "Kalin Nikolov",
+      "Juan Rubio‐Ramirez",
+      "Javier Suarez",
+      "Dominik Supera"
+    ],
+    "abstract": "We examine optimal capital requirements in a quantitative general equilibrium model with banks exposed to nondiversifiable borrower default risk. Contrary to standard models of bank default risk, our framework captures the limited upside, but significant downside risk of loan portfolio returns. This helps to reproduce the frequency and severity of twin defaults: simultaneously high firm and bank defaults. Hence, the optimal bank capital requirement, which trades off a lower frequency of twin defaults against restricting credit provision, is higher than under default risk models which underestimate the impact of borrower default on bank solvency.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70058",
+    "published_date": "2026-06-25",
+    "source": "JF",
+    "first_seen": "2026-06-27",
+    "abstract_missing": false,
+    "summary": "本文在一个定量一般均衡模型中研究最优银行资本要求，该模型中银行面临不可分散的借款人违约风险。与标准银行违约风险模型不同，该模型捕捉了贷款组合收益的有限上行和显著下行风险，从而能够再现“双重违约”（即企业和银行同时高违约）的频率和严重性。因此，最优银行资本要求在降低双重违约频率和限制信贷供给之间进行权衡，其结果高于那些低估借款人违约对银行偿付能力影响的违约风险模型所得出的水平。",
+    "keywords": [
+      "银行资本要求",
+      "双重违约",
+      "一般均衡模型",
+      "违约风险"
+    ],
+    "ai_comment": "该文通过引入借款人违约的不可分散风险，更准确地刻画了银行风险特征，并得出了更高的最优资本要求，为监管提供了新视角。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1287/mnsc.2024.07169",
     "title": "ESG and the Stock Market: Is ESG Exposure Systematic?",
     "authors": [
