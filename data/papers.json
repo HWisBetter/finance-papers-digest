@@ -1,5 +1,29 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104326",
+    "title": "Changing the board game: Horizontal spillovers of gender quotas",
+    "authors": [
+      "Luigi Guiso",
+      "Fabiano Schivardi",
+      "Luana Zaccaria"
+    ],
+    "abstract": "We examine the effects of mandatory board gender quotas on unregulated firms that are connected to regulated ones via interlocking directorates. After the introduction of quotas, connected firms significantly increase their share of female directors relative to similar unconnected firms. The spillover effects are substantial — at least as large as the direct effects on regulated firms, challenging previous claims that quotas have no broader impact on women in business. Our results suggest that quotas indirectly broaden the supply of candidates for connected firms, along dimensions that include, but are not limited to, gender.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104326",
+    "published_date": "2026-06-27",
+    "source": "JFE",
+    "first_seen": "2026-06-28",
+    "abstract_missing": false,
+    "summary": "本文研究强制性董事会性别配额对未受监管公司的影响，这些公司通过连锁董事与受监管公司相连。研究发现，在配额实施后，与受监管公司有连锁董事关联的未受监管公司，其女性董事比例相对于类似但无关联的公司显著增加。溢出效应显著，至少与对受监管公司的直接影响相当，挑战了之前认为配额对商业界女性没有更广泛影响的观点。结果表明，配额间接扩大了关联公司的候选人供给，维度包括但不限于性别。",
+    "keywords": [
+      "董事会性别配额",
+      "溢出效应",
+      "连锁董事",
+      "女性董事比例"
+    ],
+    "ai_comment": "该研究通过连锁董事网络揭示了性别配额的溢出效应，表明政策能通过非直接渠道产生广泛影响，为配额政策的有效性提供了新证据。",
+    "topic": "公司治理"
+  },
+  {
     "id": "10.1287/mnsc.2026.02442",
     "title": "From Shadow AI to Governed AI Review: A Commentary on “Fighting Fire with Fire: Infusing AI into Peer Review to Sustain Quality Scholarship”",
     "authors": [
