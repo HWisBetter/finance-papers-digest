@@ -273,6 +273,30 @@
     "topic": "其他"
   },
   {
+    "id": "10.1093/rfs/hhag060",
+    "title": "Emission Caps and Investment in Green Technologies",
+    "authors": [
+      "Bruno Biais",
+      "Augustin Landier"
+    ],
+    "abstract": "We study the interaction between firms, which can invest in green technologies, and a government, which can impose emission caps but has limited commitment power. Investment in green technologies generates innovation spillovers, reducing the cost of further investments. Spillovers generate intertemporal strategic complementarities between firms and government, and equilibrium multiplicity. In a “green equilibrium”, firms, anticipating caps, invest in green technologies, which reduces the cost of further investment, making the government willing to cap emissions. In a “brown equilibrium”, firms, anticipating no caps, don’t invest, so green technologies remain costly and the government gives up on emission caps. (JEL Q54, Q55, Q58, H23, O33)",
+    "url": "https://doi.org/10.1093/rfs/hhag060",
+    "published_date": "2026-06-27",
+    "source": "RFS",
+    "first_seen": "2026-06-30",
+    "abstract_missing": false,
+    "summary": "研究企业与政府之间的互动：企业可投资于绿色技术，政府可设定排放上限但承诺能力有限。绿色技术投资产生创新溢出，降低后续投资成本，从而在企业和政府之间形成跨期战略互补性，导致均衡多重性。在“绿色均衡”中，企业预期政府会设定上限而投资于绿色技术，进而降低进一步投资成本，使政府愿意实施排放上限；在“棕色均衡”中，企业预期政府不会设定上限而不投资，绿色技术保持高成本，政府因此放弃排放上限。",
+    "keywords": [
+      "排放上限",
+      "绿色技术",
+      "创新溢出",
+      "战略互补性",
+      "均衡多重性"
+    ],
+    "ai_comment": "该文将政府政策承诺能力与企业投资决策纳入统一分析框架，揭示了绿色转型中政策可信性与企业预期之间的关键战略互补关系，为理解环境政策的多重均衡提供了新视角。",
+    "topic": "其他"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104326",
     "title": "Changing the board game: Horizontal spillovers of gender quotas",
     "authors": [
