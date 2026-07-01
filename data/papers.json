@@ -1,5 +1,32 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104330",
+    "title": "Gambling away stability: Sports betting’s impact on vulnerable households",
+    "authors": [
+      "Scott R. Baker",
+      "Justin Balthrop",
+      "Mark J. Johnson",
+      "Jason Kotter",
+      "Kevin Pisciotta"
+    ],
+    "abstract": "We estimate the causal effect of online sports betting on households’ investment, spending, and debt management decisions using household transaction data and a staggered difference-in-differences framework. Following legalization, sports betting spreads quickly, with both the number of participants and frequency of bets increasing over time. This increase does not displace other gambling or consumption but significantly reduces savings, as risky bets crowd out positive expected value investments. These effects concentrate among frequent bettors and low-savings households. Our findings highlight the potential adverse effects of online sports betting on vulnerable households.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104330",
+    "published_date": "2026-06-30",
+    "source": "JFE",
+    "first_seen": "2026-07-01",
+    "abstract_missing": false,
+    "summary": "本文使用家庭交易数据和交错双重差分框架，估计在线体育博彩合法化对家庭投资、支出和债务管理决策的因果效应。研究发现，合法化后体育博彩迅速普及，参与者和投注频率增加，但这并未替代其他赌博或消费，而是显著减少了储蓄，因为风险投注挤出了正期望值的投资。这种效应主要集中在频繁投注者和低储蓄家庭中，强调了在线体育博彩对脆弱家庭的潜在不利影响。",
+    "keywords": [
+      "在线体育博彩",
+      "家庭金融",
+      "储蓄",
+      "投资决策",
+      "交错双重差分"
+    ],
+    "ai_comment": "该研究利用微观交易数据揭示了在线体育博彩对家庭储蓄的挤出效应，为政策制定提供了重要实证依据。",
+    "topic": "家庭金融"
+  },
+  {
     "id": "w35393",
     "title": "Wealth Inequality and Safe Asset Demand",
     "authors": [
@@ -271,6 +298,29 @@
     ],
     "ai_comment": "本文揭示了生成式AI可能因流量分流而破坏开放网络内容生态的深层机制，并提出了包含版税与审计的修复框架，对平台监管与内容生态可持续发展具有重要启示。",
     "topic": "其他"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104327",
+    "title": "Forecast bias across horizons: Inflation expectations and the Treasury yields",
+    "authors": [
+      "Hao Pang"
+    ],
+    "abstract": "I show that the overreaction of the long-term yield forecasts to yield news, evidenced in recent studies, results directly from the overreaction of long-horizon inflation forecasts to inflation news. Motivated by this finding, I study how agents form inflation expectations across forecast horizons. Short-horizon survey forecasts underreact, while long-horizon forecasts overreact to inflation news. To reconcile this behavior, I implement a long-run bias, building on the widely shared intuition that agents conflate transitory with permanent shocks, within a realistic trend-gap inflation model. I embed this bias within a yield curve model. The long-horizon inflation expectations overreaction translates into a long-term yields’ overreaction, generating excess yield sensitivity to news. The model implies a long-term bond risk premium substantially less volatile and cyclical than that implied by predictive regressions or estimates imposing full-information rational expectations.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104327",
+    "published_date": "2026-06-29",
+    "source": "JFE",
+    "first_seen": "2026-07-01",
+    "abstract_missing": false,
+    "summary": "本文发现，长期收益率预测对收益率新闻的过度反应直接源于长期通胀预测对通胀新闻的过度反应。短期调查预测对通胀新闻反应不足，而长期预测则过度反应。为调和这一行为，作者在现实趋势-缺口通胀模型中引入长期偏差，基于代理人混淆暂时性与永久性冲击的普遍直觉。将该偏差嵌入收益率曲线模型后，长期通胀预期的过度反应转化为长期收益率的过度反应，导致收益率对新闻的过度敏感。模型暗示长期债券风险溢价的波动性和周期性远低于基于完全信息理性预期假设的预测回归或估计结果。",
+    "keywords": [
+      "通胀预期",
+      "预测偏差",
+      "收益率曲线",
+      "过度反应",
+      "长期偏差"
+    ],
+    "ai_comment": "该文通过将通胀预期偏差与收益率曲线结合，为长期收益率过度反应提供了新的解释机制，并挑战了传统完全信息理性预期假设。",
+    "topic": "宏观金融"
   },
   {
     "id": "10.1093/rfs/hhag060",
