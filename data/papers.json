@@ -1,5 +1,32 @@
 [
   {
+    "id": "10.1093/rfs/hhag061",
+    "title": "Too Good to Be True: Look-Ahead Bias in Empirical Options Research",
+    "authors": [
+      "Jefferson Duarte",
+      "Christopher S Jones",
+      "Mehdi Khorram",
+      "Haitao Mo",
+      "Junbo L Wang"
+    ],
+    "abstract": "Numerous trading strategies examined in options research exhibit remarkably high mean returns and Sharpe ratios. We show some of these seemingly “good deals” are due to look-ahead biases. These biases stem from using information unavailable at the portfolio formation time to filter out observations suspected of being noisy or erroneous. Our results suggest that elevated Sharpe ratios may serve as potential indicators of such look-ahead biases. Furthermore, deviating from previous literature findings, we show that illiquidity is not strongly priced in stock options and that only a small set of stock characteristics are in fact associated with option expected returns. (JEL G12, G14, G17)",
+    "url": "https://doi.org/10.1093/rfs/hhag061",
+    "published_date": "2026-06-30",
+    "source": "RFS",
+    "first_seen": "2026-07-02",
+    "abstract_missing": false,
+    "summary": "本文指出，期权实证研究中大量交易策略呈现出异常高的平均收益和夏普比率，部分原因是前瞻偏差（look-ahead bias）所致：这些偏差源于在投资组合形成时使用了当时不可得的信息来筛选观测值。研究表明，过高的夏普比率可能作为前瞻偏差的潜在指标。此外，与以往文献结论不同，本文发现股票期权的流动性溢价并不显著，且仅少数股票特征与期权预期收益相关。",
+    "keywords": [
+      "前瞻偏差",
+      "期权",
+      "夏普比率",
+      "流动性溢价",
+      "股票特征"
+    ],
+    "ai_comment": "本文揭示了期权策略高收益表象下隐藏的前瞻偏差风险，对实证研究的方法论有警示意义，同时修正了关于流动性定价的传统认知。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104330",
     "title": "Gambling away stability: Sports betting’s impact on vulnerable households",
     "authors": [
@@ -3204,6 +3231,30 @@
     ],
     "ai_comment": "该研究巧妙利用外生政策变化和移民暴露度识别因果关系，所获弹性估计更符合现实且具有政策参考价值。",
     "topic": "资产定价"
+  },
+  {
+    "id": "10.1093/rfs/hhag040",
+    "title": "Global Capital and Local Assets: House Prices, Quantities, and Elasticities",
+    "authors": [
+      "Caitlin S Gorback",
+      "Benjamin J Keys"
+    ],
+    "abstract": "We estimate price elasticities of housing supply for U.S. cities by examining the impact of foreign purchases on housing prices and quantities. After other countries introduced foreign-buyer taxes beginning in 2011, both house prices and quantities increased more in locations with high foreign-born populations. An increase in global capital inflows, instrumented with tax policy changes scaled by immigrant exposure, increased prices and quantities over 2011–2018. We combine these estimates to construct new local supply elasticities, which average 0.26 and range from 0.06 to 0.9. Compared to prior estimates, our elasticities are more inelastic and change cities’ relative rankings.",
+    "url": "https://doi.org/10.1093/rfs/hhag040",
+    "published_date": "2026-05-22",
+    "source": "RFS",
+    "first_seen": "2026-07-02",
+    "abstract_missing": false,
+    "summary": "本文利用外国购买行为对美国城市住房供给的价格弹性进行估计。通过2011年后其他国家引入外国买家税的政策变化，结合移民暴露度构建工具变量，分析全球资本流入对房价和数量的影响。研究发现，在2011-2018年间，全球资本流入的增加导致高移民人口地区的房价和住房数量显著上升。基于这些估计，本文构建了新的地方供给弹性，平均值为0.26，范围从0.06到0.9。与先前估计相比，新弹性值更缺乏弹性，并且改变了城市间的相对排名。",
+    "keywords": [
+      "住房供给弹性",
+      "外国买家税",
+      "全球资本流入",
+      "房价",
+      "工具变量"
+    ],
+    "ai_comment": "利用外生政策变化识别供给弹性，提供了更可靠的估计，纠正了传统方法可能存在的偏差。",
+    "topic": "宏观金融"
   },
   {
     "id": "10.1016/j.jfineco.2026.104309",
