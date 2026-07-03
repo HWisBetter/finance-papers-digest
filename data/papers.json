@@ -1,5 +1,52 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104324",
+    "title": "Monetary transmission and portfolio rebalancing: A cross-sectional approach",
+    "authors": [
+      "Xu Lu",
+      "Lingxuan Wu"
+    ],
+    "abstract": "We show that institutional portfolio rebalancing across asset classes plays a key role in transmitting monetary shocks to the stock market. Around FOMC announcements, ceteris paribus, a stock with 10-percentage-point higher ownership by rebalancing institutions experiences an additional 3.7-basis-point loss following a 10-basis-point surprise rate hike. We corroborate our mechanism by exploiting within-firm variations for dual shares, showing stronger price reactions at quarter- and month-ends when rebalancing is more imminent, and presenting placebo tests contrasting rebalancing institutions with other institutions. A concluding calibration suggests rebalancing could contribute roughly one-third to two-thirds of the aggregate stock market excess return response to monetary shocks.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104324",
+    "published_date": "2026-07-03",
+    "source": "JFE",
+    "first_seen": "2026-07-03",
+    "abstract_missing": false,
+    "summary": "本文研究机构投资者跨资产类别的投资组合再平衡在货币政策冲击向股票市场传导中的作用。基于FOMC公告事件，通过截面分析发现，在其他条件相同的情况下，加息10个基点使再平衡机构持股比例高10个百分点的股票额外损失3.7个基点。利用同一公司不同股份类型（如A股和H股）的差异验证机制，发现当再平衡更紧迫时（如季度末和月末）价格反应更强，并通过对比再平衡机构与其他机构进行安慰剂检验。校准结果表明，再平衡可以解释货币冲击对股票市场超额收益总体反应的大约三分之一到三分之二。",
+    "keywords": [
+      "货币政策传导",
+      "投资组合再平衡",
+      "机构投资者",
+      "股票市场",
+      "FOMC公告"
+    ],
+    "ai_comment": "本文通过精细的截面数据识别出机构再平衡渠道，并利用双重股份及时间效应进行因果检验，为货币政策传导机制提供了微观基础。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104329",
+    "title": "Aggregate corporate savings, economic uncertainty, and future stock returns",
+    "authors": [
+      "Yuanzhen Lyu"
+    ],
+    "abstract": "I document robust U.S. and international evidence that aggregate corporate cash savings negatively forecast future excess market returns, with economic uncertainty an important driver of this relation. In a calibrated neoclassical dynamic model featuring precautionary savings, I show that fixed financing costs, firm exit, and an uncertainty-driven time-varying price of risk are crucial to replicating this return predictability. The model further implies that the well-known positive return predictive power of aggregate accruals is largely attributable to aggregate cash savings, and the data support this implication.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104329",
+    "published_date": "2026-07-02",
+    "source": "JFE",
+    "first_seen": "2026-07-03",
+    "abstract_missing": false,
+    "summary": "本文通过美国和国际数据证明了企业总体现金储蓄对未来超额市场收益具有负向预测能力，而经济不确定性是这一关系的重要驱动因素。基于预防性储蓄的校准新古典动态模型表明，固定融资成本、企业退出以及由不确定性驱动的时变风险价格对于复制这种回报可预测性至关重要。模型进一步指出，总体应计项目的正向回报预测能力主要归因于总体现金储蓄，且数据支持这一推论。",
+    "keywords": [
+      "企业现金储蓄",
+      "股票收益预测",
+      "经济不确定性",
+      "预防性储蓄",
+      "应计项目"
+    ],
+    "ai_comment": "本文创新性地将企业现金储蓄与市场回报预测联系起来，并突出了经济不确定性的核心作用，为理解资产定价提供了新视角。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1093/rfs/hhag061",
     "title": "Too Good to Be True: Look-Ahead Bias in Empirical Options Research",
     "authors": [
