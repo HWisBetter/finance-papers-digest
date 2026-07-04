@@ -1,5 +1,56 @@
 [
   {
+    "id": "10.1093/rfs/hhag056",
+    "title": "Institutional Synergies and the Fragility of Loan Funds",
+    "authors": [
+      "Mustafa Emin",
+      "Christopher James",
+      "Tao Li",
+      "Jing Lu"
+    ],
+    "abstract": "There are two major institutional investors in the syndicated loan market: collateralized loan obligations (CLOs) and loan mutual funds. CLOs are closed-end funds while loan funds are open-end funds that issue claims that are redeemable on demand. In this paper, we examine whether CLOs provide arbitrage capital that contributes to the resilience of loan funds. We find that CLOs act as shock absorbers, providing liquidity through par-building trades when loan funds experience large outflows. However, CLO-provided liquidity is limited to par build–eligible loans, leading to potential flow-induced fire sales among par build–ineligible loans. (JEL G23, G38",
+    "url": "https://doi.org/10.1093/rfs/hhag056",
+    "published_date": "2026-07-03",
+    "source": "RFS",
+    "first_seen": "2026-07-04",
+    "abstract_missing": false,
+    "summary": "本文研究银团贷款市场中两种主要机构投资者——贷款抵押债券（CLOs）和贷款共同基金——之间的互动机制。CLOs是封闭式基金，而贷款共同基金是开放式基金，可随时赎回。作者探讨CLOs是否提供套利资本以增强贷款基金的韧性。研究发现，当贷款基金遭遇大规模赎回时，CLOs通过par-building交易提供流动性，起到减震器作用。然而，这种流动性仅适用于符合par-build条件的贷款，导致不符合条件的贷款可能引发火售。",
+    "keywords": [
+      "CLO",
+      "贷款共同基金",
+      "流动性",
+      "银团贷款",
+      "par-building"
+    ],
+    "ai_comment": "本文揭示了CLOs作为减震器在贷款基金流动性危机中的关键作用，但同时也指出了其流动性供给的局限性，对理解金融体系脆弱性具有重要意义。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104332",
+    "title": "Board connections, firm profitability, and product market actions",
+    "authors": [
+      "Radhakrishnan Gopalan",
+      "Renping Li",
+      "Alminas Žaldokas"
+    ],
+    "abstract": "A firm’s gross margin increases by 0.8 p.p.after forming a new direct board connection to a product market peer. Gross margin also rises by 0.4 p.p.after a connection is formed to a peer indirectly through a third intermediate firm. Further, using barcode-level data of 2.7 million products, we show that new board connections are related to higher consumer good prices, a greater tendency for market allocation, and slower new product introductions. The effects are stronger when the newly connected peers share corporate customers or have similar business descriptions and hold when controlling for other inter-firm relationships.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104332",
+    "published_date": "2026-07-03",
+    "source": "JFE",
+    "first_seen": "2026-07-04",
+    "abstract_missing": false,
+    "summary": "论文研究董事会联系对公司盈利能力和产品市场行为的影响。利用产品市场同行间的直接或间接董事会联系数据，发现当公司与同行新建立直接董事会联系后，毛利率提高0.8个百分点；通过第三方间接建立联系后，毛利率提高0.4个百分点。进一步基于270万产品的条码级数据，发现新的董事会联系与更高的消费品价格、更大的市场配置倾向以及更慢的新产品推出速度相关。这些效应在联系对象共享企业客户或业务描述相似时更强，且在控制其他企业间关系后依然显著。",
+    "keywords": [
+      "董事会联系",
+      "产品市场竞争",
+      "毛利率",
+      "市场配置",
+      "新产品推出"
+    ],
+    "ai_comment": "本文利用细颗粒度的产品数据揭示了董事会联系影响产品市场行为的传导机制，为董事会的经济后果提供了新的实证证据。",
+    "topic": "公司治理"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104324",
     "title": "Monetary transmission and portfolio rebalancing: A cross-sectional approach",
     "authors": [
