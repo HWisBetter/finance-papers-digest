@@ -1,5 +1,79 @@
 [
   {
+    "id": "10.1287/mnsc.2024.06807",
+    "title": "Bank Run, Interrupted: Modeling Deposit Withdrawals with Generative AI",
+    "authors": [
+      "Sophia Kazinnik"
+    ],
+    "abstract": "I study depositor behavior in panic-driven bank runs using an LLM-based survey simulation. I build a representative population of synthetic agents by assigning demographic attributes, expose them to a viral panic post, and randomize bank communication interventions. I validate model responses against human benchmarks and then generate systematic message variants that vary tone, strength, and content within the validated design space. I then include the estimated withdrawal propensities into a contagion model, which maps network nodes to depositor personas and propagates withdrawals through a single layer proximity network. Direct, personalized bank communications with strong reassurances and explicit survival clauses substantially reduce withdrawal intent. This framework offers an efficient, inexpensive method for testing crisis messages and projecting how runs may unfold under alternative communication strategies. This paper was accepted by Kay Giesecke, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.06807 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.06807",
+    "published_date": "2026-07-06",
+    "source": "MS",
+    "first_seen": "2026-07-07",
+    "abstract_missing": false,
+    "summary": "本研究利用基于大语言模型（LLM）的调查模拟来研究恐慌驱动的银行挤兑中储户的提款行为。研究者构建了一个具有代表性的人口统计特征的合成代理人群体，让他们接触一条病毒性恐慌帖子，并对银行沟通干预进行随机化处理。模型响应通过与人类基准进行验证，之后在验证的设计空间内生成系统性的消息变体（语气、强度、内容）。然后将估计的提款倾向纳入一个传染模型，该模型将网络节点映射到储户角色，并通过单层邻近网络传播提款。主要发现是：直接、个性化的银行沟通，带有强烈保证和明确生存条款，能显著降低提款意图。该框架为测试危机信息以及预测不同沟通策略下挤兑如何展开提供了一种高效、低成本的方法。",
+    "keywords": [
+      "银行挤兑",
+      "生成式AI",
+      "大语言模型",
+      "储户行为",
+      "沟通策略"
+    ],
+    "ai_comment": "本文创新性地结合生成式AI与网络传染模型，为银行危机沟通策略提供低成本、可量化的测试方法，具有重要的实践价值。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1093/rfs/hhag023",
+    "title": "All Clear for Takeoff: Evidence from Airports on the Effects of Infrastructure Privatization",
+    "authors": [
+      "Sabrina T Howell",
+      "Yeejin Jang",
+      "Hyeik Kim",
+      "Michael S Weisbach"
+    ],
+    "abstract": "We study privatization and corporate ownership in transportation infrastructure, focusing on global airports. Privatization in general does not improve performance. However, private equity (PE) ownership has strong and persistent positive effects on efficiency, volume, and quality, with positive externalities for the local economy. We address selection using close auctions where PE and non-PE firms bid. PE funds expand physical capacity and encourage larger planes while adding low-cost carriers and international routes. They are especially effective in countries with more corruption or state-owned flag carriers. In contrast, the poorer performance of non-PE acquirers may reflect private benefits and historical state ties. (JEL G32, G38, L32, R42, H54)",
+    "url": "https://doi.org/10.1093/rfs/hhag023",
+    "published_date": "2026-07-06",
+    "source": "RFS",
+    "first_seen": "2026-07-07",
+    "abstract_missing": false,
+    "summary": "本文研究交通基础设施的私有化和公司所有权，以全球机场为样本。总体而言，私有化并未改善绩效，但私募股权（PE）所有权对效率、运量和服务质量有持续显著的正面影响，并对当地经济产生正外部性。作者利用PE与非PE企业参与竞标的接近拍卖解决选择偏差问题。PE基金扩大物理容量、鼓励使用大型飞机，同时引入低成本航空公司和国际航线。这些效应在腐败更严重或拥有国有旗舰航空公司的国家尤为突出。相比之下，非PE收购方的较差表现可能反映了私人收益和历史国有关联。",
+    "keywords": [
+      "基础设施私有化",
+      "机场",
+      "私募股权",
+      "绩效",
+      "选择问题"
+    ],
+    "ai_comment": "本文通过精细的拍卖数据识别了不同私有化主体的异质性效果，突出了私募股权在基础设施领域的独特作用，为政策制定提供了重要参考。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104333",
+    "title": "Reaching for influence: Do banks use loans to establish political connections?",
+    "authors": [
+      "Mahsa Kaviani",
+      "Hosein Maleki",
+      "Pavel Savor"
+    ],
+    "abstract": "Using close elections as an empirical setting, this paper examines the drivers and consequences of politically motivated lending by U.S. banks, with a special focus on resulting benefits. We first show that firms with ties to members of Congress receive more favorable loan terms, despite no observable improvements in performance or default risk. The effect is especially pronounced among banks facing regulatory challenges — such as FDIC enforcement actions, corporate misconduct investigations, or low Community Reinvestment Act ratings — which also lend more frequently to connected firms, suggesting that these institutions have a heightened demand for political influence. Crucially, we find that politically motivated lending produces tangible future benefits for banks, including reduced misconduct penalties and easier approval for mergers and acquisitions. These findings provide evidence of a quid pro quo dynamic: banks extend preferential credit to firms with political connections and, in turn, receive regulatory advantages.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104333",
+    "published_date": "2026-07-06",
+    "source": "JFE",
+    "first_seen": "2026-07-07",
+    "abstract_missing": false,
+    "summary": "本文利用美国国会选举中选情接近的选举作为实证场景，考察银行出于政治动机发放贷款的驱动因素与后果，重点关注银行由此获得的收益。研究发现，与国会议员存在关联的企业获得了更优惠的贷款条款，尽管这些企业的业绩或违约风险并未显著改善。这一效应在面临监管挑战的银行中尤为突出，例如受到FDIC执法行动、公司不当行为调查或《社区再投资法》评级较低的银行，它们向关联企业放贷更为频繁，表明这些机构对政治影响力的需求更高。关键的是，政治动机贷款为银行带来了切实的未来收益，包括减少不当行为处罚和更容易获得并购批准。这些证据揭示了互惠动态：银行向具有政治关联的企业提供优惠信贷，并以此换取监管优势。",
+    "keywords": [
+      "银行",
+      "政治联系",
+      "贷款条款",
+      "监管利益",
+      "互惠"
+    ],
+    "ai_comment": "论文利用选举外生冲击识别因果，为银行政治游说的动机和收益提供了新颖证据，揭示了银行-政府关系中的隐性利益交换。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1093/rfs/hhag056",
     "title": "Institutional Synergies and the Fragility of Loan Funds",
     "authors": [
@@ -96,6 +170,31 @@
     ],
     "ai_comment": "本文创新性地将企业现金储蓄与市场回报预测联系起来，并突出了经济不确定性的核心作用，为理解资产定价提供了新视角。",
     "topic": "资产定价"
+  },
+  {
+    "id": "10.1287/mnsc.2023.03523",
+    "title": "Model Aggregation for Risk Evaluation and Robust Optimization",
+    "authors": [
+      "Tiantian Mao",
+      "Ruodu Wang",
+      "Qinyu Wu"
+    ],
+    "abstract": "We introduce a new approach for prudent risk evaluation based on stochastic dominance, and it is called the model aggregation (MA) approach. In contrast to the classic worst case risk (WR) approach, the MA approach produces not only a robust value of risk evaluation but also a robust distributional model, independent of any specific risk measure. The MA risk evaluation can be computed through explicit formulas in the lattice theory of stochastic dominance, and under some standard assumptions, the MA robust optimization admits a convex program reformulation. The MA approach for Wasserstein and mean-variance uncertainty sets admits explicit formulas for the obtained robust models. Via an equivalence property between the MA and WR approaches, new axiomatic characterizations are obtained for the value at risk and the expected shortfall (also known as conditional value at risk). The new approach is illustrated with various risk measures and examples from portfolio optimization. This paper was accepted by Chung Piaw Teo, optimization. Funding: This research was supported by the National Natural Science Foundation of China [Grants 12371476, 71921001, 71671176, 71871208], the Natural Sciences and Engineering Research Council of Canada [Grants CRC-2022-00141, RGPIN-2024-03728, RGPAS-2018-522590, RGPIN-2018-03823], and the Society of Actuaries Center of Actuarial Excellence Research Grant. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2023.03523 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.03523",
+    "published_date": "2026-07-01",
+    "source": "MS",
+    "first_seen": "2026-07-07",
+    "abstract_missing": false,
+    "summary": "本文提出了一种基于随机占优的模型聚合（MA）方法用于审慎风险评估。与经典的最坏情况风险（WR）方法不同，MA方法不仅提供风险评估的稳健值，还得到一个不依赖任何特定风险度量的稳健分布模型。MA风险评估可通过随机占优的格论显式公式计算，在标准假设下，MA稳健优化可重构为凸规划问题。对于Wasserstein和均值-方差不确定集，MA方法给出了所得稳健模型的显式公式。通过MA与WR方法之间的等价性，获得了VaR和期望损失（条件VaR）的新公理化刻画。该方法通过多种风险度量和组合优化实例进行了说明。",
+    "keywords": [
+      "模型聚合",
+      "随机占优",
+      "稳健优化",
+      "风险度量",
+      "凸规划"
+    ],
+    "ai_comment": "该文通过引入模型聚合方法，将随机占优理论应用于稳健风险评估，并建立了与最坏情况风险方法的等价性，为VaR和ES提供了新的公理化基础。",
+    "topic": "金融计量/机器学习"
   },
   {
     "id": "10.1093/rfs/hhag061",
