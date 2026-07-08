@@ -1,5 +1,28 @@
 [
   {
+    "id": "10.1287/mnsc.2026.02441",
+    "title": "The Sound We Haven’t Heard Before: A Commentary on “Fighting Fire with Fire: Infusing AI into Peer Review to Sustain Quality Scholarship”",
+    "authors": [
+      "Tinglong Dai"
+    ],
+    "abstract": "This Commentary responds to “Fighting Fire with Fire: Infusing AI into Peer Review to Sustain Quality Scholarship.” It shares the paper’s core position, that journals should govern artificial intelligence openly rather than leave it to the shadows, but it questions the premise that rising submission volume poses an existential threat. The safeguard is human judgment. Our shared fatigue with derivative, repetitive work is a sensor more discerning than any AI detector, because a model trained on what we have already rewarded cannot produce the novelty that our community prizes. The threat to a journal like Management Science is thus more contained than the original alarm implies, provided AI remains a non-final input and humans retain ownership of novelty and contribution. One test should govern any AI workflow: does it ask more of human judgment, or less? This paper was accepted by Christoph Loch, commentary.",
+    "url": "https://doi.org/10.1287/mnsc.2026.02441",
+    "published_date": "2026-07-07",
+    "source": "MS",
+    "first_seen": "2026-07-08",
+    "abstract_missing": false,
+    "summary": "这篇评论回应了“Fighting Fire with Fire: Infusing AI into Peer Review to Sustain Quality Scholarship”一文。它同意期刊应公开治理人工智能而非任其暗箱操作，但质疑了投稿量增长构成生存威胁的前提。作者认为人的判断是守护者，而AI无法产生新颖性，因为模型基于已有奖励的训练无法创造学界珍视的新颖性。因此，对Management Science这类期刊的威胁比原警告所暗示的更有限，前提是AI保持非最终输入且人类保留对新颖性和贡献的所有权。关键测试是：任何人工智能工作流是否要求更多的人类判断，还是更少。",
+    "keywords": [
+      "人工智能治理",
+      "同行评审",
+      "人类判断",
+      "新颖性",
+      "学术出版"
+    ],
+    "ai_comment": "提出了一个简单但深刻的测试标准——AI工作流是否增加人类判断的需求，为AI在学术评审中的角色提供了清晰的边界。",
+    "topic": "其他"
+  },
+  {
     "id": "10.1287/mnsc.2024.06807",
     "title": "Bank Run, Interrupted: Modeling Deposit Withdrawals with Generative AI",
     "authors": [
@@ -17074,6 +17097,26 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.6920881",
     "first_seen": "2026-06-14",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Geopolitics Meets AI War: Stock Market Evidence from China&amp;nbsp;",
+    "authors": [
+      "Lin William Cong",
+      "Siguang Li",
+      "Fang Wang",
+      "Yi Zhang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7047058",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7047058",
+    "first_seen": "2026-07-08",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
