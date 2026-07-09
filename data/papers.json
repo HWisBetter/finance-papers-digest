@@ -1,5 +1,54 @@
 [
   {
+    "id": "10.1287/mnsc.2024.06043",
+    "title": "Financial Reporting Effects of the 1934 Securities Exchange Act",
+    "authors": [
+      "Oliver Binz",
+      "Darren Roulstone"
+    ],
+    "abstract": "We document financial reporting effects of the 1934 Securities Exchange Act. Specifically, we find strong evidence that the act made the accounting of similar firms more similar. In contrast, we find no evidence that the act made the accounting of differing firms more similar. Together, these findings suggest that the act increased accounting comparability but not accounting uniformity. Further, the act increased information spillovers from earnings news released during bellwether firms’ earnings announcements to other firms within the same industry. We investigate possible mechanisms by which the act affected comparability and spillovers, and we identify the Securities and Exchange Commission’s financial reporting instructions and its financial reviews and comment letter process as the most likely drivers. Overall, our results provide evidence that the act improved financial reporting through increased accounting comparability and increased information spillovers, two features of accounting standards associated with numerous benefits for firms, investors, and capital markets. This paper was accepted by Suraj Srinivasan, accounting. Funding: The authors acknowledge financial support from European School of Management and Technology Berlin and The Ohio State University. Supplemental Material: The data files are available at https://doi.org/10.1287/mnsc.2024.06043 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.06043",
+    "published_date": "2026-07-08",
+    "source": "MS",
+    "first_seen": "2026-07-09",
+    "abstract_missing": false,
+    "summary": "本文研究1934年《证券交易法》对财务报告的影响。通过实证分析发现，该法案显著提高了相似公司之间会计的相似性（会计可比性），但并未使不同公司的会计趋同（会计统一性）。此外，该法案增强了龙头企业盈利公告的信息溢出效应，即其盈利新闻对同行业其他公司的影响更大。通过机制分析，作者识别出美国证券交易委员会（SEC）的财务报告指令及其财务审查和意见函流程是推动可比性和溢出效应最可能的因素。总体而言，法案通过提升会计可比性和信息溢出改善了财务报告质量，这些特征与公司、投资者和资本市场的诸多益处相关。",
+    "keywords": [
+      "1934年证券交易法",
+      "会计可比性",
+      "会计统一性",
+      "信息溢出",
+      "财务报告"
+    ],
+    "ai_comment": "本文利用历史自然实验，首次系统量化了1934年《证券交易法》对财务报告可比性和信息溢出效应的因果影响，为理解监管如何塑造会计信息质量提供了重要实证证据。",
+    "topic": "会计与信息披露"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104331",
+    "title": "Investor expertise and private investment selection",
+    "authors": [
+      "Shane Miller",
+      "Emmanuel Yimfor",
+      "Ye Zhang"
+    ],
+    "abstract": "Institutional and individual investors evaluate private market opportunities systematically differently, even facing identical choices. In a survey experiment, 593 institutional and 445 individual investors assess venture capital fund profiles with independently randomized GP characteristics. Institutions heavily weight past fund performance, consistent with risk-averse investor demand calibrated to VC markets. Individuals largely ignore performance, favoring educational credentials instead. A follow-up experiment identifies two independent mechanisms: individuals lack awareness that VC performance persists and discount quality signals for funds they perceive as inaccessible. Performance-based selection alone reduces individuals’ expected returns by approximately 7%, accounting for 20% of the return gap with professionals.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104331",
+    "published_date": "2026-07-08",
+    "source": "JFE",
+    "first_seen": "2026-07-09",
+    "abstract_missing": false,
+    "summary": "本文通过一项调查实验，研究了机构投资者和个人投资者在评估私募市场机会时的系统性差异。实验让593名机构投资者和445名个人投资者评估风险投资基金简介，其中GP特征随机独立变化。结果显示，机构投资者高度重视基金过往业绩，这与风险厌恶型投资者在VC市场中的需求一致；而个人投资者则基本忽略业绩，更偏好教育资质。后续实验识别出两个独立机制：个人投资者缺乏对VC业绩持续性的认知，并对他们认为难以接触的基金的质量信号打折扣。仅基于业绩的选择会使个人投资者的预期收益降低约7%，这占其与专业人士收益差距的20%。",
+    "keywords": [
+      "投资者专业度",
+      "私募投资选择",
+      "风险投资",
+      "业绩持续性",
+      "调查实验"
+    ],
+    "ai_comment": "该论文通过精心设计的调查实验，揭示了个人投资者在私募投资中的行为偏差，并量化了其造成的收益损失，对理解投资者异质性和市场效率有重要贡献。",
+    "topic": "行为金融"
+  },
+  {
     "id": "10.1287/mnsc.2026.02441",
     "title": "The Sound We Haven’t Heard Before: A Commentary on “Fighting Fire with Fire: Infusing AI into Peer Review to Sustain Quality Scholarship”",
     "authors": [
