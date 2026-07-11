@@ -1,5 +1,32 @@
 [
   {
+    "id": "10.1287/mnsc.2024.06909",
+    "title": "The Uneven Impact of Generative Artificial Intelligence on Entrepreneurial Performance: Evidence from a Field Experiment in Kenya",
+    "authors": [
+      "Nicholas G. Otis",
+      "Rowan Clarke",
+      "Solène Delecourt",
+      "David Holtz",
+      "Rembrand Koning"
+    ],
+    "abstract": "Scalable and low-cost artificial intelligence (AI) assistance has the potential to improve firm decision making and economic performance, particularly in emerging markets. However, running a business involves a wide range of open-ended problems, making it unclear whether and how recent advances in AI can help business owners around the world make better decisions. In a field experiment with Kenyan entrepreneurs, we evaluated the impact of AI advice on small business revenues and profits by randomizing access to a GPT-4-powered AI business assistant. Although we are unable to reject the null hypothesis of no average treatment effect on firm revenues and profits, we find that the effect for entrepreneurs who were low performing at baseline is over 0.20-standard-deviations lower than for initial high performers. Subsample analyses show that low performers did nearly 10% worse because of the AI assistant, whereas high performers may have benefited by over 15%. This differential impact does not appear to result from differences in the questions posed to the AI or the advice that it provided but rather, from the advice that entrepreneurs chose to implement. More broadly, these results show that generative AI is already capable of impacting real-world business performance—although in uneven and sometimes unexpected ways. This paper was accepted by Anita McGahan, business strategy. Funding: This work was supported by the Weiss Fund, Harvard Business School, Berkeley Haas, the Cora Jane Flood Endowment at Berkeley Haas, the Agency Fund, the South Park Common Social Impact Fellowship, and the Digital Data Design Institute at Harvard. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.06909 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.06909",
+    "published_date": "2026-07-10",
+    "source": "MS",
+    "first_seen": "2026-07-11",
+    "abstract_missing": false,
+    "summary": "通过一项在肯尼亚企业家中的实地实验，本文评估了由GPT-4驱动的AI商业助手对小企业收入和利润的影响。实验随机分配AI助手的使用权限，发现平均处理效应不显著，但初始绩效低的企业家因AI助手收入降低近10%，而初始绩效高的企业家可能受益超过15%。差异并非源于向AI提出的问题或AI提供的建议不同，而是源于企业家选择实施的具体建议。结果表明，生成式AI已能影响现实商业绩效，但影响不均衡，且可能产生意想不到的负面效果。",
+    "keywords": [
+      "生成式人工智能",
+      "创业绩效",
+      "实地实验",
+      "肯尼亚",
+      "小企业"
+    ],
+    "ai_comment": "该研究通过实地随机对照实验揭示了生成式AI对企业家绩效的异质性影响，强调了实施环节的关键作用，挑战了AI能够普遍提升决策质量的假设。",
+    "topic": "其他"
+  },
+  {
     "id": "10.1287/mnsc.2024.07517",
     "title": "Vertical Patient Streaming in Emergency Departments",
     "authors": [
