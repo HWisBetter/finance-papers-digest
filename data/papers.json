@@ -1,5 +1,77 @@
 [
   {
+    "id": "10.1287/mnsc.2024.05510",
+    "title": "Executive Tweets",
+    "authors": [
+      "Richard M. Crowley",
+      "Wenli Huang",
+      "Hai Lu"
+    ],
+    "abstract": "We explore the tweeting behavior of S&P 1500 firms’ chief executive officers and chief financial officers and its market reactions from 2011 to 2018. Executives post a variety of content on Twitter, with slightly less than half of their tweets relating to business matters. We find that most executive tweets do not elicit market reactions. However, the subset of executive tweets about financial information appears to be associated with market reactions incremental to the responses to firm-issued tweets. These reactions coincide with increases in trading volume and retail investor activity. To assess whether market responses are driven by new information or by changes in perceived credibility, we develop an innovative machine-learning-based measure of content similarity between executive and firm tweets. We find stronger investor reactions when executive financial tweets are more similar to prior firm tweets, consistent with the perceived credibility mechanism. At the same time, executive financial tweets also generate market reactions in the absence of firm disclosures, supporting the new information mechanism. This paper was accepted by Suraj Srinivasan, accounting. Funding: This work is supported by a grant from the Research Grants Council of the Hong Kong Special Administrative Region, China [Project GRF 15502618]. This works was supported by the Social Sciences and Humanities Research Council of Canada [Grant 435-2019-0292]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.05510 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.05510",
+    "published_date": "2026-07-13",
+    "source": "MS",
+    "first_seen": "2026-07-14",
+    "abstract_missing": false,
+    "summary": "本文研究了2011年至2018年间S&P 1500公司CEO和CFO的推文行为及其市场反应。高管在Twitter上发布多种内容，其中略少于一半的推文涉及商业事项。研究发现，大多数高管推文并未引发市场反应，但关于财务信息的高管推文似乎与市场反应相关联，且这种反应是公司推文反应之外的增量。这些反应伴随着交易量和散户投资者活动的增加。为了评估市场反应是由新信息驱动还是由感知可信度变化驱动，作者开发了一种基于机器学习的创新度量，衡量高管推文与公司推文的内容相似度。结果发现，当高管财务推文与公司先前推文更相似时，投资者反应更强，这与感知可信度机制一致；同时，在公司未进行披露的情况下，高管财务推文也产生了市场反应，支持了新信息机制。",
+    "keywords": [
+      "高管推文",
+      "市场反应",
+      "内容相似度",
+      "机器学习",
+      "散户投资者"
+    ],
+    "ai_comment": "该研究创新地利用机器学习度量内容相似度，区分了信息机制与可信度机制，为社交媒体信息披露的经济后果提供了新证据。",
+    "topic": "会计与信息披露"
+  },
+  {
+    "id": "10.1093/rfs/hhag065",
+    "title": "Voting Choice",
+    "authors": [
+      "Andrey Malenko",
+      "Nadya Malenko"
+    ],
+    "abstract": "Traditionally, fund managers cast votes on behalf of fund investors. Recently, there is a shift toward “pass-through voting,” with funds offering investors a choice: delegate votes to the fund or vote themselves. We develop a framework to study the implications of voting choice. While it helps reflect heterogeneous investor preferences, it also shapes the informational content of the vote, and these forces can conflict. When interests are aligned, voting choice improves information aggregation and investor welfare. With preference heterogeneity or costly information, however, it can make investors worse off by weakening informed. (JEL D72, D82, D83, G34, K22)",
+    "url": "https://doi.org/10.1093/rfs/hhag065",
+    "published_date": "2026-07-13",
+    "source": "RFS",
+    "first_seen": "2026-07-14",
+    "abstract_missing": false,
+    "summary": "该论文研究基金投票中出现的“投票选择权”（pass-through voting）现象，即基金投资者可以选择将投票权委托给基金或自行投票。作者构建了一个理论框架，分析投票选择权的影响：它既能反映投资者的异质性偏好，又会改变投票的信息含量，这两种力量可能相互冲突。当投资者利益一致时，投票选择权可以改善信息聚合并提高投资者福利；但当存在偏好异质性或信息获取成本时，投票选择权可能弱化知情投票，从而降低投资者福利。",
+    "keywords": [
+      "投票选择",
+      "信息聚合",
+      "投资者福利",
+      "偏好异质性",
+      "信息成本"
+    ],
+    "ai_comment": "该论文首次系统分析了投票选择权的经济后果，揭示了其作为信息聚合机制的双刃剑效应，对基金治理实践具有重要启示。",
+    "topic": "公司治理"
+  },
+  {
+    "id": "10.1093/rfs/hhag064",
+    "title": "Generative AI and Data Quality: Implications for Productivity, Labor Displacement, and Policy",
+    "authors": [
+      "Zhifeng Cai"
+    ],
+    "abstract": "Generative artificial intelligence (AI) is increasingly consuming and producing huge amounts of data. We propose a social learning model of AI, emphasizing a data-AI feedback loop: data quality affects AI productivity, which influences AI adoption and, consequently, the composition (AI versus human-generated) and quality of future data. Calibrated to evidence on synthetic training loops, the model predicts hump-shaped labor dynamics—short-term displacement that partially reverses as data quality deteriorates. A Grossman–Stiglitz-style externality emerges: AI adopters free-ride on the human-generated actions that supply the novel information on which AI itself relies. In a competitive market, AI should be taxed to correct the data-quality externality; a concentrated AI industry overcorrects, making a subsidy optimal. (JEL O33, D62, D83, J24)",
+    "url": "https://doi.org/10.1093/rfs/hhag064",
+    "published_date": "2026-07-13",
+    "source": "RFS",
+    "first_seen": "2026-07-14",
+    "abstract_missing": false,
+    "summary": "该论文构建了一个关于生成式AI的社会学习模型，强调数据与AI之间的反馈循环：数据质量影响AI生产力，进而影响AI的采用以及未来数据的构成（AI生成 vs 人类生成）与质量。通过校准到合成训练循环的证据，模型预测出驼峰型的劳动力动态——短期内劳动力被替代，但随着数据质量恶化，替代部分逆转。模型还揭示了一种Grossman-Stiglitz式的外部性：AI采用者免费搭乘了提供新颖信息的人类生成行为，而这些信息正是AI赖以运作的基础。在竞争市场中，应当对AI征税以纠正数据质量外部性；但在集中的AI行业中，过度纠正反而使补贴成为最优政策。",
+    "keywords": [
+      "生成式AI",
+      "数据质量",
+      "劳动力动态",
+      "外部性",
+      "政策"
+    ],
+    "ai_comment": "本文通过引入数据-AI反馈循环，将数据质量内生化为影响AI生产率的关键因素，并揭示了市场结构对最优政策的非线性影响，为理解AI的经济效应提供了新视角。",
+    "topic": "其他"
+  },
+  {
     "id": "10.1287/mnsc.2024.06909",
     "title": "The Uneven Impact of Generative Artificial Intelligence on Entrepreneurial Performance: Evidence from a Field Experiment in Kenya",
     "authors": [
