@@ -1,5 +1,54 @@
 [
   {
+    "id": "10.1287/mnsc.2024.08765",
+    "title": "Cross-Border Investments in Private Firms: The Benefits of Comparability for Foreign Investors",
+    "authors": [
+      "Kristian D. Allee",
+      "Tami Dinh",
+      "Arthur Stenzel"
+    ],
+    "abstract": "We examine whether the mandated convergence of local German Generally Accepted Accounting Principles with International Financial Reporting Standards (IFRS) increases investment by foreign equity investors in German private firms. Exploiting a large-sample quasi-experimental setting, we document an average foreign ownership increase of 2%–8% in firms affected by the accounting reform compared with our unaffected control firms. Based on our identification strategy, using both the unique setting and accounting system comparability (that is, the comparability of cash flows in the next period), we show that increased comparability can minimize challenges faced by investors in private firms. We also find that those investors more familiar with IFRS benefit more from the increased accounting comparability. In addition, the effect is stronger for firms with higher proprietary costs before the mandatory accounting comparability increase. Our findings are robust to alternative matching procedures and a placebo test. We provide evidence for ongoing discussions on the costs of separate accounting standards for private firms. We show significant benefits when private firms’ accounting becomes more (and not less) comparable to that of public firms. This paper was accepted by Eric So, accounting. Funding: K. D. Allee acknowledges the support of the Doyle Z. Williams Chair in Professional Accounting at the Sam M. Walton College of Business. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08765 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08765",
+    "published_date": "2026-07-14",
+    "source": "MS",
+    "first_seen": "2026-07-15",
+    "abstract_missing": false,
+    "summary": "本文利用德国一般公认会计原则（GAAP）强制与国际财务报告准则（IFRS）趋同的准实验场景，研究会计准则可比性对私营企业外国股权投资的影响。研究发现，受会计改革影响的德国私营企业，其外国所有权平均增长2%-8%，而控制组企业无显著变化。通过独特的识别策略和会计系统可比性（即未来期间现金流可比性）指标，作者证明可比性提升能减少外国投资者面临的信息障碍。此外，更熟悉IFRS的投资者从可比性提高中获益更多，且对于改革前专有成本较高的企业，这一效应更强。研究结论在多种匹配方法和安慰剂测试中保持稳健。本文为关于私营企业单独会计准则成本的讨论提供了实证证据，表明私营企业会计与上市公司会计更具可比性时能带来显著收益。",
+    "keywords": [
+      "国际财务报告准则（IFRS）",
+      "会计准则可比性",
+      "外国股权投资",
+      "私营企业",
+      "会计准则趋同"
+    ],
+    "ai_comment": "本文利用德国独特的准自然实验，为会计准则可比性促进跨境投资提供了因果证据，并揭示了投资者熟悉度和企业专有成本等异质性效应，对会计与金融交叉领域有重要贡献。",
+    "topic": "会计与信息披露"
+  },
+  {
+    "id": "10.1287/mnsc.2024.06324",
+    "title": "Discrete Pricing in Multiobject Auctions with Unit Demand and Wealth Effects",
+    "authors": [
+      "Ryan Tierney",
+      "Yu Zhou"
+    ],
+    "abstract": "We study an auction model for selling multiple heterogeneous objects, in which (i) each agent gets at most one object and has utility functions that accommodate wealth effects, and (ii) prices are adjusted discretely via some prefixed increment. A Walrasian equilibrium may not exist in the discrete price setting. We instead propose a novel equilibrium concept, tight equilibrium, that is compatible with discrete prices. A descending-price auction, requiring only partial demand information and featuring a clear price discovery process, is constructed to yield a tight equilibrium. Tight equilibrium ensures efficiency and generalizes the well-known minimum price equilibrium in the continuous price setting to the discrete price setting. We estimate the deviation bound on prices between tight equilibrium and minimum price equilibrium, which depends on the magnitude of wealth effects, the increment size, and the number of objects. Based on this result, we introduce a notion of approximate incentive compatibility and show that our auction is both efficient and approximately incentive compatible. This paper was accepted by Martin Bichler, market design, platform, and demand analytics. Funding: Y. Zhou gratefully acknowledges financial support from the National Natural Science Foundation of China [Grant 72394391], the Grant-in-aid for Research Activity, Japan Society for the Promotion of Science [Grants 26H01960 and 22H00062], the Nagoya University Kitankai Fund (2024), and JST ERATO [Grant JPMJER2301].",
+    "url": "https://doi.org/10.1287/mnsc.2024.06324",
+    "published_date": "2026-07-14",
+    "source": "MS",
+    "first_seen": "2026-07-15",
+    "abstract_missing": false,
+    "summary": "本文研究了多物品拍卖中的离散定价问题，其中每个竞拍者最多只能获得一个物品，且效用函数具有财富效应。由于离散价格下瓦尔拉斯均衡可能不存在，作者提出了一种新的均衡概念——紧均衡（tight equilibrium），该概念与离散价格兼容。他们构建了一个降序拍卖机制，仅需部分需求信息，具有清晰的价格发现过程，并能实现紧均衡。紧均衡保证了效率，并将连续价格下的最小价格均衡推广到离散价格情形。作者估计了紧均衡与最小价格均衡之间的价格偏差界，该偏差取决于财富效应的大小、价格增量以及物品数量。基于此，他们引入了近似激励相容的概念，并证明该拍卖机制既是有效的，也是近似激励相容的。",
+    "keywords": [
+      "多物品拍卖",
+      "离散定价",
+      "紧均衡",
+      "降序拍卖",
+      "财富效应"
+    ],
+    "ai_comment": "本文在离散价格拍卖理论中提出了紧均衡这一新概念，并设计了可执行的降序拍卖机制，兼具效率与近似激励相容性，为实际拍卖设计提供了新思路。",
+    "topic": "市场微观结构"
+  },
+  {
     "id": "10.1287/mnsc.2024.05510",
     "title": "Executive Tweets",
     "authors": [
