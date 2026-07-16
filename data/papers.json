@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1287/mnsc.2022.01864",
+    "title": "Scalable Bundle Recommendations: A Large-Scale Field Experiment",
+    "authors": [
+      "Madhav Kumar",
+      "Dean Eckles",
+      "Sinan Aral"
+    ],
+    "abstract": "We develop an end-to-end, scalable machine learning framework for designing bundle recommendations in a high-dimensional choice setting. We leverage historical purchases and consideration sets determined from clickstream data to generate dense representations (embeddings) of products. We impose minimal structure on these embeddings and develop heuristics for complementarity and substitutability among products. Subsequently, we use the heuristics to create multiple bundle recommendations for each of 4,500 focal products and test their performance using a field experiment with a large retailer. We use the experimental data to optimize the recommendation design policy with offline policy learning. Our optimized policy is robust across product categories, generalizes well to the retailer’s entire assortment, and provides an expected improvement of 35% ([Formula: see text] per 100 visits) in revenue from bundle recommendations over the baseline policy. This paper was accepted by Hemant Bhargava, information systems. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2022.01864 .",
+    "url": "https://doi.org/10.1287/mnsc.2022.01864",
+    "published_date": "2026-07-15",
+    "source": "MS",
+    "first_seen": "2026-07-16",
+    "abstract_missing": false,
+    "summary": "这篇论文开发了一个可扩展的端到端机器学习框架，用于在高维选择环境下设计捆绑推荐。通过利用历史购买数据和从点击流数据中确定的考虑集，生成产品的密集表示（嵌入），并施加最小结构，开发了产品互补性和替代性的启发式规则。随后，为4500个焦点产品创建多个捆绑推荐，并在大型零售商的现场实验中测试其性能。利用实验数据通过离线策略学习优化推荐设计策略。优化后的策略在产品类别间具有鲁棒性，能很好地推广到零售商的整个品类，与基线策略相比，预期收入提高35%（每100次访问增加特定收入）。",
+    "keywords": [
+      "捆绑推荐",
+      "机器学习",
+      "现场实验",
+      "产品嵌入",
+      "策略优化"
+    ],
+    "ai_comment": "该研究通过结合嵌入、启发式规则与离线策略学习，提出了一个实用的捆绑推荐框架，大规模现场实验验证了其有效性，具有重要的商业应用价值。",
+    "topic": "金融计量/机器学习"
+  },
+  {
     "id": "10.1287/mnsc.2024.08765",
     "title": "Cross-Border Investments in Private Firms: The Benefits of Comparability for Foreign Investors",
     "authors": [
