@@ -1,5 +1,56 @@
 [
   {
+    "id": "10.1287/mnsc.2023.03329",
+    "title": "Nonstationary Experimental Design Under Structured Trends",
+    "authors": [
+      "David Simchi-Levi",
+      "Chonghuan Wang",
+      "Zeyu Zheng"
+    ],
+    "abstract": "Experimentation is increasingly used across domains such as healthcare and online platforms to inform decision making, with a central goal often being the estimation of the average treatment effect (ATE). However, in many real-world settings, treatment effects, or even the treatments themselves, evolve over time, making classical experimental designs, which assume stationarity, less effective or even misleading. This paper studies nonstationary experimental design under structured trends, addressing two key objectives: (i) accurately estimating the dynamic treatment effect and (ii) minimizing regret (e.g., revenue or welfare loss) during the experiment. We propose a flexible design framework that can be tailored to achieve Pareto-optimal tradeoff between the two objectives. We further analyze how time-varying noise levels affect this tradeoff. Additionally, we establish asymptotic normality of the estimators and show that different trend orders yield different convergence rates, enabling efficient statistical tests for the existence of high-order trends. This paper was accepted by J. George Shanthikumar, data science. Funding: D. Simchi-Levi and C. Wang were partially supported by the Massachusetts Institute of Technology (MIT) Data Science Lab and the MIT-IBM partnership in artificial intelligence. Z. Zheng was partially supported by the National Science Foundation Division of Mathematical Sciences [AwardDMS-2220537] and the Avenir Public Welfare Foundation. Supplemental Material: The online appendices and data files are available at https://doi.org/10.1287/mnsc.2023.03329 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.03329",
+    "published_date": "2026-07-16",
+    "source": "MS",
+    "first_seen": "2026-07-17",
+    "abstract_missing": false,
+    "summary": "本文研究在结构趋势下的非平稳实验设计，核心目标有两个：准确估计动态处理效应（平均处理效应随时间变化），以及最小化实验期间的遗憾（如收入或福利损失）。作者提出一个灵活的设计框架，能够针对这两个目标实现帕累托最优的权衡。进一步分析了时变噪声水平如何影响这一权衡，并建立了估计量的渐近正态性，证明不同趋势阶数会产生不同的收敛速率，从而能够进行高效的高阶趋势存在性统计检验。",
+    "keywords": [
+      "非平稳实验设计",
+      "结构趋势",
+      "平均处理效应",
+      "动态处理效应",
+      "帕累托最优"
+    ],
+    "ai_comment": "本文创新性地将非平稳性与结构趋势引入实验设计，同时优化估计精度与遗憾，并提供了完整的理论性质，对平台和医疗等动态环境下的实验具有重要指导意义。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104338",
+    "title": "Strategic communication among banks",
+    "authors": [
+      "Christian Bittner",
+      "Falko Fecht",
+      "Melissa Pala",
+      "Farzad Saidi"
+    ],
+    "abstract": "How do bank networks facilitate information flows that shape market outcomes? Using international banks’ advisory activities in corporate takeovers as their source of private information, we show in supervisory data that banks with closer ties to the target, but not the acquirer, advisor trade profitably in the target’s stock prior to the deal announcement. This trading behavior is associated with a higher premium paid without compromising deal success. As connected banks’ incentives are aligned only with target shareholders’ interests, which are represented by the target advisor, our evidence suggests that economic incentives determine which banks share information and with whom.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104338",
+    "published_date": "2026-07-16",
+    "source": "JFE",
+    "first_seen": "2026-07-17",
+    "abstract_missing": false,
+    "summary": "本文利用国际银行在公司收购中的咨询活动作为其私人信息来源，基于监管数据研究银行网络如何促进信息流动并影响市场结果。研究发现，与目标公司顾问关系密切的银行（而非收购方顾问）会在交易公告前交易目标股票并获得利润，这种交易行为与更高的收购溢价相关，但不会影响交易的成功率。由于有联系的银行只与目标股东的激励一致（由目标顾问代表），证据表明经济激励决定了哪些银行与谁分享信息。",
+    "keywords": [
+      "银行网络",
+      "信息分享",
+      "内幕交易",
+      "并购咨询",
+      "经济激励"
+    ],
+    "ai_comment": "本文利用独特的监管数据，揭示了银行网络中信息流动的动机和方向，为内幕交易和并购定价提供了新的视角。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1287/mnsc.2022.01864",
     "title": "Scalable Bundle Recommendations: A Large-Scale Field Experiment",
     "authors": [
@@ -321,6 +372,30 @@
     ],
     "ai_comment": "提出了一个简单但深刻的测试标准——AI工作流是否增加人类判断的需求，为AI在学术评审中的角色提供了清晰的边界。",
     "topic": "其他"
+  },
+  {
+    "id": "10.1111/1475-679x.70075",
+    "title": "The Economic Consequences of CEO Compensation Lawsuits",
+    "authors": [
+      "Xiangnian Kong",
+      "Ke Na"
+    ],
+    "abstract": "This paper studies shareholder derivative lawsuits related to CEO compensation. We document that compensation lawsuits are more likely to be filed against firms with higher CEO pay, especially in the presence of poor firm performance. Firms reduce the level of CEO compensation after lawsuits, which leads to CEO departures and declines in CEO effort provisions, and consequently, results in deteriorated firm performance. Interestingly, compensation lawsuits accompanied by low support in the preceding Say‐on‐Pay votes, which likely capture the quality of pay practices, are associated with even higher pay cuts, but do not harm firm performance or lead to departures of talented CEOs, supporting the idea that suboptimal pay and deteriorated performance after compensation lawsuits are driven by the lack of a sophisticated understanding of CEO pay by plaintiff shareholders.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70075",
+    "published_date": "2026-07-07",
+    "source": "JAR",
+    "first_seen": "2026-07-17",
+    "abstract_missing": false,
+    "summary": "本文研究了与CEO薪酬相关的股东派生诉讼的经济后果。研究发现，诉讼更可能发生在CEO薪酬较高且公司业绩较差的情况下。诉讼后，企业会降低CEO薪酬水平，导致CEO离职和努力程度下降，进而损害公司业绩。有趣的是，当诉讼前“Say‐on‐Pay”投票支持率较低（反映薪酬实践质量较差）时，薪酬削减幅度更大，但不会损害公司业绩或导致有才能的CEO离职。这一结果支持了以下观点：诉讼后出现的次优薪酬和业绩恶化，是由于原告股东对CEO薪酬缺乏深入理解所致。",
+    "keywords": [
+      "CEO薪酬",
+      "股东派生诉讼",
+      "公司绩效",
+      "Say‐on‐Pay投票",
+      "薪酬实践"
+    ],
+    "ai_comment": "本文通过区分不同诉讼情境（尤其是Say‐on‐Pay投票支持率的高低），揭示了股东诉讼对CEO薪酬和公司绩效的异质性影响，为理解股东干预的有效性提供了新的视角。",
+    "topic": "公司治理"
   },
   {
     "id": "10.1287/mnsc.2024.06807",
