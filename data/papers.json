@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104336",
+    "title": "Private equity for pension plans? Evaluating private equity performance from an investor’s perspective",
+    "authors": [
+      "Arthur Korteweg",
+      "Stavros Panageas",
+      "Anand Systla"
+    ],
+    "abstract": "We evaluate private equity (PE) performance using investor-specific stochastic discount factors, and examine whether public pension plans could benefit from changing their allocation to PE. Plans invest in PE funds with higher than average risk-adjusted performance. This is mainly due to access to successful managers, not superior selection skill. Decomposing returns into risk-compensation and “alpha”, we find that some plans obtain higher PE returns by taking more risk without earning higher, and in some cases earning lower, risk-adjusted returns, broadly consistent with agency problems within plans.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104336",
+    "published_date": "2026-07-17",
+    "source": "JFE",
+    "first_seen": "2026-07-18",
+    "abstract_missing": false,
+    "summary": "本文利用投资者特定随机贴现因子评估私募股权（PE）的表现，并检验公共养老金计划是否能通过调整PE配置获益。研究发现，养老金计划投资的PE基金具有高于平均风险调整表现，这主要归功于接触成功的基金管理人，而非计划自身的选择能力。通过将PE回报分解为风险补偿和“alpha”，发现部分计划通过承担更高风险获得了更高的PE回报，但其风险调整后回报并未更高，甚至更低，这与计划内部存在的代理问题相一致。",
+    "keywords": [
+      "私募股权",
+      "养老金计划",
+      "风险调整表现",
+      "代理问题",
+      "随机贴现因子"
+    ],
+    "ai_comment": "本文从投资者视角出发，使用随机贴现因子评估PE表现，克服了传统方法的局限；同时揭示了养老金计划内部代理问题对投资绩效的影响，具有重要的政策含义。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1287/mnsc.2023.03329",
     "title": "Nonstationary Experimental Design Under Structured Trends",
     "authors": [
