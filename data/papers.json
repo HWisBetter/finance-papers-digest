@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1287/mnsc.2023.03670",
+    "title": "The Dark Side of Liquid Bonds in Fire Sales",
+    "authors": [
+      "Maria Chaderina",
+      "Alexander Muermann",
+      "Christoph Scheuch"
+    ],
+    "abstract": "We investigate which bonds investors should sell when they need to raise cash quickly. Our model shows that the intuitive strategy of selling the most liquid bonds can backfire. In over-the-counter markets, liquid bonds trade fastest, but when many investors simultaneously sell the same liquid, widely held bonds while buying capital is scarce, their prices fall the most. Individual investors do not fully internalize how their sales amplify the liquidation losses of others, making the outcome privately optimal but collectively inefficient. We test these predictions using property and casualty insurers around major natural catastrophes and find that insurers sell liquid bonds first, only partially avoid crowded bonds, and that liquid bonds experience the largest price declines during fire sales. The overlap in liquid holdings thus emerges as a key source of systemic risk that should receive greater weight in regulation and risk measurement. This paper was accepted by Lukas Schmid, finance. Funding: C. Scheuch is grateful for financial support from the Austrian Science Fund (FWF) [Grant DOC 23-G16]. Supplemental Material: The data files are available at https://doi.org/10.1287/mnsc.2023.03670 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.03670",
+    "published_date": "2026-07-20",
+    "source": "MS",
+    "first_seen": "2026-07-21",
+    "abstract_missing": false,
+    "summary": "该论文研究了投资者在需要快速筹集现金时应出售哪些债券。模型显示，出售最流动债券的策略可能适得其反：在场外市场中，尽管流动债券交易最快，但当众多投资者同时抛售相同且广泛持有的流动债券而购买资本稀缺时，其价格跌幅最大。个体投资者未充分内化其销售对其他投资者清算损失的放大效应，导致结果私人最优但集体无效率。利用重大自然灾害前后财产与意外伤害保险公司的数据进行实证检验，发现保险公司优先出售流动债券，仅部分避免拥挤债券，且流动债券在抛售中价格下降最大。因此，流动持有重叠成为系统性风险的关键来源，应在监管和风险衡量中予以重视。",
+    "keywords": [
+      "Fire Sales",
+      "流动债券",
+      "拥挤交易",
+      "系统性风险",
+      "场外市场"
+    ],
+    "ai_comment": "该论文揭示了流动债券在抛售中的流动性悖论，为系统性风险提供了新视角；巧用自然灾害作为外生冲击进行因果识别，实证与理论结合紧密。",
+    "topic": "市场微观结构"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104337",
     "title": "Short versus long-run demand elasticities in asset pricing",
     "authors": [
