@@ -1,5 +1,53 @@
 [
   {
+    "id": "10.1093/rfs/hhag025",
+    "title": "Sovereign Default and the Decline in Interest Rates*",
+    "authors": [
+      "Max Miller",
+      "James D Paron",
+      "Jessica A Wachter"
+    ],
+    "abstract": "Sovereign debt yields have undergone a historic decline over the last half century. Standard explanations, including aging populations and increases in asset demand from abroad, encounter difficulties when confronted with the full range of evidence. We propose an explanation based on a decline in inflation and default risk. We show that a model with sovereign default captures the decline in interest rates, the stability of equity valuation ratios, and the reduction in investment and output growth. Calibrations of the model post-COVID suggest that sovereign default risk may have returned.",
+    "url": "https://doi.org/10.1093/rfs/hhag025",
+    "published_date": "2026-07-22",
+    "source": "RFS",
+    "first_seen": "2026-07-23",
+    "abstract_missing": false,
+    "summary": "本文研究了过去半个世纪主权债务收益率的历史性下降。标准解释（如人口老龄化和来自国外的资产需求增加）难以完全解释全部证据。我们提出一个基于通货膨胀和违约风险下降的解释。我们证明，一个包含主权违约的模型能够捕捉利率的下降、股权估值比率的稳定以及投资和产出增长的减少。模型在COVID后的校准表明，主权违约风险可能已经回归。",
+    "keywords": [
+      "主权违约",
+      "利率下降",
+      "通胀风险",
+      "主权债务",
+      "违约风险"
+    ],
+    "ai_comment": "本文用一个统一的主权违约模型解释了利率长期下降、股权估值稳定和经济增长放缓等多个现象，视角独特且富有解释力。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "10.1111/jofi.70065",
+    "title": "M&As, Employee Costs, and Labor Reallocation",
+    "authors": [
+      "Spyridon Lagaras"
+    ],
+    "abstract": "Mergers are associated with large and persistent earnings declines for incumbent employees in target firms. Linking employer‐employee administrative data with information on merger activity in Brazil, I find the negative effects concentrate on employees who exit target firms and reflect displacement in the short run and wage declines in the long run. Low‐skilled, managerial, and older employees fare worse. Overall, I conclude that mergers are followed by substantial reallocation costs reflecting losses of firm‐specific wage premiums, matching inefficiencies, and industry‐specific human capital depreciation, with employees transitioning to lower paying firms considered to be of lower productivity and employment value.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70065",
+    "published_date": "2026-07-21",
+    "source": "JF",
+    "first_seen": "2026-07-23",
+    "abstract_missing": false,
+    "summary": "本文利用巴西的雇主-雇员行政数据与并购活动信息，研究了并购对目标公司员工收入的影响。发现并购导致员工收入大幅且持续下降，这种负面效应主要集中在离职员工身上，短期表现为失业，长期表现为工资下降。低技能、管理者和年长员工受到的影响更大。作者认为并购后存在显著的劳动力重新配置成本，包括企业特定工资溢价损失、匹配效率低下和行业特定人力资本折旧，员工最终转向被认为生产率和就业价值更低的企业。",
+    "keywords": [
+      "并购",
+      "员工成本",
+      "劳动力重新配置",
+      "工资下降",
+      "巴西"
+    ],
+    "ai_comment": "使用详尽的行政数据揭示了并购对员工收入的长期负面影响，特别是区分了离职与留任员工的差异，并识别了低技能、管理者和年长员工等脆弱群体，为并购的劳动力市场后果提供了细致证据。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1287/mnsc.2023.03670",
     "title": "The Dark Side of Liquid Bonds in Fire Sales",
     "authors": [
