@@ -1,5 +1,29 @@
 [
   {
+    "id": "10.1111/jofi.70070",
+    "title": "Do Equity and Options Markets Agree about Volatility?",
+    "authors": [
+      "Carsten H. Chong",
+      "Viktor Todorov"
+    ],
+    "abstract": "We derive tight pricing kernel restrictions from options with same‐day expiration (“0DTEs”). These restrictions concern the volatility of small and frequent asset price moves that the equity and options markets must agree on in a frictionless economy. Their violation leads to pseudo‐arbitrage opportunities, characterized by nontrivial reward‐to‐risk ratios over arbitrarily short horizons and achieved by a combined position in 0DTEs and the underlying asset. Empirically, we find no evidence of feasible pseudo‐arbitrage opportunities, as transaction costs, estimation risk, and short‐term volatility risk prevent investors from taking advantage of small and infrequent disagreements about volatility between equity and options markets.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70070",
+    "published_date": "2026-07-23",
+    "source": "JF",
+    "first_seen": "2026-07-24",
+    "abstract_missing": false,
+    "summary": "本文利用与股票同日到期的期权（0DTE）推导出严格的定价核限制条件，这些条件要求在一个无摩擦经济中，权益市场和期权市场对资产价格小幅和频繁波动的波动率必须达成一致。违反这些限制会导致伪套利机会，其特征是在任意短时期内具有非平凡的风险回报比，并通过持有0DTE和标的资产的组合来实现。实证结果表明，由于交易成本、估计风险和短期波动风险的存在，投资者无法利用权益与期权市场之间关于波动率的微小且不频繁的分歧，因此未发现可行的伪套利机会。",
+    "keywords": [
+      "0DTE期权",
+      "波动率",
+      "伪套利",
+      "定价核",
+      "交易成本"
+    ],
+    "ai_comment": "本文从期权定价的微观结构出发，创新性地利用0DTE期权研究了权益与期权市场的波动率一致性，并考虑了现实摩擦对套利的阻碍，具有重要的理论和实践意义。",
+    "topic": "市场微观结构"
+  },
+  {
     "id": "10.1093/rfs/hhag025",
     "title": "Sovereign Default and the Decline in Interest Rates*",
     "authors": [
