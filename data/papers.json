@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104334",
+    "title": "The passthrough of treasury supply to bank deposit funding",
+    "authors": [
+      "Wenhao Li",
+      "Yiming Ma",
+      "Yang Zhao"
+    ],
+    "abstract": "We demonstrate the passthrough of Treasury supply to bank deposits through bank market power. We show that a larger Treasury supply crowds out deposits with disproportionate effects in more competitive deposit markets. A larger Treasury supply further curtails bank lending and affects bank funding structure. The explanatory power of Treasury supply is not driven by other shocks to deposit demand and supply. In comparison, monetary policy rate hikes have a larger impact on deposit funding in more concentrated markets, consistent with the deposits channel of monetary policy. Our empirical findings are rationalized in a model of imperfect deposit competition.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104334",
+    "published_date": "2026-07-25",
+    "source": "JFE",
+    "first_seen": "2026-07-26",
+    "abstract_missing": false,
+    "summary": "本文研究国债供给通过银行市场势力向银行存款的传导机制。实证发现，国债供给增加会挤出银行存款，且在存款市场竞争更激烈的地区影响更为显著；同时，国债供给增加还会抑制银行贷款并改变银行的融资结构。这些效应并非由存款需求或供给的其他冲击所驱动。相比之下，货币政策加息在更集中的存款市场中影响更大，这与货币政策的存款渠道一致。作者通过一个不完全存款竞争模型对实证结果进行了理论解释。",
+    "keywords": [
+      "国债供给",
+      "银行存款",
+      "市场势力",
+      "存款竞争",
+      "银行贷款"
+    ],
+    "ai_comment": "本文通过区分国债供给与货币政策的不同影响渠道，揭示了市场势力在银行负债端传导中的关键作用，为理解财政政策对银行体系的溢出效应提供了新视角。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1287/mnsc.2025.01859",
     "title": "Skill Deprioritization: Reorganizing in the Age of Generative Artificial Intelligence",
     "authors": [
