@@ -1,5 +1,256 @@
 [
   {
+    "id": "w35528",
+    "title": "Beliefs That Predict Returns and Beliefs That Attract Flows: Policy Insights and Sentiment Catering in Mutual Funds",
+    "authors": [
+      "Zhenyu Gao",
+      "Wei Xiong",
+      "Jian Yuan"
+    ],
+    "abstract": "Using mandatory Outlook reports from Chinese mutual funds, we decompose each fund’s equity-market beliefs into macro fundamentals, government policy, and residual sentiment. Policy beliefs, rather than macro beliefs, predict subsequent market returns and help explain the positive alphas observed in China’s mutual fund industry. By contrast, residual sentiment strongly shapes equity allocations and attracts investor flows, even though it does not predict returns. Using maturing wealth management products as an instrument for future aggregate fund flows, we show that funds strategically position their stated beliefs to cater to investors. Overall, our analysis reveals a core tension in active asset management: skilled managers generate performance through policy insights while attracting flows through sentiment alignment.",
+    "url": "https://www.nber.org/papers/w35528",
+    "published_date": "2026-07-27",
+    "source": "NBER",
+    "first_seen": "2026-07-27",
+    "abstract_missing": false,
+    "summary": "本文利用中国共同基金的强制性Outlook报告，将每只基金的股票市场信念分解为宏观经济基本面、政府政策和剩余情绪三个部分。研究发现，政策信念（而非宏观信念）能预测后续市场收益，并有助于解释中国共同基金行业观察到的正alpha。相比之下，剩余情绪虽然不能预测收益，却强烈影响股权配置并吸引投资者资金流。通过将到期理财产品作为未来总资金流的工具变量，本文表明基金策略性地调整其表述的信念以迎合投资者。整体而言，分析揭示了主动资产管理中的核心张力：有技能的经理通过政策洞察产生业绩，同时通过情绪一致来吸引资金。",
+    "keywords": [
+      "中国共同基金",
+      "政策信念",
+      "情绪迎合",
+      "市场收益预测",
+      "资金流"
+    ],
+    "ai_comment": "利用独特的基金报告文本分解信念，实证揭示了政策洞察与情绪迎合之间的权衡，为理解中国基金业的正alpha来源和资金流动提供了新视角。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "w35527",
+    "title": "From Field to Firm: College Sports and Early-Stage Career Choice",
+    "authors": [
+      "Paul Gompers",
+      "George Hu",
+      "Will Levinson",
+      "Sachin Srivastava"
+    ],
+    "abstract": "This paper examines how networks formed through college athletics influence the early-career trajectories of Ivy League graduates. Tracking professional histories of 120,306 Ivy League graduates, we compare each graduate's actual first job against other potential jobs that the graduate could reasonably have taken. Athletics-based networks, especially team-based connections, materially influence initial job choice. Employing one additional alum from a specific Ivy League collegiate sports team increases the probability that a same-team athlete joins the firm by 193.70% relative to the baseline match probability. Likewise, employing one more Ivy League alum who played a specific Varsity sport increases the probability that any Ivy League athlete who plays the same sport joins the firm by 16.40%, while employing one more alum who played any sport at a specific Ivy League university raises the probability that any Ivy League athlete from the same university joins the firm by 4.60%. For team-based connections, these effects persist whether the alum and the college athlete were direct peers whose college years overlapped or older “network” affiliates whose college years were completely disjoint. Our results demonstrate that college athletics-based social networks materially influence initial job placement and early-career trajectories for top college graduates. More generally, they clarify how non-academic social capital shapes the job searching and matching process within labor markets.",
+    "url": "https://www.nber.org/papers/w35527",
+    "published_date": "2026-07-27",
+    "source": "NBER",
+    "first_seen": "2026-07-27",
+    "abstract_missing": false,
+    "summary": "本文考察了大学体育网络如何影响常春藤联盟毕业生的早期职业轨迹。通过追踪120,306名常春藤联盟毕业生的职业历史，将每位毕业生的实际第一份工作与其他合理可能的工作进行比较，发现基于体育的网络（尤其是团队联系）对初始工作选择有实质性影响。具体而言，来自同一大学运动队的校友每增加一人，同队运动员进入该公司的概率相对于基准匹配概率增加193.70%；同一大学同一运动项目的校友每增加一人，任何从事该运动的常春藤运动员进入该公司的概率增加16.40%；同一大学任何运动项目的校友每增加一人，任何来自该校的常春藤运动员进入该公司的概率增加4.60%。对于团队联系，这种影响在直接同龄校友与大学年份完全不同的“网络”成员之间均持续存在。结果表明，大学体育社交网络显著影响顶尖毕业生的初始工作安排和早期职业轨迹，并阐明非学术社会资本如何塑造劳动力市场中的求职与匹配过程。",
+    "keywords": [
+      "常春藤联盟",
+      "大学体育",
+      "社交网络",
+      "职业选择",
+      "劳动力市场"
+    ],
+    "ai_comment": "本文利用大规模数据精确量化了大学体育网络对职业选择的因果效应，特别是团队联系的强大影响力，为理解社会资本在劳动力市场中的作用提供了新视角。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35525",
+    "title": "Evidence of How Electronic Reporting and Automated Auditing Affects Regulatory Compliance and Environmental Performance",
+    "authors": [
+      "Wayne B. Gray",
+      "Ronald Shadbegian",
+      "Ann Wolverton"
+    ],
+    "abstract": "We investigate whether, by providing better and more timely information, the first mandatory online reporting and auditing program for wastewater discharge releases in the U.S. improved facility compliance and environmental performance, while also allowing state regulators to more effectively monitor and enforce regulations. Examining reporting programs with automated feedback features can also offer insights into the potential for artificial intelligence-based tools to improve compliance and environmental performance. Difference-in-difference results suggest that the program resulted in significant increases in the completeness of reporting and reductions in discharges but also greater reported violations. We find that effects are larger for minor dischargers and publicly owned facilities. We also find evidence consistent with the more efficient targeting of inspections by state authorities towards plants with a history of recent noncompliance, which could be a potential mechanism driving these results.",
+    "url": "https://www.nber.org/papers/w35525",
+    "published_date": "2026-07-27",
+    "source": "NBER",
+    "first_seen": "2026-07-27",
+    "abstract_missing": false,
+    "summary": "本文利用美国首个强制性废水排放在线报告和审计计划，研究电子报告和自动审计如何通过提供更及时的信息，改善设施合规性和环境绩效，同时帮助州监管机构更有效地执行法规。采用双重差分方法，发现该计划显著提高了报告完整性，降低了排放量，但也增加了报告的违规事件。异质性分析显示，对小排放者和公共设施的影响更大。机制检验表明，州监管机构更有效地将检查资源集中于近期有不合规历史的工厂，这可能是驱动上述结果的原因。",
+    "keywords": [
+      "电子报告",
+      "自动审计",
+      "合规性",
+      "环境绩效",
+      "双重差分"
+    ],
+    "ai_comment": "该研究利用严格的准实验设计，证实了信息技术的监管应用能有效提升环境合规与绩效，并揭示了异质性和机制路径，为数字化监管提供了重要证据。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35521",
+    "title": "Profits and Social Impacts: Complements vs. Tradeoffs for Lenders in Three Countries",
+    "authors": [
+      "Susan Athey",
+      "Bruno Fava",
+      "Dean Karlan",
+      "Adam Osman",
+      "Jonathan Zinman"
+    ],
+    "abstract": "The canonical approach to corporate governance posits a tradeoff between maximizing shareholder profits and maximizing other aspects of shareholder welfare such as social impact. Advances in machine learning that enhance the firm's ability to target specific customers may exacerbate or ameliorate this tradeoff. We estimate these tradeoffs using data from randomized microcredit approvals in South Africa, the Philippines, and Bosnia. We examine social impact on two dimensions: credit access (i.e., reaching disadvantaged groups that typically have less access to financial markets) and impact (i.e., treatment effects on household income). Two of the three lenders could have increased average loan profit margin by 7–9 percentage points through machine learning-based targeting. However, such targeting pushes against social impact goals vis-à-vis credit access; specifically, women and lower-income households would have been more excluded (the implied impact on borrowers' income, also central to the dual goal of social impact, is too imprecisely estimated to draw an inference). To gauge the magnitude of the first tradeoff, we examine how profits would change if the lenders altered whom they lent to within each quintile of baseline borrower income, thus holding the distribution broadly similar but fine-tuning the targeting within income bands. Such a constraint would lower the profit gains of targeting by about half. These findings highlight the importance of quantifying tradeoffs and complementarities when deciding what to maximize.",
+    "url": "https://www.nber.org/papers/w35521",
+    "published_date": "2026-07-27",
+    "source": "NBER",
+    "first_seen": "2026-07-27",
+    "abstract_missing": false,
+    "summary": "该论文研究企业治理中最大化股东利润与最大化社会影响之间的权衡，特别关注机器学习增强目标客户定位对这一问题的影响。利用来自南非、菲律宾和波斯尼亚的随机微贷批准数据，评估社会影响的两个维度：信贷准入（即覆盖通常难以获得金融市场的弱势群体）和对家庭收入的处理效应。研究发现，两个贷款机构通过机器学习定位本可将平均贷款利润率提高7-9个百分点，但这种定位会排斥女性和低收入家庭，从而损害信贷准入目标；对借款人收入的影响因估计不精确而无法得出明确结论。当限制贷款在基线借款人收入的每个五分位内调整以保持收入分布大致相似时，利润收益约减少一半。这些发现强调了在决定最大化什么目标时量化权衡与互补性的重要性。",
+    "keywords": [
+      "利润与社会影响权衡",
+      "机器学习目标定位",
+      "信贷准入",
+      "随机微贷",
+      "家庭收入影响"
+    ],
+    "ai_comment": "利用三个国家的随机实验数据，量化了机器学习在信贷定位中带来的利润与社会目标之间的权衡，揭示了技术应用的双刃剑效应，为金融机构和监管者提供了重要参考。",
+    "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "w35519",
+    "title": "Counterproductive Sustainable Investing: The Impact Elasticity of Brown and Green Firms",
+    "authors": [
+      "Samuel M. Hartzmark",
+      "Kelly Shue"
+    ],
+    "abstract": "We develop a new measure of impact elasticity: the change in a firm's environmental impact due to a change in its cost of capital. We find that reducing green firms' financing costs leads to minimal impact changes, while increasing brown firms' financing costs causes significant negative impact changes. Thus, sustainable investing strategies that shift capital from brown to green firms contain a counterproductive channel that makes brown firms more brown without making green firms more green. A mistaken focus on percentage reductions in emissions rewards already-green firms for trivial reductions in emissions and gives brown firms weak incentives to improve.",
+    "url": "https://www.nber.org/papers/w35519",
+    "published_date": "2026-07-27",
+    "source": "NBER",
+    "first_seen": "2026-07-27",
+    "abstract_missing": false,
+    "summary": "本文提出一个新的衡量指标——影响弹性（impact elasticity），即公司环境影响力对其资本成本变化的敏感度。研究发现，降低绿色公司的融资成本对其环境影响力几乎没有改变，而提高棕色公司的融资成本则会导致其环境影响力显著恶化。因此，将资本从棕色公司转向绿色公司的可持续投资策略存在一个反生产渠道：它使棕色公司变得更棕，而绿色公司并未变得更绿。此外，错误地关注减排百分比会奖励已经绿色的公司实现微不足道的减排，同时给棕色公司提供较弱的改进激励。",
+    "keywords": [
+      "impact elasticity",
+      "可持续投资",
+      "环境影响力",
+      "资本成本",
+      "棕色公司与绿色公司"
+    ],
+    "ai_comment": "本文揭示了可持续投资中一个容易被忽视的反生产机制，对ESG投资实践具有重要警示意义。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "w35518",
+    "title": "Equity as Tribute: The Market for Passive State Equity",
+    "authors": [
+      "Joshua S. Gans"
+    ],
+    "abstract": "Firms have begun granting passive equity stakes to the government that regulates them. The received reading is “skin in the game:” ownership moves profits onto the treasury's balance sheet, so policy softens. We show that once the price of the stake and the firm's policy exposure are determined in equilibrium, the owners' consent reveals nothing about whether they benefit. Sellers capitalise the induced policy improvement into the price, so an anticipated purchase can only occur at a discount; a government with bargaining power pays zero for a sufficiently exposed firm; and a government that can first raise exposure manufactures precisely enough of it to drive the negotiated price to its legal floor. Equity becomes tribute. Prohibition is nonetheless dominated: at fixed exposure, a passive stake corrects the political underweighting of shareholders. Welfare is maximised by priced permission—an ownership cap at the fixed-exposure optimum and a per-unit price floor equal to baseline no-stake value. The floor, unlike the cap, requires no knowledge of the government's political weights.",
+    "url": "https://www.nber.org/papers/w35518",
+    "published_date": "2026-07-27",
+    "source": "NBER",
+    "first_seen": "2026-07-27",
+    "abstract_missing": false,
+    "summary": "企业开始向监管它们的政府授予被动股权（passive equity stakes），通常被称为“skin in the game”。本文通过均衡分析表明，一旦股权价格和企业的政策风险敞口在均衡中决定，所有者的同意并不能揭示他们是否受益。卖方将政策改善的预期资本化到价格中，因此预期购买只能以折扣价发生；拥有议价能力的政府可以为零成本获得风险敞口足够大的企业的股权；政府可以首先提高风险敞口，精确地制造足够的风险以将协商价格压低至法律下限，从而使股权变成贡品（tribute）。然而，禁令并非占优策略：在固定风险敞口下，被动股权纠正了股东的政治权重低估。福利最大化的方式是定价许可（priced permission）：设定一个固定风险敞口最优时的所有权上限，以及一个等于基线无股权价值的单位价格下限。价格下限不需要了解政府的政治权重，而上限则需要。",
+    "keywords": [
+      "被动股权",
+      "监管",
+      "讨价还价",
+      "福利最大化",
+      "政治权重"
+    ],
+    "ai_comment": "本文创新性地揭示了被动股权可能沦为“贡品”的机制，并提出了一个不需要政府政治权重信息的价格下限设计，具有重要的政策含义。",
+    "topic": "公司治理"
+  },
+  {
+    "id": "w35516",
+    "title": "The Price and Distributional Impact of Flood Risk Disclosure: Evidence from US Housing Platforms",
+    "authors": [
+      "Stephen B. Billings",
+      "Sophie Calder-Wang",
+      "Weiling Liu"
+    ],
+    "abstract": "How does information disclosure reshape the allocation of environmental risk in the housing market? We quantify the price and distributional impact of the nationwide disclosure of property-level flood risk from First Street on U.S. housing platforms. Using a difference-in-RD design that exploits discrete cutoffs in the disclosed risk categories, we find that homes labeled as \"extreme'' flood risk experience a 3.3% price discount and stay on the market for a week longer, relative to those labeled as \"severe'' risk. These effects are strongest for coastal properties and remain pervasive across different FEMA floodplain designations. Disclosure also generates significant household resorting: buyers of extreme-risk homes have 5.3% lower income, are more likely to use FHA financing, and are older. Through a discrete choice model, we find that the redistribution of risk to lower-income households is primarily driven by price changes rather than heterogeneous preferences for flood risk.",
+    "url": "https://www.nber.org/papers/w35516",
+    "published_date": "2026-07-27",
+    "source": "NBER",
+    "first_seen": "2026-07-27",
+    "abstract_missing": false,
+    "summary": "本文利用First Street在全国房产平台上披露的房产级洪水风险信息，采用差分断点回归设计（利用披露风险类别的离散阈值），量化了信息披露对住房市场价格和分配的影响。研究发现：被标记为“极端”洪水风险的房屋相比“严重”风险的房屋价格折价3.3%，在市场上停留时间更长一周。这些效应在沿海房产中最强，且在不同FEMA洪泛区划中普遍存在。信息披露还导致显著的住户重新排序：极端风险房屋的买家收入低5.3%，更可能使用FHA贷款，且年龄更大。通过离散选择模型，发现风险向低收入家庭重新分配主要由价格变化驱动，而非对洪水风险的异质性偏好。",
+    "keywords": [
+      "洪水风险披露",
+      "住房价格",
+      "断点回归",
+      "分配效应",
+      "家庭金融"
+    ],
+    "ai_comment": "论文利用全国性平台数据实证了洪水风险信息披露的房价折扣和分配扭曲效应，为环境信息披露政策提供了重要证据。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "w35513",
+    "title": "Industry Distress Anomaly",
+    "authors": [
+      "Hui Chen",
+      "Winston Wei Dou",
+      "Hongye Guo",
+      "Yan Ji"
+    ],
+    "abstract": "We document a robust industry-level distress anomaly in which more distressed industries earn significantly lower expected equity returns. The anomaly is distinct from the firm-level distress anomaly (Campbell, Hilscher and Szilagyi, 2008). It remains significant after controlling for firm-level distress but disappears in placebo industries formed by randomly reshuffling firms across actual industries. Both theoretically and empirically, we show that competition-distress feedback amplifies the exposure of industry profit margins and equity returns to discount-rate shocks. Industries with greater idiosyncratic left-tail risk are more distressed but exhibit weaker competition-distress feedback. This effect reduces their exposure to discount-rate shocks and thus lowers their expected equity returns.",
+    "url": "https://www.nber.org/papers/w35513",
+    "published_date": "2026-07-27",
+    "source": "NBER",
+    "first_seen": "2026-07-27",
+    "abstract_missing": false,
+    "summary": "本文发现了一个稳健的行业层面的困境异常现象：困境程度更高的行业获得的预期股票收益显著更低。该异常与公司层面的困境异常（Campbell, Hilscher and Szilagyi, 2008）不同，且在控制公司层面困境后仍然显著，但在随机将公司重新分配到不同行业的安慰剂行业中消失。理论上和实证上，本文表明竞争-困境反馈放大了行业利润率与股票收益对折现率冲击的暴露程度。具有更大特质性左尾风险的行业困境程度更高，但竞争-困境反馈较弱，这种效应降低了它们对折现率冲击的暴露，从而降低了预期股票收益。",
+    "keywords": [
+      "行业困境异常",
+      "预期股票收益",
+      "竞争-困境反馈",
+      "折现率冲击",
+      "左尾风险"
+    ],
+    "ai_comment": "本文区分了行业与公司层面的困境异常，并揭示了竞争-困境反馈这一新机制，为资产定价中的困境风险溢价异象提供了新的解释。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "w35511",
+    "title": "Information and Macroeconomic Expectations: Global Evidence",
+    "authors": [
+      "Francesco D’Acunto",
+      "Michael Weber"
+    ],
+    "abstract": "Unique global data on 47,000 consumers across 47 countries representing 90% of world GDP reveal universal patterns in macroeconomic belief formation. Most consumers form beliefs based on local information sources (utility bills,  shopping, and acquaintances) that provide signals not representative for the overall consumption bundle, so that seeking  information leads to forming biased macroeconomic expectations. Distrust in governments and central banks, the producers of aggregate economic information, helps explain reliance on local sources and the lack of learning from aggregate realizations. Observed macroeconomic volatility fuels distrust. In the cross-section, we confirm that certain demographics correlate with expectation biases but mostly due to different sorting into information sources, rather than different processing of the same economic information. These globally established facts inform advances of theories of belief formation and the design of communication strategies as a macroeconomic policy tool.",
+    "url": "https://www.nber.org/papers/w35511",
+    "published_date": "2026-07-27",
+    "source": "NBER",
+    "first_seen": "2026-07-27",
+    "abstract_missing": false,
+    "summary": "该研究利用覆盖47个国家、47000名消费者的独特全球数据（代表全球90%GDP），揭示了宏观经济信念形成的普遍模式。研究发现，大多数消费者基于本地信息源（如水电账单、购物和熟人）形成信念，但这些信号对整体消费篮子不具有代表性，因此寻求信息反而导致形成有偏的宏观经济预期。对政府和央行（总体经济信息的提供者）的不信任解释了为何消费者依赖本地信息源且缺乏从总体经济实现中学习。此外，观察到的宏观经济波动加剧了这种不信任。在横截面分析中，某些人口统计特征与预期偏差相关，但这主要是由于不同群体选择了不同的信息源，而非对相同信息的处理方式不同。这些全球性事实为信念形成理论的发展以及作为宏观政策工具的沟通策略设计提供了依据。",
+    "keywords": [
+      "宏观预期",
+      "信念形成",
+      "信息源",
+      "不信任",
+      "沟通策略"
+    ],
+    "ai_comment": "本文利用独特全球数据揭示了宏观预期形成中的普遍偏差，强调了信息源选择和不信任的关键作用，为沟通策略作为政策工具提供了实证基础。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35507",
+    "title": "Global Pension Asset Allocations and Debt Markets",
+    "authors": [
+      "Ding Ding",
+      "Xiang Fang",
+      "Bryan Hardy",
+      "Karen K. Lewis"
+    ],
+    "abstract": "The pension sector is an important investor group in global financial markets and a key holder of government and corporate debt. This article examines the evolution of pension fund asset allocations around the globe and documents two important structural changes. First, pension investors have shifted portfolio share allocations away from fixed income securities. This trend is robust across Defined Contribution (DC) and Defined Benefit (DB) programs as well as country groups. Second, pensions have instead shifted allocations into riskier investments within mutual funds as well as alternative investments. We hypothesize that a global decline in interest rates is one potential driver of this change. Using a global sample, we show that declining local currency government bond yields are associated with lower bond pension portfolio shares and higher holdings shares of mutual funds and foreign assets. We discuss the potential implications of these trends for borrowing costs. The declining holding share of pensions as a long-term investor group implies financing costs are less sensitive to new debt issues, but more sensitive to global uncertainty.",
+    "url": "https://www.nber.org/papers/w35507",
+    "published_date": "2026-07-27",
+    "source": "NBER",
+    "first_seen": "2026-07-27",
+    "abstract_missing": false,
+    "summary": "本文研究全球养老金资产配置的演变，发现两个重要结构性变化：养老金投资者将投资组合从固定收益证券转向风险更高的共同基金和另类投资，这一趋势在固定缴费和固定收益计划以及不同国家组别中均显著。作者假设全球利率下降是驱动因素，并使用全球样本验证了本地货币政府债券收益率下降与养老金债券配置减少、共同基金和外国资产配置增加相关。文章还讨论了这些趋势对借贷成本的潜在影响，指出养老金作为长期投资者持有份额下降可能导致融资成本对新债券发行敏感度降低，但对全球不确定性更敏感。",
+    "keywords": [
+      "养老金资产配置",
+      "固定收益证券",
+      "利率下降",
+      "共同基金",
+      "借贷成本"
+    ],
+    "ai_comment": "本文利用全球数据揭示了养老金资产配置的结构性转变，并实证了利率下降的驱动作用，对理解养老金投资行为及融资市场影响具有重要价值。",
+    "topic": "宏观金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104334",
     "title": "The passthrough of treasury supply to bank deposit funding",
     "authors": [
