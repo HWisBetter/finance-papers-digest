@@ -251,6 +251,82 @@
     "topic": "宏观金融"
   },
   {
+    "id": "10.1287/mnsc.2023.00608",
+    "title": "Predictive Production-and-Service Planning: Ambiguity Aversion with Performance Guarantees",
+    "authors": [
+      "Yuchen Mao",
+      "Francisco Saldanha-da-Gama",
+      "Shuming Wang",
+      "Shouyang Wang"
+    ],
+    "abstract": "We consider a two-stage joint production and service planning problem under demand ambiguity. The product-service provider receives a fixed amount of revenue from the recipient in advance (first-stage), and is committed to fulfill all the demands realized over a specific period (second-stage). The provider aims to determine the portfolio of products with the associated service levels and the capacity to maximize the expected total profit. We study the problem in a data-driven setting assuming the historical information on demand and the associated covariates are available, where the service decision is itself a key covariate for demand. In order to capture the effect of demand correlation and variance-heterogeneity across products and the effect of service dependency under demand ambiguity, we construct a predictive ambiguity set leveraging seemingly unrelated regression (SUR) estimated with feasible generalized least squares (FGLS), which treats the service level as a regressor and addresses the heteroskedasticity. We then develop a decision-dependent two-stage distributionally robust optimization (DRO) model. Operationally, we identify that the developed predictive DRO model can be reformulated as an empirical counterpart under the predicted demand distribution regularized by a perceived shortage cost as the shadow price for ambiguity aversion. Exploiting this structure, we analyze the ambiguity-averse operational properties and risk exposure in terms of worst-case performance sensitivity. Statistically, our approach enjoys finite-sample performance guarantee and asymptotic consistency under several regularity conditions. Computationally, the proposed model can be reformulated as a mixed-integer conic program that enjoys an appealing structure for optimization. Finally, sufficient numerical experiments demonstrate the effectiveness of the proposed approach. This paper was accepted by J. George Shanthikumar, data science. Funding: S. M. Wang is supported by the National Natural Science Foundation of China [Grants 72471224, 72171221, 71922020, and 71988101], the Fundamental Research Funds for the Central Universities [Grant UCAS-E2ET0808X2], and a grant from the MOE Social Science Laboratory of Digital Economic Forecasts and Policy Simulation at UCAS. F. Saldanha-da-Gama and S. M. Wang are also jointly supported by the President’s International Fellowship Initiative [Grant 2025PVA0080] of the Chinese Academy of Sciences (CAS). S. Y. Wang is supported by the National Natural Science Foundation of China [Grant 71988101]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2023.00608 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.00608",
+    "published_date": "2026-07-27",
+    "source": "MS",
+    "first_seen": "2026-07-28",
+    "abstract_missing": false,
+    "summary": "本文研究一个两阶段联合生产与服务规划问题，其中需求存在模糊性。服务提供商预先收取固定收入，并承诺在第二阶段满足所有实现的需求。目标是在数据驱动环境下，利用历史需求和协变量信息（服务决策本身是需求的关键协变量），确定产品组合、服务水平及产能以最大化期望总利润。为捕捉需求相关性和异方差性以及服务依赖性的影响，作者基于似无关回归（SUR）和可行广义最小二乘法（FGLS）构建了一个预测模糊集，将服务水平作为回归元并处理异方差。随后，建立了一个决策依赖的两阶段分布鲁棒优化模型。操作上，该模型可重新表述为在预测需求分布下的经验对应形式，并通过感知短缺成本（作为模糊厌恶的影子价格）进行正则化。作者分析了模糊厌恶的操作特性和最坏情况下的风险暴露。统计上，该方法在若干正则条件下具有有限样本性能保证和渐近一致性。计算上，模型可转化为混合整数锥规划，具有优化友好结构。数值实验验证了方法的有效性。",
+    "keywords": [
+      "生产与服务规划",
+      "需求模糊性",
+      "分布鲁棒优化",
+      "似无关回归",
+      "性能保证"
+    ],
+    "ai_comment": "本文创新性地将预测与决策相结合，利用SUR和FGLS构造预测模糊集，有效处理需求依赖和异方差，并提供了有限样本性能保证，拓展了分布鲁棒优化在服务运营中的应用。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1093/rfs/hhag068",
+    "title": "Pension Liquidity Risk",
+    "authors": [
+      "Kristy A E Jansen",
+      "Sven Klingler",
+      "Angelo Ranaldo",
+      "Patty Duijm"
+    ],
+    "abstract": "Pension funds use interest rate swaps to hedge the interest rate risk arising from their liabilities. Analyzing regulatory data on Dutch pension funds, we show that pension funds with worse funding ratios, indicating greater fragility, use swaps more aggressively. These swap positions expose pension funds to the risk of margin calls, which can exceed 6% of their total assets, when interest rates rise. Pension funds respond to realized margin calls by selling safe government bonds with medium-term maturities. This procyclical selling behavior adversely affects the prices of the sold bonds and thereby exposes pension funds to market liquidity risk. (JEL E43, G12, G18)",
+    "url": "https://doi.org/10.1093/rfs/hhag068",
+    "published_date": "2026-07-27",
+    "source": "RFS",
+    "first_seen": "2026-07-28",
+    "abstract_missing": false,
+    "summary": "本文研究养老金基金的流动性风险。养老金基金使用利率互换对冲其负债的利率风险。通过分析荷兰养老金基金的监管数据，发现资金比率较差（即更脆弱）的养老金基金更激进地使用互换。这些互换头寸使养老金基金面临追加保证金的风险，当利率上升时，追加保证金可能超过总资产的6%。养老金基金通过出售中期国债来应对实际发生的追加保证金，这种顺周期的出售行为对出售的债券价格产生不利影响，从而使养老金基金暴露于市场流动性风险之中。",
+    "keywords": [
+      "养老金基金",
+      "利率互换",
+      "追加保证金",
+      "流动性风险",
+      "顺周期行为"
+    ],
+    "ai_comment": "本文揭示了养老金基金使用利率互换的顺周期行为对债券市场流动性的负面影响，为理解衍生品使用与流动性风险的传导机制提供了新证据，对监管政策具有重要启示。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1093/rfs/hhag067",
+    "title": "Dollar Asset Holdings and Hedging around the Globe",
+    "authors": [
+      "Wenxin Du",
+      "Amy W Huber"
+    ],
+    "abstract": "We collect and analyze detailed filings from global institutional investors to estimate foreign investors’ U.S. dollar (USD) security holdings and currency hedging. Over two decades, foreign USD holdings grew sixfold, while hedge ratios rose by 15 percentage points after the 2008–2009 crisis. Currency hedging across mutual funds, pensions, and insurance reached $2 trillion by 2019. Hedging demand varies across investors, currency areas, and banking systems. We show that expected FX returns, beyond variance minimization, drive currency exposure in portfolios. Finally, we demonstrate and quantify how aggregate hedging demand affects hedging costs in the presence of constrained intermediaries. (JEL F21, F31, G11, G15, G22, G23)",
+    "url": "https://doi.org/10.1093/rfs/hhag067",
+    "published_date": "2026-07-27",
+    "source": "RFS",
+    "first_seen": "2026-07-28",
+    "abstract_missing": false,
+    "summary": "本文收集并分析全球机构投资者的详细备案，以估计外国投资者持有的美元证券和货币对冲情况。研究发现，过去二十年外国美元持有量增长了六倍，而2008-2009年金融危机后对冲比率上升了15个百分点。到2019年，共同基金、养老金和保险公司的货币对冲规模达到2万亿美元。对冲需求因投资者类型、货币区域和银行体系而异。本文进一步表明，预期外汇回报（而非仅方差最小化）驱动投资组合中的货币敞口。最后，本文量化了总对冲需求如何在受约束中介存在的情况下影响对冲成本。",
+    "keywords": [
+      "美元资产持有",
+      "货币对冲",
+      "对冲比率",
+      "预期外汇回报",
+      "总对冲需求"
+    ],
+    "ai_comment": "利用独特的大规模备案数据，不仅描述了全球美元资产对冲的规模与演变，还揭示了预期回报而非单纯风险最小化在货币敞口决策中的关键作用，并量化了总对冲需求对市场成本的影响。",
+    "topic": "国际金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104334",
     "title": "The passthrough of treasury supply to bank deposit funding",
     "authors": [
