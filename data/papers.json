@@ -1,5 +1,28 @@
 [
   {
+    "id": "10.1287/mnsc.2025.02286",
+    "title": "Risk Pricing Under Gain–Loss Asymmetry",
+    "authors": [
+      "Marianne Andries"
+    ],
+    "abstract": "We propose a novel gain–loss asymmetric utility model—losses relative to a reference point incur discontinuously more disutility than comparable gains—under which we derive closed-form asset pricing solutions within the workhorse “long-run risk” asset pricing model. Our formal analysis reveals gain–loss asymmetry has a dual impact on risk prices. First, a level effect: the expected excess returns of risky assets are made higher and the risk-free rate lower by the kink in the preferences. Second, a cross-sectional effect: the increase in expected returns for an additional unit of risk is higher (lower) for safer (riskier) assets, so expected returns increase nonlinearly with risk exposures. This second effect, absent in standard smooth utility models, can help rationalize, both qualitatively and quantitatively, key puzzles in empirical finance—the fit of the security market line and the downward-sloping term structure of equity risk premia—without compromising on the model’s ability to match the equity premium in the data. This paper was accepted by Tomasz Piskorski, finance. Supplemental Material: The online appendix is available at https://doi.org/10.1287/mnsc.2025.02286 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.02286",
+    "published_date": "2026-07-28",
+    "source": "MS",
+    "first_seen": "2026-07-29",
+    "abstract_missing": false,
+    "summary": "本文在长期风险资产定价模型框架下，提出一种新颖的收益-损失不对称效用模型——相对于参考点的损失比同等收益带来更大的负效用，并推导出封闭形式的资产定价解。分析表明，收益-损失不对称对风险价格具有双重影响：第一，水平效应，即偏好中的拐点使得风险资产的预期超额收益提高、无风险利率降低；第二，横截面效应，即额外单位风险所对应的预期收益增加对于更安全的资产更高、对于风险更高的资产更低，因此预期收益与风险暴露呈非线性关系。这种第二效应在标准的平滑效用模型中不存在，能够在质和量上帮助解释实证金融中的关键谜题——证券市场线的拟合以及股权风险溢价的向下倾斜期限结构，同时不损害模型匹配股权溢价的能力。",
+    "keywords": [
+      "收益-损失不对称",
+      "资产定价",
+      "长期风险",
+      "预期收益",
+      "非线性风险暴露"
+    ],
+    "ai_comment": "该模型通过引入偏好中的拐点，同时解释了水平效应和横截面效应，为理解风险溢价的非线性特征提供了新视角，并成功复现了多个经典实证谜题。",
+    "topic": "资产定价"
+  },
+  {
     "id": "w35528",
     "title": "Beliefs That Predict Returns and Beliefs That Attract Flows: Policy Insights and Sentiment Catering in Mutual Funds",
     "authors": [
