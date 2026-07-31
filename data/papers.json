@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1093/rfs/hhag070",
+    "title": "Stocks as Lotteries? An Experimental Test of Expected Utility versus Behavioral Models",
+    "authors": [
+      "Brice Corgnet",
+      "Yao Thibaut Kpegli",
+      "Jacopo Magnani"
+    ],
+    "abstract": "Our study provides the first causal test of classical and behavioral asset pricing models that incorporate skewness pricing. In line with these models, our experimental markets show that skewness is systematically priced. Our findings also reveal that positively skewed assets available in small supply exhibit negative expected returns, which is consistent with prospect theory, but not with expected utility models. Furthermore, in line with the mechanism underlying prospect theory, we show that the negative returns of the positively skewed asset are most pronounced during market sessions where traders overweight the low probability of receiving a large payoff. (JEL C92, G10, G40)",
+    "url": "https://doi.org/10.1093/rfs/hhag070",
+    "published_date": "2026-07-30",
+    "source": "RFS",
+    "first_seen": "2026-07-31",
+    "abstract_missing": false,
+    "summary": "本文首次通过实验方法，对纳入偏度定价的经典与行为资产定价模型进行了因果检验。实验市场的结果表明，偏度被系统性定价，与这些模型的预测一致。进一步研究发现，供给量小的正偏度资产表现出负的预期收益，这与前景理论一致，而与传统预期效用模型不符。此外，与前景理论的机制一致，正偏度资产的负收益在交易者高估获得大额回报的低概率的市场阶段中最为显著。",
+    "keywords": [
+      "偏度定价",
+      "前景理论",
+      "实验市场",
+      "预期效用",
+      "资产定价"
+    ],
+    "ai_comment": "该研究通过实验设计提供了偏度定价的因果证据，并区分了前景理论与预期效用模型的预测，对行为资产定价文献具有重要贡献。",
+    "topic": "行为金融"
+  },
+  {
     "id": "10.1111/jofi.70066",
     "title": "The Rising Tide Lifts Some Interest Rates: Climate Change, Natural Disasters, and Loan Pricing",
     "authors": [
@@ -24,6 +49,31 @@
     ],
     "ai_comment": "利用自然灾害作为外生冲击，巧妙分离银行对气候风险的客观更新与行为偏差，为金融中气候风险定价的微观机制提供了新证据。",
     "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1111/1475-679x.70079",
+    "title": "“Megadeal” Subsidies, Local Spillovers, and Corporate Innovation",
+    "authors": [
+      "Yoojin Lee",
+      "Shaphan Ng",
+      "Aruhn Venkat"
+    ],
+    "abstract": "We examine whether the largest place‐based, firm‐specific corporate subsidies (“Megadeals”) awarded by state and local governments affect local firms’ innovation. First, we document that (1) subsidy firms innovate in the subsidized county and (2) subsidy firms bring inventors from other counties into the subsidized county, consistent with subsidy firms generating new knowledge locally. In our main test, we use a stacked cohort design with stringent fixed effects to document that local firms increase patenting following a Megadeal. Cross‐sectionally, effects are increasing (1) in subsidy firm innovativeness, (2) in the technological closeness of subsidy firms and local firms, (3) when subsidy and local firms share an industry, and (4) when the subsidized location has a heavy college presence. Additionally, we document that following a Megadeal, local firms increasingly make citations to subsidy firm patents and that the patent similarity of local and subsidy firms increases. We document that subsidy firm inventors are more likely to move to local firms following a Megadeal. We also find that subsidies for labs, headquarters, and high‐tech manufacturing plants drive our main results. These results are consistent with knowledge spillovers being one channel through which we observe an increase in local firm patenting following Megadeals.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70079",
+    "published_date": "2026-07-29",
+    "source": "JAR",
+    "first_seen": "2026-07-31",
+    "abstract_missing": false,
+    "summary": "本文研究美国州和地方政府提供的最大规模基于地域的企业专项补贴（\"Megadeals\"）是否影响当地企业的创新。首先，作者发现受补贴企业在受补贴县内进行创新，并从其他县引入发明者至该县，这与受补贴企业在当地产生新知识一致。在主要检验中，作者采用带有严格固定效应的堆叠队列设计，证明在Megadeal之后当地企业的专利申请量增加。横截面分析显示，该效应在以下情况下更强：（1）受补贴企业创新能力较强；（2）受补贴企业与当地企业技术接近度较高；（3）受补贴企业与当地企业属于同一行业；（4）受补贴地点大学密度较高。此外，作者发现Megadeal之后，当地企业增加对受补贴企业专利的引用，且当地企业与受补贴企业的专利相似度提高。受补贴企业的发明者在Megadeal后更可能流向当地企业。最后，针对实验室、总部和高科技制造工厂的补贴是主要驱动结果的因素。这些结果与知识溢出是Megadeal后当地企业专利增加的一个渠道这一解释一致。",
+    "keywords": [
+      "Megadeals",
+      "知识溢出",
+      "企业创新",
+      "专利",
+      "地方补贴"
+    ],
+    "ai_comment": "该文利用独特的大型企业专项补贴事件，通过严谨的识别策略和丰富的异质性分析，为地方政府补贴的知识溢出效应提供了新证据，对理解产业政策和区域创新有重要启示。",
+    "topic": "公司金融"
   },
   {
     "id": "10.1287/mnsc.2025.02286",
@@ -18570,6 +18620,63 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.7188880",
     "first_seen": "2026-07-30",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Learning from Prediction Markets: The Transmission of Information and Noise to Traditional Assets",
+    "authors": [
+      "Itay Goldstein",
+      "Ye Li",
+      "Chen Wang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7198379",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7198379",
+    "first_seen": "2026-07-31",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Measuring Investor Disagreement: Proxies, Pitfalls, and a Path Forward",
+    "authors": [
+      "Christian L. Goulding",
+      "Campbell R. Harvey",
+      "Hrvoje Kurtović"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6915539",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6915539",
+    "first_seen": "2026-07-31",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The War Index, the War Factor, and the War Factor-Mimicking Portfolio: Motivation, Construction, and Availability",
+    "authors": [
+      "David Hirshleifer",
+      "Dat Mai",
+      "Kuntara Pukthuanthong"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6855438",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6855438",
+    "first_seen": "2026-07-31",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
