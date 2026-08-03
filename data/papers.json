@@ -1,5 +1,252 @@
 [
   {
+    "id": "w35564",
+    "title": "Improving Financial Literacy: From Corporate Finance to Personal Finance",
+    "authors": [
+      "Annamaria Lusardi"
+    ],
+    "abstract": "This article provides an overview of the literature on financial literacy. It covers the initial measurement that created the Big Three questions and measures of personal finance knowledge featuring 28 questions. It shows that levels of financial literacy are low and have not been improving over time. This is true not only in the United States but also in countries worldwide. These findings matter because financial literacy is conducive to savvy financial behaviors, from holding precautionary savings to planning for retirement to many other financial decisions. Financial education programs have grown exponentially over time, providing important insights into their cost-effectiveness. Personal finance courses have been added to high school and college curricula, and the evidence indicates that they are useful initiatives to improve financial knowledge and downstream behavior.",
+    "url": "https://www.nber.org/papers/w35564",
+    "published_date": "2026-08-03",
+    "source": "NBER",
+    "first_seen": "2026-08-03",
+    "abstract_missing": false,
+    "summary": "本文是对金融素养（financial literacy）相关文献的综述。文章首先回顾了金融素养的测量方法，包括由三个核心问题构成的“Big Three”测量体系，以及包含28个问题的个人财务知识（personal finance knowledge）测量工具。综述指出，金融素养水平普遍偏低，且随时间推移并未改善，这一现象不仅存在于美国，也存在于全球各国。金融素养对于个人财务行为具有重要意义，例如持有预防性储蓄、为退休进行规划以及其他财务决策。此外，金融教育项目在数量上呈指数级增长，为评估其成本效益提供了重要见解。高中和大学课程中已加入个人理财课程，证据表明这些举措有助于提升金融知识和后续财务行为。",
+    "keywords": [
+      "金融素养",
+      "金融教育",
+      "个人财务知识",
+      "Big Three",
+      "财务行为"
+    ],
+    "ai_comment": "该文作为综述，系统梳理了金融素养的测度、现状与影响，并关注教育干预的效果，为该领域提供了全面的研究框架。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "w35562",
+    "title": "Monetary Policy in Mandarin Capitalism",
+    "authors": [
+      "Jeffery (Jinfan) Chang",
+      "Wei Xiong"
+    ],
+    "abstract": "This paper investigates why China’s recurrent credit expansions have coincided with persistently weak inflation. We argue that this pattern reflects the country’s production-oriented monetary regime. At the aggregate level, faster monetary-financial expansion temporarily raises PPI inflation but depresses it over longer horizons. At the sectoral level, liability growth among listed industrial firms is followed by weaker producer prices, lower profitability, higher leverage, rising inventories, and reduced capacity utilization. We also find asymmetric supply-chain transmission: downstream liability growth raises upstream PPI inflation, while upstream liability growth does not generate a corresponding downstream price response. These findings indicate that credit expansion in China tends to sustain production and balance sheets rather than stimulate final demand. As a result, monetary policy operates less as a conventional tool for demand management and durable reflation, and more as a mechanism for preserving production capacity and supporting growth.",
+    "url": "https://www.nber.org/papers/w35562",
+    "published_date": "2026-08-03",
+    "source": "NBER",
+    "first_seen": "2026-08-03",
+    "abstract_missing": false,
+    "summary": "本文研究中国反复出现的信贷扩张为何与持续疲弱的通胀并存，提出这一现象反映了该国以生产为导向的货币体制（production-oriented monetary regime）。在总体层面，更快的货币金融扩张短期内会推高PPI通胀，但在更长的时间跨度上会抑制PPI通胀。在行业层面，上市工业企业的负债增长随后伴随生产者价格走弱、盈利能力下降、杠杆率上升、库存累积以及产能利用率下降。研究还发现不对称的供应链传导效应：下游负债增长会推高上游PPI通胀，而上游负债增长不会引发相应的下游价格反应。这些发现表明，中国的信贷扩张倾向于维持生产和资产负债表，而非刺激最终需求。因此，货币政策更像是保持生产能力和支持增长的机制，而非传统意义上的需求管理和持久再通胀工具。",
+    "keywords": [
+      "中国货币政策",
+      "信贷扩张",
+      "PPI通胀",
+      "生产导向",
+      "供应链传导"
+    ],
+    "ai_comment": "该文从生产导向货币体制的独特视角解释中国信贷扩张与低通胀并存的“谜题”，并通过行业层面数据与供应链传导分析提供了微观证据，对理解中国货币政策运作机制具有重要启示。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35557",
+    "title": "Demand for Safety in the Crypto Ecosystem",
+    "authors": [
+      "Murillo Campello",
+      "Angela Gallo",
+      "Lira Mota",
+      "Tammaro Terracciano"
+    ],
+    "abstract": "We study the demand for safety and liquidity in the crypto ecosystem. We do so under a framework in which a representative investor allocates liquidity across stablecoin deposits in lending pools and traditional safe assets (e.g., MMF shares). Our model delivers three main predictions: (i) the stablecoin deposit premium co-moves with the Treasury premium when investors value the safety and liquidity services of stablecoins; (ii) increases in Treasury supply reduce the stablecoin deposit premium; and (iii) drops in the perceived safety and liquidity of stablecoin deposits (e.g., due to de-pegs or hacker attacks) reduce their premium. Using granular data from hundreds of DeFi pools spanning multiple protocols, tokens, and blockchains, we find evidence supporting these predictions. Investors treat stablecoin deposits as money-like instruments that are borderless and permissionless, yet as fragile as other forms of privately produced safe assets.",
+    "url": "https://www.nber.org/papers/w35557",
+    "published_date": "2026-08-03",
+    "source": "NBER",
+    "first_seen": "2026-08-03",
+    "abstract_missing": false,
+    "summary": "本文研究了加密生态系统中对安全性和流动性的需求。作者构建了一个代表性投资者在不同借贷池中的稳定币存款与传统安全资产（如货币市场基金份额）之间配置流动性的框架。模型得出三个主要预测：(i) 当投资者重视稳定币的安全性和流动性服务时，稳定币存款溢价与国债溢价共同变动；(ii) 国债供给增加会降低稳定币存款溢价；(iii) 稳定币存款感知安全性和流动性的下降（例如由于脱锚或黑客攻击）会降低其溢价。利用来自数百个DeFi池的细粒度数据，覆盖多个协议、代币和区块链，作者找到了支持这些预测的证据。投资者将稳定币存款视为无国界、无许可的货币类工具，但它们与其他私人生产的安全资产一样脆弱。",
+    "keywords": [
+      "稳定币",
+      "DeFi",
+      "安全资产",
+      "流动性溢价"
+    ],
+    "ai_comment": "该论文将传统安全资产的需求框架拓展至加密生态系统，并利用丰富的DeFi微观数据验证了理论预测，揭示了稳定币作为私人货币的脆弱性，具有重要的理论与现实意义。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "w35555",
+    "title": "The United States and Its Creditors: Assessing Foreign Demand for U.S. Assets",
+    "authors": [
+      "Anusha Chari",
+      "Gian Maria Milesi Ferretti"
+    ],
+    "abstract": "This paper analyzes foreign demand for U.S. assets, with particular emphasis on U.S. Treasury securities. It documents compositional shifts in U.S. bilateral external positions across geographic regions and asset classes, providing estimates of creditor positions closer to a nationality-based concept. While rising U.S. equity prices explain a sizable share of the deterioration in the net external position, foreign purchases of U.S. Treasury securities have been the largest source of U.S. current account financing. The share of these securities held by foreign official investors has declined sharply during the past decade, while the share held by foreign private investors (especially through financial centers) has risen. The decline in foreign official holdings is well explained by lower reserve accumulation, increased Federal Reserve holdings, and dollar appreciation against other reserve currencies. The evidence is consistent with central banks rebalancing their portfolios to avoid large swings in currency shares. Geoeconomic fragmentation is negatively correlated with official demand for U.S. Treasuries, while foreign private demand remains sensitive to safe-haven dynamics. Overall, the paper assesses how these structural shifts affect portfolio preferences for U.S. assets and their potential implications for the U.S. external position amid heightened geopolitical and fiscal uncertainty.",
+    "url": "https://www.nber.org/papers/w35555",
+    "published_date": "2026-08-03",
+    "source": "NBER",
+    "first_seen": "2026-08-03",
+    "abstract_missing": false,
+    "summary": "本文分析外国对美国资产的需求，重点关注美国国债。研究发现，美国双边外部头寸在地理区域和资产类别上发生了构成性转变，并基于国籍概念估算了债权人头寸。虽然美国股票价格上涨解释了净外部头寸恶化的很大一部分，但外国购买美国国债是美国经常账户融资的最大来源。过去十年中，外国官方投资者持有的美国国债份额大幅下降，而外国私人投资者（尤其是通过金融中心）持有的份额上升。外国官方持有量的下降可由储备积累减少、美联储持有量增加以及美元对其他储备货币升值来解释，这与央行再平衡其投资组合以避免货币份额大幅波动的行为一致。地缘经济碎片化与美国国债的官方需求呈负相关，而外国私人需求仍对避险动态敏感。总体而言，本文评估了这些结构性转变如何影响对美国资产的组合偏好，以及在地缘政治和财政不确定性加剧的背景下对美国外部头寸的潜在影响。",
+    "keywords": [
+      "美国国债",
+      "外国需求",
+      "官方投资者",
+      "经常账户",
+      "地缘经济碎片化"
+    ],
+    "ai_comment": "本文基于国籍概念重新估计债权人头寸，并区分官方与私人持有，为理解美国外部融资结构变化提供了新视角，尤其关注地缘政治因素的影响。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "w35553",
+    "title": "Sharing the Burden: The Impacts of Pharmacy Sector Reforms on the Labor Market for Pharmacists in Portugal",
+    "authors": [
+      "David Card",
+      "Ana Rute Cardoso",
+      "Pedro Luis Silva"
+    ],
+    "abstract": "In the depths of the 2010 financial crisis the Portuguese government enacted a series of reforms in its prescription drug reimbursement system. Over the next three years value added per pharmacist in retail pharmacies fell by a third, reflecting a rise in generic substitution and reductions in the markups allowed for prescription drugs. This massive shock led to pay cuts for incumbent pharmacists and the introduction of a two-tier pay system for new hires, with little or no reduction in the growth of employment.  We use detailed longitudinal records from the Quadros de Pessoal data base, merged with information on collective bargaining settlements and firm financial records, to study the impacts of the reforms. We estimate that between 2009 and 2022 average wages of pharmacists fell by a third; most of this reduction was due to lower wages for newly entering cohorts. The implied responsiveness of wages to productivity is substantially above most estimates in the rent-sharing literature, arguably reflecting the strong attachment of workers to the sector and the steady inflow of newly graduating pharmacists.  Stepping back, we then consider how wages of pharmacists have diverged relative to wages of other health care professionals in Portugal, and the decisions of recent college applicants to enter the profession.",
+    "url": "https://www.nber.org/papers/w35553",
+    "published_date": "2026-08-03",
+    "source": "NBER",
+    "first_seen": "2026-08-03",
+    "abstract_missing": false,
+    "summary": "本文研究了2010年金融危机期间葡萄牙政府实施的处方药报销制度改革对药剂师劳动力市场的影响。改革包括提高非专利药替代率和降低处方药加价幅度，导致零售药店每位药剂师的价值增值在三年内下降三分之一。作者使用Quadros de Pessoal数据库的详细纵向记录，并结合集体谈判协议和公司财务记录，分析了2009年至2022年间改革的影响。研究发现，药剂师的平均工资下降了三分之一，其中大部分降幅来自新进入者较低工资，而就业增长几乎没有减少。工资对生产率的响应弹性显著高于租金共享文献中的多数估计，这可能反映了工人对行业的强烈依附以及新毕业药剂师的稳定流入。文章还进一步比较了药剂师与其他医疗保健专业人员工资的差异，以及近期大学申请者进入该职业的决策。",
+    "keywords": [
+      "药剂师劳动力市场",
+      "工资调整",
+      "租金共享",
+      "葡萄牙",
+      "药品政策改革"
+    ],
+    "ai_comment": "该研究利用独特的行政数据，揭示了外部政策冲击下工资与就业的非对称调整机制，为理解劳动力市场粘性和租金共享提供了新证据。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35552",
+    "title": "The Equilibrium Impact of Credit Frictions: Evidence from Default Risk Using Firm-Level Data",
+    "authors": [
+      "Timothy J. Besley",
+      "Peter John Lambert",
+      "Isabelle A. Michalski-Roland",
+      "John Van Reenen"
+    ],
+    "abstract": "This paper examines the impact of credit frictions arising from firm-level default risk on aggregate economic performance. We build a micro-to-macro model with heterogeneous firms and sector-specific production functions, showing that perceived default risk is a sufficient statistic for credit frictions. Using UK administrative data (2004–2019) matched to S&amp;P risk measures, counterfactual estimates reveal that relaxing frictions raises output by 25% and wages by 23%. Ignoring equilibrium wage adjustments overstates output gains, while fixed-capital misallocation approaches understate them. Most gains reflect aggregate capital accumulation. Credit frictions remain above pre-crisis levels, reshape firm size dynamics, increase misallocation across firms, and dampen productivity growth over time.",
+    "url": "https://www.nber.org/papers/w35552",
+    "published_date": "2026-08-03",
+    "source": "NBER",
+    "first_seen": "2026-08-03",
+    "abstract_missing": false,
+    "summary": "本文研究企业层面违约风险所引发的信贷摩擦对宏观经济表现的影响。作者构建了一个包含异质性企业和部门特定生产函数的微观到宏观模型，并证明感知违约风险是信贷摩擦的充分统计量。利用匹配了S&P风险度量的英国行政数据（2004-2019年），反事实估计显示，缓解信贷摩擦可使产出提高25%、工资提高23%。忽略均衡工资调整会高估产出收益，而忽视固定资本错配的影响则会低估收益。大部分收益来自总体资本积累。信贷摩擦仍高于危机前水平，重塑了企业规模动态，加剧了企业间的错配，并随时间推移抑制了生产率增长。",
+    "keywords": [
+      "信贷摩擦",
+      "违约风险",
+      "微观到宏观模型",
+      "资源配置错配",
+      "英国行政数据"
+    ],
+    "ai_comment": "该文利用企业层面的违约风险作为信贷摩擦的充分统计量，连接了微观风险与宏观结果，并通过反事实分析量化了均衡调整的重要性，为理解信贷摩擦的宏观影响提供了新视角。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35548",
+    "title": "Reserves and the Buyer of Last Resort",
+    "authors": [
+      "Frederic Boissay",
+      "Harald Uhlig"
+    ],
+    "abstract": "We examine the role of central bank reserves and public liquidity when secondary markets may freeze. Central bank reserves help intermediaries purchase assets during stress but crowd out investment. Under laissez-faire, intermediaries hold insufficient reserves, overlooking how aggregate liquidity reduces freeze risk. We propose a \"market-backstop principle\", akin to Bagehot’s principle for intermediaries. It combines state-contingent buyer-of-last-resort interventions to restore trading with modest liquidity requirements to limit moral hazard. The welfare benefits of restoring market functioning exceed the fiscal costs of interventions. We explore implications for the size and composition of central bank balance sheets.",
+    "url": "https://www.nber.org/papers/w35548",
+    "published_date": "2026-08-03",
+    "source": "NBER",
+    "first_seen": "2026-08-03",
+    "abstract_missing": false,
+    "summary": "本文研究二级市场可能冻结时中央银行储备和公共流动性的作用。中央银行储备能够帮助金融中介机构在压力期间购买资产，但同时也挤出了私人投资。在自由放任状态下，中介机构持有的储备不足，因为它们忽视了总流动性的增加能够降低市场冻结发生的风险。作者提出了一个“市场支持原则”，类似于针对金融中介机构的巴杰特原则（Bagehot's principle），该原则将基于状态的最后买家干预（buyer-of-last-resort interventions）与适度的流动性要求相结合，以恢复市场交易并限制道德风险。研究表明，恢复市场功能所带来的福利收益超过了实施干预的财政成本。最后，文章探讨了这些发现对中央银行资产负债表规模和构成的启示。",
+    "keywords": [
+      "中央银行储备",
+      "最后买家",
+      "市场流动性",
+      "市场冻结",
+      "巴杰特原则"
+    ],
+    "ai_comment": "该文提出了“市场支持原则”这一创新性框架，将巴杰特原则与宏观审慎的流动性要求相结合，为理解央行干预与道德风险的权衡提供了新视角。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35546",
+    "title": "Time Travel on Professional Profiles",
+    "authors": [
+      "Nicholas Bloom",
+      "Gideon Moore",
+      "Lisa K. Simon",
+      "Caelan Wilkie-Rogers"
+    ],
+    "abstract": "Economists increasingly use professional profile data to reconstruct employment histories and measure skill supply. We show that these records are not fixed historical snapshots, but mutable accounts that workers revise over time. Using monthly vintages of Revelio Labs data from 2020–2026, we document that 19.7 percent of established U.S. LinkedIn users retroactively edit the title or description of a job they have already left. These “time-travel” edits are closely tied to labor market transitions: around such edits, workers are much more likely to change employers as compared to later-editing users. This mutability can bias historical measures of skills, but it also reveals workers’ beliefs about which skills are in demand. Retroactive edits show sharp post-2022 increases in AI-related language and recent reductions in work-from-home and DEI language. Finally, LLM-associated writing markers surge after ChatGPT, especially among less-educated groups and MBAs from lower-ranked programs, revealing heterogeneous AI-assisted profile editing.",
+    "url": "https://www.nber.org/papers/w35546",
+    "published_date": "2026-08-03",
+    "source": "NBER",
+    "first_seen": "2026-08-03",
+    "abstract_missing": false,
+    "summary": "这项研究指出，经济学家日益依赖职业档案数据来重建就业历史并衡量技能供给，但这类记录并非固定的历史快照，而是工作者会随时间修改的可变账户。基于Revelio Labs 2020至2026年的月度数据，作者发现19.7%的美国成熟LinkedIn用户会追溯性地编辑已离职工作的职位或描述，这种“时间旅行”编辑与劳动力市场转变密切相关：在编辑发生时，这些工作者更换雇主的可能性显著高于后来才进行编辑的用户。这种可变性会扭曲历史的技能度量，但也揭示了工作者对哪些技能有市场需求的主观信念。追溯性编辑显示，2022年后与AI相关的语言急剧增加，而远程办公和DEI（多元、公平与包容）相关语言近期减少。此外，LLM相关的写作特征在ChatGPT出现后激增，尤其是在受教育程度较低的群体和排名较低商学院的MBA中，反映出AI辅助档案编辑的异质性。",
+    "keywords": [
+      "职业档案",
+      "时间旅行编辑",
+      "技能供给",
+      "AI",
+      "LLM"
+    ],
+    "ai_comment": "该论文利用独特的月度数据识别出职业档案的动态可变性，不仅纠正了历史度量的潜在偏差，还创造性地将编辑行为作为反映工人技能信念的指示器，为劳动力市场研究提供了新视角。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35545",
+    "title": "Detecting Critical Junctures as They Unfold: Foundations, Measurement, and Applications from 120 Years of Reporting",
+    "authors": [
+      "Michael Callen",
+      "Gregory Levy",
+      "Saipremnath Muthukumaran",
+      "Jonathan L. Weigel",
+      "Noam Yuchtman"
+    ],
+    "abstract": "Explaining why some countries grow rich while others remain poor requires knowing how — and when — institutions change. A large body of research argues that institutional change often occurs at critical junctures: moments when multiple institutional futures are possible, including a return to the status quo. Yet most empirical work examines critical junctures only in retrospect, risking the omission of pivotal moments when institutions were in flux but ultimately remained unchanged. We develop a new empirical approach to detect critical junctures as they unfold. Our key insight is to understand critical junctures as moments of uncertainty about institutions, which provides a text classifier with a theoretically motivated object to detect in contemporaneous discourse. In this chapter, we apply this idea to the study of historical critical junctures using newspaper text as a rich source of information regarding contemporary beliefs about institutional uncertainty. We translate this insight into a measurement strategy by training a large language model-based classifier, which we apply to the Times of London archive — 11.95 million articles spanning 1800 to 2019 — while focusing our main empirical analysis on 120 years of reporting from 1900 to 2019. This produces the first long-run, text-based measure of institutional uncertainty grounded in the concept of critical junctures. Compared to established indices of geopolitical and economic risk, our measure innovates on several fronts: (i) it captures high uncertainty even in periods without formal institutional change, consistent with ex-ante definitions of critical junctures; (ii) it provides earlier signals of major global convulsions, such as World War I; (iii) it evaluates candidate critical junctures using a common ex ante measure; and (iv) it opens new avenues for studying how critical junctures shape institutions and long-run development. Today, our Times-based index suggests that institutional uncertainty in the US and UK is as elevated as it was in the early 1940s — a signal missed by other leading measures of risk.",
+    "url": "https://www.nber.org/papers/w35545",
+    "published_date": "2026-08-03",
+    "source": "NBER",
+    "first_seen": "2026-08-03",
+    "abstract_missing": false,
+    "summary": "本研究旨在解决如何实时识别制度变迁中的关键节点（critical junctures）这一难题。传统实证研究往往事后追溯关键节点，容易遗漏那些制度虽处于变动之中但最终未发生正式变革的重要时刻。作者提出一种新的实证方法，将关键节点理解为关于制度的不确定性（uncertainty about institutions），并以此作为文本分类器在同期话语中检测的目标。他们利用《泰晤士报》档案，涵盖1800至2019年共1190万篇文章，并聚焦1900至2019年120年的报道，通过训练基于大语言模型（LLM）的分类器，构建了首个基于文本的、长期制度不确定性度量指标。与已有的地缘政治和经济风险指数相比，该指标具备以下创新：其一，即使在没有正式制度变革的时期也能捕捉到高不确定性，符合关键节点的事前定义；其二，能更早地发出重大全球动荡（如第一次世界大战）的信号；其三，使用共同的事前度量来评估候选关键节点；其四，为研究关键节点如何塑造制度和长期发展开辟了新途径。当前，该指数显示美国和英国的制度不确定性已升至与1940年代初相当的水平，而其他主流风险指标并未捕捉到这一信号。",
+    "keywords": [
+      "关键节点",
+      "制度不确定性",
+      "文本分析",
+      "大语言模型",
+      "长期发展"
+    ],
+    "ai_comment": "这项研究通过将关键节点操作化为可量化的制度不确定性，并利用历史报纸文本和LLM构建长期指标，为制度变迁研究提供了全新的事前测量工具，具有方法论上的开创性。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35541",
+    "title": "Financial Interdependence and Currency Internationalization",
+    "authors": [
+      "Zhengyang Jiang"
+    ],
+    "abstract": "Does financial opening necessarily lead to currency internationalization? To study the competition between incumbent and rising powers under financial interdependence, we develop a model of asset demand with microfounded network effects. Search frictions with currency-specialized intermediaries generate distinct notions of liquidity at asset-market and currency-area levels, which jointly shape the trajectory of currency competition. In the U.S.-China context, China at early stages of financial development benefits from pooling its assets with the dollar area, which reinforces the status quo. As China's financial markets deepen, RMB issuance allows China to internalize network effects and erode the dollar's dominance, triggering a discrete shift toward fragmentation. This transition is further shaped by sanctions, financial repression, and third-country responses, highlighting how financial interdependence transforms cooperation into rivalry in the evolution of the international financial order.",
+    "url": "https://www.nber.org/papers/w35541",
+    "published_date": "2026-08-03",
+    "source": "NBER",
+    "first_seen": "2026-08-03",
+    "abstract_missing": false,
+    "summary": "本文研究金融开放是否必然导致货币国际化，并探讨金融相互依赖下在位货币与新兴货币之间的竞争。作者构建了一个具有微观基础网络效应的资产需求模型，引入与货币专业化中介相关的搜索摩擦，从而区分了资产市场层面和货币区域层面的流动性概念，二者共同影响货币竞争的轨迹。在中美背景下，模型发现：中国在金融发展早期阶段，将其资产与美元区合并是有利的，这会强化美元的主导地位；随着中国金融市场深化，发行人民币使中国能够内部化网络效应并侵蚀美元主导地位，从而引发向碎片化的离散转变。此外，制裁、金融压抑和第三国回应也会影响这一转变过程，凸显了金融相互依赖如何在国际金融秩序演化中将合作转化为竞争。",
+    "keywords": [
+      "金融开放",
+      "货币国际化",
+      "网络效应",
+      "人民币",
+      "美元主导"
+    ],
+    "ai_comment": "该文通过理论模型揭示了金融相互依赖下货币竞争的非线性路径，为理解人民币国际化与美元主导权变迁提供了新视角。",
+    "topic": "国际金融"
+  },
+  {
     "id": "10.1093/rfs/hhag070",
     "title": "Stocks as Lotteries? An Experimental Test of Expected Utility versus Behavioral Models",
     "authors": [
