@@ -247,6 +247,54 @@
     "topic": "国际金融"
   },
   {
+    "id": "10.1111/jofi.70072",
+    "title": "Board Dynamics over the Startup Life Cycle",
+    "authors": [
+      "Michael Ewens",
+      "Nadya Malenko"
+    ],
+    "abstract": "We explore the dynamics of venture capital (VC)‐backed startup boards using novel data on director entry, exit, and characteristics. At formation, a typical board is entrepreneur‐controlled. Independent directors join the median board after the second financing and hold a tie‐breaking vote. Their presence is particularly likely when potential VC‐entrepreneur conflicts are larger. At later stages, control switches to VCs and independent director characteristics change. These patterns align with key financial contracting theories, but also highlight unique roles of independent directors over the life cycle: mediation followed by advising. Independent directors thus represent another potential source of value‐add to startup performance.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70072",
+    "published_date": "2026-08-03",
+    "source": "JF",
+    "first_seen": "2026-08-04",
+    "abstract_missing": false,
+    "summary": "本文利用关于董事进入、退出及特征的新数据，研究了风险投资（VC）支持的初创企业董事会的动态变化。在成立之初，典型董事会由企业家控制；独立董事在第二轮融资后加入中位数董事会并持有决定性投票权。当VC与企业家之间的潜在冲突较大时，独立董事更有可能出现。在后期阶段，控制权转向VC，且独立董事的特征发生变化。这些模式与主要金融契约理论一致，但也凸显了独立董事在生命周期中的独特角色：先是调解，后是咨询。独立董事因此构成初创企业绩效的另一个潜在价值增值来源。",
+    "keywords": [
+      "董事会",
+      "风险投资",
+      "公司治理",
+      "生命周期",
+      "独立董事"
+    ],
+    "ai_comment": "该研究利用独特的数据集追踪董事全生命周期的进出，揭示了独立董事角色从调解到咨询的动态演变，为理解初创企业治理提供了新视角。",
+    "topic": "公司治理"
+  },
+  {
+    "id": "10.1093/rfs/hhag071",
+    "title": "Size-Based Regulation and Bank Fragility: Evidence from the Wells Fargo Asset Cap",
+    "authors": [
+      "Tianyue Ruan",
+      "Siddharth Vij"
+    ],
+    "abstract": "We argue that heightened regulation on large banks contributed to the rise in fragility of smaller banks revealed by the 2023 regional bank crisis. In 2018, regulators restricted Wells Fargo, the third largest U.S. bank, from growing its total assets. We estimate this asset cap led Wells Fargo to give up deposits amounting to 2.2% of aggregate bank deposits. These deposits, primarily uninsured, were reallocated to banks geographically proximate to Wells Fargo, including smaller, less regulated banks. In turn, these banks experienced higher deposit outflows once monetary tightening commenced and saw their stock prices plummet during the 2023 stress. (JEL G01, G21, G28, G32, E44, E58)",
+    "url": "https://doi.org/10.1093/rfs/hhag071",
+    "published_date": "2026-08-03",
+    "source": "RFS",
+    "first_seen": "2026-08-04",
+    "abstract_missing": false,
+    "summary": "本文认为，对大型银行的强化监管是2023年区域性银行危机所揭示的小银行脆弱性上升的成因之一。2018年，监管机构限制美国第三大银行富国银行的资产增长。作者估计，这一资产上限导致富国银行放弃的存款约占全银行业存款总额的2.2%，这些存款主要未投保，并重新流向了地理上邻近富国银行的其他银行，其中也包括规模更小、监管更少的银行。在随后的货币紧缩过程中，这些银行经历了更高的存款外流，其股价在2023年的压力时期也大幅下跌。",
+    "keywords": [
+      "规模监管",
+      "银行脆弱性",
+      "存款外流",
+      "资产上限",
+      "区域银行危机"
+    ],
+    "ai_comment": "论文以富国银行资产上限为自然实验，揭示了大银行监管通过存款再分配渠道加大小银行脆弱性的机制，为理解2023年银行危机提供了新的监管溢出视角。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1093/rfs/hhag070",
     "title": "Stocks as Lotteries? An Experimental Test of Expected Utility versus Behavioral Models",
     "authors": [
