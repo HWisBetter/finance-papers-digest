@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1287/mnsc.2023.03810",
+    "title": "From Canvas to Blockchain: Impact of Royalties on Art Market Efficiency",
+    "authors": [
+      "Xinyu Cao",
+      "Jieteng Chen",
+      "T. Tony Ke"
+    ],
+    "abstract": "Since the advocacy for droit de suite in France in the 1890s, policymakers and the public have recognized artworks as intellectual property and sought to grant artists resale royalties—yet encountered heated debates and various logistical obstacles. The emergence of blockchain technology now makes automated royalty collection feasible. We examine the impact of resale royalties on artists’ pricing decisions and the overall efficiency of the art market. We build an infinite-horizon model in which an artist sells her artwork in the primary market, after which it can be resold in a sequence of secondary markets. We find that when artwork popularity is public information, royalties—acting as a tax on resales—reduce the artwork’s resale value and transaction volume, lowering the artist’s profit and leaving all market participants worse off. However, when the artist possesses superior information about artwork popularity compared with buyers, a popular artist may set an inefficiently high price to signal its appeal, which hurts primary market efficiency. In this case, royalties benefit the popular artist by reducing the unpopular artist’s incentive to mimic, thereby mitigating price distortion in the primary market. Consequently, the profit of a popular artist first increases and then decreases with the royalty rate, peaking at a unique positive rate. Social welfare may either rise or fall with the royalty rate, depending on whether the reduction in primary-market price distortion outweighs the deadweight loss in resale markets. We also analyze alternative cases of incomplete information in which either the primary buyer or neither party has superior information, and show that royalties may still increase the artist’s expected profit by reducing the price distortion in the primary market. This paper was accepted by Dmitri Kuksov, marketing. Funding: J. Chen acknowledges financial support from the National Natural Science Foundation of China [Grant 724B2030]. T. T. Ke acknowledges financial support from the National Natural Science Foundation of China [Grants 72422003 and 72394395] and the General Research Fund of the Hong Kong Research Grants Council [Grant 14500421]. X. Cao acknowledges financial support from the National Natural Science Foundation of China [Grant 72532007]. Supplemental Material: The online appendix is available at https://doi.org/10.1287/mnsc.2023.03810 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.03810",
+    "published_date": "2026-08-04",
+    "source": "MS",
+    "first_seen": "2026-08-05",
+    "abstract_missing": false,
+    "summary": "本文研究艺术市场中的转售版税（resale royalties）对艺术家定价决策及市场整体效率的影响。研究动机源于法国19世纪90年代倡导的追续权（droit de suite），而区块链技术使得自动化征收版税成为可能。作者构建了一个无限期模型，艺术家在初级市场出售作品后，作品可在二级市场序列中转售。研究发现：当艺术品受欢迎程度是公开信息时，版税作为对转售的税收，会降低艺术品的转售价值和交易量，从而降低艺术家利润，使所有市场参与者受损；当艺术家相比买家对艺术品受欢迎程度拥有信息优势时，受欢迎的艺术家可能设定过高的价格以传递信号，损害初级市场效率，此时版税能减少不受欢迎艺术家模仿的激励，缓解初级市场价格扭曲，因此受欢迎艺术家的利润随版税率先升后降，并在某个唯一正税率处达到峰值；社会福利是否上升取决于初级市场价格扭曲的减少是否超过转售市场的无谓损失。作者还分析了不完全信息的其他情形（如初级买家或双方均无信息优势），并表明版税仍可通过减少初级市场价格扭曲来增加艺术家的预期利润。",
+    "keywords": [
+      "艺术市场",
+      "转售版税",
+      "区块链",
+      "信息不对称",
+      "定价效率"
+    ],
+    "ai_comment": "论文将区块链技术与艺术市场版税机制相结合，通过信号传递模型揭示了版税的双刃剑效应，为理解数字时代知识产权保护与市场效率的关系提供了新视角。",
+    "topic": "其他"
+  },
+  {
     "id": "w35564",
     "title": "Improving Financial Literacy: From Corporate Finance to Personal Finance",
     "authors": [
