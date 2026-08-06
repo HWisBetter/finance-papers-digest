@@ -1,5 +1,28 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104349",
+    "title": "Institutional investor mandates, securities lending, and short-selling constraints",
+    "authors": [
+      "Taisiya Sikorskaya"
+    ],
+    "abstract": "Institutions facilitate short-selling by lending from their holdings, but what they hold is endogenous. This paper examines how institutional demand, driven by investment mandates (benchmarking), affects short-selling. In a model where benchmarked managers lend from their holdings, both lending supply and equilibrium price are higher for the benchmark asset, and so is shorting demand (due to inflated price). A quasi-experiment using Russell index reconstitution shows that stocks with more benchmarked capital have greater lending supply and demand. Ultimately, such stocks are costlier to short. In theory and data, results are driven by incomplete pass-through from benchmarked capital to lending supply.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104349",
+    "published_date": "2026-08-05",
+    "source": "JFE",
+    "first_seen": "2026-08-06",
+    "abstract_missing": false,
+    "summary": "本文研究机构投资者的投资授权（尤其是基准化）如何影响证券借贷和卖空约束。作者构建了一个模型，其中基准化管理人从其持仓中出借证券，结果表明对于被纳入基准的资产，借贷供给和均衡价格都更高，同时由于价格被推高，卖空需求也随之增加。利用Russell指数调整作为准实验，实证发现拥有更多基准化资本的股票具有更大的借贷供给和借贷需求，但最终这类股票的卖空成本更高。理论和数据均表明，这一结果是由基准化资本向借贷供给的不完全传导所驱动的。",
+    "keywords": [
+      "机构投资者",
+      "证券借贷",
+      "卖空约束",
+      "基准化",
+      "Russell指数调整"
+    ],
+    "ai_comment": "本文揭示了投资授权与卖空市场之间的内生互动，并通过准实验设计提供了因果证据，对理解卖空成本的决定因素有重要贡献。",
+    "topic": "市场微观结构"
+  },
+  {
     "id": "10.1287/mnsc.2023.03810",
     "title": "From Canvas to Blockchain: Impact of Royalties on Art Market Efficiency",
     "authors": [
@@ -318,6 +341,31 @@
     ],
     "ai_comment": "论文以富国银行资产上限为自然实验，揭示了大银行监管通过存款再分配渠道加大小银行脆弱性的机制，为理解2023年银行危机提供了新的监管溢出视角。",
     "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1287/mnsc.2023.03917",
+    "title": "Constructing New Product Development Portfolios with Internal and External Projects",
+    "authors": [
+      "Hossein Nikpayam",
+      "Jochen Schlapp",
+      "Moritz Fleischmann"
+    ],
+    "abstract": "In order to build a successful new product development (NPD) portfolio, a firm must ensure not only its access to a wide variety of candidate NPD projects but also its capacity to collect and verify vital information about these projects prior to project selection. In practice, a popular strategy to enrich the set of candidate projects is to contemplate investing in both internal and external NPD projects; however, this approach often interferes with the firm’s ability to evaluate its own projects reliably, which in turn results in subpar project selections. To meet this managerial challenge, the firm must carefully craft its project selection process and incentivize its project managers to evaluate projects thoroughly and share their honest evaluation of outcomes. We address these issues by developing a principal–multiagent model, and our findings yield direct managerial implications. First, we show that the relative importance of a firm’s NPD portfolio scope versus its project evaluation costs is what dictates how flexibly the firm should select between internal and external projects; of course, greater flexibility leads to broader portfolios but also to higher evaluation costs. Second, controlling the tension between internal and external NPD projects while ensuring effective project evaluation requires that the firm offers—in addition to individual performance incentives—shared incentives, which signal its project selection preferences and also limit project managers’ opportunities to extract rent. This paper was accepted by Sridhar Tayur, entrepreneurship and innovation. Supplemental Material: The online appendices are available at https://doi.org/10.1287/mnsc.2023.03917 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.03917",
+    "published_date": "2026-08-01",
+    "source": "MS",
+    "first_seen": "2026-08-06",
+    "abstract_missing": false,
+    "summary": "该论文研究企业如何构建新产品开发（NPD）项目组合，特别是在同时考虑内部与外部项目时。论文指出，企业既要获得多样化的候选项目，也要在项目选择前收集和验证关键信息。然而，投资内外部项目可能会损害企业评估自身项目的能力，导致次优的项目选择。为应对这一管理挑战，作者开发了一个委托-多代理模型，分析企业应如何设计项目选择过程并激励项目经理进行彻底评估和坦诚分享结果。研究发现：第一，企业NPD组合范围与项目评估成本之间的相对重要性决定了企业在内部与外部项目之间选择的灵活性；更大的灵活性会带来更广泛的组合但也会提高评估成本。第二，为了控制内外部项目间的张力并确保有效评估，企业除了提供个人绩效激励外，还需要提供共享激励，这能传递项目选择偏好并限制项目经理提取租金的机会。这些发现产生了直接的管理启示。",
+    "keywords": [
+      "新产品开发组合",
+      "内部与外部项目",
+      "委托-多代理模型",
+      "激励设计",
+      "项目评估成本"
+    ],
+    "ai_comment": "本文的亮点在于将项目组合选择与多代理激励问题相结合，揭示了组合广度与评估成本的权衡，并提出了共享激励作为关键机制。",
+    "topic": "其他"
   },
   {
     "id": "10.1093/rfs/hhag070",
@@ -18997,6 +19045,24 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.6855438",
     "first_seen": "2026-07-31",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Capitalizing Climate Regulation: Evidence from New York City's Building Emissions Law",
+    "authors": [
+      "Ruihan Huang",
+      "Stijn Van Nieuwerburgh"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7170659",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7170659",
+    "first_seen": "2026-08-06",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
