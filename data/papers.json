@@ -1,5 +1,29 @@
 [
   {
+    "id": "10.1093/rfs/hhag054",
+    "title": "International Arbitrage Premia",
+    "authors": [
+      "Mirela Sandulescu",
+      "Paul Schneider"
+    ],
+    "abstract": "We introduce the nonlinear arbitrage correction (NAC), the residual that renders a linear benchmark model arbitrage-free while preserving the law of one price. The price of NAC captures the marginal Sharpe ratio increase consistent with no-arbitrage and upper-bounds the constrained Hansen–Jagannathan distance. Using four decades of international equity, currency, and factor returns, NAC is strongly countercyclical, peaking during crises when linear models turn negative. The implied Sharpe ratio increase reaches 0.3, underscoring its economic relevance. While linear models perform well on average, they fail in distressed states, underpricing nonlinear payoffs. Incorporating NAC restores positivity and stabilizes pricing across regimes. (JEL G11, G12, G15)",
+    "url": "https://doi.org/10.1093/rfs/hhag054",
+    "published_date": "2026-08-06",
+    "source": "RFS",
+    "first_seen": "2026-08-07",
+    "abstract_missing": false,
+    "summary": "本文提出非线性套利修正（NAC），即在保持一价定律的同时，使线性基准模型达到无套利条件的残差项。NAC的价格反映了在无套利约束下边际夏普比率的最大可能增加，并构成了有约束的Hansen–Jagannathan距离的上界。基于四十年国际股票、货币和因子收益数据，研究发现NAC呈现显著的反周期性，在危机期间达到峰值，而此时线性模型的表现转为负面。隐含的夏普比率增加可达0.3，凸显其经济重要性。尽管线性模型在平均状态下表现良好，但在市场困境状态下失败，低估了非线性收益。引入NAC可以恢复定价的正性并稳定跨制度区间的定价表现。",
+    "keywords": [
+      "非线性套利修正",
+      "无套利",
+      "Hansen–Jagannathan距离",
+      "反周期性",
+      "国际资产定价"
+    ],
+    "ai_comment": "该论文提出了一种新的残差度量NAC，连接了线性定价模型与无套利条件，并揭示了线性模型在危机中的系统性失效，为跨资产定价提供了新的修正工具。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104349",
     "title": "Institutional investor mandates, securities lending, and short-selling constraints",
     "authors": [
