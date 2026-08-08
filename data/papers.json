@@ -1,5 +1,57 @@
 [
   {
+    "id": "10.1287/mnsc.2026.02443",
+    "title": "Don’t Build a Better Fax Machine: A Commentary on “Fighting Fire with Fire: Infusing AI into Peer Review to Sustain Quality Scholarship”",
+    "authors": [
+      "Christian Terwiesch"
+    ],
+    "abstract": "Artificial intelligence is increasingly being proposed as a tool to improve the efficiency of academic peer review. While such applications may alleviate reviewer shortages and enhance productivity, they largely preserve the existing architecture of scientific publishing. In this commentary I propose that AI also creates an opportunity to reimagine more fundamental aspects of how knowledge is evaluated and disseminated. Drawing on concepts from operations management and innovation, I propose disruptive alternatives that challenge the underlying design of the current process. Rather than simply helping referees review papers faster, AI may enable new models of scientific communication that are more open, timely, and adaptive to the needs of modern scholarship. This commentary was accepted by Christoph Loch.",
+    "url": "https://doi.org/10.1287/mnsc.2026.02443",
+    "published_date": "2026-08-07",
+    "source": "MS",
+    "first_seen": "2026-08-08",
+    "abstract_missing": false,
+    "summary": "这篇评论文章探讨了人工智能在学术同行评审中的应用。现有AI应用虽能缓解审稿人短缺、提高生产效率，但本质上仍维持了传统科学出版架构。作者基于运营管理和创新理论，提出颠覆性替代方案，挑战现有流程的基本设计。与其仅让AI帮助审稿人更快完成评审，不如利用AI构建更开放、及时且适应现代学术需求的新型科学传播模式。评论由Christoph Loch接受发表。",
+    "keywords": [
+      "人工智能",
+      "同行评审",
+      "学术出版",
+      "颠覆性创新"
+    ],
+    "ai_comment": "本文的亮点在于超越效率提升的视角，呼吁借AI重新设计知识评估与传播的根本机制，具有前瞻性。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1287/mnsc.2026.00184",
+    "title": "Fighting Fire with Fire: Infusing Artificial Intelligence into Peer Review to Sustain Quality Scholarship",
+    "authors": [
+      "Hemant K. Bhargava",
+      "Sarah H. Bana",
+      "Zhe Zhang",
+      "Laura Brandimarte",
+      "Vidyanand Choudhary",
+      "J. Frank Li",
+      "Pantelis Loupos",
+      "Daniel Zantedeschi"
+    ],
+    "abstract": "Adoption of artificial intelligence (AI) by authors has accelerated production of academic articles and increased submission rates to journals, thereby straining review capacity and hurting journal outcome metrics, such as turnaround time and decision accuracy. Academic journals face an imperative to improve review quality and productivity by incorporating generative AI tools in the review workflow. As a concrete first step toward this idea, we outline a particular workflow that deploys large language models as a structured, trained, frontline reviewer. The workflow underlines that AI-produced evaluations must be transparent and contestable by authors. We emphasize the need for AI-infused peer review to be journal specific, designed for efficiency, accuracy, and accountability, within a human-in-the-loop oversight framework. We build a mathematical model of journal operations to compare outcomes under a status quo no-AI workflow and the proposed AI-infused workflow. The model captures how governed AI reconfigures human reviewer effort and illuminates conditions under which the AI-infused workflow can improve vital metrics, such as turnaround time and decision accuracy. Our essential point is that journals need to adopt a deliberate and institutionally governed approach for using AI in the review process. We recognize that identifying an “optimal” AI-infused peer review workflow or even definitively projecting the consequences of one will require substantial experimentation to calibrate and configure the workflow across multiple alternative designs. This discussion paper was This paper was accepted by Christoph Loch. Funding: D. Zantedeschi acknowledges support for this research from the Muma College of Business Dean’s Research Fund. Supplemental Material: The online appendix is available at https://doi.org/10.1287/mnsc.2026.00184 .",
+    "url": "https://doi.org/10.1287/mnsc.2026.00184",
+    "published_date": "2026-08-07",
+    "source": "MS",
+    "first_seen": "2026-08-08",
+    "abstract_missing": false,
+    "summary": "本文探讨了人工智能（AI）在学术同行评审中的应用，以应对作者使用AI导致论文产出激增、期刊审稿压力增大以及周转时间和决策准确性等指标恶化的问题。作者提出了一种将大语言模型（LLM）作为结构化、训练有素的前线审稿人纳入审稿流程的具体工作流，强调AI生成的评价必须透明且可由作者质疑，并指出AI辅助审稿应针对期刊定制，在人类参与监督的框架下追求效率、准确性和问责制。文章构建了一个期刊运营的数学模型，比较了无AI的现状工作流与所提出的AI辅助工作流的结果，模型揭示了受治理的AI如何重新配置人类审稿人的努力，并阐明了AI辅助工作流能够改善周转时间和决策准确性等关键指标的条件。核心观点是，期刊需要采取审慎且制度化治理的方式来在审稿过程中使用AI，同时承认确定“最优”工作流或确切预测其后果需要大量实验来校准和配置多种替代设计。",
+    "keywords": [
+      "人工智能",
+      "大语言模型",
+      "同行评审",
+      "期刊运营",
+      "人机协同"
+    ],
+    "ai_comment": "文章将AI审稿置于制度治理和人类监督框架下，并用数学模型刻画其对审稿效率与准确性的影响，为AI在学术出版中的规范应用提供了可操作的分析框架。",
+    "topic": "其他"
+  },
+  {
     "id": "10.1093/rfs/hhag054",
     "title": "International Arbitrage Premia",
     "authors": [
@@ -63289,6 +63341,26 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "&lt;span&gt;On the Dynamics of Belief Correction&lt;/span&gt;",
+    "authors": [
+      "Bryan T. Kelly",
+      "Semyon Malamud",
+      "Emil Siriwardane",
+      "Hongyu Wu"
+    ],
+    "abstract": "",
+    "url": "http://dx.doi.org/10.2139/ssrn.5003581",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5003581",
+    "first_seen": "2026-08-08",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
