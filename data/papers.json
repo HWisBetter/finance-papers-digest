@@ -52,6 +52,31 @@
     "topic": "其他"
   },
   {
+    "id": "10.1111/1475-679x.70081",
+    "title": "Disaggregating Cash Flows: The Effect of Linking and Labeling on Investors’ Understanding of the Statement of Cash Flows",
+    "authors": [
+      "Richard Crandall",
+      "Shannon Garavaglia",
+      "Cassie Mongold"
+    ],
+    "abstract": "Operating cash flows are a critical input to valuation activities. Research and practice indicate that the most common method of presenting operating cash flows, the indirect method, is viewed as overly complex. We experimentally examine whether two theoretically motivated factors represent shortcomings of the indirect method: (1) inadequate linking of related components of net income and changes in working capital accounts, and (2) inconsistent income statement labeling between components of net income and their corresponding working capital changes. Drawing on causal reasoning theory, we predict and find that these factors hinder the decision usefulness of the operating section of the statement of cash flows. The results of our study are informative to the academic literature and standard setters, as we examine underlying reasons why the indirect method may be viewed unfavorably.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70081",
+    "published_date": "2026-08-07",
+    "source": "JAR",
+    "first_seen": "2026-08-09",
+    "abstract_missing": false,
+    "summary": "经营现金流是估值活动的关键输入。研究与实务表明，最常用的间接法列报经营现金流被认为过于复杂。本文通过实验检验了两个理论上合理的因素是否是间接法存在的缺陷：(1) 净利润各组成部分与营运资本账户变动之间的关联不充分；(2) 净利润各组成部分与其对应的营运资本变动在利润表上的标签不一致。基于因果推理理论，作者预测并发现这些因素损害了现金流量表经营部分的决策有用性。研究结果对学术文献和准则制定者具有参考意义，因为它揭示了间接法可能不被看好的深层原因。",
+    "keywords": [
+      "经营现金流",
+      "间接法",
+      "因果推理",
+      "决策有用性",
+      "实验研究"
+    ],
+    "ai_comment": "该研究通过实验设计深入剖析了间接法列报缺陷的具体机制，为准则制定和改进财务报表列报提供了实证依据。",
+    "topic": "会计与信息披露"
+  },
+  {
     "id": "10.1093/rfs/hhag054",
     "title": "International Arbitrage Premia",
     "authors": [
