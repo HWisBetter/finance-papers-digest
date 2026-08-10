@@ -1,5 +1,27 @@
 [
   {
+    "id": "10.1111/jofi.70064",
+    "title": "Personal Costs of Executive Turnovers",
+    "authors": [
+      "Kasper Meisner Nielsen"
+    ],
+    "abstract": "This study examines the income loss following forced CEO turnovers using income data from the official records at the Danish Tax Authority. We find that dismissed CEOs’ personal income is 40% lower in the five years following forced turnovers. The decline is driven by labor market outcomes: labor and entrepreneurial incomes decline, while other sources of income increase. We find larger declines in income for executives with poor performance during their tenures, consistent with the executive labor market being the main channel for the lower income. Overall, the findings suggest that executives face significant personal costs from forced turnovers.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70064",
+    "published_date": "2026-08-08",
+    "source": "JF",
+    "first_seen": "2026-08-10",
+    "abstract_missing": false,
+    "summary": "本研究利用丹麦税务局的官方收入记录，考察强制CEO离职后的个人收入损失。研究发现，被解雇的CEO在强制离职后的五年内，个人收入比正常情况下低40%。这一收入下降主要由劳动力市场结果驱动：劳动收入和创业收入下降，而其他来源的收入有所增加。进一步分析显示，任期内业绩表现不佳的高管收入下降幅度更大，这与高管劳动力市场作为低收入主要渠道的解释一致。总体而言，研究结果表明，高管因强制离职而承担了显著的个人成本。",
+    "keywords": [
+      "强制CEO离职",
+      "收入损失",
+      "高管劳动力市场",
+      "丹麦税务记录"
+    ],
+    "ai_comment": "该研究利用高质量行政数据，首次量化了强制CEO离职的个人收入代价，并清晰识别了劳动力市场渠道，为高管更替的经济后果提供了新证据。",
+    "topic": "公司治理"
+  },
+  {
     "id": "10.1287/mnsc.2026.02443",
     "title": "Don’t Build a Better Fax Machine: A Commentary on “Fighting Fire with Fire: Infusing AI into Peer Review to Sustain Quality Scholarship”",
     "authors": [
