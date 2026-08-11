@@ -1,5 +1,282 @@
 [
   {
+    "id": "w35590",
+    "title": "The Perils of Bilateral Sovereign Debt",
+    "authors": [
+      "Francisco Roldan",
+      "César Sosa-Padilla"
+    ],
+    "abstract": "Motivated by the emergence of new official creditors outside the Paris Club framework, we study the interaction between senior official lending and market debt. We develop a quantitative sovereign default model featuring a large senior lender with whom borrowing terms are negotiated. Obtaining more net financing from the market strengthens the government’s bargaining position and improves bilateral terms. This endogenous cross-elasticity erodes the discipline of spreads and amplifies debt dilution, leading to welfare losses even as bilateral borrowing helps avert some defaults ex-post. With pre-specified rules, rewarding market issuance can be enough to generate such losses, and an optimal rule instead raises bilateral rates with net market financing. The direction of the cross-elasticity can thus guide in practice the assessment of new forms of bilateral sovereign debt.",
+    "url": "https://www.nber.org/papers/w35590",
+    "published_date": "2026-08-10",
+    "source": "NBER",
+    "first_seen": "2026-08-11",
+    "abstract_missing": false,
+    "summary": "本文以巴黎俱乐部框架之外新增官方债权人为背景，研究高级官方贷款与市场化债务之间的互动。作者构建了一个包含大型高级贷款人的定量主权违约模型，其中贷款条款通过谈判确定。模型表明，政府从市场获得更多净融资会增强其谈判地位，从而改善双边贷款条款。这种内生交叉弹性削弱了利差的市场约束效应，并放大了债务稀释问题，即使双边借贷有助于在事后避免部分违约，仍会造成福利损失。在预设规则下，奖励市场发行可能足以产生上述损失，而最优规则则要求双边利率随市场净融资增加而上升。因此，交叉弹性的方向可为实践中评估新型双边主权债务提供指导。",
+    "keywords": [
+      "主权违约",
+      "双边贷款",
+      "债务稀释",
+      "定量模型",
+      "巴黎俱乐部"
+    ],
+    "ai_comment": "该文通过内生交叉弹性将官方贷款与市场融资联系起来，为新型双边主权债务的评估提供了理论框架和政策启示。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "w35588",
+    "title": "AI Agents and Prompt Engineering in Econometric Coding",
+    "authors": [
+      "Sebastian Galiani",
+      "Federico Ariel López",
+      "Raul A. Sosa"
+    ],
+    "abstract": "We study how large language models write code for econometric analysis. We compare three dimensions of AI-assisted coding: statistical software (Stata, R, or Python), prompting (zero-shot versus few-shot), and the degree of agency, from a chatbot that writes a single script to an agent that executes and revises its own code. On a benchmark of applied econometric and statistical tasks, moving from the chatbot to the constrained agent raises task success from 74 to 96 percent, at about eight additional cents per run. For Claude Sonnet 4.6 and GPT-5.4 through Codex, few-shot prompting improves the chatbot far more than the constrained agent, indicating that prompting and agency act as substitutes. For these models, differences across statistical software are sizeable under the chatbot but largely disappear under the constrained agent.",
+    "url": "https://www.nber.org/papers/w35588",
+    "published_date": "2026-08-10",
+    "source": "NBER",
+    "first_seen": "2026-08-11",
+    "abstract_missing": false,
+    "summary": "本研究考察大型语言模型（LLM）在计量经济学分析中编写代码的能力，并比较了三个维度的AI辅助编码：统计软件（Stata、R或Python）、提示方式（零样本与少样本）以及代理程度（从编写单一脚本的聊天机器人到能够执行并修订自身代码的代理）。在一个应用计量经济学与统计任务基准上，从聊天机器人转向受限代理使任务成功率从74%提升至96%，每次运行仅增加约8美分成本。对于Claude Sonnet 4.6和通过Codex使用的GPT-5.4，少样本提示对聊天机器人的改善远大于对受限代理的改善，表明提示与代理之间具有替代关系。此外，在聊天机器人条件下，不同统计软件之间的性能差异显著，但在受限代理条件下这些差异基本消失。",
+    "keywords": [
+      "LLM",
+      "计量经济学编码",
+      "提示工程",
+      "AI代理",
+      "统计软件"
+    ],
+    "ai_comment": "该论文通过系统基准首次量化了代理程度与提示方式之间的替代关系，并揭示了代理能有效消除软件间差异，为AI辅助计量经济学编码的实践提供了重要指导。",
+    "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "w35586",
+    "title": "Staged Access and Liability for Dual-Use Artificial Intelligence",
+    "authors": [
+      "Joshua S. Gans"
+    ],
+    "abstract": "How should regulators combine staged access to a dual-use AI model with developer liability? I model a defender and an adversary searching for the same software flaws. After release, liability induces more defensive search but also makes the adversary search harder, limiting its effect on harm. Exclusive access removes this strategic response, so staged access and liability are complements in protection. Defensive effort rises towards the release date, making additional delay progressively less productive. Optimal evaluation windows are therefore bounded, and their response to greater harm saturates. Because defensive search uses real resources, the efficient liability rate can be below full internalisation of harm. That rate generally cannot induce the developer to choose the regulator's preferred release date, leaving a distinct role for a timing mandate.",
+    "url": "https://www.nber.org/papers/w35586",
+    "published_date": "2026-08-10",
+    "source": "NBER",
+    "first_seen": "2026-08-11",
+    "abstract_missing": false,
+    "summary": "本文研究监管者如何结合分阶段访问（staged access）与开发者责任（developer liability）来管理双重用途人工智能模型（dual-use AI）的风险。模型设定一个防御者（开发者）和对手（adversary）在寻找同一个软件漏洞。责任机制在发布后能激励更多的防御性搜索，但同时也会促使对手更加努力地搜索，从而削弱了责任对减少危害的效果。独家访问（exclusive access）能消除对手的这种策略性反应，因此分阶段访问与责任在保护效果上是互补的。防御努力在发布日前逐渐增加，使得额外的延迟边际效果递减，因此最优评估窗口是有限的，并且最优窗口长度对更大危害的响应存在饱和。由于防御性搜索消耗实际资源，有效的责任费率可以低于危害的完全内部化水平。该费率通常无法诱使开发者选择监管者偏好的发布日期，从而为发布时点规定（timing mandate）留下了独立的作用空间。",
+    "keywords": [
+      "分阶段访问",
+      "开发者责任",
+      "双重用途AI",
+      "漏洞搜索",
+      "监管设计"
+    ],
+    "ai_comment": "本文通过博弈论模型阐明了分阶段访问与责任机制在AI安全监管中的互补性，并指出责任费率无需完全内部化危害，为监管政策设计提供了新的理论视角。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35581",
+    "title": "How Steep is the Phillips Curve in Developing Economies? A Sufficient Statistics Approach and Estimates for India",
+    "authors": [
+      "Juan Herreño",
+      "Noémie Pinardon-Touati",
+      "Malte Thie"
+    ],
+    "abstract": "We estimate the Phillips curve for India to shed light on the output-inflation tradeoff in developing economies. We develop a method to estimate the slope of the Phillips curve based on sufficient statistics that apply to a broad class of New Keynesian models. Using portable causal research designs, we estimate the firm-level passthrough of cost shocks into prices at different horizons, and the slope of marginal cost curves at different levels of aggregation. These empirical moments map into the slope of the Phillips curve and yield a decomposition into three terms: price rigidity, micro real rigidities, and macro real rigidities. The slope of the Phillips curve in India is one order of magnitude steeper than in the United States. This difference is explained by weaker macro real rigidities and less rigid prices. Extending the model to allow for input misallocation, we find that the re-allocative effects of monetary policy affect the Phillips curve, but this effect is small.",
+    "url": "https://www.nber.org/papers/w35581",
+    "published_date": "2026-08-10",
+    "source": "NBER",
+    "first_seen": "2026-08-11",
+    "abstract_missing": false,
+    "summary": "本文旨在估计印度的菲利普斯曲线，以揭示发展中经济体中产出与通胀之间的权衡关系。作者提出了一种基于充分统计量的方法来估计菲利普斯曲线的斜率，该方法适用于广泛的新凯恩斯模型。利用可移植的因果研究设计，作者估计了企业层面成本冲击对价格在不同时间范围上的传导程度，以及不同加总水平上边际成本曲线的斜率。这些经验矩映射到菲利普斯曲线的斜率，并分解为三个组成部分：价格刚性、微观真实刚性和宏观真实刚性。研究发现，印度菲利普斯曲线的斜率比美国陡峭一个数量级，这一差异主要由更弱的宏观真实刚性和更不刚性的价格解释。此外，将模型扩展以允许投入错配后，货币政策的重配置效应会影响菲利普斯曲线，但该影响较小。",
+    "keywords": [
+      "菲利普斯曲线",
+      "充分统计量",
+      "价格刚性",
+      "真实刚性",
+      "印度"
+    ],
+    "ai_comment": "该文提出了一种基于充分统计量的新颖估计方法，为缺乏微观数据的国家估计菲利普斯曲线提供了可行途径，并通过分解揭示发展中经济体与发达经济体斜率差异的来源。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35579",
+    "title": "Common Risk Factors in the Returns on Stocks, Bonds (and Options), Redux",
+    "authors": [
+      "Zhongtian Chen",
+      "Nikolai Roussanov",
+      "Xiaoliang Wang",
+      "Dongchen Zou"
+    ],
+    "abstract": "We identify a strong common risk factor structure that is pervasive across corporate securities: stocks, corporate bonds, and options. The common factors are closely linked to observable factors and key economic indicators. These factors explain much of the variation in individual asset returns, although pricing errors persist. A joint mean-variance efficient portfolio across asset classes achieves a high Sharpe ratio, resulting in part from cross-market hedging of the common sources of risk. We develop a measure of market segmentation based on differences in the common factor risk premia between markets and document a significant degree of segmentation.",
+    "url": "https://www.nber.org/papers/w35579",
+    "published_date": "2026-08-10",
+    "source": "NBER",
+    "first_seen": "2026-08-11",
+    "abstract_missing": false,
+    "summary": "本文识别出在企业证券（股票、公司债券和期权）中普遍存在的强大共同风险因子结构。这些共同因子与可观测因子及关键经济指标密切相关，能够解释个体资产收益中的大部分变动，但仍存在定价误差。跨资产类别的联合均值-方差有效投资组合实现了较高的夏普比率，部分源于对共同风险源的跨市场对冲。作者还基于不同市场间共同因子风险溢价的差异构建了一个市场分割度量，并记录了显著的分割程度。",
+    "keywords": [
+      "共同风险因子",
+      "股票",
+      "公司债券",
+      "期权",
+      "市场分割"
+    ],
+    "ai_comment": "该研究将因子分析扩展至股票、债券和期权三大类资产，揭示了跨市场的共同风险结构，并创新性地提出基于风险溢价差异的市场分割度量，为资产定价和跨市场联动研究提供了新视角。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "w35578",
+    "title": "Reconstructing a Century of U.S. Corporate Bonds: Credit Risk in Historical Perspective",
+    "authors": [
+      "Mohammad Ghaderi",
+      "Sébastien Plante",
+      "Nikolai Roussanov",
+      "Sang Byung Seo"
+    ],
+    "abstract": "Do corporate bond investors earn compensation for bearing credit risk? We construct a new historical corporate bond database spanning 128 years to estimate a corporate bond counterpart to the equity risk premium. Combining hand-collected archival data with modern sources, we assemble a panel of over 100,000 bonds and 7 million observations. While recent samples suggest corporate bond excess returns largely reflect the term premium, our long sample reveals a sizable and statistically significant credit risk premium. Credit spreads predict future corporate bond returns and macroeconomic aggregates, though their ability to forecast business cycle fluctuations weakens when prewar data are included.",
+    "url": "https://www.nber.org/papers/w35578",
+    "published_date": "2026-08-10",
+    "source": "NBER",
+    "first_seen": "2026-08-11",
+    "abstract_missing": false,
+    "summary": "本文研究公司债券投资者是否因承担信用风险而获得补偿，通过构建一个跨越128年的美国公司债券历史数据库，估计与股权风险溢价相对应的公司债券信用风险溢价。作者将手工收集的档案数据与现代数据源相结合，组建了一个包含超过10万只债券、700万个观测值的面板数据集。研究发现，近期样本显示公司债券超额收益主要反映期限溢价，但长期样本揭示了规模可观且统计显著的信用风险溢价。此外，信用利差能够预测未来的公司债券收益和宏观经济总量，但当纳入战前数据时，其对商业周期波动的预测能力有所减弱。",
+    "keywords": [
+      "信用风险溢价",
+      "公司债券",
+      "历史数据库",
+      "信用利差",
+      "资产定价"
+    ],
+    "ai_comment": "该研究通过长历史数据揭示了信用风险溢价的显著性，弥补了近期样本可能掩盖长期结构的不足，为信用风险定价提供了更全面的历史视角。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "w35577",
+    "title": "The Value Gap: Europe Cannot Scale",
+    "authors": [
+      "Bo Becker",
+      "Efraim Benmelech",
+      "Joao Monteiro"
+    ],
+    "abstract": "In 2008, the aggregate market value of U.S.-listed firms was roughly one-third higher than that of European-listed firms. By 2023, it was more than 300% higher, a difference of $34 trillion. The valuation gap is broad-based, rather than concentrated among a few superstar firms, and is driven by differences in firm values, not in the number of listed firms. Across sectors, the gap is larger in R&amp;D-intensive industries and in industries with high returns to scale. European firms’ size is strongly correlated with home-country GDP, whereas U.S. firms’ size is unrelated to home-state GDP. Smaller European firms also face a particularly large cost-of-capital gap and do not appear able to substitute debt for limited access to equity financing, including venture capital. Taken together, these facts suggest that financial and product-market frictions constrain European firms’ ability to scale.",
+    "url": "https://www.nber.org/papers/w35577",
+    "published_date": "2026-08-10",
+    "source": "NBER",
+    "first_seen": "2026-08-11",
+    "abstract_missing": false,
+    "summary": "本文研究了2008年至2023年间美国与欧洲上市公司市值差距的急剧扩大现象。2008年，美国上市公司的总市值比欧洲高出约三分之一，而到2023年这一差距超过300%，绝对差额达34万亿美元。作者发现，估值差距是广泛存在的，并非集中于少数超级明星企业，且主要由企业价值差异驱动，而非上市公司数量差异。跨行业来看，估值差距在研发密集型和规模回报率高的行业中更为显著。此外，欧洲企业的规模与其母国GDP高度相关，而美国企业的规模与其所在州的GDP无关。较小的欧洲企业面临尤其大的资本成本差距，且似乎无法通过债务融资来替代有限的股权融资渠道（包括风险投资）。综合这些事实，作者认为金融和产品市场摩擦限制了欧洲企业的规模化能力。",
+    "keywords": [
+      "市值差距",
+      "欧洲企业",
+      "企业融资摩擦",
+      "资本成本",
+      "规模化"
+    ],
+    "ai_comment": "该论文通过系统性事实揭示美欧估值差距的广泛性和结构性特征，并强调融资摩擦而非明星企业是制约欧洲企业规模化的关键，对理解跨市场资本配置具有重要启示。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "w35574",
+    "title": "AI Financial Advice: Supply, Demand, and Life Cycle Implications",
+    "authors": [
+      "Taha Choukhmane",
+      "Tim de Silva",
+      "Weidong Lin",
+      "Matthew Akuzawa"
+    ],
+    "abstract": "We ask a representative sample to write prompts seeking spending and investing advice from LLMs, then simulate the lifetime effects of following the advice under realistic asset and labor market conditions. Applying this method to GPT-5.2, we find following the advice would move respondents toward life cycle theory: broader participation in diversified equity funds, age-declining equity shares, and larger savings buffers. Recommendations vary systematically by gender, prior AI experience, and financial literacy. For gender, two-thirds of recommended equity-share differences arise from men and women writing different prompts (demand), while one-third arise from gender labels attached to otherwise identical prompts (supply).",
+    "url": "https://www.nber.org/papers/w35574",
+    "published_date": "2026-08-10",
+    "source": "NBER",
+    "first_seen": "2026-08-11",
+    "abstract_missing": false,
+    "summary": "本研究让代表性样本撰写提示词，向大语言模型（LLMs）寻求支出和投资建议，然后在现实的资产和劳动力市场条件下模拟遵循这些建议后的终身影响。将该方法应用于GPT-5.2，作者发现遵循其建议会使受访者更接近生命周期理论：更广泛地参与多元化股票基金、股票份额随年龄递减、以及更大的储蓄缓冲。建议因性别、先前的AI经验和金融素养而系统性地不同。在性别方面，推荐股票份额差异的三分之二源于男性和女性撰写不同的提示词（需求端），三分之一源于性别标签附加到原本相同的提示词上（供给端）。",
+    "keywords": [
+      "AI金融建议",
+      "大语言模型",
+      "生命周期理论",
+      "股票配置",
+      "性别差异"
+    ],
+    "ai_comment": "该研究通过区分需求端（提示词差异）和供给端（性别标签影响）来剖析AI建议中的性别差异，为理解算法偏见提供了新视角。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "w35572",
+    "title": "A Currency Premium Puzzle",
+    "authors": [
+      "Tarek Alexander Hassan",
+      "Thomas Mertens",
+      "Jingye Wang"
+    ],
+    "abstract": "We show that quantitative asset pricing models, built to address the equity premium and risk-free rate puzzles, systematically fail when applied to open economies: they cannot generate the large and persistent interest rate differentials we observe between risky and safe currencies. This failure stems from the key mechanism that produces their success in matching both closed-economy puzzles: In these models, the mean of the stochastic discount factor offsets its variance nearly one-for-one, which immobilizes interest rates --- so that differences in expected currency returns across countries must arise almost exclusively from predictable changes in exchange rates, at odds with the data. We prove this result in a broad class of models that allows for market incompleteness and exchange rate disconnect, requiring only that each country's risk-free asset is priced by investors who demand compensation for risk in line with observed risk premia. We argue this tension between canonical asset pricing and international macroeconomic models is a key reason researchers have struggled to reconcile the observed behavior of exchange rates, interest rates, and capital flows across countries.",
+    "url": "https://www.nber.org/papers/w35572",
+    "published_date": "2026-08-10",
+    "source": "NBER",
+    "first_seen": "2026-08-11",
+    "abstract_missing": false,
+    "summary": "本文揭示了一个新的“货币溢价之谜”：旨在解决股票溢价和无风险利率之谜的定量资产定价模型，在应用于开放经济时系统性地失效——它们无法产生观察到的风险货币与安全货币之间大且持久的利率差异。作者将这一失败归因于这些模型在封闭经济中取得成功的关键机制：在这些模型中，随机贴现因子的均值几乎一对一地抵消其方差，从而使利率趋于固定，导致不同国家之间预期货币收益的差异几乎只能来自可预测的汇率变动，这与数据不符。作者在一个广泛的模型类别中证明了这一结果，该类别允许市场不完全和汇率脱钩，仅要求每个国家的无风险资产由要求与观测风险溢价一致的风险补偿的投资者定价。论文认为，经典资产定价与国际宏观经济模型之间的这种张力，是研究者难以调和各国汇率、利率和资本流动行为的关键原因。",
+    "keywords": [
+      "货币溢价",
+      "资产定价",
+      "利率差异",
+      "随机贴现因子",
+      "汇率"
+    ],
+    "ai_comment": "该论文提出了一个具有理论深度的新谜题，揭示了资产定价模型在开放经济中的内在矛盾，为国际金融研究提供了重要视角。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "w35571",
+    "title": "Winning is Contagious: Social Learning and the Dynamics of Union Support",
+    "authors": [
+      "Ellora Derenoncourt",
+      "Arindrajit Dube",
+      "Suresh Naidu",
+      "Heather Sarsons",
+      "Niharika Singh"
+    ],
+    "abstract": "Union growth has historically happened in spurts. We combine union election data from 1961–2025 with a large-scale information experiment involving 9,000 low-wage workers to study the role of social learning in union growth. Observationally, close election wins cause future wins within state-industries. Experimentally, information about recent union wins increases union support and beliefs about co-worker support, with effects concentrated among workers with weak information environments and low baseline coworker support. In contrast, information about labor market tightness has little effect. Our results highlight social learning as a mechanism for union growth.",
+    "url": "https://www.nber.org/papers/w35571",
+    "published_date": "2026-08-10",
+    "source": "NBER",
+    "first_seen": "2026-08-11",
+    "abstract_missing": false,
+    "summary": "本研究旨在探讨社会学习在工会增长中的作用。作者结合1961年至2025年的工会选举数据以及一项涉及9,000名低薪工人的大规模信息实验，从观察和实验两个层面进行分析。观察性证据表明，接近的选举胜利会促使同一州行业内未来的选举胜利。实验性证据显示，向工人提供关于近期工会胜利的信息，会提高他们对工会的支持程度以及对同事支持的信念，且这种效应在信息环境薄弱、基线同事支持度较低的工人中尤为显著。相比之下，提供关于劳动力市场紧张程度的信息几乎不产生效果。研究结果强调，社会学习是推动工会增长的重要机制。",
+    "keywords": [
+      "工会选举",
+      "社会学习",
+      "信息实验",
+      "工会支持",
+      "低薪工人"
+    ],
+    "ai_comment": "该研究将长期宏观数据与随机实验相结合，为识别社会学习对集体行动的影响提供了因果证据，并揭示了信息环境的调节作用。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1287/mnsc.2024.06339",
+    "title": "When Consumer Financial Protection Spills Over: Student Loan Borrowing Under the CARD Act",
+    "authors": [
+      "Alexander L. Brown",
+      "Daniel Grodzicki",
+      "Paolina C. Medina"
+    ],
+    "abstract": "Credit card use among college students declined sharply following the enactment of the Credit Card Accountability, Responsibility, and Disclosure Act of 2009. Title 3, Section 304 of the Act specifically restricted the marketing and sale of credit cards on college campuses. Using a difference-in-differences approach that treats incoming freshmen who would have been unaffected by this marketing as the control group, we document an apparent spillover that increased student loan borrowing by 8.4%, and by 14% for less affluent students. A survey of students matched to their administrative records finds evidence of this substitutability between credit cards and student loans; further, it reveals that a lack of financial literacy and knowledge of financial history are correlated with the misallocation of debt between them. Using these combined empirical findings, we develop and calibrate a model of optimal student borrowing to assess the benefits of the spillovers and find the policy increased welfare. A complementary analysis indicates improvements in grade point averages and on-time graduation rates subsequent to the Act. This paper was accepted by John Beshears, behavioral economics and decision analysis. Supplemental Material: The online appendices and data files are available at https://doi.org/10.1287/mnsc.2024.06339 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.06339",
+    "published_date": "2026-08-10",
+    "source": "MS",
+    "first_seen": "2026-08-11",
+    "abstract_missing": false,
+    "summary": "本文研究2009年《信用卡问责、责任和披露法案》（CARD Act）对大学生信用卡使用和学生贷款行为的影响。该法案第3条第304款专门限制了信用卡在校园内的营销和销售。利用双重差分法，将不受校园营销影响的新生作为控制组，发现信用卡使用大幅下降的同时，学生贷款借款增加了8.4%，其中经济条件较差的学生增幅达14%。通过将学生调查与其行政记录匹配，证据表明信用卡和学生贷款之间存在替代关系，且金融素养不足和缺乏财务历史知识与两类债务之间的错误配置相关。基于这些实证发现，作者构建并校准了一个最优学生借款模型，评估该溢出效应的福利后果，发现政策整体提升了福利。补充分析还表明，该法案实施后学生的平均绩点和按时毕业率有所改善。",
+    "keywords": [
+      "消费者金融保护",
+      "信用卡",
+      "学生贷款",
+      "双重差分法",
+      "福利分析"
+    ],
+    "ai_comment": "论文综合运用准实验设计、调查数据和结构模型，揭示了信用卡监管对学生借款行为的积极溢出效应，并强调了金融素养在债务配置中的关键作用。",
+    "topic": "家庭金融"
+  },
+  {
     "id": "10.1111/jofi.70064",
     "title": "Personal Costs of Executive Turnovers",
     "authors": [
