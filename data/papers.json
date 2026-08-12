@@ -1,5 +1,55 @@
 [
   {
+    "id": "10.1287/mnsc.2023.02505",
+    "title": "Realized Illiquidity",
+    "authors": [
+      "Demetrio Lacava",
+      "Angelo Ranaldo",
+      "Paolo Santucci de Magistris"
+    ],
+    "abstract": "We develop a simple theory of realized illiquidity, defined as the ratio of realized volatility to trading volume. Building on the widely used price impact measure of Amihud (2002), we introduce the realized Amihud, which significantly improves measurement accuracy. Our theoretical and numerical results show that it robustly captures cumulative intraday price sensitivity to trading, accounting for stochastic volatility, microstructure noise, and information jumps. Empirically, we uncover distinct time-series patterns in realized stock illiquidity—heterogeneous clustering, leverage effects—and show that it predicts short-term returns. This paper was accepted by Agostino Capponi, finance. Funding: A. Ranaldo acknowledges financial support from the Swiss National Science Foundation [SNSF Grant 182303]. P. Santucci de Magistris also acknowledges the research support of the Project 2 Grant of the Danish Council for Independent Research (IRFD), Social Sciences, No. 8019-00015A, and of the European Union’s - Next Generation EU program through the Italian PRIN 2022 -M4C2, Investment 1.1 - “Monitoring Risks in Financial Markets” – Codice Cineca: 2022NEL482 - CUP: I53D23003410008. D. Lacava acknowledges that part of this research was carried out while he was affiliated with Luiss University, within the project “Financial Modeling under Non-Gaussian Distributions”. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2023.02505 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.02505",
+    "published_date": "2026-08-11",
+    "source": "MS",
+    "first_seen": "2026-08-12",
+    "abstract_missing": false,
+    "summary": "本文提出了一个关于已实现非流动性（realized illiquidity）的简洁理论，将其定义为已实现波动率与交易量的比率。在此基础上，作者基于 Amihud (2002) 广泛使用的价格冲击指标，引入了已实现Amihud（realized Amihud）度量，显著提高了测量精度。理论和数值结果表明，该指标能够稳健地捕捉日内价格对交易的累积敏感性，并考虑了随机波动率、微观结构噪声和信息跳跃的影响。实证分析揭示了股票已实现非流动性的独特时间序列模式，包括异质性聚类和杠杆效应，并证明该指标能够预测短期收益。",
+    "keywords": [
+      "已实现非流动性",
+      "已实现Amihud",
+      "波动率",
+      "交易量",
+      "市场微观结构"
+    ],
+    "ai_comment": "该文在经典Amihud指标基础上提出高频版已实现非流动性度量，兼具理论严谨性与实证价值，为流动性风险测度提供了新工具。",
+    "topic": "市场微观结构"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104347",
+    "title": "Convenience lost",
+    "authors": [
+      "Zhengyang Jiang",
+      "Robert J. Richmond",
+      "Tony Zhang"
+    ],
+    "abstract": "Using an instrument for U.S. Treasury supply, we show that convenience yields on medium- and long-term Treasurys are much more sensitive to supply than those on short-term Treasurys, which respond little. Over the past two decades, fiscal expansion has substantially reduced medium- and long-term convenience yields, at times pushing them below zero, while short-term convenience yields have declined toward zero. Quantitatively, we estimate that increased Treasury supply explains a large share of the secular decline in medium- and long-term convenience yields, lowering the total seigniorage revenue from Treasury issuance by about one-third.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104347",
+    "published_date": "2026-08-11",
+    "source": "JFE",
+    "first_seen": "2026-08-12",
+    "abstract_missing": false,
+    "summary": "本文利用美国国债供给的工具变量，实证检验了国债供给对不同期限便利收益率的影响。研究发现，中长期美国国债的便利收益率对供给变动的敏感度远高于短期国债，而短期便利收益率的响应很小。过去二十年中，财政扩张显著降低了中长期便利收益率，有时甚至使其降至负值，同时短期便利收益率也趋于零。定量估计显示，美国国债供给的增加解释了中长期便利收益率长期下降的很大一部分，并使国债发行带来的总铸币税收入降低了约三分之一。",
+    "keywords": [
+      "便利收益率",
+      "美国国债供给",
+      "财政扩张",
+      "铸币税",
+      "工具变量"
+    ],
+    "ai_comment": "本文通过工具变量识别国债供给的因果效应，揭示了中长期国债便利收益率对供给的强敏感性，并量化了财政政策对国债稀缺价值的侵蚀，对资产定价和宏观金融研究均有重要贡献。",
+    "topic": "宏观金融"
+  },
+  {
     "id": "w35590",
     "title": "The Perils of Bilateral Sovereign Debt",
     "authors": [
@@ -82829,6 +82879,25 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Financial Innovation and Financial Fragility",
+    "authors": [
+      "Nicola Gennaioli",
+      "Andrei Shleifer",
+      "Robert W. Vishny"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.1688940",
+    "published_date": "2010-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.1688940",
+    "first_seen": "2026-08-12",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
