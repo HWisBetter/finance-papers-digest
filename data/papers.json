@@ -1,5 +1,80 @@
 [
   {
+    "id": "10.1287/mnsc.2025.00761",
+    "title": "Consumer Inferences from Product Rankings: The Role of Beliefs in Search Behavior",
+    "authors": [
+      "Jessica Fong",
+      "Olivia R. Natan",
+      "Ranmit Pantle"
+    ],
+    "abstract": "In online markets, consumers tend to search and purchase prominently positioned products. We develop an experimental paradigm to distinguish between two mechanisms driving this behavior: position-specific search costs and beliefs about expected returns to search. Using incentivized experiments, we find that both mechanisms exist, and short-term randomization of rankings alone does not separate the two mechanisms. Failing to account for beliefs leads to biased estimates of search costs and incorrect consumer welfare predictions under alternative recommendation systems, such as platform self-preferencing. We discuss solutions for estimating unbiased search costs in real-world search settings. This paper was accepted by Raphael Thomadsen, marketing. Funding: This work was supported by the UC Berkeley Fisher Center for Business Analytics. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.00761 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.00761",
+    "published_date": "2026-08-12",
+    "source": "MS",
+    "first_seen": "2026-08-13",
+    "abstract_missing": false,
+    "summary": "本文研究在线市场中消费者倾向于搜索和购买排名靠前产品的行为，并开发了一个实验范式来区分两种驱动机制：位置特定的搜索成本（position-specific search costs）与消费者对搜索预期回报的信念（beliefs about expected returns to search）。通过激励实验，作者发现两种机制同时存在，但仅对排名进行短期随机化无法将二者分离。若忽视信念因素，会导致搜索成本的估计有偏，并在替代性推荐系统（如平台自我偏好）下产生错误的消费者福利预测。论文进一步讨论了在真实搜索场景中估计无偏搜索成本的解决方案。",
+    "keywords": [
+      "产品排名",
+      "搜索行为",
+      "消费者信念",
+      "搜索成本",
+      "在线市场"
+    ],
+    "ai_comment": "该文通过精巧的实验设计区分了搜索成本与信念对排名点击行为的贡献，并指出了忽视信念的估计偏误，为平台推荐系统的福利评估提供了方法论启示。",
+    "topic": "市场微观结构"
+  },
+  {
+    "id": "10.1093/rfs/hhag076",
+    "title": "Personal Bankruptcy Protection and Household Debt",
+    "authors": [
+      "Felipe Severino",
+      "Meta Brown",
+      "Rajashri Chakrabarti"
+    ],
+    "abstract": "Increasing personal bankruptcy protection raises consumers’ desire to borrow and lenders’ cost of extending credit; the impact on equilibrium borrowing is ambiguous. Using bankruptcy protection changes between 1999 and 2005 across U.S. states, we find that borrowers respond to greater protection by increasing their unsecured debt. Border county estimates suggest that local economic conditions do not drive these results. Borrowers pay more for protection through higher interest rates, yet delinquency is unaffected. Our results indicate that rising borrower demand outstripped decreasing supply. Increased protections did not reduce the aggregate level of household debt but affected the composition of borrowing. (JEL G00, G33, G51, D14, D18, K35, R2)",
+    "url": "https://doi.org/10.1093/rfs/hhag076",
+    "published_date": "2026-08-12",
+    "source": "RFS",
+    "first_seen": "2026-08-13",
+    "abstract_missing": false,
+    "summary": "本文研究个人破产保护力度增强对家庭债务的影响。理论上，更强的破产保护会提高消费者借款意愿，同时增加贷款机构的信贷供给成本，因此对均衡借贷规模的影响在方向上并不明确。作者利用1999年至2005年间美国各州破产保护制度的变化，发现当破产保护增强时，借款人会相应增加其无担保债务。基于边界县的估计结果表明，当地经济状况并非驱动这些结果的原因。借款人通过支付更高的利率来为更强的保护买单，但贷款拖欠率并未受到影响。综合来看，借款人需求的上升超过了贷款供给的下降，因此更强的破产保护并未降低家庭债务的总体水平，而是改变了借贷的构成结构。",
+    "keywords": [
+      "个人破产保护",
+      "家庭债务",
+      "无担保债务",
+      "利率",
+      "美国各州"
+    ],
+    "ai_comment": "利用美国各州破产保护改革的自然实验识别因果效应，并区分供需两侧影响，揭示了借款人需求主导的机制，对理解破产法与家庭信贷市场具有重要启示。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104348",
+    "title": "Segmented Dollar Funding",
+    "authors": [
+      "Pēteris Kloks",
+      "Edouard Mattille",
+      "Angelo Ranaldo"
+    ],
+    "abstract": "Deviations from covered interest rate parity (CIP) are often linked to limits to arbitrage, yet trading volumes surge during periods of apparent no-arbitrage violations. We show that these distortions stem from constraints on non-U.S. agents’ access to wholesale U.S. dollar markets and reflect a premium for unencumbered synthetic dollar funding: non-U.S. banks substitute secured USD borrowing with FX swaps to meet regulatory requirements. A shadow cost-augmented CIP condition holds, implying no riskless arbitrage. U.S. dealers extract rents on dollar provision while non-U.S. customers bear $10.4 billion in additional annual hedging costs. Our results illustrate how intermediary constraints segment global dollar funding.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104348",
+    "published_date": "2026-08-12",
+    "source": "JFE",
+    "first_seen": "2026-08-13",
+    "abstract_missing": false,
+    "summary": "本文研究覆盖利率平价（CIP）偏离的现象，发现其并非单纯由套利限制导致，而是源于非美国主体进入美元批发市场的渠道受限。作者提出，这些偏离反映了对无负担合成美元融资的溢价：非美国银行在监管要求下，用外汇互换替代有担保的美元借款。文章构建了一个包含影子成本的扩展CIP条件，表明在该条件下不存在无风险套利机会。实证结果显示，美国交易商从美元供给中获取租金，而非美国客户每年承担约104亿美元的额外对冲成本。研究结论表明，金融中介的约束导致了全球美元融资市场的分割。",
+    "keywords": [
+      "CIP偏离",
+      "美元融资",
+      "外汇互换",
+      "金融中介约束",
+      "市场分割"
+    ],
+    "ai_comment": "本文通过将监管约束纳入CIP分析，解释了无套利条件下交易量激增的悖论，并量化了美元融资溢价的分配效应，对理解全球美元流动性传导具有重要意义。",
+    "topic": "国际金融"
+  },
+  {
     "id": "10.1287/mnsc.2023.02505",
     "title": "Realized Illiquidity",
     "authors": [
@@ -83098,6 +83173,24 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Style Investing",
+    "authors": [
+      "Nicholas Barberis",
+      "Andrei Shleifer"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.255557",
+    "published_date": "2001-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.255557",
+    "first_seen": "2026-08-13",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
