@@ -50,6 +50,33 @@
     "topic": "家庭金融"
   },
   {
+    "id": "10.1093/rfs/hhag074",
+    "title": "What Do Impact Investors Do Differently?*",
+    "authors": [
+      "Shawn Cole",
+      "Leslie Jeng",
+      "Josh Lerner",
+      "Natalia Rigol",
+      "Benjamin N Roth"
+    ],
+    "abstract": "Do impact investors seek impact, or merely “impact wash”? We provide systematic evidence on the nonfinancial determinants of impact investing. Impact investors focus on firms aligned with the priorities of the federal government and disproportionately invest in economically disadvantaged regions. While we find high levels of coinvestment between impact and traditional investors, we also show that impact investors influence the strategies of their traditional coinvestors, are more likely to fund firms in nascent industries, and invest countercyclically. Finally, we characterize investment heterogeneity based on a novel classification of impact investment theses, with a focus on climate, environment, and jobs and equity.",
+    "url": "https://doi.org/10.1093/rfs/hhag074",
+    "published_date": "2026-08-12",
+    "source": "RFS",
+    "first_seen": "2026-08-14",
+    "abstract_missing": false,
+    "summary": "本文系统考察了影响投资者（impact investors）是否真正追求社会影响，抑或仅仅是在“洗影响”（impact wash）。基于非财务因素，研究发现影响投资者倾向于投资与联邦政府优先事项一致的企业，并过度投资于经济弱势地区。尽管影响投资者与传统投资者之间存在高水平的共同投资，但影响投资者能够影响其传统共同投资者的策略，更可能资助新兴产业中的企业，并表现出逆周期投资的特征。此外，文章提出了一种新的影响投资主题分类，重点关注气候、环境以及就业与公平，并据此刻画了影响投资者内部的异质性。",
+    "keywords": [
+      "影响投资",
+      "非财务决定因素",
+      "共同投资",
+      "逆周期投资",
+      "投资主题分类"
+    ],
+    "ai_comment": "该文通过系统性证据区分了真正的影响寻求与“洗影响”行为，并揭示了影响投资者对传统投资者的策略溢出效应，为理解影响投资的实际效应提供了新视角。",
+    "topic": "行为金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104348",
     "title": "Segmented Dollar Funding",
     "authors": [
@@ -82935,6 +82962,27 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Using Neural Data to Test A Theory of Investor Behavior: An Application to Realization Utility",
+    "authors": [
+      "Cary Frydman",
+      "Nicholas Barberis",
+      "Colin F. Camerer",
+      "Peter Bossaerts",
+      "Antonio Rangel"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.1892338",
+    "published_date": "2011-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.1892338",
+    "first_seen": "2026-08-14",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
