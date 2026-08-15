@@ -1,5 +1,55 @@
 [
   {
+    "id": "10.1093/rfs/hhag073",
+    "title": "The Real Effects of Environmental Activist Investing",
+    "authors": [
+      "S Lakshmi Naaraayanan",
+      "Kunal Sachdeva",
+      "Varun Sharma"
+    ],
+    "abstract": "We study the real effects of environmental activist investing. Using plant-chemical-level data, we find that targeted firms reduce their production-related emissions. Air quality improvements in the vicinity of targeted plants suggest potentially significant externalities for local economies. Reductions come from increased abatement expenditures and on-site source reduction initiatives, which negatively affect the financial performance of targeted firms. We rule out alternative explanations, including declines in production and plant closures, and provide evidence that firms respond to the specific demands of activists. Our findings suggest that environmental activism is an effective tool for long-term shareholders to address climate change risks. (JEL G23, G34, M14, Q50)",
+    "url": "https://doi.org/10.1093/rfs/hhag073",
+    "published_date": "2026-08-14",
+    "source": "RFS",
+    "first_seen": "2026-08-15",
+    "abstract_missing": false,
+    "summary": "本文研究环境激进主义投资（environmental activist investing）对目标企业的真实影响。利用工厂-化学物质级别的数据，作者发现被激进投资者瞄准的企业会显著减少其生产相关的排放，且目标工厂周边的空气质量改善，表明这可能为当地经济带来显著的外部性。减排主要源于企业增加污染治理支出和推行源头削减措施，但这些措施对目标企业的财务绩效产生了负面影响。研究排除了产量下降和工厂关闭等替代解释，并提供证据表明企业是针对激进主义者的具体诉求做出回应。总体而言，环境激进主义是长期股东应对气候变化风险的有效工具。",
+    "keywords": [
+      "环境激进主义",
+      "股东激进主义",
+      "排放",
+      "ESG",
+      "公司治理"
+    ],
+    "ai_comment": "该研究利用工厂-化学物质级别的精细数据，为环境激进投资的真实效应提供了微观证据，并深入剖析了减排机制及其财务代价，对理解股东参与气候治理具有重要价值。",
+    "topic": "公司治理"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104351",
+    "title": "A New Keynesian model of the term structures of equity and bond returns",
+    "authors": [
+      "Pierlauro Lopez",
+      "Francisco Vazquez-Grande",
+      "David Lopez-Salido"
+    ],
+    "abstract": "A simple production economy with nominal price rigidities explains several key asset pricing facts, including the average slopes and cyclicality of equity and interest rate term structures. Nominal rigidities amplify the procyclicality of dividends after negative productivity shocks and generate countercyclical inflation, as sluggish price adjustment leads to a gradual dividend recovery. Consequently, short-duration equities (bonds) have more (less) procyclical payoffs than their long-duration counterparts. Slow-moving consumption habits produce large, countercyclical risk prices, yielding realistic asset valuations. Extending Campbell–Cochrane preferences with both market- and home-consumption habits allows them to operate in production economies while preserving realistic macroeconomic dynamics.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104351",
+    "published_date": "2026-08-14",
+    "source": "JFE",
+    "first_seen": "2026-08-15",
+    "abstract_missing": false,
+    "summary": "本文构建了一个包含名义价格刚性的简单生产经济模型，用以解释若干关键资产定价事实，包括股票和利率期限结构的平均斜率与周期性。名义刚性放大了负向生产率冲击后股息的正周期性，并产生反周期的通货膨胀，因为缓慢的价格调整导致股息逐渐恢复。因此，短久期股票（债券）的支付比长久期股票（债券）具有更强（更弱）的正周期性。缓慢变动的消费习惯产生大而反周期的风险价格，从而得到现实可行的资产估值。将Campbell–Cochrane偏好扩展为同时包含市场消费习惯和家庭消费习惯，使得该偏好能够应用于生产经济中，同时保持现实的宏观经济动态。",
+    "keywords": [
+      "新凯恩斯模型",
+      "期限结构",
+      "名义刚性",
+      "消费习惯",
+      "资产定价"
+    ],
+    "ai_comment": "该文将名义刚性与习惯形成纳入统一框架，同时解释股票和债券期限结构，是宏观金融交叉领域的重要理论贡献。",
+    "topic": "宏观金融"
+  },
+  {
     "id": "10.1287/mnsc.2025.00761",
     "title": "Consumer Inferences from Product Rankings: The Role of Beliefs in Search Behavior",
     "authors": [
@@ -82349,6 +82399,42 @@
     "topic": "其他"
   },
   {
+    "title": "(Re-)Imag(in)ing Price Trends",
+    "authors": [
+      "Jingwen Jiang",
+      "Bryan T. Kelly",
+      "Dacheng Xiu"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3756587",
+    "published_date": "2021-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3756587",
+    "first_seen": "2026-08-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Diversity Through Turnover: How to Overcome the Glacial Pace Toward Board Diversity?",
+    "authors": [
+      "Wei Jiang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3793034",
+    "published_date": "2021-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3793034",
+    "first_seen": "2026-08-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "Internet Appendix for Forest through the Trees: Building Cross-Sections of Stock Returns",
     "authors": [
       "Svetlana Bryzgalova",
@@ -82544,6 +82630,26 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Belief Overreaction and Stock Market Puzzles",
+    "authors": [
+      "Pedro Bordalo",
+      "Nicola Gennaioli",
+      "Rafael La Porta",
+      "Andrei Shleifer"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3615480",
+    "published_date": "2020-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3615480",
+    "first_seen": "2026-08-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
