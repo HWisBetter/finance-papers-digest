@@ -1,5 +1,54 @@
 [
   {
+    "id": "10.1287/mnsc.2024.07450",
+    "title": "Beyond the Black Box: Unraveling the Role of Explainability in Human-Artificial Intelligence Collaboration",
+    "authors": [
+      "Tamer Boyacı",
+      "Caner Canyakmaz",
+      "Francis de Véricourt"
+    ],
+    "abstract": "Explainable artificial intelligence (AI) models have been proposed to mitigate overreliance and underreliance on AI, which reduce the effectiveness of human-AI collaborative tools. Yet, empirical evidence is mixed, and the impact of explainable AI on the cognitive effort and fatigue of a decision maker (DM) is often overlooked. This paper offers a theoretical perspective on these issues. We develop an analytical model that incorporates the defining features of human and machine intelligence, capturing the limited but flexible nature of human cognition with imperfect machine recommendations. Crucially, we represent how AI-based explanations influence the DM’s belief in the algorithm’s predictive quality. Our results indicate that explainable AI has varying effects depending on the level of explainability provided. Although low explainability levels have no impact on decision accuracy and reliance behavior, they lessen the cognitive burden on the DM. In contrast, higher explainability levels enhance accuracy by improving overreliance but at the expense of increased underreliance. Further, the relative impact of explainability is higher when the DM is more cognitively constrained, when the decision task is sufficiently complex, or when the stakes are lower. Importantly, higher explainability levels can escalate the DM’s cognitive burden (and hence, overall processing time and fatigue) precisely when explanations are most needed (i.e., when the DM is pressed for time to complete a complex task and doubts the machine’s quality). Our study clarifies how explainability affects decision outcomes and cognitive effort, informing the design of effective human-AI systems across decision environments. This paper was accepted by Jeannette Song, operations management. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07450 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07450",
+    "published_date": "2026-08-19",
+    "source": "MS",
+    "first_seen": "2026-08-20",
+    "abstract_missing": false,
+    "summary": "本文针对可解释人工智能（AI）在人类与AI协作中的作用提出理论视角。作者构建了一个分析模型，融合人类认知的有限但灵活特性与不完美的机器建议，并刻画AI提供的解释如何影响决策者（DM）对算法预测质量的信念。研究发现，可解释性的效果因水平而异：低解释水平不改变决策准确性和依赖行为，但能减轻决策者的认知负担；较高解释水平则通过缓解过度依赖提高准确性，但同时会增加依赖不足。进一步地，当决策者认知约束更强、任务复杂度更高或决策风险较低时，可解释性的相对影响更大。重要的是，在决策者时间紧迫、任务复杂且怀疑机器质量等最需要解释的情况下，较高的解释水平反而可能加剧认知负担，进而增加总处理时间和疲劳。该研究厘清了可解释性对决策结果和认知努力的影响，为不同决策环境下有效人机系统的设计提供启示。",
+    "keywords": [
+      "可解释人工智能",
+      "人机协作",
+      "认知负担",
+      "决策准确性"
+    ],
+    "ai_comment": "本文通过理论模型揭示了可解释性的非线性影响，特别是高解释性在关键时刻可能增加认知成本的悖论，为设计人机协作系统提供了重要理论指引。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1111/jofi.70074",
+    "title": "Marginal Q",
+    "authors": [
+      "Vito D. Gala",
+      "Joao F. Gomes",
+      "Tong Liu"
+    ],
+    "abstract": "We propose a new method to estimate the marginal value of capital under minimal assumptions. By combining asset prices with fundamentals, our method provides a quasi‐model‐free marginal q together with a simple correction for measurement error in (average) Tobin's Q using linear regressions. Marginal q yields plausible and robust estimates of adjustment costs and investment sensitivities to fundamentals. The widening gap between marginal q and Tobin's Q is driven primarily by market power and intangible capital. Our novel findings strongly support the neoclassical theory of investment and challenge the widespread use of Tobin's Q as proxy for investment opportunities.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70074",
+    "published_date": "2026-08-19",
+    "source": "JF",
+    "first_seen": "2026-08-20",
+    "abstract_missing": false,
+    "summary": "本文提出一种在极弱假设下估计资本边际价值的新方法。该方法将资产价格与基本面信息相结合，构造出一个准模型自由的边际q，并通过线性回归对平均Tobin's Q的测量误差进行简单修正。利用该方法，作者得到了合理且稳健的调整成本估计以及投资对基本面的敏感性。研究发现，边际q与Tobin's Q之间的差距不断扩大，其主要驱动因素是市场势力和无形资本。这一结果有力地支持了新古典投资理论，并对广泛使用Tobin's Q作为投资机会代理变量的做法提出了质疑。",
+    "keywords": [
+      "边际Q",
+      "Tobin's Q",
+      "投资理论",
+      "市场势力",
+      "无形资本"
+    ],
+    "ai_comment": "该文提供了一种新的准模型自由的边际q估计方法，有效修正了传统Tobin's Q的测量误差，并揭示了市场势力与无形资本在解释边际q与Tobin's Q差距中的关键作用，具有重要的理论贡献。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1287/mnsc.2024.08526",
     "title": "How Important Is Internal Information Asymmetry for Firm-Level Productivity?",
     "authors": [
@@ -50,6 +99,30 @@
     ],
     "ai_comment": "该文将重复客户互动引入经典的MNL模型，给出了精简的结构性结果和固定集合的近似保证，兼具理论深度与实践启示。",
     "topic": "其他"
+  },
+  {
+    "id": "10.1093/rfs/hhag077",
+    "title": "Underrepresentation of Women CEOs",
+    "authors": [
+      "Li He",
+      "Toni M Whited"
+    ],
+    "abstract": "Why do so few women become CEOs? To understand this glass ceiling, we estimate a dynamic model of the CEO gender decision, which contains perceived gender productivity differences, search costs reflecting limited female labor supply, and employer disutility from discrimination. The key factor is the shortage of suitable female candidates, as boards prefer hiring women, and productivity differences between genders are minimal. We find no evidence of a glass cliff in which women become CEOs just as firms are failing. While better governance is associated with women becoming CEOs, the importance of limited female labor supply is unrelated to governance.",
+    "url": "https://doi.org/10.1093/rfs/hhag077",
+    "published_date": "2026-08-18",
+    "source": "RFS",
+    "first_seen": "2026-08-20",
+    "abstract_missing": false,
+    "summary": "本文研究为何女性CEO如此稀少这一“玻璃天花板”现象。作者估计了一个CEO性别选择的动态模型，模型中包含感知的性别生产率差异、反映女性劳动力供给有限的搜索成本以及雇主的歧视性厌恶。关键发现是：董事会实际上更倾向于雇佣女性，且性别间的生产率差异极小，因此制约女性成为CEO的核心因素是合适的女性候选人短缺。研究未发现“玻璃悬崖”证据，即女性并非在公司濒临失败时才被任命为CEO。此外，更好的公司治理与女性出任CEO正相关，但女性劳动力供给有限的重要性与治理水平无关。",
+    "keywords": [
+      "女性CEO",
+      "玻璃天花板",
+      "动态模型",
+      "女性劳动力供给",
+      "公司治理"
+    ],
+    "ai_comment": "该研究通过结构模型识别了女性CEO稀缺的根本原因，推翻了常见的歧视或玻璃悬崖假说，强调候选人供给瓶颈，为理解职场性别不平等提供了新视角。",
+    "topic": "公司治理"
   },
   {
     "id": "w35632",
@@ -20223,6 +20296,25 @@
     "topic": "其他"
   },
   {
+    "title": "Hedge Fund Activism: Influence, Control, and Corporate Governance",
+    "authors": [
+      "Alon Brav",
+      "Wei Jiang",
+      "Minghao Wu"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7295378",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7295378",
+    "first_seen": "2026-08-20",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "id": "10.1093/rfs/hhaf114",
     "title": "When Two Become One: Foreign Capital and Household Credit Expansion",
     "authors": [
@@ -31742,16 +31834,22 @@
       "Marco Sammon",
       "Luis Viceira"
     ],
-    "abstract": "",
+    "abstract": "Summer Institute, Georgetown Fintech Seminar Series, the Boulder Summer Conference on Consumer Decision Making, the CEPR WE_ARE Seminar Series, and the Booth Behavioral Financial Decision-Making Conference for helpful comments and suggestions",
     "url": "https://www.nber.org/papers/w34086",
     "published_date": "2025-08-01",
     "source": "NBER",
     "first_seen": "2025-08-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本文标题表明其研究主题为散户投资者在新闻事件前后的逆向交易行为、注意力与动量效应之间的关系。然而，所提供的摘要部分仅包含学术会议的致谢，未提供具体的研究问题、方法、数据或结论。因此，无法从摘要中获取实质性的研究细节。",
+    "keywords": [
+      "散户投资者",
+      "逆向交易",
+      "新闻",
+      "注意力",
+      "动量效应"
+    ],
+    "ai_comment": "标题聚焦散户投资者行为与注意力在动量效应中的作用，研究视角具有新意，但摘要未提供实质内容，难以评估具体贡献。",
+    "topic": "行为金融",
     "kw_norm": true,
     "cited_by_count": 1
   },
@@ -33174,16 +33272,22 @@
       "Itay Goldstein",
       "Yan Ji"
     ],
-    "abstract": "",
+    "abstract": "The integration of algorithmic trading with reinforcement learning, termed AI-powered trading, is transforming financial markets.Alongside the benefits, it raises concerns for collusion.This study first develops a model to explore the possibility of collusion among informed speculators in a theoretical environment.We then conduct simulation experiments, replacing the speculators in the model with informed AI speculators who trade based on reinforcement-learning algorithms.We show that they autonomously sustain collusive supra-competitive profits without agreement, communication, or intent.Such collusion undermines competition and market efficiency.We demonstrate that two separate mechanisms are underlying this collusion and characterize when each one arises.",
     "url": "https://www.nber.org/papers/w34054",
     "published_date": "2025-07-01",
     "source": "NBER",
     "first_seen": "2025-07-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本文研究AI驱动的交易（即算法交易与强化学习的结合）对金融市场的影响，重点关注其可能引发的合谋问题。作者首先构建理论模型，探讨知情投机者之间合谋的可能性；随后进行模拟实验，将模型中的投机者替换为基于强化学习算法的AI投机者。结果表明，AI投机者能够在没有协议、沟通或意图的情况下，自主维持合谋性的超竞争利润，而这种合谋会损害市场竞争和价格效率。研究进一步揭示了支撑这种合谋的两个独立机制，并刻画了各自出现的条件。",
+    "keywords": [
+      "AI交易",
+      "算法合谋",
+      "强化学习",
+      "价格效率",
+      "知情投机者"
+    ],
+    "ai_comment": "该研究通过模拟实验首次展示AI交易者可在无显式沟通下自发形成合谋，为算法交易监管提供了新的理论依据与警示。",
+    "topic": "市场微观结构",
     "kw_norm": true,
     "cited_by_count": 16
   },
@@ -48754,16 +48858,22 @@
       "Yinan Su",
       "Chao Zhang"
     ],
-    "abstract": "",
+    "abstract": "Portfolio optimization focuses on risk and return prediction, yet implementation costs critically matter.Predicting trading costs is challenging because costs depend on trade size and trader identity, thus impeding a generic solution.We focus on a component of trading costs that applies universally -trading volume.Individual stock trading volume is highly predictable, especially with machine learning.We model the economic benefits of predicting volume through a portfolio framework that trades off tracking error versus net-of-cost performance -translating volume prediction into net-of-cost alpha.The economic benefits of predicting individual stock volume are as large as those from stock return predictability.",
     "url": "https://www.nber.org/papers/w33037",
     "published_date": "2024-10-01",
     "source": "NBER",
     "first_seen": "2024-10-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本文研究交易量预测在经济上的价值，并将其纳入投资组合优化框架。作者指出，组合优化通常关注风险和收益预测，但实施成本至关重要，而交易成本因交易规模和交易者身份而异，难以通用预测。文章聚焦于普遍适用的交易成本组成部分——交易量，发现个股交易量具有高度可预测性，尤其是利用机器学习方法。通过构建一个在跟踪误差与净成本绩效之间权衡的投资组合框架，作者将交易量预测转化为净成本alpha，并证明预测个股交易量的经济收益与预测股票收益的经济收益相当。",
+    "keywords": [
+      "交易量预测",
+      "机器学习",
+      "投资组合优化",
+      "净成本alpha",
+      "交易成本"
+    ],
+    "ai_comment": "本文新颖地将交易量预测直接映射为可量化的经济收益，强调了实施成本在组合优化中的核心地位，为交易成本研究提供了新视角。",
+    "topic": "金融计量/机器学习",
     "kw_norm": true,
     "cited_by_count": 1
   },
@@ -82138,16 +82248,22 @@
       "Ian Muir",
       "Gregory Sun"
     ],
-    "abstract": "",
+    "abstract": "This study investigates the optimal use of covariates in reducing variance when analyzing experimental data.We show that finding the variance-minimizing strategy for making use of pretreatment observables is equivalent to estimating the conditional expectation function of the outcome given all available pre-randomization observables.This is a pure prediction problem, which recent advances in machine learning (ML) are well-suited to tackling.Through a number of empirical examples, we show how ML-based regression adjustments can feasibly be implemented in practical settings.We compare our proposed estimator to other standard variance reduction techniques in the literature.Two important advantages of our ML-based regression adjustment estimator are that (i) they improve asymptotic efficiency relative to other alternatives, and (ii) they can be implemented automatically, with relatively little tuning from the researcher, which limits the scope for data-snooping.",
     "url": "https://www.nber.org/papers/w30756",
     "published_date": "2022-12-01",
     "source": "NBER",
     "first_seen": "2022-12-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本研究探讨在分析实验数据时，如何最优地利用协变量来降低估计方差。作者证明，寻找利用预处理观测变量的方差最小化策略，等价于估计在给定所有可获得的随机化前观测变量条件下结果变量的条件期望函数。这是一个纯粹的预测问题，适合用机器学习（ML）的最新进展来解决。通过若干实证例子，作者展示了基于ML的回归调整在实际场景中的可行实施方式，并将其提出的估计量与文献中其他标准方差减少技术进行比较。该基于ML的回归调整估计量有两个重要优势：一是相对于其他替代方法能提高渐近效率，二是可以自动实施，研究者只需相对较少的调参，从而限制了数据窥探的范围。",
+    "keywords": [
+      "机器学习",
+      "回归调整",
+      "实验设计",
+      "方差减少",
+      "协变量"
+    ],
+    "ai_comment": "本文的亮点在于将实验分析的方差最小化问题巧妙地转化为预测问题，并借助机器学习方法实现自动化和高效估计，减少了研究者主观干预带来的数据窥探风险。",
+    "topic": "金融计量/机器学习",
     "kw_norm": true,
     "cited_by_count": 8
   },
@@ -82186,16 +82302,22 @@
       "Anil Kashyap",
       "Jeremy Stein"
     ],
-    "abstract": "",
+    "abstract": "Recent research has found that monetary policy works in part by influencing the risk premiums on both traded financial-market securities and intermediated loans.Research has also shown that when risk premiums are compressed, there is an increased likelihood of a reversal that damages the credit-supply mechanism and the real economy.Together these effects create an intertemporal tradeoff for monetary policy, as stimulating the economy today can sow the seeds of a future downturn that might be difficult to offset.We introduce a simple model of this tradeoff and draw out its implications for the conduct of monetary policy.",
     "url": "https://www.nber.org/papers/w30751",
     "published_date": "2022-12-01",
     "source": "NBER",
     "first_seen": "2022-12-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "摘要指出，近期研究发现货币政策部分通过影响交易性金融证券和中介贷款的 risk premiums（风险溢价）发挥作用。研究还表明，当风险溢价被压缩时，发生逆转的可能性增加，这会损害信贷供给机制和实体经济。这些效应共同为货币政策制造了一个跨期权衡：今天刺激经济可能为未来的衰退埋下种子，而未来衰退可能难以对冲。作者引入了一个简单模型来刻画这一权衡，并推导了其对货币政策执行的启示。",
+    "keywords": [
+      "货币政策",
+      "风险溢价",
+      "金融情绪",
+      "跨期权衡",
+      "信贷供给"
+    ],
+    "ai_comment": "该文通过简洁模型将金融情绪与货币政策跨期成本联系起来，提醒政策制定者注意当前宽松可能积累系统性脆弱性，为央行权衡短期刺激与长期稳定提供了理论框架。",
+    "topic": "宏观金融",
     "kw_norm": true,
     "cited_by_count": 17
   },
