@@ -1,5 +1,53 @@
 [
   {
+    "id": "10.1287/mnsc.2024.05504",
+    "title": "Media Sentiment on Foreign Countries and International Asset Allocation",
+    "authors": [
+      "Baixiao Liu",
+      "Linlin Ma"
+    ],
+    "abstract": "We examine whether U.S. media sentiment on foreign countries influences domestic investors’ international asset allocation. Using flows to country-specific mutual funds as a proxy for investor demand, we find that negative media sentiment, measured by the interaction of negative tone and media attention given to foreign countries, is strongly associated with reduced investor flows into funds targeting those countries. This relationship is driven, at least in part, by media sentiment that is unrelated to the economic fundamentals of the targeted countries. We employ The Wall Street Journal’s acquisition by News Corp to support the causal interpretation of our findings. Our results highlight the perception-shaping role of media narratives in driving global investment decisions. This paper was accepted by Will Cong, finance. Funding: L. Ma acknowledges funding support from the National Natural Science Foundation of China [Grant 72103008]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.05504 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.05504",
+    "published_date": "2026-08-20",
+    "source": "MS",
+    "first_seen": "2026-08-21",
+    "abstract_missing": false,
+    "summary": "本文研究了美国媒体对外国国家的情绪是否影响国内投资者的国际资产配置。以流向特定国家共同基金的流量作为投资者需求的代理指标，作者发现，负面媒体情绪——通过负面语气与媒体关注度的交互项衡量——与流向目标国家基金的流量显著减少相关。这一关系至少部分由与目标国家经济基本面无关的媒体情绪所驱动。为了支持因果解释，作者利用《华尔街日报》被新闻集团收购这一外生事件。研究结果凸显了媒体叙事在塑造认知并推动全球投资决策中的作用。",
+    "keywords": [
+      "媒体情绪",
+      "国际资产配置",
+      "共同基金流量",
+      "因果识别",
+      "行为金融"
+    ],
+    "ai_comment": "该文利用外生事件识别媒体情绪对国际投资决策的因果效应，为媒体叙事影响金融市场的文献提供了新证据。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1111/1475-679x.70083",
+    "title": "Beyond Automation: AI and the Human Value of Sell‐Side Analysts",
+    "authors": [
+      "Devin Shanthikumar",
+      "Il Sun Yoo"
+    ],
+    "abstract": "We examine how analysts’ information acquisition and processing differ when analysts have access to AI resources, focusing on investment banks’ AI investments. We propose and test a two‐step framework, which is informed by in‐depth interviews with analysts. First, consistent with AI facilitating automation‐assisted public information processing, we show that AI investments are associated with more timely earnings forecasts following 10‐K filings, particularly after the implementation of iXBRL, which increases the machine readability of filings. Second, we show that analysts reallocate the time and capacity freed by automation toward acquiring and incorporating private information, supported by several sets of evidence: AI investments (1) are associated with higher quality and bolder earnings forecasts, particularly when private information is more important and accessible to analysts; (2) are associated with an expansion of analyst coverage to new firms and industries; and (3) are associated with higher information‐seeking efforts, particularly greater participation in earnings conference calls. Additionally, exploiting the launch of AskResearchGPT at Morgan Stanley, an in‐house generative AI designed for research, we find results consistent with our main analyses. Overall, our study provides insights into the potential for AI to reshape the human value of sell‐side analysts.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70083",
+    "published_date": "2026-08-20",
+    "source": "JAR",
+    "first_seen": "2026-08-21",
+    "abstract_missing": false,
+    "summary": "本研究探讨了当分析师能够使用AI资源时，其信息获取和处理方式如何变化，重点关注投资银行的AI投资。基于对分析师的深度访谈，作者提出并检验了一个两步框架。首先，与AI促进自动化辅助的公开信息处理相一致，研究发现AI投资与10-K文件发布后更及时的盈利预测相关，尤其在iXBRL实施后（该技术提高了文件的机器可读性）。其次，分析表明分析师将自动化节省的时间和能力重新分配到获取和整合私有信息上，这由多组证据支持：AI投资与更高质量和更大胆的盈利预测相关，尤其是在私有信息对分析师更重要且更易获取时；AI投资与分析师覆盖新公司和行业的扩展相关；AI投资与更高的信息寻求努力相关，特别是更多地参与财报电话会议。此外，利用摩根士丹利内部为研究设计的生成式AI工具AskResearchGPT的推出，结果与主要分析一致。总体而言，该研究揭示了AI重塑卖方分析师人类价值的潜力。",
+    "keywords": [
+      "人工智能",
+      "卖方分析师",
+      "盈利预测",
+      "信息获取",
+      "AI投资"
+    ],
+    "ai_comment": "该论文通过实证揭示AI并非简单替代分析师，而是通过自动化解放人力，强化了人类在私有信息挖掘中的独特价值，为理解AI在金融行业中的角色提供了新视角。",
+    "topic": "金融计量/机器学习"
+  },
+  {
     "id": "10.1287/mnsc.2024.07450",
     "title": "Beyond the Black Box: Unraveling the Role of Explainability in Human-Artificial Intelligence Collaboration",
     "authors": [
@@ -22,6 +70,31 @@
     ],
     "ai_comment": "本文通过理论模型揭示了可解释性的非线性影响，特别是高解释性在关键时刻可能增加认知成本的悖论，为设计人机协作系统提供了重要理论指引。",
     "topic": "其他"
+  },
+  {
+    "id": "10.1111/jofi.70076",
+    "title": "Can Small Businesses Survive Chapter 11?",
+    "authors": [
+      "Edith Hotchkiss",
+      "Benjamin Iverson",
+      "Xiang Zheng"
+    ],
+    "abstract": "A majority of small U.S. businesses attempting to reorganize in bankruptcy fail to do so. Subchapter V of Chapter 11 (SubV) streamlines bankruptcy for small firms by reducing bankruptcy costs and negotiation frictions, and enables entrepreneurs to retain ownership. We show that many businesses reorganize under SubV that otherwise would liquidate. Creditor recoveries and postbankruptcy survival rates are at least as high in SubV as in traditional Chapter 11s. Our results show the increase in reorganizations is not associated with continuation of unviable firms, and that creditors are not harmed by a shift in bargaining power toward small business owners.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70076",
+    "published_date": "2026-08-19",
+    "source": "JF",
+    "first_seen": "2026-08-21",
+    "abstract_missing": false,
+    "summary": "该论文研究美国小企业在破产法第11章框架下重组的困境，发现大多数尝试重组的小企业最终失败。作者关注第11章新增的Subchapter V（SubV）条款，该条款通过降低破产成本和谈判摩擦、允许创业者保留所有权来简化小企业破产流程。研究表明，许多原本会清算的企业在SubV下得以重组，且SubV中的债权人回收率和破产后生存率至少与传统第11章相当。结果说明，重组数量的增加并未导致无活力企业继续存续，同时债权人并未因谈判权力向小企业主转移而受到损害。",
+    "keywords": [
+      "破产重组",
+      "小企业",
+      "Subchapter V",
+      "债权人回收率",
+      "企业存续"
+    ],
+    "ai_comment": "该论文利用Subchapter V这一自然实验，为破产制度设计如何影响小企业生存提供了因果证据，并回应了改革可能损害债权人的担忧。",
+    "topic": "公司金融"
   },
   {
     "id": "10.1111/jofi.70074",
