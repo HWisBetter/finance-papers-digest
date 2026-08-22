@@ -1,5 +1,52 @@
 [
   {
+    "id": "10.1287/mnsc.2024.08851",
+    "title": "The Factor Multiverse: The Role of Interest Rates in Factor Return Measurement",
+    "authors": [
+      "Liang Ma"
+    ],
+    "abstract": "We study the equity factor zoo using a duration-matching return-decomposition approach that adjusts factor returns by subtracting returns on duration-matched government bond portfolios. By doing so, we remove the component of factor returns attributable to interest rate movements while preserving shocks to expected growth and risk premia observed in the data. Among commonly used factors, the value, investment, and profitability premia increase after duration matching, while the market and size premia decrease, over the post-1981 sample period. Furthermore, the effect of duration matching on mean factor returns depends importantly on the interest rate environment, consistent with our return decomposition framework. This paper was accepted by Kay Giesecke, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08851 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08851",
+    "published_date": "2026-08-21",
+    "source": "MS",
+    "first_seen": "2026-08-22",
+    "abstract_missing": false,
+    "summary": "本文研究股票因子动物园，采用一种久期匹配的收益分解方法，通过减去久期匹配的政府债券组合收益来调整因子收益。这一方法移除了因子收益中可归因于利率变动的部分，同时保留数据中观察到的预期增长冲击和风险溢价。研究发现，在1981年后的样本期间，常用的价值、投资和盈利因子溢价在久期匹配后上升，而市场和规模因子溢价则下降。此外，久期匹配对平均因子收益的影响在很大程度上取决于利率环境，这与作者提出的收益分解框架一致。",
+    "keywords": [
+      "因子投资",
+      "久期匹配",
+      "利率",
+      "收益分解",
+      "因子溢价"
+    ],
+    "ai_comment": "该文通过久期匹配方法将利率变动从因子收益中剥离，为理解因子溢价的来源提供了新视角，并揭示了利率环境对因子表现的重要影响。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1287/mnsc.2024.06968",
+    "title": "Dissecting Anomalies in Conditional Asset Pricing",
+    "authors": [
+      "Valentina Raponi",
+      "Paolo Zaffaroni"
+    ],
+    "abstract": "This paper introduces a novel methodology for analyzing anomalies in conditional asset pricing models with time-varying risk exposures and premia. Our approach extends the conventional two-pass methodology to include both ordinary and weighted least-squares estimation in a conditional setting. We establish closed-form standard errors to statistically dissect anomalies, including a version robust to global misspecification. We introduce a novel R 2 criterion to quantify the joint contribution of large anomaly sets in explaining cross-sectional stock return variations. Our analysis highlights the significant impact of anomalies during economic and financial crises, linking them closely with market conditions. This paper was accepted by Kay Giesecke, finance. Funding: This project has received funding from the postdoctoral fellowships programme Beatriu de Pinos, funded by the Secretary of Universities and Research (Government of Catalonia) and by the Horizon 2020 programme of research and innovation of the European Union under the [Marie Sktodowska-Curie Grant Agreement 801370]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.06968 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.06968",
+    "published_date": "2026-08-21",
+    "source": "MS",
+    "first_seen": "2026-08-22",
+    "abstract_missing": false,
+    "summary": "本文提出了一种分析条件资产定价模型中异常现象的新方法，其中风险暴露和风险溢价随时间变化。该方法将传统的两阶段估计方法扩展到条件设定下，同时涵盖普通最小二乘和加权最小二乘估计，并推导出闭式标准误，用于统计上分解异常，包括对全局误设稳健的版本。作者还引入了一种新的R²准则，用于量化大型异常集合在解释股票横截面收益变化方面的联合贡献。分析强调了异常在经济和金融危机期间的重要影响，并表明其与市场状况紧密相关。该论文发表于Management Science。",
+    "keywords": [
+      "条件资产定价",
+      "异常现象",
+      "两阶段估计",
+      "横截面收益",
+      "R²准则"
+    ],
+    "ai_comment": "本文为条件资产定价中的异常检验提供了统一的统计框架，特别是闭式标准误和稳健性处理，增强了实证分析的可靠性。引入新的R²准则有助于评估多异常组合的解释力，且对危机时期的关注具有现实意义。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2024.05504",
     "title": "Media Sentiment on Foreign Countries and International Asset Allocation",
     "authors": [
@@ -46,6 +93,30 @@
     ],
     "ai_comment": "该论文通过实证揭示AI并非简单替代分析师，而是通过自动化解放人力，强化了人类在私有信息挖掘中的独特价值，为理解AI在金融行业中的角色提供了新视角。",
     "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "10.1093/rfs/hhag078",
+    "title": "Carbon Emissions and the Bank-Lending Channel",
+    "authors": [
+      "Marcin Kacperczyk",
+      "José-Luis Peydró"
+    ],
+    "abstract": "We study how firm-level carbon emissions affect bank lending and real outcomes in a sample of global firms with syndicated loans. We exploit bank-level climate commitments as firm-level shocks to lending relationships, using firms' prior credit exposures to identify credit supply effects. Firms with higher emissions that previously borrowed from committed banks receive less bank credit. Evidence from lending volumes, prices, and within-firm-time loan-level data indicates a supply-side shift away from high-emission firms, not explained by borrower risk. Affected firms reduce debt, leverage, size, and investment, yet we find no reduction in future emissions, instead documenting evidence consistent with greenwashing. (JEL G21, G23, G30, D62, Q50)",
+    "url": "https://doi.org/10.1093/rfs/hhag078",
+    "published_date": "2026-08-20",
+    "source": "RFS",
+    "first_seen": "2026-08-22",
+    "abstract_missing": false,
+    "summary": "本文研究企业层面碳排放如何影响银行信贷及实际经济结果，样本为全球获得银团贷款的企业。作者利用银行层面的气候承诺作为对贷款关系企业层面的冲击，并通过企业先前信贷敞口识别信贷供给效应。研究发现，此前从做出气候承诺的银行借款的高排放企业获得了更少的银行信贷。来自贷款量、价格以及企业-时间固定效应内贷款层面的证据表明，信贷供给从高排放企业转移，且这一现象不能由借款人风险解释。受冲击企业削减了债务、杠杆、规模和投资，但未来排放并未减少，反而出现了与“洗绿”行为一致的证据。",
+    "keywords": [
+      "碳排放",
+      "银行信贷渠道",
+      "银行气候承诺",
+      "银团贷款",
+      "洗绿"
+    ],
+    "ai_comment": "该文通过银行气候承诺识别信贷供给冲击，为气候风险与金融中介关系提供了因果证据，并揭示了绿色金融政策可能引发的洗绿问题，具有重要政策含义。",
+    "topic": "银行与金融中介"
   },
   {
     "id": "10.1287/mnsc.2024.07450",
@@ -20381,6 +20452,26 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.7295378",
     "first_seen": "2026-08-20",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Geopolitics Meets AI War: Stock Market Evidence from China",
+    "authors": [
+      "Lin William Cong",
+      "Siguang Li",
+      "Fang Wang",
+      "Yi Zhang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7047058",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7047058",
+    "first_seen": "2026-08-22",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
@@ -45379,6 +45470,45 @@
     "topic": "其他"
   },
   {
+    "title": "Information Span in Credit Market Competition",
+    "authors": [
+      "Jing Huang",
+      "Cecilia Parlatore",
+      "Zhiguo He"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5417714",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5417714",
+    "first_seen": "2026-08-22",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Value of Stock Analysis in News",
+    "authors": [
+      "Shuting Li",
+      "Zhen Shi",
+      "Yusen Xia",
+      "Baozhong Yang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5754262",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5754262",
+    "first_seen": "2026-08-22",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "id": "10.1111/jofi.13417",
     "title": "Simplicity and Risk",
     "authors": [
@@ -64828,6 +64958,26 @@
     "topic": "其他"
   },
   {
+    "title": "On the Dynamics of Belief Correction",
+    "authors": [
+      "Bryan T. Kelly",
+      "Semyon Malamud",
+      "Emil Siriwardane",
+      "Hongyu Wu"
+    ],
+    "abstract": "",
+    "url": "http://dx.doi.org/10.2139/ssrn.5003581",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5003581",
+    "first_seen": "2026-08-22",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "id": "10.1111/jofi.13307",
     "title": "The Narrow Channel of Quantitative Easing: Evidence from YCC Down Under",
     "authors": [
@@ -81582,6 +81732,25 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.4574683",
     "first_seen": "2026-08-16",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "How Do U.S. Firms Withstand Foreign Industrial Policies? Evidence from China's Five-Year Plans",
+    "authors": [
+      "Xiao Cen",
+      "Vyacheslav Fos",
+      "Wei Jiang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4418407",
+    "published_date": "2023-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4418407",
+    "first_seen": "2026-08-22",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
