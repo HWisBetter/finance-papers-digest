@@ -1,5 +1,31 @@
 [
   {
+    "id": "10.1111/jofi.70079",
+    "title": "Reference‐Dependent Preferences and Sentiment‐Driven Asset Prices",
+    "authors": [
+      "Jess Benhabib",
+      "Zhaorui Li",
+      "Xuewen Liu",
+      "Pengfei Wang"
+    ],
+    "abstract": "This paper studies asset pricing under expectations‐based reference‐dependent preferences in a general equilibrium framework. We show that reference‐dependent preferences can generate self‐fulfilling risk panics, producing sentiment‐driven asset price fluctuations through a feedback loop between current prices and perceived future downside risk—dynamics impossible under standard expected utility. The model helps explain empirical puzzles including (i) excess volatility, (ii) asymmetric volatility, (iii) asymmetric sentiment over the business cycle, (iv) excess asset price comovement, and (v) weak correlations between stock returns and economic fundamentals, alongside a sizable equity premium. Additional empirical evidence based on closed‐end fund discounts and quantitative analysis support the theory.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70079",
+    "published_date": "2026-08-22",
+    "source": "JF",
+    "first_seen": "2026-08-23",
+    "abstract_missing": false,
+    "summary": "本文在一般均衡框架下研究基于期望参考依赖偏好的资产定价。研究表明，参考依赖偏好能够产生自我实现的风险恐慌，通过当前价格与感知的未来下行风险之间的反馈循环，引发情绪驱动的资产价格波动，而这一动态在标准期望效用下是不可能出现的。该模型有助于解释多个经验谜题，包括过度波动、非对称波动、经济周期中的非对称情绪、资产价格过度联动、股票收益与经济基本面之间的弱相关性，以及可观的股权溢价。此外，基于封闭式基金折价的额外经验证据和定量分析支持了该理论。",
+    "keywords": [
+      "参考依赖偏好",
+      "情绪驱动",
+      "资产定价",
+      "超额波动",
+      "封闭式基金折价"
+    ],
+    "ai_comment": "该论文将参考依赖偏好引入一般均衡资产定价，为情绪驱动的价格波动提供了内生机制，并统一解释了多个经典异象，理论贡献突出。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2024.08851",
     "title": "The Factor Multiverse: The Role of Interest Rates in Factor Return Measurement",
     "authors": [
@@ -45,6 +71,29 @@
     ],
     "ai_comment": "本文为条件资产定价中的异常检验提供了统一的统计框架，特别是闭式标准误和稳健性处理，增强了实证分析的可靠性。引入新的R²准则有助于评估多异常组合的解释力，且对危机时期的关注具有现实意义。",
     "topic": "资产定价"
+  },
+  {
+    "id": "10.1111/jofi.70075",
+    "title": "The Unintended Consequences of #MeToo: Evidence from Research Collaborations in Economics and Finance",
+    "authors": [
+      "Marina Gertsberg"
+    ],
+    "abstract": "How did #MeToo alter collaboration between women and men? I show junior female researchers start fewer projects after #MeToo. A decrease in collaborations with male coauthors—especially new senior male coauthors at the same institution—largely explains the decline. The decrease is larger at universities with higher perceived harassment accusation risk and smaller where both women and men publicly express greater awareness of gender issues. I find no evidence that reduced collaboration improves research outcomes for junior female researchers. The results suggest that #MeToo led to a breakdown in trust that came at a cost for junior women's career opportunities.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70075",
+    "published_date": "2026-08-21",
+    "source": "JF",
+    "first_seen": "2026-08-23",
+    "abstract_missing": false,
+    "summary": "本文研究#MeToo运动如何改变经济学和金融学领域中女性与男性之间的研究合作。作者发现，在#MeToo后，初级女性研究员启动的新项目数量减少，这一下降主要由与男性合著者（特别是同一机构内新的资深男性合著者）的合作减少所驱动。在感知到的性骚扰指控风险较高的大学中，合作减少幅度更大；而在女性和男性都公开表达更高性别问题意识的环境中，减少幅度较小。此外，没有证据表明这种合作减少会改善初级女性研究员的研究成果。结果表明，#MeToo导致信任破裂，并对初级女性的职业机会造成了不利影响。",
+    "keywords": [
+      "#MeToo",
+      "研究合作",
+      "性别差异",
+      "职业机会",
+      "信任"
+    ],
+    "ai_comment": "该论文利用#MeToo作为外生冲击，揭示了其溢出效应如何影响学术研究中的性别合作模式，为理解社会运动对职业网络的非预期影响提供了新证据。",
+    "topic": "其他"
   },
   {
     "id": "10.1287/mnsc.2024.05504",
@@ -5180,16 +5229,21 @@
     "authors": [
       "Hans-Paul Bürkner"
     ],
-    "abstract": "",
+    "abstract": "This is a commentary by Dr. Hans-Paul Bürkner (Global Chair Emeritus and former CEO of The Boston Consulting Group) on Yang, Bauer, Li, and Hinz (2025) “My Advisor, Her AI, and Me: Evidence from a Field Experiment on Human–AI Collaboration and Investment Decisions.”",
     "url": "https://doi.org/10.1287/mnsc.2026.01340",
     "published_date": "2026-06-05",
     "source": "MS",
     "first_seen": "2026-06-06",
-    "abstract_missing": true,
-    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他"
+    "abstract_missing": false,
+    "summary": "这篇评论由波士顿咨询公司全球荣誉主席 Hans-Paul Bürkner 撰写，针对 Yang、Bauer、Li 和 Hinz（2025）的论文《My Advisor, Her AI, and Me: Evidence from a Field Experiment on Human–AI Collaboration and Investment Decisions》进行评述。该论文通过实地实验研究人类与 AI 协作对投资决策的影响，而这篇评论则从行业领袖的视角对该研究的贡献和意义进行评价。",
+    "keywords": [
+      "人类-AI协作",
+      "投资决策",
+      "实地实验",
+      "评述"
+    ],
+    "ai_comment": "作为全球顶级咨询公司前CEO的评论，为学术研究提供了宝贵的行业视角，凸显了该研究在实践中的潜在价值。",
+    "topic": "行为金融"
   },
   {
     "id": "10.1287/mnsc.2026.01340",
@@ -5197,16 +5251,22 @@
     "authors": [
       "Hans-Paul Bürkner"
     ],
-    "abstract": "",
+    "abstract": "This is a commentary by Dr. Hans-Paul Bürkner (Global Chair Emeritus and former CEO of The Boston Consulting Group) on Yang, Bauer, Li, and Hinz (2025) “My Advisor, Her AI, and Me: Evidence from a Field Experiment on Human–AI Collaboration and Investment Decisions.”",
     "url": "https://doi.org/10.1287/mnsc.2026.01340",
     "published_date": "2026-06-05",
     "source": "MS",
     "first_seen": "2026-06-16",
-    "abstract_missing": true,
-    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他"
+    "abstract_missing": false,
+    "summary": "这是一篇由波士顿咨询集团全球荣誉主席、前CEO Hans-Paul Bürkner博士撰写的评论文章，针对Yang、Bauer、Li和Hinz（2025）的论文《My Advisor, Her AI, and Me: Evidence from a Field Experiment on Human-AI Collaboration and Investment Decisions》进行评述。该论文通过一项现场实验，研究人类与AI协作对投资决策的影响。评论从资深行业从业者的视角出发，对研究的设计、发现及其现实意义进行探讨和延伸，强调人机协作在金融咨询和投资实践中的潜在价值与挑战。摘要未提供评论的具体论点或数据，仅说明这是一篇专家评论。",
+    "keywords": [
+      "人机协作",
+      "投资决策",
+      "现场实验",
+      "AI顾问",
+      "评论文章"
+    ],
+    "ai_comment": "该评论由顶级商业领袖撰写，为学术研究提供了宝贵的行业实践视角，突出了学术界与实务界对话的重要性。",
+    "topic": "行为金融"
   },
   {
     "id": "10.1287/mnsc.2024.05875",
