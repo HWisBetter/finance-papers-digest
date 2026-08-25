@@ -1,5 +1,230 @@
 [
   {
+    "id": "w35652",
+    "title": "A Model of Global Firms and Capital Markets",
+    "authors": [
+      "Loukas Karabarbounis",
+      "Bruno Pellegrino",
+      "Juliana Salomao"
+    ],
+    "abstract": "We develop a general-equilibrium model of the global economy that integrates heterogeneous firms competing in product markets with countries that allocate capital around the world. Combining a hedonic demand system on the product side with a mean-variance portfolio system on the asset side, we obtain almost closed-form solutions for the equilibrium of the model. We use firm-level data on balance sheets, geographic breakdowns of revenue and employment, and business descriptions along with country-level data on bilateral equity holdings and trade costs to quantify the model to a cross section of roughly 23,000 listed firms in 48 countries. We use the model to evaluate the reallocation and welfare effects of globalization. Both financial and trade liberalization concentrate activity among the largest firms and raise welfare, with gains being larger in emerging and mid-sized open economies respectively. Product- and capital-market frictions amplify each other, meaning that liberalizing one market reduces the gains from liberalizing the other.",
+    "url": "https://www.nber.org/papers/w35652",
+    "published_date": "2026-08-24",
+    "source": "NBER",
+    "first_seen": "2026-08-25",
+    "abstract_missing": false,
+    "summary": "本文构建了一个全球经济的可计算一般均衡模型，将产品市场中异质性企业的竞争与各国在全球范围内的资本配置整合起来。模型在产品侧采用特征需求系统（hedonic demand system），在资产侧采用均值-方差投资组合系统（mean-variance portfolio system），从而获得了近乎闭式解的均衡结果。作者利用企业层面的资产负债表、收入与就业的地理分布、业务描述数据，以及国家层面的双边股权持有和贸易成本数据，对模型进行了量化校准，样本涵盖48个国家约23,000家上市公司。模型被用来评估全球化的资源再配置效应和福利效应。研究发现：金融自由化和贸易自由化都会使经济活动向最大型企业集中并提高福利，但福利收益分别在新兴经济体和中等规模开放经济体中更大；此外，产品市场与资本市场的摩擦相互放大，因此只放开其中一个市场会降低另一个市场自由化的收益。",
+    "keywords": [
+      "一般均衡模型",
+      "全球化",
+      "异质性企业",
+      "金融自由化",
+      "贸易自由化"
+    ],
+    "ai_comment": "该论文的亮点在于将产品市场与资本市场的摩擦统一在一个量化一般均衡框架中，并强调两者之间的交互放大效应，为理解全球化对不同规模企业和经济体福利的差异影响提供了新视角。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "w35648",
+    "title": "Do Local Synthetic Opioid Overdose Deaths Affect Provider Prescribing of Buprenorphine?",
+    "authors": [
+      "Nicole Siegal",
+      "Sumedha Gupta",
+      "Matthew C. Aalsma",
+      "Stephen Crystal",
+      "Jennifer Miles",
+      "Hillary Samples",
+      "Allen Campbell",
+      "Kosali I. Simon",
+      "Rosalie Liccardo Pacula"
+    ],
+    "abstract": "Buprenorphine prescribing for opioid use disorder remains far below the scale of the overdose crisis. We estimate the causal effect of county-level synthetic opioid overdose mortality shocks on the volume of buprenorphine treatment delivered, exploiting the staggered geographic diffusion of synthetic opioids from 2013 to 2023. Linking IQVIA Longitudinal Prescription Claims to National Vital Statistics System mortality records, we implement a difference-in-differences estimator with propensity score matching under three complementary exposure measures. Treatment volume increases significantly under all three definitions, with no evidence of differential pre-trends; point estimates for buprenorphine prescribing rates range from 5 to 17 percent of pre-treatment means, emerge within one to two quarters, and grow monotonically thereafter. Our design does not separately identify changes in patient demand and provider behavior, but the increase in unique prescribers is consistent with a provider-side response. The response is concentrated among advanced practice providers, Medicaid patients, and counties with pre-existing buprenorphine infrastructure; counties with little baseline prescribing show no response. Local mortality information acts as a determinant of treatment volume, with effects comparable in magnitude to major legislative interventions aimed at expanding treatment, but appear only where prescribing capacity already exists.",
+    "url": "https://www.nber.org/papers/w35648",
+    "published_date": "2026-08-24",
+    "source": "NBER",
+    "first_seen": "2026-08-25",
+    "abstract_missing": false,
+    "summary": "本文研究县级合成阿片类药物过量死亡冲击对丁丙诺啡治疗量的因果效应。利用2013至2023年合成阿片类药物在地理上逐步扩散的自然变异，将IQVIA纵向处方索赔数据与国家生命统计系统的死亡记录相匹配，在三种互补的暴露度量下，采用倾向得分匹配的双重差分估计。结果显示，在三种定义下，丁丙诺啡治疗量均显著增加，且不存在差异化预趋势；处方率的点估计为处理前均值的5%至17%，效应在冲击后一至两个季度内出现，并随后单调增长。虽然研究设计无法单独区分患者需求变化与提供者行为变化，但独立处方者数量的增加与供给方反应一致。反应集中在高级实践提供者、医疗补助患者以及已有丁丙诺啡基础设施的县；基线处方水平很低的县没有反应。地方死亡率信息是治疗量的决定因素，其效应幅度可与旨在扩大治疗的主要立法干预相当，但仅存在于已有处方能力的地方。",
+    "keywords": [
+      "阿片类药物危机",
+      "丁丙诺啡",
+      "死亡率冲击",
+      "双重差分",
+      "医疗服务提供者"
+    ],
+    "ai_comment": "该文利用合成阿片类药物扩散这一自然情境识别因果效应，并强调供给方基础设施对治疗响应的制约，对政策制定具有启示意义。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35641",
+    "title": "Benchmark Mineability and the Financing of AI Innovation",
+    "authors": [
+      "Alex Chan"
+    ],
+    "abstract": "Public AI benchmarks steer research and allocate investments. They are therefore market designs. Public examples can reveal the process behind a private final test, while a finite public score cannot cover a broad task space inherent to general intelligence. I show how both gaps become profitable when scores move capital and how targeted effort erodes the signal used by later investors. The market design lesson is to separate development from certification: publish practice tasks, but choose the investment-consequential generator after the submitted system's evaluation policy is fixed.",
+    "url": "https://www.nber.org/papers/w35641",
+    "published_date": "2026-08-24",
+    "source": "NBER",
+    "first_seen": "2026-08-25",
+    "abstract_missing": false,
+    "summary": "本文研究公共AI基准在金融创新融资中的作用，指出公共基准不仅指导研究，还引导资本配置，因此本质上是一种市场设计。作者识别出两个关键缺陷：一是公开的示例可能泄露私有最终测试的过程，二是有限的公开分数无法覆盖通用智能所需的广阔任务空间。当分数能够影响资本流动时，这两个缺陷就会成为盈利机会，针对性的“挖掘”行为会侵蚀后续投资者所依赖的信号质量。基于此，作者提出市场设计原则：应将开发与认证分离，即公开实践任务，但在提交系统的评估策略固定之后，再选择与投资决策相关的测试生成器。文章通过模型展示了这一过程，并强调了基准设计对创新融资效率的重要性。",
+    "keywords": [
+      "基准可挖掘性",
+      "市场设计",
+      "创新融资",
+      "资本配置",
+      "认证机制"
+    ],
+    "ai_comment": "本文创造性地将公共AI基准视为市场设计，揭示了分数对资本流动的激励扭曲，所提出的开发与认证分离原则对AI治理与金融监管具有重要启示。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "w35639",
+    "title": "Local Labor Demand and Achievement Gaps: Evidence from the Great Recession",
+    "authors": [
+      "Karla Cordova",
+      "Jessamyn Schaller"
+    ],
+    "abstract": "We examine how contractions in local labor demand during the Great Recession affected children's academic achievement. We combine county-level test scores for grades 3–8 from the Stanford Education Data Archive with a shift-share design that interacts counties' 2005 industry composition with national industry employment growth, isolating demand-driven changes in local employment. Following recent advances in the shift-share literature, we validate the design with balance, pre-trend, and Rotemberg-weight diagnostics and report exposure-robust standard errors throughout. A one-standard-deviation adverse shock lowers mathematics achievement by about 0.03 student-level standard deviations and widens the White–Black and economic-disadvantage achievement gaps in both subjects. Within a common geography, losses concentrate among economically disadvantaged students. English language arts estimates point in the same direction but are harder to separate from the Great Recession's housing bust, and we interpret them as the combined effect of the labor-demand contraction and the associated decline in house prices. The achievement response is concentrated in the recession window. The post-2014 period, identified mainly by the oil-price cycle, yields a precise null, so our estimates measure the response to severe contractions rather than a general business-cycle parameter. School funding did not respond contemporaneously to these shocks, while family income, child poverty, and house prices all did.",
+    "url": "https://www.nber.org/papers/w35639",
+    "published_date": "2026-08-24",
+    "source": "NBER",
+    "first_seen": "2026-08-25",
+    "abstract_missing": false,
+    "summary": "本文利用大衰退期间地方劳动力需求的收缩，研究其对儿童学业成就的影响。作者将斯坦福教育数据档案中3-8年级的县级考试成绩与shift-share设计相结合，该设计利用各县2005年的产业构成与全国行业就业增长的交互作用，以识别由需求驱动的当地就业变化。遵循shift-share文献的最新进展，作者通过平衡性检验、前置趋势检验和Rotemberg权重诊断验证了设计有效性，并报告了暴露稳健标准误。研究发现，一个标准差的不利冲击会使数学成绩降低约0.03个学生层面标准差，并扩大两个学科中的白人与黑人以及经济劣势学生之间的成就差距。在共同地理区域内，损失集中在经济弱势学生群体中。英语语言艺术的估计方向相同，但更难与大衰退的房地产泡沫破裂效应区分开来，因此被解释为劳动力需求收缩与相关房价下跌的联合效应。成就响应集中在大衰退窗口期内。2014年之后主要由石油价格周期识别的时期呈现出精确的零效应，因此估计衡量的是对严重收缩的响应而非一般商业周期参数。学校经费对这些冲击没有即时反应，而家庭收入、儿童贫困和房价均有反应。",
+    "keywords": [
+      "大衰退",
+      "学业成就差距",
+      "劳动力需求冲击",
+      "转移份额法",
+      "家庭收入"
+    ],
+    "ai_comment": "该文通过严谨的shift-share诊断方法识别了劳动力需求冲击的因果效应，并区分了就业收缩与房价下跌的影响，为理解经济衰退对教育不平等的传导机制提供了新证据。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35637",
+    "title": "Political Entrepreneurs",
+    "authors": [
+      "Aaron Chatterji",
+      "Jorge Guzman",
+      "Joyce Ma",
+      "Ryan C. McDevitt"
+    ],
+    "abstract": "Firms shape public policy not only from the outside through lobbying and campaign contributions, but also from the inside when business owners hold public office. We study this channel using a novel dataset that links state legislators’ personal financial disclosures to bill sponsorship records across 26 U.S. states from 2009 to 2023. The disclosures allow us to observe business ownership during legislative service and to distinguish entrepreneurs, defined as legislators who both own and actively manage a firm, from passive shareholders and employees. Applying a large language model to bill text, we classify legislation as pro-business and identify a subset of pro-entry bills that reduce barriers facing new firms. Entrepreneurs are a substantial presence in state legislatures, accounting for over 40 percent of legislators, and their representation varies primarily across states rather than within states over time. Although entrepreneurs do not sponsor more bills overall, they initiate a greater share of bills as first or sole primary sponsor. They also do not appear to be generic advocates for business. Relative to legislators with other business ties, entrepreneurs are no more likely to sponsor pro-business bills or bills endorsed by state Chambers of Commerce. Instead, they selectively advance pro-entry legislation, especially bills related to deregulation and innovation rather than antitrust or access to capital. These findings document an important channel through which entrepreneurs shape the policy environment for entrepreneurship from within political institutions.",
+    "url": "https://www.nber.org/papers/w35637",
+    "published_date": "2026-08-24",
+    "source": "NBER",
+    "first_seen": "2026-08-25",
+    "abstract_missing": false,
+    "summary": "这篇论文研究企业家如何通过亲自担任公职从内部影响公共政策，而不仅仅是通过游说和竞选捐款从外部施加影响。作者利用2009年至2023年间美国26个州议员的个人财务披露与法案提案记录构建了一个新数据集，通过财务披露识别出在立法服务期间拥有并积极管理企业的“企业家”议员，将其与被动股东和雇员区分开来。运用大型语言模型对法案文本进行分类，识别亲商业法案，并进一步区分出能够降低新企业进入壁垒的亲进入法案。研究发现，企业家在州议会中占很大比例，超过40%的议员是企业家，且其代表性差异主要体现为州际差异，而非州内随时间的变化。虽然企业家总体上没有发起更多法案，但他们更倾向于作为第一或唯一主要发起人提出法案。同时，他们并非笼统的商业倡导者：与其他具有商业关联的议员相比，企业家并不更可能发起亲商业法案或获得州商会认可的法案。相反，他们会选择性地推进亲进入立法，尤其是与放松管制和创新相关的法案，而非反垄断或资本获取相关法案。这些发现揭示了企业家从政治机构内部塑造创业政策环境的重要渠道。",
+    "keywords": [
+      "企业家",
+      "立法者",
+      "亲进入法案",
+      "大型语言模型",
+      "政策制定"
+    ],
+    "ai_comment": "该研究利用新颖的财务披露数据与LLM文本分类方法，首次系统识别并量化了企业家议员对政策偏向的影响，揭示了企业家在公共政策制定中的独特角色。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35636",
+    "title": "Rate Risk and Rate Insurance",
+    "authors": [
+      "Olivier Wang"
+    ],
+    "abstract": "I decompose stock returns into a duration-matched Treasury component, identified from monetary policy surprises, and a payoff component. Risk and returns rise much less with duration for stocks than for their matched Treasuries. Stock volatility is dampened by rate insurance: rates fall in bad times, so the bond inside a stock provides insurance against the stock’s payoff risk. Expected stock returns are dampened because the insurance works in reverse: rates rise in good times, so stocks’ payoff gains hedge the losses borne by investors holding net duration, notably government bonds when Ricardian equivalence fails. This framework helps reconcile positive bond premia with negative stock-bond covariance, sheds light on equity anomalies and the collapse of the value premium, implies that fiscal and monetary policy shape bond and equity premia, and motivates a two-factor model that jointly prices stocks and bonds. Rate insurance can even turn the price of long-run risk negative, explaining why long bonds beat long stocks.",
+    "url": "https://www.nber.org/papers/w35636",
+    "published_date": "2026-08-24",
+    "source": "NBER",
+    "first_seen": "2026-08-25",
+    "abstract_missing": false,
+    "summary": "该论文将股票收益分解为与久期匹配的国债成分（通过货币政策冲击识别）和支付成分。研究发现，股票的风险和收益随久期上升的幅度远低于其匹配的国债，原因在于利率保险：利率在坏时期下降，因此股票内部的债券部分为股票支付风险提供了保险；而预期股票收益被抑制则是因为保险机制反向作用——利率在好时期上升，股票的支付收益对冲了净久期持有者（尤其是李嘉图等价失效时的政府债券持有者）所承受的损失。该框架有助于调和正债券溢价与负股票-债券协方差，解释股票异常和价值溢价的崩盘，意味着财政与货币政策塑造了债券和股票溢价，并提出了一个共同定价股票和债券的两因子模型。利率保险甚至可能使长期风险的价格为负，从而解释长期债券跑赢长期股票的现象。",
+    "keywords": [
+      "利率保险",
+      "久期匹配",
+      "货币政策冲击",
+      "股票-债券协方差",
+      "两因子模型"
+    ],
+    "ai_comment": "本文通过识别股票收益中的久期匹配国债成分，提出“利率保险”机制，为理解股票-债券协方差和长期风险定价提供了统一框架，具有理论创新性。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "w35635",
+    "title": "Occupational Licensing of Uber Drivers",
+    "authors": [
+      "Jonathan Hall",
+      "Jason Hicks",
+      "Morris M. Kleiner",
+      "Yun taek Oh"
+    ],
+    "abstract": "We examine whether occupational licensing improves service quality and safety using trip-level Uber data that include driver ratings and telematics-based measures of driving behavior. Exploiting quasi-random assignment from proximity-based dispatch, we compare trips served by licensed and unlicensed drivers in two settings: a cross-border comparison between New York City and New Jersey, and a deregulation event in Houston. Across settings and specifications, including instrumental variable estimates, we find no consistent evidence that licensing improves consumer outcomes. In Houston, post-deregulation entrants are indistinguishable from previously licensed drivers on ratings and driving behavior, despite differing markedly in experience and age.",
+    "url": "https://www.nber.org/papers/w35635",
+    "published_date": "2026-08-24",
+    "source": "NBER",
+    "first_seen": "2026-08-25",
+    "abstract_missing": false,
+    "summary": "本文利用Uber行程级数据（包括司机评分和基于远程信息处理的驾驶行为指标），考察职业许可制度是否提高了服务质量和安全性。研究利用基于距离派单产生的准随机分配，在两种情境下比较了持牌与无牌司机所服务的行程：纽约市与新泽西州的跨境比较，以及休斯顿的放松管制事件。研究发现，在不同情境和多种规格（包括工具变量估计）下，均没有一致证据表明许可制度改善了消费者结果。在休斯顿，放松管制后进入市场的司机在评分和驾驶行为上与先前持牌司机无法区分，尽管两群体在经验和年龄上存在显著差异。",
+    "keywords": [
+      "职业许可",
+      "Uber",
+      "服务质量",
+      "驾驶行为",
+      "放松管制"
+    ],
+    "ai_comment": "利用Uber微观数据和准自然实验评估许可制度的实际效果，为监管政策提供了罕见的一手证据。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35634",
+    "title": "The Yeoman's Portfolio: Measuring Historical Risk Preferences Using Crop Choice",
+    "authors": [
+      "Remy Levin",
+      "Daniela Vidart"
+    ],
+    "abstract": "We design a method for measuring the risk preferences of agents in the deep past. The method combines a structural model of crop choice as a portfolio allocation with machine-learning prediction of expected crop returns, using historic agronomic and climate data. We estimate county-level risk preferences for the United States and farmer-level preferences in Kansas from 1889 to 1929. More risk averse farmers leveraged less, were less likely to purchase novel WWI Liberty Bonds, and were more likely to participate in local risk-sharing institutions. We show that higher risk aversion predicts slower tractor adoption and farm mechanization during the 1920s.",
+    "url": "https://www.nber.org/papers/w35634",
+    "published_date": "2026-08-24",
+    "source": "NBER",
+    "first_seen": "2026-08-25",
+    "abstract_missing": false,
+    "summary": "本文提出一种用于度量遥远过去经济主体风险偏好的方法。该方法将作物选择的结构模型视为投资组合配置问题，并结合机器学习对预期作物收益的预测，利用历史农业与气候数据进行估计。作者估算了美国县级风险偏好以及1889年至1929年堪萨斯州的农户层面风险偏好。研究发现，风险规避程度更高的农户杠杆率更低，购买一战时期新型自由债券的可能性更小，而更可能参与本地风险分担机构。此外，更高的风险规避程度预示着1920年代拖拉机采用和农业机械化进程更慢。",
+    "keywords": [
+      "风险偏好",
+      "作物选择",
+      "结构模型",
+      "机器学习",
+      "历史金融"
+    ],
+    "ai_comment": "该研究创新性地利用历史作物选择数据重构风险偏好，并验证其对金融决策与技术采纳的预测力，为历史经济行为研究提供了新思路。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1287/mnsc.2024.04499",
+    "title": "Leveraging Collective Advice-Taking Behavior to Infer Accuracy and Improve the Wisdom of Crowds",
+    "authors": [
+      "Yunhao Zhang"
+    ],
+    "abstract": "Wisdom of crowds estimates can be compromised when some agents’ predictions are systematically biased. A natural remedy is to aggregate predictions from a subset of more accurate agents rather than the entire crowd. I propose cluster weight on advice (CWOA), a novel “two-shot” algorithm to identify a more accurate subgroup in a single-prediction-problem context. CWOA first applies kernel density estimation to identify clusters of similar initial predictions. If multiple clusters emerge—indicating potential heterogeneity in agents’ information—the algorithm proceeds to present a piece of numerical advice (e.g., the group mean) and elicit updated predictions. This enables the calculation of the weight on advice (WOA)—the scaled magnitude of each agent’s belief revision. CWOA then averages the updated predictions within the cluster with the lowest mean WOA. A behavioral model and simulations explain both why and when cluster-level WOA signals accuracy. Better-informed agents—having already incorporated higher-quality information—perceive less corrective value in the advice and therefore, exhibit lower WOA. CWOA does not require agents to know the true biases or the composition of the crowd; a modest relative advantage in perceived estimation bias by better-informed agents may be sufficient, even under misperceptions of variance, advice quality, and psychological biases in advice taking. Empirically, I first test and confirm the model’s key insight in a controlled experimental setting. I then validate CWOA’s performance across multiple preregistered and archival data sets, including a study in which numerical advice comes from artificial intelligence. CWOA consistently outperforms benchmarks, including the state-of-the-art metaprediction-based methods. This paper was accepted by Jack Soll, behavioral economics and decision analysis. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.04499 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.04499",
+    "published_date": "2026-08-24",
+    "source": "MS",
+    "first_seen": "2026-08-25",
+    "abstract_missing": false,
+    "summary": "本文针对群体智慧估计中部分个体预测存在系统性偏差的问题，提出了一种名为“cluster weight on advice (CWOA)”的新型“两阶段”算法，旨在单次预测情境下识别出更准确的子群体。CWOA首先利用核密度估计对相似的初始预测进行聚类；若出现多个聚类（提示个体信息存在潜在异质性），算法会提供一条数值建议（如群体均值）并收集更新后的预测，进而计算每个个体对建议的权重（WOA），即其信念修正的缩放幅度。随后，CWOA对平均WOA最低的聚类内的更新后预测取平均作为最终估计。行为模型与模拟实验解释了为何及何时聚类层面的WOA能指示预测准确性：信息更充分的个体已纳入更高质量的信息，感知到建议的纠正价值较低，因此表现出更低的WOA。CWOA不要求个体知道真实偏差或群体构成；只要信息更充分的个体在感知估计偏差上具有适度相对优势，即使在对方差、建议质量和心理偏差存在误判的情况下，该算法也可能有效。在实证方面，作者首先通过受控实验验证了模型的核心洞察，随后在多个预注册和档案数据集上验证了CWOA的性能，其中包括数值建议由人工智能提供的研究。CWOA在多种基准方法（包括基于元预测的最先进方法）上均表现更优。该论文发表于《Management Science》，由Jack Soll评审。",
+    "keywords": [
+      "群体智慧",
+      "CWOA算法",
+      "建议权重",
+      "预测准确性",
+      "行为决策"
+    ],
+    "ai_comment": "该论文提出了一种无需知道个体偏差先验信息的两阶段聚合算法，巧妙利用建议接受行为作为准确性的信号，并通过实验和多种数据集验证了其稳健性，对群体智慧领域具有方法论创新意义。",
+    "topic": "行为金融"
+  },
+  {
     "id": "10.1111/jofi.70079",
     "title": "Reference‐Dependent Preferences and Sentiment‐Driven Asset Prices",
     "authors": [
@@ -924,6 +1149,33 @@
     ],
     "ai_comment": "该文通过系统性证据区分了真正的影响寻求与“洗影响”行为，并揭示了影响投资者对传统投资者的策略溢出效应，为理解影响投资的实际效应提供了新视角。",
     "topic": "行为金融"
+  },
+  {
+    "id": "10.1093/rfs/hhag074",
+    "title": "What Do Impact Investors Do Differently?",
+    "authors": [
+      "Shawn Cole",
+      "Leslie Jeng",
+      "Josh Lerner",
+      "Natalia Rigol",
+      "Benjamin N Roth"
+    ],
+    "abstract": "Do impact investors seek impact, or merely “impact wash”? We provide systematic evidence on the nonfinancial determinants of impact investing. Impact investors focus on firms aligned with the priorities of the federal government and disproportionately invest in economically disadvantaged regions. While we find high levels of coinvestment between impact and traditional investors, we also show that impact investors influence the strategies of their traditional coinvestors, are more likely to fund firms in nascent industries, and invest countercyclically. Finally, we characterize investment heterogeneity based on a novel classification of impact investment theses, with a focus on climate, environment, and jobs and equity.",
+    "url": "https://doi.org/10.1093/rfs/hhag074",
+    "published_date": "2026-08-12",
+    "source": "RFS",
+    "first_seen": "2026-08-25",
+    "abstract_missing": false,
+    "summary": "本文系统研究了影响力投资者（impact investors）的非财务决定因素，以区分其是真正追求社会影响力还是仅进行“影响力洗白”（impact wash）。研究发现，影响力投资者倾向于投资与美国联邦政府优先事项一致的企业，并且不成比例地投资于经济欠发达地区。尽管影响力投资者与传统投资者之间存在较高程度的共同投资，但影响力投资者能够影响其传统共同投资者的策略，更可能为新兴行业的企业提供资金，并采取逆周期投资策略。最后，基于一种新的影响力投资主题分类，文章刻画了投资异质性，重点关注气候、环境、就业与公平等领域。",
+    "keywords": [
+      "影响力投资",
+      "非财务决定因素",
+      "共同投资",
+      "逆周期投资",
+      "影响力投资主题"
+    ],
+    "ai_comment": "本文提供了关于影响力投资者行为的系统性证据，有助于区分真实影响力与“影响力洗白”，并揭示了影响力投资者对传统投资者的策略传导效应，为可持续金融研究贡献了新视角。",
+    "topic": "公司金融"
   },
   {
     "id": "10.1016/j.jfineco.2026.104348",
