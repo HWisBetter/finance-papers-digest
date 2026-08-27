@@ -1,5 +1,103 @@
 [
   {
+    "id": "10.1287/mnsc.2025.02314",
+    "title": "Centralization vs. Decentralization: First Evidence from the Laboratory",
+    "authors": [
+      "Gabriele Camera",
+      "Gary Charness",
+      "Nir Chemaya"
+    ],
+    "abstract": "The future architecture of financial systems is a subject of contention, with centralized and decentralized governance proponents. Here, we ask the following question. Would the architecture affect the quality of decision making? We propose a game where financial network participants demarcate the ownership of claims to income. This governance task can be decentralized (shared authority), centralized (single authority), or hybrid (alternating authority). Without communication, all architectures supported poor outcomes. With communication, decentralization ensured good governance and maximum profits, whereas centralization did not—lowering communication’s potency in promoting socially optimal decisions. This indicates that there is scope for decentralization in innovating financial institutions. This paper has been accepted by Camelia Kuhnen for the Virtual Special Issue on Digital Finance. Funding: N. Chemaya acknowledges partial financial support from the NET Institute. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.02314 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.02314",
+    "published_date": "2026-08-26",
+    "source": "MS",
+    "first_seen": "2026-08-27",
+    "abstract_missing": false,
+    "summary": "本文通过实验室实验研究金融系统架构（集中化vs分散化）对决策质量的影响。作者设计了一个博弈，其中金融网络参与者需要划分对收入索取权的所有权，这一治理任务可以采取分散化（共享权力）、集中化（单一权力）或混合（交替权力）三种架构。实验结果表明，在没有沟通的情况下，所有架构都会导致较差的结果；而在有沟通的情况下，分散化架构能够确保良好的治理并实现最大利润，而集中化架构则无法达到这一效果，沟通在促进社会最优决策方面的作用被削弱。这表明在金融制度创新中，分散化仍有改进空间。该论文被收录于数字金融虚拟特刊。",
+    "keywords": [
+      "金融系统",
+      "集中化",
+      "分散化",
+      "实验室实验",
+      "决策质量"
+    ],
+    "ai_comment": "首次通过实验室实验提供关于金融系统架构选择的因果证据，揭示了沟通在不同治理架构下的差异化作用，为数字金融中的去中心化设计提供了行为层面的支持。",
+    "topic": "公司治理"
+  },
+  {
+    "id": "10.1111/jofi.70077",
+    "title": "Longevity, Health, and Housing Risk Management in Retirement",
+    "authors": [
+      "Pierre‐Carl Michaud",
+      "Pascal St‐Amour"
+    ],
+    "abstract": "Annuities, long‐term care insurance, and reverse mortgages remain puzzlingly unpopular to manage post‐retirement longevity, health, and housing price risks. We use a flexible life‐cycle model structurally estimated with a unique stated‐preference survey experiment of Canadian households to understand why. Key factors include high risk aversion, concern over long‐run risks, strong discounting of valuation in disability states, imperfect housing substitutability, and bequest motives. The remaining disinterest is accounted for by information frictions and inertia. We also document evidence of public insurance crowding out, spousal co‐insurance, and responsiveness to product bundling.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70077",
+    "published_date": "2026-08-26",
+    "source": "JF",
+    "first_seen": "2026-08-27",
+    "abstract_missing": false,
+    "summary": "本文利用一个灵活的生命周期模型，结合针对加拿大住户的独特陈述偏好调查实验数据进行结构估计，旨在解释年金、长期护理保险和反向抵押贷款在退休后管理长寿、健康及住房价格风险方面为何仍不受欢迎。研究发现，关键影响因素包括高风险厌恶、对长期风险的担忧、残疾状态下对价值的强烈折扣、住房的不完全替代性以及遗赠动机。剩余的不感兴趣可归因于信息摩擦和惯性。此外，文中还记录了公共保险的挤出效应、配偶共同保险现象以及对产品捆绑的响应性。",
+    "keywords": [
+      "退休风险管理",
+      "年金",
+      "长期护理保险",
+      "反向抵押贷款",
+      "生命周期模型"
+    ],
+    "ai_comment": "该论文通过结构模型与陈述偏好实验的结合，系统识别了多种影响退休风险产品需求的行为因素，为理解市场低迷提供了深度解释。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "10.1111/jofi.70078",
+    "title": "The Market for ESG Ratings",
+    "authors": [
+      "Ehsan Azarmsa",
+      "Joel Shapiro"
+    ],
+    "abstract": "We present a model of competition between environmental, social, and governance (ESG) raters who acquire information about multiple unrelated categories and sell ratings. Raters specializing in different categories maximize the amount of information transmitted and surplus, and can be an equilibrium outcome. When investors place a high value on ESG performance across multiple categories, the unique equilibrium is for the raters to generalize—splitting their effort among the categories, resulting in less informative ratings. Greenwashing by firms can make generalization the only equilibrium. We also demonstrate that specialization maximizes ratings disagreement, and thus empirical measures of disagreement may be poor measures of surplus.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70078",
+    "published_date": "2026-08-25",
+    "source": "JF",
+    "first_seen": "2026-08-27",
+    "abstract_missing": false,
+    "summary": "本文构建了一个关于环境、社会和治理（ESG）评级机构之间竞争的理论模型，其中评级机构需要在多个不相关的类别中获取信息并出售评级。模型发现，专注于不同类别的评级机构能够最大化信息传递量和总剩余，并且这种专业化分工可以成为均衡结果。然而，当投资者对多个类别的ESG表现赋予较高价值时，唯一均衡是评级机构采取泛化策略——将努力分散到所有类别，从而导致评级信息含量降低。此外，企业的漂绿行为可能使泛化成为唯一均衡。论文还证明专业化会最大化评级分歧，因此实证中常用的评级分歧指标可能无法有效衡量市场剩余。",
+    "keywords": [
+      "ESG评级",
+      "评级机构竞争",
+      "专业化",
+      "泛化",
+      "漂绿"
+    ],
+    "ai_comment": "该模型为ESG评级市场的结构选择提供了理论解释，并揭示了评级分歧作为盈余代理变量的潜在缺陷，对实证研究有重要警示意义。",
+    "topic": "市场微观结构"
+  },
+  {
+    "id": "10.1111/1475-679x.70084",
+    "title": "Taxes and Investment: Evidence from the “Halloween Massacre” of 2006",
+    "authors": [
+      "Matthew Boland",
+      "Khin Phyo Hlaing",
+      "Petro Lisowsky"
+    ],
+    "abstract": "This study examines the relation between taxes and business investment using the setting of an unexpected and economically significant federal corporate income tax rate increase in Canada known colloquially as the Halloween Massacre of 2006. This tax increase only applies to firms organized as income trusts, but not corporations. Using a difference‐in‐differences design, we find that investment by income trusts decreases about 0.67% for each 1 percentage point increase in the tax rate, translating into over $10 billion in reduced aggregate investment. In decomposing total investment, our results reveal that capital expenditures exhibit an immediate decrease while there is a delayed decrease in acquisition activity. Our results are concentrated in high‐investment income trusts that are most sensitive to the link between investment and taxes. Our study helps resolve conflicting prior results by providing robust evidence that tax increases have an economically significant and negative causal effect on business investment.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70084",
+    "published_date": "2026-08-25",
+    "source": "JAR",
+    "first_seen": "2026-08-27",
+    "abstract_missing": false,
+    "summary": "本研究利用加拿大2006年被称为“万圣节大屠杀”（Halloween Massacre）的意外且具有重大经济影响的联邦企业所得税税率上调作为研究情境，考察税收与企业投资之间的关系。该税改仅适用于以收入信托（income trusts）形式组织的企业，而不适用于普通公司。通过双重差分（difference-in-differences, DID）设计，研究发现收入信托的投资随税率每增加1个百分点而下降约0.67%，相当于总投资减少超过100亿美元。在分解总投资时，资本支出立即下降，而收购活动则呈现延迟下降。结果集中在对投资与税收关联最敏感的高投资收入信托中。该研究为税收增加对企业投资具有显著且负面的因果效应提供了稳健证据，有助于调和先前相互矛盾的实证结果。",
+    "keywords": [
+      "企业投资",
+      "税收",
+      "双重差分",
+      "收入信托",
+      "资本支出"
+    ],
+    "ai_comment": "利用外生税制改革作为准自然实验，提供了税收影响投资的因果证据，并区分了资本支出与收购行为的不同响应路径。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104352",
     "title": "Macroprudential regulation and banks’ supply of liquidity services",
     "authors": [
