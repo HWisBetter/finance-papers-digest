@@ -1,5 +1,31 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104325",
+    "title": "Do proprietary traders provide liquidity?",
+    "authors": [
+      "Nittai K. Bergman",
+      "Ohad Kadan",
+      "Roni Michaely",
+      "Pamela C. Moulton"
+    ],
+    "abstract": "Whether proprietary traders provide or take liquidity, and how their behavior evolves over the business cycle and across stocks, remains at the center of an ongoing debate. Using a unique dataset from the NYSE, we document that proprietary traders act as net liquidity providers, buying after price declines in a contrarian pattern. Proprietary trader liquidity provision is concentrated in large, liquid, low-volatility stocks and diminishes significantly when intermediary balance sheets are weak. Liquidity provision is stronger when price movements are plausibly not driven by information. Our findings highlight both the role and the limits of proprietary traders in supporting market liquidity across time and market segments.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104325",
+    "published_date": "2026-08-27",
+    "source": "JFE",
+    "first_seen": "2026-08-28",
+    "abstract_missing": false,
+    "summary": "本文利用纽约证券交易所（NYSE）的独特数据集，研究了自营交易商（proprietary traders）是提供流动性还是消耗流动性，以及其行为在经济周期和不同股票间如何演变。研究发现，自营交易商以逆向交易模式在价格下跌后买入，表现为净流动性提供者。其流动性提供集中于大盘、流动性高、波动性低的股票，并在中介机构资产负债表疲弱时显著减少。当价格变动可能并非由信息驱动时，流动性提供更强。这些发现凸显了自营交易商在跨时间和市场细分中支持市场流动性的作用及其局限性。",
+    "keywords": [
+      "自营交易商",
+      "流动性提供",
+      "纽约证券交易所",
+      "逆向交易",
+      "中介机构资产负债表"
+    ],
+    "ai_comment": "该研究利用独特的NYSE数据集，提供了关于自营交易商流动性提供行为及其周期性变化的直接证据，深化了对市场流动性来源及其限制的理解。",
+    "topic": "市场微观结构"
+  },
+  {
     "id": "10.1287/mnsc.2025.02314",
     "title": "Centralization vs. Decentralization: First Evidence from the Laboratory",
     "authors": [
