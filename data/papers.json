@@ -1,5 +1,55 @@
 [
   {
+    "id": "10.1287/mnsc.2024.06477",
+    "title": "Harmonizing Safety and Speed: A Human-Algorithm Approach to Enhance the FDA’s Medical Device Clearance Policy",
+    "authors": [
+      "Mohammad Zhalechian",
+      "Soroush Saghafian",
+      "Omar Robles"
+    ],
+    "abstract": "The United States Food and Drug Administration (FDA)’s 510(k) pathway allows manufacturers to gain medical device approval by demonstrating substantial equivalence to a legally marketed device. However, the inherent ambiguity of this regulatory procedure has been associated with high recall among many devices cleared through this pathway, raising significant safety concerns. In this paper, we develop a combined human-algorithm approach to assist the FDA in improving its 510(k) medical device clearance process by reducing recall risk and regulatory workload. We first develop machine learning methods to estimate the risk of recall of 510(k) medical devices based on the information available at the time of submission. We then propose a data-driven clearance policy that recommends acceptance, rejection, or deferral to FDA’s committees for in-depth evaluation. We conduct an empirical study using a unique data set of over 31,000 submissions that we assembled based on data sources from the FDA and Centers for Medicare and Medicaid Services. Compared to the FDA’s current practice, which has a recall rate of 10.3% and a normalized workload measure of 100%, a conservative evaluation of our policy shows a 32.9% improvement in the recall rate and a 40.5% reduction in the workload. Our analyses further suggest annual cost savings of approximately $1.7 billion for the healthcare system driven by avoided replacement costs, which is equivalent to 1.1% of the entire United States annual medical device expenditure. Our findings highlight the value of a holistic and data-driven approach to improve the FDA’s current 510(k) pathway. This paper was accepted by Stefan Scholtes, healthcare management. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.06477 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.06477",
+    "published_date": "2026-08-28",
+    "source": "MS",
+    "first_seen": "2026-08-29",
+    "abstract_missing": false,
+    "summary": "本文针对美国FDA的510(k)医疗器械审批路径中存在的安全隐患与监管效率问题展开研究。510(k)路径允许制造商通过证明产品与已合法上市器械的实质性等同来获得批准，但该流程固有的模糊性导致许多获批器械出现高召回率。作者开发了一种结合人类与算法的方法，旨在降低召回风险并减少监管工作量。首先，利用机器学习方法根据提交时可获得的信息估计510(k)器械的召回风险；然后，提出一种数据驱动的审批策略，建议接受、拒绝或移交FDA委员会进行深入评估。作者基于从FDA和医疗保险与医疗补助服务中心收集的超过31,000份提交记录构建了独特数据集进行实证研究。与FDA现行做法（召回率10.3%，标准化工作量100%）相比，保守评估显示该策略可将召回率改善32.9%，工作量减少40.5%。进一步分析表明，由于避免了替换成本，该策略可为医疗系统每年节省约17亿美元，相当于美国年度医疗器械总支出的1.1%。研究结果突显了整体性、数据驱动方法对改进FDA现有510(k)路径的价值。",
+    "keywords": [
+      "510(k)路径",
+      "FDA",
+      "机器学习",
+      "医疗器械审批",
+      "召回风险"
+    ],
+    "ai_comment": "该论文将机器学习与人类决策相结合，提出可操作的数据驱动审批政策，在提升安全性的同时大幅降低监管负荷，为医疗监管领域的量化优化提供了范例。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1287/mnsc.2024.05042",
+    "title": "Public Enforcement and Initial Public Offering Reporting Quality in Weak Institutional Environments: Evidence from a Random Experiment in China",
+    "authors": [
+      "Manyi Fan",
+      "Kai Guo",
+      "Bin Ke"
+    ],
+    "abstract": "Using China’s randomized pre-initial public offering on-site inspection program, we examine the causal effects of proactive public enforcement on the financial reporting quality of initial public offering applicants. Our analysis shows that the program enhances the reporting quality of selected applicants by screening out firms with questionable financial disclosures. More importantly, it generates a significant deterrence effect, discouraging future applicants from submitting low-quality financial reports. However, we also find that public enforcement can lead to the rejection of some firms that may otherwise merit approval. These findings highlight both the benefits and costs of employing public enforcement to improve financial reporting in settings with weak institutional oversight. This paper was accepted by Eric So, accounting. Funding: K. Guo acknowledges financial support from the National Natural Science Foundation of China [Grants 72302146 and 72132006], the Shanghai Pujiang Program, and the National Social Science Fund of China [Grant 22AZD034]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.05042 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.05042",
+    "published_date": "2026-08-28",
+    "source": "MS",
+    "first_seen": "2026-08-29",
+    "abstract_missing": false,
+    "summary": "本文利用中国随机实施的IPO前现场检查项目，研究主动式公共执法对IPO申请者财务报告质量的因果效应。研究发现，该项目通过筛选掉财务披露存在可疑问题的企业，提升了被选中申请者的财务报告质量；更重要的是，它产生了显著的威慑效应，阻止了未来申请者提交低质量财务报告。然而，公共执法也可能导致一些本应获得批准的企业被否决。这些发现揭示了在制度监督薄弱的环境中，利用公共执法改善财务报告质量既存在收益也伴随成本。",
+    "keywords": [
+      "公共执法",
+      "IPO",
+      "财务报告质量",
+      "威慑效应",
+      "随机实验"
+    ],
+    "ai_comment": "利用自然实验设计识别了监管执法的因果效应，并同时揭示了其正面威慑与潜在误伤的双重影响，为监管政策评估提供了重要证据。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104325",
     "title": "Do proprietary traders provide liquidity?",
     "authors": [
