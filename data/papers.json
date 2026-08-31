@@ -1,5 +1,351 @@
 [
   {
+    "id": "w35691",
+    "title": "Accounting for Credibility: Fiscal-Monetary Interactions and the Credibility of Central Bank Mandates",
+    "authors": [
+      "Luigi Bocola",
+      "Gastón Chaumont",
+      "Alessandro Dovis",
+      "Rishabh Kirpalani"
+    ],
+    "abstract": "We develop a model for fiscal and monetary policy determination in the tradition of Sargent and Wallace (1981). Ex-ante, the government has incentives to delegate monetary policy to a central bank with an inflation targeting mandate. Ex-post, however, the government faces temptations to revoke the mandate to generate seigniorage revenues. The likelihood that the government will adhere to its commitment depends on shocks to fiscal fundamentals and the costs of reneging on the mandate. The economy endogenously transitions between a “monetary-dominant” regime where monetary policy adheres to its commitment and a “fiscal-dominant” regime where the fiscal authority interferes with monetary policy. These two regimes sharply differ in their implications for the comovement of inflation and debt-to-GDP ratios. We use the model as a measurement device to interpret the fiscal and monetary history in Colombia, Chile, and the U.S.",
+    "url": "https://www.nber.org/papers/w35691",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "本文构建了一个沿袭 Sargent 和 Wallace (1981) 传统的财政与货币政策决定模型。在事前，政府有激励将货币政策委托给一个具有通胀目标授权的中央银行；但在事后，政府面临撤销该授权以获取铸币税收入的诱惑。政府是否会信守承诺取决于财政基本面冲击以及违背授权的成本。经济会在“货币主导”制度（货币政策坚守承诺）与“财政主导”制度（财政当局干预货币政策）之间内生转换。这两种制度对通胀与债务-GDP 比率的联动关系具有截然不同的含义。作者将该模型作为测量工具，用于解释哥伦比亚、智利和美国的历史财政与货币经验。",
+    "keywords": [
+      "财政货币政策互动",
+      "央行授权可信度",
+      "货币主导",
+      "财政主导",
+      "通胀目标"
+    ],
+    "ai_comment": "本文通过内生制度转换框架将财政货币政策互动与央行授权可信度联系起来，并运用多国历史数据进行经验解释，为理解通胀与债务动态提供了新的分析视角。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35689",
+    "title": "Artificial Intelligence and Political Advice",
+    "authors": [
+      "Georgy Egorov",
+      "Konstantin Sonin"
+    ],
+    "abstract": "Artificial intelligence is increasingly used for political advice. We study an AI that is better informed about a payoff-relevant state and cares both about accuracy and about the perceived welfare of the individual it advises. The AI then has an incentive to tilt advice toward what the individual would like to believe, altering both the political content and the informativeness of its messages. Sophisticated individuals anticipate this distortion and filter out its predictable political component, yet still learn less because the AI makes its messages less responsive to the state. Individuals who underestimate the incentive instead mistake political accommodation for information, allowing political preferences to distort factual beliefs and generate polarization and radicalization. The model also shows that better-informed individuals receive more informative and less politically tilted advice, while greater sophistication can improve interpretation yet worsen communication itself. Contrary to the familiar echo-chamber intuition, political distortion is mitigated when political preferences and prior beliefs coincide and is most consequential when they diverge. We show how independently varying individuals’ stated preferences and prior beliefs can recover the AI’s responsiveness to the state even when the underlying state cannot be manipulated.",
+    "url": "https://www.nber.org/papers/w35689",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "本文研究人工智能在政治建议中的应用。AI对影响决策结果的状态信息有更好的了解，同时既追求信息准确性，又关心被建议者所感知的福利，因而有动机将建议向个人偏好的方向倾斜，从而改变其政治内容和信息量。成熟的个人会预期到这种扭曲并过滤掉其可预测的政治成分，但他们学到的信息仍然更少，因为AI使信息对状态的响应性降低。低估AI激励的人则会把政治迎合误认为真实信息，导致政治偏好扭曲事实信念，引发极化和激进化。模型还表明，信息更充分的个人会获得更有信息量且政治倾斜更少的建议；而更高的成熟度虽能改善对信息的解读，却可能恶化沟通本身。与常见的回音室直觉相反，当政治偏好与先验信念一致时，政治扭曲会减轻；当二者分歧时，扭曲最为严重。研究还展示了独立改变个人所宣称的偏好与先验信念，可以在潜在状态无法被操纵的情况下恢复AI对状态的真实响应性。",
+    "keywords": [
+      "人工智能",
+      "政治建议",
+      "信息传递",
+      "极化",
+      "先验信念"
+    ],
+    "ai_comment": "该文通过博弈论模型揭示了AI政治建议的内在扭曲机制，并挑战了关于回音室效应的传统直觉，为理解AI时代的信息操纵与政治极化提供了新视角。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35688",
+    "title": "Designing AI-Augmented Peer Review",
+    "authors": [
+      "Joshua S. Gans"
+    ],
+    "abstract": "AI-generated assessments of manuscripts could improve the quality of peer review, but sharing them with reviewers might decrease the information that editors possess about the manuscript. Human peer reviews add value because reviewers add what the AI assessment reveals. When both reviewers see the same assessment and make similar errors, they can replicate each other’s mistakes, coincidentally investigate related areas, and share the same blind spots. If AI assessment improves the quality of reviewers’ work while they investigate the manuscript, giving the report to only one reviewer can better combine AI assistance with independent, human investigation. If some reviewers already use AI-generated assessments on their own, changing the journal policy to allow sharing the assessment can improve peer review if the change takes some of the burden of investigation off private tools that make similar errors, though giving the assessment to only one reviewer may still outperform giving it to both or neither. Even a report delivered after the reviews are submitted can still shift what reviewers investigate if they know in advance which issues it will check. Journal policy will depend on the AI’s effects on reviewer effort and the questions they investigate, whether reviewers are willing and able to comply with the policy, the monitoring costs, and the journal’s ability to protect the confidentiality of reviewer identities and emails. Journals can evaluate competing policies without knowing the true quality of the manuscripts they review by randomly varying who receives the assessment and then comparing reviewer disagreement across different levels of report sharing.",
+    "url": "https://www.nber.org/papers/w35688",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "这篇论文研究如何在同行评审中设计AI辅助的审稿报告分享政策。作者指出，AI生成的稿件评估可能提高同行评审质量，但若与审稿人分享，可能减少编辑掌握的关于稿件的独立信息。人工评审的价值在于审稿人能补充AI评估未揭示的信息；当两位审稿人看到相同的AI评估并犯类似错误时，可能复制彼此的失误、巧合地研究相关领域并共享盲点。如果AI评估能提升审稿人调查稿件时的质量，那么只将报告给一位审稿人，可以更好地结合AI辅助与独立人工调查。如果部分审稿人已自行使用AI生成评估，改变期刊政策以允许分享AI评估，可能通过减轻私有工具（它们会犯类似错误）的调查负担来改进评审，但只给一位审稿人可能仍优于给两位或都不给。即使在审稿提交后才提供AI报告，如果审稿人提前知道报告将检查哪些问题，仍可能改变其调查方向。期刊政策将取决于AI对审稿人努力和调查问题的影响、审稿人是否愿意且能遵守政策、监控成本，以及期刊保护审稿人身份和电子邮件机密性的能力。期刊可以在不了解所审稿件真实质量的情况下评估竞争性政策，方法是随机分配谁收到评估报告，然后比较不同报告分享水平下审稿人之间的分歧。",
+    "keywords": [
+      "同行评审",
+      "AI辅助",
+      "审稿政策",
+      "信息设计",
+      "审稿人分歧"
+    ],
+    "ai_comment": "该论文从信息经济学角度切入AI在同行评审中的应用，揭示了分享AI评估可能带来的审稿人盲点复制问题，并提出了随机实验评估政策的实用方法。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35687",
+    "title": "The Safe-Debt Laffer Curve",
+    "authors": [
+      "Ricardo J. Caballero"
+    ],
+    "abstract": "Safe public debt can become a drag on aggregate demand even while the sovereign remains solvent. Its safety requires rollover support, market-making, and balance-sheet capacity. As these resources become scarce, the marginal cost of producing safe Treasury claims rises. The resulting fiscal adjustment reduces aggregate expenditure and can eventually outweigh the expansionary effect of increasing the supply of safe assets. Debt’s stationary contribution to aggregate demand then peaks, and the equilibrium safe rate reaches its maximum at the same debt stock. Beyond this point, further issuance lowers aggregate demand and the safe rate even though the debt remains safe. Empirically, I combine cash- Treasury and real-duration premia with estimates of how additional private supply reprices the outstanding Treasury stock. Over the past decade, the benchmark marginal cost more than doubled, rising from about 80 basis points in 2015Q1 to 187 basis points in 2026Q1. Using a 330-basis-point benchmark for the rate-equivalent wealth benefit, the safe-debt margin—the difference between this benefit and marginal cost—fell from about 250 to 143 basis points. At the CBO’s 2026 borrowing pace, the remaining safe-debt margin shrinks by about 18 basis points in one year, with further erosion accelerating as debt rises relative to financial capacity.",
+    "url": "https://www.nber.org/papers/w35687",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "本文提出并实证检验了“安全债务拉弗曲线”（Safe-Debt Laffer Curve）概念，指出即使主权国家有偿付能力，安全公共债务也可能对总需求形成拖累。安全债务的产生需要展期支持、做市和资产负债表容量等资源，随着这些资源变得稀缺，生产安全国债的边际成本上升，由此引发的财政调整会减少总支出，并可能最终超过增加安全资产供给的扩张效应。债务对总需求的稳态贡献因此达到峰值，同时均衡安全利率在同一债务存量处达到最大值；超过该点后，进一步发行债务会降低总需求和安全利率，尽管债务仍是安全的。实证方面，作者结合现金国债和实际久期溢价，以及额外私人供给如何重新定价存量国债的估计，发现过去十年中基准边际成本从2015年第一季度的约80个基点上升至2026年第一季度的187个基点，翻了一倍多。使用330个基点作为利率等效财富收益的基准，安全债务边际（该收益与边际成本之差）从约250个基点降至143个基点。按照CBO 2026年的借款速度，剩余安全债务边际一年内将缩减约18个基点，且随着债务相对于金融能力的上升，进一步侵蚀会加速。",
+    "keywords": [
+      "安全债务",
+      "拉弗曲线",
+      "国债",
+      "总需求",
+      "边际成本"
+    ],
+    "ai_comment": "本文创新性地将拉弗曲线思想应用于安全债务领域，揭示了国债供给对总需求的双重效应，并提供了量化估计，对财政政策和债务管理具有重要启示。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35686",
+    "title": "Legislating Longevity: State Public Health Laws and Mortality in the Early Twentieth Century",
+    "authors": [
+      "Martin H. Saavedra"
+    ],
+    "abstract": "State legislatures enacted numerous public-health laws during the twentieth century, most of which likely had negligible effects on mortality. Using data on the universe of state-level public-health laws and regulations, I test whether these laws, taken together, account for a meaningful decline in mortality. To address endogeneity, I instrument for public-health legislation using the legislative calendar. Both OLS and IV estimates indicate that public-health laws reduced mortality, whereas other laws and repeals of public-health laws did not. Legislatures were most effective at reducing deaths from waterborne and drainage-related diseases, half as effective for airborne communicable diseases, and one-fifth as effective for noncommunicable diseases. I use text analysis to classify the laws into twenty topics and find that laws targeting particular causes of death produced larger mortality declines for those causes. The universe of public-health laws can account for approximately two-thirds of the mortality decline during the study period.",
+    "url": "https://www.nber.org/papers/w35686",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "本研究利用二十世纪初美国各州公共卫生法律与法规的全样本数据，考察这些法律总体是否导致了死亡率的显著下降。为应对内生性问题，作者使用立法日历作为公共卫生立法的工具变量。OLS和IV估计均表明，公共卫生法律降低了死亡率，而其他法律及公共卫生法律的废除则没有这种效应。按疾病类型分析，公共卫生法律对水传播和排水相关疾病的死亡减少效果最强，对空气传播传染病的效果约为前者一半，对非传染性疾病的效果则约为前者的五分之一。通过文本分析将法律分为二十个主题后发现，针对特定死因的法律确实带来了该死因死亡率的更大下降。总体而言，在样本期间，公共卫生法律可以解释约三分之二的死亡率下降。",
+    "keywords": [
+      "公共卫生立法",
+      "死亡率",
+      "工具变量",
+      "文本分析",
+      "二十世纪初美国"
+    ],
+    "ai_comment": "该研究利用独特的全样本立法数据和巧妙的外生工具变量，首次系统评估了早期公共卫生立法的总体健康收益，为公共卫生史与计量经济学的交叉提供了严谨证据。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35685",
+    "title": "A Deep Case for Shallow Integration",
+    "authors": [
+      "John Sturm Becko",
+      "Arnaud Costinot"
+    ],
+    "abstract": "We study international cooperation in a general environment with pecuniary and non-pecuniary externalities across countries. We derive two main theorems, each demonstrating that market-access commitments, a form of shallow integration, are sufficient to implement globally efficient policies. When all cross-border externalities are pecuniary, the first theorem provides a new and unifying perspective on a series of results by Bagwell and Staiger. When some cross-border externalities are non-pecuniary, the second theorem shows that market-access commitments, properly extended, still sustain global efficiency. These extended market-access commitments reinterpret cross-border externalities as additional goods that are traded and priced at their social values. We discuss the implications for international cooperation on climate change and geopolitics.",
+    "url": "https://www.nber.org/papers/w35685",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "本文研究在存在跨境货币外部性和非货币外部性的一般环境中，国际合作如何实现全球效率。作者推导出两个主要定理，均表明市场准入承诺——一种浅层一体化形式——足以实施全球有效的政策。第一个定理在跨境外部性均为货币性时，为Bagwell和Staiger的一系列结果提供了新的统一视角。第二个定理在存在非货币跨境外部性时，证明适当扩展的市场准入承诺仍能维持全球效率，这种扩展将跨境外部性重新解释为按其社会价值交易和定价的额外商品。最后，论文讨论了这些发现对气候变化和国际地缘政治合作的启示。",
+    "keywords": [
+      "浅层一体化",
+      "市场准入承诺",
+      "跨境外部性",
+      "全球效率",
+      "国际合作"
+    ],
+    "ai_comment": "该论文通过一般化定理框架统一了既有贸易合作理论，并创新性地将非货币外部性纳入市场准入承诺的分析，为气候变化等全球性议题提供了理论工具。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "w35684",
+    "title": "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital",
+    "authors": [
+      "Tania Babina",
+      "Alex X. He",
+      "Renhao Jiang"
+    ],
+    "abstract": "Using a new firm-level measure of AI investment based on AI-skilled employment—spanning machine learning through generative and agentic AI—we show that AI investments are associated with productivity growth in recent years, but not over the previous decade. We trace the productivity gains to the accumulation of organization capital that AI helps create: durable firm-specific knowledge acquired through learning-by-doing that enables more efficient production. We build a novel measure of organization capital based on workers’ job descriptions and document that productivity gains are driven by AI-skilled jobs that build organization capital. Overall, our findings suggest that AI investment generates productivity growth by creating organization capital.",
+    "url": "https://www.nber.org/papers/w35684",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "本文利用基于AI技能就业构建的企业级AI投资度量（涵盖从机器学习到生成式AI和代理式AI），考察AI投资与生产率增长的关系。研究发现，近年AI投资与生产率增长显著正相关，但在此前的十年中这一关系不成立。作者将生产率增长归因于AI促进形成的组织资本——即通过边做边学积累的、企业特有的持久知识，使生产更高效。他们基于工人工种描述构建了新的组织资本度量，并证明生产率增长主要由构建组织资本的AI技能岗位驱动。整体结论是，AI投资通过创造组织资本带来生产率增长。",
+    "keywords": [
+      "AI投资",
+      "组织资本",
+      "生产率增长",
+      "AI技能就业"
+    ],
+    "ai_comment": "本文的亮点在于构建了组织资本的新度量，并从企业层面识别出AI投资通过积累组织资本提升生产率的机制；同时揭示了AI生产率效应的时滞性。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "w35677",
+    "title": "What Work Does Generative AI Do?",
+    "authors": [
+      "Alexander Bick",
+      "Adam Blandin",
+      "David J. Deming",
+      "Tyler R. Schumacher"
+    ],
+    "abstract": "We measure how workers use genAI for their jobs in a nationally representative survey linking genAI adoption to detailed occupations and tasks. Our data provide the first task-level genAI adoption indexes, which we show can inform analyses of genAI’s labor market impact. Exposure scores explain some, but far from all, of the variation in adoption across occupations and tasks. We also distinguish our indexes from measures based on genAI platform chat logs, which differ conceptually and tend to over-classify chats into generic activities spanning many occupations. Finally, we highlight that current adoption is widespread but shallow: genAI is used across many occupations and tasks, yet within most of them, fewer than half of workers adopt. This indicates substantial variation among workers doing very similar work, suggesting that understanding who adopts may matter as much as understanding which tasks genAI assists.",
+    "url": "https://www.nber.org/papers/w35677",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "该研究基于一项全国代表性调查，将生成式人工智能（genAI）的采用情况与详细的职业和任务相匹配，衡量工人如何在工作中使用genAI。研究首次构建了任务层面的genAI采用指数，并证明这些指数可用于分析genAI对劳动力市场的影响。研究发现，暴露分数只能部分解释不同职业和任务之间采用率的差异，远非全部。此外，基于genAI平台聊天日志的衡量指标在概念上有所区别，且往往将聊天过度归类为跨多个职业的通用活动。最后，研究强调当前genAI采用广泛但较浅：genAI被用于许多职业和任务，但在大多数职业和任务中，采用率不足一半。这表明从事非常相似工作的工人之间存在显著差异，意味着理解谁采用genAI可能与理解genAI辅助哪些任务同样重要。",
+    "keywords": [
+      "生成式人工智能",
+      "任务层面采用指数",
+      "劳动力市场",
+      "职业",
+      "调查"
+    ],
+    "ai_comment": "该研究首次构建任务层面的genAI采用指数，为分析genAI对劳动力市场的影响提供了新的微观数据基础，并揭示了采用率的异质性，具有重要的实证价值。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35673",
+    "title": "This Time Is (Mostly) Different: U.S. Tightening Cycles and Global Resilience in the 1980s vs 2020s",
+    "authors": [
+      "Drishan Banerjee",
+      "Galina Hale",
+      "Harrison Shieh"
+    ],
+    "abstract": "Post-pandemic inflation raised fears that U.S. monetary tightening would trigger a repeat of the 1982 sudden stop in capital flows to emerging economies. Yet as of 2026 no global recession has followed. We establish three stylized facts distinguishing the 1980s from the 2020s, beyond the shift to flexible exchange rates: monetary policy effectiveness, fiscal space, and external vulnerabilities. We rationalize them in a Mundell-Fleming framework with a fiscal space constraint, which predicts a central role for fiscal space in transmitting foreign currency risk-free rate increases. Cross-country evidence confirms that fiscal space shapes economic performance post-tightening.",
+    "url": "https://www.nber.org/papers/w35673",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "本文研究美国紧缩周期对全球经济的影响，特别是对比1980年代与2020年代的不同表现。疫情后的通胀曾引发担忧，认为美国货币紧缩将导致类似1982年新兴经济体资本流动突然停止的危机，但截至2026年并未出现全球衰退。作者建立了三个典型事实来区分1980年代和2020年代：货币政策有效性、财政空间和外部脆弱性（此外还有向浮动汇率制度的转变）。文章在带有财政空间约束的Mundell-Fleming框架下对这些事实进行理论合理化，该框架预测财政空间在传导外币无风险利率上升中起核心作用。跨国证据证实，财政空间决定了紧缩后的经济表现。",
+    "keywords": [
+      "美国货币紧缩",
+      "财政空间",
+      "新兴经济体",
+      "Mundell-Fleming框架",
+      "全球韧性"
+    ],
+    "ai_comment": "该论文通过历史比较与理论模型相结合，强调财政空间而非汇率制度是决定紧缩冲击传导的关键因素，为理解当前全球经济韧性提供了新视角。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35669",
+    "title": "Fool's Gold? How the USD lost its Shine",
+    "authors": [
+      "Kai Arvai",
+      "Nuno Coimbra",
+      "Marco Pinchetti"
+    ],
+    "abstract": "This paper investigates the determinants of international investors’ portfolio choices between gold and sovereign bonds in an environment shaped by economic and geopolitical shocks. We develop an endogenous portfolio choice model where reserve safety has a political dimension — sovereign bonds issued by the dominant reserve country are more liquid but exposed to the issuer’s sanctions authority, while gold offers sanctions protection at the cost of lower liquidity. Our model implies that US convenience yields fall during periods of high sanction risk, as safe-asset demand fragments along geopolitical lines. Empirically, periods of elevated geopolitical risk coincide with higher gold prices and 10-year Treasury yields. In such periods, the average composition of official reserves shifts toward gold, with countries less aligned with the US increasing their holdings to a greater extent.",
+    "url": "https://www.nber.org/papers/w35669",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "本文研究经济与地缘政治冲击环境下，国际投资者在黄金与主权债券之间的投资组合选择决定因素。作者构建了一个内生投资组合选择模型，其中储备安全具有政治维度：主导储备国家发行的主权债券流动性更高，但面临发行国制裁权力带来的风险，而黄金提供制裁保护但流动性较低。模型预言，在制裁风险高企时期，美国便利收益率下降，安全资产需求沿地缘政治界线分化。实证方面，地缘政治风险上升的时期往往伴随黄金价格上涨和10年期美国国债收益率上升；在这些时期，官方储备的平均构成转向黄金，且与美国地缘政治立场不一致的国家增持黄金的幅度更大。",
+    "keywords": [
+      "国际投资组合",
+      "黄金",
+      "主权债券",
+      "地缘政治风险",
+      "制裁风险"
+    ],
+    "ai_comment": "本文将制裁风险引入储备资产选择模型，为黄金价格与美债收益率在地缘政治紧张时期的同涨现象提供了政治经济学解释，视角新颖且具有政策含义。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "w35665",
+    "title": "Democratizing Private Markets: Equilibrium Predictions",
+    "authors": [
+      "Lubos Pastor",
+      "Robert F. Stambaugh",
+      "Lucian A. Taylor"
+    ],
+    "abstract": "We study how opening private markets to retail investors affects investors and firms. Calibrating a production-based asset-pricing model, we find that democratization raises retail investors' welfare, but barely. Retail investors benefit little from democratization even if they face no extra cost or other disadvantage relative to institutional investors. The private market is simply too small for improved risk sharing to matter much. Whether or not private-market retail investing is costly, democratization substantially reshapes private firms' ownership and materially reduces their cost of capital, leading them to grow. Private equity earns a positive CAPM alpha, which shrinks after democratization.",
+    "url": "https://www.nber.org/papers/w35665",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "本文研究私募市场向散户投资者开放（即“民主化”）对投资者和企业的影响。作者校准了一个生产型资产定价模型，发现民主化虽然提高了散户投资者的福利，但提升幅度非常有限。即使散户投资者相对于机构投资者没有额外的成本或其他劣势，其获益也很小，原因在于私募市场规模过小，改善风险分担所带来的收益不足以产生显著影响。无论散户投资私募市场是否存在额外成本，民主化都会显著重塑私募企业的所有权结构，并实质性降低其资本成本，进而推动企业增长。此外，私募股权在模型中具有正的CAPM alpha，而这一超额收益在民主化之后有所缩小。",
+    "keywords": [
+      "私募市场",
+      "散户投资者",
+      "资产定价模型",
+      "福利分析",
+      "CAPM alpha"
+    ],
+    "ai_comment": "该论文通过定量模型校准，指出私募市场民主化对散户福利的改善极为有限，挑战了普遍预期，并揭示了资本成本与企业增长的重要传导机制。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "w35664",
+    "title": "Rising Income Risk at the Top",
+    "authors": [
+      "J. Carter Braxton",
+      "Kyle F. Herkenhoff",
+      "Chengdai Huang",
+      "Michael Nattinger",
+      "Jonathan L. Rothbaum",
+      "Lawrence D.W. Schmidt"
+    ],
+    "abstract": "We document an increase in U.S. income risk from 1969 to 2019 using newly digitized IRS tax returns, distinguishing permanent from transitory risk. Since the 1970s, permanent income risk increased across the distribution, but most sharply among high earners, rising nearly 70% among the top 5%. We show that, even among top earners, large negative income shocks strongly predict financial distress and higher income risk is linked with higher savings. In a quantitative life-cycle model, rising income risk concentrated at the top lowers the risk-free rate by 0.7pp, increases wealth inequality, and contributes to the \"savings glut of the rich.\"",
+    "url": "https://www.nber.org/papers/w35664",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "本文利用新近数字化的美国国税局（IRS）纳税申报数据，记录了1969年至2019年美国收入风险的上升，并区分了永久性风险与暂时性风险。研究发现，自1970年代以来，永久性收入风险在整个收入分布中均有所上升，但在高收入群体中尤为显著，其中收入前5%的人群其永久性收入风险上升了近70%。此外，即使在顶层收入者中，较大的负收入冲击也能强烈预测财务困境，且更高的收入风险与更高的储蓄率相关。基于一个定量生命周期模型的模拟表明，集中在顶层的收入风险上升会使无风险利率下降0.7个百分点，加剧财富不平等，并促成“富人储蓄过剩”现象。",
+    "keywords": [
+      "收入风险",
+      "永久收入风险",
+      "税收数据",
+      "生命周期模型",
+      "财富不平等"
+    ],
+    "ai_comment": "该研究利用长期税收数据为顶层收入风险上升提供了新证据，并通过生命周期模型量化其对宏观利率和财富分配的影响，具有重要的政策含义。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35663",
+    "title": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks",
+    "authors": [
+      "Pattaraphon Kenny Wongchamcharoen",
+      "Kris Gulati",
+      "Min Min Fong",
+      "Abhishek Nagaraj"
+    ],
+    "abstract": "Most LLM benchmarks rank models on their ability to automate work tasks. In practice, however, models are often used to assist other (human or LLM) agents. The question that drives model selection is therefore not only which model produces the best output, but which model most improves the work of another (weaker) agent. We introduce a unified framework that evaluates the capability of models to automate and augment another agent's performance. Across seven economically grounded real-world tasks, an assistant model writes assistance text for a standardized lower-capacity worker model, which produces the deliverable. In automation mode, the assistant produces the output directly. Outputs are scored through blind pairwise comparisons by an LLM judge panel with task-specific rubrics, replicated across ten runs. Rankings across the two regimes are only modestly correlated, and the automation winner loses augmentation on five of seven tasks. Assistance is not reliably positive. The unaided worker outranks every assisted condition on three tasks, and only one model's guidance beats no guidance on average. These results suggest that automation ability is an incomplete proxy for assistance quality, motivating benchmarks that evaluate models according to the roles they play in human-AI and multi-agent systems.",
+    "url": "https://www.nber.org/papers/w35663",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "大多数LLM基准测试根据模型自动化工作任务的能力对其进行排名，但实际上模型常被用来辅助其他（人类或LLM）智能体，因此模型选择的关键问题不仅是哪个模型产出最佳结果，更是哪个模型最能提升另一个（较弱的）智能体的工作表现。本文引入一个统一框架，同时评估模型的自动化能力和增强（辅助）能力。在七个基于经济学的真实世界任务中，一个助理模型为标准化低能力工人模型撰写辅助文本，由工人模型生成最终交付物；在自动化模式下，助理模型直接生成输出。输出由LLM评委小组根据任务特定评分标准进行盲法配对比较，并重复十次运行。结果显示，两种模式下的排名仅有中等程度的相关性，自动化模式下的获胜者在七个任务中有五个在增强模式下反而落败。辅助并非总是正面的：在三个任务中，未受辅助的工人模型排名高于所有受辅助条件；且平均而言，只有一个模型的指导优于无指导。这些结果表明，自动化能力不能完整代表辅助质量，从而激励基准测试应根据模型在人类-AI和多方智能体系统中所扮演的角色来评估模型。",
+    "keywords": [
+      "LLM基准测试",
+      "自动化与增强",
+      "多智能体系统",
+      "任务评估"
+    ],
+    "ai_comment": "该论文首次系统区分自动化与增强两种能力，通过实证发现两者排名相关性低，对实际模型选择具有重要启示。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35662",
+    "title": "The Impact of Fiscal Policy to Promote Healthy Diets: Evidence from the Navajo Nation",
+    "authors": [
+      "John Cawley",
+      "Mallory Dreyer",
+      "Kosali I. Simon"
+    ],
+    "abstract": "One of the most comprehensive fiscal policies to improve diet was adopted by the Navajo Nation; the Healthy Diné Nation Act (HDNA) of 2014-15 consists of two parts: 1) an exemption from sales tax for healthy foods and beverages; and 2) a tax increase on unhealthy foods and beverages. Together, they create a price wedge of 7-8% between healthy and unhealthy foods. We estimate difference-in-difference models and event studies that estimate the effect of the HDNA on a variety of health conditions relating to diet and weight for newborns and mothers which are recorded in birth certificate data. We find no evidence that the HDNA improved these outcomes; our estimates are precise enough to rule out improvements in gestational diabetes as large as those reported for U.S. city SSB taxes. Possible explanations for the null results include incomplete retailer implementation and cross-border shopping.",
+    "url": "https://www.nber.org/papers/w35662",
+    "published_date": "2026-08-31",
+    "source": "NBER",
+    "first_seen": "2026-08-31",
+    "abstract_missing": false,
+    "summary": "该研究评估了纳瓦霍族实施的《健康迪纳民族法案》（HDNA）这一最全面的改善饮食财政政策的效果。该政策包含两部分：对健康食品和饮料免征销售税，同时对不健康食品和饮料增税，从而在健康与不健康食品之间形成7-8%的价格差。作者利用出生证明数据中记录的新生儿和母亲与饮食及体重相关的多种健康状况，采用双重差分模型和事件研究法估计HDNA的影响。结果显示，没有证据表明HDNA改善了这些健康结果；估计精度足以排除美国城市含糖饮料税所报告的妊娠期糖尿病改善幅度。可能的解释包括零售商执行不完整和跨境购买行为。",
+    "keywords": [
+      "财政政策",
+      "健康饮食",
+      "税收",
+      "双重差分",
+      "纳瓦霍族"
+    ],
+    "ai_comment": "该研究利用独特政策情境和精确估计，为财政政策改善饮食的有效性提供了因果证据，并揭示了执行和边境效应可能导致的无效结果，对政策设计具有重要启示。",
+    "topic": "其他"
+  },
+  {
     "id": "10.1287/mnsc.2024.06477",
     "title": "Harmonizing Safety and Speed: A Human-Algorithm Approach to Enhance the FDA’s Medical Device Clearance Policy",
     "authors": [
