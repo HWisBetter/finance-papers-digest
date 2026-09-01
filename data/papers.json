@@ -346,6 +346,29 @@
     "topic": "其他"
   },
   {
+    "id": "10.1093/rfs/hhag079",
+    "title": "Long Rates, Life Insurers, and Credit Spreads",
+    "authors": [
+      "Ziang Li"
+    ],
+    "abstract": "This paper proposes a new channel through which long-term interest rates transmit to credit spreads. When life insurers carry negative duration gaps, higher rates reduce their liabilities more than assets. Rate increases therefore boost equity and risk-bearing capacity, lowering equilibrium credit spreads. Empirically, I test this channel with bond-level yields and a maturity-based discontinuity in bond ownership. Insurers’ trades confirm the mechanism: after rates rise, insurers shift portfolios towards riskier, high-yield bonds. As rates increase, bonds more heavily held by life insurers experience greater spread reductions. The results show that institutional duration mismatch shapes credit spreads and corporate financing conditions. (JEL G12, G22, G23, E50)",
+    "url": "https://doi.org/10.1093/rfs/hhag079",
+    "published_date": "2026-08-31",
+    "source": "RFS",
+    "first_seen": "2026-09-01",
+    "abstract_missing": false,
+    "summary": "本文提出了一种新的传导渠道，解释长期利率如何影响信用利差。当寿险公司持有负久期缺口时，利率上升会使其负债减少的幅度大于资产，从而提升其权益和风险承受能力，进而压低均衡信用利差。实证分析利用债券层面收益率和基于期限的债券所有权不连续性检验该渠道，发现保险公司交易行为支持这一机制：利率上升后，寿险公司将投资组合转向风险更高、收益更高的债券；且随着利率上升，被寿险公司持有更多的债券其信用利差下降幅度更大。结果表明，机构投资者的久期错配会影响信用利差和企业融资条件。",
+    "keywords": [
+      "信用利差",
+      "长期利率",
+      "寿险公司",
+      "久期缺口",
+      "机构投资者"
+    ],
+    "ai_comment": "该论文从机构投资者资产负债表视角切入，揭示寿险公司久期错配这一结构性因素对信用利差的定价作用，为利率传导机制提供了新的微观证据。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2024.06477",
     "title": "Harmonizing Safety and Speed: A Human-Algorithm Approach to Enhance the FDA’s Medical Device Clearance Policy",
     "authors": [
