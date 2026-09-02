@@ -1,5 +1,55 @@
 [
   {
+    "id": "10.1287/mnsc.2022.01740",
+    "title": "Group-Sparse Matrix Factorization for Transfer Learning of Word Embeddings",
+    "authors": [
+      "Kan Xu",
+      "Xuanyi Zhao",
+      "Hamsa Bastani",
+      "Osbert Bastani"
+    ],
+    "abstract": "Unstructured text provides decision makers with a rich data source in many domains, ranging from product reviews in retail to nursing notes in healthcare. To leverage this information, words are typically translated into word embeddings—vectors that encode the semantic relationships between words—through unsupervised learning algorithms such as matrix factorization. However, learning word embeddings from new domains with limited training data can be challenging because the meaning/usage may be different in the new domain; for example, the word “positive” typically has positive sentiment, but often has negative sentiment in medical notes because it may imply that a patient tested positive for a disease. In practice, we expect that only a small number of domain-specific words may have new meanings. We propose an intuitive two-stage estimator that exploits this structure via a group-sparse penalty to efficiently transfer learn domain-specific word embeddings by combining large-scale text corpora (such as Wikipedia) with limited domain-specific text data. We bound the generalization error of our transfer learning estimator, proving that it can achieve high accuracy with substantially less domain-specific data when only a small number of embeddings are altered between domains. Furthermore, we prove that all local minima identified by our nonconvex objective function are statistically indistinguishable from the global minimum under standard regularization conditions, implying that our estimator can be computed efficiently. Our results provide the first bounds on group-sparse matrix factorization, which may be of independent interest. We empirically evaluate our approach compared with state-of-the-art fine-tuning heuristics from natural language processing. This paper was accepted by Chung Piaw Teo, optimization. Funding: The authors gratefully acknowledge indispensable financial support from the Wharton Analytics Initiative and the Wharton Dean’s Fund. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2022.01740 .",
+    "url": "https://doi.org/10.1287/mnsc.2022.01740",
+    "published_date": "2026-09-01",
+    "source": "MS",
+    "first_seen": "2026-09-02",
+    "abstract_missing": false,
+    "summary": "这篇论文研究如何利用大规模语料和有限领域文本进行词嵌入的迁移学习，以解决新领域数据不足及词义变化（如“positive”在医疗笔记中常为负面含义）的问题。作者提出一个两阶段估计器，通过组稀疏惩罚来利用“只有少数领域词具有新含义”的结构，将维基百科等大规模文本语料与少量领域特定数据结合。理论方面，作者给出了该迁移学习估计器的泛化误差界，证明当领域间仅少量嵌入改变时，用极少领域数据即可达到高精度；同时证明在标准正则化条件下，非凸目标函数的全部局部最小值与全局最小值在统计上不可区分，从而保证计算有效性。这些结果首次给出了组稀疏矩阵分解的界，具有独立意义。实证方面，作者将该方法与自然语言处理中最先进的微调启发式方法进行了比较。",
+    "keywords": [
+      "词嵌入",
+      "迁移学习",
+      "矩阵分解",
+      "组稀疏惩罚",
+      "泛化误差"
+    ],
+    "ai_comment": "本文为词嵌入迁移学习提供了严格的理论保证，特别是非凸优化下局部最优与全局最优的统计等价性，并首次给出组稀疏矩阵分解的误差界，是该领域的实质性贡献；实证结果也显示了其相对于现有微调方法的优势。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1093/rfs/hhag080",
+    "title": "Flow",
+    "authors": [
+      "Caitlin Dannhauser",
+      "Jeffrey Pontiff"
+    ],
+    "abstract": "Performance chasing is pervasive in active mutual funds, index mutual funds, and ETFs, with positive flow-performance sensitivity evident in both broad-based and niche funds and for the skill and nonskill components of returns. The sensitivity of ETFs is greatest, with insignificant differences between active and index mutual funds. The heightened sensitivity of ETFs is not explained by benchmark design or exchange trading, and is amplified by institutional ownership. Institutional trading of ETFs follows a momentum strategy, rather than flow management or benchmarking. Institutional herding and the outsourcing of investment management to model portfolios heightens the performance sensitivity of ETF flows. (JEL G10, G11, G23)",
+    "url": "https://doi.org/10.1093/rfs/hhag080",
+    "published_date": "2026-09-01",
+    "source": "RFS",
+    "first_seen": "2026-09-02",
+    "abstract_missing": false,
+    "summary": "本文研究了主动型共同基金、指数共同基金和ETF中的业绩追逐行为。摘要指出，业绩追逐在这些基金中普遍存在，正的资金流-业绩敏感性既出现在宽基基金也出现在专业性基金中，并且对收益的技能成分和非技能成分均有体现。其中，ETF的资金流对业绩的敏感性最高，而主动型与指数型共同基金之间的敏感性差异不显著。ETF更高的敏感性无法由基准设计或交易所交易机制解释，但会被机构持股放大。机构对ETF的交易遵循动量策略，而非出于流量管理或基准配置目的。此外，机构羊群行为以及将投资管理外包给模型组合的做法也会增强ETF资金流的业绩敏感性。",
+    "keywords": [
+      "业绩追逐",
+      "ETF",
+      "基金资金流",
+      "机构投资者",
+      "羊群行为"
+    ],
+    "ai_comment": "本文聚焦于不同基金类型之间业绩追逐敏感性的比较，特别是揭示ETF的高敏感性及其机构层面的驱动因素，为理解交易所交易产品的资金流动行为提供了新的证据。",
+    "topic": "行为金融"
+  },
+  {
     "id": "w35691",
     "title": "Accounting for Credibility: Fiscal-Monetary Interactions and the Credibility of Central Bank Mandates",
     "authors": [
