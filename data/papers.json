@@ -1,5 +1,56 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104359",
+    "title": "Anatomy of a run: The Terra Luna crash",
+    "authors": [
+      "Jiageng Liu",
+      "Igor Makarov",
+      "Antoinette Schoar"
+    ],
+    "abstract": "We examine the dramatic collapse of the Terra blockchain in May 2022. Using granular blockchain data, we show that the run resulted from the interaction of three economic forces: subsidized money creation, real-time observability of transactions, and investor concentration. The early success of Terra’s algorithmic stablecoin, UST, was fueled by highly subsidized deposit rates, which attracted many investors but failed to engage them meaningfully with other services. Blockchain transparency allowed investors to observe Terra’s worsening fundamentals and monitor each other’s exits in real time. Larger and sophisticated investors reacted faster to adverse signals and served as catalysts for the run. These findings challenge the idea that blockchain transparency levels the playing field and highlight how greater observability and concentration can amplify financial fragility. Our results contribute to the understanding of the limits of private money creation and the dynamics of runs in fully digital financial systems.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104359",
+    "published_date": "2026-09-02",
+    "source": "JFE",
+    "first_seen": "2026-09-03",
+    "abstract_missing": false,
+    "summary": "该研究剖析了2022年5月Terra区块链的剧烈崩盘。利用细粒度的区块链数据，作者发现这次挤兑源于三种经济力量的相互作用：受补贴的货币创造、交易的实时可观测性以及投资者集中度。Terra算法稳定币UST的早期成功依赖于高补贴存款利率，吸引了大量投资者，但未能使其有意义地参与其他服务。区块链的透明性使投资者能够实时观察到Terra基本面的恶化和彼此的退出行为。规模更大、更成熟的投资者对不利信号反应更快，成为挤兑的催化剂。这些发现挑战了区块链透明性能够拉平信息优势的传统观点，并强调更强的可观测性与投资者集中度可能放大金融脆弱性。研究有助于理解私人货币创造的局限性，以及在全数字化金融体系中挤兑的动态过程。",
+    "keywords": [
+      "算法稳定币",
+      "挤兑",
+      "区块链可观测性",
+      "投资者集中度",
+      "金融脆弱性"
+    ],
+    "ai_comment": "该论文利用链上微观数据揭示加密稳定币挤兑的独特机制，挑战了“区块链透明度天然有益”的简单认知，对数字经济时代的金融监管具有重要启示。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104356",
+    "title": "Tax loss carryforwards and firms’ risk",
+    "authors": [
+      "Jack Favilukis",
+      "Ron Giammarino",
+      "Jose Pizarro",
+      "Mikhail Simutin"
+    ],
+    "abstract": "Tax loss carryforwards (TLCF) — accumulated losses that reduce taxable income — are an important and risky corporate asset. We show theoretically how TLCF affect equity risk: If TLCF are low and used with certainty, equity risk decreases in TLCF because TLCF represent a safe cash flow; if TLCF are high, equity risk increases in TLCF because TLCF increase after-tax cash flows in good times but may expire unused or be deferred in bad times. In a calibrated model the latter effect dominates and risk increases in TLCF on average. Empirically, TLCF positively forecast firms’ volatility, beta, and return.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104356",
+    "published_date": "2026-09-02",
+    "source": "JFE",
+    "first_seen": "2026-09-03",
+    "abstract_missing": false,
+    "summary": "本文研究税收亏损结转（Tax loss carryforwards, TLCF）对企业股权风险的影响。TLCF是累计亏损，可减少未来应税收入，是一种重要但具有风险性的企业资产。作者在理论上证明，TLCF对股权风险的影响取决于其规模：当TLCF较低且确定能被使用时，由于TLCF代表安全的现金流，股权风险随TLCF增加而降低；当TLCF较高时，股权风险随TLCF增加而上升，因为高TLCF在好时期能增加税后现金流，但在坏时期可能到期未用或被递延。在校准模型中，后一种效应占主导，平均而言风险随TLCF增加而上升。实证上，TLCF正向预测企业的波动率、贝塔和收益率。",
+    "keywords": [
+      "税收亏损结转",
+      "股权风险",
+      "企业税",
+      "波动率",
+      "贝塔"
+    ],
+    "ai_comment": "该论文通过理论模型与实证检验揭示了税收亏损结转对企业风险的非线性影响，补充了税收与资产定价交叉领域的理解，具有重要的理论与实践意义。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1287/mnsc.2022.01740",
     "title": "Group-Sparse Matrix Factorization for Transfer Learning of Word Embeddings",
     "authors": [
