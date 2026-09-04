@@ -1,5 +1,80 @@
 [
   {
+    "id": "10.1287/mnsc.2024.07615",
+    "title": "Immigrants in Finance: Evidence from Hedge Funds",
+    "authors": [
+      "Jun Chen",
+      "Shenje Hshieh",
+      "Melvyn Teo",
+      "Feng Zhang"
+    ],
+    "abstract": "We examine the value of skilled immigrants in finance by exploiting evidence from visa lotteries. We find that hedge fund management companies that secure more H-1B visas in random lotteries deliver higher alphas, Sharpe ratios, and information ratios. The superior performance of funds with high H-1B visa allocations can be attributed to well-paid and highly educated H-1B workers with quantitative skills. H-1B workers add value by helping hedge funds develop distinctive investment strategies, arbitrage prominent stock anomalies, and overcome capacity constraints. Hedge funds appear to exploit labor market frictions as alpha generation is greatest by workers from countries with the longest wait times for U.S. permanent residency. This paper was accepted by Lukas Schmid, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07615 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07615",
+    "published_date": "2026-09-03",
+    "source": "MS",
+    "first_seen": "2026-09-04",
+    "abstract_missing": false,
+    "summary": "本文利用美国H-1B签证抽签的自然实验，考察熟练移民对金融行业的价值。研究发现，在随机抽签中获得更多H-1B签证的对冲基金管理公司，其基金能够取得更高的alpha、夏普比率和信息比率。高H-1B配额基金的优异表现可归因于高薪、高学历且具备定量技能的H-1B员工。这些员工通过帮助对冲基金开发独特的投资策略、对著名股票异象进行套利以及克服容量约束来增加价值。此外，对冲基金似乎利用了劳动力市场的摩擦，来自美国永久居留等待时间最长国家的员工所创造的alpha最大。",
+    "keywords": [
+      "H-1B签证",
+      "对冲基金",
+      "基金业绩",
+      "劳动力市场摩擦"
+    ],
+    "ai_comment": "利用签证抽签的随机性提供了高技能移民影响金融机构绩效的因果证据，视角新颖且识别策略干净。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1093/rfs/hhag072",
+    "title": "Stablecoin Runs and the Centralization of Arbitrage",
+    "authors": [
+      "Yiming Ma",
+      "Yao Zeng",
+      "Anthony Lee Zhang"
+    ],
+    "abstract": "Stablecoins are cryptoassets designed to be pegged to the dollar, but they are backed by imperfectly liquid USD assets. We show that stablecoins feature concentrated arbitrage: the largest issuer, Tether, allows only six agents in an average month to redeem stablecoins for cash. We argue that the issuers’ choice of arbitrage concentration reflects a trade-off: efficient arbitrage improves stablecoin price stability in secondary markets but amplifies run risks by reducing investors’ price impact from selling stablecoins. Our findings imply that policies designed to improve stablecoin price stability may have the unintended consequence of increasing stablecoin run risks. (JEL G01, G23)",
+    "url": "https://doi.org/10.1093/rfs/hhag072",
+    "published_date": "2026-09-03",
+    "source": "RFS",
+    "first_seen": "2026-09-04",
+    "abstract_missing": false,
+    "summary": "本文研究稳定币（stablecoins）的挤兑风险与套利活动集中化之间的关系。稳定币是旨在锚定美元的加密资产，但其储备资产为流动性不完全的美元资产。作者发现稳定币存在显著的套利集中化现象：以最大发行商 Tether 为例，平均每月仅有六个代理能够以现金赎回稳定币。文章提出，发行商对套利集中度的选择反映了一种权衡：更高效的套利有助于提升稳定币在二级市场的价格稳定性，但同时会降低投资者抛售稳定币时的价格冲击，从而放大挤兑风险。研究结论表明，旨在改善稳定币价格稳定性的政策可能产生 unintended consequence，即增加稳定币挤兑风险。",
+    "keywords": [
+      "稳定币",
+      "挤兑风险",
+      "套利集中化",
+      "Tether",
+      "价格稳定"
+    ],
+    "ai_comment": "本文揭示了稳定币设计中套利集中化与挤兑风险的深层权衡，对监管政策具有警示意义。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104355",
+    "title": "Signaling with debt currency choice",
+    "authors": [
+      "Egemen Eren",
+      "Semyon Malamud",
+      "Haonan Zhou"
+    ],
+    "abstract": "Firms often expose themselves to currency risk by borrowing in foreign currencies, even when the local currency actually provides a better hedge in downturns. Motivated by this novel fact, we develop an international corporate finance model in which firms facing adverse selection choose the foreign currency share of their debt. In the unique separating equilibrium, good firms optimally expose themselves to currency risk to signal their type. Crucially, the nature of this equilibrium depends on the co-movement between cash flows and the exchange rate. We provide evidence consistent with the predictions of the model using a granular dataset including more than 4800 firms in 19 emerging markets and 5700 firms in 22 advanced economies between 2005 and 2021. The signaling mechanism is most salient for firms in emerging markets and also those subject to greater information asymmetries in advanced economies. These findings are important for assessing and managing risks from currency mismatches on corporate balance sheets.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104355",
+    "published_date": "2026-09-03",
+    "source": "JFE",
+    "first_seen": "2026-09-04",
+    "abstract_missing": false,
+    "summary": "本文基于企业即使在本币能更好对冲衰退风险时仍倾向于外币借款这一事实，构建了一个国际公司金融模型，考察面临逆向选择的企业如何选择债务中的外币比例。在唯一的分离均衡中，优质企业会主动暴露货币风险，以此向市场传递自身类型信号。平衡的性质关键取决于现金流与汇率的联动关系。作者使用包含2005年至2021年间19个新兴市场4800多家企业和22个发达经济体5700多家企业的细粒度数据，提供了与模型预测一致的证据。信号机制在新兴市场中最为显著，在发达经济体中则主要存在于信息不对称程度较高的企业。研究发现对评估和管理企业资产负债表上的货币错配风险具有重要启示。",
+    "keywords": [
+      "外币债务",
+      "信号",
+      "货币错配",
+      "汇率风险",
+      "国际公司金融"
+    ],
+    "ai_comment": "论文将债务货币选择视为一种信号机制，并系统检验了现金流与汇率联动对均衡性质的影响，为理解跨国企业资本结构提供了新视角。",
+    "topic": "国际金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104359",
     "title": "Anatomy of a run: The Terra Luna crash",
     "authors": [
