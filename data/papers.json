@@ -1,5 +1,80 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104353",
+    "title": "Removing the fine print: Disclosure, standardized products, and consumer outcomes",
+    "authors": [
+      "Sheisha Kulkarni",
+      "Santiago Truffa",
+      "Gonzalo Iberti"
+    ],
+    "abstract": "Hidden fees can distort consumer decision-making. In response, regulators historically have (a) improved disclosure to make fees more salient or (b) standardized products to restrict what fees can be charged. We use Chilean administrative data and a multi-stage natural experiment to separately identify the effects of disclosure and standardization on repayment. We find that disclosure reduces delinquencies by 13.7 percentage points (40%) and default by 1.68 percentage points (98%), whereas standardization has no effect. We find no effect on initial loan terms, suggesting that disclosure’s effects are specific to repayment behavior: specifically, disclosure improves borrowers’ understanding of their credit obligations.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104353",
+    "published_date": "2026-09-05",
+    "source": "JFE",
+    "first_seen": "2026-09-05",
+    "abstract_missing": false,
+    "summary": "本文研究隐藏费用如何扭曲消费者决策，以及监管机构采取的两种应对措施：改进信息披露以凸显费用，或通过标准化产品限制可收取的费用。作者利用智利行政数据和一项多阶段自然实验，分别识别了披露与标准化对贷款还款行为的影响。结果显示，信息披露使贷款拖欠率降低13.7个百分点（降幅40%），违约率降低1.68个百分点（降幅98%），而标准化产品没有显著影响。此外，两种干预对初始贷款条款均无影响，表明披露的作用并非通过改变合同条款，而是通过改善借款人对自身信用义务的理解，从而最终影响还款行为。",
+    "keywords": [
+      "信息披露",
+      "标准化产品",
+      "消费者金融",
+      "自然实验",
+      "贷款违约"
+    ],
+    "ai_comment": "本文通过自然实验巧妙分离了两种监管工具的效果，发现改善披露而非产品标准化才是提升消费者还款表现的关键，为监管政策提供了行为层面的证据。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "10.1287/mnsc.2025.02735",
+    "title": "Narrative Ambiguity Matters",
+    "authors": [
+      "Xinbei Wei",
+      "Qunzi Zhang"
+    ],
+    "abstract": "By extracting information from economic news articles, this paper proposes a novel measure of narrative-based ambiguity that captures investors’ attitudes toward narrative uncertainty and exhibits strong in- and out-of-sample predictive power for the stock market returns. It reveals general ambiguity aversion except in high loss probability scenarios in which ambiguity tolerance emerges. Further tests confirm the significant pricing power and distinct information of the narrative ambiguity on top of existing ambiguity measures, such as survey- and return-based ambiguity. By aligning industry-specific narrative ambiguity, we construct a superior predictor for market returns with the predictability predominantly driven by the ambiguity from consumption-, energy-, and technology-related sectors. Our findings also carry broad implications as the predictability remains significant across international markets and other asset classes. This paper has been accepted by Will Cong for the Virtual Special Issue on Digital Finance. Funding: Q. Zhang acknowledges research support from the National Natural Science Foundation of China [Grant 72573098], the National Natural Science Foundation of China Excellent Young Researcher Project [Grant 72222013], and the National Key R&D Program of China [Grant 2023YFA1009200]. X. Wei acknowledges research support from the Capital University of Economics and Business Scientific Research Project [Grant XRZ2025010]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.02735 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.02735",
+    "published_date": "2026-09-04",
+    "source": "MS",
+    "first_seen": "2026-09-05",
+    "abstract_missing": false,
+    "summary": "本文通过从经济新闻文章中提取信息，提出了一种新颖的基于叙事的模糊性度量方法，用以捕捉投资者对叙事不确定性的态度，并证明该度量对股票市场收益具有强大的样本内和样本外预测能力。研究发现，投资者普遍存在模糊厌恶，但在损失概率较高的情境下则表现出模糊容忍。进一步检验证实，该叙事模糊性在现有模糊性度量（如基于调查和基于收益的模糊性）之外，具有显著的定价能力和独特信息。通过整合行业特定的叙事模糊性，本文构建了一个更优的市场收益预测因子，其预测能力主要由消费、能源和技术相关行业的模糊性驱动。研究结果还表明，该预测能力在国际市场和其他资产类别中依然显著，具有广泛的应用意义。",
+    "keywords": [
+      "叙事模糊性",
+      "经济新闻",
+      "股市收益预测",
+      "模糊厌恶",
+      "定价能力"
+    ],
+    "ai_comment": "本文创新性地利用新闻文本构建叙事模糊性度量，揭示了投资者在不同损失概率下模糊态度的非对称性，且其预测能力跨市场稳健，为数字金融与叙事经济学提供了新视角。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1111/jofi.70073",
+    "title": "Discretionary Announcement Timing and Stock Returns",
+    "authors": [
+      "Kerry Back",
+      "Bruce I. Carlin",
+      "Seyed M. Kazempour",
+      "Chloe L. Xie"
+    ],
+    "abstract": "Discretionary announcement timing generates high conditional risk premia of stock returns and a pattern of negative drifts followed by positive jumps. Average announcement returns are much larger than unconditional risk premia. Capital Asset Pricing Model alphas turn negative when conditioning on nondisclosure because betas rise faster than risk premia prior to disclosures, but average announcement returns may appear to be too large relative to market risk when betas are estimated from past returns. The effects are amplified when multiple firms exercise discretion over the timing of correlated announcements. We present evidence that firms time earnings announcements in a manner consistent with our model.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70073",
+    "published_date": "2026-09-04",
+    "source": "JF",
+    "first_seen": "2026-09-05",
+    "abstract_missing": false,
+    "summary": "本文研究管理层自主选择公告时机对股票收益的影响。模型表明，公司自主决定信息披露时机会产生较高的条件风险溢价，并形成公告前负漂移、公告时正跳跃的收益模式，且平均公告收益远大于无条件风险溢价。当以不披露为条件时，资本资产定价模型（CAPM）的alpha转为负值，原因是公告前beta的上升速度快于风险溢价；而当beta基于历史收益估计时，平均公告收益相对于市场风险可能显得过大。当多家公司对相关公告的时机行使自主权时，这些效应会被放大。实证证据显示，公司选择盈利公告时的行为与模型预测一致。",
+    "keywords": [
+      "公告时机",
+      "条件风险溢价",
+      "股票收益",
+      "资本资产定价模型",
+      "负漂移与跳跃"
+    ],
+    "ai_comment": "该论文将公告择时纳入资产定价框架，揭示了条件风险溢价与CAPM异常之间的内在联系，为理解公告前后的收益模式提供了新视角。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2024.07615",
     "title": "Immigrants in Finance: Evidence from Hedge Funds",
     "authors": [
@@ -21526,6 +21601,25 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.7047058",
     "first_seen": "2026-08-22",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Social Capital and Innovation: Evidence from Facebook Friendship Networks",
+    "authors": [
+      "Brad Cannon",
+      "David Hirshleifer",
+      "Joshua Thornton"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7390618",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7390618",
+    "first_seen": "2026-09-05",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
