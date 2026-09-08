@@ -175,6 +175,32 @@
     "topic": "银行与金融中介"
   },
   {
+    "id": "10.1016/j.jfineco.2026.104358",
+    "title": "The value of trademarks",
+    "authors": [
+      "Pranav Desai",
+      "Ekaterina Gavrilova",
+      "Rui C. Silva",
+      "Margarida Soares"
+    ],
+    "abstract": "We create a new measure of the value of an important, but previously understudied, intangible asset —trademarks. We quantify the stock market reaction to the publication of individual trademarks manually matched to U.S. publicly traded firms. We find that trademarks are used ubiquitously and possess substantial value: the median trademark is worth $20 million. Firms that obtain new trademarks subsequently launch new products, increase sales, invest more in physical capital, hire more employees, increase production output, become more profitable, and increase their market share considerably. For identification, we exploit the quasi-random assignment of USPTO examining attorneys to trademarks.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104358",
+    "published_date": "2026-09-07",
+    "source": "JFE",
+    "first_seen": "2026-09-08",
+    "abstract_missing": false,
+    "summary": "本文构建了一种新的方法来衡量一项重要但此前研究不足的无形资产——商标的价值。作者将美国上市公司手动匹配其商标公告，并量化股票市场对这些商标发布公告的反应。研究发现，商标被广泛使用且具有显著价值：中位数商标价值为2000万美元。获得新商标的公司随后会推出新产品、增加销售额、增加实物资本投资、雇佣更多员工、提高生产产出、提升盈利能力并显著增加市场份额。在识别策略上，文章利用了美国专利商标局（USPTO）审查律师的准随机分配来建立因果效应。",
+    "keywords": [
+      "无形资产",
+      "商标",
+      "股票市场反应",
+      "公司价值",
+      "识别策略"
+    ],
+    "ai_comment": "该论文填补了商标这一重要无形资产价值度量的空白，并利用审查律师准随机分配提供了因果证据，具有方法创新性和实证价值。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104353",
     "title": "Removing the fine print: Disclosure, standardized products, and consumer outcomes",
     "authors": [
