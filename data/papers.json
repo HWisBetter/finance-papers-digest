@@ -1,5 +1,54 @@
 [
   {
+    "id": "10.1093/rfs/hhag075",
+    "title": "Corporate Financial Constraints, Minimum Wage Policies, and Employment",
+    "authors": [
+      "Alona Bilokha",
+      "Iftekhar Hasan",
+      "Stefano Manfredonia",
+      "Ronald W Masulis"
+    ],
+    "abstract": "We examine how corporate financial constraints shape firms’ employment responses to minimum wage policies. Exploiting the federal minimum wage increase during the financial crisis and variation in firms’ debt maturity structures at the crisis onset, we find that financially constrained firms significantly reduce employment. To assess external validity, we analyze staggered state-level minimum wage increases over time. Consistent with the crisis evidence, employment declines in establishments of constrained firms, whereas unconstrained firms expand in areas with a larger supply of minimum-wage workers and higher turnover. Our results highlight the central role of financial constraints in mediating labor policy effects.",
+    "url": "https://doi.org/10.1093/rfs/hhag075",
+    "published_date": "2026-09-11",
+    "source": "RFS",
+    "first_seen": "2026-09-12",
+    "abstract_missing": false,
+    "summary": "本文研究企业面临的财务约束如何影响其对最低工资政策的就业反应。在识别策略上，作者首先利用金融危机期间联邦最低工资的上调，并结合危机爆发时企业债务期限结构（debt maturity structures）的横截面差异进行实证分析，发现受财务约束的企业会显著削减就业。为检验结论的外部有效性，作者进一步考察了各州层面随时间交错推进（staggered）的最低工资上调。结果与金融危机的证据一致：受约束企业的分支机构就业下降，而未受约束的企业则在最低工资工人供给更充足、员工流动率（turnover）更高的地区实现扩张。研究结论强调，财务约束在劳动政策效果的传导中扮演着核心的中介角色。",
+    "keywords": [
+      "最低工资",
+      "财务约束",
+      "就业",
+      "债务期限结构"
+    ],
+    "ai_comment": "论文把公司金融中的财务约束与劳动经济学的最低工资政策衔接起来，借助债务期限结构构造识别，并用金融危机冲击与州级交错上调两套情境相互印证，为劳动政策的异质性企业效应提供了较为可信的证据。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104362",
+    "title": "True liquidity and fundamental prices: U.S. tick size pilot",
+    "authors": [
+      "Rohit Allena",
+      "Tarun Chordia"
+    ],
+    "abstract": "We develop a big data methodology to estimate true stock prices and liquidity, explicitly accounting for rounding effects from the minimum tick size. Applying this approach to the tick size pilot (TSP), which increased the tick size for randomly selected stocks, we find that the TSP boosts market maker profits but does not enhance liquidity. This result aligns with theoretical predictions but contrasts with prior empirical studies. Our rounding-adjusted liquidity measures capture TSP-induced trading restrictions and reduced inventory holdings of market makers while exhibiting less dispersion across exchanges, thus validating our methodology and the accuracy of our measures.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104362",
+    "published_date": "2026-09-11",
+    "source": "JFE",
+    "first_seen": "2026-09-12",
+    "abstract_missing": false,
+    "summary": "本文开发了一套 big data methodology，用于估计 true stock prices 与 liquidity，并显式校正最小报价单位（minimum tick size）造成的 rounding effects。作者将该方法应用于 tick size pilot (TSP)——该试点对随机选定的股票提高了 minimum tick size——发现 TSP 提升了 market maker profits，但并未改善 liquidity。这一发现与理论预测一致，却与既有实证研究形成对比。经 rounding 调整后的 liquidity 指标能够捕捉 TSP 引发的交易限制和 market maker 库存持有下降，同时在不同交易所之间呈现更小的离散度，从而验证了该方法的有效性和所测指标的准确性。",
+    "keywords": [
+      "流动性",
+      "最小报价单位",
+      "做市商",
+      "股票真实价格",
+      "市场微观结构"
+    ],
+    "ai_comment": "该文的亮点在于将最小报价单位导致的舍入效应显式纳入真实价格与流动性估计，并据此发现 TSP 并未提升流动性、反而推高做市商利润，提示流动性测度与报价粒度会显著影响实证结论。",
+    "topic": "市场微观结构"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104354",
     "title": "Great Recession babies: How are startups shaped by macro conditions at birth?",
     "authors": [
@@ -450,6 +499,79 @@
     ],
     "ai_comment": "该论文通过理论模型与实证检验揭示了税收亏损结转对企业风险的非线性影响，补充了税收与资产定价交叉领域的理解，具有重要的理论与实践意义。",
     "topic": "公司金融"
+  },
+  {
+    "id": "10.1287/mnsc.2024.08559",
+    "title": "Board Fiduciary Duty, Communication, and Compensation",
+    "authors": [
+      "Lin Qiu"
+    ],
+    "abstract": "This paper examines the consequences of tightening board fiduciary duty rules in a setting that combines agency frictions and strategic communication. A firm needs to tailor an investment decision (e.g., mergers and acquisitions) to the state of the world. The CEO is privately informed about the state but is an empire builder. The board can learn about the firm’s state through exerting a costly information gathering effort or through communication. In equilibrium, the board values communication more than the shareholders do. By granting the CEO a larger equity stake, the board fosters communication, and this reduces its need for costly information acquisition. Anticipating this, rational shareholders can adjust the board’s equity stake to boost its effort incentive. Surprisingly, the benefit to shareholders from stricter fiduciary duty rules is nonmonotonic in CEO agency conflicts and can diminish as the severity of agency conflict increases. Moreover, welfare analysis shows that strengthening fiduciary duty rules can weaken board effort incentives and reduce total equity value and overall welfare. Paradoxically, these efficiency losses occur when CEO agency conflicts are severe—the very situations in which stringent fiduciary duty rules are typically introduced to address such concerns. These findings suggest unintended consequences of strengthening board fiduciary duty rules and highlight the importance of taking boards as strategic, self-interested entities. This paper was accepted by Prof. Ranjani Krishnan, accounting.",
+    "url": "https://doi.org/10.1287/mnsc.2024.08559",
+    "published_date": "2026-09-01",
+    "source": "MS",
+    "first_seen": "2026-09-12",
+    "abstract_missing": false,
+    "summary": "本文在一个同时包含代理摩擦与策略性沟通的框架下，考察收紧董事会信托责任规则（board fiduciary duty rules）的后果。企业需要根据世界状态来调整投资决策（如并购 M&A）。CEO 掌握关于状态的私有信息，但具有帝国建造（empire building）倾向。董事会可以通过付出 costly information gathering effort 或通过沟通来了解企业状态。均衡中，董事会比股东更重视沟通；通过给予 CEO 更大的股权份额，董事会促进沟通，从而降低其对高成本信息获取的需求。预期到这一点，理性股东可以调整董事会的股权份额以提升其努力激励。出乎意料的是，股东从更严格信托责任规则中获得的收益对 CEO 代理冲突呈非单调关系，且可能随代理冲突严重程度上升而减少。福利分析还表明，强化信托责任规则可能削弱董事会的努力激励，降低总股权价值与整体福利；悖论的是，这些效率损失恰好发生在 CEO 代理冲突严重之时——而这正是通常引入严格信托责任规则以应对的情形。这些发现揭示了强化董事会信托责任规则的非意图后果，并凸显了将董事会视为策略性、自利实体加以建模的重要性。",
+    "keywords": [
+      "董事会信托责任",
+      "代理冲突",
+      "策略性沟通",
+      "股权激励",
+      "公司治理"
+    ],
+    "ai_comment": "本文将董事会刻画为策略性、自利的行动者，并纳入 CEO 私有信息与策略性沟通，揭示了信托责任规则与股东收益之间的非单调关系以及代理冲突严重时强化规则反而损害效率与福利的反直觉结果，对治理改革评估具有重要启示。",
+    "topic": "公司治理"
+  },
+  {
+    "id": "10.1287/mnsc.2024.07730",
+    "title": "The Eco-Gender Gap in Boardrooms",
+    "authors": [
+      "Po-Hsuan Hsu",
+      "Kai Li",
+      "Yihui Pan"
+    ],
+    "abstract": "To examine what women bring to the boardroom table, we first show a significant gender gap in viewing the tradeoff between environmental and economic benefits, using the Gallup Poll. We next demonstrate that such a gender gap extends into boardrooms. Having female directors is associated with more environmentally friendly business operations, but also with higher investment in environmental protection at the same time. Results from an analysis using a California law change that imposed board gender quotas point to a potentially causal effect of female directors. Employing a rich set of director demographics and board characteristics, we show that none consistently supersedes the share of female directors in explaining corporate environmental performance, suggesting that female directors play a unique role in explaining firms’ investment in environmental protection. This paper was accepted by Caroline Flammer, sustainability. Funding: P.-H. Hsu acknowledges the Yushan Fellow Program by the Ministry of Education and the National Science and Technology Council, Taiwan [Grants MOE-108-YSFMS-0004-012-P1 and NSTC 113-2410-H-007-008-MY3], the Mack Institute for Innovation Management at the Wharton School, University of Pennsylvania, and the E.SUN Academic Award for financial and research support. K. Li received financial support from the Canada Research Chair in Corporate Governance, the Social Sciences and Humanities Research Council of Canada [Grant 435-2022-0285], and the Montalbano Centre for Responsible Leadership Development at UBC Sauder School of Business. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07730 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07730",
+    "published_date": "2026-09-01",
+    "source": "MS",
+    "first_seen": "2026-09-12",
+    "abstract_missing": false,
+    "summary": "本文关注女性进入董事会究竟带来了什么，尤其聚焦于企业环境决策中的性别差异。作者首先利用 Gallup Poll 数据发现，个体在权衡环境收益与经济收益时存在显著的性别差异：女性更倾向于偏重环境收益。随后，作者将这一差异延伸到公司董事会层面，发现董事会中拥有女性董事与企业更环保的经营方式相关，同时也与企业更高的环保投资相关。为缓解内生性问题，作者借助加州一项强制董事会性别配额的法律变更进行分析，结果指向女性董事对企业环境行为可能具有因果效应。进一步地，作者引入丰富的董事人口学特征与董事会特征，发现没有任何一项特征能够稳定地超越女性董事比例来解释企业环境绩效，表明女性董事在解释企业环保投资方面扮演着独特角色。",
+    "keywords": [
+      "女性董事",
+      "董事会性别配额",
+      "企业环境绩效",
+      "环保投资",
+      "公司治理"
+    ],
+    "ai_comment": "论文的亮点在于把个体层面的环境—经济权衡性别差异与董事会层面的企业环境决策打通，并借助加州董事会性别配额法案提供准实验的因果证据；通过控制大量董事与董事会特征，进一步凸显女性董事比例在解释企业环境绩效上的不可替代性。",
+    "topic": "公司治理"
+  },
+  {
+    "id": "10.1287/mnsc.2023.01401",
+    "title": "Stripping the Discount Curve—A Robust Machine Learning Approach",
+    "authors": [
+      "Damir Filipović",
+      "Markus Pelger",
+      "Ye Ye"
+    ],
+    "abstract": "We introduce a robust, flexible, and easy-to-implement method for estimating the yield curve from treasury securities. Our nonparametric method learns the discount curve in a function space that we motivate by economic principles. We show in an extensive empirical study on U.S. Treasury securities that our method strongly dominates all parametric and nonparametric benchmarks. It achieves substantially smaller out-of-sample yield and pricing errors while being robust to outliers and data selection choices. We attribute the superior performance to the optimal trade-off between flexibility and smoothness, which positions our method as the new standard for yield curve estimation. This paper was accepted by Agostino Capponi, finance. Supplemental Material: The data files are available at https://doi.org/10.1287/mnsc.2023.01401 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.01401",
+    "published_date": "2026-09-01",
+    "source": "MS",
+    "first_seen": "2026-09-12",
+    "abstract_missing": false,
+    "summary": "本文提出了一种稳健、灵活且易于实现的国债收益率曲线估计方法。该非参数方法在由经济原理驱动的函数空间中学习贴现曲线（discount curve）。作者基于美国国债进行了广泛的实证研究，结果显示该方法显著优于所有参数与非参数基准：它在样本外收益率误差和定价误差上均明显更小，同时对异常值和数据选择具有稳健性。作者将这种优越表现归因于灵活性与平滑性之间的最优权衡，并认为该方法有望成为收益率曲线估计的新标准。",
+    "keywords": [
+      "收益率曲线",
+      "贴现曲线",
+      "非参数估计",
+      "机器学习",
+      "美国国债"
+    ],
+    "ai_comment": "论文的亮点在于将经济原理约束的函数空间与非参数学习结合，在灵活性与平滑性之间取得最优权衡，并在美国国债数据上全面超越基准且保持稳健性，为收益率曲线估计提供了新的方法标准。",
+    "topic": "金融计量/机器学习"
   },
   {
     "id": "10.1287/mnsc.2022.01740",
