@@ -1,5 +1,55 @@
 [
   {
+    "id": "10.1287/mnsc.2024.07171",
+    "title": "Crossborder Carbon Taxes and Shareholder Wealth",
+    "authors": [
+      "Marta Alonso",
+      "Martin Jacob",
+      "Gaizka Ormazabal",
+      "Robert Raney"
+    ],
+    "abstract": "This paper examines the effect of crossborder carbon taxes on shareholder wealth. Using stock price reactions to key announcements of the European Union (EU) carbon border adjustment mechanism (CBAM), we find that EU purchasers of CBAM-covered products experience significantly lower returns than non-European producers of such products. The effect is strongest for EU purchasers with non-EU supply chains. Further cross-sectional analyses show that these negative reactions are more pronounced when CBAM-related costs are higher and when firms have a lower ability to pass them on to their trading partners. Overall, the evidence suggests that equity markets expect crossborder carbon pricing on imports to be costly for EU firms. This paper was accepted by Caroline Flammer, sustainability. Funding: G. Ormazabal thanks the Cátedra de Dirección de Instituciones Financieras y Gobierno Corporativo del Grupo Santander, the R + D + I Project [Reference PID2022-143016NB-I00 funded by MCIN/AEI/10.13039/501100011033], and ERDF “A way of making Europe” [Grant TED2021-132531B-I00 funded by MCIN/AEI/10.13039/501100011033, the European Union NextGeneration EU/PRTR, IESE’s High Impact Projects Initiative–2023, and the Social Trends Institute]. R. Raney acknowledges financial support from the Spanish Ministry of Science and Innovation [Grant PID2019-111143GB-C31 funded by MICIU/AEI/10.13039/501100011033] and [Grant PID2023-150744NB-C41 funded by MICIU/AEI/ 10.13039/501100011033]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07171 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07171",
+    "published_date": "2026-09-16",
+    "source": "MS",
+    "first_seen": "2026-09-17",
+    "abstract_missing": false,
+    "summary": "本文考察跨境碳税对股东财富的影响，利用股票价格对欧盟碳边境调节机制（CBAM）关键公告的反应进行事件研究。结果显示，购买受 CBAM 覆盖产品的欧盟采购企业，其收益率显著低于生产同类产品的非欧洲生产商；这一效应在供应链位于非欧盟地区的欧盟采购企业中最为强烈。进一步的横截面分析表明，当与 CBAM 相关的成本更高、以及企业将成本转嫁给贸易伙伴的能力更弱时，负向价格反应更加明显。总体而言，证据表明股票市场预期对进口征收跨境碳价将给欧盟企业带来较高成本。",
+    "keywords": [
+      "碳边境调节机制",
+      "股东财富",
+      "股票价格反应",
+      "供应链",
+      "气候政策"
+    ],
+    "ai_comment": "本文以 CBAM 公告作为准自然实验，首次从股权市场估值角度量化跨境碳定价的财富分配效应，并揭示成本转嫁能力与供应链区位是决定损失大小的关键机制，为碳边境政策的经济后果提供了直接的市场证据。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1287/mnsc.2024.04540",
+    "title": "Sequential Search Transformer: A Deep Structural Econometric Model",
+    "authors": [
+      "Yicheng Song",
+      "Tianshu Sun"
+    ],
+    "abstract": "Modeling and leveraging consumers’ dynamic search behaviors presents significant business opportunities. Although deep learning methods excel at processing vast consumer data for predictive tasks, their opaque nature limits interpretability and fails to explicitly model consumer decision making. In contrast, economic theory suggests that consumers follow a sequential search strategy, evaluating alternatives until they find the best match for their preferences. To bridge this gap, we propose the sequential search transformer (SST), a deep structural econometric model that integrates deep learning with sequential search theory to model search and purchase decisions. SST unifies these two approaches into an end-to-end trainable model, improving both predictive accuracy and policy evaluation capabilities. Unlike conventional deep learning models, SST explicitly models consumer decision making, and unlike existing sequential search models, it enables consumer behavior modeling across sessions and sequentially resolves utility uncertainty for searched items. We provide a theoretical analysis of the identification strategy for the SST model and show that all parameters can be identified under the proposed framework. Then, we apply SST to a data set with detailed clickstream data collected from a U.S. e-commerce website. Empirical evaluations show that SST outperforms state-of-the-art deep learning and structural models in predicting consumer searches and purchases. Moreover, policy experiments demonstrate SST’s effectiveness in optimizing product recommendations and new product promotion strategies, ultimately enhancing consumers experience and driving revenue growth. This paper was accepted by Hemant Bhargava, information systems. Supplemental Material: The online appendices and data files are available at https://doi.org/10.1287/mnsc.2024.04540 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.04540",
+    "published_date": "2026-09-16",
+    "source": "MS",
+    "first_seen": "2026-09-17",
+    "abstract_missing": false,
+    "summary": "论文关注消费者动态搜索行为的建模问题：深度学习虽擅长处理海量消费者数据做预测，但其“黑箱”性质削弱了可解释性，也无法显式刻画消费者的决策过程；而经济学理论认为消费者遵循序列搜索（sequential search）策略，会在不断评估备选项直到找到最匹配自身偏好的商品后才停止。为弥补这一鸿沟，作者提出序列搜索 Transformer（sequential search transformer, SST），这是一个将深度学习与序列搜索理论相结合的深度结构计量模型（deep structural econometric model），用于同时建模搜索决策与购买决策。SST 把两类方法统一为一个端到端可训练的模型，从而同时提升预测精度与政策评估能力：与常规深度学习模型不同，SST 显式建模消费者决策；与既有序列搜索模型不同，它能够跨 session（会话）建模消费者行为，并顺序地（sequentially）消解被搜索商品的效用不确定性。作者给出了 SST 识别策略的理论分析，证明在所提框架下所有参数均可识别。随后将 SST 应用于一个来自美国某电商网站、包含详细 clickstream 数据的数据集。实证结果显示，SST 在预测消费者搜索与购买行为方面优于最先进的深度学习模型和结构模型；政策实验进一步表明，SST 能有效优化商品推荐与新商品推广策略，最终提升消费者体验并推动收入增长。",
+    "keywords": [
+      "序列搜索理论",
+      "Transformer",
+      "深度结构计量模型",
+      "消费者搜索行为",
+      "电子商务"
+    ],
+    "ai_comment": "论文的亮点在于把序列搜索结构模型与深度学习真正做成端到端可训练的单一框架，并给出参数可识别的理论证明，使模型既有预测力又保留对消费者决策的显式解释，同时通过跨 session 建模和次序化解效用不确定性拓展了传统搜索模型的能力边界。",
+    "topic": "金融计量/机器学习"
+  },
+  {
     "id": "w35754",
     "title": "Asset Privatization as Intergenerational Redistribution",
     "authors": [
