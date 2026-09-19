@@ -1,5 +1,78 @@
 [
   {
+    "id": "10.1287/mnsc.2023.00580",
+    "title": "Bad News Bearers: The Negative Tilt of the Financial Press",
+    "authors": [
+      "Betty Liu",
+      "Marina Niessner",
+      "Eric C. So"
+    ],
+    "abstract": "We show that increased media coverage strongly predicts lower subsequently announced firm fundamentals, earnings surprises, and higher likelihoods of bankruptcy, dividend cuts, and delistings. Additionally, we find that media articles often convey negative sentiment, with investor attention increasing around the publication of negative articles, suggesting that the media tilts coverage toward negative events to drive readership. We also show that media coverage initially impedes price discovery for negative news through an attention effect and that investors respond sluggishly to the negative signal embedded in media coverage decisions, leading to a gradual incorporation of the negative information into prices and return predictability. This paper was accepted by David Simchi-Levi, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2023.00580 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.00580",
+    "published_date": "2026-09-18",
+    "source": "MS",
+    "first_seen": "2026-09-19",
+    "abstract_missing": false,
+    "summary": "论文考察了财经媒体的负面报道倾向（negative tilt）及其对资产价格的影响。作者发现，媒体报道的增加能够强烈预测随后公布的公司基本面走弱、负向盈余惊喜，以及更高的破产、削减股利和退市概率。进一步地，媒体文章常传递负面情绪，且负面文章发表时投资者关注度上升，这表明媒体为吸引读者（readership）而在报道上偏向负面事件。研究还表明，媒体报道最初会通过注意力效应（attention effect）阻碍负面消息的价格发现；而投资者对媒体报道决策中所隐含的负面信号反应迟缓，导致负面信息逐步融入价格，并产生收益可预测性（return predictability）。",
+    "keywords": [
+      "媒体报道",
+      "负面倾向",
+      "价格发现",
+      "投资者关注",
+      "收益可预测性"
+    ],
+    "ai_comment": "论文的亮点在于把媒体是否报道这一决策本身视为负面信号，并区分了注意力效应与投资者反应迟缓两种机制，从而揭示媒体偏向负面以获取阅读量的激励如何导致负面信息渐进地反映到价格中。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1093/rfs/hhag086",
+    "title": "The Coherence Side of Rationality Theory and Evidence from Firm Plans",
+    "authors": [
+      "Pamela Giustinelli",
+      "Stefano Rossi"
+    ],
+    "abstract": "Using the Duke Survey data on firms’ internal plans, we show that over 80% of Chief Financial Officer (CFO) forecasts align closely with simple heuristics taught in MBA textbooks. We introduce forecast coherence—internal consistency across forecasts of jointly determined variables—as a benchmark for evaluating these heuristics. Nearly half of CFOs issue forecasts closely aligned with incoherent heuristics. Such forecasts are associated with predictable reversals in forecast errors, lower firm performance, and underinvestment. We develop a parsimonious model illustrating how reliance on restricted forecasting heuristics can generate incoherence and resource misallocation within firms, consistent with our evidence (JEL D84, D22, L2, M2, G32)",
+    "url": "https://doi.org/10.1093/rfs/hhag086",
+    "published_date": "2026-09-18",
+    "source": "RFS",
+    "first_seen": "2026-09-19",
+    "abstract_missing": false,
+    "summary": "论文利用 Duke Survey 关于企业内部计划的数据，考察 CFO 预测在多大程度上依赖 MBA 教材所教授的简单 heuristics，并提出 forecast coherence——即对共同决定变量所做预测之间的内部一致性——作为评价这些 heuristics 的基准。结果显示，超过 80% 的 CFO 预测与简单 heuristics 高度吻合；接近一半的 CFO 所发布的预测与 incoherent heuristics 紧密一致。这类预测与预测误差的可预测反转、更低的企业绩效以及投资不足相关。作者进一步构建一个简约模型，说明依赖受限的预测 heuristics 如何导致预测不连贯以及企业内部资源配置不当，与实证发现相一致。",
+    "keywords": [
+      "CFO预测",
+      "预测一致性",
+      "启发式规则",
+      "企业绩效",
+      "资源配置"
+    ],
+    "ai_comment": "论文的亮点在于提出 forecast coherence 这一可检验基准，将 CFO 预测所依赖的 heuristics 与后续预测误差反转、企业绩效和投资不足联系起来，并用简约模型解释资源配置扭曲，为理解管理预期形成的理性边界提供了新视角。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1093/rfs/hhag083",
+    "title": "Optimal Time-Consistent Debt Policies",
+    "authors": [
+      "Andrey Malenko",
+      "Anton Tsoy"
+    ],
+    "abstract": "We study a dynamic trade-off model where shareholders can freely adjust debt but lack commitment to future debt policies. A debt policy is time-consistent if shareholders prefer it to deviating and losing credibility ex post. We characterize the optimal time-consistent policy in a class. It includes a stable regime, where shareholders actively manage liabilities to maintain the target interest coverage ratio, and a distress regime triggered by large negative shocks, where shareholders temporarily abandon the target. This policy has realistic properties and bridges the gap between the static trade-off theory of debt and theory based on the leverage ratchet effect. (JEL G32, C73)",
+    "url": "https://doi.org/10.1093/rfs/hhag083",
+    "published_date": "2026-09-18",
+    "source": "RFS",
+    "first_seen": "2026-09-19",
+    "abstract_missing": false,
+    "summary": "本文研究一个动态 trade-off 模型，其中股东可以自由调整债务水平，但无法对未来债务政策做出可信承诺。论文将时间一致性定义为：股东在事后不会选择偏离既有债务政策、进而丧失信誉，并在此约束下刻画某一政策类中的最优时间一致（time-consistent）债务政策。该最优政策包含两种状态：一是稳定状态（stable regime），股东主动管理负债以维持目标利息覆盖率（interest coverage ratio）；二是由大幅负向冲击触发的财务困境状态（distress regime），此时股东会暂时放弃该目标。作者指出该政策具有与现实相符的特征，并据此弥合了静态债务 trade-off 理论与基于杠杆棘轮效应（leverage ratchet effect）的理论之间的差距。",
+    "keywords": [
+      "资本结构",
+      "时间一致性",
+      "动态 trade-off 模型",
+      "杠杆棘轮效应",
+      "利息覆盖率"
+    ],
+    "ai_comment": "论文将承诺缺失与时间一致性约束引入动态资本结构权衡框架，刻画出的政策兼具稳定目标管理与困境中的临时偏离，为调和静态 trade-off 理论与杠杆棘轮效应文献提供了统一视角。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1287/mnsc.2024.07171",
     "title": "Crossborder Carbon Taxes and Shareholder Wealth",
     "authors": [
@@ -4006,6 +4079,31 @@
       "违约风险"
     ],
     "ai_comment": "本文用一个统一的主权违约模型解释了利率长期下降、股权估值稳定和经济增长放缓等多个现象，视角独特且富有解释力。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "10.1093/rfs/hhag025",
+    "title": "Sovereign Default and the Decline in Interest Rates",
+    "authors": [
+      "Max Miller",
+      "James D Paron",
+      "Jessica A Wachter"
+    ],
+    "abstract": "Sovereign debt yields have undergone a historic decline over the last half century. Standard explanations, including aging populations and increases in asset demand from abroad, encounter difficulties when confronted with the full range of evidence. We propose an explanation based on a decline in inflation and default risk. We show that a model with sovereign default captures the decline in interest rates, the stability of equity valuation ratios, and the reduction in investment and output growth. Calibrations of the model post-COVID suggest that sovereign default risk may have returned.",
+    "url": "https://doi.org/10.1093/rfs/hhag025",
+    "published_date": "2026-07-22",
+    "source": "RFS",
+    "first_seen": "2026-09-19",
+    "abstract_missing": false,
+    "summary": "过去半个世纪，主权债务收益率出现了历史性下降。既有主流解释（如人口老龄化和海外资产需求增加）难以同时解释全部经验证据。为此，作者提出一种基于通胀风险和违约风险下降的解释，并构建一个包含主权违约的模型。该模型能够同时刻画利率下降、股票估值比率保持稳定以及投资和产出增长放缓等典型事实。模型校准结果显示，post-COVID 时期主权违约风险可能已经重新上升。",
+    "keywords": [
+      "主权违约",
+      "利率下降",
+      "通胀风险",
+      "股票估值",
+      "宏观金融"
+    ],
+    "ai_comment": "论文把长期利率下行、股票估值稳定与增长放缓纳入一个带主权违约的宏观模型统一解释，视角独特；post-COVID 校准提示违约风险回归，对理解当前主权债定价与宏观政策具有现实意义。",
     "topic": "宏观金融"
   },
   {
