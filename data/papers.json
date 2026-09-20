@@ -1,5 +1,51 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104364",
+    "title": "Discounting timing strategies",
+    "authors": [
+      "Toomas Laarits"
+    ],
+    "abstract": "A variety of timing strategies shown to generate alpha and high Sharpe ratios at the monthly horizon exhibit substantially deteriorated performance at longer investment horizons. The effect is large: multi-factor alphas are more than halved going from one-month to 10-year returns, and factors that exploit time-series predictability drive them to zero. I argue that such return dynamics reflect compensation for exposure to shocks that are particularly risky from a long-horizon investor’s perspective. I illustrate the idea by showing that seasonality in the volatility of price-of-risk and expected-cash-flow shocks generates seemingly profitable timing strategies.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104364",
+    "published_date": "2026-09-19",
+    "source": "JFE",
+    "first_seen": "2026-09-20",
+    "abstract_missing": false,
+    "summary": "论文关注一个在实证资产定价中被广泛讨论的现象：许多择时策略（timing strategies）在月度频率上能够产生显著的 alpha 和高 Sharpe ratio，但当把评估期限拉长后，其表现会大幅恶化。作者发现这一效应的幅度相当大——从一个月收益到十年收益，多因子 alpha（multi-factor alpha）下降超过一半，而那些依赖时间序列可预测性（time-series predictability）的因子，其 alpha 甚至被完全抹平至零。对此，作者提出解释：这种收益随期限变化的动态，反映的是投资者承担了某种冲击（shocks）所获得的补偿，而这些冲击从长期投资者的角度看尤其具有风险。为说明这一机制，作者进一步展示：风险价格（price-of-risk）冲击与预期现金流（expected-cash-flow）冲击的波动率存在季节性（seasonality），这种季节性恰好能够生成表面上看似可获利的择时策略。由此，论文将看似异常的择时收益重新解释为对长期风险暴露的补偿，强调评估策略表现时必须考虑投资期限。",
+    "keywords": [
+      "择时策略",
+      "多因子alpha",
+      "Sharpe ratio",
+      "长期投资者",
+      "风险补偿"
+    ],
+    "ai_comment": "论文的亮点在于把“期限”引入对择时策略的评价：同一策略在月度看似显著的 alpha，在长期视角下会减半甚至消失，从而把表面的择时能力重新解释为对长期风险冲击的补偿，并用风险价格与预期现金流冲击波动率的季节性提供了一个可验证的生成机制。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104360",
+    "title": "Do rights offerings reduce bargaining complexity in Chapter 11?",
+    "authors": [
+      "Gunjan Seth"
+    ],
+    "abstract": "This paper investigates the role of rights offerings in U.S. Chapter 11 reorganizations as a new market-based mechanism for mitigating bargaining frictions. Using novel hand-collected data, I document three facts: (i) over the past two decades, rights offerings financed 35% of large bankruptcies, (ii) they are predominantly proposed and underwritten by hedge funds, and (iii) their occurrence is highly correlated with stock market performance. In an instrumental variable setting, I find that compared with other sources of financing, rights offerings lead to higher creditor recoveries, shorter reorganization durations, and lower refiling rates. They also allow firms to access new capital without resorting to asset liquidations, which are value-reducing. My findings suggest that by alleviating key bargaining frictions in large and complex bankruptcy cases, rights offerings may improve the efficiency of resource allocation in the economy.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104360",
+    "published_date": "2026-09-19",
+    "source": "JFE",
+    "first_seen": "2026-09-20",
+    "abstract_missing": false,
+    "summary": "本文研究美国 Chapter 11 破产重整中 rights offerings（配股/供股发行）作为缓解谈判摩擦的新型市场化机制所起的作用。作者使用手工收集的新颖数据，记录了三个事实：(i) 过去二十年中，rights offerings 为 35% 的大型破产案件提供了融资；(ii) 这类发行主要由对冲基金（hedge funds）提出并承销；(iii) 其发生与股票市场表现高度相关。在工具变量（instrumental variable）设定下，作者发现，与其他融资来源相比，rights offerings 带来更高的债权人回收率（creditor recoveries）、更短的重整期限（reorganization durations）以及更低的再次申请破产率（refiling rates）。它还能让企业无需诉诸会减值（value-reducing）的资产清算即可获得新资本。作者认为，通过缓解大型复杂破产案件中的关键谈判摩擦，rights offerings 可能改善经济中资源配置的效率。",
+    "keywords": [
+      "破产重整",
+      "配股发行",
+      "对冲基金",
+      "债权人回收率",
+      "谈判摩擦"
+    ],
+    "ai_comment": "本文以手工收集的数据揭示了 rights offerings 在美国大型 Chapter 11 案件中的普遍性及其由对冲基金主导的特征，并通过工具变量方法把这一融资方式与更高的回收率、更短的重整时间和更低的再申请率联系起来，为理解破产谈判摩擦与资源配置效率提供了新的市场化视角。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1287/mnsc.2023.00580",
     "title": "Bad News Bearers: The Negative Tilt of the Financial Press",
     "authors": [
