@@ -277,6 +277,106 @@
     "topic": "宏观金融"
   },
   {
+    "id": "10.1287/mnsc.2024.07272",
+    "title": "Communicating Corporate Culture in Labor Markets: Evidence from Job Postings",
+    "authors": [
+      "Allen H. Huang",
+      "Joseph Pacelli",
+      "Terrence Tianshuo Shi",
+      "Yuan Zou"
+    ],
+    "abstract": "We examine how culture information in job postings influences firms’ hiring outcomes. We utilize machine learning methods to measure five core values present in job postings and demonstrate that culture information helps attract job seekers, as it is associated with higher worker inflows. The effect strengthens when job seekers value culture in their job searches and face frictions in learning about culture from other sources. Additional analyses indicate that individual cultural dimensions in job postings are more salient to job seekers when they have heightened preferences for that particular value. Finally, culture information is associated with a higher likelihood that interviews result in offers, and greater acceptance of those offers. Overall, our results suggest that culture information in job postings helps job seekers sort into culturally aligned firms. This paper was accepted by Ranjani Krishnan, accounting. Conflict of Interest Statement: The authors declare that they have no relevant or material financial interests that relate to the research described in this paper. Funding: A. H. Huang acknowledges financial support from the National Natural Science Foundation of China [Grant 72172079]. Supplemental Material: The data files are available at https://doi.org/10.1287/mnsc.2024.07272 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07272",
+    "published_date": "2026-09-21",
+    "source": "MS",
+    "first_seen": "2026-09-22",
+    "abstract_missing": false,
+    "summary": "本文考察招聘广告（job postings）中的企业文化信息如何影响企业的招聘结果。作者利用机器学习方法从招聘广告中测度五类核心价值观，发现文化信息有助于吸引求职者，表现为更高的劳动者流入（worker inflows）。当求职者在求职过程中更重视文化，并且从其他渠道了解企业文化的摩擦更大时，这一效应更强。进一步分析显示，当求职者对某一特定文化维度有更强偏好时，招聘广告中对应的文化维度对其更为显著。最后，文化信息与面试后获得录用通知的概率更高、以及求职者接受录用通知的比例更高相关。总体而言，招聘广告中的文化信息有助于求职者分选到文化契合的企业。",
+    "keywords": [
+      "企业文化",
+      "招聘广告",
+      "机器学习",
+      "劳动力市场",
+      "招聘结果"
+    ],
+    "ai_comment": "论文将机器学习用于度量招聘广告中的企业文化，并把文化披露与劳动者流入、录用和接受等招聘结果联系起来，为文化信息在劳动力市场中的匹配作用提供了较完整的证据。亮点在于同时考察求职者偏好和外部文化信息摩擦等调节机制，有助于理解企业文化如何通过信息披露影响自我选择。",
+    "topic": "会计与信息披露"
+  },
+  {
+    "id": "10.1111/1475-679x.70085",
+    "title": "When Is It Fairer to Allocate Resources for Training to Lower Performing Versus Higher Performing Employees?",
+    "authors": [
+      "Eric W. Chan",
+      "Mackenzie K. Feinberg",
+      "Martin Wiernsperger"
+    ],
+    "abstract": "Professional development and training are essential for organizational growth and success, but resource constraints often force managers into a dilemma: Should they train their lower performing or higher performing employees? While lower performers with greater skill gaps can benefit more from training than higher performers, managers must also consider employees’ fairness concerns. Using an interactive experiment, we predict and find that how employees react to their manager's allocation of training resources depends on the prevailing fairness norms in the work environment. When egalitarian norms dominate, such as when employees have little control over their job tasks, lower performers take the receipt of resources for training for granted and react negatively when the manager allocates those resources to higher performers instead. In contrast, when meritocratic norms dominate, such as when employees have more control over their job tasks, higher performers react more negatively than lower performers to not receiving training resources. Additional experiments suggest that these fairness‐norm–dependent reactions are most pronounced under tournament incentives and may disappear under individual performance‐based pay. Overall, our study highlights the importance for managers to consider both employee productivity and the prevailing fairness norms of the work environment when allocating scarce training resources.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70085",
+    "published_date": "2026-09-21",
+    "source": "JAR",
+    "first_seen": "2026-09-22",
+    "abstract_missing": false,
+    "summary": "论文关注管理者在培训资源受限时面临的分配困境：应把资源投向绩效较低的员工还是绩效较高的员工；低绩效者因技能差距更大而能从培训中获益更多，但管理者还必须考虑员工的公平关切。作者采用互动实验（interactive experiment）进行预测与检验，发现员工对管理者培训资源分配的反应取决于工作环境中占主导地位的公平规范。当平均主义（egalitarian）规范占主导时（例如员工对自身工作任务的控制程度较低），低绩效员工会把获得培训资源视为理所当然，并在管理者将资源转而分配给高绩效者时产生负面反应；相反，当精英主义/绩效主义（meritocratic）规范占主导时（例如员工对工作任务有较多控制权），高绩效员工在未能获得培训资源时的负面反应比低绩效员工更强。补充实验进一步表明，这种依赖公平规范的反应在锦标赛激励（tournament incentives）下最为显著，而在基于个人绩效的薪酬（individual performance-based pay）下可能消失。总体而言，研究强调管理者在分配稀缺培训资源时，需要同时考虑员工生产率和工作环境中占主导地位的公平规范。",
+    "keywords": [
+      "公平规范",
+      "培训资源分配",
+      "绩效差异",
+      "锦标赛激励",
+      "互动实验"
+    ],
+    "ai_comment": "论文把管理会计中的稀缺资源分配问题放到公平规范的情境依赖框架下，用互动实验揭示低绩效者与高绩效者在不同规范下的非对称反应，并进一步识别出锦标赛激励与个人绩效薪酬这两种薪酬结构的边界条件，对培训资源配置的实践具有直接启示。",
+    "topic": "会计与信息披露"
+  },
+  {
+    "id": "10.1093/rfs/hhag082",
+    "title": "Corporate Bond Multipliers: Substitutes Matter",
+    "authors": [
+      "Manav Chaudhary",
+      "Julie Zhiyu Fu",
+      "Jian Li"
+    ],
+    "abstract": "Many economic questions require estimating the price effect of demand shifts (multipliers) in the bond market. Corporate bonds have salient characteristics that distinguish between close and distant substitutes. We show that accounting for heterogeneous substitutability between bonds is critical for correctly estimating multipliers. We find that security-level multipliers are very small. In fact, an order of magnitude smaller than the estimate ignoring heterogeneous substitutability. Nonetheless, portfolio multipliers are substantially larger and monotonically increase with the aggregation level. Furthermore, we find that the multiplier is larger for high-yield bonds, longer-maturity bonds, and bonds with greater arbitrage risks.",
+    "url": "https://doi.org/10.1093/rfs/hhag082",
+    "published_date": "2026-09-19",
+    "source": "RFS",
+    "first_seen": "2026-09-22",
+    "abstract_missing": false,
+    "summary": "论文研究如何估计债券市场中需求冲击的价格效应（即乘数，multipliers），因为许多经济问题都依赖此类估计。作者指出，公司债券具有能够区分“近似替代品”与“远距离替代品”的显著特征，因此忽略债券之间异质的可替代性会导致乘数估计出现偏误，只有纳入异质替代性才能正确估计乘数。研究发现，证券层面（security-level）的乘数非常小，比不考虑异质替代性时的估计小一个数量级；但组合层面（portfolio-level）的乘数显著更大，并且随着聚合程度的提高而单调上升。此外，乘数在高收益债券、期限更长的债券以及套利风险更大的债券上更大。",
+    "keywords": [
+      "公司债券",
+      "替代性",
+      "需求冲击乘数",
+      "套利风险",
+      "投资组合聚合"
+    ],
+    "ai_comment": "论文将异质替代性引入债券需求冲击的价格效应估计，清晰区分了证券层面与组合层面的乘数差异，并揭示乘数随聚合水平单调上升的规律；这一发现对依赖债券乘数开展政策评估或资产定价分析的研究具有重要的方法论警示。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1093/rfs/hhag081",
+    "title": "Adverse Selection and the Government Intervention Trap",
+    "authors": [
+      "Fenghua Song",
+      "Anjan Thakor"
+    ],
+    "abstract": "In a dynamic setting, high-quality firms may tolerate current adverse selection when raising financing because they expect future opportunities to profitably acquire assets from failed lower-quality firms. But search frictions in asset trading impede efficiency, inviting government intervention. Anticipation of such intervention affects ex ante adverse selection and project investment because it reduces buyers’ ex post trading profits. Depending on parameter values, this anticipation can have either pernicious or salutary effects. The pernicious effect reduces participation by high-quality firms, worsens adverse selection, and depresses project investment, potentially triggering investment-enhancing government assistance (an “intervention trap”). The salutary effect mitigates adverse selection and increases project investment.",
+    "url": "https://doi.org/10.1093/rfs/hhag081",
+    "published_date": "2026-09-19",
+    "source": "RFS",
+    "first_seen": "2026-09-22",
+    "abstract_missing": false,
+    "summary": "论文在一个动态框架下研究融资中的逆向选择（adverse selection）与政府干预之间的相互作用。其出发点是：高质量企业可能在当前容忍逆向选择、仍愿意融资，因为它们预期未来能够以有利价格收购那些经营失败的低质量企业的资产，从而获得利润。然而，资产交易中存在搜寻摩擦（search frictions），会阻碍这一机制实现效率，从而为政府干预提供了理由。由于企业会预期到这种干预，而干预会压缩买方在事后资产交易中的利润，因此对干预的预期会反过来影响事前的逆向选择程度与项目投资。论文的结论是，这种预期效应的方向取决于参数取值：在“有害效应”（pernicious effect）下，高质量企业的参与减少，逆向选择加剧，项目投资被压低，这可能进一步触发以促进投资为目标的政府救助，形成所谓的“干预陷阱”（intervention trap）；而在“有益效应”（salutary effect）下，对干预的预期反而缓解了逆向选择并提高了项目投资。",
+    "keywords": [
+      "逆向选择",
+      "政府干预",
+      "搜寻摩擦",
+      "资产交易",
+      "项目投资"
+    ],
+    "ai_comment": "论文的亮点在于把政府干预从外生政策变量内生化，刻画了“预期干预—事前逆向选择—投资—再干预”的反馈回路，并指出同一干预预期可能因参数不同而产生截然相反的效果，为理解救助政策的意外后果提供了统一框架。",
+    "topic": "宏观金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104364",
     "title": "Discounting timing strategies",
     "authors": [
