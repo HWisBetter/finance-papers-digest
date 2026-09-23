@@ -1,5 +1,54 @@
 [
   {
+    "id": "10.1287/mnsc.2024.06050",
+    "title": "Social Networks as Information Conduits for Online Credit Supply and Demand",
+    "authors": [
+      "Linda Allen",
+      "Lin Peng",
+      "Yu Shan"
+    ],
+    "abstract": "We study how intercommunity social networks influence loan demand and supply on fintech lending platforms. Demand for online loans rises following increases in online borrowing activity in geographically distant but socially connected areas. On the supply side, borrower area social proximity to deposit-rich regions increases funding likelihood and is associated with better ex post loan performance. We establish causality with shift-share instrumental variables (SSIVs) obtained from natural disasters (demand side) and financial adviser misconduct (supply side). Social connectedness expands both loan demand and supply in disadvantaged communities without increasing delinquency rates. Intercommunity social networks raise awareness of alternative lending platforms and transmit hard-to-obtain information that mitigates community-level information asymmetry. This paper has been accepted by Will Cong for the Virtual Special Issue on Digital Finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.06050 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.06050",
+    "published_date": "2026-09-22",
+    "source": "MS",
+    "first_seen": "2026-09-23",
+    "abstract_missing": false,
+    "summary": "本文研究跨社区社交网络如何影响金融科技（fintech）借贷平台上的贷款需求与供给。在需求端，当与某地区地理距离较远但社会联系紧密的地区出现线上借贷活动增加时，该地区的线上贷款需求也会随之上升；在供给端，借款人所在地区与存款充裕地区的社会邻近性会提高其获得资金的可能性，并与更好的事后贷款表现相关。为建立因果识别，作者分别利用自然灾害（需求侧）和财务顾问不当行为（供给侧）构造 shift-share 工具变量（SSIVs）。研究发现，社会连通性会同时扩大弱势社区的贷款需求与供给，且并未提高违约率。其机制在于，跨社区社交网络提高了人们对替代性借贷平台的认知，并传递了难以获取的信息，从而缓解社区层面的信息不对称。",
+    "keywords": [
+      "社交网络",
+      "金融科技借贷",
+      "信贷供需",
+      "shift-share工具变量",
+      "信息不对称"
+    ],
+    "ai_comment": "论文的亮点在于用自然灾害与财务顾问不当行为分别构造需求侧和供给侧的 shift-share 工具变量，较为干净地识别了社交网络对 fintech 借贷供需的因果影响，并进一步说明其信息传导机制且不推高违约率，为数字金融与社区金融研究提供了新证据。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104361",
+    "title": "Machine-learning about ESG preferences: Evidence from fund flows",
+    "authors": [
+      "George O. Aragon",
+      "Shuaiyu Chen"
+    ],
+    "abstract": "We construct Environmental, Social, and Governance (ESG) scores for U.S. active equity mutual funds using roughly 500 metrics across ESG issues and rating agencies. Under a revealed-preference framework, we use machine learning to identify issues driving fund flows and generate ESG-driven flows as proxies for ESG performance. We estimate expected benchmark-adjusted returns using ex-post realized returns and ex-ante measures. Better-ESG funds attract larger subsequent flows and face fewer redemptions after poor performance, yet have lower expected returns, indicating flows reflect investor ESG preferences rather than high-return beliefs. Investors effectively pay $48 million more annually for a top-ESG fund.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104361",
+    "published_date": "2026-09-22",
+    "source": "JFE",
+    "first_seen": "2026-09-23",
+    "abstract_missing": false,
+    "summary": "本文为美国主动股票型共同基金构建ESG评分，使用约500个覆盖ESG议题和评级机构的指标。在显示性偏好框架下，采用机器学习识别驱动基金资金流的ESG议题，并生成ESG驱动的资金流作为ESG表现的代理。同时，利用事后实现收益与事前指标估计经基准调整的预期收益。研究发现，ESG表现更好的基金能吸引更大的后续资金流，且在业绩不佳后遭遇更少赎回，但其预期收益更低，表明资金流反映的是投资者的ESG偏好而非高收益信念。投资者每年为顶级ESG基金多支付约4800万美元。",
+    "keywords": [
+      "ESG偏好",
+      "共同基金资金流",
+      "机器学习",
+      "显示性偏好",
+      "预期收益"
+    ],
+    "ai_comment": "本文的亮点在于用机器学习从大量ESG指标中提炼出驱动资金流的议题，并以ESG驱动资金流作为ESG表现的代理变量，进而量化投资者为ESG偏好支付的溢价（每年约4800万美元）并揭示其与低预期收益的权衡。",
+    "topic": "行为金融"
+  },
+  {
     "id": "w35780",
     "title": "Regulating Entrepreneurship: The Case of Capital Requirements",
     "authors": [
@@ -1292,6 +1341,58 @@
     ],
     "ai_comment": "本文聚焦于不同基金类型之间业绩追逐敏感性的比较，特别是揭示ETF的高敏感性及其机构层面的驱动因素，为理解交易所交易产品的资金流动行为提供了新的证据。",
     "topic": "行为金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104376",
+    "title": "Related Exposures to Distressed Borrowers and Bank Lending",
+    "authors": [
+      "Sumit Agarwal",
+      "Ricardo Correa",
+      "Bernardo Morais",
+      "Jessica Roldán",
+      "Claudia Ruiz-Ortega"
+    ],
+    "abstract": "We study how banks’ exposure to a large set of related and suddenly-distressed borrowers impacts their commercial lending and risk taking. Using Mexican credit registry data, we examine the effect of the 2014 collapse in energy prices. After this shock, energy-exposed banks—regardless of their ex-ante financial health—raise further their exposure to the energy sector by expanding lending at looser credit terms to borrowers with higher expected losses, while recapitalizing through retained earnings. The shock is transmitted to non-energy firms—despite price controls on retail-energy products—via a contraction in bank lending, especially to bank-dependent borrowers.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104376",
+    "published_date": "2026-09-01",
+    "source": "JFE",
+    "first_seen": "2026-09-23",
+    "abstract_missing": false,
+    "summary": "本文研究银行对大量相互关联且突然陷入困境的借款人的风险暴露如何影响其商业贷款与风险承担行为。作者使用墨西哥信用登记数据，考察2014年能源价格暴跌的影响。结果显示，能源风险暴露较高的银行——无论其事前财务状况是否健康——在冲击后反而进一步提高了对能源部门的暴露，具体表现为以更宽松的信贷条件向预期损失更高的借款人扩大贷款，同时通过留存收益进行资本补充。冲击还通过银行信贷收缩传导至非能源企业，尤其是依赖银行融资的借款人，尽管零售能源产品存在价格管制。这表明银行的关联暴露会在行业冲击下放大风险承担，并产生跨部门信贷溢出。",
+    "keywords": [
+      "银行贷款",
+      "风险承担",
+      "关联风险暴露",
+      "能源价格冲击",
+      "信用登记数据"
+    ],
+    "ai_comment": "本文的亮点在于利用墨西哥信用登记微观数据，把银行的关联风险暴露与突发的能源价格冲击联系起来，揭示出银行不仅会对困境部门追加暴露、放松信贷条件，还会把冲击通过信贷收缩传导给非能源且依赖银行的借款人。这一发现对理解共同暴露、银行风险承担与冲击跨部门溢出具有重要价值。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104375",
+    "title": "Debt and Assets",
+    "authors": [
+      "Efraim Benmelech",
+      "Nitish Kumar",
+      "Raghuram Rajan"
+    ],
+    "abstract": "Prior studies imply that a majority of US corporate debt by value is cash-flow based and only a small fraction is asset backed. Because corporations often prefer to keep assets unencumbered until creditors insist on security, much unsecured cash-flow-based debt is also implicitly asset backed. Moreover, the degree of asset backing varies with a firm’s condition and the economic environment. Asset values thus affect both the amount and the price of unsecured borrowing, with effects amplified in adverse conditions—consistent with financial accelerator theories. Because all corporate debt is supported by future cash flows as well as asset values, with the relative support shifting with firm-specific and economy-wide conditions, we find that the industry practice of classifying debt as “asset based” or “cash flow based” is overly categorical, especially for long-term corporate bonds.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104375",
+    "published_date": "2026-09-01",
+    "source": "JFE",
+    "first_seen": "2026-09-23",
+    "abstract_missing": false,
+    "summary": "论文关注美国公司债务的分类与支持基础，指出既有研究常认为按价值计大多数美国公司债务属于现金流支持型，仅小部分为资产支持型。文章认为，由于公司通常倾向于在债权人坚持要求担保前保持资产未被抵押，大量无担保的现金流支持型债务实际上也隐性地由资产支持；而且资产支持的程度会随公司状况和经济环境而变化。因此，资产价值会影响无担保借款的规模和价格，且在企业或经济状况不利时这种影响会被放大，这与金融加速器理论一致。论文进一步指出，所有公司债务都由未来现金流和资产价值共同支持，二者的相对支持作用会随公司特定条件和整体经济环境而转移，因此业界将债务划分为“资产支持型”或“现金流支持型”的做法过于绝对，对长期公司债券尤其如此。",
+    "keywords": [
+      "公司债务",
+      "资产支持",
+      "现金流",
+      "金融加速器",
+      "长期公司债券"
+    ],
+    "ai_comment": "该文的亮点在于打破资产支持型与现金流支持型债务的二分法，强调无担保债务的隐性资产支持及其状态依赖性，为理解资产价值如何影响公司债务规模与定价提供了统一框架。",
+    "topic": "公司金融"
   },
   {
     "id": "w35691",
@@ -22688,6 +22789,84 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.7390618",
     "first_seen": "2026-09-05",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Seeing the Goal, Missing the Truth: Human Accountability for AI Bias",
+    "authors": [
+      "SEAN SHUN CAO",
+      "Wei Jiang",
+      "Hui Xu"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6204619",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6204619",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "LUSim: An LLM-Driven Spatial-Equilibrium Simulator for Urban Planning",
+    "authors": [
+      "Mengzhong Ma",
+      "Jingwei Zhou",
+      "Te Bao",
+      "Lin William Cong",
+      "Yonggang Wen"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7492538",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7492538",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Rational Attention Allocation Over the Business Cycle",
+    "authors": [
+      "Marcin T. Kacperczyk",
+      "Stijn Van Nieuwerburgh",
+      "Laura Veldkamp"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.1498951",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.1498951",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The War Index, the War Factor, and the War Factor-Mimicking Portfolio: Motivation, Construction, and Availability",
+    "authors": [
+      "David A. Hirshleifer",
+      "Dat Mai",
+      "Kuntara Pukthuanthong"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6855438",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6855438",
+    "first_seen": "2026-09-23",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
@@ -47725,6 +47904,65 @@
     "topic": "其他"
   },
   {
+    "title": "Market Feedback about Emerging Technologies *",
+    "authors": [
+      "SEAN SHUN CAO",
+      "Itay Goldstein",
+      "Jie Ying He",
+      "Yabo Zhao"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5647291",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5647291",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Data Economy to the Rescue of Our Empty Planet?",
+    "authors": [
+      "Qing Hua Chang",
+      "Lin William Cong",
+      "Hanming Fang",
+      "Longtian Zhang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5062219",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5062219",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "War Discourse and Asset Pricing: Clarifications on Standard Factor Discovery Methods",
+    "authors": [
+      "David A. Hirshleifer",
+      "Dat Mai",
+      "Kuntara Pukthuanthong"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5843283",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5843283",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "id": "10.1111/jofi.13417",
     "title": "Simplicity and Risk",
     "authors": [
@@ -67232,6 +67470,142 @@
     "topic": "其他"
   },
   {
+    "title": "Applied AI for Finance and Accounting: Alternative Data and Opportunities",
+    "authors": [
+      "SEAN SHUN CAO",
+      "Wei Jiang",
+      "Lijun Lei",
+      "Qing Zhou"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4753640",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4753640",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Information-Based Pricing in Specialized Lending",
+    "authors": [
+      "Kristian S. Blickle",
+      "Zhiguo He",
+      "Jing Huang",
+      "Cecilia Parlatore"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4731064",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4731064",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Can Machines Understand Analyst Skills?",
+    "authors": [
+      "SEAN SHUN CAO",
+      "Norman Guo",
+      "Houping Xiao",
+      "Baozhong Yang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4742174",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4742174",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Distributed Ledgers and Secure Multi-Party Computation for Financial Reporting and Auditing",
+    "authors": [
+      "Sean S. Cao",
+      "Lin William Cong",
+      "Baozhong Yang"
+    ],
+    "abstract": "",
+    "url": "http://dx.doi.org/10.2139/ssrn.4915950",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4915950",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Corporate Culture In A New Era: Views From The C-suite",
+    "authors": [
+      "John Robert Graham",
+      "Jillian Grennan",
+      "Campbell R. Harvey",
+      "Shivaram Rajgopal"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4714093",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4714093",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "War Discourse and Disaster Premia: 160 Years of Evidence from the Stock Market",
+    "authors": [
+      "David A. Hirshleifer",
+      "Dat Mai",
+      "Kuntara Pukthuanthong"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4712558",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4712558",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Effect of New Information Technologies on Asset Pricing Anomalies",
+    "authors": [
+      "David A. Hirshleifer",
+      "Liang Ma"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4915954",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4915954",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "id": "10.1111/jofi.13307",
     "title": "The Narrow Channel of Quantitative Easing: Evidence from YCC Down Under",
     "authors": [
@@ -84012,6 +84386,157 @@
     "topic": "其他"
   },
   {
+    "title": "Shareholder Monitoring Through Voting: New Evidence from Proxy Contests",
+    "authors": [
+      "Alon P. Brav",
+      "Wei Jiang",
+      "Tao Li",
+      "James Pinnington"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4316541",
+    "published_date": "2023-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4316541",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Credit Suisse CoCo Wipeout: Facts, Misperceptions, and Lessons for Financial Regulation",
+    "authors": [
+      "Patrick G M Bolton",
+      "Anastasia V. Kartasheva",
+      "Wei Jiang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4450098",
+    "published_date": "2023-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4450098",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Visual Information in the Age of AI: Evidence from Corporate Executive Presentations",
+    "authors": [
+      "SEAN SHUN CAO",
+      "Yichen Cheng",
+      "Meng Wang",
+      "Yusen Xia",
+      "Baozhong Yang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4490834",
+    "published_date": "2023-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4490834",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Model-free and Model-based Learning as Joint Drivers of Investor Behavior",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Lawrence J. Jin"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4331775",
+    "published_date": "2023-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4331775",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Psychological Bias as a Driver of Financial Regulation",
+    "authors": [
+      "David A. Hirshleifer"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4359023",
+    "published_date": "2023-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4359023",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Herd Behavior and Cascading in Capital Markets: A Review and Synthesis",
+    "authors": [
+      "David A. Hirshleifer",
+      "Siew Hong Teoh"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4380872",
+    "published_date": "2023-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4380872",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "News Diffusion in Social Networks and Stock Market Reactions",
+    "authors": [
+      "David A. Hirshleifer",
+      "Lin Peng",
+      "Qiguang Wang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4334939",
+    "published_date": "2023-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4334939",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "War Discourse and Disaster Premia: 160 Years of Evidence from Stock and Bond Markets",
+    "authors": [
+      "David A. Hirshleifer",
+      "Dat Mai",
+      "Kuntara Pukthuanthong"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4440699",
+    "published_date": "2023-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4440699",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "id": "10.1111/jofi.13197",
     "title": "Bayesian Solutions for the Factor Zoo: We Just Ran Two Quadrillion Models",
     "authors": [
@@ -85509,6 +86034,25 @@
     "topic": "其他"
   },
   {
+    "title": "Managerial Risk Assessment and Fund Performance: Evidence from Textual Disclosure",
+    "authors": [
+      "SEAN SHUN CAO",
+      "Baozhong Yang",
+      "Alan L. Zhang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4060307",
+    "published_date": "2022-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4060307",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "The Virtue of Complexity in Machine Learning Portfolios",
     "authors": [
       "Bryan T. Kelly",
@@ -86002,6 +86546,46 @@
     "topic": "其他"
   },
   {
+    "title": "From Man vs. Machine to Man + Machine: The Art and Ai of Stock Analyses",
+    "authors": [
+      "SEAN SHUN CAO",
+      "Wei Jiang",
+      "Junbo L. Wang",
+      "Baozhong Yang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3847545",
+    "published_date": "2021-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3847545",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Strategic Use of 13F Restatement by Hedge Funds",
+    "authors": [
+      "SEAN SHUN CAO",
+      "Zhi Da",
+      "Xin Jiang",
+      "Baozhong Yang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3907560",
+    "published_date": "2021-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3907560",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "Internet Appendix for Forest through the Trees: Building Cross-Sections of Stock Returns",
     "authors": [
       "Svetlana Bryzgalova",
@@ -86222,6 +86806,26 @@
     "topic": "其他"
   },
   {
+    "title": "How to Talk When a Machine is Listening: Corporate Disclosure in the Age of Ai",
+    "authors": [
+      "SEAN SHUN CAO",
+      "Wei Jiang",
+      "Baozhong Yang",
+      "Alan L. Zhang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3714442",
+    "published_date": "2020-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3714442",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "Predicting Returns With Text Data",
     "authors": [
       "Ke Zheng",
@@ -86293,6 +86897,25 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Prospect Theory and Stock Market Anomalies",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Lawrence J. Jin",
+      "Baolian Wang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3477463",
+    "published_date": "2019-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3477463",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
@@ -86385,6 +87008,40 @@
     "topic": "其他"
   },
   {
+    "title": "Richard Thaler and the Rise of Behavioral Economics",
+    "authors": [
+      "Nicholas C. Barberis"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3111475",
+    "published_date": "2018-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3111475",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Psychology-based Models of Asset Prices and Trading Volume",
+    "authors": [
+      "Nicholas C. Barberis"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3177616",
+    "published_date": "2018-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3177616",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "Memory, Attention, and Choice",
     "authors": [
       "Pedro Bordalo",
@@ -86468,6 +87125,45 @@
     "topic": "其他"
   },
   {
+    "title": "Prospect Theory and Stock Returns: An Empirical Test",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Abhiroop Mukherjee",
+      "Baolian Wang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.2528149",
+    "published_date": "2014-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.2528149",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Banks as Patient Fixed Income Investors",
+    "authors": [
+      "Samuel M. Hanson",
+      "Andrei Shleifer",
+      "Jeremy C. Stein",
+      "Robert W. Vishny"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.2402360",
+    "published_date": "2014-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.2402360",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "Growth in Regions",
     "authors": [
       "Nicola Gennaioli",
@@ -86506,6 +87202,23 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Psychology of Tail Events: Progress and Challenges",
+    "authors": [
+      "Nicholas C. Barberis"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.2231781",
+    "published_date": "2013-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.2231781",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
@@ -86584,6 +87297,23 @@
     "topic": "其他"
   },
   {
+    "title": "Thirty Years of Prospect Theory in Economics: A Review and Assessment",
+    "authors": [
+      "Nicholas C. Barberis"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.2177288",
+    "published_date": "2012-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.2177288",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "Eliciting Market Expectations in Data-Rich Environments",
     "authors": [
       "Bryan T. Kelly",
@@ -86654,6 +87384,23 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.1892338",
     "first_seen": "2026-08-14",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Psychology and the Financial Crisis of 2007-2008",
+    "authors": [
+      "Nicholas C. Barberis"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.1742463",
+    "published_date": "2011-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.1742463",
+    "first_seen": "2026-09-23",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
@@ -86752,6 +87499,30 @@
     "topic": "其他"
   },
   {
+    "title": "Realization Utility",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Wei Xiong"
+    ],
+    "abstract": "We study the possibility that, aside from standard sources of utility, investors also derive utility from realizing gains and losses on individual investments that they own. We propose a tractable model of this \"realization utility,\" derive its predictions, and show that it can shed light on a number of puzzling facts. These include the poor trading performance of individual investors, the disposition effect, the greater turnover in rising markets, the negative premium to volatility in the cross-section, and the heavy trading of highly valued assets. Underlying some of these applications is one of our model's more novel predictions: that, even if the form of realization utility is linear or concave, investors can be risk-seeking.",
+    "url": "https://doi.org/10.2139/ssrn.1104304",
+    "published_date": "2008-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.1104304",
+    "first_seen": "2026-09-23",
+    "abstract_missing": false,
+    "summary": "本文研究投资者除了从传统来源获得效用外，还可能从实现其所持单项投资的收益和损失中获得效用。作者提出一个可处理的“实现效用”（realization utility）模型，推导其预测，并表明该模型能够解释一系列令人困惑的现象，包括个人投资者交易表现不佳、处置效应、上涨市场中换手率更高、波动率在横截面上获得负溢价，以及高估值资产被大量交易。这些应用背后是该模型一个较为新颖的预测：即使实现效用是线性或凹的，投资者也可能表现出风险寻求。",
+    "keywords": [
+      "实现效用",
+      "处置效应",
+      "风险寻求",
+      "换手率",
+      "波动率溢价"
+    ],
+    "ai_comment": "该文将“实现效用”形式化，以简洁模型统一解释了处置效应、个人投资者绩效差等多个行为金融异象，并给出反直觉的预测——线性或凹的实现效用亦可导致风险寻求，对理解投资者交易行为与资产定价异象具有启发意义。",
+    "topic": "行为金融"
+  },
+  {
     "title": "Realization Utility: A Psychology-Based Model of Investor Trading Behavior",
     "authors": [
       "Nicholas Barberis",
@@ -86783,6 +87554,42 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Preferences with Frames: A New Utility Specification that Allows for the Framing of Risks",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Ming Xin Huang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.997862",
+    "published_date": "2007-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.997862",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Realization Utility: A Psychology-Based Model of Investor Trading Behavior",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Wei Xiong"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.1008169",
+    "published_date": "2007-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.1008169",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
@@ -86843,6 +87650,42 @@
     "topic": "其他"
   },
   {
+    "title": "What Drives the Disposition Effect? An Analysis of a Long-Standing Preference-Based Explanation",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Wei Xiong"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.890271",
+    "published_date": "2006-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.890271",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Loss Aversion/Narrow Framing Approach to the Equity Premium Puzzle",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Ming Huang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.912776",
+    "published_date": "2006-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.912776",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "Stocks as Lotteries: The Implications of Probability Weighting for Security Prices",
     "authors": [
       "Nicholas Barberis",
@@ -86856,6 +87699,24 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Stocks as Lotteries: the Implications of Probability Weighting for Security Prices",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Ming Huang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.649421",
+    "published_date": "2005-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.649421",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
@@ -86875,6 +87736,25 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Individual Preferences, Monetary Gambles and the Equity Premium",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Ming Huang",
+      "Richard H. Thaler"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.446240",
+    "published_date": "2003-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.446240",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
@@ -86917,6 +87797,43 @@
     "topic": "其他"
   },
   {
+    "title": "A Survey of Behavioral Finance",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Richard H. Thaler"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.327880",
+    "published_date": "2002-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.327880",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Comovement",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Andrei Shleifer",
+      "Jeffrey A. Wurgler"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.305892",
+    "published_date": "2002-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.305892",
+    "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "Style Investing",
     "authors": [
       "Nicholas Barberis",
@@ -86928,6 +87845,24 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.255557",
     "first_seen": "2026-08-13",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Style Investing",
+    "authors": [
+      "Nicholas C. Barberis",
+      "Andrei Shleifer"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.255557",
+    "published_date": "2001-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.255557",
+    "first_seen": "2026-09-23",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
