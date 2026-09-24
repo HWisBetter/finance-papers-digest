@@ -1,5 +1,29 @@
 [
   {
+    "id": "10.1287/mnsc.2025.01449",
+    "title": "Superstition Everywhere",
+    "authors": [
+      "Jeffery (Jinfan) Chang",
+      "Huancheng Du"
+    ],
+    "abstract": "In Chinese culture, the digit 8 is considered lucky and the digit 4 unlucky. We find that this numerological superstition has a significant impact across China’s stock, bond, foreign exchange, and commodity futures markets, affecting asset prices in both the primary and secondary markets. The superstition effect, that is, asset prices ending in a lucky (unlucky) digit are far more (less) frequent than expected by chance, is prevalent across finance markets. We show that this phenomenon is driven by two mechanisms: sophisticated investors’ reliance on superstition as an anchor to manage ambiguity, and the overoptimism of unsophisticated investors. While the superstition effect does not lead to any systematic mispricing for assets traded primarily by sophisticated investors, it is closely associated with overpricing for assets heavily traded by unsophisticated investors. This paper was accepted by Will Cong, finance. Funding: J. (J.) Chang received financial support from the National Natural Science Foundation of China [Grant 72573148]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.01449 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.01449",
+    "published_date": "2026-09-23",
+    "source": "MS",
+    "first_seen": "2026-09-24",
+    "abstract_missing": false,
+    "summary": "本文研究中国文化中数字8吉利、数字4不吉利的数字迷信如何影响中国金融市场。作者考察股票、债券、外汇和商品期货市场，覆盖一级和二级市场，发现“迷信效应”普遍存在：以幸运数字结尾的资产价格出现频率远高于随机预期，以不吉利数字结尾的价格则远低于随机预期。机制上，该现象由两类投资者驱动：成熟投资者将迷信作为锚来应对模糊性，而不成熟投资者则表现出过度乐观。进一步，对于主要由成熟投资者交易的资产，迷信效应并未导致系统性错误定价；但对于大量由不成熟投资者交易的资产，迷信效应与过度定价密切相关。",
+    "keywords": [
+      "数字迷信",
+      "资产价格",
+      "行为金融",
+      "投资者异质性",
+      "错误定价"
+    ],
+    "ai_comment": "本文将文化数字迷信拓展到中国多类金融市场，并区分成熟与不成熟投资者机制，揭示了迷信对定价效率的非对称影响，为行为金融研究提供了跨市场证据。",
+    "topic": "行为金融"
+  },
+  {
     "id": "10.1287/mnsc.2024.06050",
     "title": "Social Networks as Information Conduits for Online Credit Supply and Demand",
     "authors": [
@@ -23,6 +47,30 @@
     ],
     "ai_comment": "论文的亮点在于用自然灾害与财务顾问不当行为分别构造需求侧和供给侧的 shift-share 工具变量，较为干净地识别了社交网络对 fintech 借贷供需的因果影响，并进一步说明其信息传导机制且不推高违约率，为数字金融与社区金融研究提供了新证据。",
     "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1111/jofi.70081",
+    "title": "Justice Good as Random?",
+    "authors": [
+      "Niklas Hüther",
+      "Kristoph Kleiner"
+    ],
+    "abstract": "The random assignment of judges promotes fairness and underpins causal identification across the social sciences. Analyzing Chapter 11 bankruptcies, we find sophisticated parties “judge‐shop”: relative to secured hedge fund creditors, cases involving unsecured hedge fund creditors and equity holders are assigned judges with lower past conversion rates and higher unsecured recovery rates. Experienced legal counsel similarly influences assignment. Because judges are not assigned consecutive large cases, knowledgeable parties can judge‐shop by timing the filing date. We develop a method to measure the resulting bias and demonstrate the need for controls and bounded instrumental variable specifications in judge/examiner designs.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70081",
+    "published_date": "2026-09-22",
+    "source": "JF",
+    "first_seen": "2026-09-24",
+    "abstract_missing": false,
+    "summary": "本文检验法官随机分案这一制度前提是否在现实中成立。作者以美国 Chapter 11 破产案件为研究对象，发现成熟的当事人会进行“挑选法官”（judge-shopping）：相对于有担保对冲基金债权人，涉及无担保对冲基金债权人和股东的破产案件会被分配到过去重整转换率更低、无担保回收率更高的法官手中；经验丰富的法律顾问同样会影响案件分配。由于法官不会被连续分配审理大型案件，知情当事人还可以通过选择破产申请日期来挑选法官。作者进一步提出一种方法来衡量由此产生的偏误，并说明在法官/审查员设计（judge/examiner designs）中需要加入控制变量并采用有界工具变量（bounded instrumental variable）设定。",
+    "keywords": [
+      "Chapter 11 破产",
+      "挑选法官",
+      "因果识别",
+      "工具变量",
+      "债权人回收"
+    ],
+    "ai_comment": "本文挑战了法官随机分案可作为外生冲击的常用假设，揭示成熟当事人可通过选择申请时点策略性影响法官分配，并为法官/审查员设计中的偏误测量与因果识别提供了可操作的修正思路。",
+    "topic": "公司金融"
   },
   {
     "id": "10.1016/j.jfineco.2026.104361",
