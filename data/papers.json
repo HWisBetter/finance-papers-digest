@@ -1,5 +1,128 @@
 [
   {
+    "id": "10.1287/mnsc.2025.02458",
+    "title": "Generative Search: Evidence from a Large-Scale Field Experiment",
+    "authors": [
+      "Shuang Zheng",
+      "Yuting Zhu",
+      "Xin Ye",
+      "Liang Shen"
+    ],
+    "abstract": "Generative search is an emerging search paradigm that integrates Generative AI (GenAI) into traditional search engines by presenting users with AI-generated responses before conventional search results. Whereas keyword-based search requires consumers to translate their underlying needs into effective keyword queries, generative search lets users express those intentions directly in natural language, a shift made possible by GenAI’s new mode of information presentation. This shift moves the consumer-search engine interaction upstream to the stage of problem formulation, rendering empirically observable a previously hidden phase of search behavior: the mapping from problem formulation to keyword articulation. Yet, it remains empirically unknown whether generative search increases consumer purchases and how search behavior changes when it can begin from expressed intent rather than keywords. Using a large-scale field experiment conducted on Meituan, a leading Chinese technology platform, this paper provides empirical evidence on the effectiveness of generative search. We find that generative search significantly increases consumer purchases. Further analysis reveals that generative search facilitates more effective and diverse keyword queries and reduces exploratory browsing and clicking, while concentrating evaluation within relevant categories and merchants. The empirical evidence is most consistent with a mechanism in which AI-generated answers provide information about consumers’ underlying needs, while also expanding awareness of relevant attributes and shifting attention toward more relevant categories. These findings provide empirical insights for future consumer search models that allow search to originate at the intention-expressing stage. This paper was accepted by Raphael Thomadsen, marketing. Funding: Financial support from the Ministry of Education – Singapore [Grant A-8001730-00-00] is gratefully acknowledged. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.02458 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.02458",
+    "published_date": "2026-09-24",
+    "source": "MS",
+    "first_seen": "2026-09-25",
+    "abstract_missing": false,
+    "summary": "该研究关注生成式搜索这一新兴搜索范式：它将 GenAI 整合进传统搜索引擎，在常规搜索结果之前向用户呈现 AI 生成的回答。与基于关键词的搜索要求消费者把潜在需求转化为有效关键词查询不同，生成式搜索允许用户直接用自然语言表达意图，这一转变得益于 GenAI 新的信息呈现方式，并将消费者与搜索引擎的互动上移到问题形成阶段，从而使原本隐藏的搜索行为阶段——从问题形成到关键词表达之间的映射——变得可以实证观察。然而，生成式搜索是否会增加消费者购买，以及当搜索可以从表达意图而非关键词开始时搜索行为如何变化，仍缺乏实证证据。该文利用在中国领先科技平台美团上开展的大规模田野实验，为生成式搜索的有效性提供实证证据。研究发现，生成式搜索显著增加消费者购买。进一步分析显示，生成式搜索促成更有效且更多样的关键词查询，减少探索性浏览和点击，同时将评估集中在相关品类和商家中。实证证据最符合如下机制：AI 生成的回答提供了关于消费者潜在需求的信息，同时扩展了对相关属性的认知，并将注意力转向更相关的品类。这些发现为未来允许搜索从表达意图阶段开始的消费者搜索模型提供了实证启示。",
+    "keywords": [
+      "生成式搜索",
+      "GenAI",
+      "消费者购买",
+      "田野实验",
+      "消费者搜索行为"
+    ],
+    "ai_comment": "本文的亮点在于用美团上的大规模田野实验为生成式搜索提供了因果证据，并把消费者搜索研究推进到“问题形成—意图表达”这一此前难以观测的上游阶段。它不仅发现生成式搜索提升购买，还揭示了关键词查询、探索性浏览与评估集中度等行为机制，对平台设计和消费者搜索理论都有参考价值。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1093/rfs/hhag088",
+    "title": "Original Sin Redux: Role of Duration Risk*",
+    "authors": [
+      "Carol Bertaut",
+      "Valentina Bruno",
+      "Hyun Song Shin"
+    ],
+    "abstract": "We highlight the role of duration and exchange rate risks on portfolio flows by using a unique and comprehensive database of U.S. investor flows into emerging market government bonds denominated in local currency. Borrowing long-term mitigates rollover risk but amplifies valuation changes that further interact with currency movements. Our analysis highlights the double-edged nature of long-term borrowing and draws attention to market stress dynamics due to strategic complementarities among mutual fund investors.",
+    "url": "https://doi.org/10.1093/rfs/hhag088",
+    "published_date": "2026-09-24",
+    "source": "RFS",
+    "first_seen": "2026-09-25",
+    "abstract_missing": false,
+    "summary": "本文利用一个独特且覆盖全面的美国投资者资金流向新兴市场本币计价政府债券的数据库，考察久期风险与汇率风险在跨境证券投资组合流动中的作用。其核心机制在于：长期借款虽可缓解展期风险，却会放大估值变动，而估值变动又会与汇率变动相互作用。分析据此强调长期借款的双刃剑性质，并指出共同基金投资者之间的策略互补性可能带来市场压力动态。",
+    "keywords": [
+      "久期风险",
+      "汇率风险",
+      "投资组合流动",
+      "新兴市场本币政府债券",
+      "策略互补性"
+    ],
+    "ai_comment": "论文借助独特的美国投资者资金流微观数据，把久期风险与汇率风险放在同一框架下考察新兴市场本币债券投资，凸显了长期融资在缓解展期风险与放大估值/汇率联动之间的权衡，并提示共同基金投资者策略互补性对市场压力动态的放大作用。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "10.1093/rfs/hhag087",
+    "title": "Affordable Housing, Unaffordable Credit? Concentration and High-Cost Lending for Manufactured Homes",
+    "authors": [
+      "Sebastian Doerr",
+      "Andreas Fuster"
+    ],
+    "abstract": "This paper shows that high market concentration in the U.S. manufactured home loan market allows lenders to charge markedly higher interest rates than in the mortgage market for site-built homes. Borrowers in counties with higher lender concentration face significantly higher rates, and evidence from bunching at a regulatory rate threshold, an instrumental variable analysis, and a difference-in-differences analysis suggests a causal link. Integrated lenders, which play an outsized role in this market, charge particularly high rates, and we provide evidence suggesting that these lenders exploit their market power over borrowers. We discuss factors that may explain limited lender entry.",
+    "url": "https://doi.org/10.1093/rfs/hhag087",
+    "published_date": "2026-09-24",
+    "source": "RFS",
+    "first_seen": "2026-09-25",
+    "abstract_missing": false,
+    "summary": "本文研究美国 manufactured home（预制/移动住宅）贷款市场中高市场集中度如何导致借款人承担远高于 site-built home（现场建造住宅）抵押贷款市场的利率。实证发现，在贷款人集中度更高的县，借款人面临的利率显著更高。作者采用三种策略识别因果效应：监管利率阈值处的 bunching（堆积）证据、工具变量分析，以及双重差分（difference-in-differences）分析。结果均支持集中度与高利率之间存在因果联系。此外，在该市场占据异常重要地位的 integrated lenders（一体化贷款人，即同时参与房屋销售与放贷的贷款人）收取的利率尤其高，作者提供的证据表明这些贷款人利用其市场势力向借款人攫取租金。文章最后讨论了可能解释贷款人进入有限的若干因素。",
+    "keywords": [
+      "市场集中度",
+      "高成本信贷",
+      "制造住宅贷款",
+      "贷款人市场势力",
+      "一体化贷款人"
+    ],
+    "ai_comment": "论文将产业组织中的市场势力视角引入一个被忽视的细分信贷市场——manufactured home 贷款，并综合运用阈值 bunching、工具变量与双重差分三重策略强化因果识别，为“集中度—高利率—借款人福利”链条提供了较为可信的证据，也提示抵押贷款市场监管需关注一体化贷款人的角色。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104380",
+    "title": "Bankruptcy lawyers and credit recovery",
+    "authors": [
+      "Brian Jonghwan Lee"
+    ],
+    "abstract": "I study how bankruptcy law firm advertisements affect household credit, exploiting the borders of local TV advertisement media markets. I document a significant advertising effect on filing rates and subsequently show that ad exposure is associated with better financial outcomes. I then characterize how ad-induced filers are different from existing filers in terms of case, financial, and credit variables. I find that ad-induced filers are more likely to receive a discharge, file with lawyer representation, and be first-time filers. I interpret these findings as evidence that bankruptcy law firm advertisements help mitigate frictions in the bankruptcy decision.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104380",
+    "published_date": "2026-09-24",
+    "source": "JFE",
+    "first_seen": "2026-09-25",
+    "abstract_missing": false,
+    "summary": "本文研究破产律师事务所的广告如何影响家庭信贷，并利用地方电视广告媒体市场的边界作为识别来源（边界断点式设计）来估计广告的因果效应。研究首先记录了广告对破产申请率（filing rates）存在显著影响，随后表明接触广告与更好的财务结果（better financial outcomes）相关。在此基础上，作者进一步刻画了由广告引致的申请者（ad-induced filers）与既有申请者在案件特征、财务特征和信用变量上的差异，发现前者更可能获得债务免责（discharge）、更可能由律师代理申请（lawyer representation），且更可能是首次申请者（first-time filers）。作者将这些发现解释为证据，说明破产律师事务所的广告有助于缓解家庭在破产决策中所面临的摩擦。",
+    "keywords": [
+      "破产申请",
+      "家庭金融",
+      "广告",
+      "信用恢复",
+      "法律代理"
+    ],
+    "ai_comment": "论文巧妙借助地方电视广告市场边界来识别破产律所广告的因果效应，把信息与决策摩擦这一较难度量的机制落到可观测的家庭信用与案件数据上，并刻画了“广告引致的申请者”这一独特群体，为理解破产制度的参与摩擦与信贷结果提供了新证据。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104357",
+    "title": "Sustainable organizations",
+    "authors": [
+      "Thomas Geelen",
+      "Jakub Hajda",
+      "Jan Starmans"
+    ],
+    "abstract": "We develop a theory of stakeholder governance examining how green stakeholders influence organizations. Conflicts of interest arise from heterogeneous green preferences and intensify as they diverge. Changes in green preferences can generate unexpected outcomes by shifting control rights: greener stakeholders may reduce organizational sustainability, while browner ones might enhance it. We show that a top-down approach consistently improves organizational sustainability, while a bottom-up approach can harm it. We also uncover an asymmetry in compensation and delegation decisions between green and brown principals, driven by the public good nature of social payoffs. These findings have implications for manager–employee, investor–entrepreneur, and board–CEO relationships.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104357",
+    "published_date": "2026-09-24",
+    "source": "JFE",
+    "first_seen": "2026-09-25",
+    "abstract_missing": false,
+    "summary": "本文构建了一个利益相关者治理（stakeholder governance）理论，考察绿色利益相关者如何影响组织。作者指出，利益相关者在绿色偏好上的异质性会引发利益冲突，且偏好分歧越大，冲突越剧烈。研究表明，绿色偏好的变化会通过改变控制权（control rights）的配置产生出人意料的后果：偏好更绿的群体可能反而降低组织的可持续性，而偏好更棕的群体则可能提升可持续性。在治理路径上，自上而下（top-down）的方式能够稳定地改善组织可持续性，而自下而上（bottom-up）的方式则可能对其造成损害。此外，由于社会性收益具有公共品（public good）性质，绿色与棕色委托人在薪酬（compensation）与授权（delegation）决策上呈现出非对称性。这些发现对经理—员工、投资者—创业者以及董事会—CEO 等多类关系具有启示意义。",
+    "keywords": [
+      "利益相关者治理",
+      "绿色偏好",
+      "控制权配置",
+      "组织可持续性",
+      "委托代理"
+    ],
+    "ai_comment": "本文的反直觉结论颇具启发性：绿色偏好增强未必带来更可持续的组织，关键在于控制权如何随之重新配置；同时对自上而下与自下而上治理路径的区分，以及由社会性收益公共品属性所导致的薪酬与授权非对称，为理解 ESG 治理的边界条件提供了新的理论视角。",
+    "topic": "公司治理"
+  },
+  {
     "id": "10.1287/mnsc.2025.01449",
     "title": "Superstition Everywhere",
     "authors": [
@@ -22915,6 +23038,146 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.6855438",
     "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Completions, Not Convictions: Can LLM Probabilities Proxy for Human Beliefs?",
+    "authors": [
+      "Stefan Nagel",
+      "Claire Tseng",
+      "Dacheng Xiu"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7265538",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7265538",
+    "first_seen": "2026-09-25",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "What Drives Money Competition: Comparative Advantage in Payments versus Reserves",
+    "authors": [
+      "Itay Goldstein",
+      "Ming Xia Yang",
+      "Yao Zeng"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6156446",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6156446",
+    "first_seen": "2026-09-25",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Earnings Information Spillovers and Depositor Contagion",
+    "authors": [
+      "Chen Qi",
+      "Itay Goldstein",
+      "Rahul Vashishtha",
+      "Benda Yin"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6232220",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6232220",
+    "first_seen": "2026-09-25",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Market Feedback about Emerging Technologies",
+    "authors": [
+      "Sean S. Cao",
+      "Itay Goldstein",
+      "Jie He",
+      "Yabo Zhao"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6375381",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6375381",
+    "first_seen": "2026-09-25",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "How Reform Happens",
+    "authors": [
+      "Simeon Djankov",
+      "Edward L. Glaeser",
+      "Andrei Shleifer"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6656312",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6656312",
+    "first_seen": "2026-09-25",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Psychology of Macroeconomic Expectations",
+    "authors": [
+      "Pedro Bordalo",
+      "Nicola Gennaioli",
+      "Florencio López‐de‐Silanes",
+      "Simon G. Schröder",
+      "Andrei Shleifer",
+      "Maarten van Rooij"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6785215",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6785215",
+    "first_seen": "2026-09-25",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "AI, Opinion Ecosystems, and Finance",
+    "authors": [
+      "David A. Hirshleifer",
+      "Lin Peng",
+      "Qiguang Qiguang Wang",
+      "Weichen Zhang",
+      "Xi Zhang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6200400",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6200400",
+    "first_seen": "2026-09-25",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
@@ -48004,6 +48267,23 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.5843283",
     "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Role of Theory in Finance Research",
+    "authors": [
+      "Itay Goldstein"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5215857",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5215857",
+    "first_seen": "2026-09-25",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
