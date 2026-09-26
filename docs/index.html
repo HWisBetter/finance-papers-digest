@@ -12,7 +12,7 @@
   <header class="site" id="top">
     <div class="wrap">
       <a class="brand" href="index.html">📚 金融论文摘要</a>
-      <span class="updated">上次更新：2026-09-25 14:52 (北京时间 UTC+8)</span>
+      <span class="updated">上次更新：2026-09-26 14:52 (北京时间 UTC+8)</span>
     </div>
   </header>
 
@@ -26,7 +26,7 @@
       
       <a href="JFE.html">JFE <em>433</em></a>
       
-      <a href="RFS.html">RFS <em>395</em></a>
+      <a href="RFS.html">RFS <em>396</em></a>
       
       <a href="JFQA.html">JFQA <em>371</em></a>
       
@@ -44,7 +44,7 @@
   
   <section class="search">
     <div class="search-row">
-      <input id="search-box" type="text" placeholder="🔍 按语义检索全库 3380 篇 —— 试试&quot;货币政策对银行信贷&quot;、&quot;LLM 与资产定价&quot;…" autocomplete="off">
+      <input id="search-box" type="text" placeholder="🔍 按语义检索全库 3381 篇 —— 试试&quot;货币政策对银行信贷&quot;、&quot;LLM 与资产定价&quot;…" autocomplete="off">
       <button id="search-go">搜索</button>
       <button id="search-clear" title="清空，回到首页">清空</button>
     </div>
@@ -57,17 +57,17 @@
   
   <div id="home-main">
   <section class="latest">
-    <h1 class="sec-title">🔄 最近 7 天更新 <span class="sec-sub">（共 58 篇）</span></h1>
+    <h1 class="sec-title">🔄 最近 7 天更新 <span class="sec-sub">（共 55 篇）</span></h1>
     
       
         <div class="day-header">
-          <span class="day-date">📅 2026-09-25</span>
-          <span class="day-count">12 篇</span>
+          <span class="day-date">📅 2026-09-26</span>
+          <span class="day-count">1 篇</span>
         </div>
         
-<article class="card">
+<article class="card featured">
   <h2 class="title">
-    <a href="https://doi.org/10.1093/rfs/hhag087" target="_blank" rel="noopener">Affordable Housing, Unaffordable Credit? Concentration and High-Cost Lending for Manufactured Homes</a>
+    <a href="https://doi.org/10.1093/rfs/hhag084" target="_blank" rel="noopener">Universal Portfolio Shrinkage</a>
   </h2>
 
   <div class="meta">
@@ -76,7 +76,7 @@
     
     
     
-    <span class="authors">Sebastian Doerr, Andreas Fuster
+    <span class="authors"><b class="fa" title="关注学者">Bryan Kelly</b>, Semyon Malamud, Mo Pourmohammadi, Fabio Trojani
     </span>
     
     
@@ -87,19 +87,64 @@
   
 
   
-    <p class="summary">本文研究美国 manufactured home（预制/移动住宅）贷款市场中高市场集中度如何导致借款人承担远高于 site-built home（现场建造住宅）抵押贷款市场的利率。实证发现，在贷款人集中度更高的县，借款人面临的利率显著更高。作者采用三种策略识别因果效应：监管利率阈值处的 bunching（堆积）证据、工具变量分析，以及双重差分（difference-in-differences）分析。结果均支持集中度与高利率之间存在因果联系。此外，在该市场占据异常重要地位的 integrated lenders（一体化贷款人，即同时参与房屋销售与放贷的贷款人）收取的利率尤其高，作者提供的证据表明这些贷款人利用其市场势力向借款人攫取租金。文章最后讨论了可能解释贷款人进入有限的若干因素。</p>
+    <p class="summary">本文针对构建最优投资组合时的协方差估计问题，提出了一种非线性的协方差收缩方法——通用投资组合收缩近似器（universal portfolio shrinkage approximator, UPSA）。与既有做法不同，UPSA 并非对收益率的所有主成分施加统一惩罚，也不是直接舍弃低方差成分，而是用闭式解形式的基组合（closed-form basis portfolios）来重新加权各成分，从而显式地优化组合的样本外期望表现；该方法实现成本低，且优于现有收缩方法。作者在一个大规模异象因子横截面（large cross-section of anomaly factors）上进行了实证检验，结果显示 UPSA 相对文献中的其他收缩方法能带来稳健的改进。</p>
   
 
   
   <div class="keywords">
-    <span class="tag">市场集中度</span><span class="tag">高成本信贷</span><span class="tag">制造住宅贷款</span><span class="tag">贷款人市场势力</span><span class="tag">一体化贷款人</span>
+    <span class="tag">协方差收缩</span><span class="tag">投资组合优化</span><span class="tag">主成分分析</span><span class="tag">异象因子</span><span class="tag">样本外表现</span>
   </div>
   
 
-  <div class="comment">💡 论文将产业组织中的市场势力视角引入一个被忽视的细分信贷市场——manufactured home 贷款，并综合运用阈值 bunching、工具变量与双重差分三重策略强化因果识别，为“集中度—高利率—借款人福利”链条提供了较为可信的证据，也提示抵押贷款市场监管需关注一体化贷款人的角色。</div>
+  <div class="comment">💡 该文把收缩权重的选择内生化，直接以样本外组合表现为目标来重加权各主成分，而非沿用统一的惩罚或截断规则，并给出了便于落地的闭式基组合形式；在大规模异象因子上的稳健改进显示该方法对高维投资组合构建具有实用价值。</div>
 
   <div class="links">
-    <a href="https://doi.org/10.1093/rfs/hhag087" target="_blank" rel="noopener">阅读原文 →</a>
+    <a href="https://doi.org/10.1093/rfs/hhag084" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+        <hr class="day-divider">
+      
+        <div class="day-header">
+          <span class="day-date">📅 2026-09-25</span>
+          <span class="day-count">12 篇</span>
+        </div>
+        
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://doi.org/10.1287/mnsc.2025.02458" target="_blank" rel="noopener">Generative Search: Evidence from a Large-Scale Field Experiment</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-MS">MS</span>
+    
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Shuang Zheng, Yuting Zhu, Xin Ye, Liang Shen
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-24</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">该研究关注生成式搜索这一新兴搜索范式：它将 GenAI 整合进传统搜索引擎，在常规搜索结果之前向用户呈现 AI 生成的回答。与基于关键词的搜索要求消费者把潜在需求转化为有效关键词查询不同，生成式搜索允许用户直接用自然语言表达意图，这一转变得益于 GenAI 新的信息呈现方式，并将消费者与搜索引擎的互动上移到问题形成阶段，从而使原本隐藏的搜索行为阶段——从问题形成到关键词表达之间的映射——变得可以实证观察。然而，生成式搜索是否会增加消费者购买，以及当搜索可以从表达意图而非关键词开始时搜索行为如何变化，仍缺乏实证证据。该文利用在中国领先科技平台美团上开展的大规模田野实验，为生成式搜索的有效性提供实证证据。研究发现，生成式搜索显著增加消费者购买。进一步分析显示，生成式搜索促成更有效且更多样的关键词查询，减少探索性浏览和点击，同时将评估集中在相关品类和商家中。实证证据最符合如下机制：AI 生成的回答提供了关于消费者潜在需求的信息，同时扩展了对相关属性的认知，并将注意力转向更相关的品类。这些发现为未来允许搜索从表达意图阶段开始的消费者搜索模型提供了实证启示。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">生成式搜索</span><span class="tag">GenAI</span><span class="tag">消费者购买</span><span class="tag">田野实验</span><span class="tag">消费者搜索行为</span>
+  </div>
+  
+
+  <div class="comment">💡 本文的亮点在于用美团上的大规模田野实验为生成式搜索提供了因果证据，并把消费者搜索研究推进到“问题形成—意图表达”这一此前难以观测的上游阶段。它不仅发现生成式搜索提升购买，还揭示了关键词查询、探索性浏览与评估集中度等行为机制，对平台设计和消费者搜索理论都有参考价值。</div>
+
+  <div class="links">
+    <a href="https://doi.org/10.1287/mnsc.2025.02458" target="_blank" rel="noopener">阅读原文 →</a>
   </div>
 </article>
 
@@ -110,7 +155,7 @@
 
   <div class="meta">
     <span class="badge src-RFS">RFS</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -143,12 +188,50 @@
 
 <article class="card">
   <h2 class="title">
+    <a href="https://doi.org/10.1093/rfs/hhag087" target="_blank" rel="noopener">Affordable Housing, Unaffordable Credit? Concentration and High-Cost Lending for Manufactured Homes</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-RFS">RFS</span>
+    
+    
+    
+    
+    <span class="authors">Sebastian Doerr, Andreas Fuster
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-24</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">本文研究美国 manufactured home（预制/移动住宅）贷款市场中高市场集中度如何导致借款人承担远高于 site-built home（现场建造住宅）抵押贷款市场的利率。实证发现，在贷款人集中度更高的县，借款人面临的利率显著更高。作者采用三种策略识别因果效应：监管利率阈值处的 bunching（堆积）证据、工具变量分析，以及双重差分（difference-in-differences）分析。结果均支持集中度与高利率之间存在因果联系。此外，在该市场占据异常重要地位的 integrated lenders（一体化贷款人，即同时参与房屋销售与放贷的贷款人）收取的利率尤其高，作者提供的证据表明这些贷款人利用其市场势力向借款人攫取租金。文章最后讨论了可能解释贷款人进入有限的若干因素。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">市场集中度</span><span class="tag">高成本信贷</span><span class="tag">制造住宅贷款</span><span class="tag">贷款人市场势力</span><span class="tag">一体化贷款人</span>
+  </div>
+  
+
+  <div class="comment">💡 论文将产业组织中的市场势力视角引入一个被忽视的细分信贷市场——manufactured home 贷款，并综合运用阈值 bunching、工具变量与双重差分三重策略强化因果识别，为“集中度—高利率—借款人福利”链条提供了较为可信的证据，也提示抵押贷款市场监管需关注一体化贷款人的角色。</div>
+
+  <div class="links">
+    <a href="https://doi.org/10.1093/rfs/hhag087" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card">
+  <h2 class="title">
     <a href="https://doi.org/10.1016/j.jfineco.2026.104380" target="_blank" rel="noopener">Bankruptcy lawyers and credit recovery</a>
   </h2>
 
   <div class="meta">
     <span class="badge src-JFE">JFE</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -186,7 +269,7 @@
 
   <div class="meta">
     <span class="badge src-JFE">JFE</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -217,44 +300,6 @@
   </div>
 </article>
 
-<article class="card ai">
-  <h2 class="title">
-    <a href="https://doi.org/10.1287/mnsc.2025.02458" target="_blank" rel="noopener">Generative Search: Evidence from a Large-Scale Field Experiment</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-MS">MS</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
-    
-    <span class="badge ai">AI</span>
-    
-    <span class="authors">Shuang Zheng, Yuting Zhu, Xin Ye, Liang Shen
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-24</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">该研究关注生成式搜索这一新兴搜索范式：它将 GenAI 整合进传统搜索引擎，在常规搜索结果之前向用户呈现 AI 生成的回答。与基于关键词的搜索要求消费者把潜在需求转化为有效关键词查询不同，生成式搜索允许用户直接用自然语言表达意图，这一转变得益于 GenAI 新的信息呈现方式，并将消费者与搜索引擎的互动上移到问题形成阶段，从而使原本隐藏的搜索行为阶段——从问题形成到关键词表达之间的映射——变得可以实证观察。然而，生成式搜索是否会增加消费者购买，以及当搜索可以从表达意图而非关键词开始时搜索行为如何变化，仍缺乏实证证据。该文利用在中国领先科技平台美团上开展的大规模田野实验，为生成式搜索的有效性提供实证证据。研究发现，生成式搜索显著增加消费者购买。进一步分析显示，生成式搜索促成更有效且更多样的关键词查询，减少探索性浏览和点击，同时将评估集中在相关品类和商家中。实证证据最符合如下机制：AI 生成的回答提供了关于消费者潜在需求的信息，同时扩展了对相关属性的认知，并将注意力转向更相关的品类。这些发现为未来允许搜索从表达意图阶段开始的消费者搜索模型提供了实证启示。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">生成式搜索</span><span class="tag">GenAI</span><span class="tag">消费者购买</span><span class="tag">田野实验</span><span class="tag">消费者搜索行为</span>
-  </div>
-  
-
-  <div class="comment">💡 本文的亮点在于用美团上的大规模田野实验为生成式搜索提供了因果证据，并把消费者搜索研究推进到“问题形成—意图表达”这一此前难以观测的上游阶段。它不仅发现生成式搜索提升购买，还揭示了关键词查询、探索性浏览与评估集中度等行为机制，对平台设计和消费者搜索理论都有参考价值。</div>
-
-  <div class="links">
-    <a href="https://doi.org/10.1287/mnsc.2025.02458" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
 <article class="card featured">
   <h2 class="title">
     <a href="https://doi.org/10.2139/ssrn.7265538" target="_blank" rel="noopener">Completions, Not Convictions: Can LLM Probabilities Proxy for Human Beliefs?</a>
@@ -262,7 +307,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     <span class="badge ai">AI</span>
     
@@ -292,7 +337,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -322,7 +367,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -352,7 +397,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -382,7 +427,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -412,7 +457,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -442,7 +487,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -1944,165 +1989,6 @@
   </div>
 </article>
 
-        <hr class="day-divider">
-      
-        <div class="day-header">
-          <span class="day-date">📅 2026-09-19</span>
-          <span class="day-count">4 篇</span>
-        </div>
-        
-<article class="card">
-  <h2 class="title">
-    <a href="https://doi.org/10.1287/mnsc.2023.00580" target="_blank" rel="noopener">Bad News Bearers: The Negative Tilt of the Financial Press</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-MS">MS</span>
-    
-    
-    
-    
-    <span class="authors">Betty Liu, Marina Niessner, Eric C. So
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-18</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">论文考察了财经媒体的负面报道倾向（negative tilt）及其对资产价格的影响。作者发现，媒体报道的增加能够强烈预测随后公布的公司基本面走弱、负向盈余惊喜，以及更高的破产、削减股利和退市概率。进一步地，媒体文章常传递负面情绪，且负面文章发表时投资者关注度上升，这表明媒体为吸引读者（readership）而在报道上偏向负面事件。研究还表明，媒体报道最初会通过注意力效应（attention effect）阻碍负面消息的价格发现；而投资者对媒体报道决策中所隐含的负面信号反应迟缓，导致负面信息逐步融入价格，并产生收益可预测性（return predictability）。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">媒体报道</span><span class="tag">负面倾向</span><span class="tag">价格发现</span><span class="tag">投资者关注</span><span class="tag">收益可预测性</span>
-  </div>
-  
-
-  <div class="comment">💡 论文的亮点在于把媒体是否报道这一决策本身视为负面信号，并区分了注意力效应与投资者反应迟缓两种机制，从而揭示媒体偏向负面以获取阅读量的激励如何导致负面信息渐进地反映到价格中。</div>
-
-  <div class="links">
-    <a href="https://doi.org/10.1287/mnsc.2023.00580" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://doi.org/10.1093/rfs/hhag086" target="_blank" rel="noopener">The Coherence Side of Rationality Theory and Evidence from Firm Plans</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-RFS">RFS</span>
-    
-    
-    
-    
-    <span class="authors">Pamela Giustinelli, Stefano Rossi
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-18</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">论文利用 Duke Survey 关于企业内部计划的数据，考察 CFO 预测在多大程度上依赖 MBA 教材所教授的简单 heuristics，并提出 forecast coherence——即对共同决定变量所做预测之间的内部一致性——作为评价这些 heuristics 的基准。结果显示，超过 80% 的 CFO 预测与简单 heuristics 高度吻合；接近一半的 CFO 所发布的预测与 incoherent heuristics 紧密一致。这类预测与预测误差的可预测反转、更低的企业绩效以及投资不足相关。作者进一步构建一个简约模型，说明依赖受限的预测 heuristics 如何导致预测不连贯以及企业内部资源配置不当，与实证发现相一致。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">CFO预测</span><span class="tag">预测一致性</span><span class="tag">启发式规则</span><span class="tag">企业绩效</span><span class="tag">资源配置</span>
-  </div>
-  
-
-  <div class="comment">💡 论文的亮点在于提出 forecast coherence 这一可检验基准，将 CFO 预测所依赖的 heuristics 与后续预测误差反转、企业绩效和投资不足联系起来，并用简约模型解释资源配置扭曲，为理解管理预期形成的理性边界提供了新视角。</div>
-
-  <div class="links">
-    <a href="https://doi.org/10.1093/rfs/hhag086" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card featured">
-  <h2 class="title">
-    <a href="https://doi.org/10.1093/rfs/hhag083" target="_blank" rel="noopener">Optimal Time-Consistent Debt Policies</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-RFS">RFS</span>
-    
-    
-    
-    
-    <span class="authors"><b class="fa" title="关注学者">Andrey Malenko</b>, Anton Tsoy
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-18</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文研究一个动态 trade-off 模型，其中股东可以自由调整债务水平，但无法对未来债务政策做出可信承诺。论文将时间一致性定义为：股东在事后不会选择偏离既有债务政策、进而丧失信誉，并在此约束下刻画某一政策类中的最优时间一致（time-consistent）债务政策。该最优政策包含两种状态：一是稳定状态（stable regime），股东主动管理负债以维持目标利息覆盖率（interest coverage ratio）；二是由大幅负向冲击触发的财务困境状态（distress regime），此时股东会暂时放弃该目标。作者指出该政策具有与现实相符的特征，并据此弥合了静态债务 trade-off 理论与基于杠杆棘轮效应（leverage ratchet effect）的理论之间的差距。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">资本结构</span><span class="tag">时间一致性</span><span class="tag">动态 trade-off 模型</span><span class="tag">杠杆棘轮效应</span><span class="tag">利息覆盖率</span>
-  </div>
-  
-
-  <div class="comment">💡 论文将承诺缺失与时间一致性约束引入动态资本结构权衡框架，刻画出的政策兼具稳定目标管理与困境中的临时偏离，为调和静态 trade-off 理论与杠杆棘轮效应文献提供了统一视角。</div>
-
-  <div class="links">
-    <a href="https://doi.org/10.1093/rfs/hhag083" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://doi.org/10.1093/rfs/hhag025" target="_blank" rel="noopener">Sovereign Default and the Decline in Interest Rates</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-RFS">RFS</span>
-    
-    
-    
-    
-    <span class="authors">Max Miller, James D Paron, Jessica A Wachter
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-07-22</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">过去半个世纪，主权债务收益率出现了历史性下降。既有主流解释（如人口老龄化和海外资产需求增加）难以同时解释全部经验证据。为此，作者提出一种基于通胀风险和违约风险下降的解释，并构建一个包含主权违约的模型。该模型能够同时刻画利率下降、股票估值比率保持稳定以及投资和产出增长放缓等典型事实。模型校准结果显示，post-COVID 时期主权违约风险可能已经重新上升。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">主权违约</span><span class="tag">利率下降</span><span class="tag">通胀风险</span><span class="tag">股票估值</span><span class="tag">宏观金融</span>
-  </div>
-  
-
-  <div class="comment">💡 论文把长期利率下行、股票估值稳定与增长放缓纳入一个带主权违约的宏观模型统一解释，视角独特；post-COVID 校准提示违约风险回归，对理解当前主权债定价与宏观政策具有现实意义。</div>
-
-  <div class="links">
-    <a href="https://doi.org/10.1093/rfs/hhag025" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
         
       
     
@@ -2133,7 +2019,7 @@
       
       <a class="jcard" href="RFS.html">
         <span class="jname badge src-RFS">RFS</span>
-        <span class="jcount">395 篇</span>
+        <span class="jcount">396 篇</span>
         <span class="jdate">最近发表 2026-09-24</span>
       </a>
       
