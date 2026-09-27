@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104378",
+    "title": "What can macro-active bond funds tell us about monetary policy change?",
+    "authors": [
+      "Claire Yurong Hong",
+      "Jun Pan",
+      "Shiwen Tian"
+    ],
+    "abstract": "This paper focuses on actively managed bond mutual funds, whose performance is most sensitive to monetary policy shocks. We document significant and persistent FOMC-day outperformance by macro-active bond funds, which is particularly pronounced during periods of heightened macroeconomic disagreement and attention. Consistent with their forecasting ability, these funds’ pre-FOMC portfolio duration adjustments can predict FOMC-day monetary policy shocks beyond the information offered by economic data and asset returns. Furthermore, we show that this macro-investing skill extends to GDP and CPI announcements and is consistently shared across various fund styles within fund families.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104378",
+    "published_date": "2026-09-26",
+    "source": "JFE",
+    "first_seen": "2026-09-27",
+    "abstract_missing": false,
+    "summary": "本文以主动管理的债券共同基金为研究对象，认为这类基金的表现对货币政策冲击最为敏感。研究记录了宏观主动型（macro-active）债券基金在FOMC公告日存在显著且持续的超额收益，且在宏观经济分歧与关注度上升的时期尤为突出。与这些基金具备预测能力这一解释相一致，其在FOMC会议前的组合久期调整能够预测FOMC当日的货币政策冲击，且这一预测能力超出了经济数据与资产收益所提供的信息。作者进一步表明，这种宏观投资技能同样体现在GDP与CPI公告上，并且在基金家族内部不同风格的基金之间被持续共享。",
+    "keywords": [
+      "债券共同基金",
+      "货币政策冲击",
+      "FOMC",
+      "久期调整",
+      "宏观预测能力"
+    ],
+    "ai_comment": "论文的亮点在于把基金的组合久期调整当作揭示其宏观预测能力的可观测信号，并证明该信号对货币政策冲击具有超出公开经济数据与资产价格的增量预测力，为‘专业投资者是否真正掌握宏观信息’这一争论提供了新的微观证据。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1287/mnsc.2025.02458",
     "title": "Generative Search: Evidence from a Large-Scale Field Experiment",
     "authors": [
@@ -23204,6 +23229,142 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.6200400",
     "first_seen": "2026-09-25",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Hedge Fund Activism: Influence, Control, and Corporate Governance",
+    "authors": [
+      "Alon P. Brav",
+      "Wei Jiang",
+      "Minghao Wu"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7295378",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7295378",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Detecting Skilled Bond Fund Managers",
+    "authors": [
+      "Ron Kaniel",
+      "Markus Pelger",
+      "Stijn Van Nieuwerburgh",
+      "Luofeng Zhou"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6165386",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6165386",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Winners and Losers When Interest Rates Change",
+    "authors": [
+      "Daniel L. Greenwald",
+      "Matteo Leombroni",
+      "Hanno N. Lustig",
+      "Stijn Van Nieuwerburgh"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6240378",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6240378",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Great Revaluation: COVID-19 and the Structural Transformation of the American Housing Market",
+    "authors": [
+      "Stijn Van Nieuwerburgh"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6227278",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6227278",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Tokenized Gold",
+    "authors": [
+      "Campbell R. Harvey",
+      "Daniel Rabetti",
+      "Chen Lin",
+      "Che Zhang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5995434",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5995434",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Machine Learning Meets Markowitz",
+    "authors": [
+      "Yuxuan Wang",
+      "Hao Gao",
+      "Campbell R. Harvey",
+      "Yan Liu",
+      "Xinyuan Tao"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6290354",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6290354",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "What Threshold Should be Applied to Tests of Factor Models?",
+    "authors": [
+      "Campbell R. Harvey",
+      "Alessio Sancetta",
+      "Yuqian Zhao"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6326686",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6326686",
+    "first_seen": "2026-09-27",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
@@ -48310,6 +48471,158 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.5215857",
     "first_seen": "2026-09-25",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Dynamic Urban Economics",
+    "authors": [
+      "Brian Greaney",
+      "Andrii Parkhomenko",
+      "Stijn Van Nieuwerburgh"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5150901",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5150901",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Too-Many-to-Ignore: Regional Banks and CRE Risks",
+    "authors": [
+      "Franz J. Hinzen",
+      "Felipe Severino",
+      "Stijn Van Nieuwerburgh"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5560880",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5560880",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "A Cognitive Theory of Reasoning and Choice",
+    "authors": [
+      "Pedro Bordalo",
+      "Nicola Gennaioli",
+      "Giacomo Lanzani",
+      "Andrei Shleifer"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5140712",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5140712",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Passive Aggressive: The Risks of Passive Investing Dominance",
+    "authors": [
+      "Chris Brightman",
+      "Campbell R. Harvey"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5259427",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5259427",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Fundamental Growth",
+    "authors": [
+      "Robert D. mname Arnott",
+      "Chris Brightman",
+      "Campbell R. Harvey",
+      "Que Nguyen",
+      "Omid Shakernia"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5342700",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5342700",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Revaluation Alpha",
+    "authors": [
+      "Robert D. mname Arnott",
+      "Sina Ehsani",
+      "Campbell R. Harvey",
+      "Omid Shakernia"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5451754",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5451754",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Gold and Bitcoin",
+    "authors": [
+      "Campbell R. Harvey"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5530719",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5530719",
+    "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Understanding Gold",
+    "authors": [
+      "Claude B. Erb",
+      "Campbell R. Harvey"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5525138",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5525138",
+    "first_seen": "2026-09-27",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
