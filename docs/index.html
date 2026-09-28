@@ -12,7 +12,7 @@
   <header class="site" id="top">
     <div class="wrap">
       <a class="brand" href="index.html">📚 金融论文摘要</a>
-      <span class="updated">上次更新：2026-09-27 15:22 (北京时间 UTC+8)</span>
+      <span class="updated">上次更新：2026-09-28 16:01 (北京时间 UTC+8)</span>
     </div>
   </header>
 
@@ -32,7 +32,7 @@
       
       <a href="JAR.html">JAR <em>189</em></a>
       
-      <a href="NBER.html">NBER <em>693</em></a>
+      <a href="NBER.html">NBER <em>706</em></a>
       
       <a href="MS.html">MS <em>709</em></a>
       
@@ -44,7 +44,7 @@
   
   <section class="search">
     <div class="search-row">
-      <input id="search-box" type="text" placeholder="🔍 按语义检索全库 3397 篇 —— 试试&quot;货币政策对银行信贷&quot;、&quot;LLM 与资产定价&quot;…" autocomplete="off">
+      <input id="search-box" type="text" placeholder="🔍 按语义检索全库 3410 篇 —— 试试&quot;货币政策对银行信贷&quot;、&quot;LLM 与资产定价&quot;…" autocomplete="off">
       <button id="search-go">搜索</button>
       <button id="search-clear" title="清空，回到首页">清空</button>
     </div>
@@ -57,8 +57,509 @@
   
   <div id="home-main">
   <section class="latest">
-    <h1 class="sec-title">🔄 最近 7 天更新 <span class="sec-sub">（共 61 篇）</span></h1>
+    <h1 class="sec-title">🔄 最近 7 天更新 <span class="sec-sub">（共 63 篇）</span></h1>
     
+      
+        <div class="day-header">
+          <span class="day-date">📅 2026-09-28</span>
+          <span class="day-count">13 篇</span>
+        </div>
+        
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35782" target="_blank" rel="noopener">An LLM Workflow That Reproduces, Improves, and Extends Published Economics Research</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Matthew Schwartz, Isaiah Andrews, Jesse M. Shapiro
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">本文提出了一套开源工作流，让 LLM 能够借助论文已公开的 replication package 对经济学论文进行计算复现、改进与延伸。该工作流分三步：第一步是复现原始计算，检查其结果与已发表结论之间是否存在差异，并自动执行敏感性分析；对来自五本经济学期刊的 4,452 个已发表 replication package 进行测试后，该工作流在 3,460 篇论文或其附录中标记出差异。第二步是通过不同的实现方式或算法改进原始计算，在 496 篇论文中，工作流在精度相当甚至更高的情况下，将某项计算的计算时间缩短了 10 倍以上。第三步是延伸原始分析，在 923 篇论文中，工作流生成了原论文中并未出现、且与原论文目标与假设相一致的扩展分析。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">LLM</span><span class="tag">可复现性</span><span class="tag">复制包</span><span class="tag">自动化敏感性分析</span><span class="tag">经济学研究自动化</span>
+  </div>
+  
+
+  <div class="comment">💡 论文的价值在于把 LLM 工作流放到 4,452 个真实 replication package 上做大规模检验，并给出复现、加速与延伸三类可量化结果，为 AI 辅助科研复现提供了可参考的评估范式；不过被标记的差异究竟有多少源于实现细节差异、多少是实质性问题，仍需进一步甄别。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35782" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35789" target="_blank" rel="noopener">(How) Do We Teach Emotions?</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Anjali Adukia, Matthew Bonci, Paula Dastres Gallardo, Emileigh Harrison, Jake Nicoll, Teodora Szasz
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">该研究将情绪智力视为人力资本的关键组成部分，并指出其部分由教育材料塑造。作者利用机器学习与生成式AI工具，系统考察了公立学校教材和儿童文学中的情绪内容。研究发现了一个显著错配：文本向儿童呈现了广泛的情绪范围，但图片却几乎只描绘快乐与平静，且这一现象与同一页文本所描述的情绪无关；近一半页面中，文本情绪与图片情绪之间零重叠。这种模式在时间、情境和身份群体中均持续存在。进一步结合家庭购买数据和图书馆藏书目录，作者发现内容可能由偏好“正面”封面图像的消费者需求内生塑造，这意味着市场力量收窄了儿童所接触的情绪图景。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">情绪智力</span><span class="tag">教材与儿童文学</span><span class="tag">机器学习</span><span class="tag">生成式AI</span><span class="tag">情绪错配</span>
+  </div>
+  
+
+  <div class="comment">💡 论文创新性地将生成式AI用于大规模跨模态情绪分析，首次系统揭示了儿童教育材料中文本与图片的情绪错配，并进一步将市场需求的 endogenous 作用引入解释，为理解人力资本形成中的情绪维度提供了新视角。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35789" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35793" target="_blank" rel="noopener">The Macroeconomic Effect of AI: Sizing the Software Engineering Channel</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Alex Blumenfeld, Jonathon Hazell, Chen Lian, Andreas Schaab
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">本文研究人工智能（AI）通过影响软件工程生产率而对宏观经济产生的效应。作者利用金融市场信息构建了一个具有前瞻性、可实时获取的度量指标：估计每家公司的股票收益对某个 AI 股票市场指数的敏感度，并考察该敏感度如何取决于公司薪酬总额中软件工程所占的份额，再通过一个模型把这种横截面关系映射为软件工程生产率的提升。结果显示，从 2022 年 11 月到 2025 年 12 月，AI 使市场对软件工程生产率现值的预期提高了，相当于一次永久性的 32.6% 生产率提升；对 GDP 水平的相应影响在基准情形下为 3.6%，若软件工程生产率的提高同时提升研发生产率，则为 6.5%。到 2026 年年中，随着编码智能体（coding agents）的快速进展，AI 对生产率和 GDP 的影响相对于 2025 年底已翻倍以上。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">人工智能</span><span class="tag">软件工程生产率</span><span class="tag">GDP</span><span class="tag">股票收益</span><span class="tag">研发生产率</span>
+  </div>
+  
+
+  <div class="comment">💡 论文的亮点在于用股票市场对 AI 指数的敏感度与软件工程薪资份额的横截面关系，构造出可实时追踪、前瞻性的生产率与宏观影响度量，把微观金融市场信号与宏观总量效应衔接起来；其估计出的 32.6% 永久性生产率提升及对 GDP 的影响幅度相当可观，且随时间快速上修，凸显 AI 冲击的规模与动态演进。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35793" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35796" target="_blank" rel="noopener">The Early Impacts of AI on Employment among Recent College Graduates</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Robert W. Fairlie, Jane Wu
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">本文关注人工智能对近期大学毕业生就业前景的影响，指出现有讨论对影响幅度乃至发生时点均无共识。作者使用 CPS 微观数据，首次估计 AI 对 2026 年 6 月、7 月和 8 月近期大学毕业生失业率的影响。文中提供证据表明夏季失业率本就偏高，而 2026 年可能是 AI 在工作场所的使用足够广泛、足以检测出 AI 对近期大学毕业生（被认为最易被 AI 替代的群体）影响的第一年。作者对处理时点采取不可知（agnostic）的设定方式，发现 2026 年夏季失业率并未相对往年夏季月份出现激增，也未相对年长大学毕业生或未取得大学学位的年轻工人显著上升。文章还首次分析了一种扩展的失业定义，即把报告“想要一份工作”的人纳入统计，这使近期大学毕业生的失业率增加近两个百分点，但即便加入这些“被边缘化的失业者”（sidelined unemployed），也未发现 2026 年夏季失业率有统计显著上升。作者以年长大学毕业生和年轻非大学毕业生作为对照组，估计了 difference-in-differences 和 event-study 交互模型，同样没有发现相对失业率上升的证据。最后，作者估计了将 2026 年失业状况与各职业的 AI 暴露度及远程工作可获得性进行交互的模型，发现远程工作可获得性与失业之间存在正向关系的部分证据。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">人工智能</span><span class="tag">近期大学毕业生</span><span class="tag">失业率</span><span class="tag">CPS微观数据</span><span class="tag">双重差分</span>
+  </div>
+  
+
+  <div class="comment">💡 论文以 CPS 微观数据首次对 2026 年夏季 AI 是否推高近期大学毕业生失业率做了系统检验，并提出纳入“想要工作”者的扩展失业定义与“被边缘化的失业者”视角，为当前“AI 替代应届生”的流行叙事提供了早期、偏否定性的实证证据。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35796" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35797" target="_blank" rel="noopener">Property Rights Uncertainty, Prices, and Speculation: Evidence from China&#39;s Housing Market</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    
+    
+    <span class="authors">Hanming Fang, Jing Wu, Vincent Yao
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">本文研究产权不确定性对房价与投机行为的因果影响。作者利用中国深圳一个独特情境：相邻且其他方面相似的住宅单位在产权保护强度上存在差异，部分单位拥有70年产权的完整产权（full property rights, FPR），另一些则仅有有限产权保护（limited property rights, LPR）。基于详细的挂牌（listing）数据，作者发现销售市场会对这些产权保护进行定价，而租赁市场则不会。估计结果显示，市场认为FPR权利在70年期限届满时可能受到质疑的感知概率介于7%至21%之间，而LPR在未来任何一年都得不到法律保护的概率超过50%。作者进一步表明LPR单位更容易受到投机影响，表现为更高的换手率与更大的价格波动。最后，作者发现新城市规划法规的公开发布会提高LPR房产相对于匹配FPR单位的挂牌价格，并降低其换手率与价格波动。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">产权不确定性</span><span class="tag">住房市场</span><span class="tag">投机</span><span class="tag">价格波动</span><span class="tag">中国</span>
+  </div>
+  
+
+  <div class="comment">💡 论文巧妙利用深圳同地段、同品质但产权强度不同的住宅单位构建准自然实验，把难以观测的产权风险转化为可估计的概率区间，并区分销售与租赁市场的定价差异，为产权制度与资产价格、投机行为的关系提供了难得的微观证据。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35797" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35806" target="_blank" rel="noopener">Deep Learning as a Projection Method for Solving Economic Models</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Kenneth L. Judd, Karl Schmedders
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">该文针对经济学中日益流行的观点——深度学习是求解动态模型的新范式并取代经典投影方法——指出这种二分法源于分类错误。文献强调的神经网络求解器实质上是最小二乘投影方法，采用自适应非线性参数化；把深度学习归入投影方法家族后，研究议程应从范式之争转向构建统一工具箱，依据具体模型在多种近似方法、残差准则和评估设计之间择优。在低维与中维情形，线性基和稀疏网格方法往往比训练好的神经网络更准确、更快且更易验证；在高维情形，恰当选择容许函数空间通常可以避免维数灾难。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">深度学习</span><span class="tag">投影方法</span><span class="tag">最小二乘投影</span><span class="tag">稀疏网格</span><span class="tag">维数灾难</span>
+  </div>
+  
+
+  <div class="comment">💡 本文的亮点在于将神经网络求解器重新归入投影方法家族，澄清了深度学习并非替代经典数值经济学的全新范式，而是一种带自适应非线性参数化的最小二乘投影。它提醒研究者按模型维度与可验证性在传统方法与神经网络之间择优，对高维动态模型的函数空间选择具有方法论意义。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35806" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35809" target="_blank" rel="noopener">Terra Incognita: The Economics of a Shrinking World</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    
+    
+    <span class="authors">Jesús Fernández-Villaverde, Patrick Norrick
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文关注一个前所未有的全球人口现象：截至 2026 年，人类整体生育率很可能已低于更替水平，而这种情况在战争或瘟疫时期都未曾发生。作者对 1950 年以来 236 个国家的生育率数据拟合了一个 single-factor model，发现共同因子（common component）在 1978 年达到峰值，而当前压低生育率的动力来自各国家特有的趋势项——其中 219 个国家的趋势为负，且没有任何一个出现趋于平缓的迹象。更出人意料的是，这一下降主要集中在低收入和中等收入国家，并且在更贫困、受教育程度更低的女性群体中尤为明显。作者指出，常见的各种解释机制都无法解释这种模式，于是提出一个猜想：是 modernity（现代性）本身在起作用——它让生育第三个孩子变得昂贵，同时让不生育变得廉价。由于孩子数量是整数（children come in integers），只需很小的冲击就能把一个队列的生育率从 1.8 推到 1.3；而经济体系中不存在任何自动力量能把生育率推回 2.1。文章最后讨论了这一趋势的主要经济后果，尤其是经济增长放缓。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">生育率</span><span class="tag">人口转型</span><span class="tag">单因子模型</span><span class="tag">经济增长</span><span class="tag">现代化</span>
+  </div>
+  
+
+  <div class="comment">💡 亮点在于用 236 国、1950 年以来的长面板把全球生育率下降分解为共同因子与国家特有趋势，指出下降动力已由共同因素转为持续为负的国别趋势，并结合“孩子是整数”的离散选择逻辑提出“现代性”猜想，把人口问题直接接到增长放缓的宏观后果上。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35809" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35814" target="_blank" rel="noopener">Foreign Opportunity and Regional Revival: Evidence from the French Rust Belt</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    
+    
+    <span class="authors">Antoine B. Levy, Mathilde Muñoz
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文研究陷入产业衰退的困境地区能否以及如何实现复苏。作者利用法国“锈带”（Rust Belt）邻近居民进入日益繁荣的卢森堡劳动力市场的可及性差异作为识别策略，记录出受处理地方劳动力市场的三阶段扩张过程：初期是本地在职居民向跨境工作机会的工作岗位替代，中期是本地劳动力利用率的上升，长期则是通过国内净迁入实现的人口持续增长。随后出现更广泛的本地复兴：收入提高、对转移支付的依赖下降，并对社会失序表现出韧性，不过这一过程被上升的住房成本和不均衡的拥堵部分抵消。最终结果是极右翼与反欧盟（anti-EU）政党的得票份额净下降，从而抑制了法国其他前工业地区所出现的民粹主义上升。作者据此认为，前工业地区并非天生僵化，也并非注定陷入反全球化的反弹，只要本地劳动力需求出现足够大规模的反转，它们就能够并且确实会作出调整。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">跨境通勤</span><span class="tag">区域经济复兴</span><span class="tag">劳动力市场调整</span><span class="tag">国内迁移</span><span class="tag">民粹主义</span>
+  </div>
+  
+
+  <div class="comment">💡 论文把卢森堡跨境劳动力需求这一外生变化当作准自然实验，将劳动市场调整、人口迁移、住房成本与政治投票串成一条完整的区域复兴链条，为“前工业区能否自我修复”提供了难得的因果证据，其三阶段动态及对民粹主义的抑制效应尤其值得关注。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35814" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35819" target="_blank" rel="noopener">Timing, Trading Frictions, and the Limits of Subsidy Capture in Livestock Risk Protection</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    
+    
+    <span class="authors">Yifei Zhang, Andrew Keller, Shawn Arita, Sandro Steinbach
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文关注公共补贴型保险项目可能引发的“补贴捕获”（subsidy capture）问题：当被保险产品与私人交易的金融工具高度相似时，投保人理论上可以借补贴套利。Livestock Risk Protection（LRP）正是典型案例，它通过一个与交易所交易 put option 极为相似的合约提供价格保险。作者使用 2020—2025 年的 LRP endorsement records 以及匹配的 CME options 数据，发现 endorsement 活动集中出现在 CME option 到期日附近，在 feeder cattle 和 lean hogs 上尤为明显。但由于生产者层面的衍生品头寸不可观测，仅凭这种时点聚集模式无法识别 subsidy capture。为此，作者利用观测到的合约条款、期权价格以及交易摩擦（包括 bid-ask spreads、margin requirements 和 financing costs）模拟 LRP 与 CME 期权组合策略的收益。结果显示，补贴造成的 premium wedge 在购买时确实可观测，但最终实现的收益很小、因商品而异，并且集中在 realized volatility 低于 implied volatility 的低波动环境中；即使在这些有利情形下，组合策略相对单独持有 LRP 也会显著恶化下行结果。进一步证据表明，这种到期日聚集现象在不同波动率状态下以及 2025 年 LRP Handbook 修订之后依然存在，说明观察到的时点模式更可能反映合约期限对齐与常规套保习惯，而非普遍存在且具有经济意义的补贴捕获。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">农业保险补贴</span><span class="tag">期权</span><span class="tag">交易摩擦</span><span class="tag">套保</span><span class="tag">衍生品市场</span>
+  </div>
+  
+
+  <div class="comment">💡 论文巧妙绕开生产者衍生品头寸不可观测的识别难题，改用基于真实合约条款与交易摩擦的组合策略模拟来评估补贴套利的可实现收益，得出“时点聚集≠补贴捕获”的审慎结论，对评估公共补贴保险项目的政策效率具有启示意义。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35819" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35822" target="_blank" rel="noopener">Financial Innovation and the International Monetary System</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    
+    
+    <span class="authors">Gordon Y. Liao, Eswar S. Prasad, Tony Zhang
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文指出，美元在全球金融的绝大多数方面仍然保持主导地位，欧元与人民币则在日益碎片化的第二层级货币中相互竞争，目前尚无明确的美元挑战者。文章据此研究金融创新将如何重塑国际货币体系。从原理上看，创新具有拉平各国竞争条件的作用：它可以降低对载体货币（vehicle currency）来中介其他货币对交易的需求，并使外国资产的获取与交易更加便利，从而有利于货币格局的多极化。但作者论证，另一种结果更可能出现：那些降低跨境交易摩擦的创新——尤其是以美元为支撑的支付型稳定币（payment stablecoins）以及货币代币化（tokenization）的其他形式——会与相对的 market thickness 相互作用，反过来强化美元的主导地位。这一结果并非命中注定，而取决于其他国家是否愿意接纳创新，并强化自身的金融市场与监管框架。文章最后指出，尽管单极化（unipolarity）存在诸多弊端，但在某些情形下，多极化（multipolarity）可能在金融市场承压时期带来更大的全球脆弱性。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">国际货币体系</span><span class="tag">美元主导地位</span><span class="tag">金融创新</span><span class="tag">支付稳定币</span><span class="tag">货币代币化</span>
+  </div>
+  
+
+  <div class="comment">💡 本文的亮点在于把支付稳定币、货币代币化等微观层面的金融创新与市场厚度这一结构性变量联系起来，得出创新未必削弱、反而可能强化美元网络效应的反直觉结论，并进一步警示多极化在压力时期可能加剧全球脆弱性，为货币体系改革讨论提供了新的政策视角。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35822" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35828" target="_blank" rel="noopener">Liability and Pricing of Dual-Use AI</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Joshua S. Gans
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文研究当AI服务同时可用于攻击和防御时，AI提供商应承担多大责任，以及责任如何与其定价相互作用。模型中有生产性用户、攻击者和防御者，提供商向三者出售一种共同投入。在防御性争夺中，提高共同价格会降低各方努力，但不会改变攻击成功率或攻击者利润，从而节省资源并改善目标的安全收益；补偿会削弱防御并提高攻击者利润。最优责任需在这些效应与排除生产性用户之间权衡。竞争加剧可能降低最优责任，但任何责任下降都必须最终保留防御。若网络安全准入固定，垄断者在提供有利可图时可被要求承担部分但非完全责任。当存在可保留生产性用途的护栏时，强竞争在社会层面支持普遍护栏，但在责任不足时提供商会单方面移除护栏。在提供商数量固定时，若生产性用户足够多，高责任下可确保普遍护栏的纯策略均衡；普遍护栏要求会使责任变得多余。垄断下采用遵循唯一责任阈值，而在生产性用户足够多的参数区间内，零责任仍是唯一最优。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">双重用途AI</span><span class="tag">责任规则</span><span class="tag">定价</span><span class="tag">网络安全</span><span class="tag">市场结构</span>
+  </div>
+  
+
+  <div class="comment">💡 本文将AI安全的外部性纳入提供商责任与价格设计的统一框架，揭示责任可能同时改善福利与增加危害的反直觉结果，并强调竞争、垄断和护栏可用性对最优责任的影响，为双重用途AI治理提供了可检验的理论基准。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35828" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35830" target="_blank" rel="noopener">Economics of Demand-Side and Supply-Side Climate Policies</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    
+    
+    <span class="authors">Ryan Kellogg
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">本文探讨一个试图削减温室气体排放的司法辖区应如何选择气候政策工具：是采用针对化石燃料消费的需求侧政策，还是引入针对化石燃料开采的供给侧政策。作者的分析结论是应构建一个政策组合，而非二选一。具体而言，排放向未受监管辖区的“泄漏”（leakage）问题，可以通过将标准的、针对碳排放的需求侧定价与针对碳开采的供给侧定价相结合来缓解：排放定价会压低海外化石燃料价格、从而引发泄漏，而开采定价则能抵消这一效应。不过，现实中的供给侧气候政策通常并非广泛地对开采定价，而是狭窄地禁止对化石燃料基础设施的投资，因而是低效率的。在减少碳需求方面，排放定价的替代方案是支持清洁能源。作者强调，输电规划与公用事业治理改革对于释放清洁能源资源的潜力至关重要，并主张公共部门应支持清洁能源研发，包括绿色产业政策，从而不仅在国内、也在海外减少碳排放。文章最后讨论了分配后果：在国内，碳定价与清洁能源补贴的分配效应存在显著差异；在全球层面，碳开采定价会损害那些同时是化石燃料进口国的低收入国家，但也存在会从中受益的低收入化石燃料出口国。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">碳定价</span><span class="tag">碳排放泄漏</span><span class="tag">供给侧气候政策</span><span class="tag">清洁能源补贴</span><span class="tag">绿色产业政策</span>
+  </div>
+  
+
+  <div class="comment">💡 本文跳出需求侧与供给侧非此即彼的政策争论，指出将排放定价与开采定价组合使用可同时削弱碳泄漏，并揭示现实中供给侧政策多以限制基础设施投资的低效形式出现，兼具理论整合与政策诊断价值；其对清洁能源研发、输电与公用事业治理改革以及国内外分配后果的讨论，也把效率与公平置于同一分析框架内。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35830" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35831" target="_blank" rel="noopener">Subjective Models of the Macroeconomy and the Transmission of Monetary Policy</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    
+    
+    <span class="authors">Francesco D’Acunto, Dimitris Georgarakos, Geoff Kenny, Michael Weber
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-09-28</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">标准宏观经济理论通常假设代表性或异质性主体共享同一套关于经济如何运行的理论模型，但经验证据显示家庭持有异质的主观模型（subjective models），即对宏观经济变量之间如何相互作用的信念各不相同，由此相同的冲击或政策可能引发原本相似家庭的差异化反应。论文通过测量主观模型，检验这一假说在货币政策向消费传导过程中的作用：研究在大型跨国调查中嵌入随机对照实验（randomized controlled experiment），考察消费者的主观模型如何影响其对货币政策收紧的反应。结果显示，认为货币政策收紧主要通过影响借贷利率或储蓄利率发挥作用的消费者，在随机分配的利率上升情境下计划更大幅度地削减消费；相反，认为收紧主要通过通胀渠道或一般均衡效应发挥作用的消费者，消费调整幅度较小。这些差异无法由人口统计特征、金融特征（包括是否持有抵押贷款以及抵押贷款类型）或国家层面因素解释。家庭对内生政策利率变化的实际消费响应也呈现出大体相似的模式。研究据此强调，主观模型的异质性是货币政策传导中一个被忽视的决定因素。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">主观模型</span><span class="tag">货币政策传导</span><span class="tag">消费</span><span class="tag">异质性信念</span><span class="tag">随机对照实验</span>
+  </div>
+  
+
+  <div class="comment">💡 论文把主观信念异质性从宏观预期的边缘议题提升为货币政策传导的核心解释变量，并用跨国随机对照实验与真实消费响应相互印证，为货币政策效应的分布异质性提供了可识别的微观证据。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35831" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+        <hr class="day-divider">
       
         <div class="day-header">
           <span class="day-date">📅 2026-09-27</span>
@@ -72,7 +573,7 @@
 
   <div class="meta">
     <span class="badge src-JFE">JFE</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -110,7 +611,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -140,7 +641,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -170,7 +671,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -200,7 +701,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -230,7 +731,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -260,7 +761,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -290,7 +791,7 @@
 
   <div class="meta">
     <span class="badge src-SSRN">SSRN</span>
-    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
     
     
     
@@ -1736,431 +2237,6 @@
   </div>
 </article>
 
-        <hr class="day-divider">
-      
-        <div class="day-header">
-          <span class="day-date">📅 2026-09-21</span>
-          <span class="day-count">11 篇</span>
-        </div>
-        
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35780" target="_blank" rel="noopener">Regulating Entrepreneurship: The Case of Capital Requirements</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Annika Bacher, Andreas Fagereng, Marius A. K. Ring, Ella Getz Wold
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-21</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文关注政府对新建公司设定最低权益资本要求所引发的数量-质量权衡：反对者视其为进入壁垒，支持者则认为它能保护利益相关者免受财务不可持续企业之害。作者利用挪威一项大幅降低最低资本要求的改革，以及将企业家与其企业相链接的全面数据来考察这一权衡。结果显示，所需资本下降70%使创业进入几乎翻倍，而企业存活、盈利能力、生产率以及有息杠杆均未恶化，创始人在事前收入、流动性与能力方面也无显著差异。这表明资本要求限制了创业，但并未在质量或流动性维度上进行筛选。进一步地，作者强调规模报酬异质性是解释所观察到的进入反应的重要因素。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">资本要求</span><span class="tag">创业进入</span><span class="tag">进入壁垒</span><span class="tag">规模报酬异质性</span><span class="tag">企业存活</span>
-  </div>
-  
-
-  <div class="comment">💡 该文利用挪威改革与企业家—企业匹配数据，为最低资本要求如何影响创业进入的数量与质量提供了较干净的政策评估证据；其亮点在于发现资本要求并未起到筛选质量或流动性的作用，并强调规模报酬异质性是理解进入反应的关键机制。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35780" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card featured">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35775" target="_blank" rel="noopener">When Tax Shields Shrink: Interest Deductibility Limitations and Corporate Innovation</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Xinru Chen, <b class="fa" title="关注学者">Mara Faccio</b>, Stefano Manfredonia, Jin Xu
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-21</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文考察2017年 TCJA 对利息扣除的限制如何影响企业创新。作者采用多种替代性识别策略，发现相对于未受影响的企业，受影响企业的专利产出显著下降，且专利组合的技术范围收窄；这一收缩主要集中在 exploitative patents（利用型专利），即最依赖债务融资支持的那类创新。机制上，利息扣除限制削弱了企业以长期债务为创新融资的能力，从而揭示了税收影响创新的新渠道——债务税盾在此扮演了一种隐性补贴的角色。此外，来自利息扣除限制规则交错实施的跨国证据也印证了上述负面效应。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">税盾</span><span class="tag">利息扣除限制</span><span class="tag">企业创新</span><span class="tag">专利</span><span class="tag">TCJA</span>
-  </div>
-  
-
-  <div class="comment">💡 论文把债务税盾视作对创新的隐性补贴，并借助 TCJA 这一外生冲击与跨国交错实施的政策变动给出双重证据，为税收政策与创新的联系提供了新的融资渠道解释，其区分利用型与探索型专利的做法也颇具启发性。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35775" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35774" target="_blank" rel="noopener">The Returns to International Migration in a Free Mobility Setting: Evidence from Austria and Germany</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Andrea Weber, David Card, Wolfgang Dauth, Wolfgang Frimmel, Julia Schmieder, Rudolf Winter-Ebmer
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-21</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文利用奥地利与德国的链接行政数据（linked administrative data），研究国际迁移的经济收益有多大以及这种收益在不同迁移者之间如何变化。研究聚焦于迁移前 2-4 年一直稳定就业的迁移者，并以其此前的同事作为对照组，采用 difference-in-differences 设计进行识别；同时把来源国与目的国的数据在迁移后 5 年内合并起来，因而既能评估留在目的国者的收益，也能评估回流者的收益。结果显示，从奥地利迁往德国的迁移者相对于匹配同事，其日工资在迁移后立即且持续上升约 13%，而从德国迁往奥地利的迁移者收益约为 4%；奥地利人收益更高主要源于德国平均工资水平更高，而非迁移者选择性差异。与动态学习模型（dynamic learning model）的预测一致，迁移收益对留在目的国的迁移者最大，对 1-4 年后回流者较小，对不到一年就回流者为零甚至略为负；收益在沿着既有跨境职场网络迁移的人中也更大。为帮助解释这些发现，作者还做了针对国内迁移者（迁往维也纳或德国 5 个最大城市之一）的平行分析：迁入“大城市”者的工资收益约为奥地利人 5%、德国人 10%，同样以留在目的城市者收益最大，继续迁走者效应较小。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">国际迁移</span><span class="tag">工资回报</span><span class="tag">双重差分</span><span class="tag">行政数据</span><span class="tag">回流移民</span>
-  </div>
-  
-
-  <div class="comment">💡 文章的亮点在于把来源国与目的国的行政数据链接起来，从而能同时观察留任者与回流者，并用迁移前同事作为对照组缓解选择性偏误；以国内“大城市”迁移作为平行对照，也为解释跨境工资收益提供了有益标尺。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35774" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35771" target="_blank" rel="noopener">Integration Without Decentralization: The Financial Geography of U.S. Life Insurance, 1880–1940</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Pawel Janas
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-21</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文以1880—1940年间的美国人寿保险业为对象——在社会保障制度建立之前，寿险是美国最大的契约型储蓄机构——追问一个核心问题：当保险市场走向全国化时，对它所吸纳储蓄的控制权是否也随之分散？作者构建了一个新数字化的年度「公司×州」面板数据，涵盖1888—1940年间几乎所有美国人寿保险公司的保费与赔付，从而区分「收取的地理」与「控制的地理」：保费在哪里缴纳，以及收取保费的公司在何处注册设立。研究发现，这六十年间行业被彻底重塑：实际保费收入增长逾二十倍，活跃保险公司数量增长六倍，注册地明显由东北部向中西部和南部转移，州内集中度下降近一半。但控制权只是被重新配置，而非分散化。批准设立本地保险公司几乎完全通过 extensive margin 提升本地保费留存率。跨区域看，这缩小了巨大的差距：1890年代东北部留存的保费约为南部的十一倍，到1930年代仅约两倍，而这一收敛有九成来自南方各州从无到有地建立起本地保险部门。全国层面的总量格局则保持稳定：公司注册地与保费收取地一致时，1890年代仅能留存略低于四分之一的保费，1930年代也仅略高于五分之一，尽管家庭参与率在各州持续趋同。由此可见，获准在全国经营足以整合保险销售市场，却不足以分散对该业务所收取的可投资现金的控制权。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">人寿保险</span><span class="tag">金融地理</span><span class="tag">保费留存</span><span class="tag">公司注册地</span><span class="tag">金融一体化</span>
-  </div>
-  
-
-  <div class="comment">💡 论文用一套覆盖近全部寿险公司的「公司×州」长面板，把「收钱的地理」与「管钱的地理」干净地拆开，提出并验证了「一体化但不分散化」这一反直觉结论，对理解金融中心与地方储蓄动员的关系颇具启发。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35771" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35769" target="_blank" rel="noopener">Diversification as a Process: Geographic Expansion and the Formation of National Insurers</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Pawel Janas
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-21</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文关注一个核心难题：大型金融中介比小型中介更稳定，而最大的中介往往地理上最为分散，但这种地域广度究竟是稳定的来源，还是规模扩张的副产品，难以识别，因为中介正是通过不断做大来实现分散化。为此，作者利用新近数字化的、覆盖 1888—1940 年美国寿险公司近乎全体的“公司—州”面板数据（寿险公司是当时最大的非银行机构投资者），考察分散化的中介是如何被逐步“组装”起来的。数据显示，这数十年间每州保险公司数量增长逾三倍、州内集中度下降一半，但少数地域覆盖广泛的保险公司仍保持稳定的全国保费份额。作者将公司层面的结果分解为承保水平（underwriting level）与保单组合构成（composition of its book）两部分。研究发现，保险公司往往在尚未达到规模之前就进入新州，每一次进入都是一个小规模且正向选择（favorably selected）的头寸，具有实物期权（real option）式的凸性收益结构；进入表现最好的十分位贡献了一个队列（cohort）保费的一半。扩张在两个边际上都是有成本的：与同年份、同州、同样规模的保险公司相比，地域广泛的保险公司每单位保额所获收入更低，且赔付高出 15.1%；其中定价上的成本可归因于广泛经营者的保单组合构成，而赔付上的成本则归因于保险公司自身。跨公司比较会低估赔付成本，因为广泛经营者新进入的市场本身具有较好的赔付经验。相反，稳定性可归因于规模：在控制规模后，地域广度在波动性和存活率上的优势均消失。风险汇聚（risk pooling）是有边界的——保险公司赔付率方差中约十分之九来自其各市场共有的成分。结论是，分散化是代价高昂的扩张的产物，而通常归功于分散化的稳定性，实际上是扩张所带来的规模。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">人寿保险</span><span class="tag">地理扩张</span><span class="tag">多元化</span><span class="tag">规模经济</span><span class="tag">风险分担</span>
-  </div>
-  
-
-  <div class="comment">💡 论文用新数字化的百年“公司—州”面板把“广度”与“规模”这两个通常混淆的维度拆开，并借助进入行为的实物期权视角说明扩张是渐进而有成本的，从而将分散化的稳定性重新归因于规模，在金融中介与保险研究上都具有较强的识别与理论贡献。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35769" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35768" target="_blank" rel="noopener">Money and Power: Historical Lessons for Stablecoins and U.S. Dollar Dominance</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Michael D. Bordo, Carolyn Wilkins
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-21</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文借助私人货币的历史经验，考察稳定币在何种条件下才能安全地实现规模化运作，以及其扩张可能对美国的货币权力意味着什么。作者梳理了英国、美国、加拿大、瑞典和瑞士的私人货币体系，指出这些体系能否按面值（par）流通取决于制度安排，而非支付技术本身。基于私人货币、可兑换性与国际货币的货币史研究，论文提炼出可规模化私人货币的五大基础：可信的可兑换性、高质量且透明的资产支持、统一的监管边界、按面值清算的基础设施，以及可信的危机管理与损失分担机制。稳定币或许能提升结算速度、可编程性与跨境可及性，但并不能消除上述要求。将这一框架应用于当代稳定币与 GENIUS Act，作者发现该法案对其中若干基础的覆盖较为充分，而对危机管理和跨境协调的处理相对不足。美元稳定币可能扩展美元结算的辐射范围，但本文回顾的历史经验表明，这究竟会强化还是削弱美元体系，既取决于支撑稳定币的制度框架，也取决于美国货币主导地位的更深层基础：对美国制度的信心、财政能力、货币可信度与法治。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">稳定币</span><span class="tag">私人货币</span><span class="tag">美元主导地位</span><span class="tag">可兑换性</span><span class="tag">监管框架</span>
-  </div>
-  
-
-  <div class="comment">💡 本文的亮点在于把当下稳定币争论拉回私人货币史的长镜头，用跨国历史案例提炼出可规模化私人货币的五项制度基础，并据此评估 GENIUS Act 的短板，为“稳定币是否强化美元霸权”这一开放问题提供了制度主义的分析视角。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35768" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35767" target="_blank" rel="noopener">Borrowing in the Shadow of China</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Illenin O. Kondo, César Sosa-Padilla, Zachary J. Swaziek
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-21</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">论文关注自2000年代初以来中国成为新兴经济体主要贷款方所带来的一种独特贷款权力结构：借款国无法对获得补贴的中国贷款违约，却可能面临不受自身控制的突然展期（rollover）要求。作者提出，这种&#34;有双边展期风险、但无违约风险&#34;的特殊安排会约束受援国在国际市场上的借款行为。为此，论文构建了一个定量的长期主权债务模型，说明这类易被要求展期且不可违约的中国贷款会使市场化债务面临稀释风险（dilution risk）：当对华还款到期时，政府可能需要转向国际贷款人融资，因此在中国资金流入时反而选择对私人市场去杠杆。数据显示，市场债务与债券收益率的动态变化与这种&#34;约束效应（disciplining effect）&#34;相一致。作者随后用该模型研究两种地缘政治情景：一是集团化（bloc-formation）情形，即中国以&#34;要么接受要么放弃&#34;的贷款诱使借款国退出国际债务市场；二是在中国资金可能永久且突然收缩的风险下，借款国对华风险敞口的最优选择问题。结果表明，中国式的官方融资既可能改善市场借款条件，也可能随着地缘政治联盟的变动，成为冲击全球主权债务架构的新 destabilizing force。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">主权债务</span><span class="tag">中国官方贷款</span><span class="tag">展期风险</span><span class="tag">稀释风险</span><span class="tag">地缘政治</span>
-  </div>
-  
-
-  <div class="comment">💡 论文的亮点在于提炼出&#34;无违约风险但有展期风险&#34;这一中国式双边贷款的结构特征，并将其嵌入定量长期主权债务模型，从而把地缘政治情景（集团化、对华敞口最优配置）与市场债务定价统一在同一框架内分析，为理解官方融资如何既改善又扰动全球主权债务架构提供了新的理论视角。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35767" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card featured">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35766" target="_blank" rel="noopener">Expectations and the Term Structure of Interest Rates</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Pooya Molavi, Alireza Tahbaz-Salehi, <b class="fa" title="关注学者">Andrea Vedolin</b>
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-21</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文研究主观预期与利率期限结构之间的关系。作者偏离理性预期框架，允许市场参与者对未来利率持有任意信念，并推导出无论预期如何形成，预期利率与已实现利率都必须满足的条件。利用该条件，作者将长期收益率对短期利率的敏感性分解为预期与风险溢价两部分的贡献，且不施加任何关于预期形成的假设。研究发现，对于短期和中期债券，这种敏感性主要由预期变动驱动，而非风险溢价。随后，作者进一步研究预期本身的敏感性，并记录到在同一窗口内，长期收益率预期的反应与较短期限收益率预期的反应之间存在系统性楔子。作者认为，这些楔子反映了主观预期中的结构性不一致，即不同期限和不同预测期限的预期与连接不同利率的均衡限制不相容。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">利率期限结构</span><span class="tag">主观预期</span><span class="tag">风险溢价</span><span class="tag">收益率敏感性</span><span class="tag">结构性不一致</span>
-  </div>
-  
-
-  <div class="comment">💡 论文的亮点在于不依赖理性预期和具体预期形成机制，首次给出预期与已实现利率必须满足的一般条件，并据此将长端收益率对短端利率的敏感性分解为预期与风险溢价；实证上发现中短期债券的敏感性主要由预期驱动，且跨期限预期存在与均衡限制不一致的系统性楔子。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35766" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35764" target="_blank" rel="noopener">Incentivizing Self-Protection From Wildfires</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Patrick Baylis, Judson Boomhower, Bob Horton, Chris Mulverhill
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-21</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">自然灾害造成的损失可以通过财产保护投资来减轻，但低成本的风险降低措施的采纳率依然很低。在野火高发地区，清理房屋周边的植被和其他可燃物能降低建筑结构的脆弱性，然而尽管有广泛的宣传推广，实际符合最佳做法的房产仍然很少。本文报告了两项随机实地实验，通过激励措施促使俄勒冈州数千名房主参与当地消防部门已有的野火风险降低项目。在两项实验中，100 至 500 美元的现金激励使最多 12% 的房主预约了免费的防御空间（defensible space）评估，而仅提供信息的方式最多只能达到 3% 的评估参与率。补贴的响应在价值更高房产的业主中最大，而基线野火风险并不能预测响应程度。实地测量与遥感测量的植被数据对处理效应的估计都较为嘈杂（noisy）。最后，作者讨论了这些实验估计出的行为弹性在多大程度上能揭示房主对房屋保险费中野火风险降低定价的可能反应——由于技术和监管变化，这种做法正变得越来越普遍。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">野火风险</span><span class="tag">随机实地实验</span><span class="tag">家庭保险</span><span class="tag">激励设计</span><span class="tag">风险防范</span>
-  </div>
-  
-
-  <div class="comment">💡 论文用两项大规模随机实地实验量化了现金补贴与信息干预对房主自我防护行为的因果效应，并进一步将实验估计的行为弹性外推到保险定价情境，为气候风险下的家庭适应行为与保险监管设计提供了难得的实证依据；不过遥感与实地植被测量噪声较大，说明行为响应到实际风险下降之间仍有明显缺口。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35764" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card ai">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35760" target="_blank" rel="noopener">Well-Being Salience in Corporate Disclosures and Worker Health</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    <span class="badge ai">AI</span>
-    
-    <span class="authors">Riccardo Di Francesco, Peter Hull, Seetha Menon
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-21</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文研究企业对员工福祉的重视程度如何影响员工健康。由于这种导向难以直接观测，作者利用语言模型分析丹麦企业在公开披露中使用的措辞，构建企业层面的福祉显著性（well-being salience）得分；并将该得分与2013—2022年覆盖全民的健康与病假行政登记数据相链接，同时利用员工在企业间的流动来估计当雇主福祉显著性变化时员工的行为反应。结果发现一种不对称性：流动到高显著性企业的员工会显著增加病假缺勤，但其医疗服务使用并未发生变化。由于健康状况恶化本应同时推高病假与医疗服务使用，这一病假反应更可能反映行为变化而非健康恶化。总体而言，企业不仅影响员工健康，也影响员工如何应对健康，而常规企业披露中的语言能够揭示行政数据未记录、但具有经济意义的职场特征。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">员工福祉显著性</span><span class="tag">企业信息披露</span><span class="tag">语言模型</span><span class="tag">病假缺勤</span><span class="tag">员工流动</span>
-  </div>
-  
-
-  <div class="comment">💡 论文将文本披露指标与全民行政健康登记数据结合，并借助员工流动进行识别，方法上具有创新性；其关键发现——高福祉显著性企业反而伴随更多病假缺勤且不伴随医疗服务使用上升——凸显了企业语言与员工行为反应之间的张力，也提示披露文本可作为测量职场软性特征的有用工具。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35760" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35758" target="_blank" rel="noopener">Fiscal Populism and Monetary Policy Rules</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Luis I. Jácome, Nicolás E. Magud, Samuel Pienknagura, Martín Uribe
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-09-21</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">论文关注民粹主义政权、财政货币化（fiscal monetization）与通货膨胀之间的历史联系，并考察这些联系如何影响21世纪的货币政策。作者使用1960年以来大量发达经济体与新兴市场的数据，发现历史上左倾民粹主义政权与中央银行对中央政府的贷款增加（赤字货币化的一个衡量指标）相关，而中央银行贷款又伴随着通胀的显著上升。进一步地，过去依赖赤字货币化的民粹主义经历会影响当今货币政策的执行方式：有赤字货币化历史和左翼民粹主义政权的国家，会系统性地对通胀预期偏离目标作出更强的反应；这一效应在控制了历史通胀对货币政策规则的直接影响后依然存在。在经验学习（experienced learning）文献的背景下，这一新发现揭示了过往民粹主义政策的持久影响——那些处于曾依赖易引发通胀的赤字货币化的民粹主义政权阴影下的中央银行，今天仍需发出更强的独立性信号与价格稳定承诺，才能有效锚定通胀预期。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">财政货币化</span><span class="tag">民粹主义</span><span class="tag">货币政策规则</span><span class="tag">通胀预期</span><span class="tag">经验学习</span>
-  </div>
-  
-
-  <div class="comment">💡 论文将政治体制类型与央行信贷、通胀预期锚定联系起来，提出‘历史民粹主义阴影’会系统性改变当下货币政策反应函数这一新机制，为理解央行独立性与信誉的长期塑造提供了跨国的经验证据。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35758" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
         
       
     
@@ -2209,8 +2285,8 @@
       
       <a class="jcard" href="NBER.html">
         <span class="jname badge src-NBER">NBER</span>
-        <span class="jcount">693 篇</span>
-        <span class="jdate">最近发表 2026-09-21</span>
+        <span class="jcount">706 篇</span>
+        <span class="jdate">最近发表 2026-09-28</span>
       </a>
       
       <a class="jcard" href="MS.html">
