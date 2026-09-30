@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1111/1475-679x.70089",
+    "title": "Partisanship, Information, and Punishment for Misconduct at Work",
+    "authors": [
+      "Vivek Pandey",
+      "Joanna S. Wu",
+      "Yuanzhe Zhang"
+    ],
+    "abstract": "We examine whether firms apply partisan standards when responding to employee financial misconduct. Using detailed individual‐level data on financial advisers, we find that advisers who are in the political minority at their firm (political minority advisers) are no different from their colleagues at the same firm and time in the incidence and severity of misconduct, yet following misconduct, they are significantly more likely to depart—a pattern we term “partisan punishment standards.” This pattern is especially pronounced at firms with lower internal information quality (IIQ), proxied with (1) lower external reporting quality (for public firms only), (2) private firms (relative to public firms), and (3) not hiring an independent public accountant to create an internal control report (for both public and private firms). We also document “partisan reporting standards”: Firms are more likely to publicly disclose misconduct by political minority advisers while remaining relatively silent in other cases. Firms that exhibit partisan punishment practices subsequently experience slower growth.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70089",
+    "published_date": "2026-09-29",
+    "source": "JAR",
+    "first_seen": "2026-09-30",
+    "abstract_missing": false,
+    "summary": "本文考察企业是否会在应对员工财务不当行为时采用带有党派色彩的标准。作者利用金融顾问层面的详细个体数据发现，在公司内部属于政治少数派的顾问，其不当行为的发生率和严重程度与同公司同时期的其他同事并无差异，但在不当行为发生后，他们显著更可能离职——作者将这一现象称为“党派性惩罚标准”。该模式在内部信息质量（IIQ）较低的公司尤为明显，IIQ以如下方式代理：（1）较低的外部报告质量（仅适用于上市公司）；（2）非上市公司（相对于上市公司）；（3）未聘请独立公共会计师编制内部控制报告（对上市公司和非上市公司均适用）。作者还记录了“党派性报告标准”：公司更可能公开披露政治少数派顾问的不当行为，而在其他情形下相对保持沉默。存在党派性惩罚行为的公司随后经历更慢的增长。",
+    "keywords": [
+      "党派偏见",
+      "财务不当行为",
+      "内部信息质量",
+      "信息披露",
+      "金融顾问"
+    ],
+    "ai_comment": "本文利用金融顾问个体数据，将政治少数派身份与不当行为后的离职和披露联系起来，揭示了企业内部惩戒与信息披露中可能存在的党派偏见，并强调内部信息质量在这一过程中的调节作用，为理解组织内部公平性与信息环境如何影响公司行为提供了新证据。",
+    "topic": "会计与信息披露"
+  },
+  {
     "id": "w35831",
     "title": "Subjective Models of the Macroeconomy and the Transmission of Monetary Policy",
     "authors": [
@@ -321,6 +346,29 @@
     ],
     "ai_comment": "论文的价值在于把 LLM 工作流放到 4,452 个真实 replication package 上做大规模检验，并给出复现、加速与延伸三类可量化结果，为 AI 辅助科研复现提供了可参考的评估范式；不过被标记的差异究竟有多少源于实现细节差异、多少是实质性问题，仍需进一步甄别。",
     "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "10.1111/jofi.70088",
+    "title": "An IV Hazard Model of Loan Default with an Application to Subprime Mortgage Cohorts",
+    "authors": [
+      "Christopher J. Palmer"
+    ],
+    "abstract": "I develop a control function methodology robust to endogenous or mismeasured regressors in hazard models. Applying the estimator to the subprime mortgage crisis, I quantify what caused the foreclosure rate to triple across the 2003 to 2007 subprime cohorts. To identify the elasticity of default to housing prices, I use various home price instruments including historical variation in home price cyclicality. Loose credit played a significant role in the crisis, but much of the increase in defaults across cohorts was caused by price declines unrelated to lending standards, with a 10% price decline increasing subprime mortgage default rates by 50%.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70088",
+    "published_date": "2026-09-28",
+    "source": "JF",
+    "first_seen": "2026-09-30",
+    "abstract_missing": false,
+    "summary": "论文针对 hazard 模型（风险模型）中回归元存在内生性或测量误差的问题，提出了一种 control function（控制函数）估计方法。作者将该估计量应用于次贷危机情境，量化 2003 至 2007 年各批次（cohorts）次贷借款人止赎率（foreclosure rate）升至三倍的原因。为了识别违约对房价的弹性，作者使用了多种房价工具变量，其中包括房价周期性的历史变异。研究发现，宽松信贷在危机中起到了重要作用，但不同批次间违约率上升的很大一部分是由与贷款标准无关的房价下跌所导致的：房价下跌 10% 会使次贷违约率上升 50%。",
+    "keywords": [
+      "次贷危机",
+      "违约风险",
+      "hazard 模型",
+      "工具变量",
+      "房价"
+    ],
+    "ai_comment": "论文在方法上为 hazard 模型的内生性与测量误差问题提供了控制函数估计思路，并借助房价周期性的历史变异来识别违约弹性；其结论强调房价下跌本身（而非仅是放贷标准）是跨批次违约激增的重要推手，对危机成因的争论提供了量化证据。",
+    "topic": "银行与金融中介"
   },
   {
     "id": "10.1016/j.jfineco.2026.104378",
@@ -23688,6 +23736,23 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.6326686",
     "first_seen": "2026-09-27",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "AI and Scholarship in Financial Economics",
+    "authors": [
+      "Campbell R. Harvey"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7538178",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7538178",
+    "first_seen": "2026-09-30",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
@@ -87569,6 +87634,26 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.3907560",
     "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Factor and Idiosyncratic VAR-Ito Volatility Models for Heavy-Tailed High-Frequency Financial Data",
+    "authors": [
+      "Minseok Shin",
+      "Donggyu Kim",
+      "Yazhen Wang",
+      "Jianqing Fan"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3921526",
+    "published_date": "2021-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3921526",
+    "first_seen": "2026-09-30",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
