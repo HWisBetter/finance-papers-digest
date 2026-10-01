@@ -1,5 +1,158 @@
 [
   {
+    "id": "10.1287/mnsc.2024.05567",
+    "title": "The Effects of Stock Ownership on Individual Spending, Investments, and Loyalty",
+    "authors": [
+      "Paolina C. Medina",
+      "Vrinda Mittal",
+      "Michaela Pagel"
+    ],
+    "abstract": "In this paper, we analyze how one of the most fundamental behavioral biases in investing—people’s preference for buying specific stocks rather than holding the market portfolio—affects their life-cycle consumption, savings, and stock market participation. We first show that when investors receive stocks from specific companies, they increase their spending in those companies’ stores. Although specific stock ownership increases total spending in the short run, individuals’ overall stock market investments increase in the long run. For identification, we use the staggered allocation of brokerage accounts to individuals over time as well as quasirandomly distributed stock grants. This paper was accepted by Will Cong, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.05567 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.05567",
+    "published_date": "2026-09-30",
+    "source": "MS",
+    "first_seen": "2026-10-01",
+    "abstract_missing": false,
+    "summary": "本文研究投资者偏好购买特定股票而非持有市场组合这一基本行为偏误，如何影响其生命周期消费、储蓄与股票市场参与。作者首先发现，当投资者获得特定公司的股票后，会更多地在这些公司的门店消费；特定股票持有虽然在短期内提高了总消费，但长期来看个人的整体股票市场投资反而增加。为识别因果效应，论文利用随时间交错分配给个人的券商账户以及准随机分配的股票授予作为外生变动。",
+    "keywords": [
+      "股票持有",
+      "个人消费",
+      "股票市场参与",
+      "行为偏误",
+      "生命周期储蓄"
+    ],
+    "ai_comment": "论文巧妙利用券商账户交错分配和准随机股票授予来识别股票持有对消费、投资与忠诚度的因果影响，将行为偏误、消费与家庭资产配置联系起来，具有较高的政策与商业启示。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "10.1111/jofi.70094",
+    "title": "Money to Burn: Crowdfunding Wildfire Recovery",
+    "authors": [
+      "J. Anthony Cookson",
+      "Emily A. Gallagher",
+      "Philip Mulder"
+    ],
+    "abstract": "Person‐to‐person crowdfunding is an increasingly important form of disaster relief, yet its distribution is poorly understood. Linking GoFundMe campaigns from a major wildfire to property and household credit records, we find that higher‐income households are 12 pp more likely to have campaigns and raise over 25% more, holding property losses constant. These disparities reflect unequal access to social capital: broader donor bases, more nonlocal ties, greater advocacy by friends, and more generous donors. Donors appear influenced by social pressure in online crowdfunding. These mechanisms mirror national patterns and underscore crowdfunding's limitations as a tool for equitable disaster relief.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70094",
+    "published_date": "2026-09-30",
+    "source": "JF",
+    "first_seen": "2026-10-01",
+    "abstract_missing": false,
+    "summary": "本文关注个人对个人（person-to-person）众筹这一日益重要的灾害救助形式，指出其资金分配机制尚缺乏充分理解。作者将某场重大野火期间 GoFundMe 上的众筹活动数据，与受灾房产记录及家庭信贷记录相链接，在控制财产损失的前提下考察众筹获取与募资规模的家庭异质性。结果发现，高收入家庭发起众筹的概率高出 12 个百分点，募集金额也高出 25% 以上。作者进一步指出，这些差距源于社会资本获取的不平等：高收入家庭拥有更广的捐赠者基础、更多异地社会关系、朋友更多的宣传推介，以及更慷慨的捐赠者；同时捐赠者的行为似乎受到网络众筹中社会压力的影响。作者发现这些机制在全国范围内具有普遍性，从而强调众筹作为实现公平灾害救助工具的局限。",
+    "keywords": [
+      "众筹",
+      "灾害救助",
+      "社会资本",
+      "家庭金融",
+      "收入不平等"
+    ],
+    "ai_comment": "本文将 GoFundMe 众筹数据与房产、家庭信贷等行政记录相链接，量化了灾害救助众筹中高收入家庭的系统性优势，并把差距归因于捐赠者基础、异地关系与朋友推介等社会资本渠道，为“众筹能否公平救灾”提供了难得的因果性证据与机制解释。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "10.1111/jofi.70092",
+    "title": "The Real Channel for Nominal Bond‐Stock Puzzles",
+    "authors": [
+      "Mikhail Chernov",
+      "Lars A. Lochstoer",
+      "Dongho Song"
+    ],
+    "abstract": "We document that the nature of aggregate consumption dynamics changes when the bond‐stock correlation switches sign. We identify three regimes in a real‐time, sequential learning framework: two highly persistent regimes where permanent or transitory consumption shocks are more dominant, and a largely transitory disaster regime. We study the implications for asset prices. The transition from the second to the first regime in the late 1990s makes the correlation between equities and real bonds switch from positive to negative as in the data, providing an explanation from the perspective of real consumption dynamics. The findings extend to the international setting.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70092",
+    "published_date": "2026-09-30",
+    "source": "JF",
+    "first_seen": "2026-10-01",
+    "abstract_missing": false,
+    "summary": "本文研究债券与股票相关性符号变化背后的实体经济来源，指出当债券—股票相关性发生符号反转时，总量消费动态的性质也随之改变。作者采用实时（real-time）、序贯学习（sequential learning）框架，在消费数据中识别出三种区制：其中两个区制具有高度持续性，分别由永久性消费冲击或暂时性消费冲击占主导；另一个则主要是暂时性的灾难区制。在此基础上，作者考察这些消费动态对资产价格的含义，发现20世纪90年代末从第二个区制向第一个区制的转变，会使股票与实际债券之间的相关性由正转负，与数据中观察到的现象一致，从而从实际消费动态的角度给出了解释。该结论在国际样本中同样成立。",
+    "keywords": [
+      "债券-股票相关性",
+      "消费动态",
+      "区制转换",
+      "资产定价",
+      "序贯学习"
+    ],
+    "ai_comment": "论文把名义债券与股票相关性的符号反转追溯到实际消费动态的区制切换，用实时序贯学习而非事后划分来识别区制，为这一经典资产定价谜题提供了基于基本面的新解释，并给出了国际证据。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1111/jofi.70091",
+    "title": "Supranational Banking Supervision, Credit Supply, and Risk‐Taking: European Evidence from Multi‐Country Credit Registers",
+    "authors": [
+      "Carlo Altavilla",
+      "Miguel Boucinha",
+      "Martina Jasova",
+      "José‐Luis Peydró",
+      "Frank Smets"
+    ],
+    "abstract": "Using a novel data set of multi‐country credit registers and an institutional change from national to supranational supervision, we show that supranational banking supervision can increase credit supply while mitigating excessive risk‐taking. Supranational supervision increases credit supply only in financially stressed countries while reducing the credit supply to the riskiest (zombie) firms. These improved lending effects stem from weaker national institutions, differential national supervisory incentives, lower national supervisory abilities, and weaker national insolvency laws. Moreover, improved access to external finance from wholesale and bond markets as well as lower risk‐weighted assets allow supranationally supervised banks to expand the supply of credit. Overall, despite some supranational supervisory arbitrage, supranational supervision decreases firm‐level credit to the riskiest firms while increasing firm‐level credit availability in stressed countries without reducing it in nonstressed countries.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70091",
+    "published_date": "2026-09-30",
+    "source": "JF",
+    "first_seen": "2026-10-01",
+    "abstract_missing": false,
+    "summary": "本文关注监管权从国家层面向超国家层面转移会如何影响银行信贷供给与风险承担。作者构建了一套新颖的多国信用登记（credit registers）数据集，并利用一次由各国监管转向超国家银行监管的制度变革作为识别契机。研究发现，超国家监管能够在增加信贷供给的同时抑制过度风险承担：信贷供给的扩张只出现在金融压力较大的国家，同时对风险最高的僵尸企业（zombie firms）的信贷供给反而下降。作者进一步指出，这种改善的贷款效应源自各国制度与国家监管层面的差异，具体包括国家制度较弱、各国监管激励不一致、国家监管能力较低以及国家破产法较弱。在银行层面，超国家监管下的银行能够从批发市场和债券市场获得更多外部融资，并降低风险加权资产（risk-weighted assets），从而扩大信贷供给。总体来看，尽管存在一定程度的超国家监管套利，超国家监管仍然降低了对最高风险企业的企业层面信贷，并在压力国家提高了企业层面的信贷可得性，且没有在非压力国家减少信贷可得性。",
+    "keywords": [
+      "超国家银行监管",
+      "信贷供给",
+      "风险承担",
+      "僵尸企业",
+      "信用登记数据"
+    ],
+    "ai_comment": "论文的亮点在于用多国信用登记数据配合监管权上移的制度变革，干净地刻画了超国家监管的资源配置效应：既扩大压力国家的信贷可得性，又收缩对最高风险企业的授信，为“监管集权能否兼顾稳增长与控风险”提供了难得的跨国微观证据。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1111/jofi.70087",
+    "title": "Mind the App: Mobile Access to Financial Information and Consumer Behavior",
+    "authors": [
+      "Yaron Levi",
+      "Shlomo Benartzi"
+    ],
+    "abstract": "We study whether easier monitoring of personal finances affects consumer spending. We use transaction data from an account aggregation company to study consumers who installed the mobile app after using the same service on a personal computer for several months. We utilize the staggered release of the apps on different devices (iPhone, iPad, and Android) to identify a causal effect conditional on adoption of the mobile app. Consumers decrease their discretionary spending following the installation of the mobile app. The decrease is larger during evening hours and among individuals with lower proxies of self‐control, patterns consistent with a monitoring/self‐regulation channel and with benchmark models of costly self‐control.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70087",
+    "published_date": "2026-09-30",
+    "source": "JF",
+    "first_seen": "2026-10-01",
+    "abstract_missing": false,
+    "summary": "本文研究更便捷地监控个人财务状况是否会改变消费者的支出行为。作者使用一家账户聚合公司（account aggregation company）的交易数据，考察那些先在个人电脑上使用该服务数月、随后安装移动端 App 的消费者。为识别因果效应，研究利用 App 在不同设备（iPhone、iPad 和 Android）上错时发布（staggered release）这一特征，在消费者已接受移动 App 的条件下估计其影响。结果发现，消费者在安装移动 App 之后会减少其非必需支出（discretionary spending）。这种支出的下降在晚间时段更为明显，并且在自我控制代理指标（proxies of self-control）较低的个体中幅度更大。这些模式与监控/自我调节（monitoring/self-regulation）渠道相一致，也与关于高成本自我控制（costly self-control）的基准模型相符。",
+    "keywords": [
+      "消费支出",
+      "自我控制",
+      "财务监控",
+      "移动应用",
+      "账户聚合"
+    ],
+    "ai_comment": "论文巧妙利用移动 App 在不同设备上的错时发布构造准自然实验，为“财务信息可及性—自我调节—消费”这一链条提供了因果证据，并借助晚间时段与自我控制代理指标的异质性检验支持了 costly self-control 模型。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "10.1111/1475-679x.70090",
+    "title": "Book Value Risk Management of Banks: Limited Hedging, HTM Accounting, and Rising Interest Rates",
+    "authors": [
+      "João Granja",
+      "Erica Xuewei Jiang",
+      "Gregor Matvos",
+      "Tomasz Piskorski",
+      "Amit Seru"
+    ],
+    "abstract": "We document that as interest rates rose in 2022, banks largely left long‐duration assets exposed to interest rate risk while shielding the accounting value of their balance sheets. Call report and Securities and Exchange Commission (SEC) data show that only about 6% of U.S. banking assets were hedged with derivatives, and even the heaviest users hedged only a small share of their portfolios. Rather than hedge market‐value risk, banks relied on held‐to‐maturity (HTM) accounting to shield book capital, reclassifying about $700 billion of securities as HTM during the tightening period, more than twice the amount reclassified beforehand. Cross‐sectionally, banks with lower capitalization, more fragile uninsured funding, and greater long‐duration asset exposure were less likely to expand hedging during tightening and more likely to rely on HTM accounting. More vulnerable banks, especially those overseen by less stringent state regulators, were also more likely to shift into HTM. We develop a stylized model showing how higher interest rate risk, through its effects on bank solvency, run risk, and regulatory capital, shapes banks’ incentives to hedge, recapitalize, or rely on HTM accounting. While HTM accounting can help well‐capitalized banks avoid excessively tight capital constraints, it can also weaken hedging incentives among weaker, moderately capitalized banks by allowing them to window‐dress capital ratios while remaining exposed to runs. Our evidence suggests that this latter channel dominated during the tightening episode. Incorporating deposit franchise value into regulatory capital without accounting for run risk may further weaken the effectiveness of capital regulation. These findings carry important implications for regulatory capital accounting and bank risk‐management practices.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70090",
+    "published_date": "2026-09-30",
+    "source": "JAR",
+    "first_seen": "2026-10-01",
+    "abstract_missing": false,
+    "summary": "本文研究在2022年利率上升的背景下，银行为何大量保留长久期资产的利率风险敞口、却去保护资产负债表的会计价值。作者使用Call Report与SEC数据发现，美国银行业资产中仅约6%通过衍生品进行了对冲，即便是衍生品使用最多的银行也只对冲了其组合的一小部分。银行并非对市场价值风险进行对冲，而是依赖持有至到期（HTM）会计来保护账面资本，在紧缩期间将约7000亿美元证券重分类为HTM，是此前重分类规模的两倍以上。横截面上，资本充足率较低、依赖更脆弱的未保险存款资金、长久期资产敞口更大的银行，在紧缩期更不可能扩大对冲，而更倾向于依赖HTM会计；更脆弱的银行，尤其是受较宽松州监管机构监管的银行，也更可能转向HTM。作者构建了一个风格化模型，说明更高的利率风险如何通过影响银行偿付能力、挤兑风险和监管资本，塑造银行在对冲、补充资本或依赖HTM会计之间的激励。HTM会计虽可帮助资本充足的银行避免过度收紧的资本约束，但也可能削弱资本中等充裕的较弱银行的对冲激励，使其能够粉饰资本比率却仍暴露于挤兑风险；证据表明在本次紧缩中后一渠道占主导。将存款特许权价值纳入监管资本而不考虑挤兑风险，可能进一步削弱资本监管的有效性。这些发现对监管资本会计与银行风险管理实践具有重要启示。",
+    "keywords": [
+      "持有至到期会计",
+      "利率风险",
+      "银行对冲",
+      "监管资本",
+      "挤兑风险"
+    ],
+    "ai_comment": "论文将2022年加息周期中银行的“重分类而非对冲”行为与横截面特征和理论模型相衔接，揭示HTM会计可能通过粉饰资本比率削弱弱资质银行的对冲激励，对监管资本会计改革具有直接的政策含义。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1111/1475-679x.70089",
     "title": "Partisanship, Information, and Punishment for Misconduct at Work",
     "authors": [
