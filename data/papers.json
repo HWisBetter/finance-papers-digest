@@ -1,5 +1,54 @@
 [
   {
+    "id": "10.1287/mnsc.2024.08553",
+    "title": "More Monitoring, Less Pay: Active Ownership and Employee Compensation",
+    "authors": [
+      "Claudine Gartenberg",
+      "Elaine Pak"
+    ],
+    "abstract": "The rise of active owners—hedge funds and private equity firms—has raised questions about the influence of corporate owners on employee compensation. Prior research documents that active owners reduce overall compensation through workforce restructuring and slower wage growth. What remains unexplored is whether active owners also pay less for comparable work: whether they compensate the same jobs differently than other owners. Using detailed compensation from more than 20 million employee records across 896 U.S. firms, we compare pay within narrowly defined labor markets that hold constant year, region, occupation, and skill level. We find that firms with active owners pay 2%–4% less for comparable work than other firms. These differentials manifest as both lower base salary and flatter incentive pay and appear to reflect, at least in part, an owner treatment effect. Notably, the effects are concentrated in more monitorable contexts, including routine jobs, jobs with quantifiable outputs, and those in less knowledge-intensive industries. These patterns are consistent with active owners substituting compensation-based incentives with managerial oversight, particularly in quantifiable and routine settings. This suggests that, as work becomes more measurable, firm ownership may play a greater role in shaping employee outcomes. This paper was accepted by Isabel Fernandez-Mateo, organizations. Funding: C. Gartenberg and E. Pak recognize the generous financial support from the Wharton School at University of Pennsylvania. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08553 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08553",
+    "published_date": "2026-10-01",
+    "source": "MS",
+    "first_seen": "2026-10-02",
+    "abstract_missing": false,
+    "summary": "本文关注积极所有者（active owners，主要是对冲基金和私募股权公司）的兴起如何影响员工薪酬。已有研究记录积极所有者会通过劳动力重组和减缓工资增长降低总体薪酬，但尚未探究其是否对可比工作支付更低薪酬，即是否对不同所有权结构下的相同岗位给予不同报酬。作者使用896家美国公司、超过2000万条员工记录中的详细薪酬数据，在窄口径劳动力市场中比较薪酬，并控制年份、地区、职业和技能水平。结果发现，拥有积极所有者的公司对可比工作支付的薪酬比其他公司低2%–4%。这种差异既表现为更低的基本工资，也表现为更平缓的激励薪酬，并且至少部分反映所有者处理效应（owner treatment effect）。效应集中在更可监督的情境，包括常规性工作、产出可量化的岗位以及知识密集度较低的行业。这些模式与积极所有者用管理监督替代基于薪酬的激励相一致，尤其是在可量化和常规化环境中。文章据此提出，随着工作变得更可测量，企业所有权可能在塑造员工结果方面发挥更大作用。",
+    "keywords": [
+      "积极股东",
+      "员工薪酬",
+      "公司治理",
+      "对冲基金",
+      "私募股权"
+    ],
+    "ai_comment": "本文的亮点在于用超大规模、细颗粒度的薪酬数据，在同一职业/地区/技能层面比较“同工不同酬”，把积极所有者的影响从总体薪酬和用工规模推进到可比工作薪酬。它进一步指出监督可替代薪酬激励，为理解所有权结构、工作可测量性与员工结果之间的关系提供了新证据。",
+    "topic": "公司治理"
+  },
+  {
+    "id": "10.1111/jofi.70093",
+    "title": "The Politicization of Social Responsibility",
+    "authors": [
+      "Todd A. Gormley",
+      "Manish Jha",
+      "Meng Wang"
+    ],
+    "abstract": "Institutional investors are less likely to support shareholder proposals on environmental and social issues for firms headquartered in Republican‐led states. The decline in support has become more pronounced in recent years, aligning with politicians emphasizing companies’ social responsibility efforts, and among firms receiving state‐level subsidies and tax breaks. Investor support also varies with shifts in state leadership, dropping by 12 percentage points in the same state when Republicans are in control instead of Democrats. The findings indicate that institutional investors prioritize maximizing shareholder value and that politicians can influence investor votes by altering the value implications of shareholder proposals.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70093",
+    "published_date": "2026-10-01",
+    "source": "JF",
+    "first_seen": "2026-10-02",
+    "abstract_missing": false,
+    "summary": "本文研究机构投资者在环境与社会（E&S）类股东提案上的投票行为如何受到政治环境的影响。作者发现，对于总部位于共和党主导州的公司，机构投资者支持其环境和社会议题股东提案的可能性显著更低。这种支持率的下降在近几年变得更加明显，与政治人物日益强调企业社会责任议题的时点相吻合；并且这一效应在获得州级补贴和税收优惠的公司中更为突出。投资者的支持度还会随着州领导层的更替而变化：在同一个州内，当共和党而非民主党执政时，投资者对相关提案的支持率下降 12 个百分点。研究结论表明，机构投资者以股东价值最大化为首要目标，而政治人物可以通过改变股东提案的价值含义来影响投资者的投票行为。",
+    "keywords": [
+      "机构投资者",
+      "股东提案",
+      "ESG",
+      "公司治理",
+      "政治因素"
+    ],
+    "ai_comment": "论文把政治环境引入机构投资者投票研究，利用州领导层换届造成的同一州内支持率变化进行识别，为“投资者按价值最大化而非意识形态投票”提供了有说服力的证据，也揭示了政治人物塑造提案价值含义的机制。",
+    "topic": "公司治理"
+  },
+  {
     "id": "10.1287/mnsc.2024.05567",
     "title": "The Effects of Stock Ownership on Individual Spending, Investments, and Loyalty",
     "authors": [
@@ -150,6 +199,29 @@
       "挤兑风险"
     ],
     "ai_comment": "论文将2022年加息周期中银行的“重分类而非对冲”行为与横截面特征和理论模型相衔接，揭示HTM会计可能通过粉饰资本比率削弱弱资质银行的对冲激励，对监管资本会计改革具有直接的政策含义。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1111/1475-679x.70086",
+    "title": "Mimicking Regulatory Peers",
+    "authors": [
+      "Minjae Kim"
+    ],
+    "abstract": "Bank regulators use peer information for bank evaluations and publicly disclose this information. This study investigates whether the regulatory use and disclosure of peer information induce herding behavior in banks' regulatory capital ratios. I examine this question using a 2004 peer group reform that introduced class‐of peer groups for newly chartered banks, grouping them exclusively with their cohorts, while established banks continued to be compared with similar‐sized banks. The results show that, post‐reform, banks exhibit heightened herding behavior in their regulatory capital ratios. Depending on their relative capital position, banks either become more sensitive to changes in the peer group average or converge toward it. Additionally, I find that under‐capitalized banks adjust loan portfolios to manage their capital ratios, and this gap‐closing behavior is associated with worse subsequent loan quality, higher bank failure rates during the financial crisis, and, at the bank holding company level, larger systemic‐risk contributions. These findings highlight significant implications of regulatory disclosure for bank behavior and stability.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70086",
+    "published_date": "2026-09-30",
+    "source": "JAR",
+    "first_seen": "2026-10-02",
+    "abstract_missing": false,
+    "summary": "本文研究银行监管机构对同业（peer）信息的使用与公开披露，是否会诱发银行在监管资本比率上的羊群行为。识别策略利用 2004 年的一项同业群体（peer group）改革：该改革为新设银行（newly chartered banks）引入了按成立批次划分的 class-of 同业组，使其只与同期设立的银行进行比较，而既有银行仍与规模相近的银行相比较。研究发现，改革之后银行在监管资本比率上表现出更强的羊群行为；具体而言，银行会依据自身相对资本水平做出不同反应——要么对同业组平均资本的变化变得更加敏感，要么向该平均值收敛。此外，资本不足（under-capitalized）的银行会通过调整贷款组合来管理其资本比率，而这种“缩小差距”的行为与随后更差的贷款质量、金融危机期间更高的银行倒闭率，以及在银行控股公司层面更大的系统性风险贡献相关联。文章由此指出，监管信息披露对银行行为与金融稳定具有重要影响。",
+    "keywords": [
+      "银行监管",
+      "监管资本比率",
+      "羊群行为",
+      "信息披露",
+      "系统性风险"
+    ],
+    "ai_comment": "本文巧妙地把监管者“披露同业信息”这一制度安排转化为可识别的研究情境，用 2004 年同业组改革构造准实验，揭示了监管披露可能通过同业模仿渠道扭曲资本比率并累积风险，为监管透明度政策的成本提供了新证据。",
     "topic": "银行与金融中介"
   },
   {
@@ -1264,6 +1336,30 @@
       "资源配置"
     ],
     "ai_comment": "论文的亮点在于提出 forecast coherence 这一可检验基准，将 CFO 预测所依赖的 heuristics 与后续预测误差反转、企业绩效和投资不足联系起来，并用简约模型解释资源配置扭曲，为理解管理预期形成的理性边界提供了新视角。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1093/rfs/hhag086",
+    "title": "The Coherence Side of Rationality: Theory and Evidence from Firm Plans",
+    "authors": [
+      "Pamela Giustinelli",
+      "Stefano Rossi"
+    ],
+    "abstract": "Using the Duke Survey data on firms’ internal plans, we show that over 80% of Chief Financial Officer (CFO) forecasts align closely with simple heuristics taught in MBA textbooks. We introduce forecast coherence—internal consistency across forecasts of jointly determined variables—as a benchmark for evaluating these heuristics. Nearly half of CFOs issue forecasts closely aligned with incoherent heuristics. Such forecasts are associated with predictable reversals in forecast errors, lower firm performance, and underinvestment. We develop a parsimonious model illustrating how reliance on restricted forecasting heuristics can generate incoherence and resource misallocation within firms, consistent with our evidence",
+    "url": "https://doi.org/10.1093/rfs/hhag086",
+    "published_date": "2026-09-18",
+    "source": "RFS",
+    "first_seen": "2026-10-02",
+    "abstract_missing": false,
+    "summary": "论文利用 Duke Survey 中企业内部分计划的数据，考察 CFO 的预测行为。研究发现，超过 80% 的 CFO 预测与 MBA 教科书中讲授的简单启发式（heuristics）高度吻合。作者提出“预测一致性”（forecast coherence），即对共同决定的多变量所做的各项预测之间应具备的内在一致性，以此作为评价这些启发式的基准。结果显示，近一半 CFO 的预测与不具有一致性的启发式紧密对应，这类预测伴随着可预测的预测误差反转（reversals in forecast errors）、更低的企业业绩以及投资不足。作者进一步构建一个简洁模型，说明依赖受限的预测启发式会在企业内部产生不一致性与资源配置失当，与经验证据相符。",
+    "keywords": [
+      "预测一致性",
+      "启发式",
+      "CFO预测",
+      "资源配置",
+      "公司业绩"
+    ],
+    "ai_comment": "论文把“内在一致性”这一可检验标准引入对管理者预测的评价，将调查数据与简约模型结合，揭示了看似符合经验法则的预测如何系统性导致误差反转与内部资源错配，为理性边界与企业投资效率研究提供了新视角。",
     "topic": "公司金融"
   },
   {
