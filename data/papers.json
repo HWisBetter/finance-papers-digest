@@ -1,5 +1,354 @@
 [
   {
+    "id": "w35867",
+    "title": "The Investment Channel of Monetary Policy: Disentangling Firm Heterogeneity",
+    "authors": [
+      "Thomas Drechsel",
+      "Daniel Lewis",
+      "Davide Melcangi",
+      "Laura Pilossoph"
+    ],
+    "abstract": "To study monetary policy transmission at the firm level, researchers typically consider heterogeneity along a small number of firm characteristics, such as size or leverage. We instead estimate the full distribution of firms’ investment responses to monetary policy, using a clustering regression framework. Our novel approach captures multidimensional and unobservable heterogeneity across firms and time. We find that investment by most firms in most time periods responds little to monetary policy. Only about 5% of firm-time observations are associated with a strong response. We then investigate the sources of heterogeneity ex post. We find that most of the variation in investment sensitivity arises within firms over time. Although several firm characteristics predict responsiveness to monetary policy, the majority of heterogeneity remains unexplained by firm observables. We demonstrate that our empirical estimates provide new targets for disciplining structural models of firm heterogeneity.",
+    "url": "https://www.nber.org/papers/w35867",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "该文关注货币政策在企业层面的传导，但不同于通常只依据规模或杠杆等少数企业特征来考察异质性的做法，作者采用 clustering regression 框架估计企业投资对货币政策反应的完整分布，从而同时刻画企业与时间维度上多维、不可观测的异质性。研究发现，大多数企业在大多数时期对货币政策的投资反应很小，只有约 5% 的企业—时间观测值表现出强烈反应。进一步的事后分析表明，投资敏感度的大部分变异来自企业自身随时间的变化；尽管若干企业特征能够预测对货币政策的反应程度，但多数异质性仍无法由可观测的企业特征解释。作者据此指出，其经验估计可为约束企业异质性结构模型提供新的目标。",
+    "keywords": [
+      "货币政策传导",
+      "企业异质性",
+      "企业投资",
+      "聚类回归",
+      "结构模型"
+    ],
+    "ai_comment": "论文的核心贡献在于用 clustering regression 估计企业投资对货币政策反应的完整分布，而非仅依赖少数企业特征，并揭示反应差异主要来自企业内部的时序变化、且大多无法由可观测特征解释。其估计结果还可作为校准企业异质性结构模型的新目标，具有方法借鉴意义。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35864",
+    "title": "From Importer to Exporter: Oil Shocks and the U.S. Economy",
+    "authors": [
+      "Diego R. Känzig",
+      "James H. Stock",
+      "Luca Zanotti"
+    ],
+    "abstract": "We study how the shale revolution and the U.S. transition from petroleum importer to net exporter have changed the macroeconomic effects of oil shocks. Using oil supply news shocks identified from OPEC announcements, a time-varying model of the U.S. macroeconomy shows that the contractionary effects weakened over time and eventually became expansionary. State-dependent local projections link this change to the U.S. petroleum trade balance. The improvement goes beyond mechanical net export effects: as the terms-of-trade response turns more favorable, consumption, equity valuations, and activity strengthen broadly across sectors and regions, pointing to general-equilibrium income and wealth effects. A counterfactual analysis of the 2022 oil price surge implies sharply different paths for U.S. activity, prices, and monetary policy under the propagation mechanisms prevailing before the shale boom vs. the early 2020s.",
+    "url": "https://www.nber.org/papers/w35864",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "本文研究页岩革命以及美国从石油进口国转变为净出口国这一结构性变化，如何改变了石油冲击对美国宏观经济的影响。作者利用从 OPEC 公告中识别的 oil supply news shocks，构建美国宏观经济的时变（time-varying）模型，发现石油冲击的紧缩效应随时间推移不断减弱，并最终转为扩张性。随后使用 state-dependent local projections，将这一转变与美国的石油贸易差额联系起来。研究表明，这种影响改善并不只是机械的净出口效应：随着 terms-of-trade 的反应变得更加有利，消费、股票估值和经济活动在各行业与各地区普遍走强，说明存在一般均衡（general-equilibrium）下的收入与财富效应。最后，作者对 2022 年油价飙升进行反事实（counterfactual）分析，结果显示，在页岩繁荣之前所盛行的传导机制与 2020 年代初的传导机制之下，美国经济活动、价格与货币政策会呈现截然不同的路径。",
+    "keywords": [
+      "石油冲击",
+      "页岩革命",
+      "贸易条件",
+      "时变模型",
+      "货币政策"
+    ],
+    "ai_comment": "论文把石油冲击宏观效应的符号翻转与美国能源贸易地位的变化联系起来，并用 state-dependent local projections 与反事实分析证明其机制超越单纯的净出口渠道，为理解 2022 年油价冲击下美国通胀与政策路径提供了有价值的分析框架。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35863",
+    "title": "Reassessing the 2000s Housing Cycle After Two Decades of Research",
+    "authors": [
+      "Adam Guren"
+    ],
+    "abstract": "What caused the 2000s housing cycle? This article synthesizes two decades of research, including reduced-form empirics and structural models. Although often contentious, the literature coheres once one accounts for each study’s timing, place, methodology, and measurement. The cycle was a perfect storm that occurred in distinct stages. Starting in the late 1990s, fundamentals improved, and credit supply increased across the income distribution due to automated underwriting and financial deregulation. In the early 2000s, a decline in interest rates was followed by a further expansion in securitized and subprime credit, the origin of which remains controversial. This sequence of shocks produced a persistent boom that triggered two shifts in beliefs: average expectations became overly optimistic, pushing prices higher, and expectations diverged, fueling speculation. In the bust, prices overshot primarily due to mortgage defaults, which removed buyers and contracted credit supply. How these forces interact and how expectations form require further research.",
+    "url": "https://www.nber.org/papers/w35863",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "本文综合了二十年来关于2000年代住房周期的研究，包括reduced-form实证研究与结构模型，旨在回答该轮住房周期由何驱动。作者指出，尽管文献常存争议，但一旦考虑各研究的时间、地点、方法与测量方式，整体结论是自洽的：这一周期是一场在若干不同阶段依次展开的\"perfect storm\"。自1990年代末起，基本面改善，同时由于automated underwriting与金融放松管制，信贷供给在收入分布各层次上普遍增加；2000年代初利率下降之后，证券化信贷与subprime信贷进一步扩张，而这一扩张的起因至今仍有争议。上述一系列冲击造成了持续性的繁荣，并引发信念的两次转变：平均预期变得过度乐观，推高价格；同时预期出现分化，助长投机。在萧条阶段，价格出现超调，主要源于mortgage defaults——它使购房者退出市场并收缩了信贷供给。作者最后指出，这些力量如何相互作用以及预期如何形成，仍需进一步研究。",
+    "keywords": [
+      "住房周期",
+      "信贷供给",
+      "subprime",
+      "mortgage defaults",
+      "预期形成"
+    ],
+    "ai_comment": "该文的价值在于以时间、地点、方法与测量四个维度调和了长期分歧的实证与结构文献，把2000年代住房周期刻画为分阶段的复合冲击序列，并突出预期乐观与预期分化这两条信念渠道，为后续关于预期形成机制的研究指明了方向。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35860",
+    "title": "Communicating Performance: Textual and Financial Disclosures in Private Equity",
+    "authors": [
+      "Josh Lerner",
+      "Fiona Paine",
+      "Antoinette Schoar"
+    ],
+    "abstract": "Private capital fund managers appear to possess significant information about the relative quality of their portfolio firms even within the first three years after the investment. But the way this information is disclosed to investors changes dynamically: Textual discussions of portfolio companies have substantial information about the firms’ ultimate performance in the early stages of investment, while interim valuations are less important. Over time, this pattern reverses, with interim valuations becoming more important in explaining future returns, especially after portfolio companies have a financing event. The results vary not only with the tone but also with the content of fund manager disclosures. In an opaque market with substantial information asymmetries, textual discussions seem to serve as a signal about general partner quality.",
+    "url": "https://www.nber.org/papers/w35860",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "论文关注私募资本（private capital）市场中基金经理与其投资者之间的信息传递问题：基金经理在投资后的头三年内似乎就已掌握关于组合公司相对质量的显著信息，但这种信息向投资者的披露方式会动态变化。作者通过比较文本讨论（textual discussions）与中期估值（interim valuations）对组合公司最终业绩的解释力来展开分析，发现在投资早期，对组合公司的文本讨论对未来业绩具有实质性的解释信息，而中期估值相对不重要；随着时间推移，这一格局发生反转，中期估值在解释未来回报时变得更为重要，尤其是在组合公司发生融资事件（financing event）之后。研究还表明，结果不仅取决于基金经理披露的语调（tone），也取决于披露的内容（content）。在信息高度不对称的不透明市场中，文本讨论似乎充当了关于普通合伙人（general partner）质量的信号。",
+    "keywords": [
+      "私募股权",
+      "信息披露",
+      "信息不对称",
+      "文本分析",
+      "中期估值"
+    ],
+    "ai_comment": "论文的亮点在于把文本讨论与中期估值视为两种相互替代、且相对重要性随投资阶段动态反转的信息渠道，并指出文本披露在信息不透明的私募市场中可充当 GP 质量的信号，为理解私募资本的信息传递机制提供了新视角。",
+    "topic": "会计与信息披露"
+  },
+  {
+    "id": "w35859",
+    "title": "How Heavily Are PhD Students Offloading Their Scientific Writing to AI? Evidence from US STEM PhD Dissertations",
+    "authors": [
+      "Daniel P. Gross",
+      "Dror Shvadron",
+      "Hansen Zhang"
+    ],
+    "abstract": "Large language models are diffusing rapidly into science, raising concerns that delegating research writing to AI may undermine the development of expertise that scientific training is supposed to build. We measure AI-generated writing in the dissertations of a near-census of US STEM PhD graduates from 2019 to 2026 and link graduates to their subsequent employment. AI writing is absent before 2023, present in 29% of dissertations filed in 2026, and rapidly growing. Use is more common among students from non-English-speaking countries and at lower-ranked programs. Among graduates in the same program and cohort, those whose dissertations contain AI writing are less likely to enter academic research careers and more likely to enter non-tenure-track roles or industry, with this pattern strongest among US-origin students. At the same time as AI may increase research productivity, it thus appears to also be displacing a potentially important portion of the work through which scientific expertise is developed.",
+    "url": "https://www.nber.org/papers/w35859",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "该研究关注大语言模型（LLM）迅速进入科研写作后，是否会影响博士训练本应培养的科研专长。作者对2019至2026年美国STEM博士毕业生的学位论文进行了接近全样本的普查式测量，识别其中的AI生成写作，并将毕业生与其后续就业信息相链接。结果显示，AI写作在2023年之前完全不存在，到2026年已出现在29%的学位论文中，且增长迅速；来自非英语国家的学生以及排名较低项目的学生使用更为普遍。在同一项目和同一届毕业生内部比较，学位论文含AI写作的毕业生更不可能进入学术研究职业，更可能进入非终身轨岗位或产业界，这一模式在美国本土学生中最为明显。作者由此指出，AI在可能提升科研产出的同时，似乎也在替代科研专长得以发展的一部分重要工作。",
+    "keywords": [
+      "LLM",
+      "科研写作",
+      "博士教育",
+      "学术职业",
+      "就业去向"
+    ],
+    "ai_comment": "论文以接近全样本的博士学位论文与就业记录相链接，为“AI代写科研”提供了罕见的大规模量化证据，并把技术使用与科研人才流失联系起来，兼具时效性与政策含义；但基于写作特征识别AI痕迹的测度方式，其准确性仍值得进一步检验。",
+    "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "w35850",
+    "title": "Debt Sustainability and the Range of Multiple Equilibria",
+    "authors": [
+      "Olivier J. Blanchard",
+      "Pedro Martinez-Bruera",
+      "Gonzalo Huertas"
+    ],
+    "abstract": "We characterize the size of the range of multiple equilibria in sovereign debt markets. We show that the nature of the equilibrium depends crucially on the degree of uncertainty, which we formalize first as uncertainty about primary balances and later as uncertainty about the fiscal feedback rule. For low uncertainty, the range can be large, but it becomes smaller as uncertainty becomes larger. If uncertainty is large enough, the multiplicity disappears: the interest rate is unique and becomes a continuous function of the debt level. The source of these results is that larger uncertainty decreases the effect of the perceived probability of default on the actual probability of default, thus reducing and eventually eliminating the scope for multiplicity. Interpreting the source of an increase in the interest rate in actual situations is difficult, and complicates the use of intervention by central banks.",
+    "url": "https://www.nber.org/papers/w35850",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "本文刻画了主权债务市场中多重均衡（multiple equilibria）范围的大小，并考察均衡性质如何取决于不确定性程度。作者将不确定性分别形式化为关于初级财政余额（primary balances）的不确定性，以及关于财政反馈规则（fiscal feedback rule）的不确定性。结果显示，当不确定性较低时，多重均衡的范围可能很大；但随着不确定性上升，该范围会缩小。若不确定性足够大，多重均衡现象会消失，利率变为唯一值，并成为债务水平的连续函数。其机制在于：更大的不确定性会削弱感知违约概率（perceived probability of default）对实际违约概率（actual probability of default）的影响，从而缩小并最终消除多重均衡的空间。文章还指出，在实际情形中识别利率上升的来源较为困难，这也会使中央银行干预的使用变得更加复杂。",
+    "keywords": [
+      "主权债务",
+      "多重均衡",
+      "债务可持续性",
+      "不确定性",
+      "财政反馈规则"
+    ],
+    "ai_comment": "本文的亮点在于将不确定性程度与主权债务市场多重均衡的范围直接联系起来，并给出“感知违约概率影响实际违约概率”这一传导机制，说明足够大的不确定性可消除多重性。其政策含义也值得注意：利率上升来源难以识别，会削弱央行干预的可操作性。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w35845",
+    "title": "Limits to Arbitrage and Prediction Market Efficiency: the Case of PredictIt",
+    "authors": [
+      "Eric Zitzewitz"
+    ],
+    "abstract": "PredictIt is a CFTC-regulated US prediction market focused on political outcomes. It was very successful in attracting participants in the 2016-22 period, running liquid markets on topics predecessors had tried unsuccesfully. During this period, investors were limited to $850 positions in each contract, which limited arbitrage trading. PredictIt exhibited much larger pricing biases than previously studied prediction markets. Bid prices often persistently added to more than 110, implying an immediate arbitrage profit even after fees. Prices exhibited an overpricing of longshots that was larger than in other prediction markets. The experience of PredictIt suggests that limiting stakes may undermine the ability of prediction markets to accurately price event probabilities.",
+    "url": "https://www.nber.org/papers/w35845",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "本文以 PredictIt 这一受 CFTC 监管、聚焦政治结果的美国预测市场为研究对象，考察套利限制对预测市场定价效率的影响。PredictIt 在 2016—2022 年间非常成功地吸引了参与者，在先前同类尝试失败的议题上运行起了流动性良好的市场；但该期间投资者在每个合约上的持仓被限制在 850 美元，从而限制了套利交易。研究发现，PredictIt 表现出的定价偏差明显大于此前研究的预测市场：bid prices 经常持续相加超过 110，即使在扣除费用后仍意味着存在即时套利利润；同时价格对 longshots 存在高估，且程度高于其他预测市场。作者据此认为，PredictIt 的经验表明，限制持仓规模可能削弱预测市场准确定价事件概率的能力。",
+    "keywords": [
+      "预测市场",
+      "套利限制",
+      "定价效率",
+      "政治事件合约",
+      "longshot bias"
+    ],
+    "ai_comment": "本文利用 PredictIt 的持仓上限这一准自然实验情境，为“套利限制导致价格偏差”提供了直接证据，其 bid prices 之和持续超过 110 的现象尤其直观地展示了套利机会的长期存在。",
+    "topic": "市场微观结构"
+  },
+  {
+    "id": "w35844",
+    "title": "Aging Out of Coverage: Lessons from the West Virginia $1,000 Adult Dental Benefit",
+    "authors": [
+      "Daniel S. Grossman",
+      "Kole T. Reddig",
+      "Jane Ruseski",
+      "Fotinos Panagakos"
+    ],
+    "abstract": "This paper studies the utilization of dental services during the recent implementation of an adult (age 21 and over) Medicaid dental benefit in West Virginia. We analyze claims data and find: 1) before implementation, quarterly utilization of preventative and restorative services falls from 8% at age 20 to virtually 0% at age 21; 2) post-implementation, utilization falls from 8% at age 20 to 5% at age 21, implying a net increase of 50% of baseline utilization; 3) the net effect of the dental benefit is significantly larger in counties with a larger number of oral health care provider practices. Our results provide evidence that public health insurance expansions are dampened in markets with a limited supply of provider practices.",
+    "url": "https://www.nber.org/papers/w35844",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "本文研究西弗吉尼亚州近期实施成人（21岁及以上）Medicaid牙科福利期间牙科服务的利用情况。通过分析理赔数据，作者发现：1）在政策实施前，20岁人群的预防性和修复性服务季度利用率从8%降至21岁时的几乎0%；2）政策实施后，利用率从20岁的8%降至21岁的5%，意味着相对于基线利用率净增50%；3）在口腔保健服务提供者诊所数量较多的县，牙科福利的净效应显著更大。研究结果表明，在提供者诊所供给有限的市场中，公共健康保险扩张的效果会被削弱。",
+    "keywords": [
+      "Medicaid",
+      "牙科服务利用",
+      "公共健康保险",
+      "医疗服务供给",
+      "年龄阈值"
+    ],
+    "ai_comment": "本文巧妙利用21岁失去Medicaid牙科保险的年龄断点，结合理赔数据识别公共保险扩容的因果效应，并强调供给端（牙科诊所密度）对政策效果的关键调节作用，为理解公共保险扩张的局限提供了直接证据。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35843",
+    "title": "Welfare Analysis with Complementarities: When Direct and Total Responses Are Sufficient",
+    "authors": [
+      "David Argente"
+    ],
+    "abstract": "Complementarities can have important welfare consequences, but quantifying these effects would seem to require identifying and valuing the underlying mechanisms separately. This paper shows that this need not be the case. I provide necessary and sufficient conditions under which baseline subsidized activity and the direct and total responses to a subsidy determine aggregate willingness to pay. A sufficient condition for valuing the equilibrium adjustment is that it has the same effect on utility as an additional subsidy common to all agents and relevant actions. The formula is easy to apply to existing estimates and guides the design of new experiments.",
+    "url": "https://www.nber.org/papers/w35843",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "本文讨论在存在互补性（complementarities）时如何进行福利分析。互补性可能带来重要的福利后果，但按常规思路，量化这些后果似乎需要分别识别并对各个底层机制进行估值。作者证明这种要求并非必要：论文给出了必要且充分条件，在这些条件下，只需基线的受补贴活动（baseline subsidized activity）以及补贴所引发的直接反应（direct response）和总反应（total response），就足以确定总的支付意愿（aggregate willingness to pay）。对于如何为均衡调整（equilibrium adjustment）估值，作者给出的一个充分条件是：该均衡调整对效用的影响，等同于对所有主体以及所有相关行动共同施加的一笔额外补贴。该公式易于套用到已有的估计结果上，同时也能为设计新的实验提供指导。",
+    "keywords": [
+      "互补性",
+      "福利分析",
+      "补贴",
+      "支付意愿",
+      "均衡调整"
+    ],
+    "ai_comment": "论文的价值在于证明互补性的福利评估不必逐一识别与估值底层机制，仅凭基线活动与直接、总反应即可完成加总，使大量已有补贴估计可直接用于福利计算，并为新实验设计提供了可操作的判据。",
+    "topic": "其他"
+  },
+  {
+    "id": "w35840",
+    "title": "Asymmetric Reversals",
+    "authors": [
+      "Federico Baldi-Lanfranchi",
+      "Pierre Collin-Dufresne",
+      "Kent D. Daniel"
+    ],
+    "abstract": "Short-term return reversal is one of the most robust asset-pricing anomalies, and is commonly linked to liquidity provision. We decompose individual firm stock returns into two distinct components: SYS, the component of returns that can be linked to systematic risk and public information releases; and an orthogonal residual RES. The RES component reverses, while the SYS component exhibits continuation. Moreover, the residual reversals are highly asymmetric: positive residual shocks reverse much more slowly than negative shocks. A return factor based on asymmetric idiosyncratic reversal subsumes the idiosyncratic volatility factor and a broad set of other short-horizon anomalies. Our findings suggest that asymmetric idiosyncratic reversal (AIR) is the primary driver of short-term return predictability.",
+    "url": "https://www.nber.org/papers/w35840",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "本文研究短期收益反转这一稳健的资产定价异象，并将其与流动性提供联系起来。作者将个股收益分解为两个部分：SYS，即与系统性风险和公开信息发布相关的收益成分；以及与之正交的残差 RES。结果发现，RES 成分出现反转，而 SYS 成分则表现出延续性。更重要的是，残差反转具有强烈的不对称性：正向残差冲击的反转速度远慢于负向冲击。基于这种不对称异质反转构建的收益因子，能够涵盖（subsume）异质波动率因子以及一系列其他短期限异象。作者据此认为，不对称异质反转（AIR）是短期收益可预测性的主要驱动因素。",
+    "keywords": [
+      "短期收益反转",
+      "异质反转",
+      "流动性提供",
+      "异象",
+      "收益可预测性"
+    ],
+    "ai_comment": "论文将收益拆分为系统性成分与正交残差，揭示了残差反转在正负冲击上的显著不对称性，并据此构造出能涵盖 IVOL 等众多短期限异象的因子，为短期收益可预测性提供了统一解释。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "w35839",
+    "title": "Large Language Models as Voting Mechanisms",
+    "authors": [
+      "Raša Karapandža",
+      "Yaw Nyarko"
+    ],
+    "abstract": "Large language models (LLMs) increasingly provide economic and financial advice. We develop a microeconomic framework for understanding this role. We prove that an LLM acts like a voting rule: each input text is an election, possible continuations are candidates, and output probabilities are vote shares derived from the training corpus. Such rules can generate Condorcet cycles, implying intransitive pairwise recommendations and potential money-pump exploitation. Using ChatGPT-4o, we identify millions of cycles in pairwise investment choices among S&amp;P 100 firms. Our theorems establish the voting interpretation on the training data and support its use off-sample. We also show that correcting cycles ex post is generally infeasible. Finally, temperature changes the voting rule: at T = 1, outputs are sampled in proportion to vote shares; lower temperatures favor the plurality winner, whereas higher temperatures flatten probabilities toward uniformity.",
+    "url": "https://www.nber.org/papers/w35839",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "本文建立一个微观经济学框架，以理解 LLM 在经济与金融建议中日益重要的角色。作者证明，LLM 的行为类似于一种投票规则：每段输入文本构成一次选举，可能的续写是候选人，输出概率则是来自训练语料的得票份额。这类规则可能产生 Condorcet cycles，从而带来不满足传递性的成对建议，并可能被用于 money-pump 式剥削。利用 ChatGPT-4o，作者在 S&P 100 公司的成对投资选择中识别出数百万个 cycles。其定理在训练数据上确立了投票解释，并支持将该解释用于样本外情形。研究还表明，事后纠正 cycles 通常是不可行的。最后，temperature 会改变投票规则：在 T = 1 时，输出按得票份额比例抽样；较低温度有利于 plurality winner，而较高温度则使概率分布趋于均匀。",
+    "keywords": [
+      "LLM",
+      "投票规则",
+      "Condorcet循环",
+      "投资选择",
+      "温度参数"
+    ],
+    "ai_comment": "本文将 LLM 输出形式化为投票规则，并把 Condorcet 循环、money-pump 风险与 temperature 参数联系起来，为理解 LLM 金融建议的内在缺陷与可操纵性提供了新视角；在 S&P 100 投资选择中发现大量循环，提示直接依赖 LLM 成对推荐可能存在系统性风险。",
+    "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "w35838",
+    "title": "When Does Bad News Stick? Topic-Level Asymmetry in Narrative Dynamics",
+    "authors": [
+      "Isha Agarwal",
+      "Wentong Chen",
+      "Eswar S. Prasad"
+    ],
+    "abstract": "When does bad news stick? This paper shows that the persistence of media sentiment depends not only on whether news is good or bad, but also on what the news is about. Using the complete Wall Street Journal archive from 1990 to 2025, we construct monthly positive and negative sentiment indices for twelve economic topics and estimate topic-specific sentiment dynamics. Bad-news innovations generate larger cumulative responses than positive-sentiment innovations in every topic, indicating that negativity asymmetry is a broad feature of media sentiment. But the size of this asymmetry varies sharply across topics. The bad-minus-positive persistence gap is largest in security and human rights, firms and corporate strategy, health and public safety, and real estate and financial stability. Bad-news persistence is also sizable in data-rich topics such as financial markets, real estate, and corporate news, suggesting that frequent information arrival does not necessarily lead narratives to revert quickly. These findings show that aggregate sentiment indices mask substantial topic-level heterogeneity in the asymmetric dynamics of narratives, with potential implications for how persistent negative sentiment shapes expectations, asset prices, and real economic outcomes.",
+    "url": "https://www.nber.org/papers/w35838",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "本文关注的问题是：负面消息在媒体叙事中何时会持续存在。作者利用1990至2025年完整的《Wall Street Journal》档案，针对十二个经济主题分别构建月度正面与负面情绪指数，并估计各主题特有的情绪动态（topic-specific sentiment dynamics）。结果显示，在每一个主题中，负面情绪冲击所产生的累积响应都大于正面情绪冲击，说明负面性不对称（negativity asymmetry）是媒体情绪的一个普遍特征；但这一不对称的程度在不同主题之间差异显著。负面减正面的持续性差距（bad-minus-positive persistence gap）在安全与人权、企业与公司战略、健康与公共安全、房地产与金融稳定等主题中最大。负面消息的持续性在信息丰富的主题（如金融市场、房地产与公司新闻）中同样可观，表明信息频繁到达并不必然使叙事迅速回归。作者由此指出，加总层面的情绪指数掩盖了叙事不对称动态在主题层面的巨大异质性，这对理解持续存在的负面情绪如何塑造预期、资产价格以及实体经济结果具有潜在含义。",
+    "keywords": [
+      "媒体情绪",
+      "负面性不对称",
+      "叙事持续性",
+      "主题异质性",
+      "文本分析"
+    ],
+    "ai_comment": "本文的亮点在于用1990—2025年《Wall Street Journal》全档案在十二个经济主题上逐一估计情绪动态，证明负面消息的持续性既普遍存在又高度依赖主题，从而说明加总情绪指数会掩盖关键的叙事异质性，为后续研究情绪与资产价格、实体经济的关系提供了更细粒度的经验基础。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "w35836",
+    "title": "Consumption, Savings, and Earnings Responses to Financial Windfalls",
+    "authors": [
+      "Rajashri Chakrabarti",
+      "Philippe d'Astous",
+      "Kory Kroft",
+      "Sheisha Kulkarni",
+      "Vyacheslav Mikhed",
+      "Matthew J. Notowidigdo",
+      "Sahil Raina",
+      "Barry Scholnick"
+    ],
+    "abstract": "We estimate the causal effects of a financial windfall on consumption, savings, and wage earnings using linked administrative data on a large sample of Canadian lottery winners. Using separate linkages of lottery winners to income tax records and credit bureau data, we estimate how lottery winnings affect consumption measured through credit card spending, savings through financial asset accumulation and debt repayment, and wage earnings from tax records. We then examine how these responses vary across the income distribution. We find that high-income individuals allocated a larger share of lottery winnings to savings and leisure, while low-income individuals spent a larger share on consumption. We illustrate the policy relevance of these heterogeneous responses through three applications: designing fiscal stimulus programs, evaluating a Universal Basic Income (UBI), and determining optimal top tax rates on wage earnings and savings.",
+    "url": "https://www.nber.org/papers/w35836",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "本文估算了金融意外之财（financial windfall）对消费、储蓄和工资收入的因果效应，利用加拿大彩票中奖者的大样本关联行政数据，将中奖者分别与所得税记录和信用局数据相链接；其中消费以信用卡支出衡量，储蓄以金融资产积累和债务偿还衡量，工资收入则来自税务记录。研究进一步考察这些反应在不同收入分布上的差异，发现高收入个体将更大比例的彩票奖金配置于储蓄和闲暇，而低收入个体则将更大比例用于消费。文章通过三个应用说明这种异质性反应的政策意义：设计财政刺激计划、评估 Universal Basic Income (UBI)，以及确定对工资收入和储蓄的最优最高税率。",
+    "keywords": [
+      "金融意外之财",
+      "消费",
+      "储蓄",
+      "工资收入",
+      "收入异质性"
+    ],
+    "ai_comment": "本文的亮点在于将彩票中奖的准实验设计与多源行政数据结合，为意外之财的消费、储蓄和劳动供给反应提供了因果证据，并揭示其显著的收入异质性；进一步把异质性反应嵌入财政刺激、UBI 与最优最高税率设计，政策含义明确。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "w35835",
+    "title": "Does Food Assistance Drive Spending on Sugary Foods? Evidence from the Pandemic Electronic Benefit Transfer Program",
+    "authors": [
+      "Georgina Cisneros",
+      "Brandyn F. Churchill"
+    ],
+    "abstract": "We provide evidence on the extent to which food assistance affects spending on sugary items by studying the Pandemic Electronic Benefit Transfer (P-EBT) program, which provided funds to families of children who lost access to free and reduced-price school meals due to COVID-19 pandemic school closures. Leveraging state-level variation in the timing of P-EBT disbursements using a stacked difference-in-differences identification strategy with NielsenIQ Consumer Panel data, we find that P-EBT disbursement was associated with a 16-percent increase in weekly spending on sugary items among SNAP-eligible households with school-aged children. Notably, this increase exceeded the percentage increase in overall food spending for this group, suggesting that SNAP-eligible households with school-aged children allocated a disproportionately large share of their P-EBT-driven purchases toward sugary items relative to their pre-period baseline. We do not detect changes among households unlikely to have received P-EBT benefits or in placebo disbursement years.",
+    "url": "https://www.nber.org/papers/w35835",
+    "published_date": "2026-10-05",
+    "source": "NBER",
+    "first_seen": "2026-10-05",
+    "abstract_missing": false,
+    "summary": "本文研究食品援助是否以及在多大程度上改变了家庭在含糖食品上的支出结构，具体以 Pandemic Electronic Benefit Transfer（P-EBT）项目为切入点。该项目在 COVID-19 疫情导致学校关闭期间，向失去免费或减价学校餐资格的儿童家庭发放补助资金。作者利用各州 P-EBT 发放时间上的差异，采用 stacked difference-in-differences 识别策略，并结合 NielsenIQ Consumer Panel 数据，考察补助发放对家庭消费的影响。结果显示，在育有学龄儿童且符合 SNAP 资格的家庭中，P-EBT 发放与每周含糖食品支出增加 16% 相关；值得注意的是，这一增幅高于该群体整体食品支出的百分比增幅，说明这些家庭将 P-EBT 带来的购买中相对更大的一部分配置到了含糖食品上（相对于其期前基线而言）。此外，作者在不太可能获得 P-EBT 补助的家庭中，以及在安慰剂发放年份中，均未检测到支出变化。",
+    "keywords": [
+      "食品援助",
+      "SNAP",
+      "含糖食品支出",
+      "双重差分法",
+      "家庭消费"
+    ],
+    "ai_comment": "本文的亮点在于把食品援助的评估从“总额效应”推进到“支出结构效应”：通过州际发放时点差异与 stacked DID 识别，发现补助显著且不成比例地推高了含糖食品支出，为福利转移支付的设计与儿童营养政策提供了直接的经验证据。",
+    "topic": "家庭金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104363",
     "title": "Climate regulatory risks and corporate bonds",
     "authors": [
