@@ -398,6 +398,29 @@
     "topic": "公司治理"
   },
   {
+    "id": "10.1287/mnsc.2022.02412",
+    "title": "Dynamic Unraveling",
+    "authors": [
+      "Joel P. Flynn"
+    ],
+    "abstract": "This paper studies price and liquidity dynamics in the presence of costly short-selling when uninformed traders have limited willingness-to-pay to trade securities. In this setting, unraveling and Bayesian social learning interact to produce a novel mechanism, dynamic unraveling: Unraveling that generates signals that lead to future unraveling. Applying the theory, I show how dynamic unraveling explains low-volume crashes: falls in the prices of securities on low or declining trading volume. In this context, short-selling restrictions can make low-volume crashes more likely by intensifying dynamic unraveling, but liquidity injections have the opposite effect. This paper was accepted by Agostino Capponi, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2022.02412 .",
+    "url": "https://doi.org/10.1287/mnsc.2022.02412",
+    "published_date": "2026-10-01",
+    "source": "MS",
+    "first_seen": "2026-10-06",
+    "abstract_missing": false,
+    "summary": "论文研究在卖空成本高昂、且不知情交易者（uninformed traders）对证券交易的支付意愿有限的条件下，证券价格与流动性的动态变化。在这一设定下，unraveling（交易者相继退出/市场逐步瓦解的过程）与 Bayesian social learning（贝叶斯社会学习）相互作用，产生了一种新机制——dynamic unraveling：即由 unraveling 本身产生的信号会引致未来的进一步 unraveling。作者将该理论应用于解释 low-volume crashes（低交易量崩盘），即证券价格下跌同时伴随交易量偏低或不断下降的现象。分析表明，在这一语境中，卖空限制会强化 dynamic unraveling，从而使低交易量崩盘更有可能发生；相反，流动性注入则具有相反的效果，即降低此类崩盘发生的可能性。",
+    "keywords": [
+      "卖空约束",
+      "流动性",
+      "贝叶斯社会学习",
+      "低交易量崩盘",
+      "价格动态"
+    ],
+    "ai_comment": "论文将市场瓦解（unraveling）与贝叶斯社会学习耦合，提出“dynamic unraveling”这一自我强化的反馈机制，为低交易量崩盘提供了新的理论解释，并给出卖空限制与流动性注入在方向上相反的 policy 含义，兼具理论新意与监管启示。",
+    "topic": "市场微观结构"
+  },
+  {
     "id": "10.1111/jofi.70093",
     "title": "The Politicization of Social Responsibility",
     "authors": [
