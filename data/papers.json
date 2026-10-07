@@ -1,5 +1,130 @@
 [
   {
+    "id": "10.1287/mnsc.2024.08420",
+    "title": "Money Creation for Crypto Space: Stablecoins or Central Bank Digital Currencies?",
+    "authors": [
+      "Jonathan Chiu",
+      "Cyril Monnet"
+    ],
+    "abstract": "Stablecoins are the current go-to digital money to settle transactions on the blockchain. We explore the implications of introducing competing tokenized public digital monies (i.e., tokenized central bank digital currencies (CBDCs)). When they pay a moderate interest rate and guarantee users’ anonymity, tokenized CBDCs crowd out stablecoins. However, when they pay a high interest rate and have low anonymity features, stablecoin issuers could use tokenized CBDCs as collateral, promoting the creation of stablecoins. We identify conditions under which introducing a CBDC to compete with stablecoins in the crypto sector would be socially optimal. This paper was accepted by Will Cong for the Virtual Special Issue on Digital Finance. Funding: Support from Swiss National Science Foundation (SNSF) [Grant 100018 219835].",
+    "url": "https://doi.org/10.1287/mnsc.2024.08420",
+    "published_date": "2026-10-06",
+    "source": "MS",
+    "first_seen": "2026-10-07",
+    "abstract_missing": false,
+    "summary": "本文关注区块链交易结算中稳定币作为当前主流数字货币的现实，研究引入可与之竞争的代币化公共数字货币（即 tokenized CBDC）会带来何种影响。分析发现：当代币化 CBDC 支付中等利率并保障用户匿名性时，它会挤出稳定币；但当代币化 CBDC 支付高利率且匿名性较低时，稳定币发行方可将代币化 CBDC 用作抵押品，从而促进稳定币创造。文章进一步识别出，在加密领域引入 CBDC 与稳定币竞争，在何种条件下具有社会最优性。",
+    "keywords": [
+      "稳定币",
+      "央行数字货币",
+      "代币化",
+      "匿名性",
+      "货币创造"
+    ],
+    "ai_comment": "论文将CBDC引入加密部门与稳定币的竞争纳入统一分析，揭示了利率与匿名性设计对稳定币挤出或促进的非单调影响，并给出社会最优性的条件，对数字货币政策设计具有参考价值。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "10.1093/rfs/hhag090",
+    "title": "Directing the Labor Market: Shared Directors and Employee Flows",
+    "authors": [
+      "Taylor A Begley",
+      "Peter Haslag",
+      "Daniel Weagley"
+    ],
+    "abstract": "Using résumé data on over 20 million U.S. workers, we find that the flow of employees between a pair of firms sharply drops by about 20% during periods in which the firms share a board director. This relationship is stronger in settings where firms have greater potential gains from limiting worker mobility and is most pronounced for higher-skilled employees. Moreover, we find more connected firms have lower rates of internal promotion and no improvements in employee satisfaction. The evidence is consistent with shared directors serving as a mechanism for labor market coordination. (JEL G34, G38, J42, J62, J08, K21, K31, M50)",
+    "url": "https://doi.org/10.1093/rfs/hhag090",
+    "published_date": "2026-10-06",
+    "source": "RFS",
+    "first_seen": "2026-10-07",
+    "abstract_missing": false,
+    "summary": "本文利用覆盖超过2000万名美国工人的简历（résumé）数据，考察两家公司共享董事会成员（shared directors）是否会影响员工在二者之间的流动。研究发现，当一对公司存在共享董事时，两家公司之间的员工流动量会显著下降约20%。这一关系在企业从限制员工流动性中潜在收益更大的情境下更为显著，并且在技能水平较高的员工中表现得最为突出。此外，董事会联系更紧密的公司内部晋升率更低，且员工满意度并没有因此改善。这些证据表明，共享董事充当了劳动力市场协调（labor market coordination）的一种机制。",
+    "keywords": [
+      "共享董事",
+      "员工流动",
+      "劳动力市场协调",
+      "董事会网络",
+      "简历数据"
+    ],
+    "ai_comment": "论文的亮点在于用大规模简历数据把董事网络从产品市场延伸到劳动力市场，揭示了共享董事可能抑制员工流动这一此前较少被关注的渠道；不过摘要未交代具体的识别策略，因果解释仍需依赖正文设计。",
+    "topic": "公司治理"
+  },
+  {
+    "id": "10.1093/rfs/hhag089",
+    "title": "Central Bank Economic Transparency and Managerial Learning",
+    "authors": [
+      "Oliver Binz",
+      "Elia Ferracuti",
+      "Gary Lind"
+    ],
+    "abstract": "Central banks increasingly disclose their private information regarding the economy’s current and future state (CBET). Consistent with CBET shifting investors’ collection and pricing of aggregate-level (where managers do not have an information advantage) toward firm-level (where managers do have an information advantage) information, we find that CBET reduces managers’ learning from stock price. The results are (1) pronounced when firms do not provide guidance and when noise trading in firms’ stock is low, and (2) robust to using the 2013–2014 amendments to the Bank of England’s Inflation Report as an exogenous shock. Additional evidence suggests that CBET lowers investment efficiency. (JEL E22, E52, M41)",
+    "url": "https://doi.org/10.1093/rfs/hhag089",
+    "published_date": "2026-10-06",
+    "source": "RFS",
+    "first_seen": "2026-10-07",
+    "abstract_missing": false,
+    "summary": "论文关注央行日益披露其对经济当前与未来状态的私人信息这一现象，即央行经济透明度（CBET），并考察它如何影响企业管理者从股价中学习。作者提出，CBET 会促使投资者将信息收集与定价的重心从总量层面（管理者在该层面不具有信息优势）转向公司层面（管理者在该层面具有信息优势），从而降低股价对管理者的信息价值。实证结果与这一机制一致：CBET 减少了管理者从股价中的学习，且该效应在企业不提供业绩指引（guidance）、以及公司股票噪声交易较低时更为明显；同时，以2013—2014年英格兰银行《通胀报告》（Inflation Report）的修订作为外生冲击，结果依然稳健。进一步的证据还表明，CBET 会降低企业的投资效率。",
+    "keywords": [
+      "央行经济透明度",
+      "管理者学习",
+      "股价信息含量",
+      "投资效率",
+      "噪声交易"
+    ],
+    "ai_comment": "论文将央行的宏观信息透明度与公司层面管理者从股价学习这一微观机制相衔接，视角新颖；并借助英格兰银行《通胀报告》修订作为外生冲击强化因果识别，指出央行透明度可能带来投资效率下降的意外成本，具有明确的政策含义。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104383",
+    "title": "The decline of branch banking",
+    "authors": [
+      "Rajesh P. Narayanan",
+      "Dimuthu Ratnadiwakara",
+      "Philip E. Strahan"
+    ],
+    "abstract": "We study branch openings and closures in U.S. banking. Both are concentrated where depositors are rate-sensitive and place less value on physical access, patterns driven by financially sophisticated households with greater digital adoption. The effects are strongest for large banks, with lending playing a lesser role. Incumbents retain branches where depositors are less sensitive and more reliant on proximity; entrants avoid such markets because sticky customers are difficult to attract. The Pandemic accelerated closures while allowing banks to retain deposits through online channels. Overall, depositor sophistication — through rate sensitivity and reduced branch reliance — drives modern branch restructuring.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104383",
+    "published_date": "2026-10-06",
+    "source": "JFE",
+    "first_seen": "2026-10-07",
+    "abstract_missing": false,
+    "summary": "本文研究美国银行业的分支机构开设与关闭行为，试图解释现代银行网点重构的驱动因素。作者发现，分支的开立与关闭都集中在存款人对利率敏感、且对物理网点接触价值评价较低的地区，而这种格局主要由金融素养较高、数字化采用程度更高的家庭所推动。上述效应在大银行身上最为明显，贷款业务的作用相对较小。在位银行会保留那些存款人利率敏感度较低、更依赖就近服务的市场中的网点；而新进入者则回避这类市场，因为黏性客户难以吸引。疫情加速了网点关闭，同时使银行能够通过线上渠道留住存款。总体而言，存款人的 sophistication（通过利率敏感性与对网点依赖的下降体现）驱动了现代银行分支结构的重组。",
+    "keywords": [
+      "银行分支机构",
+      "存款人利率敏感性",
+      "数字化转型",
+      "金融素养",
+      "银行竞争"
+    ],
+    "ai_comment": "论文将网点开设与关闭统一置于存款人特征的分析框架下，指出利率敏感性和数字化采用而非贷款业务是网点重构的主因，为理解后疫情时代银行物理渠道收缩提供了微观层面的解释。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104374",
+    "title": "Chronologically consistent large language models",
+    "authors": [
+      "Songrun He",
+      "Linying Lv",
+      "Asaf Manela",
+      "Jimmy Wu"
+    ],
+    "abstract": "Large language models are increasingly used in social sciences, but their training data can introduce lookahead bias and training leakage. A good chronologically consistent language model requires efficient use of training data to maintain accuracy despite time-restricted data. Here, we overcome this challenge by training a suite of chronologically consistent large language models, ChronoBERT and ChronoGPT, which incorporate only the text data that would have been available at each point in time. Despite this strict temporal constraint, our models achieve strong performance on natural language processing benchmarks, outperforming or matching widely used models (e.g., BERT), and remain competitive with larger open-weight models. Lookahead bias is model and application-specific because even if a chronologically consistent language model has poorer language comprehension, a regression or prediction model applied on top of the language model can compensate. In an asset pricing application predicting next-day stock returns from financial news embeddings, we find that ChronoBERT and ChronoGPT’s real-time outputs achieve Sharpe ratios comparable to a much larger and potentially biased Llama model. Our results demonstrate a scalable, practical framework to mitigate training leakage, ensuring more credible backtests and predictions across finance and other social science domains.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104374",
+    "published_date": "2026-10-06",
+    "source": "JFE",
+    "first_seen": "2026-10-07",
+    "abstract_missing": false,
+    "summary": "在社会科学中日益普及的大语言模型（LLM）面临一个方法论隐患：其训练数据包含未来信息，会带来前视偏差（lookahead bias）与训练数据泄漏（training leakage），从而破坏回测与预测的可信度。本文指出，一个真正「时间上一致（chronologically consistent）」的语言模型必须在训练数据被严格限制在某一时点之前的情况下，仍能通过高效利用数据来维持准确性。为应对这一挑战，作者训练了一套时间一致的大语言模型 ChronoBERT 与 ChronoGPT，其训练语料仅包含在每个对应时点上当时实际可获得的文本数据。尽管受到严格的时间约束，这些模型在自然语言处理（NLP）基准测试上仍表现强劲，超越或匹配了广泛使用的模型（如 BERT），并与规模更大的开放权重模型保持竞争力。作者进一步强调，前视偏差是模型特定且应用特定的：即便一个时间一致的语言模型的语言理解能力较弱，叠加在其上的回归或预测模型仍可能对这种不足做出补偿。在资产定价应用中，作者用 ChronoBERT 与 ChronoGPT 对财经新闻的 embedding 进行实时输出，预测次日股票收益率，发现其 Sharpe ratio 与规模大得多、且可能存在偏差的 Llama 模型相当。研究由此提出了一个可扩展、可落地的框架来缓解训练数据泄漏，为金融及其他社会科学领域提供更可信的回测与预测。",
+    "keywords": [
+      "大语言模型",
+      "前视偏差",
+      "训练数据泄漏",
+      "资产定价",
+      "NLP基准测试"
+    ],
+    "ai_comment": "论文的亮点在于把「时间一致性」从数据层面落实到模型的训练与实时部署上，构建了可开源复用的 ChronoBERT/ChronoGPT 系列，并给出「语言理解稍弱可由下游模型补偿」这一有实践价值的判断，为金融回测的可信性提供了可扩展的工程范式。",
+    "topic": "金融计量/机器学习"
+  },
+  {
     "id": "w35867",
     "title": "The Investment Channel of Monetary Policy: Disentangling Firm Heterogeneity",
     "authors": [
