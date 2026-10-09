@@ -1,5 +1,100 @@
 [
   {
+    "id": "10.1111/jofi.70084",
+    "title": "The Financial Premium",
+    "authors": [
+      "Jens Dick‐Nielsen",
+      "Peter Feldhütter",
+      "David Lando"
+    ],
+    "abstract": "We show that bonds issued by financial firms have higher spreads than bonds issued by industrial firms with the same rating and maturity, a difference that we refer to as the financial premium. Over the period 1987 to 2020, in the United States, this premium is 43 basis points on average, with the premium higher for lower ratings, higher during financial crises, and increasing in bond beta. We derive a model that explains the financial premium: banks hold diversified portfolios of nonfinancial debt, and bank debt therefore reflects more systematic risk than nonfinancial debt.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70084",
+    "published_date": "2026-10-08",
+    "source": "JF",
+    "first_seen": "2026-10-09",
+    "abstract_missing": false,
+    "summary": "本文发现，在信用评级和到期期限相同的情况下，金融机构发行的债券相比工业企业债券具有更高的信用利差，作者将这一差异称为 financial premium。基于1987年至2020年美国市场数据，该溢价平均为43个基点，并且在评级较低时更高、在金融危机期间更高，同时随债券 beta 上升而增加。作者进一步构建模型解释 financial premium 的来源：银行持有分散化的非金融债务组合，因此银行债务相较非金融债务承载了更多系统性风险，从而导致其利差更高。",
+    "keywords": [
+      "financial premium",
+      "债券信用利差",
+      "系统性风险",
+      "银行债务",
+      "信用评级"
+    ],
+    "ai_comment": "论文不仅记录了一个稳定且显著的金融债券定价异象，还通过银行资产负债表持有分散化非金融债务的机制，将溢价归因于系统性风险差异，为金融机构融资成本与债券定价研究提供了统一解释。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1111/jofi.70083",
+    "title": "Flow‐Driven ESG Returns",
+    "authors": [
+      "Philippe Van Der Beck"
+    ],
+    "abstract": "I show that the recent returns to environmental, social, and governance (ESG) investing are strongly driven by price impact from flows toward ESG portfolios. Using data on trades, I estimate the market's ability to accommodate ESG flows, which is given by the elasticity of substitution between ESG and other stocks. I show that every dollar flowing toward a representative ESG portfolio increases the market value of ESG stocks by $0.8. The growing institutional flows into the ESG portfolio are the main driver of ESG returns and have caused an annual flow‐driven return of 1.9%. In the absence of flows, ESG stocks would not have outperformed the market from 2012 to 2023.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70083",
+    "published_date": "2026-10-08",
+    "source": "JF",
+    "first_seen": "2026-10-09",
+    "abstract_missing": false,
+    "summary": "本文研究近期 ESG 投资的收益是否以及多大程度上由资金流向 ESG 组合带来的价格冲击所驱动。作者利用交易数据估计了市场对 ESG 资金流的吸纳能力，即 ESG 股票与其他股票之间的替代弹性。结果显示，每 1 美元流入代表性 ESG 组合，ESG 股票市值增加 0.8 美元。不断增长的机构资金流入 ESG 组合是 ESG 收益的主要驱动力，并产生了每年 1.9% 的 flow-driven return。如果没有这些资金流，ESG 股票在 2012 年至 2023 年期间不会跑赢市场。",
+    "keywords": [
+      "ESG",
+      "资金流",
+      "价格冲击",
+      "替代弹性",
+      "机构投资"
+    ],
+    "ai_comment": "本文的亮点在于用交易数据估计替代弹性并量化 ESG 资金流的价格冲击，揭示了 ESG 超额收益的 flow-driven 本质，为评估可持续投资的真实表现提供了新的实证视角。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1111/jofi.70090",
+    "title": "Targeted Philanthropy: Evidence from M&As",
+    "authors": [
+      "Cara Vansteenkiste"
+    ],
+    "abstract": "I show how firms optimize the allocation of charitable funds around investments that require external stakeholder support, such as mergers and acquisitions. Acquirers increase donations to target‐related charities before making a takeover offer, but scale funds back after withdrawing from a deal. Firms redistribute funds from nontakeover‐related areas to target insider–affiliated charities, employee communities, and counties with a regulatory presence. Targeted donations that encourage blockholder reciprocity and employee commitment are associated with better deal performance through decreased merger premiums and lower integration costs. Overall, the results highlight firms’ use of philanthropy to manage stakeholder relations in takeover decisions.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70090",
+    "published_date": "2026-10-07",
+    "source": "JF",
+    "first_seen": "2026-10-09",
+    "abstract_missing": false,
+    "summary": "本文研究企业如何在需要外部利益相关者支持的交易（如并购）周围优化慈善资金的配置。作者以并购为情境，发现收购方在发起收购要约之前会增加对目标公司相关慈善机构的捐赠，但在退出交易后又缩减捐赠规模。企业还会将资金从与收购无关的领域重新配置到目标公司内部人关联的慈善机构、员工所在社区以及有监管存在的县。那些能够促进大股东互惠和员工承诺的定向捐赠，与更好的交易表现相关，具体表现为并购溢价降低和整合成本下降。总体而言，结果凸显了企业利用慈善捐赠来管理收购决策中的利益相关者关系。",
+    "keywords": [
+      "目标性慈善捐赠",
+      "并购",
+      "利益相关者管理",
+      "并购溢价",
+      "整合成本"
+    ],
+    "ai_comment": "将公司慈善视为并购中利益相关者管理的战略工具，通过捐赠时机与资金再配置的细致证据，揭示了捐赠与交易条款及整合效率之间的关联，为理解企业非生产性支出的战略价值提供了新视角。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1111/jofi.70085",
+    "title": "When Do Treasuries Earn the Convenience Yield?—A Hedging Perspective",
+    "authors": [
+      "Viral V. Acharya",
+      "Toomas Laarits"
+    ],
+    "abstract": "We document that the convenience yield of U.S. Treasuries exhibits properties consistent with a hedging perspective of safe assets, that is, Treasuries are valued highly if they appreciate with poor aggregate shocks. In particular, the convenience yield tends to be low when the covariance of Treasury returns with the aggregate stock market returns is high. A decomposition of the aggregate stock‐bond covariance into terms corresponding to the convenience yield, the frictionless risk‐free rate, and default risk reveals that the covariance between stock returns and the convenience yield itself drives the effect in a substantive capacity.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70085",
+    "published_date": "2026-10-07",
+    "source": "JF",
+    "first_seen": "2026-10-09",
+    "abstract_missing": false,
+    "summary": "本文考察美国国债便利收益（convenience yield）的形成机制，提出并检验了一种「安全资产的对冲视角」：如果国债在总体冲击（aggregate shocks）恶化时上涨，那么它就会被赋予更高的价值。实证上，作者发现当国债收益率与总体股票市场收益率的协方差较高时，国债的便利收益往往较低，这与对冲视角的预期一致。为了进一步识别驱动因素，作者将股票与债券之间的总体协方差分解为分别对应便利收益、无摩擦无风险利率（frictionless risk-free rate）以及违约风险（default risk）的若干项，结果发现真正实质性驱动这一效应的是股票收益率与便利收益本身之间的协方差。",
+    "keywords": [
+      "国债便利收益",
+      "安全资产",
+      "对冲视角",
+      "股债协方差",
+      "违约风险"
+    ],
+    "ai_comment": "论文的亮点在于把便利收益这一常被视为流动性或货币属性的现象，重新安置到安全资产的对冲需求框架下，并通过协方差分解把便利收益项从无风险利率与违约风险中剥离出来，明确了其在股债联动中的实质作用。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2024.08420",
     "title": "Money Creation for Crypto Space: Stablecoins or Central Bank Digital Currencies?",
     "authors": [
@@ -24544,6 +24639,25 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.7546843",
     "first_seen": "2026-10-03",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Price of Conviction",
+    "authors": [
+      "Christian Goulding",
+      "Campbell R. Harvey",
+      "Hrvoje Kurtović"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7571098",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7571098",
+    "first_seen": "2026-10-09",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
