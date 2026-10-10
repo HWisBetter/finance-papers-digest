@@ -1,5 +1,31 @@
 [
   {
+    "id": "10.1111/jofi.70089",
+    "title": "Generative AI and Firm Values",
+    "authors": [
+      "Andrea L. Eisfeldt",
+      "Gregor Schubert",
+      "Miao Ben Zhang",
+      "Bledi Taska"
+    ],
+    "abstract": "How do recent advances in Generative Artificial Intelligence (AI) affect firm value? We construct the first measure of firms' workforce exposures to Generative AI and show that an “Artificial‐Minus‐Human” portfolio earned 5% in the two weeks following the release of ChatGPT. The labor‐exposure effect is more pronounced for firms with greater data assets and is distinct from the effect of firms' product exposures to AI. We assess whether exposed workforces are substituted or complemented by Generative AI based on whether their exposed tasks are core or supplemental. Examining firms' labor demand and profitability following the release of ChatGPT supports a labor‐technology substitution channel.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70089",
+    "published_date": "2026-10-09",
+    "source": "JF",
+    "first_seen": "2026-10-10",
+    "abstract_missing": false,
+    "summary": "本文关注生成式人工智能（Generative AI）的近期进展如何影响企业价值。作者构建了首个衡量企业劳动力对 Generative AI 暴露程度（workforce exposure）的指标，并发现基于该指标构造的“Artificial‐Minus‐Human”组合在 ChatGPT 发布后的两周内获得了 5% 的收益。这种劳动力暴露效应在数据资产更丰富的企业中更为显著，并且与企业的产品端 AI 暴露效应存在区别。作者进一步依据暴露任务属于核心任务还是辅助任务，来判断被暴露的劳动力究竟是被 Generative AI 替代还是与之互补；对 ChatGPT 发布后企业劳动力需求与盈利能力的考察结果支持“劳动—技术替代”（labor‐technology substitution）这一渠道。",
+    "keywords": [
+      "生成式AI",
+      "企业价值",
+      "劳动力暴露",
+      "劳动-技术替代",
+      "ChatGPT"
+    ],
+    "ai_comment": "论文的亮点在于首次在企业层面量化劳动力对生成式 AI 的暴露度，并借助 ChatGPT 发布这一外生冲击构造投资组合检验，同时通过核心/辅助任务的区分把替代与互补两种机制拆开，为理解 AI 冲击如何被市场定价提供了新证据。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1111/jofi.70084",
     "title": "The Financial Premium",
     "authors": [
@@ -46,6 +72,32 @@
     ],
     "ai_comment": "本文的亮点在于用交易数据估计替代弹性并量化 ESG 资金流的价格冲击，揭示了 ESG 超额收益的 flow-driven 本质，为评估可持续投资的真实表现提供了新的实证视角。",
     "topic": "资产定价"
+  },
+  {
+    "id": "10.1111/jofi.70080",
+    "title": "Feedback and Contagion through Distressed Competition",
+    "authors": [
+      "Hui Chen",
+      "Winston Wei Dou",
+      "Hongye Guo",
+      "Yan Ji"
+    ],
+    "abstract": "Firms tend to compete more aggressively when facing financial distress. This intensified competition reduces profit margins, pushing them further into distress and adversely affecting their industry peers. To study such feedback and contagion effects, we incorporate strategic competition in a dynamic model with long‐term defaultable debt, exploring various peer interactions such as predation and price wars. The feedback effect represents a novel source of financial distress costs associated with leverage, which helps explain the negative profitability‐leverage relation across industries. Owing to the contagion effect, firms' optimal leverage is often excessively high from an industry perspective, undermining the industry's financial stability.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70080",
+    "published_date": "2026-10-08",
+    "source": "JF",
+    "first_seen": "2026-10-10",
+    "abstract_missing": false,
+    "summary": "论文关注企业陷入财务困境时更倾向采取激进竞争行为这一现象：这种加剧的竞争会压缩利润边际，使企业进一步陷入困境，并对同行业企业产生负面影响。为刻画其中的反馈与传染效应，作者将战略竞争纳入一个包含长期可违约债务的动态模型，并考察掠夺性定价、价格战等多种同行互动形式。研究发现，反馈效应构成一种与杠杆相关的财务困境成本的新来源，有助于解释跨行业观察到的盈利能力与杠杆之间的负相关关系；而由于传染效应的存在，从行业整体视角看，企业的最优杠杆往往过高，从而削弱行业的金融稳定性。",
+    "keywords": [
+      "财务困境",
+      "战略竞争",
+      "反馈效应",
+      "传染效应",
+      "资本结构"
+    ],
+    "ai_comment": "该文将产品市场竞争与长期可违约债务的动态公司金融模型结合，把“困境—激进竞争—进一步困境”的反馈机制内生化，为杠杆相关的困境成本和负盈利-杠杆关系提供了新解释。其行业视角下的传染外部性及最优杠杆过高结论，对理解金融稳定与资本结构互动具有启示。",
+    "topic": "公司金融"
   },
   {
     "id": "10.1111/jofi.70090",
@@ -84465,16 +84517,22 @@
       "Moritz Schularick",
       "Alan Taylor"
     ],
-    "abstract": "",
+    "abstract": "Do periods of persistently loose monetary policy increase financial fragility and the likelihood of a financial crisis? This is a central question for policymakers, yet the literature does not provide systematic empirical evidence about this link at the aggregate level. In this article, we fill this gap by analysing long-run historical data. We find that when the stance of monetary policy is accommodative over an extended period, the likelihood of financial turmoil in the medium term increases considerably. We investigate the causal pathways that lead to this result and argue that credit creation and asset price overheating are important intermediating channels.",
     "url": "https://www.nber.org/papers/w30958",
     "published_date": "2023-02-01",
     "source": "NBER",
     "first_seen": "2023-02-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本文关注一个对政策制定者至关重要、但既有文献在加总层面缺乏系统性经验证据的问题：长期持续宽松的货币政策是否会加剧金融脆弱性、提高金融危机发生的可能性。作者利用长期历史数据（long-run historical data）在宏观加总层面展开实证分析，填补了这一空白。研究发现，当货币政策立场在较长时期内保持宽松（accommodative）时，中期内发生金融动荡（financial turmoil）的可能性会显著上升。作者进一步考察了导致这一结果的因果渠道，认为信贷创造（credit creation）与资产价格过热（asset price overheating）是重要的中介渠道。",
+    "keywords": [
+      "货币政策",
+      "金融脆弱性",
+      "金融危机",
+      "信贷扩张",
+      "资产价格"
+    ],
+    "ai_comment": "本文的主要贡献在于用长周期历史数据在加总层面为“宽松货币政策推升金融不稳定性”这一长期争论提供了系统性的经验证据，并进一步识别出信贷创造与资产价格过热两条中介渠道，为宏观审慎与货币政策协调提供了依据。",
+    "topic": "宏观金融",
     "kw_norm": true,
     "cited_by_count": 0
   },
