@@ -1,5 +1,55 @@
 [
   {
+    "id": "10.1287/mnsc.2024.07607",
+    "title": "Comment Letters, Connected Investors, and Corporate Bond Issuance",
+    "authors": [
+      "Yi Ding",
+      "T. J. Wong",
+      "Ray Zhang",
+      "Tianyu Zhang"
+    ],
+    "abstract": "Using a proprietary data set that documents corporate bond issuances in China, we find that bond regulators’ comment letters (CLs) on issuers’ public disclosures generally target opaque firms and reduce bond issuance success. We also find, however, that connected investors—financial institutions with prior business relationships with the issuers—purchase a relatively larger share of bond issuances from CL recipients than from non-CL recipients, and this greater participation contributes to overpricing. Further analysis shows that connected investors support CL recipients because they possess superior private information and obtain private benefits from their connections. This paper was accepted by Ranjani Krishnan, accounting. Funding: R. Zhang acknowledges financial support from the Social Sciences and Humanities Research Council of Canada [Grant 31-R833984]. Supplemental Material: The internet appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07607 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07607",
+    "published_date": "2026-10-13",
+    "source": "MS",
+    "first_seen": "2026-10-14",
+    "abstract_missing": false,
+    "summary": "本文借助一份记录中国公司债券发行的专有数据集，考察债券监管机构针对发行人公开披露所发出的问询函（comment letters, CLs）的效应及其与关联投资者的互动。研究发现，问询函总体上针对的是信息不透明的公司，并会降低债券发行的成功率；但同时发现，与发行人此前存在业务关系的金融机构等关联投资者，在问询函接收方的债券发行中认购份额相对高于非问询函接收方，而这种更高的参与度会助推发行定价偏高（overpricing）。进一步分析表明，关联投资者之所以支持问询函接收方，是因为它们掌握更优的私有信息，并能从这种关联关系中获得私有收益。",
+    "keywords": [
+      "问询函",
+      "公司债券发行",
+      "关联投资者",
+      "信息不对称",
+      "定价偏高"
+    ],
+    "ai_comment": "论文把监管问询、关联投资者关系与债券一级市场定价放在同一框架下，揭示问询函在抑制发行的同时可能被关联资金“托底”并导致定价失真的双重效应，对理解新兴市场信息披露监管的实际约束力具有启发性。",
+    "topic": "会计与信息披露"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104377",
+    "title": "Charitable capital allocation: Evidence from private foundations",
+    "authors": [
+      "Zhongjin (Gene) Lu",
+      "Steven Malliaris"
+    ],
+    "abstract": "We examine how private foundations allocate charitable capital in response to recipient need. Using financial shocks to peer foundations (who fund the same recipients), we isolate exogenous changes in the marginal value of grants. Foundations respond to need by reallocating grants across recipients, particularly for scientific causes and longer donor–recipient relationships. However, their annual grantmaking budgets show little intertemporal flexibility, instead prioritizing capital preservation. Among governance characteristics, founder involvement predicts both cross-sectional responsiveness and intertemporal conservatism. Our findings highlight a tension: founders’ charitable intent supports effective allocation, but their inclination toward capital preservation can hinder impact maximization.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104377",
+    "published_date": "2026-10-13",
+    "source": "JFE",
+    "first_seen": "2026-10-14",
+    "abstract_missing": false,
+    "summary": "本文研究私人基金会如何根据受助方需求来配置慈善资金。作者利用对等基金会（即资助同一批受助方的其他基金会）所受到的财务冲击，识别出grant边际价值的外生变化。研究发现，基金会会通过在不同受助方之间重新分配grant来回应需求，这一现象在科学类事业以及捐赠者—受助方关系更长久的情形中尤为明显。然而，基金会的年度grantmaking预算几乎没有跨期灵活性，而是优先考虑资本保全。在公司治理特征中，创始人的参与同时预测了横截面上的响应能力和跨期上的保守性。文章由此揭示一种张力：创始人的慈善意愿有助于实现有效配置，但其资本保全倾向可能阻碍影响力最大化。",
+    "keywords": [
+      "慈善资金配置",
+      "私人基金会",
+      "资本保全",
+      "公司治理",
+      "创始人参与"
+    ],
+    "ai_comment": "论文巧妙借用对等基金会受到的财务冲击构造外生变异，为慈善资本配置的因果识别提供了新思路，并揭示了创始人既促进有效配置又因资本保全而制约影响力的内在张力，对非营利组织治理研究具有启发意义。",
+    "topic": "公司金融"
+  },
+  {
     "id": "w35896",
     "title": "When Cash Flows Turn Negative: Liquidity-Driven Selling by Pension Funds",
     "authors": [
@@ -25002,6 +25052,27 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.7529121",
     "first_seen": "2026-10-13",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Beyond the Firm: The Information Ecosystem of the Corporation",
+    "authors": [
+      "Wei Jiang",
+      "Yaswanth Pothuru",
+      "Yusen Xia",
+      "Baozhong Yang",
+      "Kunpeng Zhang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7598660",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7598660",
+    "first_seen": "2026-10-14",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
