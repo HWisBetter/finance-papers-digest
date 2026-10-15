@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1287/mnsc.2024.06740",
+    "title": "AI-Driven Human Task Substitution: Evidence from Google Translate and ChatGPT",
+    "authors": [
+      "Erdem Dogukan Yilmaz",
+      "Ivana Naumovska",
+      "Vikas A. Aggarwal"
+    ],
+    "abstract": "We examine how different generations of artificial intelligence (AI) substitute for human knowledge worker tasks, leveraging two sequential natural experiments in the translation industry. We study the introduction of Google Neural Machine Translation (GNMT), a predictive, task-specific AI, as well as ChatGPT, a broad, general-purpose generative AI, in a major online labor market. Distinguishing between analytical tasks (regular translations) and intuitive tasks (transcreations, which require creative and cultural adaptation), we estimate difference-in-differences models on transaction-level data from 2016 to 2017 and 2022 to 2023. We find that GNMT reduced the demand for analytical tasks by economically meaningful magnitudes, while having no detectable effect on intuitive tasks. By contrast, ChatGPT produced substantially larger and more uniform reductions for both analytical and intuitive tasks, indicating a marked expansion in the scope and magnitude of AI substitution. By comparing these two technological shocks within the same labor market, we show that conclusions about which types of human work are resilient to automation do not straightforwardly generalize from predictive to generative AI. This paper was accepted by Joshua Gans, business strategy. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.06740 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.06740",
+    "published_date": "2026-10-14",
+    "source": "MS",
+    "first_seen": "2026-10-15",
+    "abstract_missing": false,
+    "summary": "本文关注不同代际的人工智能（AI）如何替代人类知识工作者的任务，并利用翻译行业中两个前后相继的自然实验来识别替代效应。研究以大型在线劳动力市场为情境，分别考察 Google Neural Machine Translation (GNMT) 这类预测性、任务特定型 AI，以及 ChatGPT 这类广泛、通用型生成式 AI。作者将任务区分为分析型任务（analytical tasks，即常规翻译）与直觉型任务（intuitive tasks，即需要创意与文化适配的 transcreation），并使用 2016—2017 年和 2022—2023 年的交易层面数据估计 difference-in-differences 模型。结果发现，GNMT 在经济意义上显著降低了对分析型任务的需求，但对直觉型任务没有可检测的影响；相比之下，ChatGPT 对分析型任务和直觉型任务都造成了幅度更大且更一致的下降，表明 AI 替代的范围和强度明显扩张。通过在同一劳动力市场中比较这两次技术冲击，文章说明，关于哪些类型的人类工作更能抵御自动化，并不能简单地从预测式 AI 的结论推广到生成式 AI。",
+    "keywords": [
+      "人工智能替代",
+      "生成式AI",
+      "机器翻译",
+      "双重差分",
+      "在线劳动力市场"
+    ],
+    "ai_comment": "论文的突出贡献在于把任务特定型预测式 AI 与通用生成式 AI 放在同一在线劳动力市场中对比，并区分分析型与直觉型任务，从而揭示 AI 替代边界会随技术代际发生显著扩展；这为理解生成式 AI 对知识工作的冲击及其对自动化韧性结论的可外推性提供了直接证据。",
+    "topic": "其他"
+  },
+  {
     "id": "10.1287/mnsc.2024.07607",
     "title": "Comment Letters, Connected Investors, and Corporate Bond Issuance",
     "authors": [
@@ -24,6 +49,56 @@
     ],
     "ai_comment": "论文把监管问询、关联投资者关系与债券一级市场定价放在同一框架下，揭示问询函在抑制发行的同时可能被关联资金“托底”并导致定价失真的双重效应，对理解新兴市场信息披露监管的实际约束力具有启发性。",
     "topic": "会计与信息披露"
+  },
+  {
+    "id": "10.1111/jofi.70095",
+    "title": "Risk, Specialization, and Covered‐Interest Parity",
+    "authors": [
+      "Tobias J. Moskowitz",
+      "Chase P. Ross",
+      "Sharon Y. Ross",
+      "Kaushik Vasudevan"
+    ],
+    "abstract": "Prevailing theories of financial intermediation assume an integrated financial sector with frictionless risk‐sharing. However, we identify substantial risk‐sharing frictions linked to intermediary specialization using currency derivatives markets as a laboratory. Using confidential supervisory data covering $25 trillion in daily bank exposures, we document imperfect hedging in banks' FX‐swap intermediation: banks rarely hedge their synthetic dollar lending with maturity‐matched foreign safe assets. Intermediaries specialize in markets in which they have expertise in managing the associated exposures, giving rise to cross‐market variation in deviations from covered‐interest parity. Our results highlight the importance of intermediary specialization and its impact on risk premia.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70095",
+    "published_date": "2026-10-13",
+    "source": "JF",
+    "first_seen": "2026-10-15",
+    "abstract_missing": false,
+    "summary": "本文从金融中介理论的一个常见假设出发——即金融部门是整合的、风险分担是无摩擦的——指出这一假设与现实不符。作者以货币衍生品市场作为“实验室”，利用覆盖每日 25 万亿美元银行敞口的保密监管数据，考察银行在外汇掉期（FX-swap）中介活动中的对冲行为，发现银行存在明显的不完全对冲：银行很少用期限匹配的外国安全资产来对冲其合成美元放贷（synthetic dollar lending）。这种风险分担摩擦与中介的专业化密切相关——中介倾向于在自己擅长管理相关敞口的市场中开展业务，从而导致不同市场间抛补利率平价（covered-interest parity, CIP）偏离程度出现横截面差异。研究结果凸显了中介专业化的重要性及其对风险溢价（risk premia）的影响。",
+    "keywords": [
+      "抛补利率平价",
+      "金融中介专业化",
+      "外汇掉期",
+      "风险分担摩擦",
+      "风险溢价"
+    ],
+    "ai_comment": "论文把“中介专业化”这一结构性特征引入对 CIP 偏离的解释，并用覆盖 25 万亿美元日度银行敞口的保密监管数据提供了直接的微观证据，为风险分担摩擦与风险溢价之间的关系提供了新的经验视角。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "10.1111/1475-679x.70088",
+    "title": "Unintended Regulatory Spillovers: The Impact of Bank Regulatory Oversight on Environmental Enforcement",
+    "authors": [
+      "John Gallemore",
+      "Vincent Giese"
+    ],
+    "abstract": "We explore whether bank regulatory oversight affects the ability of environmental enforcement to reduce industrial emissions. A major objective of environmental enforcement is to reduce industrial emissions by encouraging firms to employ greener production processes and technologies. However, such changes often require external financing obtained from banks, and prior research shows that regulatory oversight of banks can affect bank lending. We find that, on average, the reduction in air pollution in response to county‐level environmental enforcement is attenuated in counties exposed to increased bank regulatory oversight, as measured by severe enforcement actions. Furthermore, we show that the negative impact of bank regulatory oversight on small business lending to affected counties is the likely mechanism behind this on‐average effect. However, when bank regulatory oversight targets banks with stronger capitalization, we find that the negative effect of bank regulatory oversight on environmental enforcement is mitigated. Collectively, our findings suggest that bank regulation has a nuanced effect on the extent to which environmental enforcement reduces emissions, indicating that one regulator's mission can impact the objectives of another.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70088",
+    "published_date": "2026-10-13",
+    "source": "JAR",
+    "first_seen": "2026-10-15",
+    "abstract_missing": false,
+    "summary": "本文研究银行监管审查是否会削弱环境执法减少工业排放的效果。环境执法的主要目标是通过鼓励企业采用更绿色的生产工艺和技术来降低工业排放，但这类工艺与技术的改变往往需要来自银行的外部融资，而既有研究表明银行监管审查会影响银行放贷。作者以县级环境执法为情境，以严重执法行动（severe enforcement actions）衡量银行监管审查强度，发现平均而言，在暴露于更强银行监管审查的县，环境执法所带来的空气污染下降幅度被削弱。机制方面，作者表明银行监管审查对被影响县的 small business lending 产生负面影响，这是上述平均效应背后的可能机制。不过，当银行监管审查针对的是资本充足率更强的银行时，银行监管审查对环境执法的负面效应会被缓解。总体而言，研究结果表明银行监管对环境执法减排成效的影响是微妙的（nuanced），说明一个监管机构的目标可能会影响另一个监管机构的目标，即存在非意图的监管溢出效应。",
+    "keywords": [
+      "银行监管",
+      "环境执法",
+      "监管溢出",
+      "small business lending",
+      "空气污染"
+    ],
+    "ai_comment": "论文将银行监管、信贷供给与环境治理串联起来，识别出跨监管机构目标冲突的“非意图监管溢出”渠道，并进一步指出被监管银行的资本充足程度会调节这一效应，为理解金融监管的环境后果提供了新证据。",
+    "topic": "银行与金融中介"
   },
   {
     "id": "10.1016/j.jfineco.2026.104377",
@@ -467,6 +542,31 @@
       "简历数据"
     ],
     "ai_comment": "论文的亮点在于用大规模简历数据把董事网络从产品市场延伸到劳动力市场，揭示了共享董事可能抑制员工流动这一此前较少被关注的渠道；不过摘要未交代具体的识别策略，因果解释仍需依赖正文设计。",
+    "topic": "公司治理"
+  },
+  {
+    "id": "10.1093/rfs/hhag090",
+    "title": "Directing the Labor Market: Shared Directors and Employee Flows",
+    "authors": [
+      "Taylor Begley",
+      "Peter Haslag",
+      "Daniel Weagley"
+    ],
+    "abstract": "Using résumé data on over 20 million U.S. workers, we find that the flow of employees between a pair of firms sharply drops by about 20% during periods in which the firms share a board director. This relationship is stronger in settings where firms have greater potential gains from limiting worker mobility and is most pronounced for higher-skilled employees. Moreover, we find more connected firms have lower rates of internal promotion and no improvements in employee satisfaction. The evidence is consistent with shared directors serving as a mechanism for labor market coordination.",
+    "url": "https://doi.org/10.1093/rfs/hhag090",
+    "published_date": "2026-10-06",
+    "source": "RFS",
+    "first_seen": "2026-10-15",
+    "abstract_missing": false,
+    "summary": "论文利用覆盖美国逾2000万劳动者的简历数据，考察两家企业共享同一位董事（shared director）期间，两家企业之间的员工流动如何变化。研究发现，在共享董事期间，一对企业之间的员工流动大约下降20%；这一关系在企业从限制员工流动性中潜在收益更大的情境下更强，并且在高技能员工中最为明显。进一步分析显示，董事网络连接更紧密的企业内部晋升率更低，员工满意度也没有改善。作者认为，这些证据与共享董事充当劳动力市场协调机制（labor market coordination）的解释相一致。",
+    "keywords": [
+      "共享董事",
+      "员工流动",
+      "劳动力市场协调",
+      "公司治理",
+      "简历数据"
+    ],
+    "ai_comment": "论文用大规模简历数据把董事会联结与员工跨企业流动直接联系起来，为理解共享董事在劳动力市场协调中的作用提供了新颖证据；其对高技能员工和内部晋升的异质性发现尤其值得关注。",
     "topic": "公司治理"
   },
   {
@@ -25073,6 +25173,104 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.7598660",
     "first_seen": "2026-10-14",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Antitrust, Anti-Activism",
+    "authors": [
+      "Robert Bishop",
+      "Vyacheslav Fos",
+      "Wei Jiang",
+      "Frank Partnoy C"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6061814",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6061814",
+    "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Seeing the Goal, Missing the Truth: Human Accountability for AI Bias",
+    "authors": [
+      "Sean S. Cao",
+      "Wei Jiang",
+      "Hui Xu"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6705499",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6705499",
+    "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "What Drives Money Competition: Comparative Advantage in Payments versus Reserves",
+    "authors": [
+      "Itay Goldstein B",
+      "Ming Yang",
+      "Yao Zeng"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6156446",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6156446",
+    "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Learning from Prediction Markets: The Transmission of Information and Noise to Traditional Assets",
+    "authors": [
+      "Itay Goldstein B",
+      "Ye Li",
+      "Chen M. Wang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7198379",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7198379",
+    "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Household Migration and Collateral Constraint: Cash-based Housing Resettlement in China",
+    "authors": [
+      "Zhiguo He",
+      "Yang Su",
+      "Zehao Liu",
+      "Xinle Pang",
+      "Kunru Zou"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.6371019",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.6371019",
+    "first_seen": "2026-10-15",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
@@ -50350,6 +50548,43 @@
     "topic": "其他"
   },
   {
+    "title": "Barcelona 7: Artificial Intelligence in Finance",
+    "authors": [
+      "Thierry Foucault",
+      "Leonardo Gambacorta",
+      "Wei Jiang",
+      "Xavier Vives"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5283385",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5283385",
+    "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Corporate Finance and Governance with Artificial Intelligence: Old and New",
+    "authors": [
+      "Wei Jiang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5290033",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5290033",
+    "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "id": "10.1111/jofi.13417",
     "title": "Simplicity and Risk",
     "authors": [
@@ -69993,6 +70228,64 @@
     "topic": "其他"
   },
   {
+    "title": "Common Investors Across the Capital Structure: Private Debt Funds as Dual Holders",
+    "authors": [
+      "Tetiana Davydiuk",
+      "Isil Erel",
+      "Wei Jiang",
+      "Tatyana Marchuk"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4992219",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4992219",
+    "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Informative Financial Markets and Real Efficiency",
+    "authors": [
+      "Itay Goldstein B",
+      "Stefan Hirth",
+      "Matthias Lassak"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5030469",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5030469",
+    "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Fragility of Financial Markets",
+    "authors": [
+      "Itay Goldstein B",
+      "Chong Huang",
+      "Liyan Yang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5024696",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5024696",
+    "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "id": "10.1111/jofi.13307",
     "title": "The Narrow Channel of Quantitative Easing: Evidence from YCC Down Under",
     "authors": [
@@ -86930,6 +87223,43 @@
     "topic": "其他"
   },
   {
+    "title": "Payments, Reserves, and Financial Fragility",
+    "authors": [
+      "Itay Goldstein B",
+      "Ming Yang",
+      "Yao Zeng"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4547329",
+    "published_date": "2023-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4547329",
+    "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Endogenous Fracturing under Partisan Voting",
+    "authors": [
+      "Stephen P. Yang",
+      "Baozhong Yang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4610717",
+    "published_date": "2023-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4610717",
+    "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "id": "10.1111/jofi.13197",
     "title": "Bayesian Solutions for the Factor Zoo: We Just Ran Two Quadrillion Models",
     "authors": [
@@ -88439,6 +88769,26 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.4060307",
     "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "On ESG Investing: Heterogeneous Preferences, Information, and Asset Prices",
+    "authors": [
+      "Itay Goldstein B",
+      "Alexandr Kopytov",
+      "Lin Shen",
+      "Haotian Xiang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4080653",
+    "published_date": "2022-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4080653",
+    "first_seen": "2026-10-15",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
