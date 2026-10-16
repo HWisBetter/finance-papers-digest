@@ -25,6 +25,31 @@
     "topic": "其他"
   },
   {
+    "id": "10.1111/jofi.70082",
+    "title": "Externalities of Responsible Investments",
+    "authors": [
+      "Michele Bisceglia",
+      "Alessio Piccolo",
+      "Jan Schneemeier"
+    ],
+    "abstract": "We develop a model to study the efficiency of socially responsible investing (SRI) as a mechanism to control firms' externalities. When SRI is not too popular, responsible investors favor strategies that lead to a concentration of SRI in a subset of firms in the economy. This concentration can mitigate coordination issues in adopting green technologies, but it can also crowd out the green investments of excluded firms and increase the price of green products. In equilibrium, responsible investors continue to favor concentration even as SRI becomes more popular, and concentrate the most when concentration is least desirable.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70082",
+    "published_date": "2026-10-14",
+    "source": "JF",
+    "first_seen": "2026-10-16",
+    "abstract_missing": false,
+    "summary": "本文构建模型研究社会责任投资（SRI）作为控制企业外部性机制的有效性。当SRI不太流行时，负责任投资者偏好将SRI集中于经济中部分企业的策略。这种集中能缓解采用绿色技术时的协调问题，但也可能挤出被排除企业的绿色投资并推高绿色产品价格。在均衡中，即使SRI变得更流行，负责任投资者仍继续偏好集中，并且在集中最不合意时集中程度最高。",
+    "keywords": [
+      "SRI",
+      "外部性",
+      "绿色技术",
+      "协调问题",
+      "绿色产品价格"
+    ],
+    "ai_comment": "该文通过模型刻画了SRI集中化策略的双重效应：既能缓解绿色技术采纳中的协调失灵，又可能挤出局外企业的绿色投资并抬升绿色产品价格；其均衡结果——SRI越普及投资者仍越偏好集中，且在集中最不可取时集中度最高——为评估SRI作为外部性治理工具的局限性提供了关键洞见。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1287/mnsc.2024.07607",
     "title": "Comment Letters, Connected Investors, and Corporate Bond Issuance",
     "authors": [
