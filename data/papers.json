@@ -1,5 +1,28 @@
 [
   {
+    "id": "10.1287/mnsc.2025.02761",
+    "title": "Competition and Diversity in Generative AI",
+    "authors": [
+      "Manish Raghavan"
+    ],
+    "abstract": "Recent evidence, both in the laboratory and in the wild, suggests that the use of generative artificial intelligence reduces the diversity of content produced. As generative AI penetrates more markets and reaches widespread adoption, should we still expect to see content homogenization? Our work begins with a simple observation: content producers do not act in isolation. Instead, they compete with one another (e.g., for customers or attention). We explore the impact competition has on both content diversity and overall social welfare when producers use generative AI. Through a formal game-theoretic model, we show that competitive markets select for diverse AI models, mitigating monoculture. We further show that a generative AI model that performs well in isolation (i.e., according to a benchmark) may fail to provide value in a competitive market. Our results highlight the importance of evaluating generative AI models across the breadth of their output distributions, particularly when they will be deployed in competitive environments. We validate our theoretical results with a series of experiments involving generative text and image models. Overall, our results suggest that homogenization due to generative AI is unlikely to persist under strong competition. This paper was accepted by Itai Ashlagi, market design, platform, and demand analytics. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.02761 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.02761",
+    "published_date": "2026-10-16",
+    "source": "MS",
+    "first_seen": "2026-10-17",
+    "abstract_missing": false,
+    "summary": "论文关注生成式人工智能（generative AI）降低产出内容多样性、可能造成内容同质化（monoculture）这一现象，并提出一个关键前提：内容生产者并非孤立行动，而是彼此争夺客户或注意力。作者构建正式的博弈论模型（game-theoretic model），刻画生产者在竞争环境中使用生成式 AI 时的内容选择，考察竞争对内容多样性与整体社会福利的影响。模型结果表明：竞争性市场会“筛选”出多样化的 AI 模型，从而缓解单一化；反之，一个在孤立评测（如基准 benchmark）中表现良好的生成式 AI 模型，在竞争市场中未必能带来价值。因此作者强调，评估生成式 AI 模型时应考察其整个产出分布的宽度，尤其当模型将被部署于竞争环境时。作者还用一系列涉及生成式文本模型与图像模型的实验验证了理论结论。总体结论是：在强竞争下，由生成式 AI 导致的内容同质化不太可能持续存在。",
+    "keywords": [
+      "生成式人工智能",
+      "内容多样性",
+      "市场竞争",
+      "博弈论模型",
+      "模型评估"
+    ],
+    "ai_comment": "论文把“AI 导致内容同质化”的常见担忧放入生产者相互竞争的一般均衡式博弈框架中，指出竞争会内生地筛选多样化模型，并提醒基准测试上的优异表现未必等于竞争市场中的价值，这一视角对生成式 AI 的评测与部署颇具启发。",
+    "topic": "金融计量/机器学习"
+  },
+  {
     "id": "10.1287/mnsc.2024.06740",
     "title": "AI-Driven Human Task Substitution: Evidence from Google Translate and ChatGPT",
     "authors": [
@@ -1737,6 +1760,31 @@
       "策略互补性"
     ],
     "ai_comment": "论文借助独特的美国投资者资金流微观数据，把久期风险与汇率风险放在同一框架下考察新兴市场本币债券投资，凸显了长期融资在缓解展期风险与放大估值/汇率联动之间的权衡，并提示共同基金投资者策略互补性对市场压力动态的放大作用。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "10.1093/rfs/hhag088",
+    "title": "Original Sin Redux: Role of Duration Risk",
+    "authors": [
+      "Carol Bertaut",
+      "Valentina Bruno",
+      "Hyun Song Shin"
+    ],
+    "abstract": "We highlight the role of duration and exchange rate risks on portfolio flows by using a unique and comprehensive database of U.S. investor flows into emerging market government bonds denominated in local currency. Borrowing long-term mitigates rollover risk but amplifies valuation changes that further interact with currency movements. Our analysis highlights the double-edged nature of long-term borrowing and draws attention to market stress dynamics due to strategic complementarities among mutual fund investors.",
+    "url": "https://doi.org/10.1093/rfs/hhag088",
+    "published_date": "2026-09-24",
+    "source": "RFS",
+    "first_seen": "2026-10-17",
+    "abstract_missing": false,
+    "summary": "本文关注久期风险与汇率风险如何影响证券组合流动，并利用一个独特而全面的数据库，考察美国投资者对以本币计价的新兴市场政府债券的资金流。研究发现，长期借贷虽可缓解展期风险，却会放大估值变化，而估值变化又进一步与汇率变动相互作用，因此长期借贷具有双刃剑性质。文章还指出，共同基金投资者之间的策略互补性会加剧市场压力动态，值得关注。",
+    "keywords": [
+      "久期风险",
+      "汇率风险",
+      "新兴市场本币政府债券",
+      "证券组合流动",
+      "共同基金"
+    ],
+    "ai_comment": "论文利用独特的美国投资者资金流数据，将久期风险与汇率风险纳入新兴市场本币债券的组合流动分析，揭示长期借贷在缓解展期风险的同时放大估值与汇率联动风险；其对共同基金投资者策略互补性所引发市场压力动态的强调也具有现实意义。",
     "topic": "国际金融"
   },
   {
