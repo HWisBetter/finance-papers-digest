@@ -296,6 +296,31 @@
     "topic": "公司金融"
   },
   {
+    "id": "10.1093/rfs/hhag092",
+    "title": "How Private Equity Fuels Nonbank Lending",
+    "authors": [
+      "Sharjil Haque",
+      "Simon Mayer",
+      "Teng Wang"
+    ],
+    "abstract": "We demonstrate how private equity (PE) promotes nonbank lending by substituting for bank monitoring. Relative to non-PE-backed loans, PE-backed loans exhibit lower bank monitoring, smaller loan shares retained by lead banks, and larger shares held by nonbanks. The substitution is strongest when sponsors have greater incentives to engage with portfolio firms, is not associated with weaker loan performance, and persists during borrower distress. Our findings suggest that PE sponsors’ active engagement—through monitoring and support in distress—reduces banks’ need for monitoring and information production, enabling them to retain less skin in the game and sell loans to nonbanks.",
+    "url": "https://doi.org/10.1093/rfs/hhag092",
+    "published_date": "2026-10-19",
+    "source": "RFS",
+    "first_seen": "2026-10-21",
+    "abstract_missing": false,
+    "summary": "本文研究私募股权（PE）如何通过替代银行监督来推动非银行贷款。作者比较了有 PE 支持与无 PE 支持的贷款，发现有 PE 支持的贷款利率更低……等等，摘要没说利率。摘要说：相对无 PE 支持的贷款，PE 支持的贷款表现出更低的银行监督、牵头银行保留的贷款份额更小、由非银行机构持有的份额更大。当发起人（sponsor）有更强动机参与被投企业事务时，这种替代效应最强；该现象与更差的贷款表现无关，且在借款人陷入困境时依然存在。作者据此认为，PE 发起人通过监督和在困境中提供支持进行积极介入，降低了银行监督与信息生产的必要性，使银行能够保留更少的“切身利益”（skin in the game），并把贷款出售给非银行机构。",
+    "keywords": [
+      "私募股权",
+      "非银行贷款",
+      "银行监督",
+      "贷款银团",
+      "发起人参与"
+    ],
+    "ai_comment": "论文把 PE 发起人的主动介入视为银行监督的替代机制，为 PE 与影子银行扩张之间的联系提供了微观解释；其亮点在于用贷款份额保留与持有结构刻画监督强度的变化，并检验困境情境下的稳健性。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104387",
     "title": "Political Voice and (Mortgage) Market Participation: Evidence from the dilution of Voting Rights Act",
     "authors": [
