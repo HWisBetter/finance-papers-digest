@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1287/mnsc.2025.03301",
+    "title": "Share Issues vs. Share Repurchases",
+    "authors": [
+      "Philip Bond",
+      "Yue Yuan",
+      "Hongda Zhong"
+    ],
+    "abstract": "Almost all firms repurchase shares through open-market repurchase programs. In contrast, issue methods are more diverse; at-the-market offerings, analogous to open-market repurchases, and seasoned equity offerings, analogous to rarely used tender-offer repurchases, are both used by significant fractions of firms. Furthermore, average seasoned equity offerings are larger than at-the-market offerings. We show that this asymmetry in the diversity of transaction methods in issuances and repurchases and the size-method relation in issuances are natural consequences of the single informational friction of a firm having superior information to investors. Moreover, although this friction always leads firms to issue inefficiently little, it leads firms to repurchase too little if they maximize long-term shareholder value but too much if the primary goal is to boost short-term share prices. This paper was accepted by Bo Becker, finance. Funding: Y. Yuan acknowledges support from the Paul Woolley Centre, the National Natural Science Foundation of China [Projects 72342020 and 72495152], and University College London. H. Zhong acknowledges support from the Economic and Social Research Council [New Investigator Grant ES/T003758/1]. Supplemental Material: The online appendix is available at https://doi.org/10.1287/mnsc.2025.03301 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.03301",
+    "published_date": "2026-10-21",
+    "source": "MS",
+    "first_seen": "2026-10-22",
+    "abstract_missing": false,
+    "summary": "论文关注股票发行与股份回购在交易方式多样性上的不对称：回购几乎全部通过公开市场回购计划完成，而发行方式更为多样——与公开市场回购类似的 at-the-market offerings（ATM）和与极少使用的要约回购类似的 seasoned equity offerings（SEO）都被相当比例的公司采用，且平均而言 SEO 的规模大于 ATM。作者在一个公司相对投资者拥有信息优势的统一框架下，证明这种发行与回购在方式多样性上的不对称、以及发行中规模与方式的对应关系，都是单一信息摩擦的自然结果。模型进一步表明：该摩擦总是使公司发行过少（低于效率水平）；而在回购上，若公司以长期股东价值最大化为目标则会回购过少，若主要目标是推高短期股价则会回购过多。",
+    "keywords": [
+      "股份回购",
+      "股票发行",
+      "信息不对称",
+      "逆向选择",
+      "市场择时"
+    ],
+    "ai_comment": "论文用单一信息摩擦同时解释了发行方式多样、回购方式单一以及发行规模与方式的关系，将发行与回购置于统一框架，视角简洁而有说服力；关于长期价值最大化与短期股价目标导致回购方向相反（过少 vs 过多）的结论，对理解回购的政策与治理含义尤具启发。",
+    "topic": "公司金融"
+  },
+  {
     "id": "w35924",
     "title": "Too Little too Late? Nationwide Carbon Trading in China",
     "authors": [
