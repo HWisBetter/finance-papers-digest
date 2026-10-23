@@ -1,5 +1,103 @@
 [
   {
+    "id": "10.1287/mnsc.2025.02844",
+    "title": "Why Zoning Is Too Restrictive",
+    "authors": [
+      "Jack Favilukis",
+      "Jaehee Song"
+    ],
+    "abstract": "Economists estimate that zoning regulations raise house prices, lower productivity, and reduce aggregate welfare, yet regulations remain widespread. We develop and solve a model in which fragmented zoning authority leads to overly strict regulations: Homeowners impose stricter regulations to mitigate local congestion but fail to internalize the broader impact on metro-wide affordability. Empirically, the Herfindahl-Hirschman index of local governments explains 12% of the variation in zoning restrictiveness. Using an instrument based on 19th-century municipal fragmentation, we show that greater fragmentation leads to stricter zoning and higher housing costs. These findings suggest that centralizing zoning decisions could alleviate housing affordability challenges. This paper was accepted by Lukas Schmid, finance. Funding: This work was supported by the Social Sciences and Humanities Research Council of Canada [Grant AWD-027881 SSHRC 2023]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.02844 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.02844",
+    "published_date": "2026-10-22",
+    "source": "MS",
+    "first_seen": "2026-10-23",
+    "abstract_missing": false,
+    "summary": "经济学研究普遍认为分区管制（zoning）会推高房价、降低生产率并造成总体福利损失，但这类管制在实践中依然广泛存在，论文试图解释这一现象。作者构建并求解了一个模型，其中分区管制权限的碎片化会导致管制过度严格：地方业主为缓解本地拥挤而施加更严格的管制，却不会把对整座大都市区住房可负担性的更广泛影响内部化。实证上，地方政府的 Herfindahl-Hirschman 指数（HHI）可以解释分区管制严格程度变异的 12%。作者进一步使用基于19世纪市政碎片化的工具变量，证明碎片化程度越高，分区管制越严格、住房成本越高。这些发现表明，将分区决策集中化可能有助于缓解住房可负担性难题。",
+    "keywords": [
+      "分区管制",
+      "住房可负担性",
+      "政府碎片化",
+      "HHI",
+      "工具变量"
+    ],
+    "ai_comment": "论文把“管制为何过度严格”归因于管制权限的碎片化与地方业主的成本外溢，并用19世纪市政碎片化作为工具变量提供因果证据，为住房可负担性问题的治理提供了政治经济学视角的政策含义。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1287/mnsc.2024.07419",
+    "title": "From Winning to Giving: The Effect of Gold Medals in Crowdsourcing Contests",
+    "authors": [
+      "Shan Liu",
+      "Fan Zhang",
+      "Jing Wang",
+      "Baojun Gao"
+    ],
+    "abstract": "We examine how users respond to winning symbolic awards in online crowdsourcing contests. Our setting is a machine learning competition platform that grants symbolic medals to recognize participants’ contest achievements. Employing a regression discontinuity design, we find that gold medal winners participate less in subsequent contests but engage more in prosocial activities, evidenced by a greater volume and length of posts, as well as more substantial and frequent code contributions. In contrast, bronze and silver medals do not seem to exert a significant influence on recipients’ subsequent behaviors. Drawing on self-determination theory and the needs-as-motives hypothesis, we provide evidence that need-driven goal shifting plays an important role in driving the dual effects of gold medals—diminished contest participation but enhanced prosocial contributions. Further analyses reveal that winners with previous competition medals are more likely to favor contributing content over competing again, whereas winners with more prior contribution medals are less inclined to further increase contributions. Moreover, team winners exhibit a lower tendency than solo winners to shift their efforts from competition to contribution. We add to the symbolic awards literature by uncovering a novel goal-shifting effect induced by contest medals, where award receipt redirects user effort from the focal rewarded domain to other forms of platform engagement. This paper was accepted by D. J. Wu, information systems. Funding: Financial support from the National Natural Science Foundation of China [Grants 72032006, W2611101, and 72371192] and the “Digital-Intelligent Operations Risk Management” Innovation and Entrepreneurship Team Project of the Sanqin Talent Special Support Program in Shaanxi Province [2025STD03] is gratefully acknowledged. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07419 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07419",
+    "published_date": "2026-10-22",
+    "source": "MS",
+    "first_seen": "2026-10-23",
+    "abstract_missing": false,
+    "summary": "本文考察在线众包竞赛中用户对象征性奖励（symbolic awards）的反应。研究场景是一个机器学习竞赛平台，平台向参赛者颁发象征性奖牌以认可其竞赛成绩。作者采用回归断点设计（regression discontinuity design），发现获得金牌的参赛者在此后参赛更少，但亲社会活动更多——表现为发帖数量更多、篇幅更长，代码贡献更充实且更频繁；相比之下，银牌和铜牌对获奖者后续行为没有显著影响。基于自我决定理论（self-determination theory）与“需求即动机”假设（needs-as-motives hypothesis），作者提供证据表明，需求驱动的目标转移（goal shifting）是金牌产生这双重效应——竞赛参与下降但亲社会贡献上升——的重要驱动机制。进一步分析发现：此前获得过竞赛类奖牌的获奖者更倾向于贡献内容而非再次参赛；而此前获得更多贡献类奖牌的获奖者则不太愿意进一步增加贡献；此外，团队获奖者相比个人获奖者更不愿意将努力从竞赛转向贡献。本文的贡献在于揭示了竞赛奖牌诱发的一种新的目标转移效应：获得奖励会把用户努力从被奖励的焦点领域重新导向平台上的其他参与形式，从而丰富了象征性奖励文献。",
+    "keywords": [
+      "象征性奖励",
+      "众包竞赛",
+      "回归断点设计",
+      "亲社会行为",
+      "目标转移"
+    ],
+    "ai_comment": "论文用回归断点设计干净地识别出金牌的因果效应，并借助自我决定理论提出“目标转移”机制，把奖励的负面影响（减少参赛）与正面溢出（增加贡献）统一在同一框架下，对平台激励机制设计颇具启示。异质性与团队/个人差异的分析也增强了结论的可操作性。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1111/jofi.70086",
+    "title": "Excess Movement in Option‐Implied Beliefs",
+    "authors": [
+      "Ned Augenblick",
+      "Eben Lazarus"
+    ],
+    "abstract": "We derive bounds on the rational variation in option‐implied beliefs about market returns. While risk preferences distort option‐implied (or risk‐neutral) beliefs away from subjective beliefs, one can nonetheless bound risk‐neutral belief movement under a general assumption on the stochastic discount factor. The resulting test requires no knowledge of the objective distribution and allows significantly more flexibility in discount rates than standard volatility tests. Implementing our test empirically using index options, we find that there is so much movement in risk‐neutral beliefs that the bounds are routinely violated. Our results imply significant excess index‐price volatility.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70086",
+    "published_date": "2026-10-22",
+    "source": "JF",
+    "first_seen": "2026-10-23",
+    "abstract_missing": false,
+    "summary": "本文研究如何判断期权隐含（风险中性）信念的波动是否超出理性范围。由于风险偏好会使期权隐含信念偏离主观信念，作者在关于随机贴现因子（stochastic discount factor）的一般性假设下，推导出风险中性信念理性变动幅度的上界，从而得到可检验的界限。该检验不需要知晓客观分布，并且相比标准波动率检验在贴现率上允许更大的灵活性。作者使用指数期权进行实证，发现风险中性信念的变动幅度过大，理性上界被频繁突破，这意味着指数价格存在显著的过度波动（excess index-price volatility）。",
+    "keywords": [
+      "期权隐含信念",
+      "风险中性",
+      "随机贴现因子",
+      "过度波动"
+    ],
+    "ai_comment": "论文的亮点在于：它在一个不需要知晓客观分布、且允许贴现率更大灵活性的框架下，给出了可检验的风险中性信念变动上界；该检验比标准波动率检验适用面更宽。实证发现理性上界被频繁突破，为指数期权市场中的过度波动提供了新证据。",
+    "topic": "衍生品"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104386",
+    "title": "Do long-term yields help to estimate short-term risk premia?",
+    "authors": [
+      "Andrea Berardi",
+      "Roger Brown",
+      "Stephen M. Schaefer"
+    ],
+    "abstract": "We identify a new and important property of affine term structure models: at long maturities, the slope of the term structure of risk premia becomes “almost observable”. Exploiting this property by fitting models to long-maturity data dramatically improves the precision of estimates of risk premia and expected short rates across the term structure. In a Monte Carlo experiment we show that using rates with maturities up to 25 years, rather than 10 years as is standard in the literature, reduces the standard deviation of estimation errors in risk premia, expected short rates and term premia by over 70%. Applying this approach to US Treasury data, we find that variation in expected short rates accounts for a much larger share of variation in yields (and variation in term premia a correspondingly smaller fraction) than in the widely used estimates reported by the Federal Reserve. Accounting for time-variation in yield volatility is key to successful extraction of the risk premium information in long rates. Our approach therefore departs from much of the empirical literature in two important respects: it incorporates long-maturity yields and allows for time-varying yield volatility, whereas most existing studies ignore long-term yields and rely on constant volatility models.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104386",
+    "published_date": "2026-10-22",
+    "source": "JFE",
+    "first_seen": "2026-10-23",
+    "abstract_missing": false,
+    "summary": "论文揭示了 affine term structure models 的一个新性质：在长端期限上，风险溢价期限结构（term structure of risk premia）的斜率变得“几乎可观测”（almost observable）。作者利用这一性质，将模型拟合到长端期限数据，显著提高了整条期限结构上风险溢价与预期短期利率估计的精度。Monte Carlo 实验显示，相比文献惯用的 10 年期利率，使用最长 25 年的利率可将风险溢价、预期短期利率与期限溢价（term premia）估计误差的标准差降低 70% 以上。将这一方法应用于美国国债数据后，作者发现预期短期利率的变动在收益率变动中所占份额远大于美联储广泛使用的估计结果，期限溢价的相应份额则更小。此外，成功从长端利率中提取风险溢价信息的关键，在于刻画收益率波动率的时变性；因此本文与多数实证文献有两点重要区别：纳入长端期限收益率，并允许时变波动率，而既有研究大多忽略长期收益率且依赖常数波动率模型。",
+    "keywords": [
+      "期限溢价",
+      "风险溢价",
+      "仿射期限结构模型",
+      "时变波动率",
+      "预期短期利率"
+    ],
+    "ai_comment": "论文指出长端期限上风险溢价期限结构斜率几乎可观测，据此把估计窗口延伸到 25 年，并强调时变波动率不可或缺，从而在估计精度和美国国债收益率分解上给出与美联储常用估计明显不同的结论。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2025.03301",
     "title": "Share Issues vs. Share Repurchases",
     "authors": [
