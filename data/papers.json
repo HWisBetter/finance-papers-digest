@@ -1,5 +1,54 @@
 [
   {
+    "id": "10.1287/mnsc.2024.07249",
+    "title": "Looking Under the Hood of Commodity Currency Predictability",
+    "authors": [
+      "Alexandre Jeanneret",
+      "Valeri Sokolovski"
+    ],
+    "abstract": "This paper revisits the exchange rate predictability of commodity currencies through the lens of market efficiency. Focusing on currencies with strong contemporaneous exposure to commodity prices, we show that changes in country-specific commodity export or import prices predict exchange rate fluctuations both in sample and out of sample. We establish four empirical facts: (i) the sign of the predictive relationship runs counter to standard risk-based explanations; (ii) predictability is concentrated at short horizons; (iii) predictability is driven by a small set of thinly traded currencies; and (iv) even sophisticated speculative traders adjust positions sluggishly in response to commodity price shocks in these currencies. Together, these findings suggest that predictability arises from the slow incorporation of information in less actively traded currencies, which is likely due to liquidity and position-building constraints, rather than from compensation for risk. The results also clarify the sources of commodity-based predictability in carry trade returns. This paper was accepted by Lukas Schmid, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07249 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07249",
+    "published_date": "2026-10-23",
+    "source": "MS",
+    "first_seen": "2026-10-24",
+    "abstract_missing": false,
+    "summary": "本文从市场效率的视角重新审视商品货币的汇率可预测性。研究聚焦于本币与商品价格存在强同期暴露的货币，发现国别层面的商品出口价格或进口价格变化能够在样本内与样本外预测汇率波动。论文据此归纳出四个经验事实：（i）预测关系的符号方向与标准的基于风险的解释相反；（ii）可预测性集中于短期限；（iii）可预测性由一小部分交易清淡的货币所驱动；（iv）即便是成熟的投机交易者，在面对这些货币的商品价格冲击时，调整头寸也十分迟缓。综合来看，这些发现表明可预测性源于信息在交易不太活跃的货币中被缓慢纳入价格，其原因很可能是流动性与建仓约束，而非对风险的补偿。研究结果还澄清了利差交易（carry trade）收益中基于商品的可预测性的来源。",
+    "keywords": [
+      "商品货币",
+      "汇率可预测性",
+      "市场效率",
+      "流动性约束",
+      "利差交易"
+    ],
+    "ai_comment": "论文把商品货币的汇率可预测性归因于信息被缓慢纳入价格与流动性、建仓约束，而非风险补偿，并用四个经验事实（符号反常、短期集中、清淡货币驱动、投机者调整迟缓）构成一条相互印证的证据链，为市场效率与利差交易收益来源的争论提供了新视角。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "10.1093/rfs/hhag091",
+    "title": "The Rise of Alternatives",
+    "authors": [
+      "Juliane Begenau",
+      "Pauline Liang",
+      "Emil Siriwardane"
+    ],
+    "abstract": "Since the 2000s, U.S. public pension funds have actively shifted their risky investments away from public equities and toward alternative assets like private equity and hedge funds—some much more than others. We explore a range of possible explanations for these trends and argue that beliefs about the risk-adjusted return of alternatives have played a central role. Pension beliefs are shaped by investment consultants, peers, and experience in the 1990s. Other demand-side channels related to risk-seeking motives, spending needs, and fund governance have weaker empirical support. We also consider supply-side factors and agency interpretations of the data. (JEL G11, G23, G41, H75)",
+    "url": "https://doi.org/10.1093/rfs/hhag091",
+    "published_date": "2026-10-23",
+    "source": "RFS",
+    "first_seen": "2026-10-24",
+    "abstract_missing": false,
+    "summary": "自2000年代以来，美国公共养老金基金主动将高风险投资从公开市场股票转向私募股权和对冲基金等另类资产，且不同基金之间的调整幅度差异很大。论文系统考察了这些趋势的多种可能解释，认为关于另类资产风险调整后回报的信念（beliefs）发挥了核心作用：这些信念主要由投资顾问、同行以及1990年代的经验所塑造。相比之下，与追求风险动机、支出需求和基金治理相关的其他需求侧渠道得到的实证支持较弱。论文还讨论了供给侧因素以及对数据的代理（agency）解读。",
+    "keywords": [
+      "另类资产",
+      "公共养老金",
+      "风险调整后回报",
+      "投资顾问",
+      "基金治理"
+    ],
+    "ai_comment": "论文将养老金配置向另类资产的迁移归因于由顾问、同行与历史经验塑造的主观回报信念，而非传统的风险偏好或治理因素；这为理解机构资产配置提供了行为金融视角的新证据。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2025.02844",
     "title": "Why Zoning Is Too Restrictive",
     "authors": [
@@ -11284,6 +11333,31 @@
     "topic": "宏观金融"
   },
   {
+    "id": "10.1017/S0022109026102750",
+    "title": "Careers in Finance",
+    "authors": [
+      "Andrew Ellul",
+      "Marco Pagano",
+      "Annalisa Scognamiglio"
+    ],
+    "abstract": "Past research has documented a substantial finance wage premium. We examine whether this premium reflects differences in lifetime career opportunities. Using resume data, we reconstruct career trajectories in finance and nonfinance sectors and build synthetic measures of career attractiveness that account for compensation levels, growth, and risk. We find that asset management and investment banking provide a sizable risk-adjusted career premium relative to banking, insurance, and other sectors. This premium has declined across cohorts, particularly relative to high tech. Labor-market entry patterns respond to these premia: potential entrants treat finance and high-tech careers as substitutes when choosing where to start.",
+    "url": "https://dx.doi.org/10.1017/S0022109026102750",
+    "published_date": "2026-05-25",
+    "source": "JFQA",
+    "first_seen": "2026-10-24",
+    "abstract_missing": false,
+    "summary": "以往研究已记录到金融部门存在显著的工资溢价，本文考察这一溢价是否反映了终身职业机会的差异。作者使用简历数据重建金融与非金融部门的职业轨迹，并构建综合考虑薪酬水平、增长与风险的合成性「职业吸引力」指标。结果显示，资产管理与投资银行相对于银行、保险及其他部门提供了可观的经风险调整的职业溢价；该溢价随出生/入职 cohort 推移而下降，尤其是相对高科技行业而言。劳动力市场的进入模式会对这些溢价作出反应：潜在进入者在选择职业起点时，把金融与高科技职业视为替代品。",
+    "keywords": [
+      "职业溢价",
+      "简历数据",
+      "风险调整",
+      "资产管理",
+      "投资银行"
+    ],
+    "ai_comment": "论文把静态的金融业工资溢价拓展为经风险调整的终身职业吸引力指标，并借助简历数据刻画职业轨迹的代际变化，进而将金融与高科技的人才竞争和进入行为联系起来，视角新颖；不过简历数据的样本选择性与代表性值得留意。",
+    "topic": "其他"
+  },
+  {
     "id": "10.1111/jofi.70054",
     "title": "Hedger of Last Resort: Evidence from Brazilian FX Interventions, Local Credit, and Global Financial Cycles",
     "authors": [
@@ -11535,6 +11609,31 @@
     "topic": "公司治理",
     "kw_norm": true,
     "cited_by_count": 0
+  },
+  {
+    "id": "10.1017/S002210902610297X",
+    "title": "Political Affiliation and Media Distrust: Evidence from Stock Market Investors",
+    "authors": [
+      "Mancy Luo",
+      "Alberto Manconi",
+      "Massimo Massa"
+    ],
+    "abstract": "Does distrust in politically affiliated media induce a bias in investor beliefs? We study the acquisition of Dow Jones & Co. by News Corporation in 2007 as a shock to the political affiliation of Dow Jones outlets. Following the acquisition, the prices of Republican- (Democrat-) aligned stocks become less sensitive to favorable (unfavorable) Dow Jones Newswires (DJNW) sentiment, consistent with the market attaching less credibility to a politically affiliated source. There is, however, no evidence of change in DJNW sentiment, coverage, or language about Republican/Democrat stocks, suggesting a loss of stock price informativeness. Consistent with this view, a portfolio exploiting the attenuated reaction to DJNW news earns abnormal returns following 2007.",
+    "url": "https://dx.doi.org/10.1017/S002210902610297X",
+    "published_date": "2026-05-19",
+    "source": "JFQA",
+    "first_seen": "2026-10-24",
+    "abstract_missing": false,
+    "summary": "本文研究对具有政治倾向的媒体的不信任是否会引致投资者信念偏差。作者以2007年新闻集团（News Corporation）收购道琼斯公司（Dow Jones & Co.）作为道琼斯旗下媒体政治归属发生外生变化的冲击，考察这一收购如何改变股票价格对道琼斯新闻社（Dow Jones Newswires, DJNW）情绪的反应。研究发现，收购之后，共和党（民主党）倾向股票的价格对DJNW有利（不利）情绪变得不那么敏感，这与市场对具有政治归属的新闻来源赋予较低可信度相一致。然而，作者没有发现DJNW对共和党/民主党倾向股票的报道情绪、覆盖范围或语言发生变化，这提示股票价格的信息含量下降。与这一解释一致，利用对DJNW新闻反应减弱这一现象构建的投资组合在2007年之后能够获得异常收益。",
+    "keywords": [
+      "媒体不信任",
+      "政治倾向",
+      "新闻情绪",
+      "股价信息含量",
+      "异常收益"
+    ],
+    "ai_comment": "论文巧妙地以新闻集团收购道琼斯作为媒体政治归属的外生冲击，在排除报道内容本身变化的前提下，识别出投资者因不信任政治关联媒体而降低对新闻定价的反应，并进一步用可获异常收益的策略佐证了价格信息含量的下降，兼具识别清晰度与现实意义。",
+    "topic": "行为金融"
   },
   {
     "id": "w35220",
@@ -17979,6 +18078,30 @@
     "cited_by_count": 0
   },
   {
+    "id": "10.1017/S0022109026102786",
+    "title": "M&As Efficiency Gains: Evidence from Branch-Level Data",
+    "authors": [
+      "Lucas Argentieri Mariani",
+      "Bernardo Ricca"
+    ],
+    "abstract": "We examine how banks reallocate employees following mergers and acquisitions (M&As) and the resulting effects on productivity. Using matched employee–branch data combined with branch-level financial information, we show that M&As expand internal labor markets and trigger substantial worker redeployment. Newly consolidated banks reassign high-ability loan officers to acquirer branches, increasing productivity. Target branches also experience productivity improvements, primarily driven by restructuring and cost reductions. These effects are strongest in municipalities where the combined pre-merger internal labor markets of the target and acquirer were larger, highlighting the central role of internal labor markets in generating efficiency gains from consolidation.",
+    "url": "https://dx.doi.org/10.1017/S0022109026102786",
+    "published_date": "2026-03-25",
+    "source": "JFQA",
+    "first_seen": "2026-10-24",
+    "abstract_missing": false,
+    "summary": "本文考察银行在并购（M&A）之后如何重新配置员工，以及这种配置对生产率的影响。作者将雇员—分支机构匹配数据与分支机构层面的财务信息相结合，发现并购扩大了银行的内部劳动力市场，并引发大量员工重新配置：新合并的银行会把高能力的信贷员调往收购方的分支机构，从而提升生产率；目标方分支机构的生产率同样得到改善，且主要由重组与成本削减驱动。当目标方与收购方在并购前各自的内部劳动力市场合并后规模更大时（即在相应市镇层面），上述效应最强，凸显了内部劳动力市场在合并产生效率增益中的核心作用。",
+    "keywords": [
+      "并购",
+      "内部劳动力市场",
+      "劳动力再配置",
+      "银行生产率",
+      "分支机构数据"
+    ],
+    "ai_comment": "本文利用雇员—分支机构匹配数据打开了并购效率增益的微观黑箱，识别出“高能力信贷员向收购方分支机构再配置”与“目标方重组降本”两条渠道，并用并购前内部劳动力市场规模解释了效应的横截面差异。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1287/mnsc.2022.02278",
     "title": "Dealer Funding and Market Liquidity",
     "authors": [
@@ -20526,6 +20649,31 @@
     "topic": "公司金融",
     "kw_norm": true,
     "cited_by_count": 0
+  },
+  {
+    "id": "10.1017/S0022109026102695",
+    "title": "Investment Functions with q in the Presence of Unobserved Persistent Shocks",
+    "authors": [
+      "Kyoo il Kim",
+      "Suyong Song",
+      "Jiawei (Brooke) Wang"
+    ],
+    "abstract": "We study the classical relationship between a firm’s investment and q , for which an unobserved persistent shock is an important factor in the investment decision. In our setting, besides the potential measurement problem of q , controlling for the unobserved shock becomes a new challenge. We develop an estimation method that addresses both econometric issues given timing and information set assumptions. Using 16,256 unique public firms in the United States from 1975 to 2021, we find that q remains a significant factor of investment even after controlling for the unobserved shock and measurement error.",
+    "url": "https://dx.doi.org/10.1017/S0022109026102695",
+    "published_date": "2026-02-13",
+    "source": "JFQA",
+    "first_seen": "2026-10-24",
+    "abstract_missing": false,
+    "summary": "本文重新审视企业投资与 q 之间的经典关系，其中未被观测到的持续性冲击（unobserved persistent shock）是影响投资决策的重要因素。作者指出，在这一设定下，除了 q 本身可能存在的测量问题之外，如何控制该未观测冲击构成了新的计量挑战。为此，论文在给定的时序（timing）与信息集假设下，提出了一种能够同时处理上述两类计量问题的估计方法。基于 1975 至 2021 年间美国 16,256 家独特的上市公司样本，研究发现：即便在控制了未观测持续性冲击和测量误差之后，q 仍然是企业投资的一个显著影响因素，从而支持了投资-q 关系的稳健性。",
+    "keywords": [
+      "投资函数",
+      "托宾q",
+      "未观测持续性冲击",
+      "测量误差",
+      "面板数据估计"
+    ],
+    "ai_comment": "论文的亮点在于将 q 的测量误差与未观测持续性冲击这两个计量难题纳入统一框架同时处理，并据此为投资-q 关系的稳健性提供了新证据，对投资方程的实证设定具有方法论意义。",
+    "topic": "公司金融"
   },
   {
     "id": "10.1287/mnsc.2024.05808",
