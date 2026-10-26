@@ -12,7 +12,7 @@
   <header class="site" id="top">
     <div class="wrap">
       <a class="brand" href="index.html">📚 金融论文摘要</a>
-      <span class="updated">上次更新：2026-10-25 15:07 (北京时间 UTC+8)</span>
+      <span class="updated">上次更新：2026-10-26 15:15 (北京时间 UTC+8)</span>
     </div>
   </header>
 
@@ -32,7 +32,7 @@
       
       <a href="JAR.html">JAR <em>194</em></a>
       
-      <a href="NBER.html">NBER <em>738</em></a>
+      <a href="NBER.html">NBER <em>747</em></a>
       
       <a href="MS.html">MS <em>721</em></a>
       
@@ -44,7 +44,7 @@
   
   <section class="search">
     <div class="search-row">
-      <input id="search-box" type="text" placeholder="🔍 按语义检索全库 3518 篇 —— 试试&quot;货币政策对银行信贷&quot;、&quot;LLM 与资产定价&quot;…" autocomplete="off">
+      <input id="search-box" type="text" placeholder="🔍 按语义检索全库 3528 篇 —— 试试&quot;货币政策对银行信贷&quot;、&quot;LLM 与资产定价&quot;…" autocomplete="off">
       <button id="search-go">搜索</button>
       <button id="search-clear" title="清空，回到首页">清空</button>
     </div>
@@ -57,8 +57,357 @@
   
   <div id="home-main">
   <section class="latest">
-    <h1 class="sec-title">🔄 最近 7 天更新 <span class="sec-sub">（共 25 篇）</span></h1>
+    <h1 class="sec-title">🔄 最近 7 天更新 <span class="sec-sub">（共 24 篇）</span></h1>
     
+      
+        <div class="day-header">
+          <span class="day-date">📅 2026-10-26</span>
+          <span class="day-count">9 篇</span>
+        </div>
+        
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35927" target="_blank" rel="noopener">HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Jin Huang, Diego Ferreras Garrucho, Yutong Xie, Walter M. Yuan, Qiaozhu Mei, Chen Lian <span class="more">等 7 位作者</span>
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-10-26</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文针对经济学中构建家庭决策定量模型这一目标，指出现有对大语言模型（LLM）的评估覆盖的调查与结果变量都很少，也没有考察家庭如何随经济条件变化而调整行为。为此作者提出新的评测基准 HouseholdBench，整合 6 个美国家庭调查与 32 个预测任务，涵盖数值型、类别型和概率型结果，涉及消费、收入、劳动、预期与住房等领域；任务以家庭过去行为、人口学特征和宏观经济状况为输入，检验 LLM 能否预测家庭行为，包括家庭如何对各种政策变化做出调整。研究评估了 13 个专有与开放权重 LLM，并与“不变化”基线及梯度提升树（gradient boosted tree）模型比较。结果显示，多数 LLM 优于不变化基线，在政策反应任务上也是如此，其中表现最好的模型将数值型结果的误差降低了 12.2%；但在多数任务上梯度提升树排名第一，领先的专有 LLM 接近其表现，开放权重模型则相对落后。LLM 在不同任务上表现出系统性的高估与低估。作者还识别出使 4 亿—即 4 billion 参数规模的开放权重模型达到专有模型表现的方法：微调，以及对每个观测聚合 16 次预测；这些改进可推广到被排除在微调之外的政策反应任务。数据集、代码与排行榜已在网站发布。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">LLM</span><span class="tag">家庭金融</span><span class="tag">经济行为预测</span><span class="tag">基准评测</span><span class="tag">梯度提升树</span>
+  </div>
+  
+
+  <div class="comment">💡 论文的亮点在于把分散的多项家庭调查统一为一个跨 32 个任务、含政策反应情境的预测基准，并量化了 LLM 相对传统机器学习模型的真实位置与系统性偏差；其提出的微调加多次预测聚合方案让小型开放模型追平专有模型，具有较强可复现与方法论价值。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35927" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35928" target="_blank" rel="noopener">Strategic Monetary Policy in Open Economies</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    
+    
+    <span class="authors">Louphou Coulibaly, Charles Engel
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-10-26</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">本文在一个包含完全金融市场且商品实行 pricing to market 的两国 New Keynesian 模型中，研究非合作条件下的最优货币政策。与商品满足 law of one price 的情形不同，即使政策制定者只关注本国目标，汇率错位仍是重要考量，金融市场在分析中起关键作用。在“full” commitment 下，最优政策会考虑其对资产价值从而对跨国财富分配的影响；这与“partial” commitment（直到资产市场出清后才作出政策承诺）下的最优政策不同。令人意外的是，full commitment 下策略性政策的最优 targeting rule 与 cooperative policy 相同：状态依存索取权价格的变化会抵消自利政策制定者试图通过贸易条件操纵获得的财富，因此合作没有收益。尽管 partial commitment 下选择的政策从单一国家角度看可能合意，但其形成的 Nash equilibrium 会带来更低福利。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">开放经济</span><span class="tag">货币政策</span><span class="tag">策略性非合作</span><span class="tag">承诺</span><span class="tag">汇率错位</span>
+  </div>
+  
+
+  <div class="comment">💡 论文将完全金融市场、pricing to market 与两国 New Keynesian 框架结合，重新审视策略性货币政策的国际合作收益，关键亮点是指出状态依存资产价格可抵消贸易条件操纵动机，并使 full commitment 下的目标规则与合作社情形一致。对承诺时点的区分也揭示了 partial commitment 下 Nash 均衡的低福利后果。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35928" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35930" target="_blank" rel="noopener">College Success: Understanding the Roles of Financial Aid, Loans, Preparation, and Incentives</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    
+    
+    <span class="authors">Douglas N. Harris, Christopher R. Taber, Alan Yang
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-10-26</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">过去四十年，大学毕业生与非毕业生之间的收入差距显著扩大，这促使政策制定者关注如何促进低收入学生接受高等教育，而高校辍学率高企构成这类政策的关键挑战。本文构建了一个包含丰富个体异质性的大学入学与完成动态模型，用以评估各类因素如何影响大学就读、辍学与毕业。模型估计使用了纵向调查数据、关于助学金（grant aid）的准实验研究结果以及大规模随机对照试验（RCT）的数据。作者据此模拟学费补贴、大学贷款、财务激励以及提升大学前技能对入学率和完成率的影响。结果发现，大多数无条件资助政策对入学有中等程度的影响，而对入学后的完成率影响很小；相比之下，某些基于成绩（merit-based）的激励，例如在获得学士学位后免除学生贷款，效果显著。但这类政策以及其他财务补贴在更大程度上惠及家庭背景相对富裕的学生。总体而言，似乎难以设计出既能有效提高教育 attainment 又具有财政累进性的助学金政策；相比之下，提升学生大学前的准备程度可能是提高完成率潜力最大的途径。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">高等教育</span><span class="tag">辍学率</span><span class="tag">助学金</span><span class="tag">动态模型</span><span class="tag">随机对照试验</span>
+  </div>
+  
+
+  <div class="comment">💡 论文用结构动态模型整合准实验与 RCT 证据，系统比较多种资助政策的入学与完成效应，并揭示了效率与财政累进性之间的内在张力，结论对教育政策设计具有直接启示。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35930" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35940" target="_blank" rel="noopener">Sex and Subsistence: Income Effects on Risky Sexual Behavior and Partner Selection</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    
+    
+    <span class="authors">Natalie Bau, Corinne Low, Bryce Steinberg
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-10-26</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文关注撒哈拉以南非洲（尤其赞比亚）青年女性的性行为与伴侣选择在多大程度上出于经济动机。研究将赞比亚大学女学生每月现金资助的随机对照试验（RCT）与关于性行为和伴侣特征的高频详细数据相结合，考察临时性收入增加如何改变性行为。结果显示，受资助者在干预期内发生性行为的概率降低 5.1 个百分点，无安全套性行为发生率下降 30%；在基线时未有性行为的女性中，发生性行为的可能性下降 43%，且一旦发生性行为，伴侣质量显著提升。现金资助还缓解了经济困难，改善了食品安全、心理健康和认知能力。作者用动态伴侣搜寻模型解释这些结果：女性可以选择寻找能提供经济支持的男友或高收入伴侣，并就转移支付和安全套使用进行议价。结论是，在该情境下相当一部分性行为由经济动机驱动，即使这一人群通常不被视为脆弱群体；提高青年女性收入可能是减少风险性行为负外部性、改善匹配质量的有效工具。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">现金转移</span><span class="tag">风险性行为</span><span class="tag">伴侣选择</span><span class="tag">HIV</span><span class="tag">随机对照试验</span>
+  </div>
+  
+
+  <div class="comment">💡 论文用 RCT 结合高频行为数据与动态搜寻议价模型，为“性行为的经济动机”提供了少见的因果证据，并指出收入支持不仅改善财务与心理健康，还能提升伴侣匹配质量、降低风险行为。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35940" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35947" target="_blank" rel="noopener">An LLM Workflow for Functional Form Sensitivity Analysis</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Isaiah Andrews, Simon C. Essig Aberg, Jesse M. Shapiro
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-10-26</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文提出了一套基于 LLM 的工作流，用于检验实证估计对函数形式设定的敏感性。其设定是：研究者通过让某个工作模型（working model）尽可能拟合数据来估计一个感兴趣的对象（object of interest），而该工作模型对其中某个函数假定了任意（arbitrary）的函数形式。作者据此把敏感性定义为：在不损害拟合优度的前提下，通过改用不同的函数形式，估计结果最多能被改变多少。该工作流首先寻找解析解；若找不到，则用数值方法近似求解，并在求解器路径的每一步都满足拟合约束（fit constraint）。这一流程能够给出研究者估计值的样本内敏感性（in-sample sensitivity）的一个可验证的下界（verifiable lower bound），并且在许多实际情形下计算速度很快。作者以健康保险中逆向选择（adverse selection）的福利成本作为应用示例加以说明。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">函数形式敏感性</span><span class="tag">LLM工作流</span><span class="tag">拟合约束</span><span class="tag">数值近似</span><span class="tag">逆向选择</span>
+  </div>
+  
+
+  <div class="comment">💡 把 LLM 用作函数形式稳健性检验的工具，并给出可验证的样本内敏感性下界，使原本依赖研究者主观设定的函数形式选择变得可量化、可复核，具有较强的实证方法学价值。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35947" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card featured">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35949" target="_blank" rel="noopener">Generative AI, Managerial Expectations, and Economic Activity</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Manish Jha, Jialin Qian, Michael Weber, <b class="fa" title="关注学者">Baozhong Yang</b>
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-10-26</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文关注管理者经济预期能否为经济活动提供增量信息。作者利用生成式 AI（generative AI）从超过 12 万份企业电话会议记录（conference call transcripts）中提取管理者的经济预期，并据此构建 AI Economy Score。研究发现，该指标能够预测五个季度及以后的 GDP 增长、生产、就业和工资，其预测能力超出调查预测和其他现有指标。行业层面与企业层面的得分分别捕捉行业和公司特定的经济活动，而企业、行业与宏观经济预期构成的综合指标进一步提升预测能力和预测期限。可预测性集中在历史上预测更准确、偏差更小的管理者群体中，这与信息渠道相符，而非噪声渠道。作者据此认为，管理者预期为经济活动提供了增量洞察，并对宏观与微观经济决策具有启示。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">生成式AI</span><span class="tag">管理者预期</span><span class="tag">经济活动预测</span><span class="tag">电话会议记录</span><span class="tag">宏观预测</span>
+  </div>
+  
+
+  <div class="comment">💡 论文将生成式 AI 用于从大规模电话会议文本中提取管理者预期，并证明其预测宏观与微观经济活动的能力优于既有指标；它还通过“更准确的管理者预测力更强”这一异质性检验，将结果归因于信息渠道。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35949" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35950" target="_blank" rel="noopener">Training Your Replacement: Worker Incentives and the Pace of Automation</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Joshua S. Gans, Peter Landry
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-10-26</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文研究企业要求工人训练将取代自身的AI系统这一情境下的激励问题。作者构建模型，刻画工人可以在偷懒（shirk）、配合训练、以及在保持产出的同时阻碍训练三者之间选择。由于训练一旦完成即意味着工作终止，而只有配合才能完成训练，解雇对偷懒的惩罚被削弱。由此企业必须提高付给工人的租金（rent），而工人反而能从自己被替代中获益。模型还表明，AI可能创造出支付高于其产出的工资的岗位，也可能消除它实际上从未自动化的岗位；仅支付工资的企业可能会放慢训练速度。一个可信的、等于无AI情形下工人租金的完成奖金（completion bonus）可以同时消除工人的这一额外收益和训练放缓问题。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">自动化</span><span class="tag">人工智能</span><span class="tag">激励机制</span><span class="tag">委托代理</span><span class="tag">完成奖金</span>
+  </div>
+  
+
+  <div class="comment">💡 论文抓住了一个颇具现实感的新问题——工人被要求&#34;训练替代自己的AI&#34;，并指出解雇威胁失效后企业需付租金、工人反从被替代中获利的反直觉结论；所提出的完成奖金契约简洁且可操作，对理解AI adoption的节奏很有启发。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35950" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35953" target="_blank" rel="noopener">Competition in Generative AI: Evidence from Consumer Demand</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Mark L. Egan, Dominic Russel, Claire Shi, Vincent Yao
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-10-26</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文关注生成式 AI 市场成熟后的竞争程度，并利用覆盖 1.74 亿消费者、1140 亿笔交易的新颖交易级信用卡与借记卡数据，考察付费服务的采用情况以及该市场需求侧的竞争基础。截至 2026 年 4 月，约 2.9% 的美国消费者为至少一项主要生成式 AI 服务付费，采用率在年轻和高收入消费者中最高；几乎所有付费用户订阅的都是每月 30 美元或以下的基础套餐。三个模式表明该市场差异化有限且转换成本较低：第一，尽管多归属（multihoming）较为普遍，但随着各提供商能力扩张，多归属有所下降；第二，主要 AI 提供商的年度客户留存率在 20% 至 45% 之间，低于许多其他订阅类产品；第三，用户切换行为在重大模型发布前后上升。基于这些发现，作者构建并估计了一个 AI 服务需求与供给的结构模型，结果显示市场竞争压力很强：消费者对价格高度敏感，对特定提供商的偏好远弱于对 AI 整体的偏好，并且越来越把各 AI 服务视为接近的替代品。研究结论表明，若 AI 模型质量差异化没有显著提升，服务之间不断增强的可替代性将限制提供商的定价能力，使消费者能够获得这些服务所创造剩余中的较大份额。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">生成式AI</span><span class="tag">消费者需求</span><span class="tag">多归属</span><span class="tag">客户留存</span><span class="tag">结构模型估计</span>
+  </div>
+  
+
+  <div class="comment">💡 论文用覆盖上亿消费者、上千亿笔交易的支付卡微观数据刻画生成式 AI 的需求侧竞争基础，并结合结构模型量化替代弹性与定价权，为判断 AI 市场究竟是走向寡头格局还是高竞争格局提供了少见的实证依据。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35953" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+<article class="card ai">
+  <h2 class="title">
+    <a href="https://www.nber.org/papers/w35954" target="_blank" rel="noopener">When Cash Wakes Up: Inertia in Institutional Money Market Funds and the Potential Effects of AI Disruption</a>
+  </h2>
+
+  <div class="meta">
+    <span class="badge src-NBER">NBER</span>
+    <span class="badge new" title="本次刷新才抓到">🆕 本次新增</span>
+    
+    <span class="badge ai">AI</span>
+    
+    <span class="authors">Ali Hortaçsu, Younggeun Yoo
+    </span>
+    
+    
+      <span class="sep">·</span><span>2026-10-26</span>
+    
+  </div>
+
+  
+
+  
+    <p class="summary">论文研究机构现金管理中的惯性现象，构建了2010—2024年间逐月记录每只共同基金所持有具体货币市场基金（MMF）的新数据集。作者发现惯性极高：尽管收益率存在不可忽视的离散度，超过一半的共同基金在整个样本期内从未更换过其MMF选择。为分解惯性的来源，论文建立了两阶段结构模型，分别识别影响投资组合经理“觉醒”（waking up）即注意力的决定因素，以及其一旦注意后所表现出的条件偏好，并用结合BLP式contraction mapping与最大似然的方法估计模型。主要发现有三：第一，投资者基础注意力较低的MMF进行了更多流动性转换，同时提供更低收益率，因而利润更高、存活率显著更高，在低利率时期尤为明显。第二，加总资金流在低利率时期显得对收益率更敏感（即已被广泛记录的“reaching for yield”现象），其原因并非个体投资者变得更追逐收益，而是更大比例的投资者进入注意状态，这是构成效应而非偏好变化。第三，反事实分析显示，若AI驱动的自动化降低投资者的注意力不足，市场效率与金融稳定之间可能存在张力：在不存在注意力不足的情形下，费率约下降一半、收益率离散度收敛至接近零、市场集中度约下降20%，但月度基金资金流约增至三倍，赎回超过基金周度流动资产的情形（基金-月）发生率约升至六倍，从而抬高fire sales与MMF runs的风险。</p>
+  
+
+  
+  <div class="keywords">
+    <span class="tag">货币市场基金</span><span class="tag">投资者惯性</span><span class="tag">流动性转换</span><span class="tag">结构性模型</span><span class="tag">AI自动化</span>
+  </div>
+  
+
+  <div class="comment">💡 论文用逐月持仓数据刻画机构现金管理的高度惯性，并以两阶段结构模型将“觉醒”与条件偏好分离，从而把“reaching for yield”重新解释为构成效应，颇具说服力；其反事实还提示AI降低注意力不足虽提升效率却可能放大赎回与挤兑风险，为监管讨论提供了新视角。</div>
+
+  <div class="links">
+    <a href="https://www.nber.org/papers/w35954" target="_blank" rel="noopener">阅读原文 →</a>
+  </div>
+</article>
+
+        <hr class="day-divider">
       
         <div class="day-header">
           <span class="day-date">📅 2026-10-24</span>
@@ -663,393 +1012,6 @@
   </div>
 </article>
 
-        <hr class="day-divider">
-      
-        <div class="day-header">
-          <span class="day-date">📅 2026-10-19</span>
-          <span class="day-count">10 篇</span>
-        </div>
-        
-<article class="card ai">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35924" target="_blank" rel="noopener">Too Little too Late? Nationwide Carbon Trading in China</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    <span class="badge ai">AI</span>
-    
-    <span class="authors">Shuang Zhang, Douglas Almond
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-10-19</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">论文研究中国2021年启动的全国性、基于强度（rate-based）的碳排放权交易市场——该市场覆盖全球最大CO2排放国，履约以碳排放强度而非绝对总量上限为基准。作者借鉴关于rate-based体系的理论文献，首次对早期采用者提供实证证据：利用卫星影像与机器学习方法获取电厂层面数据，发现高效率电厂相对于低效率电厂将发电量与CO2排放提高了约5%。由于该碳市场几乎覆盖中国所有燃煤电厂，研究聚焦于不同效率电厂的差异化反应，未发现排放强度存在差异化下降的证据（尽管这些估计并不精确）。与没有碳市场的印度尼西亚和菲律宾燃煤电厂相比，中国高效率电厂同样增加了排放，而对中国低效率电厂的估计较小且不显著。这一反应模式表明，高效率电厂的排放增加超过了低效率电厂被替代所减少的排放。进一步佐证对中国更高效电厂的生产激励，高效率电厂下风向的空气质量相对低效率电厂下风向恶化，损害了中国相对清洁地区的空气质量。作者据此提出政策含义：若中国目标是减少碳排放，则需在现有体系内收紧基准（benchmark），或采用不会同时激励发电的替代体系。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">碳排放权交易</span><span class="tag">rate-based 碳市场</span><span class="tag">排放强度</span><span class="tag">燃煤电厂</span><span class="tag">机器学习</span>
-  </div>
-  
-
-  <div class="comment">💡 论文用卫星影像与机器学习构建电厂级数据，为rate-based碳市场的早期实践提供了难得的因果证据，并揭示强度型规则会通过激励高效机组多发电而推高总排放、恶化下风向空气质量，具有较强的政策警示意义。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35924" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35919" target="_blank" rel="noopener">Venture Capital and Customer Capital</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Martin Aragoneses, Young Soo Jang, Amir Sufi
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-10-19</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文研究风险投资（VC）究竟在为哪类企业提供融资，并区分客户资本（customer capital）与知识资本（knowledge capital）两种投入。作者发现，VC 相对其他金融中介更专注于客户资本密集型企业，这类企业的特征包括销售与营销费用占收入比重更高、销售与营销员工薪酬支出更高、更倾向于申请商标。VC 偏好客户资本高、知识资本低的行业，并回避知识资本高但缺乏客户资本的行业。企业在获得首次 VC 投资之前会把投资向客户资本倾斜，获得投资后规模迅速扩张。作者认为，VC 之所以专注于客户资本融资，是因为这类投资需要容忍较高的失败风险以换取极端的上行收益，即幂律（power law）收益特征，而这种收益形态比知识资本投资更契合客户资本投资。进一步地，采用“广撒网”（spray and pray）策略、在大量企业上做小额投资的 VC 会瞄准客户资本行业，而向少数企业投入大额资金的 VC 则瞄准知识资本行业。作者最后指出，VC 对客户资本的关注反映了过去 30 年间其从传统上聚焦知识资本密集型企业所发生的转变。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">风险投资</span><span class="tag">客户资本</span><span class="tag">知识资本</span><span class="tag">幂律收益</span><span class="tag">商标</span>
-  </div>
-  
-
-  <div class="comment">💡 论文提出客户资本这一清晰分类，并用费用结构、人员薪酬与商标申请等多维指标刻画，为理解 VC 的行业选择与投资策略差异提供了新视角，也刻画了 VC 三十年来从知识资本向客户资本的重心转移。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35919" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35918" target="_blank" rel="noopener">Firms&#39; Investment and the Real Transmission of the Global Financial Cycle</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Caitlin Hegarty, Matias Moretti, Pablo Ottonello, Diego J. Perez
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-10-19</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文研究全球金融条件如何传导至企业投资。作者首先基于数据记录了一个典型事实：风险溢价上升之后会出现大幅的投资收缩，且这种收缩在高违约风险企业中尤为明显。为解释这一现象，作者构建了一个定量的异质性企业开放经济模型，其中企业依靠可违约债务为投资融资，而这些债务由风险厌恶的全球投资者定价。模型识别出一条强健的风险渠道（risk channel），它将全球风险价格的变化通过企业的“风险数量”（quantity of risk）——即债务偿还对全球冲击的敏感度——与企业融资成本联系起来：全球风险价格上升会提高企业融资成本，从而压低投资。这一机制为稳定化政策引入了新的风险维度：平滑企业现金流可以降低企业的风险数量，从而削弱国际金融冲击的传导。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">全球金融周期</span><span class="tag">企业投资</span><span class="tag">违约风险</span><span class="tag">风险溢价</span><span class="tag">异质性企业模型</span>
-  </div>
-  
-
-  <div class="comment">💡 论文的亮点在于用“风险数量”（债务偿还对全球冲击的敏感度）刻画风险传导的微观机制，把全球风险价格、企业违约风险与投资决策连成一体；其政策含义也颇具新意——稳定化政策不只影响总需求，还可通过平滑现金流改变企业的风险暴露，从而减弱国际金融传导。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35918" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35913" target="_blank" rel="noopener">Inside Central Bankers’ Calendars: How Do Fed Chairs Allocate Their Time?</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Thomas Drechsel, Dali Tsakadze
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-10-19</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文关注经济决策者如何配置有限的时间与注意力这一重要问题，构建并分析了一个覆盖 Ben Bernanke、Janet Yellen 和 Jerome Powell 三位美联储主席的日程表新数据集，共包含两万多条日程记录。研究发现若干规律：第一，三位主席均有超过 30% 的已记录会议是与美联储内部staff（工作人员）进行的，凸显经济学家在美联储决策过程中的关键作用；第二，与媒体的互动在 Bernanke 任期内变得更加频繁，并一直重要到 Powell 任期结束；第三，Powell 与立法者的会面次数显著多于 Yellen 和 Bernanke，反映美联储与政治行为体接触的需求上升。除这些趋势性规律外，本文还在商业周期频率上考察美联储主席的时间配置，展示不同活动如何随宏观经济环境变化而调整。最后，作者利用包括 Alan Greenspan 在内的更早美联储主席的可用日程表，将上述发现置于历史背景中加以理解。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">美联储</span><span class="tag">时间配置</span><span class="tag">中央银行</span><span class="tag">商业周期</span><span class="tag">日程数据</span>
-  </div>
-  
-
-  <div class="comment">💡 论文用两万余条日程记录这一独特微观数据，把央行主席的&#34;注意力配置&#34;变成可量化研究对象，为理解货币政策决策过程与央行政治互动提供了新颖的实证视角。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35913" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35912" target="_blank" rel="noopener">Upgrading Financial Markets</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Francis Annan, Seth Garz
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-10-19</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">论文关注低收入环境下仅扩大金融服务可及性是否足以发展市场，以及服务提供者是否需要对消费者负责。作者在塞拉利昂195个农村社区开展田野实验，将Village Savings and Loan Associations (VSLAs)升级为移动货币和银行代理，并与每月消费者反馈机制交叉随机化。结果显示，升级能扩大金融可及性，但反馈机制带来显著的运营改善（+20.5个百分点，85%），尤其在隐私和消费者保护方面，并提高使用率和收入；升级后的VSLAs还表现出更高的储蓄数字化程度和更高收入，说明约束代理行为不仅利好消费者，也利好为其代理提供融资和背书的委托方。借助delegated intermediation框架，作者表明问责而非仅靠基础设施才能使提供者激励与消费者福利一致，是设计可扩展金融中介的核心。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">金融普惠</span><span class="tag">金融中介</span><span class="tag">消费者反馈</span><span class="tag">VSLAs</span><span class="tag">田野实验</span>
-  </div>
-  
-
-  <div class="comment">💡 论文的亮点在于用田野实验把“接入”与“问责”区分开，证明消费者反馈能实质改善代理机构运营并同时提升消费者与委托方收益，为可扩展金融中介设计提供了因果证据。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35912" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card featured">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35910" target="_blank" rel="noopener">Infinite Factor Structure in Conditional Asset Pricing</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    <span class="badge ai">AI</span>
-    
-    <span class="authors"><b class="fa" title="关注学者">Mikhail Chernov</b>, <b class="fa" title="关注学者">Bryan T. Kelly</b>, Semyon Malamud, Johannes Schwab
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-10-19</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">论文挑战了资产定价中广泛使用的“特征值陡崖”（eigenvalue cliff）假设，即收益协方差矩阵只有少数几个大特征值、其余构成有界 bulk，这正是 Chamberlain 与 Rothschild (1983) 近似因子结构的前提。该假设是因子检验、主成分方法和大型协方差估计的基础。作者指出，这些方法用跨状态混合（pooled）的收益来估计矩，因此本质上是把条件世界当作无条件世界来看待。他们证明，在一般情形下，这种视角会消除陡崖：一个只有少数因子的条件模型，在无条件视角下会变成无限因子模型，其中无穷多个特征值发散。这一结论适用于机器学习方法所交易的特征管理组合（characteristic-managed portfolios），也适用于载荷在个股间持续存在差异的个股。但只要条件期望收益不存在渐近套利（asymptotic arbitrage），最大 Sharpe 比率仍然有限。对于一般的期望收益，无穷多个成分会被定价，因此没有任何有限个主成分能张成期望收益；把收益压缩为少数主成分会丢弃被定价的风险。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">因子结构</span><span class="tag">主成分分析</span><span class="tag">条件资产定价</span><span class="tag">渐近套利</span><span class="tag">Sharpe 比率</span>
-  </div>
-  
-
-  <div class="comment">💡 论文指出常用的无条件矩估计会把条件有限因子模型误读为无限因子结构，从理论上说明主成分降维可能系统性丢弃被定价风险，对因子检验与机器学习组合构建具有直接警示意义。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35910" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35908" target="_blank" rel="noopener">The Impact of Social Insurance on Household Debt</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Gideon Bornstein, Sasha Indarte
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-10-19</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文研究社会保险扩张如何影响家庭债务的积累。理论上存在两种方向相反的机制：一方面，保险能减轻疾病、失业等负面事件带来的财务冲击，从而降低家庭对债务的依赖；另一方面，保险也会削弱家庭通过储蓄进行自我保险的动机，而且家庭财务韧性增强后，其获得信贷的能力也可能上升。作者利用1000万人的数据，并采用准实验研究设计，借助美国最大社会保险项目之一 Medicaid 分阶段扩张在 ZIP 码层面的暴露差异，识别保险扩张对家庭债务的因果效应。结果显示，某 ZIP 码中 Medicaid 合格人口占比每提高1个百分点，信用卡借款就上升0.38%。作者进一步在一个家庭借款模型中分解这一效应，发现家庭财务韧性改善引致的信贷供给增加是借款上升的主要驱动因素，并且这一渠道贡献了 Medicaid 扩张净福利收益的30%。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">社会保险</span><span class="tag">家庭债务</span><span class="tag">Medicaid</span><span class="tag">信贷供给</span><span class="tag">准实验设计</span>
-  </div>
-  
-
-  <div class="comment">💡 论文利用 Medicaid 分阶段扩张的 ZIP 层面外生差异，识别出社会保险扩张反而推高信用卡借款的因果效应，并通过结构分解把这一效应归因于信贷供给扩张，而非自我保险动机弱化，为评估社会保险的福利效应提供了新视角。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35908" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35907" target="_blank" rel="noopener">Pricing Power in the Mortgage Market: Evidence from GSE Fee Waivers</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Neil Bhutta, Benjamin J. Keys, Adithya Raajkumar
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-10-19</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文研究住房抵押贷款市场中由个体销售人员（而非仅由企业）产生的市场势力问题：贷款专员可能利用相对于消费者的信息优势截留政策优惠。作者以 Fannie Mae/Freddie Mac 面向低收入首次购房者的一项费用豁免（fee waiver）为研究对象，估计在 2023–2024 年合计 15 亿美元的费用豁免中，抵押贷款中介截留了超过 60%，并未将节省金额完全传导给借款人。费用豁免的传导率在不同贷款专员之间差异很大：那些有发放高价贷款历史（与贷款机构定价无关）的贷款专员，传导率不足 20%。这些证据表明，尽管危机后监管旨在限制此类行为，贷款专员仍有动机将借款人引导至高利率贷款。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">住房抵押贷款</span><span class="tag">费用豁免传导</span><span class="tag">贷款专员</span><span class="tag">市场势力</span><span class="tag">信息优势</span>
-  </div>
-  
-
-  <div class="comment">💡 论文利用 GSE 费用豁免这一准自然情境，把市场势力的来源从机构细化到个体销售人员，并通过贷款专员层面的异质性识别出“高价贷款历史”这一关键特征，为危机后监管是否有效提供了直接证据。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35907" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card ai">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35905" target="_blank" rel="noopener">Credit Markets with New Screening Technologies</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    <span class="badge ai">AI</span>
-    
-    <span class="authors">Maryam Farboodi, Péter Kondor, Pablo Kurlat
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-10-19</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文在一个信贷市场竞争模型中研究均衡市场结构，模型同时刻画了筛选误差（可相关或相互独立）与内生化的筛选技术选择。核心机制是“pool externality（池外部性）”：被某家贷款机构拒绝的借款人会转而向别处再次申请，因此每家机构的筛选与定价决策都会改变竞争对手所面对的申请人池构成。当各家筛选误差相互独立时，均衡收敛为单一市场分段，选择更优技术的机构会面向逆向选择更严重的借款人放贷，利率随之前者平滑上升。当筛选误差相互相关（可能源于各机构使用相似的 AI 系统以及金融部门数据高度重叠）时，事前完全相同的贷款机构反而会专业化于性质上截然不同的分段，形成“曲棍球杆式”的利率曲线：一类分段利率统一但借款人质量参差不齐，另一类分段借款人质量统一但利率分散，这两种形态分别对应传统银行业、fintech 以及高利率的“无差别放贷”。文章进一步说明，影响筛选成本的技术与监管变化——包括前沿 AI 创新和各种形式的 open banking——会不均衡地改变金融可及性，既可能改善也可能损害被金融排斥的借款人。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">信贷市场竞争</span><span class="tag">筛选误差</span><span class="tag">市场分割</span><span class="tag">pool externality</span><span class="tag">金融可及性</span>
-  </div>
-  
-
-  <div class="comment">💡 论文的亮点在于把筛选技术内生化和误差相关性引入信贷竞争，用“pool externality”统一解释了传统银行、fintech 与高利率无差别放贷并存的分段格局，并对 AI 与 open banking 的分配效应给出了有政策含义的对照。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35905" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
-<article class="card">
-  <h2 class="title">
-    <a href="https://www.nber.org/papers/w35902" target="_blank" rel="noopener">A Model of U.S. Monetary Policy and the Global Financial Cycle</a>
-  </h2>
-
-  <div class="meta">
-    <span class="badge src-NBER">NBER</span>
-    
-    
-    
-    
-    <span class="authors">Rohan Kekre, Moritz Lenel
-    </span>
-    
-    
-      <span class="sep">·</span><span>2026-10-19</span>
-    
-  </div>
-
-  
-
-  
-    <p class="summary">本文构建一个一般均衡模型，来解释美国货币政策如何通过重估存在货币错配的套利者（arbitrageurs）的财富来影响全球风险溢价，从而推动全球金融周期。模型假设套利者的资产组合满足均值-方差有效（mean-variance efficient），由此推导出他们必须做空美元；当美国收紧货币政策时，套利者的净值被侵蚀，全球风险价格随之上升。作者用数据约束并校准这一机制，使其能够解释美国货币政策对国际资产价格的影响，并进一步量化由此产生的宏观经济溢出效应以及海外政策应对的作用。研究还考察了一个美元利率更高的潜在未来情景，发现此时套利者的美元融资规模和美国货币政策的溢出效应都会被削弱。</p>
-  
-
-  
-  <div class="keywords">
-    <span class="tag">货币政策</span><span class="tag">全球金融周期</span><span class="tag">风险溢价</span><span class="tag">套利者</span><span class="tag">美元融资</span>
-  </div>
-  
-
-  <div class="comment">💡 论文把全球金融周期微观基础化到货币错配套利者的资产负债表上，用均值-方差组合约束推出“套利者必然做空美元”这一关键结论，机制清晰且可校准；其中“美元利率更高反而削弱溢出效应”的反直觉推论尤其值得关注。</div>
-
-  <div class="links">
-    <a href="https://www.nber.org/papers/w35902" target="_blank" rel="noopener">阅读原文 →</a>
-  </div>
-</article>
-
         
       
     
@@ -1098,8 +1060,8 @@
       
       <a class="jcard" href="NBER.html">
         <span class="jname badge src-NBER">NBER</span>
-        <span class="jcount">738 篇</span>
-        <span class="jdate">最近发表 2026-10-19</span>
+        <span class="jcount">747 篇</span>
+        <span class="jdate">最近发表 2026-10-26</span>
       </a>
       
       <a class="jcard" href="MS.html">
