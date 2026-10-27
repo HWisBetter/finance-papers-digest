@@ -228,6 +228,80 @@
     "topic": "家庭金融"
   },
   {
+    "id": "10.1287/mnsc.2025.04854",
+    "title": "The Equity Market Implications of the Retail Investment Boom",
+    "authors": [
+      "Philippe van der Beck",
+      "Cameron Cohen",
+      "Coralie Jaunin"
+    ],
+    "abstract": "We quantify the equilibrium impact of retail traders on the U.S. equity market within a structural model of asset demand. Estimating investor-specific demand curves, we find that Robinhood traders are fundamentally distinct from all other investors, including other households: their demand is the most elastic and tilts most strongly toward volatile and microcap stocks. Each dollar invested through Robinhood generates more than five dollars in aggregate equity repricing, exceeding hedge funds, other households, and all other investor types. We decompose the cross-sectional variation in stock returns during Robinhood’s growth surge in 2020 into investor-specific components and find that shifts in Robinhood traders’ latent demand drove 11% of small-cap return volatility despite their negligible aggregate wealth share. To explain these demand shifts, we show that Robinhood traders are the only investor group whose latent demand is well explained by attention proxies: their demand exhibits a V-shaped response to past returns and rises sharply with trading volume. Our findings suggest that the growth of retail trading platforms represents a fundamental shift in the composition of equity demand with equilibrium consequences disproportionate to retail investors’ share of aggregate wealth. This paper was accepted by Lukas Schmid, finance. Funding: P. van der Beck acknowledges financial support from the Swiss National Science Foundation. Supplemental Material: The data files are available at https://doi.org/10.1287/mnsc.2025.04854 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.04854",
+    "published_date": "2026-10-26",
+    "source": "MS",
+    "first_seen": "2026-10-27",
+    "abstract_missing": false,
+    "summary": "论文在一个结构性资产需求模型（structural model of asset demand）中量化散户交易者对美国股票市场的均衡影响。作者估计了各类投资者各自的需求曲线，发现 Robinhood 交易者与其他所有投资者（包括其他家庭）存在本质差异：他们的需求弹性最高，并且最强烈地偏向高波动股票和微盘股（microcap stocks）。就均衡效应而言，通过 Robinhood 投入的每一美元会带来超过五美元的股票总体重新定价（aggregate equity repricing），这一效应超过对冲基金、其他家庭以及所有其他投资者类型。作者把 2020 年 Robinhood 快速增长期间股票收益的横截面差异分解为投资者特定成分，结果显示尽管 Robinhood 交易者的财富份额微不足道，其潜在需求（latent demand）的变动仍驱动了小盘股收益波动的 11%。为解释这些需求变动，论文进一步表明 Robinhood 交易者是唯一其潜在需求能被注意力代理变量（attention proxies）很好解释的投资者群体：其需求对过去收益呈现 V 形响应，并随交易量上升而急剧上升。作者据此认为，散户交易平台的成长代表股票需求结构的根本性转变，其均衡后果与散户投资者在总财富中的占比严重不成比例。",
+    "keywords": [
+      "散户投资",
+      "需求弹性",
+      "资产定价",
+      "投资者注意力",
+      "小盘股"
+    ],
+    "ai_comment": "论文用结构性需求曲线估计把散户交易者的异质性买盘直接映射到均衡价格，并给出“每美元投入带来逾五美元重定价”这一直观且有力的量化结论，揭示了财富份额极小却能显著影响小盘股波动的机制。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1287/mnsc.2025.02928",
+    "title": "Corporate Pension Risk-Taking in a Low Interest Rate Environment",
+    "authors": [
+      "Vasso Ioannidou",
+      "Roberto Pinto",
+      "Zexi Wang"
+    ],
+    "abstract": "We examine how funding deficit pressures shape the risk-taking of U.S. corporate defined-benefit pension plans and how targeted regulatory relief can mitigate these incentives. Using the 2012 Moving Ahead for Progress in the 21st Century Act reform, which temporarily eased funding pressure by revising discount rate calculations, we show that plans receiving greater relief significantly reduced their equity allocations and shifted toward safer assets. This derisking was most pronounced among active plans and those sponsored by more financially constrained firms. Our findings demonstrate that targeted regulatory relief can curb risk-taking incentives even without altering underlying economic conditions or financial reporting standards and shed light on the likely (and unlikely) frictions driving such behavior. This paper was accepted by Bo Becker, finance. Funding: R. Pinto acknowledges financial support from the Lancaster University Management School Pump Prime Program. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.02928 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.02928",
+    "published_date": "2026-10-26",
+    "source": "MS",
+    "first_seen": "2026-10-27",
+    "abstract_missing": false,
+    "summary": "本文研究资金缺口压力如何影响美国企业固定收益养老金计划（defined-benefit pension plans）的风险承担，以及有针对性的监管纾困能否削弱这种冒险激励。实证利用 2012 年《21 世纪前进法案》（Moving Ahead for Progress in the 21st Century Act，MAP-21）改革作为准自然实验：该改革通过修改折现率计算方法，暂时缓解了养老金计划的融资压力。结果显示，获得更大纾困力度的计划显著降低了股票配置比例，转向更安全的资产；这种去风险化（derisking）在仍在持续 accrual 的 active plans 以及由财务约束更强的企业赞助的计划中最为明显。作者据此指出，即使不改变基本经济环境、也不改变财务报告准则，有针对性的监管纾困依然能够抑制风险承担激励；研究还揭示了推动这类行为的可能（与不太可能）的摩擦机制。",
+    "keywords": [
+      "养老金风险承担",
+      "固定收益养老金计划",
+      "资产配置",
+      "低利率环境",
+      "监管纾困"
+    ],
+    "ai_comment": "论文借助 MAP-21 折现率改革这一外生政策冲击，为“资金缺口压力驱动养老金冒险”提供了清晰的因果证据，并说明定向监管纾困可以在不改动会计准则的前提下实现去风险化，对养老金监管与公司金融政策讨论都有直接价值。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104399",
+    "title": "The effect of prime brokers’ balance sheet constraints on hedge fund performance: Evidence from the GSIB surcharge",
+    "authors": [
+      "Yueting Jiang",
+      "Yiwen Shen"
+    ],
+    "abstract": "Hedge funds often use leverage provided by prime brokers to enhance their investment returns. We investigate how prime brokers’ capital constraints impact the performance of connected hedge funds. At the hedge fund level, we construct a measure for prime brokers’ balance sheet constraints using the capital requirements under the Basel III framework. We document that tighter balance sheet constraints of prime brokers lead to lower future return, alpha, volatility, Sharpe ratio, and information ratio of the hedge funds. These findings are consistent with an analytical model in which prime brokers respond to balance sheet constraints by increasing leverage cost or decreasing leverage provision to hedge funds. We show that the estimated effects are more pronounced for hedge funds with higher leverage demand elasticities and during more capital-binding periods. Our results reveal the real effects of bank regulation on connected financial institutions via the services of prime brokers. We conduct empirical tests for our identification strategy and support our findings via multiple robustness checks.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104399",
+    "published_date": "2026-10-26",
+    "source": "JFE",
+    "first_seen": "2026-10-27",
+    "abstract_missing": false,
+    "summary": "论文研究主经纪商（prime broker）的资本约束如何影响与之关联的对冲基金业绩。对冲基金常借助主经纪商提供的杠杆来放大收益，作者在基金层面构造了主经纪商资产负债表约束的度量指标，该指标基于 Basel III 框架下的资本要求（GSIB surcharge，即全球系统重要性银行附加资本要求）。实证发现，主经纪商资产负债表约束收紧会导致关联对冲基金未来的收益率、alpha、波动率、Sharpe ratio 和信息比率下降。这一结果与一个分析模型一致：主经纪商面对资产负债表约束时，会提高杠杆成本或减少对对冲基金的杠杆供给。进一步结果显示，上述效应在对杠杆需求弹性更高的对冲基金中、以及在资本约束更紧的时期更为显著。论文据此揭示银行监管通过主经纪商服务对关联金融机构产生的真实效应，并通过识别策略的实证检验和多项稳健性检验支持其结论。",
+    "keywords": [
+      "主经纪商",
+      "对冲基金",
+      "Basel III",
+      "杠杆",
+      "银行监管"
+    ],
+    "ai_comment": "论文利用 Basel III 的 GSIB 附加资本要求构造主经纪商资产负债表约束的基金层面度量，较干净地识别了银行监管经由杠杆供给渠道向对冲基金传导的真实效应，为监管溢出与影子银行杠杆研究提供了新证据。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1287/mnsc.2024.07249",
     "title": "Looking Under the Hood of Commodity Currency Predictability",
     "authors": [
@@ -13080,16 +13154,22 @@
       "Joyce Chow",
       "Diana Van Patten"
     ],
-    "abstract": "",
+    "abstract": "Data centers are the physical infrastructure behind cloud computing, artificial intelligence, and enterprise software.The rapid diffusion of artificial intelligence is increasing demand for computing capacity, accelerating investment in data centers, and raising concerns about their local economic and environmental effects.We assemble a facility-level panel of U.S. data centers and link it to county-level measures of employment, establishments, payroll, income, house prices, electricity prices, and public-supply water withdrawals.To address endogenous site selection, we develop a shift-share instrument motivated by two complementary requirements of fiber backbone connectivity: a feasible fiber route and a point of access into that fiber.Because installing long-haul fiber across many separate parcels is costly and time-consuming, providers have often followed continuous transportation corridors, such as existing railroad lines, where routes are already assembled and access or rights-of-way are less burdensome.At the same time, a data center must be able to enter the backbone through a splice or access point.We construct two historical exposure measures.The first identifies locations where terrain made long-distance routes relatively inexpensive to build, while the second identifies access points into the fiber backbone.We interact these historical shares with growth in scale-oriented facilities outside the U.S. The resulting instrument does not systematically predict county outcomes before the modern expansion of data centers.After that expansion begins, the estimates show positive effects on total employment, construction employment, establishments, payroll, tax returns, adjusted gross income, and wages.We complement the shift-share design with dynamic long-difference specifications that use the same exogenous shares.The estimates show persistent gains in employment and establishments, construction effects that are stronger at shorter horizons, sustained increases in house prices and public-supply withdrawals, and positive effects on electricity prices that emerge later.Overall, this pattern is consistent with the hypothesis that data centers increase economic activity, both directly and indirectly, which puts pressure on house and electricity prices and increases water demand.",
     "url": "https://www.nber.org/papers/w35194",
     "published_date": "2026-05-01",
     "source": "NBER",
     "first_seen": "2026-05-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "论文关注人工智能快速扩散背景下数据中心大规模投资对当地经济与环境的影响，并试图解决选址内生性问题。作者构建了美国数据中心的设施级面板数据，并将其与县级层面的就业、企业数量、工资总额、收入、房价、电价和公共供水取水量等指标相连接。为处理内生选址，作者提出一个 shift-share 工具变量，其动机来自光纤骨干网连通性的两个互补要求：可行的光纤路由与接入点。由于在众多分散地块上铺设长途光纤成本高、耗时长，运营商往往沿连续的交通走廊（如既有铁路线）布线，因为路由已经成型且通行权负担较小；同时数据中心必须通过 splice 或接入点进入骨干网。据此作者构造两个历史暴露度量：第一个识别地形使长途线路建设成本相对较低的地点，第二个识别光纤骨干网的接入点，并将这些历史份额与美国以外规模导向型设施的增长相交乘。该工具变量在数据中心现代扩张之前不能系统性地预测县级结果。扩张开始后，估计结果显示对总就业、建筑就业、企业数量、工资总额、纳税申报、调整后总收入和工资均有正向影响。作者还用相同的外生份额进行动态长差分（long-difference）设定作为补充，发现就业与企业数量持续增长、建筑效应在较短时间窗口更强、房价与公共供水取水量持续上升、电价的正向效应在后期显现。总体而言，这一模式与如下假说一致：数据中心直接和间接地提升经济活动，进而推高房价与电价并增加用水需求。",
+    "keywords": [
+      "数据中心",
+      "shift-share 工具变量",
+      "地方经济",
+      "房价与电价",
+      "用水需求"
+    ],
+    "ai_comment": "论文用光纤路由与接入点的历史地理特征构造 shift-share 工具变量，较为可信地识别了数据中心对县级经济的因果影响，并把就业、收入、房价、电价与用水等多维结果统一在同一框架下考察，兼具方法贡献与政策意义。",
+    "topic": "金融计量/机器学习",
     "kw_norm": true,
     "cited_by_count": 0
   },
@@ -16038,16 +16118,22 @@
       "Olivia Mitchell",
       "Tamiko Toland"
     ],
-    "abstract": "",
+    "abstract": "Wealth decumulation decisions, or how to optimize consumption over an uncertain remaining lifespan, are among the most difficult people face.They involve intertemporal tradeoffs, uncertainty, complexity, and emotion, yet many consumers receive little formal guidance.A central challenge is securing lifetime income and avoiding outliving resources, particularly through life annuities that guarantee income for life.Standard economic models predict high demand for annuities, but in practice few individuals purchase them, a gap known as the annuity puzzle.This paper introduces annuities, examines limited adoption among consumers and plan sponsors, reviews leading explanations, and outlines approaches to increase uptake and improve decision quality.",
     "url": "https://www.nber.org/papers/w35145",
     "published_date": "2026-04-01",
     "source": "NBER",
     "first_seen": "2026-04-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "论文聚焦于财富消耗（wealth decumulation）决策，即个人如何在不确定的剩余寿命中优化消费，这类决策涉及跨期权衡、不确定性、复杂性与情绪因素，而许多消费者几乎得不到正式的指导。核心难题在于如何获得终身收入、避免“人活着钱没了”的长寿风险，尤其是通过提供终身收入保证的生命年金（life annuity）。标准经济模型预测年金需求应当很高，但现实中购买年金的人却极少，这一落差即所谓的“年金谜题”（annuity puzzle）。本文对年金这一工具作了介绍，考察了消费者与养老金计划发起方（plan sponsors） adoption 有限的现象，梳理并评述了关于年金谜题的主要解释，并勾勒出提升年金参与率、改善个人决策质量的可行路径。",
+    "keywords": [
+      "年金谜题",
+      "财富消耗",
+      "终身收入",
+      "年金",
+      "行为经济学"
+    ],
+    "ai_comment": "作为一篇综述性文章，它把年金谜题的“需求预测与现实 adoption 落差”放在消费者与计划发起方两端同时审视，并延伸到政策与决策质量改善的可行路径，对退休收入政策讨论有较强的参考价值。",
+    "topic": "家庭金融",
     "kw_norm": true,
     "cited_by_count": 0
   },
@@ -53236,16 +53322,22 @@
       "Markus Brunnermeier",
       "Diane Pierret"
     ],
-    "abstract": "",
+    "abstract": "We assess the efficacy of market-based systemic risk measures that rely on U.S. financial firms' stock return co-movements with market-or sector-wide returns under stress from 1895 to 2023.Stress episodes are identified using corporate bond spread widening and narrative dating, spanning from the Panic of 1907 to the Banking Stress of 2023.Measures observed prior to the onset of stress episodes predict market outcomes (realized volatility and returns), balance sheet outcomes (lending, profitability, and run risk), and bank failures.Specifically, the measures are: (i) particularly effective in capturing the cross-sectional ranking of institutions conditional on a stress episode, rather than aggregate outcomes;(ii) more informative when stress episodes are severe; and (iii) relevant for both banks and non-bank financial institutions, although measures incorporating market leverage are especially informative for banks.A comparative analysis shows that marketbased indicators offer information that is distinct from, and complementary to, traditional balance sheet metrics used in supervisory and macroprudential risk assessment.",
     "url": "https://www.nber.org/papers/w33211",
     "published_date": "2024-11-01",
     "source": "NBER",
     "first_seen": "2024-11-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本文评估了基于市场的系统性风险测度在 1895 至 2023 年间的有效性。这些测度依赖美国金融机构股票收益与市场整体或部门收益在压力时期的共同波动。作者用公司债券利差走阔并结合叙事断代来识别压力事件，覆盖范围从 1907 年恐慌（Panic of 1907）一直到 2023 年银行业压力（Banking Stress of 2023）。研究发现，在压力事件发生之前观测到的这些测度，能够预测市场结果（已实现波动率和收益）、资产负债表结果（放贷、盈利能力和挤兑风险）以及银行倒闭。具体而言：(i) 这些测度尤其擅长刻画在给定压力事件条件下机构之间的横截面排序，而不是预测总量结果；(ii) 当压力事件较为严重时，它们提供的信息更多；(iii) 这些测度对银行和非银行金融机构都适用，不过纳入市场杠杆的测度对银行尤其具有信息价值。比较分析还显示，基于市场的指标所提供的信息，既不同于监管与宏观审慎风险评估中使用的传统资产负债表指标，又与其互补。",
+    "keywords": [
+      "系统性风险",
+      "压力事件",
+      "银行倒闭",
+      "市场杠杆",
+      "宏观审慎监管"
+    ],
+    "ai_comment": "论文的重要价值在于把市场类系统性风险测度的检验窗口拉长到百余年，并用债券利差与叙事断代识别压力事件；其关键洞见是这类测度主要擅长识别压力下机构之间的横截面风险排序，而非预测总量结果，这为监管实践提供了明确的使用边界。",
+    "topic": "银行与金融中介",
     "kw_norm": true,
     "cited_by_count": 1
   },
