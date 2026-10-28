@@ -1,5 +1,52 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104397",
+    "title": "Are direct lenders more like banks or arm’s-length investors?",
+    "authors": [
+      "Young Soo Jang"
+    ],
+    "abstract": "Using novel data on loans to private equity (PE) sponsored firms, I examine whether direct lenders lend more like banks or arm’s-length investors. Financial covenants are ubiquitous in direct lending. Borrowers face more covenants, and violate them more often, than in bank loans. Direct lenders actively intervene post-violation, prompting firms to adopt conservative policies. During the COVID pandemic, they showed greater flexibility than banks, facilitated by more frequent PE sponsor equity injections. Prior sponsor relationships also predict higher credit supply for distressed borrowers. Overall, similar to banks, direct lenders engage in active monitoring and relationship lending.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104397",
+    "published_date": "2026-10-27",
+    "source": "JFE",
+    "first_seen": "2026-10-28",
+    "abstract_missing": false,
+    "summary": "本文利用关于私募股权（PE）支持企业贷款的新颖数据，考察直接贷款人（direct lenders）的放贷模式究竟更接近银行还是更接近保持距离型投资者（arm's-length investors）。研究发现，财务契约（financial covenants）在直接贷款中极为普遍；与银行贷款相比，借款人面临的契约更多，违约也更频繁。违约发生后，直接贷款人会积极干预，推动企业采取更为保守的政策。在新冠疫情期间，直接贷款人展现出比银行更大的灵活性，这得益于PE发起人更频繁地注入股权；此外，先前的发起人关系也能预测困境借款人获得更高的信贷供给。总体而言，与银行类似，直接贷款人从事积极的监督和关系型贷款。",
+    "keywords": [
+      "直接贷款",
+      "私募股权",
+      "财务契约",
+      "关系型贷款",
+      "信贷供给"
+    ],
+    "ai_comment": "论文以PE支持企业这一独特样本，系统比较直接贷款人与银行和保持距离型投资者的差异，揭示直接贷款兼具强契约约束与积极监督的关系型特征，为直接贷款市场的监管与政策讨论提供了实证依据。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104381",
+    "title": "Innovation booms, easy financing, and human capital accumulation",
+    "authors": [
+      "Johan Hombert",
+      "Adrien Matray"
+    ],
+    "abstract": "Innovation booms are often fueled by easy financing, allowing new technology firms to pay high wages that attract skilled labor. Studying the Information and Communication Technology (ICT) boom in the late 1990s, we show that high-skill workers who joined the ICT sector during the boom experienced sizeable long-term earnings losses. These earnings patterns stem from accelerated skill obsolescence rather than worker selection or the subsequent bust in the ICT sector. Moreover, during the boom, financing disproportionately flowed to firms whose workers would later experience the largest productivity declines, amplifying the negative effect of labor reallocation on aggregate human capital accumulation.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104381",
+    "published_date": "2026-10-27",
+    "source": "JFE",
+    "first_seen": "2026-10-28",
+    "abstract_missing": false,
+    "summary": "论文关注创新繁荣期由宽松融资所催生的高薪揽才现象是否会真正让高技能劳动者长期受益。作者以20世纪90年代末的信息与通信技术（ICT）繁荣为研究情境，追踪在繁荣期进入ICT行业的高技能劳动者的长期收入轨迹，发现他们经历了相当可观的长期收入损失。进一步检验表明，这一收入模式源于技能加速过时（skill obsolescence），而非劳动者自选择或随后ICT行业泡沫破裂所致。论文还发现，繁荣期融资不成比例地流向了那些员工日后生产率下滑最严重的企业，从而放大了劳动再配置对总体人力资本积累的负面影响。",
+    "keywords": [
+      "创新繁荣",
+      "融资环境",
+      "技能过时",
+      "人力资本积累",
+      "劳动再配置"
+    ],
+    "ai_comment": "论文把融资侧的“热钱”与劳动者一生的收入轨迹、乃至总体人力资本积累联系起来，揭示宽松融资推动的创新繁荣可能以技能加速贬值为隐性代价；并且指出信贷配置方向与后续生产率下滑存在系统性对应关系，为理解金融配置效率的长期人力资本后果提供了新证据。",
+    "topic": "公司金融"
+  },
+  {
     "id": "w35954",
     "title": "When Cash Wakes Up: Inertia in Institutional Money Market Funds and the Potential Effects of AI Disruption",
     "authors": [
@@ -13264,16 +13311,22 @@
       "Wenxi Jiang",
       "Wei Xiong"
     ],
-    "abstract": "",
+    "abstract": "We investigate the relationship between stock prices and future earnings in China's A-share market.In the cross-section, firms with higher market valuations report higher earnings over the subsequent one to five years, suggesting that stock prices contain information about future fundamentals.In the time series, however, we find evidence of earnings reversal: higher stock prices predict weaker earnings growth three to five years ahead, consistent with short-term earnings management induced by stock-price pressures.We further document such earnings management through non-recurring gains and losses (NRGLs) and use the 2020 delisting rule reform as a natural experiment to examine these mechanisms.",
     "url": "https://www.nber.org/papers/w35178",
     "published_date": "2026-05-01",
     "source": "NBER",
     "first_seen": "2026-05-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本文研究中国 A 股市场中股票价格与未来盈余之间的关系，以检验股价是否包含有关未来基本面的信息。在横截面维度上，估值更高的公司在随后一至五年报告的盈余更高，说明股价中确实含有未来基本面的信息。但在时间序列维度上，文章发现盈余反转的证据：较高的股价预示着三至五年后更弱的盈余增长，这与股价压力诱发的短期盈余管理相一致。作者进一步通过非经常性损益（NRGLs）记录并识别这类盈余管理行为，并以 2020 年退市规则改革作为自然实验，考察上述机制。",
+    "keywords": [
+      "盈余管理",
+      "股价信息含量",
+      "非经常性损益",
+      "退市制度改革",
+      "中国A股"
+    ],
+    "ai_comment": "论文的亮点在于同时从横截面与时间序列两个维度区分股价的信息功能与压力功能，并用非经常性损益和 2020 年退市新规这一自然实验为“股价压力诱发短期盈余管理”提供更干净的识别。",
+    "topic": "会计与信息披露",
     "kw_norm": true,
     "cited_by_count": 0
   },
@@ -19493,15 +19546,21 @@
       "Brant Walker",
       "Joseph Shapiro"
     ],
-    "abstract": "",
+    "abstract": "Projecting the effects of proposed policy reforms is challenging because no outcome data exist for regulations that governments have not yet implemented.We propose an ex ante deep learning framework that can project effects of proposed reforms by mapping outcomes observed under past regulations onto the legal criteria of proposed future policies (i.e., by \"relabeling\").We apply this framework to study changes in jurisdiction of the US Clean Water Act (CWA).We compare our ex ante deep learning projection of jurisdiction under the Supreme Court's Sackett decision against widely used projections from domain experts.Ex ante machine learning generates exceptional performance improvements over the leading domain expert model that the US Environmental Protection Agency currently uses, with 65 times more accurate identification of jurisdictional sites.We also develop an ex post deep learning model trained with data after policy implementation.Ex post deep learning performs best.Sackett deregulates one-third of all previously regulated US waters, particularly floodplains and pristine fish habitats, totaling 700,000 deregulated stream miles and 17 million deregulated wetland acres.Deep learning can effectively project consequences of far-reaching regulatory reforms before they are implemented, when projections are both most uncertain and most useful.",
     "url": "https://www.nber.org/papers/w34947",
     "published_date": "2026-03-01",
     "source": "NBER",
     "first_seen": "2026-03-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
+    "abstract_missing": false,
+    "summary": "针对政府尚未实施、缺乏结果数据的拟议政策改革，论文提出一个事前（ex ante）深度学习框架：通过将过去监管下观测到的结果与拟议未来政策的法律标准进行映射（即“重新标注”，relabeling），从而预测改革影响。作者将该框架应用于美国《清洁水法》（Clean Water Act, CWA）管辖权变化，并把基于事前深度学习的 Sackett 判决管辖权预测与领域专家广泛使用的预测进行比较。结果显示，事前机器学习相较美国国家环境保护局（EPA）当前采用的主要领域专家模型取得显著性能提升，对管辖地点的识别准确率高出 65 倍。论文还构建了政策实施后数据训练的事后（ex post）深度学习模型，事后深度学习表现最佳。Sackett 判决使此前受监管的美国水域中三分之一被放松监管，尤其是洪泛区和原始鱼类栖息地，总计约 70 万英里溪流和 1700 万英亩湿地被解除监管。作者结论是，深度学习能够在影响深远的监管改革实施前有效预测其后果，而这一阶段预测既最不确定也最有用。",
+    "keywords": [
+      "深度学习",
+      "政策评估",
+      "Clean Water Act",
+      "事前预测",
+      "环境监管"
+    ],
+    "ai_comment": "论文提出可操作的 ex ante 深度学习“重新标注”框架，在缺乏实施后数据时预测监管改革影响，并以 CWA 管辖权为例显示其显著优于 EPA 使用的专家模型。事后模型进一步验证了该思路，对政策评估和监管决策具有方法与实践价值。",
     "topic": "其他",
     "kw_norm": true,
     "cited_by_count": 0
