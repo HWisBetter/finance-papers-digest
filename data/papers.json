@@ -1,5 +1,53 @@
 [
   {
+    "id": "10.1287/mnsc.2025.03608",
+    "title": "Estimating the Pricing Kernel: A Simple Regression-Based Dimension-Reduction Approach",
+    "authors": [
+      "Bin Luo",
+      "Guofu Zhou",
+      "Ti Zhou"
+    ],
+    "abstract": "We propose a simple framework for estimating the pricing kernel in factor space by constructing the mean–variance efficient factor portfolio via an ordinary least squares formulation with least absolute shrinkage and selection operator regularization. The method accommodates high-dimensional settings in which the number of candidate factors exceeds the sample size and automatically shrinks redundant factor weights toward zero. We show theoretically that the out-of-sample Sharpe ratio of the estimated portfolio converges to the theoretical maximum at the fastest rate among existing regression-based approaches. Applying the method to 174 characteristic-based factors together with the market factor, we obtain an out-of-sample Sharpe ratio of 3.59, substantially outperforming competing strategies and delivering the smallest aggregate pricing errors. The selected factors vary over time in both composition and number, averaging about 50. We further develop a model comparison test and reject the hypothesis that eight widely used sparse factor models are sufficient to span the pricing kernel. This paper was accepted by Kay Giesecke, finance. Funding: This work was supported by the National Natural Science Foundation of China [Grants 72671091, 72371079, and 72501192, and Key Program 72432005] and the Science and Technology Planning Project of Guangdong Province [Grant 2023B1515020045]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.03608 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.03608",
+    "published_date": "2026-10-28",
+    "source": "MS",
+    "first_seen": "2026-10-29",
+    "abstract_missing": false,
+    "summary": "论文提出一个在因子空间中估计定价核的简洁框架：通过带有 LASSO 正则化的普通最小二乘（OLS）构造均值-方差有效因子组合，从而得到定价核。该方法适用于候选因子数量超过样本量的高维情形，并能自动将冗余因子的权重收缩至零。理论上，论文证明所估计组合的样本外夏普比率收敛到理论最大值的速度，在现有基于回归的方法中最快。实证上，作者将方法应用于 174 个基于特征的因素以及市场因子，得到 3.59 的样本外夏普比率，显著优于竞争策略，并实现最小的总体定价误差；被选中的因子在构成和数量上随时间变化，平均约为 50 个。论文还提出一个模型比较检验，并拒绝八个广泛使用的稀疏因子模型足以张成定价核的假设。",
+    "keywords": [
+      "定价核",
+      "LASSO",
+      "均值-方差有效组合",
+      "稀疏因子模型",
+      "样本外夏普比率"
+    ],
+    "ai_comment": "论文的亮点在于用 OLS 加 LASSO 的简单回归框架统一处理高维因子选择与定价核估计，并给出样本外夏普比率收敛速度最优的理论保证；实证中 3.59 的样本外夏普比率和模型比较检验也提供了较强说服力。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1093/rfs/hhag094",
+    "title": "Correlated Demand Shocks and Asset Pricing",
+    "authors": [
+      "Byungwook Kim"
+    ],
+    "abstract": "I propose a mechanism through which institutional investors’ correlated demand shocks provide a source of market risk in asset pricing. Institutional investors have mandates to beat a similar market index. During periods of strong stock market performance, their incentive to outperform intensifies as more of them fall short of the market index. This incentive induces procyclical risk-taking behavior, generating correlated demand that elevates the market betas and risk premia of exposed stocks. Quasi-experiments using exogenous changes in index membership support a causal interpretation of the mechanism. Elevated betas are associated with a higher perceived cost of capital and reduced firm investment. (JEL G1, G2)",
+    "url": "https://doi.org/10.1093/rfs/hhag094",
+    "published_date": "2026-10-28",
+    "source": "RFS",
+    "first_seen": "2026-10-29",
+    "abstract_missing": false,
+    "summary": "论文提出一种机制，说明机构投资者的相关需求冲击（correlated demand shocks）如何成为资产定价中的市场风险来源。机构投资者的受托任务是以战胜相似的市場指数为目标；当股市表现强劲时，未跑赢指数的机构数量增多，其超越指数的动机随之增强，从而引发顺周期的风险承担行为（procyclical risk-taking），形成相关需求，推高暴露股票的市场 beta 与风险溢价。作者利用指数成分调整这一外生变化构造准实验（quasi-experiments），支持该机制的因果解释；并且发现 beta 升高伴随着更高的感知资本成本（perceived cost of capital）与企业投资减少。",
+    "keywords": [
+      "机构投资者",
+      "相关需求冲击",
+      "市场beta",
+      "风险溢价",
+      "指数成分调整"
+    ],
+    "ai_comment": "论文将委托-基准考核引致的顺周期风险承担与资产定价联系起来，用指数成分调整的准实验给出因果证据，并进一步落到资本成本与企业投资的实际后果，机制链条完整且有政策含义。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104397",
     "title": "Are direct lenders more like banks or arm’s-length investors?",
     "authors": [
@@ -19305,15 +19353,21 @@
       "Nicola Fuchs-Schündeln",
       "Jonas Jessen"
     ],
-    "abstract": "",
+    "abstract": "This paper combines international evidence from worker and firm surveys conducted in 2025 and 2026 to document large gaps in AI adoption, both between the US and Europe and across European countries.Cross-country differences in worker demographics and firm composition account for an important share of these gaps.AI adoption, within and across countries, is also closely linked to firm personnel management practices and whether firms actively encourage AI use by workers.Micro-level evidence suggests that AI generates meaningful time savings for many workers.At the macro level, in recent years industries with higher AI adoption rates have experienced faster productivity growth.While we do not establish causality, this relationship is statistically significant and similar in magnitude in Europe and the US.We do not find clear evidence that industry-level AI adoption is associated with employment changes.We discuss limitations of existing data and outline priorities for future data collection to better assess the productivity and labor market effects of AI.",
     "url": "https://www.nber.org/papers/w34995",
     "published_date": "2026-03-01",
     "source": "NBER",
     "first_seen": "2026-03-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
+    "abstract_missing": false,
+    "summary": "本文基于2025年与2026年开展的国际员工调查与企业调查数据，系统记录了AI adoption在美国与欧洲之间、以及欧洲各国之间的显著差距。研究发现，员工人口结构与企业构成上的跨国差异可以解释这些差距中的相当一部分；同时，无论在一国之内还是跨国比较，AI adoption都与企业的员工管理（人事管理）实践、以及企业是否主动鼓励员工使用AI密切相关。微观层面的证据显示，AI为许多员工带来了可观的时间节约。宏观层面，近年来AI adoption率更高的行业实现了更快的生产率增长；作者强调并未确立因果关系，但该关系在统计上显著，且在欧洲与美国的量级相近。研究未发现明确证据表明行业层面的AI adoption与就业变化相关。文末讨论了现有数据的局限，并列出了未来数据收集的重点方向，以便更好地评估AI对生产率与劳动力市场的影响。",
+    "keywords": [
+      "AI adoption",
+      "生产率增长",
+      "劳动力市场",
+      "企业管理实践",
+      "欧美比较"
+    ],
+    "ai_comment": "论文以2025—2026年跨国员工与企业调查搭建了可比的AI adoption度量，把国家间差距部分归因于人口结构、企业构成与管理实践，为“欧洲AI滞后”提供了微观与宏观相互印证的证据，其对数据局限的坦诚讨论也为后续测量工作设定了议程。",
     "topic": "其他",
     "kw_norm": true,
     "cited_by_count": 0
@@ -55308,16 +55362,22 @@
       "Iain Cockburn",
       "James Bessen"
     ],
-    "abstract": "",
+    "abstract": "Using our own data on Artificial Intelligence publications merged with Burning Glass vacancy data for 2007-2019, we investigate whether online vacancies for jobs requiring AI skills grow more slowly in U.S. locations farther from pre-2007 AI innovation hotspots.We find that a commuting zone which is an additional 200km (125 miles) from the closest AI hotspot has 17% lower growth in AI jobs' share of vacancies.This is driven by distance from AI papers rather than AI patents.Distance reduces growth in AI research jobs as well as in jobs adapting AI to new industries, as evidenced by strong effects for computer and mathematical researchers, developers of software applications, and the finance and insurance industry.20% of the effect is explained by the presence of state borders between some commuting zones and their closest hotspot.This could reflect state borders impeding migration and thus flows of tacit knowledge.Distance does not capture difficulty of in-person or remote collaboration nor knowledge and personnel flows within multiestablishment firms hiring in computer occupations.",
     "url": "https://www.nber.org/papers/w33022",
     "published_date": "2024-10-01",
     "source": "NBER",
     "first_seen": "2024-10-01",
-    "abstract_missing": true,
-    "summary": null,
-    "keywords": [],
-    "ai_comment": "",
-    "topic": "其他",
+    "abstract_missing": false,
+    "summary": "本文研究地理距离是否阻碍人工智能技能的扩散。作者自建人工智能论文数据，并与2007—2019年的Burning Glass职位空缺数据合并，考察在距离2007年前AI创新热点更远的美国地区，要求AI技能的线上职位空缺是否增长更慢。结果显示，通勤区与最近AI热点的距离每增加200公里（125英里），AI岗位在职位空缺中的占比增速就低17%；这一效应主要由与AI论文的距离驱动，而不是与AI专利的距离驱动。距离同样抑制AI研究岗位以及将AI应用于新行业的岗位增长，对计算机与数学研究人员、软件应用开发者以及金融与保险行业的效应尤其明显。约20%的效应可由部分通勤区与其最近热点之间存在州界来解释，这可能反映州界阻碍迁移、进而阻碍隐性知识流动。距离既不能反映线下或远程协作的难度，也不能反映在计算机类职业招聘的多分支机构企业内部的知识与人员流动。",
+    "keywords": [
+      "人工智能技能",
+      "地理距离",
+      "知识溢出",
+      "职位空缺",
+      "创新热点"
+    ],
+    "ai_comment": "论文用自建AI论文数据与职位空缺数据相匹配，为“地理距离阻碍AI技能扩散”提供了量化证据，并指出论文知识比专利更具空间粘性、州界会强化这一摩擦，颇具政策含义。",
+    "topic": "金融计量/机器学习",
     "kw_norm": true,
     "cited_by_count": 6
   },
