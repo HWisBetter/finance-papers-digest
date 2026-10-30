@@ -1,5 +1,135 @@
 [
   {
+    "id": "10.1287/mnsc.2024.08672",
+    "title": "Inflexibility and Leverage",
+    "authors": [
+      "Lifeng Gu",
+      "Dirk Hackbarth",
+      "Yuxin Luo"
+    ],
+    "abstract": "Firms’ inflexibility to adjust their scale persistently explains capital structure variations in a comprehensive sample and randomly selected subsamples. Higher inflexibility leads to lower financial leverage, potentially due to higher default risk and lower value of tax shields. Contraction inflexibility determines leverage more than expansion inflexibility. Moreover, our inflexibility measure explains financial leverage significantly better than other variables that potentially capture certain aspects of adjustment costs for capital or labor. In addition, inflexible firms increase leverage more following a positive credit supply shock. Analyses employing instrumental variables estimation confirm our main finding. Our results suggest inflexibility shapes corporate financial policies. This paper was accepted by Bo Becker, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08672 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08672",
+    "published_date": "2026-10-29",
+    "source": "MS",
+    "first_seen": "2026-10-30",
+    "abstract_missing": false,
+    "summary": "论文研究企业对规模调整的\"不灵活性\"（inflexibility）如何持久地影响资本结构。作者在覆盖广泛的全样本以及随机抽取的子样本中发现，不灵活性可以稳定解释财务杠杆的横截面差异：不灵活性越高的企业，其财务杠杆越低，作者认为这源于违约风险更高以及税盾价值更低。进一步分解显示，收缩不灵活性（contraction inflexibility）对杠杆的决定作用强于扩张不灵活性（expansion inflexibility）。该不灵活性指标对财务杠杆的解释力显著优于其他可能反映资本或劳动调整成本某些侧面的变量。此外，在正向信贷供给冲击（credit supply shock）之后，不灵活性较高的企业会更多地提高杠杆。作者还采用工具变量估计（instrumental variables estimation）验证了主要结论，从而表明不灵活性塑造了公司财务政策。",
+    "keywords": [
+      "资本结构",
+      "财务杠杆",
+      "调整成本",
+      "信贷供给冲击",
+      "工具变量"
+    ],
+    "ai_comment": "论文把\"规模调整不灵活性\"这一常在投资文献中出现的概念引入资本结构研究，并区分收缩与扩张两个方向、用工具变量与信贷供给冲击做识别，为杠杆的持续性差异提供了新的解释视角。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "10.1287/mnsc.2024.08463",
+    "title": "Multitype Information Acquisition in a Strategic Trading Model",
+    "authors": [
+      "Hui Ou-Yang",
+      "Weili Wu",
+      "Xingtan Zhang"
+    ],
+    "abstract": "We analyze information acquisition in a strategic trading model with multidimensional uncertainties. Our main result is that the equilibrium can exhibit multiplicity because of the integer nature of the number of informed traders and the strategic interactions across different types of informed traders. We show that the number of equilibria can be arbitrarily large. Moreover, asymmetric equilibria can arise even in symmetric settings. As information costs rise, fewer traders acquire information, yet prices can become more informative. These results shed light on the instability of financial markets and yield testable empirical predictions. This paper was accepted by Lukas Schmid, finance. Funding: This work was supported by the National Natural Science Foundation of China [Grants 72472171 and 72372011]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08463 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08463",
+    "published_date": "2026-10-29",
+    "source": "MS",
+    "first_seen": "2026-10-30",
+    "abstract_missing": false,
+    "summary": "论文在一个具有多维不确定性的策略交易模型中分析信息获取行为。核心结论是：由于知情交易者人数具有整数性质，且不同类型知情交易者之间存在策略互动，均衡可能出现多重性；论文表明均衡数量可以任意大，并且即使在对称设定下也可能出现非对称均衡。随着信息成本上升，获取信息的交易者减少，但价格反而可能变得更具信息含量。这些结果有助于理解金融市场的不稳定性，并给出可检验的实证预测。",
+    "keywords": [
+      "策略交易模型",
+      "信息获取",
+      "均衡多重性",
+      "知情交易者",
+      "市场微观结构"
+    ],
+    "ai_comment": "论文将整数约束与跨类型知情交易者的策略互动引入信息获取模型，揭示了均衡多重性和非对称均衡，并给出信息成本与价格信息含量反向变化的反直觉结论，具有较强理论洞见和实证可检验性。",
+    "topic": "市场微观结构"
+  },
+  {
+    "id": "10.1287/mnsc.2024.07082",
+    "title": "Contest or Contract: Assessing the Effectiveness of Contests in Online Labor Markets",
+    "authors": [
+      "Jason Chan",
+      "Jiahui Mo",
+      "Tingting Nian",
+      "Nila Zhang"
+    ],
+    "abstract": "Online labor markets have become increasingly popular among companies seeking global access to workers. Some platforms have adopted a contest-based scheme, allowing employers to review multiple submissions before selecting the best one. This practice raises a crucial question: Given a predefined budget, should employers choose a contest or contract scheme for tasks? This study examines the comparative effectiveness of contests versus contracts in achieving better job outcomes, focusing on design tasks characterized by high uncertainty. Using a comprehensive data set from a leading online labor market, we employ multiple empirical strategies, combined with machine learning and text mining techniques, to examine the impact of compensation schemes on job quality. Our results suggest that contract-based jobs yield better performance than contests in the context of ideation tasks. Further analysis, such as examining image similarity among pairwise solutions within a task, identifies “copying” behaviors as a key mechanism undermining the effectiveness of contests. In the public setting of contests, workers can observe others’ submissions and revise their own, leading to imitation rather than innovation. As competition intensity increases, workers have weaker incentives to exert effort, reducing solution quality. Consequently, the negative incentive effects in contests outweigh both the potential positive incentive and parallel effects. Moreover, although information availability can enhance work quality, contests inherently offer limited informational advantages compared with contracts. Taken together, our findings suggest that contract-based schemes are more effective than contests for design tasks, offering important implications for both employers and platform designers in online labor markets. This paper was accepted by Karan Girotra, operations management. Funding: N. Zhang acknowledges the support from the National Natural Science Foundation of China [Grant 72302053]. Supplemental Material: The online appendices and data files are available at https://doi.org/10.1287/mnsc.2024.07082 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07082",
+    "published_date": "2026-10-29",
+    "source": "MS",
+    "first_seen": "2026-10-30",
+    "abstract_missing": false,
+    "summary": "本文研究在预算既定的情况下，雇主面对高不确定性的设计类（创意）任务时，应当选择竞赛（contest）还是合同（contract）报酬方案，并比较两者在多大程度上能带来更好的工作成果。作者使用某领先在线劳动力市场的综合数据集，结合多种实证策略以及 machine learning 与 text mining 技术，考察报酬方案对工作质量的影响。结果显示，在创意类任务中，合同制工作的表现优于竞赛制。进一步分析（例如考察同一任务内两两方案之间的图像相似度）表明，\"copying\" 行为是削弱竞赛效果的关键机制：在竞赛的公开设定下，工作者可以观察他人的提交并据此修改自己的方案，从而导致模仿而非创新；随着竞争强度上升，工作者付出努力的激励减弱，方案质量下降。因此，竞赛中的负向激励效应超过了其潜在的正向激励效应与平行效应（parallel effects）。此外，尽管信息可得性能够提升工作质量，但竞赛相对于合同本身所能提供的信息优势有限。总体而言，研究发现对于设计类任务，合同制方案比竞赛制更有效，这对在线劳动力市场中的雇主与平台设计者都具有重要启示。",
+    "keywords": [
+      "在线劳动力市场",
+      "竞赛机制",
+      "合同机制",
+      "模仿行为",
+      "machine learning"
+    ],
+    "ai_comment": "论文用图像相似度等细粒度证据识别出\"抄袭/模仿\"这一削弱竞赛效果的具体机制，把竞赛与合同的比较从激励强度推进到信息可见性与竞争强度的交互，对平台机制设计有直接价值。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1111/jofi.70100",
+    "title": "Do Experimental Asset Market Results Replicate? High‐Powered Preregistered Replications of 17 Key Results",
+    "authors": [
+      "Christoph Huber",
+      "Felix Holzmeister",
+      "Magnus Johannesson",
+      "Christian König‐Kersting",
+      "Anna Dreber",
+      "Jürgen Huber",
+      "Michael Kirchler"
+    ],
+    "abstract": "Experimental asset markets provide a controlled approach to studying financial markets. We attempt to replicate 17 key results from four prominent studies, collecting new data from 166 markets with 1,544 participants. Only three of the 14 original results reported as statistically significant were successfully replicated. We fail to replicate findings on emotions, self‐control, and gender differences in bubble formation but confirm that experience reduces bubbles and cognitive skills explain trading success. Our study demonstrates the importance of replications in enhancing the credibility of scientific results in this field.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70100",
+    "published_date": "2026-10-29",
+    "source": "JF",
+    "first_seen": "2026-10-30",
+    "abstract_missing": false,
+    "summary": "该研究针对实验资产市场领域关键结论的可复制性问题，采用高功效、预注册的复制设计，对四项知名研究中的17项关键结果进行系统复制，并收集了来自166个市场、1,544名参与者的新数据。结果发现，在原本报告为统计显著的14项结果中，仅有3项被成功复制；未能复制情绪、自我控制以及性别差异对泡沫形成的影响，但确认经验能够减少泡沫，且认知能力可以解释交易成功。论文据此强调，复制研究对于提升该领域科学结果的可信度具有重要意义。",
+    "keywords": [
+      "实验资产市场",
+      "可复制性",
+      "泡沫形成",
+      "认知能力",
+      "预注册研究"
+    ],
+    "ai_comment": "这是一项大规模、预注册的实验复制研究，其突出价值在于以严格设计检验实验资产市场若干经典结论的稳健性，并揭示部分广受引用的结果难以复制。研究对提升行为金融实验证据的可信度和推动领域自我纠错具有重要警示意义。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104388",
+    "title": "Decoupling voting and cash flow rights",
+    "authors": [
+      "Andre Speit",
+      "Paul Voss",
+      "András Danis"
+    ],
+    "abstract": "The equity lending and option market both allow investors to decouple voting and cash flow rights of common shares. We provide a theory of this decoupling. While either market enables investors to acquire voting rights without cash flow exposure, empirical studies demonstrate a substantial difference in implied vote prices. Our model explains this surprising difference by uncovering the mechanism by which vote prices in the equity lending market are endogenously lower than those implied by the option market. We show that even though votes are cheaper in the equity lending market, activists endogenously choose to purchase votes in both markets.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104388",
+    "published_date": "2026-10-29",
+    "source": "JFE",
+    "first_seen": "2026-10-30",
+    "abstract_missing": false,
+    "summary": "论文关注一个长期存在的现象：股权借贷市场（equity lending）与期权市场都能让投资者把普通股的投票权与现金流权分离，即在不承担现金流敞口的情况下取得投票权，但实证研究显示两个市场隐含的投票权价格存在显著差异。作者构建理论模型来解释这一差异，揭示了股权借贷市场的投票权价格为何会内生地低于期权市场所隐含的投票权价格，从而为两个市场定价不一致提供了机制性解释。模型进一步表明，尽管股权借贷市场上的投票权更便宜，积极投资者（activists）在均衡中仍会内生地选择同时在两个市场购买投票权，而非只依赖更便宜的一方。",
+    "keywords": [
+      "投票权分离",
+      "证券出借市场",
+      "期权市场",
+      "投票权价格",
+      "股东积极主义"
+    ],
+    "ai_comment": "论文把股权借贷与期权市场纳入同一框架，解释了同一投票权在两类市场出现系统性价差的成因，并给出了积极投资者跨市场同时买入投票权的内生均衡，对投票权溢价与股东积极主义研究具有启发意义。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2025.03608",
     "title": "Estimating the Pricing Kernel: A Simple Regression-Based Dimension-Reduction Approach",
     "authors": [
