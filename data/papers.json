@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1111/jofi.70099",
+    "title": "The Evolution of the Market for Corporate Control",
+    "authors": [
+      "Mike Burkart",
+      "Samuel Lee",
+      "Paul Voss"
+    ],
+    "abstract": "We consider an informed large shareholder who can choose between making a takeover bid herself and initiating a sale to another acquirer. Such takeover activism complements direct takeovers because the very choice mitigates the asymmetric information problem, thereby improving efficiency. As more investors enter the market for corporate control, takeover activism increasingly replaces direct takeovers as the prevailing mode of disciplinary control change, matching the evolution in practice. Our model shows how this evolution, characterized by a symbiotic relationship between investor activism and private equity, arises to overcome asymmetric information and collective action problems through intermediated transactions.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70099",
+    "published_date": "2026-10-30",
+    "source": "JF",
+    "first_seen": "2026-11-01",
+    "abstract_missing": false,
+    "summary": "论文研究公司控制权市场（market for corporate control）的演变，聚焦于一个拥有信息优势的大股东在两种路径之间的选择：自己发起收购要约（takeover bid），或启动程序将标的出售给另一位收购方。作者构建理论模型论证，这种“收购积极主义”（takeover activism）与直接收购形成互补关系：大股东做出选择这一行为本身就能缓解逆向选择式的信息不对称问题，从而提升效率。随着越来越多的投资者进入公司控制权市场，收购积极主义逐渐取代直接收购，成为实施纪律性控制权变更的主导方式，这与现实中观察到的演变趋势相吻合。模型进一步表明，这一演变体现出投资者积极主义与私募股权（private equity）之间的共生关系，其作用在于通过中介化交易（intermediated transactions）克服信息不对称与集体行动问题。",
+    "keywords": [
+      "公司控制权市场",
+      "收购积极主义",
+      "信息不对称",
+      "私募股权",
+      "集体行动问题"
+    ],
+    "ai_comment": "论文用一个简洁的理论模型把“积极主义股东转售给私募股权”这一中介化交易安排解释为缓解信息不对称与集体行动问题的制度回应，为控制权市场中直接收购向收购积极主义的转变提供了内在一致的解释。",
+    "topic": "公司治理"
+  },
+  {
     "id": "10.1287/mnsc.2024.08672",
     "title": "Inflexibility and Leverage",
     "authors": [
