@@ -1,5 +1,55 @@
 [
   {
+    "id": "10.1093/rfs/hhag096",
+    "title": "Forward Return Expectations",
+    "authors": [
+      "Mihir Gandhi",
+      "Niels Joachim Gormsen",
+      "Eben Lazarus"
+    ],
+    "abstract": "We measure investors’ short- and long-term stock-return expectations using both options and survey data. These expectations at different horizons reveal what investors think their own short-term expectations will be in the future, or forward return expectations. Across data sources, investors’ forward return expectations are countercyclical, especially when measured as forward risk premiums. This countercyclical variation is, however, excessive, as changes in forward return expectations are too large relative to subsequent realized short-term expectations. The excess variation in forward return expectations can help account for a meaningful share of the stock-price declines during the global financial crisis and the COVID-19 crisis. (JEL G10, G12, G40)",
+    "url": "https://doi.org/10.1093/rfs/hhag096",
+    "published_date": "2026-11-03",
+    "source": "RFS",
+    "first_seen": "2026-11-04",
+    "abstract_missing": false,
+    "summary": "本文利用期权数据和问卷调查两类数据，测度投资者对短期与长期股票收益率的预期，并由此反推投资者当前对“自己未来短期预期”的判断，即前瞻收益预期（forward return expectations）。研究发现，跨数据源一致显示，投资者的前瞻收益预期呈逆周期特征，若以前瞻风险溢价衡量则尤为明显。但这一逆周期变化幅度过大：相对于随后实现的短期预期，前瞻收益预期的变动显著偏大，存在过度波动；而这种过度变动能够解释全球金融危机与 COVID-19 危机期间股价下跌的一个可观份额。",
+    "keywords": [
+      "前瞻收益预期",
+      "逆周期性",
+      "期权与调查数据",
+      "风险溢价",
+      "股价下跌"
+    ],
+    "ai_comment": "论文的创新之处在于同时用期权与调查数据刻画不同期限的预期，并从中剥离出投资者对未来短期预期的判断这一难以直接观测的变量，指出其逆周期波动超出理性基准，并为两次危机中的股价下跌提供了新的解释渠道。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1093/rfs/hhag095",
+    "title": "The Cross-section of Subjective Expectations: Understanding Prices and Anomalies",
+    "authors": [
+      "Ricardo Delao",
+      "Xiao Han",
+      "Sean Myers"
+    ],
+    "abstract": "We decompose cross-sectional differences in the level of price-earnings ratios using professional forecasts. High price-earnings ratios are accounted for by both low expected returns and overly high expected earnings growth. The magnitudes and timing of the comovements between prices, earnings growth, and returns are consistent with gradual learning rather than expectations being highly sensitive to recent realizations. Earnings growth surprises do not translate 1-1 into one-period returns but instead are gradually reflected in returns over time. A structural risk-premium model incorporating constant-gain learning about mean earnings growth replicates our findings and generates realistic dispersion and persistence in price-earnings ratios. (JEL G11, G12, G14, G40)",
+    "url": "https://doi.org/10.1093/rfs/hhag095",
+    "published_date": "2026-11-03",
+    "source": "RFS",
+    "first_seen": "2026-11-04",
+    "abstract_missing": false,
+    "summary": "本文利用专业分析师预测来分解市盈率（price-earnings ratios）水平上的横截面差异，考察估值差异究竟来自预期收益还是预期盈利增长。研究发现，高市盈率同时由两方面因素解释：一是较低的预期收益，二是过高的预期盈利增长。价格、盈利增长与收益之间的联动在幅度与时序上更符合“渐进学习”（gradual learning）的特征，而非预期对近期实现值高度敏感。盈利增长意外并不会一比一地转化为当期收益，而是随着时间逐步反映到收益中。作者进一步构建了一个包含对平均盈利增长进行 constant-gain learning 的结构性风险溢价模型，该模型能够复现上述实证发现，并生成与现实相符的市盈率离散度与持续性。",
+    "keywords": [
+      "市盈率",
+      "分析师预期",
+      "渐进学习",
+      "横截面异象",
+      "风险溢价"
+    ],
+    "ai_comment": "论文把主观预期引入市盈率的横截面分解，同时解释估值水平差异与收益可预测性异象，并用 constant-gain learning 的结构模型把“预期调整缓慢”这一行为特征与风险溢价统一起来，为理解估值与异象提供了新的视角。",
+    "topic": "资产定价"
+  },
+  {
     "id": "w35982",
     "title": "Green Tastes, Beliefs, and Portfolios: Evidence from Synthetic Investors",
     "authors": [
@@ -270,6 +320,32 @@
       "溢出效应"
     ],
     "ai_comment": "论文将 NIIP 变动系统性分解为金融与贸易两类直接驱动因素，并通过四类情景模拟量化“蛛网式”国际暴露下的溢出效应，其突出价值在于揭示估值渠道主导的失衡既支撑增长又积累脆弱性，且各类再平衡机制对各国影响高度异质、常见政策提案收效有限。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "10.1111/jofi.70097",
+    "title": "Unintended Consequences of Holding Dollar Assets",
+    "authors": [
+      "Robert Czech",
+      "Shiyang Huang",
+      "Dong Lou",
+      "Tianyu Wang"
+    ],
+    "abstract": "We propose and examine a novel mechanism whereby holdings of dollar assets by foreign institutions can have a large, unexpected impact on foreign Treasury yields in crisis periods. Non‐U.S. institutions hold substantial dollar assets and hedge dollar exposures by selling dollars forward. In crisis periods, the dollar appreciates against other currencies. To meet margin calls on foreign exchange (FX) hedging positions, traditionally passive institutions liquidate domestic safe assets to raise cash. We show that during the recent COVID crisis, U.K. institutions with substantial dollar holdings and FX hedging positions sold large amounts of gilts, contributing significantly to the observed gilt yield spike.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70097",
+    "published_date": "2026-11-02",
+    "source": "JF",
+    "first_seen": "2026-11-04",
+    "abstract_missing": false,
+    "summary": "本文提出并检验了一种新机制：外国机构持有美元资产会在危机时期对其本国国债收益率产生巨大且出乎意料的影响。非美机构持有大量美元资产，并通过远期卖出美元来对冲美元敞口。在危机时期，美元相对其他货币升值，为满足外汇（FX）对冲头寸的追加保证金要求，传统上较为被动的机构会抛售本国安全资产以筹集现金。作者以近期 COVID 危机为情境进行实证考察，发现持有大量美元资产并拥有外汇对冲头寸的英国机构大量抛售英国国债（gilts），对当时观察到的英国国债收益率飙升有显著贡献。",
+    "keywords": [
+      "美元资产",
+      "外汇对冲",
+      "英国国债",
+      "收益率飙升",
+      "追加保证金"
+    ],
+    "ai_comment": "论文揭示了外币资产持有与对冲行为的跨国溢出效应，把危机中美元升值、保证金压力与本国安全资产抛售联系起来，为 COVID 期间英国国债收益率异动提供了新的微观解释，也凸显了非美机构美元敞口对本国金融稳定的潜在风险。",
     "topic": "国际金融"
   },
   {
