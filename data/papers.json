@@ -1,5 +1,81 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104398",
+    "title": "Shadow banks on the rise: Evidence across market segments",
+    "authors": [
+      "Kim Fe Cramer",
+      "Pulak Ghosh",
+      "Nirupama Kulkarni",
+      "Nishant Vats"
+    ],
+    "abstract": "This paper examines the comparative advantages of shadow banks across market segments. Combining credit bureau data on retail loans in India with weather shocks as a proxy for credit demand, we show that Fintechs respond more in uncollateralized markets. In contrast, non-Fintech shadow banks exhibit stronger responsiveness in collateralized markets. Exploiting geographic heterogeneity in the adoption of digital payments, we identify technology as the key advantage for Fintechs. Leveraging four natural experiments, we document the significance of lower regulation for non-Fintech shadow banks. Our results suggest that the comparative advantage of shadow banks differs across market segments.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104398",
+    "published_date": "2026-11-05",
+    "source": "JFE",
+    "first_seen": "2026-11-05",
+    "abstract_missing": false,
+    "summary": "本文研究影子银行（shadow banks）在不同细分市场中的比较优势。作者将印度零售贷款的征信局数据与作为信贷需求代理变量的天气冲击相结合，考察不同类型影子银行对需求变化的响应差异。结果显示，Fintech 类影子银行在无抵押（uncollateralized）市场中的响应更强，而非 Fintech 影子银行在有抵押（collateralized）市场中的响应更强。作者进一步利用数字支付采用程度的地理异质性，将技术识别为 Fintech 的关键优势；并通过四项自然实验，记录了较低监管约束对非 Fintech 影子银行的重要性。总体结果表明，影子银行的比较优势在不同细分市场之间存在差异。",
+    "keywords": [
+      "影子银行",
+      "金融科技",
+      "信贷市场细分",
+      "抵押品",
+      "数字支付"
+    ],
+    "ai_comment": "论文用天气冲击作为信贷需求识别、以数字支付采用的地理差异刻画技术优势，并借四项自然实验区分监管因素，较清晰地拆解了 Fintech 与非 Fintech 影子银行各自的比较优势来源。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1111/jofi.70098",
+    "title": "Is Informed Short Selling Concentrated in Family Firms? Evidence from a Reinvestigation",
+    "authors": [
+      "Ferhat Akbas",
+      "Minjie Huang",
+      "Felix Meschke"
+    ],
+    "abstract": "We reinvestigate Anderson, Reeb, and Zhao's findings that informed short selling is unique to family firms and driven by information leakage from internal disputes. Using the same firm sample and more comprehensive short‐selling data, we find that short selling predicts future returns in both family and nonfamily firms. We also find no significant difference in abnormal short selling before negative earnings announcements. In extended sample periods, short selling continues to predict returns for nonfamily firms under both ownership‐based and familial‐link definitions. Overall, our evidence suggests that short sellers are broadly informed and that family firms are not uniquely vulnerable.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70098",
+    "published_date": "2026-11-04",
+    "source": "JF",
+    "first_seen": "2026-11-05",
+    "abstract_missing": false,
+    "summary": "本文重新检验 Anderson、Reeb 和 Zhao 提出的结论：有信息的卖空只出现在家族企业中，并且源于内部纠纷导致的信息泄露。作者使用相同的企业样本以及更全面的卖空数据，发现卖空在家族企业和非家族企业中都能预测未来收益；在负面的盈余公告之前，两类企业的异常卖空也没有显著差异。在扩展样本期后，无论按所有权定义还是按家族关联定义，卖空对非家族企业的收益预测能力依然成立。总体而言，证据表明卖空者普遍掌握信息，家族企业并不比其他企业更易被有信息优势的卖空者利用。",
+    "keywords": [
+      "卖空",
+      "家族企业",
+      "信息泄露",
+      "盈余公告",
+      "收益预测"
+    ],
+    "ai_comment": "该文用同一样本，配合更完整的卖空数据和更长的样本期来挑战已有结论，提示此前“家族企业独有”的发现可能源于数据覆盖不足，对理解卖空的信息含量与家族企业脆弱性具有修正意义。",
+    "topic": "市场微观结构"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104403",
+    "title": "China Walls",
+    "authors": [
+      "Tomy Lee",
+      "Daniel Nathan",
+      "Chaojun Wang"
+    ],
+    "abstract": "We evaluate the enforcement of China Walls—information barriers within conglomerates. We focus on July 2018, when the SEC tightened enforcement around broker-dealer subsidiaries, and on the 25 million Israeli Shekel trades over 2018–2024. Our difference-in-differences design compares a dealer’s affiliate, connected, and unrelated funds on days when the dealer likely obtained valuable information. Before July 2018, dealers share information with their affiliate and connected funds. After July 2018: the sharing ceases only with the affiliate funds; price discovery slows; trading costs fall for affiliate funds and rise for other funds. Tightly enforced walls eliminated 99.0% of affiliate funds’ event-day profits.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104403",
+    "published_date": "2026-11-04",
+    "source": "JFE",
+    "first_seen": "2026-11-05",
+    "abstract_missing": false,
+    "summary": "论文评估了企业集团内部信息隔离墙（China Walls）的实际执行效果。研究以 2018 年 7 月为关键时点——美国 SEC 加强了对券商经纪自营子公司（broker-dealer subsidiaries）的执法，并利用 2018–2024 年间约 2500 万笔以色列谢克尔（Israeli Shekel）交易数据。作者采用双重差分（DiD）设计，在券商很可能获取有价值信息的交易日，比较其关联基金（affiliate funds）、关联方基金（connected funds）与无关联基金（unrelated funds）的表现。结果显示：2018 年 7 月之前，券商确实会向关联基金和关联方基金传递信息；2018 年 7 月之后，信息共享仅在与关联基金之间停止，价格发现速度放缓，关联基金的交易成本下降、其他基金的交易成本上升；严格执行的隔离墙消除了关联基金事件日利润的 99.0%。",
+    "keywords": [
+      "信息隔离墙",
+      "价格发现",
+      "交易成本",
+      "证券经纪商",
+      "DiD"
+    ],
+    "ai_comment": "论文利用 SEC 执法冲击与高频、细颗粒度的以色列谢克尔交易数据，为集团内部信息流动及隔离墙的实际约束力提供了少见而直接的因果证据，并揭示出隔离墙对价格发现和不同基金交易成本的非对称影响。",
+    "topic": "市场微观结构"
+  },
+  {
     "id": "10.1093/rfs/hhag096",
     "title": "Forward Return Expectations",
     "authors": [
@@ -71938,6 +72014,24 @@
     "topic": "其他"
   },
   {
+    "title": "Amusing Ourselves to Death? Education and Careers Under Digital Influence",
+    "authors": [
+      "Lin William Cong",
+      "Siguang Li"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.4830986",
+    "published_date": "2024-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.4830986",
+    "first_seen": "2026-11-05",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "id": "10.1111/jofi.13307",
     "title": "The Narrow Channel of Quantitative Easing: Evidence from YCC Down Under",
     "authors": [
@@ -91279,6 +91373,45 @@
     "topic": "其他"
   },
   {
+    "title": "A Race to Lead: How Chinese Government Interventions Shape U.S.-China Production Competition",
+    "authors": [
+      "Xiao Cen",
+      "Vyacheslav Fos",
+      "Wei Jiang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3564494",
+    "published_date": "2020-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3564494",
+    "first_seen": "2026-11-05",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "A q Theory of Internal Capital Markets",
+    "authors": [
+      "Min Dai",
+      "Xavier Giroud",
+      "Wei Jiang",
+      "Neng Wang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3704072",
+    "published_date": "2020-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3704072",
+    "first_seen": "2026-11-05",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "Predicting Returns With Text Data",
     "authors": [
       "Ke Zheng",
@@ -91805,6 +91938,26 @@
     "topic": "其他"
   },
   {
+    "title": "Uncovering Hedge Fund Skill from the Portfolio Holdings They Hide",
+    "authors": [
+      "Vikas Agarwal",
+      "Wei Jiang",
+      "Yuehua Tang",
+      "Baozhong Yang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.1787171",
+    "published_date": "2012-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.1787171",
+    "first_seen": "2026-11-05",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "Eliciting Market Expectations in Data-Rich Environments",
     "authors": [
       "Bryan T. Kelly",
@@ -91955,6 +92108,30 @@
     "topic": "其他"
   },
   {
+    "title": "What Comes to Mind",
+    "authors": [
+      "Nicola Gennaioli",
+      "Andrei Shleifer"
+    ],
+    "abstract": "We present a model of judgment under uncertainty, in which an agent combines data received from the external world with information retrieved from memory to evaluate a hypothesis. We focus on what comes to mind immediately, as the agent makes quick, intuitive evaluations. Because the automatic retrieval of data from memory is both limited and selected, the agent's evaluations may be severely biased. This framework can account for some of the evidence on heuristics and biases presented by Kahneman and Tversky, including conjunction and disjunction fallacies.",
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/nber_w15084.pdf?abstractid=1422963",
+    "published_date": "2009-06-01",
+    "source": "SSRN",
+    "doi": "",
+    "first_seen": "2026-11-05",
+    "abstract_missing": false,
+    "summary": "本文提出一个关于不确定性下判断（judgment under uncertainty）的模型：个体在评估某个假设时，会把从外部世界接收到的数据与从记忆中提取的信息结合起来。研究关注的是个体进行快速、直觉式评估时“最先想到”的内容，即即时涌现的记忆。由于记忆的自动提取既受容量限制又具有选择性，个体的评估可能出现严重偏差。该框架能够解释 Kahneman 与 Tversky 提出的部分启发式与偏差（heuristics and biases）证据，其中包括合取谬误与析取谬误（conjunction and disjunction fallacies）。",
+    "keywords": [
+      "判断与决策",
+      "记忆检索",
+      "启发式与偏差",
+      "合取谬误",
+      "不确定性"
+    ],
+    "ai_comment": "论文将记忆提取的有限性与选择性作为微观基础，把多种启发式偏差纳入统一的理论框架，并为合取谬误、析取谬误提供了认知机制上的解释，是行为决策理论与心理学证据对接的有益尝试。",
+    "topic": "行为金融"
+  },
+  {
     "title": "A Model of Casino Gambling",
     "authors": [
       "Nicholas Barberis"
@@ -91967,6 +92144,42 @@
     "first_seen": "2026-05-01",
     "abstract_missing": true,
     "summary": null,
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Litigation and Regulation",
+    "authors": [
+      "Joshua Schwartzstein",
+      "Andrei Shleifer"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.1344505",
+    "published_date": "2009-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.1344505",
+    "first_seen": "2026-11-05",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Unstable Banking",
+    "authors": [
+      "Andrei Shleifer",
+      "Robert W. Vishny"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.1396805",
+    "published_date": "2009-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.1396805",
+    "first_seen": "2026-11-05",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
     "ai_comment": "",
     "topic": "其他"
@@ -92012,6 +92225,43 @@
     ],
     "ai_comment": "该文将“实现效用”形式化，以简洁模型统一解释了处置效应、个人投资者绩效差等多个行为金融异象，并给出反直觉的预测——线性或凹的实现效用亦可导致风险寻求，对理解投资者交易行为与资产定价异象具有启发意义。",
     "topic": "行为金融"
+  },
+  {
+    "title": "Politics and Entrepreneurship in Transition Economies",
+    "authors": [
+      "Simon Johnson",
+      "Daniel Kaufmann",
+      "Andrei Shleifer"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.1117620",
+    "published_date": "2008-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.1117620",
+    "first_seen": "2026-11-05",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Unofficial Economy and Economic Development",
+    "authors": [
+      "Rafael La Porta",
+      "Andrei Shleifer"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.1304760",
+    "published_date": "2008-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.1304760",
+    "first_seen": "2026-11-05",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
   },
   {
     "title": "Realization Utility: A Psychology-Based Model of Investor Trading Behavior",
@@ -92177,6 +92427,25 @@
     "topic": "其他"
   },
   {
+    "title": "Coarse Thinking and Persuasion",
+    "authors": [
+      "Andrei Shleifer",
+      "Sendhil Mullainathan",
+      "Joshua Schwartzstein"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.945674",
+    "published_date": "2006-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.945674",
+    "first_seen": "2026-11-05",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
     "title": "Stocks as Lotteries: The Implications of Probability Weighting for Security Prices",
     "authors": [
       "Nicholas Barberis",
@@ -92206,6 +92475,101 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.649421",
     "first_seen": "2026-09-23",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "The Law and Economics of Self-Dealing",
+    "authors": [
+      "Simeon Djankov",
+      "Florencio López de Silanes",
+      "Rafael La Porta",
+      "Andrei Shleifer"
+    ],
+    "abstract": "We present a new measure of legal protection of minority shareholders against expropriation by corporate insiders: the anti-self-dealing index. Assembled with the help of Lex Mundi law firms, the index is calculated for 72 countries based on legal rules prevailing in 2003, and focuses on private enforcement mechanisms, such as disclosure, approval, and litigation, governing a specific self-dealing transaction. This theoretically-grounded index predicts a variety of stock market outcomes, and generally works better than the commonly used index of anti-director rights.",
+    "url": "https://doi.org/10.2139/ssrn.864645",
+    "published_date": "2005-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.864645",
+    "first_seen": "2026-11-05",
+    "abstract_missing": false,
+    "summary": "论文构建了一个衡量少数股东免受公司内部人侵占的法律保护程度的新指标——anti-self-dealing index（反自我交易指数）。该指数在 Lex Mundi 律所的协助下，依据 2003 年生效的法律规则对 72 个国家进行打分，重点考察私人执行机制，即针对某一具体自我交易交易而设的披露、批准与诉讼安排，而非仅停留在法条纸面。作者指出该指数具有理论依据，能够预测多种股票市场结果，并且在解释力上总体优于文献中常用的 anti-director rights（反董事权利）指数。",
+    "keywords": [
+      "反自我交易指数",
+      "少数股东保护",
+      "投资者法律保护",
+      "公司法",
+      "股票市场发展"
+    ],
+    "ai_comment": "文章的核心贡献在于把“投资者保护”从笼统的反董事权利口号落到可观测的具体交易与私人执行环节，用律所问卷手工编码出跨国可比指标，为法律与金融文献提供了更精细的度量工具。",
+    "topic": "公司治理"
+  },
+  {
+    "title": "The Law and Economics of Self-Dealing December 1st, 2005",
+    "authors": [
+      "Simeon Djankov",
+      "Rafael La Porta",
+      "Florencio López‐de‐Silanes",
+      "Andrei Shleifer"
+    ],
+    "abstract": "We present a new measure of legal protection of minority shareholders against expropriation by corporate insiders: the anti-self-dealing index. Assembled with the help of Lex Mundi law firms, the index is calculated for 72 countries based on legal rules prevailing in 2003, and focuses on private enforcement mechanisms, such as disclosure, approval, and litigation, governing a specific self-dealing transaction. This theoretically-grounded index predicts a variety of stock market outcomes, and generally works better than the commonly used index of anti-director rights.",
+    "url": "http://conference.darden.virginia.edu/ifc/PDFs/La%20Porta%20_%20Rafael.pdf",
+    "published_date": "2005-01-01",
+    "source": "SSRN",
+    "doi": "",
+    "first_seen": "2026-11-05",
+    "abstract_missing": false,
+    "summary": "本文针对公司内部人侵占少数股东利益的问题，构建了一个新的法律保护度量指标——反自我交易指数（anti-self-dealing index）。该指数在 Lex Mundi 律所协助下，基于 2003 年生效的法律规则，覆盖 72 个国家，重点考察针对某一具体自我交易交易而设置的私人执法机制，包括信息披露、批准程序和诉讼等。研究显示，这一具有理论基础的指数能够预测多种股票市场结果，并且总体上比常用的反董事权利指数（anti-director rights index）表现更好。",
+    "keywords": [
+      "反自我交易指数",
+      "少数股东保护",
+      "私人执法机制",
+      "股票市场表现",
+      "公司法"
+    ],
+    "ai_comment": "论文的核心贡献在于用跨国法律规则数据构建了理论上更聚焦的反自我交易指数，并将私人执法机制纳入少数股东保护度量。其实证结果表明该指数对股票市场结果具有更强解释力，也凸显了仅依赖反董事权利指数的局限。",
+    "topic": "公司治理"
+  },
+  {
+    "title": "The Evolution of Precedent",
+    "authors": [
+      "Nicola Gennaioli",
+      "Andrei Shleifer"
+    ],
+    "abstract": "We evaluate Richard Posner's famous hypothesis that common law converges to efficient legal rules using a model of precedent setting by appellate judges. Following legal realists, we assume that judicial decisions are subject to personal biases, and that changing precedent is costly to judges. We consider separately the evolution of precedent under judicial overruling of previous decisions, as well as under distinguishing cases based on new material dimensions. Convergence to efficient legal rules occurs only under very special circumstances, but the evolution of precedent over time is on average beneficial under more plausible conditions.",
+    "url": "https://doi.org/10.2139/ssrn.687801",
+    "published_date": "2005-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.687801",
+    "first_seen": "2026-11-05",
+    "abstract_missing": false,
+    "summary": "本文通过构建上诉法官设定先例的模型，评估 Richard Posner 关于普通法会收敛至有效法律规则的著名假说。作者遵循法律现实主义者的假设，认为司法裁判会受到个人偏误影响，并且法官改变先例是有成本的。论文分别考察了两种情形下先例的演化：法官推翻先前判决，以及基于新的实质性维度区分案件。研究发现，向有效法律规则的收敛只在非常特殊的条件下才会发生；但在更合理的条件下，先例随时间演化平均而言是有益的。",
+    "keywords": [
+      "普通法",
+      "先例",
+      "司法决策",
+      "效率",
+      "法经济学"
+    ],
+    "ai_comment": "论文将 Posner 的普通法效率假说形式化为上诉法官的先例设定模型，并区分“推翻先例”与“区分案件”两条演化机制，指出收敛至有效规则虽属特殊情形，但先例演化在更现实条件下仍可能平均改善。",
+    "topic": "其他"
+  },
+  {
+    "title": "Private Credit in 129 Countries",
+    "authors": [
+      "Simeon Djankov",
+      "Caralee McLiesh",
+      "Andrei Shleifer"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.637301",
+    "published_date": "2005-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.637301",
+    "first_seen": "2026-11-05",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
