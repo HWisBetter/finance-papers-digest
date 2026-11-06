@@ -1,5 +1,53 @@
 [
   {
+    "id": "10.1111/1475-679x.70095",
+    "title": "The Anti‐SLAPP Statutes and Corporate Environmental Policies",
+    "authors": [
+      "Kevin C.W. Chen",
+      "Zhihong Chen",
+      "Chengzhu Sun"
+    ],
+    "abstract": "We examine whether legal protection for civic participation affects corporate pollution. Polluters may deter public discipline through strategic lawsuits. Anti‐SLAPP (Strategic Lawsuit Against Public Participation) statutes mitigate this threat by enabling prompt dismissal and recovery of legal costs. Using a difference‐in‐differences design, we find that enacting an anti‐SLAPP statute in a state significantly reduces toxic emissions from that state by increasing local public pressure. The reduction is greater when the statutes provide stronger protection, when local stakeholders have stronger incentives and abilities to discipline polluters, and when local public pressure increases more after the enactment. Plants lower emissions by improving abatement rather than by reducing output or relocating emissions. Our paper underscores the role of legal protection in environmental governance and informs policy debates over anti‐SLAPP legislation.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70095",
+    "published_date": "2026-11-05",
+    "source": "JAR",
+    "first_seen": "2026-11-06",
+    "abstract_missing": false,
+    "summary": "本文研究法律对公民参与的保护是否会影响企业污染行为。污染者可能通过策略性诉讼（SLAPP）威慑公众监督，而 anti-SLAPP 法规允许快速驳回并追回法律费用，从而削弱这一威胁。论文采用 difference-in-differences 设计，发现某州颁布 anti-SLAPP 法规后，该州的有毒排放显著下降，其机制是增强了当地公众压力。这种减排效应在以下情形下更强：法规提供的保护更有力、当地利益相关者有更强的动机和能力约束污染者、以及法规颁布后当地公众压力上升更多。进一步分析表明，工厂是通过改进减排（abatement）而非削减产量或转移排放来降低排放的。论文强调法律保护在环境治理中的作用，并为关于 anti-SLAPP 立法的政策讨论提供依据。",
+    "keywords": [
+      "anti-SLAPP 法规",
+      "环境治理",
+      "有毒排放",
+      "公众压力",
+      "双重差分"
+    ],
+    "ai_comment": "论文把公民参与的法律保护引入环境治理研究，用 anti-SLAPP 立法作为外生冲击，识别公众监督对减排的因果作用，并区分减排、减产与转移排放三种渠道，机制刻画细致。",
+    "topic": "会计与信息披露"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104405",
+    "title": "Financial constraints and the transmission of monetary policy: Evidence from relaxation of collateral constraints",
+    "authors": [
+      "Nishant Vats"
+    ],
+    "abstract": "How do financial constraints affect the transmission of monetary policy? I examine this question using the staggered enactment of anti-recharacterization legislation as a source of exogenous variation in creditor rights that loosens firm-financial constraints. A 25 basis-point expansionary monetary policy shock results in a 2 percentage-point higher investment growth among treated (unconstrained) firms. Using a Heterogeneous-Firm-New-Keynesian model, I estimate that the law relaxed firm collateral constraint by 16%. The model highlights the mechanism that the relaxation of collateral constraint flattens the firm marginal cost curve, which amplifies responses to shifts in the marginal benefit curve due to monetary policy shocks.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104405",
+    "published_date": "2026-11-05",
+    "source": "JFE",
+    "first_seen": "2026-11-06",
+    "abstract_missing": false,
+    "summary": "本文研究金融约束如何影响货币政策的传导。作者利用美国各州反再定性法案（anti-recharacterization legislation）错时颁布所带来的债权人权利外生变化，将这一立法冲击作为放松企业金融约束的来源，并在此基础上考察企业对货币政策的投资反应。结果显示，面对 25 个基点的扩张性货币政策冲击，处理组（即约束被放松、变得不受约束）企业的投资增长率高出约 2 个百分点。为进一步量化机制，作者构建异质性企业新凯恩斯模型（Heterogeneous-Firm-New-Keynesian model）进行结构估计，发现该法案使企业抵押约束放松了约 16%。模型揭示的核心机制是：抵押约束的放松使企业边际成本曲线更加平坦，从而放大企业对货币政策冲击所引起的边际收益曲线移动的反应，即金融约束越松，投资对货币政策的敏感度越高。",
+    "keywords": [
+      "抵押约束",
+      "货币政策传导",
+      "企业投资",
+      "新凯恩斯模型",
+      "金融摩擦"
+    ],
+    "ai_comment": "论文将债权人权利的立法变化作为外生冲击，把简约式证据与异质性企业新凯恩斯模型的结构估计结合，不仅量化出抵押约束放松 16%，还用“边际成本曲线变平”这一机制解释了货币政策传导强度的异质性来源，兼具识别清晰度与机制解释力。",
+    "topic": "宏观金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104398",
     "title": "Shadow banks on the rise: Evidence across market segments",
     "authors": [
@@ -423,6 +471,53 @@
     ],
     "ai_comment": "论文揭示了外币资产持有与对冲行为的跨国溢出效应，把危机中美元升值、保证金压力与本国安全资产抛售联系起来，为 COVID 期间英国国债收益率异动提供了新的微观解释，也凸显了非美机构美元敞口对本国金融稳定的潜在风险。",
     "topic": "国际金融"
+  },
+  {
+    "id": "10.1287/mnsc.2024.07656",
+    "title": "Dollar Dominance in FX Trading",
+    "authors": [
+      "Fabricius Somogyi"
+    ],
+    "abstract": "Over 85% of all foreign exchange (FX) transactions involve the U.S. dollar, whereas the United States accounts for a much smaller fraction of global economic activity. My paper attributes the dominance of the dollar in FX trading to strategic avoidance of price impact. Using a novel identification strategy, I show that, on average, 13% of the volume in dollar pairs arises from using the dollar as a vehicle currency to indirectly exchange two nondollar currencies. To rationalise this result, I derive three model-based conditions for dollar dominance. I empirically test these conditions and provide evidence consistent with the theoretical framework. This paper was accepted by Lukas Schmid, finance. Funding: F. Somogyi acknowledges financial support from the Swiss National Science Foundation (SNSF) [Grant 195095]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07656 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07656",
+    "published_date": "2026-11-01",
+    "source": "MS",
+    "first_seen": "2026-11-06",
+    "abstract_missing": false,
+    "summary": "论文关注美元在全球外汇交易中占据主导地位这一现象：超过85%的外汇交易涉及美元，而美国在全球经济活动中的占比远小于这一比例。作者将美元在外汇交易中的主导地位归因于交易者对价格冲击（price impact）的策略性规避。通过一种新的识别策略，作者发现美元货币对（dollar pairs）的成交量中平均有13%来自把美元作为媒介货币（vehicle currency），从而间接完成两种非美元货币之间的兑换。为解释这一结果，作者推导出美元主导地位成立的三个基于模型的条件，并对这些条件进行实证检验，所得证据与理论框架一致。",
+    "keywords": [
+      "美元主导地位",
+      "外汇交易",
+      "媒介货币",
+      "价格冲击",
+      "识别策略"
+    ],
+    "ai_comment": "论文用巧妙的识别策略把美元作为媒介货币的间接交易量剥离出来，量化了策略性规避价格冲击对美元主导地位的贡献，并以模型条件加实证检验形成闭环，为汇率市场的货币结构提供了新解释。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "10.1287/mnsc.2022.02622",
+    "title": "Building Careers in Project-Based Organizations: Breadth, Fit, and the Path to Advancement",
+    "authors": [
+      "Federica De Stefano",
+      "Matthew Bidwell"
+    ],
+    "abstract": "Project-based organizations allow employees in ostensibly similar roles to acquire very different experiences by working on different kinds of projects. We study how people build careers in these contexts, examining when employees choose to diversify their experience—both in terms of project content and collaborators—and how the resulting diversification affects their career advancement. Using longitudinal project data from a services organization, our results suggest that employees initially explore different kinds of work by moving across project types, but then go on to find their fit in a particular area. This process is quicker for high-performing employees and for those with longer tenure and more diverse collaborator networks. We also find that promotion rates and compensation are lower for employees who worked on a broader portfolio of content types and collaborators in the most recent year, but higher for employees who had worked on broader project portfolios in prior years. This paper was accepted by Lamar Pierce, organizations. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2022.02622 .",
+    "url": "https://doi.org/10.1287/mnsc.2022.02622",
+    "published_date": "2026-11-01",
+    "source": "MS",
+    "first_seen": "2026-11-06",
+    "abstract_missing": false,
+    "summary": "论文研究项目型组织中员工如何构建职业生涯，重点考察员工何时会在项目内容与合作伙伴两个维度上多样化自身经验，以及这种多样化如何影响职业晋升。作者使用一家服务型组织的纵向项目数据，发现员工最初会通过跨不同项目类型来探索不同类型的工作，随后逐渐在某一特定领域找到与自身的匹配；这一过程对高绩效员工、任职时间较长以及合作伙伴网络更多样化的员工而言更快。研究还发现，在最近一年内参与过更广泛内容类型和合作伙伴组合的员工，其晋升率和薪酬较低；但若在更早年份拥有更广泛的项目组合，其晋升率和薪酬反而更高。",
+    "keywords": [
+      "项目型组织",
+      "职业发展",
+      "经验多样化",
+      "人员匹配",
+      "晋升与薪酬"
+    ],
+    "ai_comment": "论文将经验多样化拆分为项目内容与合作伙伴两个维度，并区分最近一年与过往年份的作用，揭示了短期广度可能不利、长期广度反而有益的动态机制。基于纵向项目数据的实证设计为理解项目型组织中的职业成长提供了细致证据。",
+    "topic": "其他"
   },
   {
     "id": "10.1111/jofi.70099",
