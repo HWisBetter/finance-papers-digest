@@ -1,5 +1,32 @@
 [
   {
+    "id": "10.1287/mnsc.2026.00623",
+    "title": "Generative Artificial Intelligence and Sales Productivity: Field Experiments in Online Retail",
+    "authors": [
+      "Lu Fang",
+      "Zhe Yuan",
+      "Kaifu Zhang",
+      "Dante Donati",
+      "Miklos Sarvary"
+    ],
+    "abstract": "We quantify the short-term impact of generative artificial intelligence (GenAI) on sales performance through a series of large-scale randomized field experiments involving millions of users and products at a leading crossborder online retail platform. Over 2023–2024, the platform integrated GenAI into seven business workflows spanning customer service, consumer-product matching, advertising, and seller services. We find that GenAI adoption increases sales in most workflows, with effects ranging from no detectable impact to 16.3% depending on GenAI’s marginal contribution relative to baseline firm practices. Across the four GenAI applications with positive sales effects, the implied annual incremental value is roughly $5 per consumer—an economically meaningful impact given the retailer’s scale and the early stage of GenAI adoption. The gains operate primarily through higher conversion rates rather than larger cart values, consistent with GenAI improving the shopping experience by reducing search, information, communication, and personalization frictions. Importantly, these effects are not associated with worse postpurchase outcomes as product return rates and customer ratings do not deteriorate. Finally, we document substantial demand-side heterogeneity, with larger gains for less experienced consumers. Our findings provide novel, large-scale causal evidence on how GenAI shapes sales productivity in online retail, highlighting both its immediate value and broader potential. This paper was accepted by Jean-Pierre Dube, marketing. Funding: L. Fang acknowledges financial support from the National Natural Science Foundation of China [Grants 72501258 and 72192803], the Major Special Project in Philosophy and Social Sciences of the Ministry of Education of China [Grant 2026JZDZ020], the National Social Science Fund of China [Grant 22&ZD081]. Z. Yuan acknowledges financial support from the National Key Research and Development Project [Grant 2024YFB3312900], the National Natural Science Foundation of China [Grants 72141305 and 72203202], the National Social Science Fund of China [Grants 26ZDA030 and 25&ZD149], and the Fundamental Research Funds for the Central Universities. K. Zhang, D. Donati, and M. Sarvary have no funding to report. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2026.00623 .",
+    "url": "https://doi.org/10.1287/mnsc.2026.00623",
+    "published_date": "2026-11-06",
+    "source": "MS",
+    "first_seen": "2026-11-07",
+    "abstract_missing": false,
+    "summary": "该文通过一系列大规模随机田野实验，量化生成式人工智能（GenAI）对销售绩效的短期影响：实验对象为某领先跨境电商平台上的数百万用户与产品。2023—2024 年间，该平台将 GenAI 嵌入客户服务、消费者—产品匹配、广告和卖家服务等七个业务工作流。研究发现，多数工作流在采用 GenAI 后销售额上升，效应大小从无法检测到 16.3% 不等，具体取决于 GenAI 相对于企业原有基线实践的边际贡献；在四个产生正向销售效应的 GenAI 应用中，隐含的年度增量价值约为每位消费者 5 美元，考虑到该零售商的规模以及 GenAI 采用的早期阶段，这一影响在经济上是显著的。收益主要来自转化率提升，而非购物车金额增加，这与 GenAI 通过降低搜索、信息、沟通和个性化摩擦来改善购物体验的机制相一致。重要的是，这些效应并未伴随更差的购后结果，产品退货率和客户评分均未恶化。最后，作者记录了显著的需求侧异质性，经验较少的消费者获得的收益更大。该研究为 GenAI 如何塑造在线零售的销售生产率提供了新的大规模因果证据，既凸显其即时价值，也提示其更广泛的潜力。",
+    "keywords": [
+      "生成式人工智能",
+      "销售生产率",
+      "随机田野实验",
+      "转化率",
+      "在线零售"
+    ],
+    "ai_comment": "文章用覆盖数百万用户与产品的多工作流随机实验，给出了 GenAI 提升销售生产率的稀缺大规模因果证据，并借助“转化率而非客单价”的机制拆分与退货率、评分等售后质量检验，较有说服力地回应了 GenAI 是否只是短期噱头的疑问。",
+    "topic": "金融计量/机器学习"
+  },
+  {
     "id": "10.1111/1475-679x.70095",
     "title": "The Anti‐SLAPP Statutes and Corporate Environmental Policies",
     "authors": [
