@@ -229,6 +229,31 @@
     "topic": "银行与金融中介"
   },
   {
+    "id": "10.1016/j.jfineco.2026.104401",
+    "title": "Private debt versus bank debt in corporate borrowing",
+    "authors": [
+      "Sharjil Haque",
+      "Simon Mayer",
+      "Irina Stefanescu"
+    ],
+    "abstract": "Using administrative bank loan-level data matched to private debt deals, we study the interaction between private and bank debt for a large segment of dual borrowers. These firms use private debt for investment and bank credit lines for liquidity insurance. Private debt carries higher spreads and commonly features flexible, equity-like terms that are associated with greater reliance on bank credit lines. Relative to bank-only borrowers, dual borrowers obtain more and larger credit lines and draw them more intensively following liquidity shocks. Our findings suggest that private debt substitutes for bank term loans but complements banks’ provision of credit lines.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104401",
+    "published_date": "2026-11-09",
+    "source": "JFE",
+    "first_seen": "2026-11-10",
+    "abstract_missing": false,
+    "summary": "本文利用与私人债务（private debt）交易相匹配的行政级银行贷款层面数据（bank loan-level data），考察了同时使用私人债务与银行贷款的“双重借款人”（dual borrowers）这一大规模群体的债务结构及其相互作用。研究发现，这类企业将私人债务用于投资，而将银行信贷额度（credit lines）用作流动性保险。私人债务的利差更高，且通常带有灵活的、类似股权的条款（equity-like terms），而这些条款与企业对银行信贷额度的更大依赖相关联。与仅使用银行贷款的借款人相比，双重借款人能够获得数量更多、规模更大的信贷额度，并在遭遇流动性冲击后更密集地动用这些额度。据此，作者认为私人债务替代了银行的定期贷款（term loans），但与银行提供信贷额度的功能形成互补。",
+    "keywords": [
+      "私人债务",
+      "银行贷款",
+      "信贷额度",
+      "流动性保险",
+      "债务替代"
+    ],
+    "ai_comment": "论文借助贷款层面微观数据把“双重借款人”这一此前难以观测的群体识别出来，清晰刻画了私人债务与银行信贷额度之间“替代定期贷款、互补流动性供给”的分工格局，为理解非银信贷扩张如何影响银行的流动性中介功能提供了直接证据。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1287/mnsc.2026.00623",
     "title": "Generative Artificial Intelligence and Sales Productivity: Field Experiments in Online Retail",
     "authors": [
@@ -52645,6 +52670,25 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.5290033",
     "first_seen": "2026-10-15",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Financial Market Fragility in the Era of AI Planning",
+    "authors": [
+      "Winston Wei Dou",
+      "Itay Goldstein B",
+      "Yan Ji"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.5763222",
+    "published_date": "2025-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.5763222",
+    "first_seen": "2026-11-10",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
