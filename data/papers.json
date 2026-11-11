@@ -1,5 +1,80 @@
 [
   {
+    "id": "10.1287/mnsc.2025.01919",
+    "title": "Deadly Disease, Fear, and Ostracism in the Credit Market",
+    "authors": [
+      "Sumit Agarwal",
+      "Pengsheng Lin",
+      "Yupeng Lin",
+      "Ruichang Lu",
+      "Xiaojun Zhang"
+    ],
+    "abstract": "This paper exploits the 2014 U.S. Ebola outbreak as a natural experiment to examine how fear distorts mortgage credit allocation. We find a 3.8-percentage-point increase in mortgage denial rates for Black applicants during the outbreak, despite negligible infection risk. Approved Black borrowers have stronger credit profiles and lower default rates, yet are less likely to receive loan modifications when delinquent. These effects are absent in algorithm-driven FinTech lending and reverse quickly postoutbreak—patterns inconsistent with statistical discrimination. Robustness tests rule out alternative explanations related to political cycles, labor market impacts, applicant pool composition changes, and bank financial conditions. Consistent with diagnostic expectation theory, higher exposure to Ebola fear does not result in a significant learning effect during the COVID-19 pandemic. This paper was accepted by Bo Becker, finance. Funding: S. Agarwal acknowledges the financial support from the National Natural Science Foundation of China [Grant 72495154]. Y. Lin gratefully acknowledges financial support from the NUS Research Grant [Grants A-8001725 and A-8004426]. R. Lu and X. Zhang acknowledge the financial support of the National Natural Science Foundation of China [Grants 71903005, 72402005, and 72472001]. Supplemental Material: The online appendices and data files are available at https://doi.org/10.1287/mnsc.2025.01919 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.01919",
+    "published_date": "2026-11-10",
+    "source": "MS",
+    "first_seen": "2026-11-11",
+    "abstract_missing": false,
+    "summary": "本文利用2014年美国埃博拉疫情作为自然实验，考察恐惧如何扭曲抵押贷款信贷配置。研究发现，尽管感染风险极低，疫情期间黑人申请者的抵押贷款拒贷率仍上升了3.8个百分点；获批的黑人借款人信用状况更强、违约率更低，但在逾期时获得贷款修改的可能性反而更低。这些效应在算法驱动的FinTech放贷中不存在，并在疫情结束后迅速逆转，因而与统计性歧视的解释不一致。稳健性检验排除了政治周期、劳动力市场影响、申请者池构成变化和银行财务状况等替代解释。与诊断预期理论一致，对埃博拉恐惧暴露程度更高的地区在COVID-19疫情期间并未出现显著的学习效应。",
+    "keywords": [
+      "恐惧",
+      "信贷配给",
+      "抵押贷款",
+      "种族歧视",
+      "金融科技"
+    ],
+    "ai_comment": "论文巧妙利用埃博拉疫情作为外生冲击，识别恐惧驱动的信贷排斥，并通过FinTech放贷与疫情后逆转等证据区分统计性歧视。其将诊断预期理论延伸到COVID-19学习效应的检验，也增强了机制解释的说服力。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1111/jofi.70096",
+    "title": "Presidential Address: Human Finance: Incorporating Insights from the Life Sciences",
+    "authors": [
+      "Ulrike Malmendier"
+    ],
+    "abstract": "Many of the key determinants of human behavior identified in the life sciences, such as stress response, impulse control, and mood regulation, remain absent from standard economic and finance models. This paper illustrates how such insights can enhance economic models in the context of inflation expectations. Combining a retrospective survey that elicits personal inflation histories with an experimental intervention that induces the reexperiencing of historic inflation, I show that physiological, emotional, and cognitive stress markers predict heightened inflation expectations and sharper memory recall, while also shaping personal economic narratives. These findings suggest novel policy tools to counter the persistent scars of economic distress and crisis experiences, for example, by designing experiences to provide predictability and control.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.70096",
+    "published_date": "2026-11-10",
+    "source": "JF",
+    "first_seen": "2026-11-11",
+    "abstract_missing": false,
+    "summary": "论文指出，生命科学已经识别出的许多人类行为关键决定因素（如应激反应、冲动控制、情绪调节）在标准的经济与金融模型中仍然缺位。作者以通货膨胀预期为情境，说明如何把这类洞见纳入经济模型：研究将一项回溯性调查与一项实验干预相结合，前者用于引出个人经历过的通胀历史，后者诱使被试重新体验历史上的通胀经历。结果显示，生理、情绪与认知层面的压力标记能够预测更高的通胀预期和更清晰的记忆回忆，同时也塑造个人的经济叙事。作者据此提出，可以设计提供可预测性与控制感的体验，作为应对经济困境与危机经历所留下的持久“伤痕”的新型政策工具。",
+    "keywords": [
+      "通货膨胀预期",
+      "生命科学",
+      "应激反应",
+      "记忆回忆",
+      "经济叙事"
+    ],
+    "ai_comment": "论文的亮点在于把生理与情绪压力标记引入通胀预期的解释框架，并用“诱发历史通胀再体验”的实验干预提供较强的识别，为预期形成机制与危机疤痕的政策干预开辟了新思路。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104400",
+    "title": "The role of financial markets in the unraveling of credit",
+    "authors": [
+      "Elena Asparouhova",
+      "Peter Bossaerts",
+      "Anh Tran"
+    ],
+    "abstract": "We investigate how long an insolvent debtor can avoid default when survival benefits creditors collectively, but individual creditors gain from early repayment. Standard theory predicts that debt is not rolled over and default is immediate. Previous experimental studies of related environments suggest that liquidation is delayed, and we confirm that pattern here. We then study how secondary markets affect outcomes. The duration of the credit pool is unaffected, but average net payoffs increase because claims are held longer before redemption. With markets, realized payoff dispersion is significantly higher. Prices do not predict liquidation timing but correlate with realized payoffs.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104400",
+    "published_date": "2026-11-10",
+    "source": "JFE",
+    "first_seen": "2026-11-11",
+    "abstract_missing": false,
+    "summary": "论文研究一个 insolvent debtor 在何种条件下、能拖延多久才违约：当债务人的存续对全体债权人整体有利、但单个债权人却能通过抢先获得偿付而获益时，会出现典型的协调（collective action）问题。标准理论预测此时债务无法 roll over、违约会立即发生，但以往针对相关环境的实验研究显示清算会被延迟，本文的实验也确认了这一模式。随后论文考察二级市场（secondary market）如何影响结果：信用池（credit pool）的存续时长不受影响，但由于债权在被赎回前被持有更久，平均净收益上升；在有市场的情况下，已实现收益的离散度显著更高。价格并不能预测清算时点，但与已实现收益相关。",
+    "keywords": [
+      "债务违约",
+      "二级市场",
+      "债权人协调",
+      "实验经济学",
+      "清算"
+    ],
+    "ai_comment": "论文把“资不抵债却迟迟不违约”这一理论与实验的张力放在可控实验里检验，并进一步识别二级市场的福利与分配效应：市场并未延长信用池寿命，却通过改变赎回时点提高平均净收益、同时放大收益分化，且价格对清算时点缺乏预测力，这一组结果颇具启发性。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "w36004",
     "title": "The Main Monetary Policy Shock",
     "authors": [
@@ -91800,6 +91875,25 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.3704072",
     "first_seen": "2026-11-05",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Inference on Risk Premia in Continuous-Time Asset Pricing Models",
+    "authors": [
+      "Yacine Aït-Sahalia",
+      "Jean Jacod",
+      "Dacheng Xiu"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.3692604",
+    "published_date": "2020-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.3692604",
+    "first_seen": "2026-11-11",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
