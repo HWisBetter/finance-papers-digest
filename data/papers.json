@@ -1,5 +1,31 @@
 [
   {
+    "id": "10.1111/1475-679x.70096",
+    "title": "The Role of Supply Chains in Climate Disclosure",
+    "authors": [
+      "Pietro Bonetti",
+      "Yang (Ellen) En",
+      "Igor Kadach",
+      "Gaizka Ormazabal"
+    ],
+    "abstract": "We examine the role of supply chains in shaping the public disclosure of climate information. We leverage a unique empirical setting enabled by CDP—the leading platform for corporate climate risk reporting—which allows customers to demand climate‐related information from their suppliers. Using a large international sample of customer–supplier pairs, we find a positive association between customers’ information demand and suppliers’ public disclosure on the CDP. While the estimated association is modest on average, it exhibits substantial cross‐sectional variation reflecting the disclosure incentives of both customers and suppliers as well as their relative bargaining power. We also find descriptive evidence consistent with one potential implication of the documented association for corporate decision‐making: shifts in supply network relationships toward greener and more transparent suppliers. Overall, our findings contribute to ongoing debates on how to foster climate disclosure.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70096",
+    "published_date": "2026-11-12",
+    "source": "JAR",
+    "first_seen": "2026-11-12",
+    "abstract_missing": false,
+    "summary": "本文研究供应链在塑造企业气候信息公共披露中的作用。作者利用 CDP（企业气候风险报告的主要平台）所提供的独特实证情境——该平台允许客户向其供应商索取气候相关信息——构建了一个大型国际客户—供应商配对样本，考察客户的信息需求与供应商在 CDP 上的公开披露之间的关系。研究发现，客户的信息需求与供应商的公开气候披露呈正相关；这一关联平均而言幅度不大，但在横截面上存在显著差异，反映了客户与供应商各自的披露激励以及双方的相对议价能力。作者还提供了描述性证据，与上述关联对企业决策的一种潜在含义相一致：供应链网络关系朝着更绿色、更透明的供应商转移。总体而言，研究结果有助于推进关于如何促进气候披露的持续讨论。",
+    "keywords": [
+      "供应链",
+      "气候披露",
+      "CDP",
+      "议价能力",
+      "信息披露"
+    ],
+    "ai_comment": "论文巧妙利用 CDP 平台中客户可向供应商索取气候信息的制度设计，较为干净地识别了供应链压力对披露的驱动作用，并把议价能力引入横截面差异的解释，为气候披露的自愿机制与供应链治理讨论提供了新证据。",
+    "topic": "会计与信息披露"
+  },
+  {
     "id": "10.1287/mnsc.2025.01919",
     "title": "Deadly Disease, Fear, and Ostracism in the Credit Market",
     "authors": [
@@ -27438,6 +27464,24 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.7662619",
     "first_seen": "2026-10-26",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Clouds of Credit: Mapping the Financial Web Behind AI Compute",
+    "authors": [
+      "Stijn Van Nieuwerburgh",
+      "Zijin Su"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7684118",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7684118",
+    "first_seen": "2026-11-12",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
