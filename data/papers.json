@@ -1,5 +1,28 @@
 [
   {
+    "id": "10.1287/mnsc.2023.01626",
+    "title": "Redeploying the Jockeys: The Intermediary Role of Venture Capital in Entrepreneurial Labor Markets",
+    "authors": [
+      "Zhongchen Hu"
+    ],
+    "abstract": "This paper explores how venture capitalists (VCs) add value by examining their role as labor market intermediaries. Using novel data, I show that VCs create internal labor markets (ILMs) to facilitate entrepreneurial mobility across their portfolio firms. Survey evidence suggests that VCs leverage private information about founders’ abilities to strategically match talent to portfolio firms, creating value for the recipient companies. Consistent with this mechanism of asymmetric learning, I find that (a) former VC partners continue to influence founder mobility, (b) ILM intensity positively predicts VC fund returns, and (c) the ILM effect is stronger when information asymmetry is greater. This paper was accepted by Lin William Cong, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2023.01626 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.01626",
+    "published_date": "2026-11-12",
+    "source": "MS",
+    "first_seen": "2026-11-13",
+    "abstract_missing": false,
+    "summary": "本文研究风险投资家（VC）作为劳动力市场中介所发挥的价值创造作用。作者利用新颖数据表明，VC 会在其投资组合公司之间建立内部劳动力市场（internal labor markets, ILMs），以促进创业人才在组合企业之间的流动。问卷证据显示，VC 会利用其掌握的关于创始人能力的私有信息，将人才战略性地匹配到组合公司，从而为接收人才的公司创造价值。与这一“非对称学习”机制相一致，作者发现：(a) 前 VC 合伙人仍会持续影响创始人的流动；(b) ILM 强度能够正向预测 VC 基金的回报；(c) 当信息不对称程度更高时，ILM 效应更强。该文被 Lin William Cong（金融领域）接收。",
+    "keywords": [
+      "风险投资",
+      "内部劳动力市场",
+      "创业人才流动",
+      "信息不对称",
+      "基金回报"
+    ],
+    "ai_comment": "论文将 VC 的价值创造从传统的资本供给与投后管理拓展到“劳动力市场中介”这一新视角，并用问卷证据与回报预测、信息不对称的异质性检验相互印证，机制识别较为完整。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1111/1475-679x.70096",
     "title": "The Role of Supply Chains in Climate Disclosure",
     "authors": [
@@ -24,6 +47,31 @@
     ],
     "ai_comment": "论文巧妙利用 CDP 平台中客户可向供应商索取气候信息的制度设计，较为干净地识别了供应链压力对披露的驱动作用，并把议价能力引入横截面差异的解释，为气候披露的自愿机制与供应链治理讨论提供了新证据。",
     "topic": "会计与信息披露"
+  },
+  {
+    "id": "10.1093/rfs/hhag097",
+    "title": "The Horizon of Investors’ Information and Corporate Investment",
+    "authors": [
+      "Olivier Dessaint",
+      "Thierry Foucault",
+      "Laurent Frésard"
+    ],
+    "abstract": "The quality of investors’ information across different horizons has real effects. When managers care about the effect of investment on their stock price, a decline in the informativeness of investors’ signals about long-term cash flows leads firms with long-term projects to cut investment more than firms with short-term projects. Using a novel, hand-collected measure of project horizons, we confirm this hypothesis: relative to firms with short-term projects, the investment of firms with long-term projects decreases by 3.7% following a 1-standard-deviation drop in the quality of investors’ long-term information. This effect becomes larger when managers prioritize current stock prices. (JEL D84, G14, G17, M41).",
+    "url": "https://doi.org/10.1093/rfs/hhag097",
+    "published_date": "2026-11-12",
+    "source": "RFS",
+    "first_seen": "2026-11-13",
+    "abstract_missing": false,
+    "summary": "论文研究投资者在不同期限上的信息质量对企业投资行为的实际影响。其核心机制是：当管理层关心投资对其股价的影响时，若投资者关于长期现金流的信号质量下降，则拥有长期项目的企业会比拥有短期项目的企业更大幅度地削减投资。为检验这一假设，作者构建了一个新颖的手工收集的项目期限（project horizon）指标，并据此进行实证分析。结果显示，投资者长期信息质量每下降 1 个标准差，长期项目企业的投资相对短期项目企业减少 3.7%。进一步发现，当管理层更看重当前股价时，这一效应更强。论文表明，投资者信息在不同期限上的质量差异会通过股价反馈渠道影响企业实际投资决策。",
+    "keywords": [
+      "信息质量",
+      "投资期限",
+      "企业投资",
+      "股价反馈",
+      "管理层短视"
+    ],
+    "ai_comment": "论文用手工收集的项目期限指标，将投资者信息质量的期限结构与企业投资决策直接联系起来，为“股价反馈影响实体投资”提供了细致的实证证据；其中“长期信息变差使长期项目投资收缩更多、且管理层更看重当前股价时更强”的发现颇具政策含义。",
+    "topic": "公司金融"
   },
   {
     "id": "10.1287/mnsc.2025.01919",
