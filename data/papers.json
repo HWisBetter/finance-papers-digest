@@ -1,5 +1,178 @@
 [
   {
+    "id": "10.1287/mnsc.2025.04942",
+    "title": "Comparing Factor Models Under Regime Switching",
+    "authors": [
+      "Shamim Ahmed",
+      "Cesare Robotti",
+      "Daniel Tsvetanov",
+      "Xiaoxia Ye"
+    ],
+    "abstract": "We compare factor pricing models using the “test-asset irrelevance” result but under regime switching. We show that the unconditional squared Sharpe ratio measure is no longer appropriate for model comparison when returns are subject to regime shifts. However, conditional on a given regime, model comparison can be performed using the conditional squared Sharpe ratio metric. We find that the Fama-French six-factor model that employs a cash-based profitability factor, the Barillas-Shanken six-factor model, and the Stambaugh-Yuan four-factor model are jointly the best-performing models under the bull regime. However, no model performs significantly better than others under the bear regime. Importantly, these findings are robust to regime uncertainty. We also find that unconditional model rankings closely mirror those in bull markets, overstating the superiority of the models identified as best performing in expansions by ignoring the performance convergence across models that emerges in downturns. This underscores the importance of evaluating factor models conditional on market regimes. This paper was accepted by Lukas Schmid, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.04942 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.04942",
+    "published_date": "2026-11-13",
+    "source": "MS",
+    "first_seen": "2026-11-14",
+    "abstract_missing": false,
+    "summary": "本文研究在收益受状态转换（regime switching）影响时如何比较因子定价模型。作者沿用“test-asset irrelevance”（测试资产无关性）结果，但将其置于状态转换框架下进行分析，指出当收益存在状态转移时，传统的无条件 squared Sharpe ratio 指标不再适合用于模型比较；不过在给定某个状态（regime）的条件下，仍可用条件 squared Sharpe ratio 作为模型比较的指标。基于这一方法，作者比较了多个主流因子模型，发现采用 cash-based 盈利能力因子的 Fama-French 六因子模型、Barillas-Shanken 六因子模型和 Stambaugh-Yuan 四因子模型在牛市（bull regime）下共同表现最佳；但在熊市（bear regime）下，没有任何模型显著优于其他模型，即各模型的表现出现收敛。上述结论对状态不确定性（regime uncertainty）具有稳健性。作者还发现，无条件模型排名与牛市中的排名高度一致，因而忽略了衰退期出现的模型表现趋同，从而高估了在扩张期表现最佳的那些模型的优越性。这凸显了在给定市场状态下评估因子模型的重要性。",
+    "keywords": [
+      "因子模型",
+      "状态转换",
+      "夏普比率",
+      "测试资产无关性",
+      "资产定价"
+    ],
+    "ai_comment": "论文指出了在收益存在状态转换时用无条件 squared Sharpe ratio 比较因子模型会产生的偏误，并提出以条件指标在给定 regime 下进行模型比较，进而揭示出模型优劣主要集中在牛市、熊市下趋于收敛这一重要事实，对因子模型的实证评价具有方法论意义。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1287/mnsc.2025.03635",
+    "title": "Banking on a Corporate Rebrand",
+    "authors": [
+      "Matthew Jaremski",
+      "Kris James Mitchener",
+      "Kilian Rieder"
+    ],
+    "abstract": "Firms often rebrand to counter negative shocks, but can it work? Using a historical natural experiment, we analyze a large sample of companies from the same industry (banking) that shared very similar names, but overwhelmingly decided to change them in response to a common, negative news shock. U.S. entry into World War I in 1917 created a sudden anti-German backlash against anything that invoked an association with the now enemy. The shock itself was thus orthogonal to bank fundamentals and pre-existing trends, but pushed banks to reconsider their brands. After 1917, the few German-named banks that kept their tainted names saw significant declines in assets, deposits, and market share relative to other banks. However, German-named banks that rebranded mitigated much of the negative shock. Specifically, German-named banks that adopted a new non-ethnic brand name avoided between 75% and 85% of the anti-German effect, and those that adopted a new patriotic brand name were able to neutralize it completely. Overall, we find that “crisis rebranding” paid off in our historical setting regardless of the chosen brand, with patriotic rebranding proving the most effective at offsetting the exogenous shock. This paper was accepted by Jean-Pierre Dube, marketing. Funding: K. J. Mitchener thanks the Ciocca Center for Entrepreneurship and Innovation at Santa Clara University for funding this research (Grant 2024-CIOG11). Any views expressed in this paper exclusively represent those of the authors and do not reflect the official viewpoint of the Oesterreichische Nationalbank, the European Central Bank, or the Eurosystem. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.03635 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.03635",
+    "published_date": "2026-11-13",
+    "source": "MS",
+    "first_seen": "2026-11-14",
+    "abstract_missing": false,
+    "summary": "论文追问一个核心问题：企业能否通过品牌重塑（rebranding）来对冲负面冲击。作者利用一次历史自然实验，选取同一行业（银行业）中名称高度相似、但绝大多数在共同负面新闻冲击下决定改名的银行作为大样本。1917 年美国参加第一次世界大战，突然引发针对一切与“德国”相关事物的反德浪潮；这一冲击本身与银行基本面及既有趋势正交（外生），却促使银行重新考虑自身品牌。研究发现，1917 年之后仍保留受污名化德语名称的少数银行，其资产、存款和市场份额相对其他银行显著下滑；而改名银行则大幅缓解了负面冲击：采用新的非族裔品牌名的德名银行规避了约 75% 至 85% 的反德效应，采用新的爱国品牌名的银行则完全抵消了该冲击。总体而言，在这一历史情境下“危机中的品牌重塑”无论选择何种品牌都能带来回报，其中爱国式品牌重塑对冲外生冲击的效果最强。",
+    "keywords": [
+      "品牌重塑",
+      "银行",
+      "自然实验",
+      "外生冲击",
+      "历史情境"
+    ],
+    "ai_comment": "本文的亮点在于借助 1917 年反德浪潮这一与银行基本面正交的历史外生冲击，干净地识别了品牌资产的价值，并量化出不同类型新品牌（非族裔 vs. 爱国）对冲冲击的差异化效果，为“危机中改名是否值得”提供了罕见而有力的因果证据。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1287/mnsc.2025.01302",
+    "title": "What’s at Stake? Understanding the Role of Home Equity in Flood Insurance Demand",
+    "authors": [
+      "Yanjun (Penny) Liao",
+      "Philip Mulder"
+    ],
+    "abstract": "Changing flood insurance demand shifts climate risk across homeowners, lenders, and governments. We show that flood insurance take-up follows rising and falling home equity over the housing boom and bust across markets with different price dynamics. To isolate the causal effect of risk shifting on insurance demand, we study flood insurance policy renewals over the housing bust, exploiting granular differences in purchase timing that led policyholders to experience differential changes in skin-in-the-game exposure to flood risk for the same change in home equity. When homeowners have less equity exposure to flood losses, they are less likely to renew their policies. Lenders, in turn, have little incentive to require flood insurance when they can sell their mortgages to federally backed mortgage purchasers. This paper was accepted by Tomasz Piskorski, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.01302 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.01302",
+    "published_date": "2026-11-13",
+    "source": "MS",
+    "first_seen": "2026-11-14",
+    "abstract_missing": false,
+    "summary": "论文关注洪水保险需求的变化如何把气候风险在房主、贷款方与政府之间重新分配。作者利用住房市场繁荣与萧条期间房屋净值（home equity）的上升与下降，在不同房价动态的市场中展示洪水保险参保率与房屋净值同向变动。为识别风险转移对保险需求的因果效应，论文聚焦住房萧条期的洪水保险保单续保行为，利用保单持有人购房时机的细微差异（这也是他们利用购买时机进行的精巧设计）：在房屋净值同样变化的情况下，不同购房时机的保单持有人对洪水风险所承担的 skin-in-the-game 敞口变化不同。结果显示，当房主对洪水损失的净值敞口降低时，其续保的可能性也随之下降。论文还指出，贷款方在能够将抵押贷款出售给联邦支持的抵押贷款购买方时，缺乏要求借款人购买洪水保险的激励。",
+    "keywords": [
+      "洪水保险",
+      "房屋净值",
+      "气候风险",
+      "风险转移",
+      "抵押贷款"
+    ],
+    "ai_comment": "论文把住房繁荣与萧条当作准自然实验，借助购房时机的细微差异识别净值敞口的因果效应，并将家庭投保决策与贷款方的抵押贷款出售激励联系起来，为气候风险在家庭、贷款方与政府间的分配提供了细致的微观证据。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "10.1287/mnsc.2024.09038",
+    "title": "Insurers’ Investments and Insurance Prices",
+    "authors": [
+      "Benjamin Knox",
+      "Jakob Ahm Sørensen"
+    ],
+    "abstract": "We develop a theory in which stable funding from insurance underwriting allows insurers to earn the liquidity premium on illiquid assets and pass part of it back to policyholders through lower prices. Consistent with the model’s predictions, we show empirically that (1) insurance prices are lower when the liquidity premium is higher, for both life insurers and property and casualty insurers. (2) In the cross-section, insurers with more stable funding earn higher expected returns and set lower prices. (3) It is specifically the part of expected returns driven by stable funding that passes through to prices. The findings highlight the value of insurance underwriting as a stable source of funding, with benefits that flow back to policyholders. This paper was accepted by Bo Becker, finance. Funding: The authors acknowledge support from the FRIC Center for Financial Frictions [Grant DNRF102]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.09038 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.09038",
+    "published_date": "2026-11-13",
+    "source": "MS",
+    "first_seen": "2026-11-14",
+    "abstract_missing": false,
+    "summary": "本文构建了一个理论模型，说明来自保险承保业务的稳定资金来源使保险公司得以在非流动资产上赚取流动性溢价，并将其中一部分通过更低的价格回馈给投保人。与模型预测相一致，作者给出了三方面实证证据：（1）无论对人寿保险公司还是财产与意外险（property and casualty）保险公司，当流动性溢价较高时保险价格更低；（2）在横截面上，资金来源更稳定的保险公司获得更高的预期收益，同时设定更低的价格；（3）真正传导至价格的，正是由稳定资金所驱动的那部分预期收益。研究结论强调承保业务作为一种稳定资金来源的价值，其收益会回流至投保人。",
+    "keywords": [
+      "流动性溢价",
+      "保险定价",
+      "稳定融资",
+      "承保业务",
+      "预期收益"
+    ],
+    "ai_comment": "论文把负债端承保资金的稳定性与资产端流动性溢价的获取能力联系起来，并用时间序列、横截面以及收益分解三重证据刻画了溢价向保单价格的传导，为保险公司作为流动性提供者的中介功能提供了新证据。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1287/mnsc.2024.08298",
+    "title": "Rethinking Distribution Shifts: Empirical Analysis and Modeling for Tabular Data",
+    "authors": [
+      "Tianyu Wang",
+      "Jiashuo Liu",
+      "Peng Cui",
+      "Hongseok Namkoong"
+    ],
+    "abstract": "Different distribution shifts require different interventions, and algorithms must be grounded in the specific shifts they address. However, methodological development for robust algorithms typically relies on structural assumptions that lack empirical validation. Advocating for an empirically grounded data-driven approach to algorithm development, we build an empirical testbed comprising natural shifts across 8 tabular data sets, 172 distribution pairs over 45 methods, and 90,000 method configurations encompassing empirical risk minimization and distributionally robust optimization (DRO) methods. We find that Y|X-shifts are most prevalent in our testbed, in stark contrast to the heavy focus on X (covariate)-shifts in the machine learning literature, and that the performance of robust algorithms is no better than that of vanilla methods. To understand why, we conduct an in-depth empirical analysis of DRO methods and find that underlooked implementation details—such as the choice of underlying model class (e.g., LightGBM) and hyperparameter selection—have a bigger impact on performance than the ambiguity set or its radius. We illustrate via case studies how a data-driven understanding of distribution shifts can provide a new approach to algorithm development. This paper was accepted by Wolfram Wiesemann, data science. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08298 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08298",
+    "published_date": "2026-11-13",
+    "source": "MS",
+    "first_seen": "2026-11-14",
+    "abstract_missing": false,
+    "summary": "论文针对“不同类型的 distribution shift 需要不同干预、鲁棒算法应扎根于其所应对的具体偏移”这一出发点，指出现有鲁棒算法的方法论发展多依赖缺乏实证验证的结构性假设，因而主张以数据驱动的实证方式来指导算法设计。为此，作者构建了一个经验测试平台，涵盖 8 个表格（tabular）数据集上的自然分布偏移、45 种方法对应的 172 个分布对，以及包含 empirical risk minimization 与 distributionally robust optimization（DRO）方法在内的 90,000 种方法配置。基于该测试平台的分析发现：Y|X-shift 在所构建的测试平台中最为普遍，这与机器学习文献中高度聚焦 X（covariate）-shift 的做法形成鲜明对比；同时鲁棒算法的表现并不优于朴素（vanilla）方法。为解释这一现象，作者对 DRO 方法进行了深入的经验分析，发现被忽视的实现细节——例如底层模型类别（如 LightGBM）的选择与超参数选择——对性能的影响大于 ambiguity set 或其半径的选择。最后，作者通过案例研究说明，对分布偏移形成数据驱动的理解可以为算法开发提供新的路径。",
+    "keywords": [
+      "分布偏移",
+      "表格数据",
+      "分布鲁棒优化（DRO）",
+      "经验风险最小化",
+      "基准测试"
+    ],
+    "ai_comment": "论文的价值在于用大规模实证测试平台（8 个数据集、172 个分布对、9 万种配置）挑战了鲁棒算法领域以协变量偏移为主导的结构性假设，并揭示 Y|X-shift 更普遍、实现细节比 DRO 的 ambiguity set 设计更关键这一反直觉结论，为数据驱动的算法开发提供了可复用的方法论范式。",
+    "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "10.1093/rfs/hhag009",
+    "title": "Climate Risk Disclosure and Risk Sharing in Financial Markets",
+    "authors": [
+      "Kevin Smith"
+    ],
+    "abstract": "In this paper, I model how climate risk disclosure impacts climate risk sharing among investors. I show that this disclosure can improve risk sharing by helping investors identify stocks that effectively hedge climate risk, and I analyze the disclosure’s impact on investors’ equilibrium portfolio choices. I then study firms’ voluntary disclosure incentives and analyze when disclosure mandates enhance risk sharing. Finally, I demonstrate that, by facilitating risk sharing, climate risk disclosure reduces the climate risk premium among stocks held by climate-focused investors. Hence, disclosure can lower the valuations of firms with low climate exposures and the overall market. (JEL: D82, D84, G12, G14)",
+    "url": "https://doi.org/10.1093/rfs/hhag009",
+    "published_date": "2026-11-13",
+    "source": "RFS",
+    "first_seen": "2026-11-14",
+    "abstract_missing": false,
+    "summary": "本文通过建模研究气候风险披露如何影响投资者之间的气候风险分担。作者表明，此类披露能帮助投资者识别出可有效对冲气候风险的股票，从而改善风险分担，并分析了披露对投资者均衡投资组合选择的影响。随后，文章研究企业自愿披露的激励，分析披露强制要求何时能够增强风险分担。最后，作者证明气候风险披露通过促进风险分担，降低了气候关注型投资者所持股票的气候风险溢价；因此，披露可能压低气候暴露较低的公司的估值以及整体市场估值。",
+    "keywords": [
+      "气候风险披露",
+      "风险分担",
+      "风险溢价",
+      "投资组合选择",
+      "自愿披露"
+    ],
+    "ai_comment": "论文将气候风险披露从信息透明度的讨论拓展到风险分担与资产定价层面，指出披露会通过降低气候风险溢价而压低低气候暴露企业乃至整体市场估值，为理解披露的分配效应与强制披露的政策权衡提供了新视角。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104396",
+    "title": "Bond funds and credit risk",
+    "authors": [
+      "Jaewon Choi",
+      "Amil Dasgupta",
+      "Ji Yeol Jimmy Oh"
+    ],
+    "abstract": "We show that supply-side effects arising from the bond holdings of open-end mutual funds affect corporate credit risk. In our model, open-end funds are reluctant to roll over bonds with weak prospects, fearing future outflows. This lowers rollover prices, enhancing equityholders’ default incentives, and increases credit risk. Empirically, we find that in firms with weak prospects, fund holding shares increase CDS spreads, and more so when flows are more sensitive to performance. We provide direct evidence for the relevance of the rollover channel, use two quasi-experiments and an instrument to address endogeneity concerns, and rule out reverse causality via reaching-for-yield.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104396",
+    "published_date": "2026-11-13",
+    "source": "JFE",
+    "first_seen": "2026-11-14",
+    "abstract_missing": false,
+    "summary": "该论文研究开放式债券基金的持债行为如何通过供给侧效应影响企业信用风险。作者构建理论模型指出，开放式基金会担心未来资金流出，因而不愿对前景较弱的债券进行展期（rollover），这会压低展期价格，强化股东在困境中的违约动机，从而推高信用风险。实证上，论文发现对于前景较弱的企业，基金持股比例上升会提高其 CDS 利差，且当基金资金流对业绩更敏感时这一效应更强。作者进一步提供了展期渠道直接相关的证据，并使用两个准实验和一个工具变量处理内生性问题，同时排除了基金追逐收益（reaching-for-yield）所导致的逆向因果解释。",
+    "keywords": [
+      "债券基金",
+      "信用风险",
+      "CDS 利差",
+      "展期风险",
+      "开放式基金"
+    ],
+    "ai_comment": "论文将基金资金流与赎回压力引入企业信用风险的供给侧解释，把开放式基金的展期决策与股东违约激励联系起来，并用准实验与工具变量强化因果识别，为基金持债的外部性提供了较有说服力的证据。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1287/mnsc.2023.01626",
     "title": "Redeploying the Jockeys: The Intermediary Role of Venture Capital in Entrepreneurial Labor Markets",
     "authors": [
@@ -27530,6 +27703,46 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.7684118",
     "first_seen": "2026-11-12",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Contextualizing Corporate Governance with AI Proxy Advice: Evidence from Proxy Contests",
+    "authors": [
+      "SEAN SHUN CAO",
+      "Wenzhi Ding",
+      "Tao Li",
+      "Wei Jiang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7683760",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7683760",
+    "first_seen": "2026-11-14",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Opportunities And Risks Of AI In Finance And Banking: Current Experience And Future Directions",
+    "authors": [
+      "Leonardo Gambacorta",
+      "Fariborz Moshirian",
+      "Markus Pelger",
+      "Baozhong Yang"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7686567",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7686567",
+    "first_seen": "2026-11-14",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
