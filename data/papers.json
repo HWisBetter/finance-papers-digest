@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1111/1475-679x.70097",
+    "title": "Partisan Banks and Creditor Coordination Within Loan Syndicates",
+    "authors": [
+      "Robert M. Bushman",
+      "Sang Woo Sohn",
+      "Jianxin (Donny) Zhao"
+    ],
+    "abstract": "We investigate how firm‐level partisanship influences interactions between banks in the syndicated loan market. Because politically divergent banks hold conflicting perceptions of economic conditions, ideological distance between banks impedes consensus and elevates expected coordination costs. We find that greater political distance between a lead arranger and a participant reduces the participant's likelihood of joining a syndicate and lowers its retained loan share relative to the lead. The relation between political distance and loan share differences intensifies during periods of high national political polarization. Moreover, greater political diversity within a syndicate is associated with less restrictive loan covenants and higher interest spreads, reflecting a trade‐off where lenders sacrifice contingent control to avoid costly renegotiation gridlock. Validating our disagreement mechanism, we show that following presidential elections, banks politically misaligned with the incoming administration issue significantly more pessimistic macroeconomic forecasts than aligned banks.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1475-679x.70097",
+    "published_date": "2026-11-17",
+    "source": "JAR",
+    "first_seen": "2026-11-17",
+    "abstract_missing": false,
+    "summary": "本文研究银行自身的党派倾向（firm-level partisanship）如何影响银团贷款市场中银行之间的互动。由于政治立场分歧的银行对经济状况的判断相互冲突，银行之间的意识形态距离会阻碍共识形成并抬高预期的协调成本（coordination costs）。基于银团贷款市场的样本，作者发现：牵头行（lead arranger）与参与行（participant）之间的政治距离越大，参与行加入该银团的概率越低，其相对于牵头行保留的贷款份额也越小；并且这种政治距离与贷款份额差异之间的关系在国家政治极化程度较高的时期更为强烈。此外，银团内部政治多样性越高，贷款契约条款越宽松、贷款利率（interest spreads）越高，这体现了一种权衡：贷款人宁愿牺牲或有控制权（contingent control），也要避免代价高昂的再谈判僵局（renegotiation gridlock）。为验证其分歧机制，作者进一步表明，在总统选举之后，与即将上任政府政治立场不一致的银行发布的宏观经济预测显著比立场一致的银行更为悲观。",
+    "keywords": [
+      "银团贷款",
+      "政治分歧",
+      "债权人协调",
+      "贷款契约",
+      "协调成本"
+    ],
+    "ai_comment": "论文将宏观层面的政治极化下沉到银行个体党派倾向，揭示意识形态距离如何通过协调成本影响银团组建、份额分配与非价格条款，并以选举后宏观预测的分歧提供机制佐证，视角新颖。其“以放宽契约换取再谈判效率”的权衡发现，对理解银团贷款中的债权人协调与非价格条款设计具有重要价值。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "w36036",
     "title": "How Does Capital Flow To Poor Countries? Evidence from Venture Capital and Private Equity",
     "authors": [
@@ -173,6 +198,80 @@
     ],
     "ai_comment": "论文用 Phelps-Winter 客户市场重构价格决定机制，提出并刻画了“加息推高价格”这一反直觉却逻辑自洽的传导渠道，并把政策不确定性与经济结构转型（客户市场重要性上升、存款付息禁令取消）纳入解释货币政策效力衰减的统一框架，对理解通胀目标失效具有启发意义。",
     "topic": "宏观金融"
+  },
+  {
+    "id": "10.1287/mnsc.2024.08443",
+    "title": "Do Fund Managers’ Commitments to Responsible Investing Affect Private Information Acquisition, Information Environment, and Corporate Sustainability?",
+    "authors": [
+      "Sumit Agarwal",
+      "Johan Sulaeman",
+      "Yue Zhang",
+      "Zhe Zong"
+    ],
+    "abstract": "We investigate the effects of mutual funds’ commitments to responsible investing on their information acquisition activities and the corresponding externalities for other stakeholders. After committing to responsible investing (via United Nations Principles for Responsible Investment (UNPRI)), fund managers increase private information acquisition activities, that is, corporate site visits, particularly focusing on environmental and social issues. These visits generate negligible private investment value for the visiting funds. However, the information environment at the stock level improves following these visits with lower consensus analyst forecast errors. In addition to the information production role of these visits, they also generate positive externalities for other stakeholders through incremental improvements in the sustainability practices of the firms receiving sustainability-focused site visits from UNPRI fund managers. Collectively, the paper highlights the private costs and social benefits of responsible investing. This paper was accepted by Will Cong, finance. Funding: S. Agarwal and J. Sulaeman acknowledge research support from Sustainable and Green Finance Institute [Grant WBS A-0006413-00-00]. Y. Zhang acknowledges financial support from the National Natural Science Foundation of China [Grant 72402239] and China Scholarship Council. This work was supported by the Ministry of Education, Singapore [Social Science and Humanities Research Thematic Grant SSRC2024-SSHRTG-022]. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not reflect the views of the Social Science Research Council (Singapore) and the Ministry of Education (Singapore). Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08443 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08443",
+    "published_date": "2026-11-16",
+    "source": "MS",
+    "first_seen": "2026-11-17",
+    "abstract_missing": false,
+    "summary": "论文考察共同基金作出责任投资承诺后，其信息获取行为会发生怎样的变化，以及这种变化对其他利益相关者会产生怎样的外部性。作者以基金签署 United Nations Principles for Responsible Investment（UNPRI）作为承诺责任投资的识别事件，发现基金经理在作出承诺后会增加私有信息获取活动，尤其是围绕环境与社会（E&S）议题的公司实地调研（corporate site visits）。这些调研对参与调研的基金自身带来的私有投资价值微乎其微，但调研之后股票层面的信息环境有所改善，表现为分析师一致预测误差下降，说明这类活动具有信息生产作用。除此以外，接受来自 UNPRI 基金管理者、以可持续性为主题的实地调研的公司，其可持续发展实践出现增量改进，从而对其他利益相关者产生正外部性。总体而言，论文揭示了责任投资所伴随的私有成本与社会收益。",
+    "keywords": [
+      "责任投资",
+      "UNPRI",
+      "私有信息获取",
+      "实地调研",
+      "信息环境"
+    ],
+    "ai_comment": "论文将 UNPRI 签署作为外生冲击，把基金私有信息获取、股价信息环境与企业可持续实践放在同一链条上考察，清晰刻画了责任投资“私有成本、社会收益”的不对称性；其中“调研对基金自身几无投资价值、却改善分析师预测并推动被访企业可持续实践”的发现颇具启发性。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1287/mnsc.2024.07660",
+    "title": "Biodiversity Risk in the Corporate Bond Market",
+    "authors": [
+      "Sevgi Soylemezgil",
+      "Cihan Uzmanoglu"
+    ],
+    "abstract": "We show that a biodiversity risk premium has emerged in the U.S. corporate bond market following the United Nations Biodiversity Conference (COP15) in October 2021. COP15 placed biodiversity on the global regulatory agenda and raised transition risks for exposed firms. After COP15, a one standard deviation increase in a firm’s biodiversity footprint is associated with a 7% increase in its secondary market yield spreads, whereas this relation is insignificant before COP15. The biodiversity effect is also present in primary bond markets, most pronounced for medium-term bonds and distinct from climate-related mechanisms. Furthermore, a higher biodiversity footprint is associated with a lower likelihood of issuing medium-term bonds after COP15, consistent with firms managing their biodiversity-related risks. Evidence from firms’ biodiversity dependencies suggests that physical biodiversity risks are also priced in the bond market. This paper was accepted by Bo Becker, finance. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.07660 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.07660",
+    "published_date": "2026-11-16",
+    "source": "MS",
+    "first_seen": "2026-11-17",
+    "abstract_missing": false,
+    "summary": "本文研究美国公司债市场是否在企业债定价中对生物多样性风险给予补偿。作者以 2021 年 10 月《联合国生物多样性公约》第十五次缔约方大会（COP15）作为外生冲击：COP15 将生物多样性纳入全球监管议程，并提高了风险暴露企业的转型风险。实证发现，COP15 之后，企业生物多样性足迹每增加一个标准差，其债券二级市场收益率利差上升 7%；而在 COP15 之前这一关系并不显著。该生物多样性效应同样存在于一级发行市场，并且在中期限债券中最为明显，同时与气候相关的作用机制相区别。进一步地，COP15 之后生物多样性足迹较高的企业发行中期限债券的可能性更低，这与企业主动管理其生物多样性相关风险的行为一致。来自企业生物多样性依赖性的证据还表明，实物性（physical）生物多样性风险同样被债券市场定价。",
+    "keywords": [
+      "生物多样性风险",
+      "公司债",
+      "风险溢价",
+      "COP15",
+      "收益率利差"
+    ],
+    "ai_comment": "论文以 COP15 作为准自然实验，首次在二级与一级债券市场中识别出独立于气候风险的生物多样性风险溢价，并把转型风险与实物风险同时纳入定价证据，为 ESG 与债券定价研究提供了清晰而有力的新证据。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1287/mnsc.2024.05427",
+    "title": "Whiplash: Congestion Dissipation in a Disrupted Circulatory Shipping System",
+    "authors": [
+      "Ming Hu",
+      "Chaoyu Zhang"
+    ],
+    "abstract": "The (post)pandemic period was marked by numerous port disruptions, leading to delays and rising costs for shippers. We build a fluid model in transient states to investigate how a disruption at one port can affect the disrupted port and its counterpart in another country in a circulatory container shipping system, where a stream of fleets moves goods back and forth between the two ports. Port disruption leads to two types of congestion: the inbound backlogs, which occur when ships are unable to enter the port, and the outbound backlogs, which arise when goods are unable to be loaded onto ships for transport to other ports. We analytically characterize the system’s recovery time, measured from the onset of the port closure until normal operations are restored, and the dynamics of inbound and outbound backlogs during recovery. We identify a whiplash effect in which outbound backlogs alternate between ports, creating oscillatory congestion patterns because of the disruption-induced uneven spatial distribution of ships. Our analysis reveals that simply increasing ship capacity may not expedite system recovery, highlighting the importance of coordination between port authorities and shipping companies when jointly planning capacity expansions. Furthermore, we examine several extensions of the model. We use the two-port system as a building block to analyze bipartite and cyclic network structures, and we also consider scenarios in which a port experiences multiple disruptions. In all cases, the whiplash effect persists, thereby demonstrating the robustness of our findings. Finally, we use our theory model prediction as a feature and apply machine learning techniques to predict the time that vessels spend in Shanghai Port after a typhoon disruption and show that using our model predictor, alongside all relevant vessel and voyage attributes as raw features, significantly reduces prediction errors by 10%–30% on average compared with not using it. This paper was accepted by Elena Katok, operations management. Funding: This work was supported by the Natural Sciences and Engineering Research Council of Canada [Grant RGPIN-2021-04295]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.05427 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.05427",
+    "published_date": "2026-11-16",
+    "source": "MS",
+    "first_seen": "2026-11-17",
+    "abstract_missing": false,
+    "summary": "论文针对（后）疫情期间港口中断导致航运延误和成本上升的问题，构建 transient states 下的 fluid model，研究在一个由两支船队往返运输货物的循环集装箱航运系统中，一个港口的中断如何影响该受扰港口及另一国的对应港口。港口中断会产生两类拥堵：入港 backlog（船舶无法进港时形成）和出港 backlog（货物无法装船运往其他港口时形成）。作者解析刻画了从港口关闭开始到恢复正常运营的系统恢复时间，以及恢复过程中入港与出港 backlog 的动态，并识别出一种 whiplash effect：出港 backlog 在两个港口之间交替出现，因中断造成船舶空间分布不均而形成振荡式拥堵模式。分析表明，单纯增加船舶容量未必能加快系统恢复，凸显港口当局与航运公司在共同规划容量扩张时协调的重要性。论文还扩展模型，以两港系统为基本单元分析二分网络和循环网络结构，并考虑一个港口遭遇多次中断的情形；在所有这些情况下 whiplash effect 都持续存在，说明结论具有稳健性。最后，作者将理论模型预测作为特征，结合机器学习预测台风中断后船舶在上海港的停留时间，发现在使用所有相关船舶与航次属性作为原始特征的基础上加入该模型预测，相比不使用它可将预测误差平均显著降低 10%–30%。",
+    "keywords": [
+      "港口中断",
+      "集装箱航运",
+      "拥堵消散",
+      "鞭尾效应",
+      "机器学习"
+    ],
+    "ai_comment": "论文将 transient fluid model 与航运网络扩展、机器学习预测结合，既解析刻画恢复时间和 backlog 动态，又揭示出港拥堵跨港口交替的 whiplash effect，并给出容量扩张需协调的政策含义。其亮点在于用上海港台风后的实证预测验证理论预测的增量价值。",
+    "topic": "其他"
   },
   {
     "id": "10.1287/mnsc.2025.04942",
