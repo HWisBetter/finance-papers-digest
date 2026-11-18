@@ -1,5 +1,31 @@
 [
   {
+    "id": "10.1287/mnsc.2024.06826",
+    "title": "The Asymmetry in Responsible Investing Preferences and Beliefs",
+    "authors": [
+      "Jacquelyn Humphrey",
+      "Shimon Kogan",
+      "Jacob S. Sagi",
+      "Laura T. Starks"
+    ],
+    "abstract": "Empirical stylized facts in the literature concerning “sin” versus “angel” stocks display marked asymmetries in investor behavior. Through a set of experiments, we examine whether such biases can be micro-founded via individuals’ preferences and belief formations. With respect to portfolio allocation decisions, we find that the responses to negative environmental and social externalities are several times larger in magnitude than their responses to comparable positive externalities, ceteris paribus. Negative externalities also modestly increase pessimism about future investment performance, whereas positive externalities have little discernible effect on beliefs. This asymmetry is pervasive across our sample, exhibits heterogeneity across individuals, and is comparable to or greater in magnitude than estimates observed in loss aversion analyses. These findings help rationalize several existing stylized empirical facts documented in the responsible investing literature and carry implications for the growing body of theoretical work modeling the role of nonpecuniary investor preferences in asset pricing. This paper was accepted by Marie Claire Villeval, behavioral economics and decision analysis. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.06826 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.06826",
+    "published_date": "2026-11-17",
+    "source": "MS",
+    "first_seen": "2026-11-18",
+    "abstract_missing": false,
+    "summary": "本文关注负责任投资（responsible investing）文献中一个突出的经验典型事实：投资者对“sin”股票与“angel”股票的行为反应存在显著不对称。作者通过一组实验，考察这种偏差能否由个体的偏好与信念形成在微观层面得到解释（micro-found）。在投资组合配置决策中，研究发现：在控制其他条件不变（ceteris paribus）的情况下，个体对负面的环境与社会外部性的反应幅度，是对可比的正向外部性反应的好几倍；负面外部性还会适度增加个体对未来投资表现的悲观情绪，而正向外部性对信念几乎没有可辨别的影响。这种不对称在整个样本中普遍存在，并在个体之间表现出异质性，其幅度与损失厌恶（loss aversion）分析中的估计相当、甚至更大。作者指出，这些发现有助于解释负责任投资文献中已记录的若干经验典型事实，并对当前日益增多的、刻画非货币性投资者偏好在资产定价中作用的理论工作具有启示意义。",
+    "keywords": [
+      "负责任投资",
+      "ESG",
+      "投资者偏好",
+      "信念形成",
+      "损失厌恶"
+    ],
+    "ai_comment": "论文用实验为“sin”与“angel”股票之间的反应不对称提供了偏好与信念层面的微观基础，并给出可与损失厌恶相媲美的量化幅度，为ESG资产定价理论中的非货币偏好参数校准提供了直接依据。",
+    "topic": "行为金融"
+  },
+  {
     "id": "10.1111/1475-679x.70097",
     "title": "Partisan Banks and Creditor Coordination Within Loan Syndicates",
     "authors": [
