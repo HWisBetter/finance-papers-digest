@@ -1,5 +1,30 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104395",
+    "title": "Time-series efficient factors",
+    "authors": [
+      "Sina Ehsani",
+      "Serhiy Kozak",
+      "Juhani Linnainmaa"
+    ],
+    "abstract": "Factors in popular asset pricing models are unconditionally minimum-variance inefficient: their returns are autocorrelated, yet this predictability is disconnected from volatility. We show that a model with time-varying risk aversion matches this empirical regularity and provides a prescription for constructing time-series efficient factors. These factors earn substantially higher Sharpe ratios than their original counterparts. Our approach complements procedures that address factors’ cross-sectional inefficiencies by hedging unpriced risks. Combining these procedures yields even greater Sharpe ratio improvements. Enhancing existing factors is likely to provide greater benefits than searching for new ones.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104395",
+    "published_date": "2026-11-19",
+    "source": "JFE",
+    "first_seen": "2026-11-20",
+    "abstract_missing": false,
+    "summary": "论文指出，主流资产定价模型中的因子在无条件意义上是最小方差无效率的，即它们的收益存在自相关，但这种可预测性与波动率并无关联。作者用一个时变风险厌恶（time-varying risk aversion）模型来解释这一经验规律，并据此给出构建 time-series efficient factors 的方法。按此方法构造的因子，其 Sharpe ratio 显著高于对应的原始因子。该做法与通过对冲未定价风险来处理因子横截面无效率（cross-sectional inefficiencies）的程序互补，两者结合能带来更大的 Sharpe ratio 提升。作者据此认为，改进现有因子可能比寻找新因子更有价值。",
+    "keywords": [
+      "因子模型",
+      "最小方差无效率",
+      "时变风险厌恶",
+      "Sharpe ratio",
+      "横截面无效率"
+    ],
+    "ai_comment": "论文从收益自相关与波动率脱钩这一经验事实出发，用 time-series efficiency 这一新维度审视经典因子，并给出可操作的因子改造方案，兼具理论解释与实务价值。其结论——优化现有因子优于挖掘新因子——对实证资产定价研究具有方法论启示。",
+    "topic": "资产定价"
+  },
+  {
     "id": "10.1287/mnsc.2024.06826",
     "title": "The Asymmetry in Responsible Investing Preferences and Beliefs",
     "authors": [
