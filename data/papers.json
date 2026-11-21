@@ -10665,6 +10665,31 @@
     "topic": "资产定价"
   },
   {
+    "id": "10.1017/S0022109026103147",
+    "title": "Measuring the Cost of Regulation: A Text-Based Approach",
+    "authors": [
+      "Charles W. Calomiris",
+      "Harry Mamaysky",
+      "Ruoke Yang"
+    ],
+    "abstract": "We derive a measure of firm-level regulatory exposure from corporate earnings calls text and study its effects on growth, leverage, profitability, and equity returns. Higher regulatory exposure results in slower sales and asset growth, lower leverage, reduced profitability, and higher post-call equity returns. Most of these effects are mitigated for larger firms. We validate our measure by showing its explanatory power for cross-sectional stock returns during the 2016 Presidential election.",
+    "url": "https://dx.doi.org/10.1017/S0022109026103147",
+    "published_date": "2026-06-24",
+    "source": "JFQA",
+    "first_seen": "2026-11-21",
+    "abstract_missing": false,
+    "summary": "本文从企业业绩电话会议（earnings calls）文本中构建一个企业层面的监管暴露（regulatory exposure）度量，并考察其对增长、杠杆、盈利能力与股票收益的影响。研究发现，较高的监管暴露会导致销售与资产增长放缓、杠杆下降、盈利能力降低，以及电话会议之后更高的股票收益；这些效应中的大部分在较大规模企业中会被削弱。作者还通过展示该度量在2016年总统选举期间对横截面股票收益的解释力，对该度量进行了验证。",
+    "keywords": [
+      "监管暴露",
+      "业绩电话会议",
+      "股票收益",
+      "企业增长",
+      "文本分析"
+    ],
+    "ai_comment": "论文的创新之处在于用业绩电话会议文本构造企业层面的监管暴露指标，并用2016年总统选举作为外生情境加以验证，为监管成本的横截面定价含义提供了可操作的度量。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104320",
     "title": "Trade credit and relationships",
     "authors": [
@@ -11434,6 +11459,32 @@
     "topic": "其他"
   },
   {
+    "id": "10.1017/S0022109026103081",
+    "title": "Do Banks Overreact to Disaster Risk?",
+    "authors": [
+      "Qianqian Huang",
+      "Feng Jiang",
+      "Yuhai Xuan",
+      "Tao Yuan"
+    ],
+    "abstract": "We examine how banks respond to natural disasters when borrowers are in proximity to affected areas. We find robust evidence that banks impose significantly higher loan spreads on firms in these areas following a disaster compared to other borrowers. This effect diminishes over time and is stronger for loans with concentrated syndicates, disasters with greater media coverage, and cases in which loan officers are geographically closer to disaster sites. The increased financing costs result in capital constraints for affected firms. Overall, our findings highlight a salience bias in banks’ evaluation of borrowers’ disaster risk, with adverse effects on borrowing firms.",
+    "url": "https://dx.doi.org/10.1017/S0022109026103081",
+    "published_date": "2026-06-15",
+    "source": "JFQA",
+    "first_seen": "2026-11-21",
+    "abstract_missing": false,
+    "summary": "本文研究当借款人位于自然灾害受影响区域附近时，银行会如何反应。作者发现稳健证据表明，灾害发生后，银行会对受灾地区附近的企业收取显著更高的贷款利差，而其他借款人不会面临同等幅度的加息。这种效应随时间推移而减弱，并且在银团较为集中的贷款、媒体报道更多的灾害，以及信贷员地理位置距灾害现场更近的情形下更强。融资成本的上升最终使受影响企业面临资本约束。总体而言，研究结果凸显了银行在评估借款人灾害风险时存在 salience bias（显著性偏差），并对借款企业产生不利影响。",
+    "keywords": [
+      "自然灾害风险",
+      "贷款利差",
+      "显著性偏差",
+      "银团贷款",
+      "资本约束"
+    ],
+    "ai_comment": "论文将行为金融中的 salience bias 引入银行信贷定价，识别出银行对灾害风险的反应存在系统性高估，并通过银团结构、媒体报道与信贷员地理距离等横截面差异提供了较为干净的机制证据，对理解气候/灾害风险的金融传导具有启发意义。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1093/rfs/hhag057",
     "title": "The Variance Premium and Seasonal Momentum in Option Returns",
     "authors": [
@@ -11938,6 +11989,31 @@
     "topic": "公司金融"
   },
   {
+    "id": "10.1017/S0022109026103056",
+    "title": "Appointing Charity Directors in Response to ESG Incidents",
+    "authors": [
+      "Marina Gertsberg",
+      "Hae Won (Henny) Jung",
+      "Yuyang Zhang"
+    ],
+    "abstract": "This article examines how companies respond to negative ESG incidents by appointing directors with charitable organization experience. Firms are more likely to make these appointments following high-profile ESG incidents, especially those involving social issues. The market reacts positively, particularly when directors’ biographies emphasize their charity experience. Using the local supply of charity directors as an instrumental variable, we show that incidents, particularly workforce-related incidents, decline after these appointments, with effects driven by nonoverboarded directors. Overall, our study documents a value-enhancing human capital channel through which firms address ESG concerns.",
+    "url": "https://dx.doi.org/10.1017/S0022109026103056",
+    "published_date": "2026-06-08",
+    "source": "JFQA",
+    "first_seen": "2026-11-21",
+    "abstract_missing": false,
+    "summary": "本文研究企业在发生负面 ESG 事件后，是否会通过任命具有慈善组织经验的董事来作出回应。研究发现，企业在发生受到高度关注的 ESG 事件后更可能作出此类任命，尤其是涉及社会议题的事件；市场对此反应积极，当董事简历中强调其慈善经验时，市场反应更为正面。作者以本地慈善董事供给作为工具变量，发现任命之后 ESG 事件（尤其是与员工相关的事件）有所减少，且这一效应主要由未过度兼任（nonoverboarded）的董事驱动。总体而言，论文记录了一条价值提升的人力资本渠道，企业借此应对 ESG 关切。",
+    "keywords": [
+      "ESG事件",
+      "慈善董事",
+      "人力资本",
+      "工具变量",
+      "公司治理"
+    ],
+    "ai_comment": "论文用本地慈善董事供给作工具变量来缓解内生性，把“董事慈善经验”识别为一条能减少 ESG 事件、提升公司价值的人力资本渠道，为董事会构成与 ESG 治理的文献提供了较干净的因果证据。",
+    "topic": "公司治理"
+  },
+  {
     "id": "10.1287/mnsc.2026.01340",
     "title": "Commentary by Dr. Hans-Paul Bürkner, Global Chair Emeritus of The Boston Consulting Group, on Cathy (Liu) Yang, Kevin Bauer, Xitong Li, and Oliver Hinz (2025) “My Advisor, Her AI, and Me: Evidence from a Field Experiment on Human-AI Collaboration and Investment Decisions”",
     "authors": [
@@ -12057,6 +12133,29 @@
       "漂绿"
     ],
     "ai_comment": "本文巧妙地将政治体制与公司治理相结合，揭示了股东民主可能对普通公民造成的负面影响，为企业社会责任的政治经济学提供了新视角。",
+    "topic": "公司治理"
+  },
+  {
+    "id": "10.1017/S0022109026103044",
+    "title": "Get the Money Somehow: The Effect of Missing Performance Goals on Insider Trading",
+    "authors": [
+      "Meng Gao"
+    ],
+    "abstract": "This article uses a regression discontinuity design to identify the effect of compensation shocks on insider trading. I find that CEOs who narrowly miss relative performance goals and hence suffer a loss in compensation subsequently earn higher abnormal profits from their insider trades than otherwise similar CEOs who narrowly beat such goals. CEOs who narrowly miss relative performance goals also become less likely to provide earnings and sales guidance. These results suggest that managers can use insider trading to make up for compensation losses due to missing relative performance goals, which could reduce the incentive effect of performance-based pay.",
+    "url": "https://dx.doi.org/10.1017/S0022109026103044",
+    "published_date": "2026-06-05",
+    "source": "JFQA",
+    "first_seen": "2026-11-21",
+    "abstract_missing": false,
+    "summary": "本文研究薪酬冲击对内幕交易的影响，利用 regression discontinuity design 识别因果效应。研究发现，相对于以微弱优势刚好超越相对业绩目标的 CEO，那些以微弱差距刚好未达相对业绩目标、因而薪酬受损的 CEO，随后从其内幕交易中获得的异常利润更高；同时，这些未达相对业绩目标的 CEO 提供盈余指引（earnings guidance）和销售指引（sales guidance）的可能性也下降。作者据此认为，管理者可能利用内幕交易来弥补因未达相对业绩目标而遭受的薪酬损失，而这种行为可能削弱业绩薪酬（performance-based pay）的激励效果。",
+    "keywords": [
+      "内幕交易",
+      "高管薪酬",
+      "相对业绩目标",
+      "回归断点设计",
+      "盈余指引"
+    ],
+    "ai_comment": "论文用 regression discontinuity design 干净地识别了薪酬冲击对内幕交易的因果影响，并揭示了“未达业绩目标—内幕交易补偿—减少信息披露”这一替代性寻租渠道，对业绩薪酬激励有效性的讨论具有启示意义。",
     "topic": "公司治理"
   },
   {
@@ -13457,6 +13556,30 @@
     ],
     "ai_comment": "利用外生政策变化识别供给弹性，提供了更可靠的估计，纠正了传统方法可能存在的偏差。",
     "topic": "宏观金融"
+  },
+  {
+    "id": "10.1017/S0022109026102944",
+    "title": "Trust in Cultural Institutions and Interfirm Cooperation: Evidence from Religious Scandals",
+    "authors": [
+      "Quentin Dupont",
+      "Kayla M. Freeman"
+    ],
+    "abstract": "We study how trust in cultural institutions affects cooperation between firms, employing local religious scandals for identification. We focus on trade credit as a trust-intensive aspect of supply chain relationships. In a triple-difference estimation, we find that firms located in scandal areas where the affected religion is prominent reduce trade credit to customers (relative to sales) by 5 percentage points. Consistent with the scandal damaging local norms of cooperation, results are stronger in relationships with limited history, greater geographic barriers, or transaction complexity. Our findings offer novel causal evidence of the influence of local culture on interfirm relationships.",
+    "url": "https://dx.doi.org/10.1017/S0022109026102944",
+    "published_date": "2026-05-22",
+    "source": "JFQA",
+    "first_seen": "2026-11-21",
+    "abstract_missing": false,
+    "summary": "本文研究对文化机构的信任如何影响企业间的合作，利用地方性宗教丑闻作为识别策略，并将贸易信贷（trade credit）视为供应链关系中信任密集的一个方面。在三重差分（triple-difference）估计中，作者发现：位于受影响宗教占主导地位的丑闻地区的企业，会减少对客户的贸易信贷（相对于销售额）5 个百分点。这一结果与丑闻破坏当地合作规范的解读一致：在交易历史较短、地理障碍较大或交易复杂度较高的关系中，效应更强。研究为地方文化对企业间关系的影响提供了新的因果证据。",
+    "keywords": [
+      "贸易信贷",
+      "文化信任",
+      "宗教丑闻",
+      "企业间合作",
+      "三重差分"
+    ],
+    "ai_comment": "论文巧妙地把宗教丑闻当作外生冲击，用三重差分识别文化机构信任对企业间合作的因果效应，为“文化影响金融与商业关系”的文献补上了较干净的因果证据，也凸显了贸易信贷作为信任度量的价值。",
+    "topic": "公司金融"
   },
   {
     "id": "10.1016/j.jfineco.2026.104309",
