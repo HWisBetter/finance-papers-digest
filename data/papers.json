@@ -1,5 +1,29 @@
 [
   {
+    "id": "10.1016/j.jfineco.2026.104404",
+    "title": "Populism, polarization and green investment",
+    "authors": [
+      "Anders Anderson",
+      "David T. Robinson"
+    ],
+    "abstract": "We use detailed, individual-level, panel data to relate growing political polarization to (i) changing beliefs about the pace of global warming and (ii) the propensity to make climate-friendly investment decisions. Individuals in our study were exogenously exposed to forest fires to varying degrees in the summer of 2018. While exposure increased the perceived pace of climate change on average, the response is attenuated in areas experiencing increases in right-wing populism, especially when local environmental media coverage was stronger. Changing beliefs also predict climate-friendly investment, but this is heavily mediated by the same political dynamics.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104404",
+    "published_date": "2026-11-21",
+    "source": "JFE",
+    "first_seen": "2026-11-22",
+    "abstract_missing": false,
+    "summary": "论文利用细致的个体层面面板数据，考察政治极化加剧与两方面因素的关联：(i) 个体对全球变暖速度的信念变化；(ii) 个体作出气候友好型投资决策的倾向。研究情境是 2018 年夏季，研究个体不同程度地外生暴露于森林火灾。结果显示，火灾暴露平均而言提高了人们对气候变化速度的主观感知，但在右翼民粹主义上升的地区，这种反应被削弱，尤其当本地环境媒体覆盖更强时更为明显。信念变化也能预测气候友好型投资，但这一关系在很大程度上被同样的政治动态所中介。",
+    "keywords": [
+      "政治极化",
+      "民粹主义",
+      "气候变化信念",
+      "绿色投资",
+      "媒体覆盖"
+    ],
+    "ai_comment": "论文巧妙借助森林火灾这一外生冲击识别气候变化信念的更新，并揭示右翼民粹主义与本地媒体环境如何共同削弱这一更新及其向绿色投资决策的传导，将政治极化纳入气候金融的行为机制分析，具有较强的新意。",
+    "topic": "行为金融"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104395",
     "title": "Time-series efficient factors",
     "authors": [
