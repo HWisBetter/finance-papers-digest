@@ -1,5 +1,300 @@
 [
   {
+    "id": "w36057",
+    "title": "CFOs Meet LLMs",
+    "authors": [
+      "John R. Graham",
+      "Campbell R. Harvey",
+      "Manish Jha"
+    ],
+    "abstract": "Business sentiment is closely watched, but measurement is slow and costly: surveys reach a limited number of firms, arrive periodically, and take time to field and compile. We show that large language models hold the potential to address some of these shortcomings. We prompt an LLM to role-play as the CFO of a specific company on a specific date, for every public-company CFO who responded to the Duke–Federal Reserve CFO Survey from 2002- 2025. We find that LLM-generated forecasts reasonably match the cross-section of CFO expectations, with accuracy increasing with the amount of information provided to the LLM. We discuss the potential as well as the hurdles to using digital twins to mimic individual decision-makers.",
+    "url": "https://www.nber.org/papers/w36057",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "商业信心是市场密切关注的指标，但现有测量方式缓慢且成本高昂：问卷调查覆盖的企业数量有限、按周期发放，且实地执行与汇总都需要时间。作者指出大语言模型有望缓解这些不足。为此，他们针对 2002 至 2025 年间所有回复过 Duke–Federal Reserve CFO Survey 的上市公司 CFO，逐一构造 prompt，让 LLM 扮演特定公司在特定日期的 CFO，从而生成对未来预期的预测。结果显示，LLM 生成的预测能够在横截面上较为合理地匹配 CFO 预期的分布；而且随着提供给 LLM 的信息量增加，匹配的准确度也随之提高。文章最后讨论了用 digital twin（数字孪生）来模拟个体决策者的潜力以及面临的障碍。",
+    "keywords": [
+      "LLM",
+      "商业信心",
+      "CFO调查",
+      "数字孪生",
+      "预期测量"
+    ],
+    "ai_comment": "论文提出了一条用 LLM 低成本、高频次补足传统企业调查的可行路径，并用长达二十余年的 CFO 调查数据做了横截面层面的外部校验；“信息量越多、拟合越准”的发现也为数字孪生式个体模拟划出了现实边界。",
+    "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "w36056",
+    "title": "Chips & Tokens at the Fault Lines: Two Stacks in One Fragmenting World",
+    "authors": [
+      "Fabio Natalucci",
+      "Alessandro Rebucci"
+    ],
+    "abstract": "The United States and China have each built the capacity to inflict serious economic damage on each other. This paper argues that the resulting mutual vulnerability now constrains both sides and prevents further economic decoupling. The paper maps this contest across two stacks: the real economy stack of computing, semiconductors and rare earths, and the financial stack of dollar dominance and digital finance. On the real side, an analysis of global earnings call reports, run through large language models, suggests that this mutual vulnerability was already shaping the global corporate narrative in 2025. On the financial side, the paper argues that digital finance could tip this balance either way. Portable U.S. dollar-denominated digital assets could deepen U.S. dollar dominance and erode China's capital controls, tilting the balance toward Washington and inviting more fragmentation. A drift of transactions onto offshore rails like Tether could do the opposite, eroding Washington’s enforcement power behind sanctions and, counterintuitively, restraining it. Both the U.S. and China, meanwhile, run internally inconsistent policies. The U.S. is closing its door to trade while keeping an open financial account, and China is doing the reverse. These configurations are ultimately unsustainable and could undermine the arsenals that sustain the equilibrium.",
+    "url": "https://www.nber.org/papers/w36056",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "论文关注美中之间已形成的相互经济伤害能力，认为这种相互脆弱性（mutual vulnerability）反过来约束了双方，阻止了进一步的经济脱钩（decoupling）。作者把这场竞争拆解为两个 stack：实体经济的计算—半导体—稀土 stack，以及由美元主导地位与数字金融构成的金融 stack。在实体层面，作者用 large language models 分析全球财报电话会议记录（earnings call reports），发现这种相互脆弱性在 2025 年已经塑造着全球企业的叙事。在金融层面，论文提出数字金融可能让天平朝任一方向倾斜：可携带的、以美元计价的数字资产会加深美元主导地位并侵蚀中国的资本管制，使平衡偏向华盛顿并招致更多碎片化；而交易向 Tether 之类离岸轨道漂移则效果相反，会侵蚀华盛顿在制裁背后的执行能力，并反直觉地形成对其自身的约束。与此同时，美中各自都在推行内部不一致的政策：美国在贸易上关门却保持金融账户开放，中国则相反。作者认为这些政策组合最终不可持续，并可能削弱维系当前均衡的各自 arsenal。",
+    "keywords": [
+      "中美经济脱钩",
+      "半导体供应链",
+      "美元霸权",
+      "数字金融",
+      "LLM"
+    ],
+    "ai_comment": "亮点在于把地缘经济竞争拆成实体与金融两个 stack，并用 LLM 处理全球财报电话会文本作为实体层面相互脆弱性的证据；对数字金融“双向倾斜”机制与两国政策组合内在矛盾的刻画，也提供了跳出单向脱钩叙事的分析视角。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "w36052",
+    "title": "Long-run Uncovered Interest Parity in Emerging Markets",
+    "authors": [
+      "Alessandro Rebucci",
+      "Sinem Yagmur Toraman",
+      "Giorgio Valente",
+      "Nicolò Capirone"
+    ],
+    "abstract": "Uncovered interest parity (UIP) tends to hold at long horizons for advanced-economy currencies. Whether it holds in emerging markets remains a more open question. We show it does not, and that sovereign credit risk can explain the failure. Using monthly zero-coupon local-currency yield curves for all emerging market currencies for which they are available from 2000 to 2025, we find that the slope of long-horizon UIP regressions is well below one at the five-year maturity for emerging market currencies, while unity cannot be rejected for G10 currencies. However, when we augment these regressions with sovereign CDS spreads, this slope rises to values statistically indistinguishable from one for floating emerging market currencies. The correction works best for currencies whose credit risk is most variable. A no-arbitrage asset pricing framework guides the specification of the regressions and the interpretation of the results.",
+    "url": "https://www.nber.org/papers/w36052",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "论文关注未抛补利率平价（UIP）在长期期限上是否成立于新兴市场。已有证据显示，发达经济体货币在长horizon上大致满足 UIP，但新兴市场仍是开放问题。作者使用 2000—2025 年间所有可获得数据的 EM（新兴市场）货币的月度零息本币收益率曲线做长期 UIP 回归，发现五年期上回归斜率显著低于 1；而 G10 货币则无法拒绝斜率为 1。作者在回归中加入主权 CDS 利差后，浮动型新兴市场货币的斜率上升到在统计上与 1 无法区分，且对于那些信用风险波动最大的货币，这种修正效果最好。实证设定与结果解读都建立在一个无套利资产定价框架之上，作者据此把 UIP 的失败归因于主权信用风险。",
+    "keywords": [
+      "未抛补利率平价",
+      "新兴市场货币",
+      "主权信用风险",
+      "CDS 利差",
+      "收益率曲线"
+    ],
+    "ai_comment": "论文用长周期、覆盖广泛的新兴市场零息本币收益率曲线数据，为 UIP 在新兴市场的失效提供了系统性证据，并把主权信用风险这一通常被忽略的因素纳入无套利框架，使其对浮动汇率货币的解释力明显增强，也为“信用风险溢价是否被误读为汇率预期偏差”提供新视角。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "w36050",
+    "title": "Past Automation and Future AI: How Weak Links Tame the Growth Explosion",
+    "authors": [
+      "Charles I. Jones",
+      "Christopher Tonetti"
+    ],
+    "abstract": "How much past growth is due to automation, and what does this imply for the future of AI? We perform task-based growth accounting and show that capital task productivity has grown about 5 percentage points per year faster than labor task productivity in the U.S. economy. The main benefit of automation is using rapidly improving machines instead of slowly-improving humans on more tasks. With these historical measures, we calibrate a growth model in which the production of goods and ideas is endogenously automated. Growth accelerates and can explode. However, the acceleration is slowed by \"weak links,\" tasks still performed by labor.",
+    "url": "https://www.nber.org/papers/w36050",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "论文关注两个问题：过去的经济增长中有多大份额来自自动化，以及这对 AI 的未来含义是什么。作者在美国经济中开展任务型增长核算（task-based growth accounting），发现资本的任务生产率（capital task productivity）每年比劳动的任务生产率（labor task productivity）快约 5 个百分点。作者指出，自动化的主要好处在于让更多任务由快速改进的机器承担，而不再由改进缓慢的人承担。基于这些历史测度进行校准后，作者构建了一个增长模型，其中商品生产与思想（ideas）生产都被内生地自动化。模型显示，增长会加速，甚至可能出现爆炸式增长；但“弱环节”（weak links）会放缓这一加速过程，这些弱环节指的仍是那些由劳动完成的任务。",
+    "keywords": [
+      "自动化",
+      "任务型增长核算",
+      "生产率",
+      "弱环节",
+      "人工智能"
+    ],
+    "ai_comment": "论文用任务型增长核算把历史上的自动化贡献定量化，并把它接入内生自动化的增长模型，为 AI 是否会带来增长爆炸提供了可校准的分析框架；其中“弱环节”机制提示，仍需由劳动完成的任务会成为加速增长的现实约束。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w36048",
+    "title": "Are Revealed Preferences All You Need for AI Alignment?",
+    "authors": [
+      "Joshua S. Gans",
+      "Richard T. Holden"
+    ],
+    "abstract": "AI agents learn what principals want from what principals choose. We offer a criterion for when a principal's decisions, at every belief an AI might hold, are all the AI needs. For acting, they are. Cautious actions, such as deferring to a person, typically divide the principal's actions into blocks, and for choosing costless evidence, decisions are enough exactly when the same evidence is best in every block. Otherwise, the AI acts as its principal would yet can gather the wrong evidence, and greater capability can turn that error into incorrect actions. Choices between two mistakes reveal what decisions miss.",
+    "url": "https://www.nber.org/papers/w36048",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "论文研究 AI 代理能否仅凭委托人的选择（显示偏好）推断其目标并实现对齐。作者提出一个判断准则：若委托人在 AI 可能持有的每一种信念下的决策都足以指导 AI，则显示偏好就是 AI 所需的全部信息；对于采取行动而言确实如此。但诸如听从人类等审慎行动通常会把委托人的行动划分为若干区块；在无成本证据选择上，只有当同一证据在每个区块中都是最优时，决策才足够。否则，AI 虽会像委托人那样行动，却可能收集到错误证据，且能力越强越可能把这种证据错误转化为错误行动。两个错误之间的选择则能揭示决策所遗漏的信息。",
+    "keywords": [
+      "AI对齐",
+      "显示偏好",
+      "证据选择",
+      "审慎行动",
+      "决策理论"
+    ],
+    "ai_comment": "论文的亮点在于把 AI 对齐问题形式化为显示偏好是否足以同时支撑行动与证据获取，并指出仅对齐行动可能因证据搜集偏差而在高能力下失效；对“两个错误之间的选择”的强调也提供了识别遗漏信息的思路。",
+    "topic": "其他"
+  },
+  {
+    "id": "w36047",
+    "title": "Regret, Survival Beliefs, and Retirement Recommendations",
+    "authors": [
+      "Abigail Hurwitz",
+      "Olivia S. Mitchell"
+    ],
+    "abstract": "We examine how information about others’ retirement regret affects annuitization and savings recommendations. In a survey experiment, participants received information about regret over not purchasing annuities or not saving enough for retirement. Responses were concentrated among individuals who underestimated their survival probabilities relative to population benchmarks, consistent with a survival belief-updating mechanism. Among underestimators, annuity regret information increased annuitization recommendations by 16.9 percentage points (approximately 38%), while savings regret information reduced recommendations to significantly increase saving by 15.4 percentage points (approximately 28%). Less regret-averse individuals reduced aggressive savings recommendations, while the positive response to annuity regret information was concentrated among more risk-averse respondents. The annuity effect was strongest among respondents with greater annuity knowledge than less knowledgeable respondents.",
+    "url": "https://www.nber.org/papers/w36047",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "本文研究关于他人退休遗憾的信息如何影响个人对年金化（annuitization）与储蓄的建议/推荐。作者通过一项调查实验，让被试接收两类信息：一是他人对未购买年金感到的遗憾，二是他人对退休储蓄不足感到的遗憾。结果显示，反应主要集中在那些相对于人群基准低估自身生存概率的个体身上，这与生存信念更新（survival belief-updating）机制相一致。在低估者群体中，年金遗憾信息使年金化推荐提高 16.9 个百分点（约 38%），而储蓄遗憾信息则使「应显著增加储蓄」的推荐下降 15.4 个百分点（约 28%）。异质性方面，遗憾规避程度较低的受访者减少了对激进储蓄建议的支持，而对年金遗憾信息的正向反应集中在风险规避程度较高的受访者中；年金效应在年金知识较多的受访者中强于知识较少的受访者。",
+    "keywords": [
+      "年金化",
+      "退休储蓄",
+      "遗憾规避",
+      "生存概率信念",
+      "调查实验"
+    ],
+    "ai_comment": "论文用调查实验干净地识别了「他人遗憾」这类社会信息对退休建议的因果影响，并用生存信念更新机制解释反应集中于生存概率低估者这一模式，异质性分析（遗憾规避、风险规避、年金知识）也提供了机制层面的佐证。",
+    "topic": "家庭金融"
+  },
+  {
+    "id": "w36046",
+    "title": "Valuing the Cost of Incomplete Global Markets",
+    "authors": [
+      "Karen K. Lewis",
+      "Edith X. Liu"
+    ],
+    "abstract": "Deviations from complete financial markets in cross-border investments generate economic welfare costs. This paper shows how to value these costs using standard theory and data based on three main results. Our first result shows how welfare valuations can be derived from a general wealth-to-dividend ratio. Next, we establish how aggregate consumption and exchange rate data can be used to uncover diversifiable goods allocations across countries. Finally, we demonstrate how asset pricing data and models can be used to value deviations from complete markets. The paper outlines a range of applications that fall under this framework, including financial intermediary constraint models.",
+    "url": "https://www.nber.org/papers/w36046",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "论文关注跨境投资中金融市场不完全（偏离完全市场）所带来的经济福利成本，旨在说明如何用标准理论与数据对这些成本进行估值，并给出三个主要结果。第一，论文证明福利估值可以从一个一般的财富—股息比（wealth-to-dividend ratio）中推导出来；第二，论文说明如何利用加总消费数据与汇率数据来识别各国之间可分散的商品配置（diversifiable goods allocations）；第三，论文展示如何用资产定价数据与模型来为偏离完全市场定价。论文还梳理了该框架下的一系列应用，其中包括金融中介约束模型（financial intermediary constraint models）。整体上，论文提供了一个统一、可操作的估值框架，把抽象的完全市场偏离转化为可用常规宏观与资产价格数据度量的福利成本。",
+    "keywords": [
+      "不完全市场",
+      "福利成本",
+      "资产定价",
+      "汇率",
+      "金融中介约束"
+    ],
+    "ai_comment": "论文的价值在于把“市场不完全”这一抽象假设转化为可用财富—股息比、消费与汇率数据以及资产定价模型共同度量的福利成本，并给出统一口径，使金融中介约束等模型也能纳入同一估值框架。",
+    "topic": "国际金融"
+  },
+  {
+    "id": "w36045",
+    "title": "How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2",
+    "authors": [
+      "Myra Mohnen",
+      "Joshua S. Gans"
+    ],
+    "abstract": "Scientists can respond to artificial intelligence by pushing the frontier of science and asking new questions, or by deepening their understanding of questions already studied. We study how AI shapes this choice in structural biology, where experiments examine a protein's three-dimensional structure and its function. AlphaFold2, released in 2021, predicts the structure of almost every known protein, with a confidence that varies across proteins. Linking 530,471 proteins to the experiments run on them between 2017 and 2025, we compare how experimental activity changed after 2021 across proteins with more and less confident predictions. Where predictions are more confident, the experimental record adds fewer first structures for proteins far from any relative of known structure. It adds more follow-up experiments on proteins whose structure is already known, and the rise is largest for proteins surrounded by relatives of known structure. A model of experimental choice shows how AlphaFold2 can deepen existing knowledge rather than extend it: a prediction replaces an experiment that would establish a protein's structure, and it lowers the cost of experiments that build on that structure.",
+    "url": "https://www.nber.org/papers/w36045",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "论文关注人工智能如何改变科学家的研究选择：是继续推进科学前沿、提出新问题，还是深化对已有问题的理解。研究以结构生物学为情境，该领域的实验测定蛋白质的三维结构及其功能；2021 年发布的 AlphaFold2 能预测几乎所有已知蛋白质的结构，但不同蛋白质的预测置信度存在差异。作者将 530,471 个蛋白质与其在 2017 至 2025 年间开展的实验相匹配，比较 2021 年之后高置信度与低置信度预测蛋白质上实验活动的变化。发现：在预测置信度更高的地方，对那些与已知结构同源关系较远的蛋白质，实验记录中新增的首次结构（first structures）更少；而对结构已知的蛋白质，后续跟进实验更多，且这一增长在周围存在已知结构同源蛋白的蛋白质上最大。作者构建了一个实验选择模型来解释这一现象：AlphaFold2 的预测会替代原本用于确定蛋白质结构的实验，同时降低在该结构基础上开展后续实验的成本，因此 AI 更多是深化已有知识，而不是向外拓展知识边界。",
+    "keywords": [
+      "AlphaFold2",
+      "结构生物学",
+      "人工智能",
+      "研究选题",
+      "知识生产"
+    ],
+    "ai_comment": "论文用蛋白质层面的精细匹配数据，把“AI 替代还是补充科学实验”这一争论转化为可检验的方向性变化，并通过实验选择模型给出统一解释，为理解 AI 对知识生产结构的影响提供了难得的因果性证据。",
+    "topic": "其他"
+  },
+  {
+    "id": "w36043",
+    "title": "Mental Models of Fiscal Policy",
+    "authors": [
+      "Francesco Bianchi",
+      "Era Dabla-Norris",
+      "Radhika Goyal",
+      "Victoria Haver",
+      "Salma Khalid"
+    ],
+    "abstract": "We study how individuals form expectations about fiscal adjustment. Using survey data from more than 27,000 respondents across 13 countries, we jointly elicit beliefs about current fiscal conditions, expectations of tax increases and spending cuts, and open-ended explanations for those expectations. We classify these explanations into economic mental models, political narratives, and experience-based heuristics. Respondents reporting similar fiscal conditions nevertheless form systematically different expectations of adjustment. Economic mental models are associated with stronger expectations of tax increases and spending cuts in the fiscal configurations we examine, whereas experience-based reasoning is associated with weaker adjustment expectations. These differences are also reflected in intended economic behavior and portfolio allocations. In a randomized experiment, fiscal information increases the likelihood that respondents articulate economic reasoning, primarily among responses that would otherwise fall outside the three primary frameworks.",
+    "url": "https://www.nber.org/papers/w36043",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "本文研究个体如何形成对财政调整（fiscal adjustment）的预期。作者使用覆盖13个国家、超过27,000名受访者的调查数据，同时 elicits 受访者对当前财政状况的信念、对增税与削减支出的预期，以及对这些预期的开放式解释，并将这些解释归类为经济心智模型（economic mental models）、政治叙事（political narratives）与基于经验的启发式（experience-based heuristics）。研究发现，即使报告相似的财政状况，受访者对财政调整的预期也存在系统性差异：经济心智模型与更强的增税和减支预期相关，而基于经验的推理则与更弱的调整预期相关（在所考察的财政配置下）。这些差异也体现在受访者意图采取的经济行为与投资组合配置上。在一项随机实验中，提供财政信息提高了受访者表达经济推理的可能性，且这一效应主要出现在原本不属于上述三类框架的回应中。",
+    "keywords": [
+      "财政调整",
+      "预期形成",
+      "心智模型",
+      "调查实验",
+      "财政信息"
+    ],
+    "ai_comment": "论文将开放题回答编码为“心智模型／政治叙事／经验启发式”，并配合随机信息实验，为财政预期异质性提供了可检验的微观机制，并把它与投资组合等实际意图联系起来，颇具新意。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w36040",
+    "title": "The Emergence of a National Capital Market,1870–1940",
+    "authors": [
+      "Pawel Janas"
+    ],
+    "abstract": "This article documents the integration of the American capital market with the first long-run, geolocated, firm-level record of the asset holdings of large institutional investors: over 100,000 holdings of life insurers, 1870–1940. Between 1880 and 1890 the mean distance of insurers’ bonds from home more than doubled and their home-state share fell from over half to under a quarter. The shift occurred within firms, across bond classes and charters. Mortgage lending was national wherever state law permitted it. Integration was largely complete by 1890.",
+    "url": "https://www.nber.org/papers/w36040",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "本文研究1870–1940年美国资本市场的一体化进程，利用首个长期、带地理位置信息、企业层面的机构投资者资产持有记录——涵盖1870至1940年间寿险公司超过10万笔持仓——来刻画市场整合。研究发现，1880至1890年间，保险公司所持债券与公司本部的平均距离扩大了一倍以上，其在本州持有的债券份额从超过一半降至不足四分之一；这一转变发生在公司内部，并跨越不同债券类别与特许状类型。只要州法允许，抵押贷款业务同样呈现全国化特征。作者据此认为，资本市场的一体化到1890年已基本完成。",
+    "keywords": [
+      "资本市场一体化",
+      "机构投资者",
+      "寿险公司",
+      "债券投资",
+      "金融史"
+    ],
+    "ai_comment": "论文以十多万笔寿险公司持仓构建长期、带地理位置的微观数据，把美国资本市场一体化的时点精确到1890年前后，为金融史与市场整合研究提供了难得的量化证据。",
+    "topic": "宏观金融"
+  },
+  {
+    "id": "w36039",
+    "title": "Democratizing Venture Capital: Tax Incentives and the Geographic Expansion of Startup Investing",
+    "authors": [
+      "Murillo Campello",
+      "Guilherme Junqueira"
+    ],
+    "abstract": "Can tax subsidies expand the geographic reach of startup investing? Despite decades of growth, venture capital (VC) remains concentrated in a handful of metropolitan areas, leaving most of the country with limited access to startup financing. We study the 2009–2010 enhancement of the Qualified Small Business Stock (QSBS) program, which eliminated federal capital gains taxes on investments in qualifying startups. By raising the payoff to success, the reform made riskier investments more attractive, including entry into unfamiliar markets. This incentive is especially strong for VC funds. Relative to similarly sized metros that already had VC, the reform raised the probability that a previously unserved metro received VC investment in qualifying sectors by 8 to 10 percentage points. There was no comparable increase in sectors excluded from QSBS or among angel investors, who receive the same tax benefit. Startups in newly served markets performed like those in other non-hub markets, created high-wage jobs, and attracted scientific and technical workers, some from established hubs. Our findings suggest that a sufficiently large subsidy can extend VC into markets it had long bypassed, even with no requirement on where startups are located.",
+    "url": "https://www.nber.org/papers/w36039",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "论文关注风险投资（VC）在地理上高度集中于少数大都市、大多数地区创业融资渠道有限这一问题，并追问税收补贴能否扩大创业投资的地理覆盖范围。作者利用 2009–2010 年 Qualified Small Business Stock（QSBS）项目的强化作为政策冲击：该改革取消了符合条件的创业企业投资所适用的联邦资本利得税，从而提高了投资成功后的回报，使包括进入不熟悉市场在内的风险更高的投资更具吸引力，且这一激励对 VC 基金尤为强烈。实证上，作者以已有 VC 活动、规模相近的大都市区作为对照，发现改革使此前未获得 VC 投资的城市区在符合条件行业中获得 VC 投资的概率上升了 8 至 10 个百分点；而在被排除在 QSBS 之外的行业，以及同样享受该税收优惠的天使投资人中，均未出现类似增长，这为识别提供了支持。进一步分析显示，新获服务市场中的创业企业表现与其他非枢纽市场中的企业相当，并创造了高工资就业岗位、吸引了科学与技术人才（部分来自既有枢纽城市）。结论表明，只要补贴足够大，即便不限定创业企业的选址，也能把 VC 引入长期被其绕开的市场。",
+    "keywords": [
+      "风险投资",
+      "税收优惠",
+      "Qualified Small Business Stock（QSBS）",
+      "创业融资",
+      "地理扩张"
+    ],
+    "ai_comment": "论文的亮点在于用一个取消资本利得税的政策冲击，干净地识别出税收补贴对 VC 地理扩张的因果效应，并以被排除行业和天使投资人作为对照排除混淆因素；同时检验新市场企业的绩效，缓解了补贴可能造成资源错配的担忧。",
+    "topic": "公司金融"
+  },
+  {
+    "id": "w36038",
+    "title": "Five Facts About Stablecoins",
+    "authors": [
+      "Lin William Cong",
+      "Gordon Y. Liao",
+      "Eswar S. Prasad",
+      "Tony Zhang"
+    ],
+    "abstract": "We document five facts about payment stablecoins using wallet-level blockchain data from 2020 to 2025. First, stablecoins serve as a transaction currency: onchain volume exceeds Bitcoin’s despite a much smaller supply, velocity has risen sharply, and transactions have shifted toward low-value transfers. Second, using transaction timing to refine exchange-based attribution, we find activity spread across the Americas, Europe, and Asia and fewer cross-regional flows than the standard method implies. Third, we estimate a structural cash-management model on the holdings data and find that the costs of accessing stablecoin wallets have fallen since 2023. Fourth, stablecoins are becoming the settlement currency of a fast-growing onchain credit market, and their growth appears to reallocate rather than destroy credit. Fifth, smart contracts are involved in about a third of Ethereum stablecoin transactions and over two thirds of volume, and protocols such as x402 demonstrate sub-cent machine-to-machine payments. Stablecoins behave as tokenized money, with implications for financial markets and regulation.",
+    "url": "https://www.nber.org/papers/w36038",
+    "published_date": "2026-11-23",
+    "source": "NBER",
+    "first_seen": "2026-11-23",
+    "abstract_missing": false,
+    "summary": "本文利用 2020 至 2025 年的钱包级区块链数据，记录了支付型稳定币的五个事实。第一，稳定币已具备交易货币的功能：其链上交易量超过比特币，尽管供应量小得多；流通速度大幅上升，交易结构向低价值转账转移。第二，作者利用交易时间改进了对交易所归属的判定，发现稳定币活动分散在美洲、欧洲和亚洲，跨区域资金流动比标准方法所暗示的更少。第三，作者基于持有数据估计了一个结构性现金管理模型，发现自 2023 年以来访问稳定币钱包的成本有所下降。第四，稳定币正成为快速增长的链上信贷市场的结算货币，其增长似乎是在重新配置信贷，而不是摧毁信贷。第五，智能合约参与了约三分之一的以太坊稳定币交易，涉及的交易量占比超过三分之二；x402 等协议展示了低于一美分的机器间支付。总体而言，稳定币表现得像代币化货币（tokenized money），这对金融市场和监管具有启示。",
+    "keywords": [
+      "稳定币",
+      "链上交易",
+      "现金管理模型",
+      "链上信贷",
+      "智能合约"
+    ],
+    "ai_comment": "论文用钱包级链上数据系统刻画稳定币的货币属性，其中利用交易时间改进交易所归属识别、并以结构性现金管理模型估计钱包访问成本，是方法上的亮点，也为稳定币监管讨论提供了实证基础。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104404",
     "title": "Populism, polarization and green investment",
     "authors": [
