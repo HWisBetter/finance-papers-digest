@@ -295,6 +295,184 @@
     "topic": "银行与金融中介"
   },
   {
+    "id": "10.1287/mnsc.2025.01346",
+    "title": "Optimal Incentive Design for Decentralized Dynamic Matching Markets",
+    "authors": [
+      "Chen Chen",
+      "Pengyu Qian",
+      "Jingwei Zhang"
+    ],
+    "abstract": "In decentralized dynamic matching markets, agents can benefit from sharing resources, but they will collaborate only if properly incentivized. Motivated by applications such as multihospital kidney exchanges and job-hunting markets, this paper proposes novel monetary and nonmonetary mechanisms to incentivize collaboration in such decentralized dynamic markets. We study a model in which multiple self-interested agents manage local multiway dynamic matching problems. Jobs of different types arrive stochastically at each agent, expire after a limited time, and yield rewards when matched. An agent’s job backlog and actions are the agent’s private information, and each agent aims to maximize its long-run average matching reward. We design simple mechanisms that incentivize agents to submit all jobs upon arrival, thereby enabling centralized matching. Our first mechanism, the marginal-value (MV) mechanism, reimburses agents based on the MV of their submitted jobs. This can be implemented in a nonmonetary way by randomly selecting an agent (with a specified probability) to perform a match and collect the associated matching reward. We show that under the MV mechanism, full job submission constitutes an approximate Nash equilibrium—that is, the gain from unilateral deviation vanishes as the number of agents grows. To further eliminate incentives for deviation, we propose a refined mechanism, the MV-plus-credit (MVC) mechanism, and show that, when the number of agents exceeds a constant threshold, full job submission constitutes a stronger oblivious equilibrium. Numerical experiments based on kidney exchange data demonstrate that the gains from deviation under our mechanisms are small even in moderately sized markets. This paper was accepted by Peng Sun, optimization and decision analytics. Funding: J. Zhang is partly supported by the National Natural Science Foundation of China (NSFC) [Grant 72394361] and the Guangdong Provincial Key Laboratory of Mathematical Foundations for Artificial Intelligence [2023B1212010001]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.01346 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.01346",
+    "published_date": "2026-11-23",
+    "source": "MS",
+    "first_seen": "2026-11-24",
+    "abstract_missing": false,
+    "summary": "论文研究去中心化动态匹配市场中的激励设计问题：多个自利代理各自管理本地的多路动态匹配问题，不同类型的任务随机到达各代理、在有限时间后过期，匹配成功会产生奖励；代理的待处理任务积压和行动均为私人信息，目标是最大化长期平均匹配奖励。为此，作者提出货币与非货币两类新机制，激励代理在任务到达时提交全部任务，从而支持集中式匹配。首先提出边际价值（MV）机制，按所提交任务的边际价值对代理进行补偿；该机制可通过非货币方式实施，即以特定概率随机选择某个代理执行匹配并收取相应奖励。理论结果表明，在MV机制下，提交全部任务构成近似Nash均衡，即随着代理数量增长，单边偏离的收益趋于消失。为进一步消除偏离激励，作者提出改进的MV-plus-credit（MVC）机制，并证明当代理数量超过某一常数阈值时，提交全部任务构成更强的oblivious equilibrium。基于肾脏交换数据的数值实验显示，即使在中等规模市场中，所提机制下的偏离收益也很小。",
+    "keywords": [
+      "动态匹配市场",
+      "机制设计",
+      "近似Nash均衡",
+      "肾脏交换",
+      "激励相容"
+    ],
+    "ai_comment": "论文的亮点在于针对代理拥有私人信息且动态到达的去中心化匹配环境，设计了简单可实施的货币与非货币机制，并给出近似Nash均衡与更强均衡的理论保证；结合肾脏交换数据的实验也增强了机制的现实可行性。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1287/mnsc.2025.00524",
+    "title": "Information Design with Supplemental Investment",
+    "authors": [
+      "Lin Nan",
+      "Lin Qiu",
+      "Xiaoyan Wen",
+      "Ronghuo Zheng"
+    ],
+    "abstract": "This paper features a setting with two-dimensional information asymmetry on a firm’s fundamental (good or bad type) and the nature of its supplemental investment (improving upside potential, or mitigating downside risk). We examine the firm’s optimal design of the information system when the system can only address the dimension of fundamental. We show that, with only single-dimensional information asymmetry regarding the firm’s fundamental, greater informativeness on the firm’s fundamental type always improves efficiency. However, with two-dimensional information asymmetry, increasing informativeness about firm fundamental no longer guarantees higher efficiency and can be detrimental. The optimal information system trades off reducing information asymmetry and preserving firms’ incentives to invest, and it could be uninformative or optimistically biased, depending on the level of credit risk, which in our setting is higher when supplemental investment is more likely to improve upside rather than protect downside. This paper was accepted by Ranjani Krishnan, accounting. Supplemental Material: The online appendix is available at https://doi.org/10.1287/mnsc.2025.00524 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.00524",
+    "published_date": "2026-11-23",
+    "source": "MS",
+    "first_seen": "2026-11-24",
+    "abstract_missing": false,
+    "summary": "论文研究一个存在二维信息不对称的情境：一方面企业基本面类型有好坏之分，另一方面企业的补充投资具有不同性质，即用于提升上行潜力或缓释下行风险。作者考察当信息系统只能针对企业基本面维度提供信息时，企业应如何最优设计该信息系统。结果表明，若只存在关于企业基本面的单维信息不对称，提高关于基本面类型的信息含量总能提升效率；但在二维信息不对称下，提高基本面信息含量不再必然提高效率，甚至可能造成损害。最优信息系统需要在降低信息不对称与保留企业投资激励之间权衡，且可能选择不提供信息或呈现乐观偏差，具体取决于信用风险水平；在该设定中，当补充投资更可能提升上行潜力而非保护下行风险时，信用风险更高。",
+    "keywords": [
+      "信息设计",
+      "补充投资",
+      "信息不对称",
+      "信用风险",
+      "信息披露"
+    ],
+    "ai_comment": "论文的关键贡献在于揭示多维信息不对称会逆转“信息越充分越有效”的直觉，并将最优信息系统的无信息或乐观偏差与投资类型和信用风险联系起来。其结论对理解企业信息披露与投资激励之间的张力具有启发意义。",
+    "topic": "会计与信息披露"
+  },
+  {
+    "id": "10.1287/mnsc.2024.08073",
+    "title": "Learning from a Biased Sample",
+    "authors": [
+      "Roshni Sahoo",
+      "Lihua Lei",
+      "Stefan Wager"
+    ],
+    "abstract": "The empirical risk minimization approach to data-driven decision making requires access to training data drawn under the same conditions as those that will be faced when the decision rule is deployed. However, we may be concerned that our training sample is biased in the sense that some groups (characterized by either observable or unobservable attributes) may be under- or over-represented relative to the general population; and in this setting, empirical risk minimization over the training set may fail to yield rules that perform well at deployment. We propose a model of sampling bias called conditional [Formula: see text]-biased sampling, where observed covariates can affect the probability of sample selection arbitrarily much but the amount of unexplained variation in the probability of sample selection is bounded by a constant factor. Applying the distributionally robust optimization framework, we propose a method for learning a decision rule that minimizes the worst-case risk incurred under a family of test distributions that can generate the training distribution under conditional [Formula: see text]-biased sampling. We apply a result of Rockafellar and Uryasev to show that this problem is equivalent to an augmented convex risk minimization problem. We give statistical guarantees for learning a model that is robust to sampling bias via the method of sieves, and propose a deep learning algorithm whose loss function captures our robust learning target. We empirically validate our proposed method in a case study on prediction of mental health scores from health survey data and a case study on intensive care unit length-of-stay prediction. This paper was accepted by Vivek Farias, data science. Funding: This research was supported by NSF grant SES-2242876. RS is further supported by a NSF GRFP under grant DGE-1656518, a Stanford Data Science PhD Fellowship, and a Stanford Diversifying Academia Recruiting Excellence (DARE) Fellowship. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08073 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08073",
+    "published_date": "2026-11-23",
+    "source": "MS",
+    "first_seen": "2026-11-24",
+    "abstract_missing": false,
+    "summary": "论文关注数据驱动决策中训练样本存在偏差的问题：经验风险最小化（ERM）要求训练数据与部署时面临的条件一致，但现实中某些群体（无论其属性可观测还是不可观测）在样本中可能被过度或不足代表，此时在训练集上做 ERM 得到的决策规则在部署阶段可能表现不佳。作者提出一种刻画采样偏差的模型——conditional f-biased sampling（条件 f-有偏采样）：可观测协变量可以任意程度地影响样本被选中的概率，但选择概率中无法解释的变动幅度被一个常数因子所界定。在此模型下，作者借助分布鲁棒优化（distributionally robust optimization）框架，学习在这样一族测试分布上最坏情况风险最小的决策规则，这族测试分布正是能够在 conditional f-biased sampling 下生成该训练分布的分布。作者利用 Rockafellar 与 Uryasev 的一个结果证明该问题等价于一个增广的凸风险最小化问题；通过 sieve（筛方法）给出对采样偏差稳健的模型学习的统计保证，并提出一个损失函数体现该稳健学习目标的深度学习算法。实证上，作者通过两个案例验证方法：一是基于健康调查数据预测心理健康得分，二是预测重症监护病房（ICU）的住院时长。",
+    "keywords": [
+      "采样偏差",
+      "分布鲁棒优化",
+      "经验风险最小化",
+      "f-散度",
+      "深度学习"
+    ],
+    "ai_comment": "论文将采样偏差刻画为条件 f-有偏采样，并用分布鲁棒优化把稳健决策问题转化为增广凸风险最小化，兼具统计保证与可落地的深度学习实现，为训练样本不具代表性时的决策提供了统一框架。",
+    "topic": "金融计量/机器学习"
+  },
+  {
+    "id": "10.1287/mnsc.2023.03136",
+    "title": "Deep Tangency Portfolio",
+    "authors": [
+      "Guanhao Feng",
+      "Liang Jiang",
+      "Junye Li",
+      "Yizhi Song",
+      "Yuanzhi Wang"
+    ],
+    "abstract": "We develop a deep learning framework to directly estimate tangency portfolio weights by augmenting benchmark factors with a long-short deep factor derived from high-dimensional characteristics. Guided by a Sharpe ratio maximization objective, the deep factor plays two key roles: (i) providing a natural hedge against benchmark risks and (ii) capturing multimarket signals to enhance the performance of the benchmark. In an empirical application to U.S. corporate bonds using 132 firm-level bond, equity, and option characteristics, the deep factor achieves an out-of-sample Sharpe ratio exceeding one, and the deep tangency portfolio benchmarked against the market factor yields a Sharpe ratio over two, outperforming portfolios spanned by common observable or latent factors. These results demonstrate that bond risk signals are fundamentally dense, requiring the nonlinear integration of multimarket information to span the efficient frontier. This paper was accepted by Agostino Capponi, finance. Funding: G. Feng acknowledges financial support from the Hong Kong Research Grants Council [Grant GRF11502023] and the National Natural Science Foundation of China [Grant 72203190]. G. Feng is partially supported by the InnoHK Initiative of the Innovation and Technology Commission of the Hong Kong SAR and the Laboratory for AI-Powered Financial Technologies. L. Jiang acknowledges financial support from the National Natural Science Foundation of China [Grant 72473027]. J. Li acknowledges financial support from the National Natural Science Foundation of China [Grant 72473026]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2023.03136 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.03136",
+    "published_date": "2026-11-23",
+    "source": "MS",
+    "first_seen": "2026-11-24",
+    "abstract_missing": false,
+    "summary": "本文提出一个深度学习框架，用于直接估计切线投资组合（tangency portfolio）的权重：它不采用传统“先估计预期收益与协方差再求最优权重”的两步法，而是在基准因子之外，加入一个由高维特征构造的多空 deep factor，并以 Sharpe ratio 最大化为目标进行端到端训练。在这个设定下，deep factor 发挥两方面作用：(i) 为基准风险提供自然对冲；(ii) 捕捉跨市场信号以增强基准表现。实证部分以美国公司债为对象，使用 132 个公司层面的债券、股票与期权特征；结果显示，deep factor 的样本外 Sharpe ratio 超过 1，而以市场因子为基准的 deep tangency portfolio 的 Sharpe ratio 超过 2，优于由常见可观测因子或潜在因子张成的投资组合。作者据此认为，债券风险信号本质上是“稠密”的（dense），必须通过非线性方式整合多市场信息，才能张成有效前沿（efficient frontier）。",
+    "keywords": [
+      "切线投资组合",
+      "深度学习",
+      "夏普比率",
+      "公司债",
+      "高维特征"
+    ],
+    "ai_comment": "论文的亮点在于把切线组合权重的估计直接嵌入 Sharpe ratio 最大化的深度学习目标中，从而绕开两步法的估计误差累积，并用 132 个债券、股票、期权特征验证了债券风险信号“稠密”且需跨市场非线性整合的判断，样本外表现显著优于传统因子张成的组合。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1093/rfs/hhag100",
+    "title": "CHILE",
+    "authors": [
+      "Efstathios Avdis",
+      "Sergei Glebkin"
+    ],
+    "abstract": "We introduce CHILE, an asset-pricing framework with asymmetric information, general utility functions, and arbitrary payoffs. It features a large economy (LE) with continuous-and-heterogeneous information (CHI). The defining feature of this information structure is that the total amount of information stays finite as the economy grows large. We use the framework to study how concentration—the presence of market participants of different sizes—affects market quality, namely liquidity and information efficiency. Greater concentration proves a double-edged sword: it raises liquidity but harms information efficiency. (JEL D01, D53, D82, E19, G12, G14)",
+    "url": "https://doi.org/10.1093/rfs/hhag100",
+    "published_date": "2026-11-23",
+    "source": "RFS",
+    "first_seen": "2026-11-24",
+    "abstract_missing": false,
+    "summary": "本文提出了 CHILE 这一资产定价框架，其特点是同时容纳非对称信息、一般效用函数与任意收益结构（arbitrary payoffs）。该框架的核心设定是“大型经济”（large economy, LE）与“连续且异质的信息结构”（continuous-and-heterogeneous information, CHI），其中信息结构的决定性特征是：随着经济规模趋于大型，信息总量保持有限（total amount of information stays finite）。作者据此研究市场参与者规模差异所导致的集中度（concentration）如何影响市场质量，即流动性与信息效率。研究表明，集中度是一把双刃剑：它提高了流动性，但损害了信息效率。",
+    "keywords": [
+      "资产定价",
+      "非对称信息",
+      "市场集中度",
+      "流动性",
+      "信息效率"
+    ],
+    "ai_comment": "论文在一般效用与任意收益结构下构建了信息总量有限的大型经济框架，使非对称信息下的资产定价分析更具一般性；其中“集中度提升流动性却损害信息效率”的双刃剑结论，对理解市场规模分布与市场质量的权衡具有明确的政策与监管含义。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1093/rfs/hhag099",
+    "title": "Collateral Demand in Wholesale Funding Markets",
+    "authors": [
+      "Jamie Coen",
+      "Patrick Coen",
+      "Anne-Caroline Hüser"
+    ],
+    "abstract": "Repo markets are systemically important funding markets, but are also used by firms to obtain the assets provided as collateral. We build and structurally estimate a model of trade between heterogeneous firms in the sterling gilt repo market, and show that this collateral demand depresses repo market activity and can impede the transmission of monetary policy. We quantify how well-designed central bank repo facilities can improve outcomes: if the central bank were to lend out the assets on its balance sheet following quantitative easing, transmission and total firm surplus would improve by 20% and 38%, respectively.",
+    "url": "https://doi.org/10.1093/rfs/hhag099",
+    "published_date": "2026-11-23",
+    "source": "RFS",
+    "first_seen": "2026-11-24",
+    "abstract_missing": false,
+    "summary": "本文关注回购市场这一具有系统重要性的融资市场，同时注意到企业也会进入回购市场，目的是获取交易中作为抵押品提供的资产，由此形成“抵押品需求”。作者以英镑（sterling）国债回购市场为情境，构建并结构化估计了一个刻画异质性企业之间交易行为的模型，结果显示这种抵押品需求会压低回购市场的交易活跃度，并可能阻碍货币政策的传导。论文进一步定量评估了设计良好的央行回购便利所能带来的改善：如果央行按照量化宽松（quantitative easing）后的资产负债表状况将所持资产出借出去，货币政策传导效果和企业总剩余将分别提升 20% 和 38%。",
+    "keywords": [
+      "回购市场",
+      "抵押品需求",
+      "货币政策传导",
+      "量化宽松",
+      "批发融资"
+    ],
+    "ai_comment": "论文的亮点在于把回购市场参与者对抵押品本身的需求内生化，并据此量化其对市场活跃度与货币政策传导的抑制效应，同时给出央行出借资产的量化改善幅度，兼具理论建模与政策评估价值。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104417",
+    "title": "Keep calm and bank on: Bank run risks and the role of public communication",
+    "authors": [
+      "Damiano Sandri",
+      "Francesco Grigoli",
+      "Yuriy Gorodnichenko",
+      "Olivier Coibion"
+    ],
+    "abstract": "Using a survey with information treatments conducted after the collapse of Silicon Valley Bank (SVB), we document novel findings about households’ perceptions on bank stability, the potential for bank runs, and the role of FDIC insurance and public communication. First, households are generally poorly informed about the banking sector and deposit insurance. Second, when informed about SVB’s collapse, households become more likely to withdraw deposits, even if insured. Third, households reallocate deposit withdrawals primarily into other banks and cash, with little passthrough into durable spending. Fourth, information about FDIC insurance or bank stability by the Federal Reserve reassures depositors, while communication from political leaders influences only their electoral base.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104417",
+    "published_date": "2026-11-23",
+    "source": "JFE",
+    "first_seen": "2026-11-24",
+    "abstract_missing": false,
+    "summary": "本文借助在硅谷银行（SVB）倒闭之后开展的一项带信息干预（information treatments）的调查，研究家庭对银行稳定性的认知、银行挤兑的可能性，以及 FDIC 存款保险与公共沟通的作用。研究发现：第一，家庭对银行业与存款保险普遍了解不足；第二，在得知 SVB 倒闭后，家庭更倾向于提取存款，即使其存款已受保险；第三，家庭将提取的资金主要转向其他银行与现金，几乎很少转化为耐用品消费；第四，关于 FDIC 保险或美联储关于银行稳定性的信息能够安抚存款人，而政治领导人的沟通只影响其自身的选民基本盘。",
+    "keywords": [
+      "银行挤兑",
+      "存款保险",
+      "公共沟通",
+      "家庭预期",
+      "SVB"
+    ],
+    "ai_comment": "论文以信息干预调查为因果识别手段，把存款保险认知、公共沟通来源的可信度与挤兑行为联系起来，揭示了即使存款受保也可能引发提款的机制，并区分了不同沟通主体在安抚存款人上的效果差异，对危机沟通政策具有直接启示。",
+    "topic": "银行与金融中介"
+  },
+  {
     "id": "10.1016/j.jfineco.2026.104404",
     "title": "Populism, polarization and green investment",
     "authors": [
