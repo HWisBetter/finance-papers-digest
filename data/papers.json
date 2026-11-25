@@ -1,5 +1,53 @@
 [
   {
+    "id": "10.1093/rfs/hhag101",
+    "title": "Fintech Expansion",
+    "authors": [
+      "Jing Huang"
+    ],
+    "abstract": "I study credit market outcomes with different competing lending technologies: a fintech lender that learns from data and can seize on-platform sales, and a banking sector that relies on physical collateral. Despite flexible information acquisition technology, endogenous fintech learning is surprisingly coarse, with a single threshold that screens out low-quality borrowers. As fintech lending technology improves, better enforcement harms, while better information technology benefits traditional banking sector profits. Big data technology enables the fintech to leverage data from its early-stage operations in unbanked markets to develop predictive models that support expansion into wealthier markets. (JEL G21, L13, L52, O33, O36)",
+    "url": "https://doi.org/10.1093/rfs/hhag101",
+    "published_date": "2026-11-24",
+    "source": "RFS",
+    "first_seen": "2026-11-25",
+    "abstract_missing": false,
+    "summary": "本文构建模型研究不同放贷技术相互竞争下的信贷市场结果：一方是依托数据学习、并能够扣押（seize）平台内销售收入的金融科技（fintech）放贷机构，另一方是依赖实物抵押品的银行业部门。研究发现，尽管金融科技具备灵活的信息获取技术，其内生的学习结果却出人意料地粗糙——只形成一个单一门槛，将低质量借款人筛选出去。随着金融科技放贷技术改善，更强的合约执行（enforcement）反而造成损害，而更好的信息技术则有利于传统银行业的利润。大数据技术使金融科技能够利用其早期在无银行账户（unbanked）市场经营中积累的数据，开发预测模型，从而支撑其向更富裕市场的扩张。",
+    "keywords": [
+      "金融科技",
+      "信贷市场",
+      "信息获取",
+      "大数据",
+      "抵押品"
+    ],
+    "ai_comment": "论文的反直觉亮点在于：金融科技虽拥有灵活的信息技术，内生学习却收敛为单一门槛式的粗糙筛选；同时揭示了执法强度与信息技术进步对传统银行利润方向相反的效应，为 fintech 与银行竞争提供了细致的理论刻画。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1016/j.jfineco.2026.104402",
+    "title": "Carbon home bias",
+    "authors": [
+      "Patrick Bolton",
+      "Marc Eskildsen",
+      "Marcin Kacperczyk"
+    ],
+    "abstract": "Institutional investors apply stricter carbon screens abroad than at home. Using global equity holdings for roughly 13,400 institutions across 48 countries over 2005–2024, we show that higher firm emissions predict lower foreign institutional ownership with no corresponding reduction at home; the domestic-foreign ownership gap widens with emissions, and domestic ownership rises with Scope 3 emissions. This carbon home bias remains in within-investor and within-firm comparisons and is not explained by the country-pair determinants of ordinary home bias. It operates through both re-entry (foreign high emitters face a higher hurdle to re-enter a portfolio) and exit (a higher hazard of leaving it). This bias intensified after the Paris Agreement and did not unwind during the subsequent anti-ESG reaction. It is concentrated in discretionary rather than index-constrained holdings; at the extensive margin, the incremental bias is largest among pension funds—institutions particularly associated with formal investment-policy restrictions, and better covered by European than by U.S. filings—rather than among managers best placed to exploit an informational advantage. Overall, the evidence is more consistent with institutional constraints and screening policies than with a simple information-advantage explanation.",
+    "url": "https://doi.org/10.1016/j.jfineco.2026.104402",
+    "published_date": "2026-11-24",
+    "source": "JFE",
+    "first_seen": "2026-11-25",
+    "abstract_missing": false,
+    "summary": "本文记录了机构投资者在碳筛选上存在“本土偏好”：对海外公司施加的碳排放筛选标准比本土公司更严格。作者使用 2005–2024 年间 48 个国家约 13,400 家机构的全球股票持仓数据，发现企业排放越高、外国机构持股越低，但本土持股并没有相应减少；本土与外资持股差距随排放上升而扩大，本土持股甚至随 Scope 3 排放上升。这一“carbon home bias”在投资者内（within-investor）与企业内（within-firm）比较中依然稳健，且无法用解释普通 home bias 的国家对（country-pair）因素说明。机制上，该偏误同时通过再进入（re-entry，高排放外国公司重新进入组合的门槛更高）与退出（exit，离开组合的风险率更高）起作用。该偏误在《巴黎协定》后强化，且在随后的反 ESG 浪潮中并未逆转；它集中在可自主决定的持仓而非受指数约束的持仓中；在外延边际（extensive margin）上，增量偏误在养老金（pension funds）中最大——这类机构尤其与正式投资政策限制相关，且欧洲披露文件对其覆盖优于美国文件——而不是在最有条件利用信息优势的管理人身上。总体而言，证据更符合制度约束与筛选政策的解释，而非简单的信息优势解释。",
+    "keywords": [
+      "本土偏好",
+      "机构投资者",
+      "ESG",
+      "碳排放",
+      "投资组合配置"
+    ],
+    "ai_comment": "论文提出并系统刻画了“carbon home bias”这一新事实，用 within-investor 与 within-firm 检验排除了常规 home bias 与国家对因素，并通过 re-entry/exit 分解、养老金与指数约束持仓的异质性，把制度性筛选约束与信息优势假说区分开来，为 ESG 投资的跨境不对称提供了有力证据。",
+    "topic": "国际金融"
+  },
+  {
     "id": "w36057",
     "title": "CFOs Meet LLMs",
     "authors": [
