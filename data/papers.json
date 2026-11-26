@@ -1,5 +1,77 @@
 [
   {
+    "id": "10.1287/mnsc.2025.01063",
+    "title": "When GenAI Increases Inequality: Evidence from a University Debating Competition",
+    "authors": [
+      "Antonio Roldán-Monés"
+    ],
+    "abstract": "Research on Generative AI (GenAI) and work reports both productivity-compressing and inequality-expanding effects, leaving open a central question for organizations: Who benefits from GenAI and on which specific tasks? I address this question through a randomized controlled trial in competitive university debating, where participants are randomly assigned access to GenAI. Although most previous experimental work examines the impact of GenAI on written activities and across individuals, this setting allows me to study the impact of GenAI on a knowledge-intensive spoken activity and to identify heterogeneous effects across subtasks. I find that GenAI expands performance inequality in this setting. Consistent with recent theories on GenAI and work, results show that high-ability participants experience significantly larger gains from GenAI usage than their lower-ability counterparts in judgment-intensive subtasks, whereas lower-ability individuals only improve their performance in less expert components of debating, where GenAI can be used as a substitute. If these inequality-expanding effects generalize to similar spoken settings where complex ideas must be internalized and explained, rather than simply written, they would have important implications for understanding the impact of GenAI on work and inequality. This paper was accepted by Maria Guadalupe, business strategy. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.01063 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.01063",
+    "published_date": "2026-11-25",
+    "source": "MS",
+    "first_seen": "2026-11-26",
+    "abstract_missing": false,
+    "summary": "本文关注生成式 AI（GenAI）究竟让谁受益、以及在哪些具体任务上受益这一组织层面的核心问题。作者在一场竞争性大学辩论赛中开展随机对照试验，随机分配参赛者是否可以使用 GenAI。与以往多聚焦书面活动、以个体为分析单位的实验不同，该情境使作者能够考察 GenAI 对知识密集型口头活动的影响，并识别其在各子任务上的异质性效应。研究发现，GenAI 在此情境下扩大了绩效不平等：与近期关于 GenAI 与工作的理论一致，高能力参与者在判断密集（judgment-intensive）的子任务上从 GenAI 使用中获得的收益显著大于低能力参与者；而低能力个体只在辩论中专业门槛较低、GenAI 可作为替代品的环节上提升了表现。作者指出，若这种扩大不平等的效应能推广到其他类似的、需要内化并阐释复杂思想而非仅作书面表达的口头情境，将对理解 GenAI 对工作与不平等的影响具有重要意义。",
+    "keywords": [
+      "生成式AI",
+      "绩效不平等",
+      "随机对照试验",
+      "能力异质性",
+      "口头表达"
+    ],
+    "ai_comment": "论文以辩论赛的随机对照试验巧妙地把 GenAI 研究从书面任务拓展到知识密集型口头任务，并区分判断密集与低专业门槛子任务，揭示了“高能力者获益更多”的异质性机制，为 GenAI 扩大不平等的理论提供了干净的因果证据。",
+    "topic": "行为金融"
+  },
+  {
+    "id": "10.1287/mnsc.2024.09109",
+    "title": "Online Job Selection: Reward Rate vs. Remaining Value",
+    "authors": [
+      "Mohammad Reza Aminian",
+      "Will Ma",
+      "Linwei Xin"
+    ],
+    "abstract": "High-throughput systems, such as cloud spot markets, adaptive large language model inference, and order consolidation in logistics, operate under capacity constraints. In these settings, decision makers must allocate fixed resources among a stream of requests with heterogeneous reward rates and service durations. A critical tension arises when capacity is saturated; the system must decide whether to continue serving an active job to harvest its remaining value or to preempt it in favor of a new arrival. This trade-off is especially subtle when a new job offers a lower immediate reward rate but a longer service duration, potentially outweighing a high-rate job near completion. To address this challenge, we introduce a general and parsimonious online allocation framework for capacity-constrained resources, where preemption is nonresumable and yields partial rewards. This abstraction captures the essential dynamics of modern resource management problems, including but not limited to those discussed earlier. We derive intuitive index-based policies and provide constant-factor competitive-ratio guarantees for their performance without requiring any forecasts of future demand. In particular, we show that two naive index-based policies have competitive ratios of 1/2 and [Formula: see text]. Our main methodological contribution is to develop a flexible framework for defining “quasiutilities” that couples the states of an online algorithm versus an offline algorithm, which reduces the design of online index-based policies to an offline geometrical problem. The framework allows us to optimize the index function, leading to an exponential-index-based policy that has an improved competitive ratio of 0.68. We also consider various extensions and prove that most of our analyses are tight. Finally, we conduct a concise numerical study to demonstrate the strong empirical performance of the proposed policies under nonworst-case stochastic demand sequences. This paper was accepted by Jeannette Song, operations management. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.09109 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.09109",
+    "published_date": "2026-11-25",
+    "source": "MS",
+    "first_seen": "2026-11-26",
+    "abstract_missing": false,
+    "summary": "论文研究容量受限的高吞吐系统中的在线资源分配问题，例如云现货市场、自适应大语言模型推理和物流订单合并等场景。系统需要在奖励率和服务时长异质的请求流之间分配固定资源；当容量饱和时，核心张力在于是继续服务当前任务以获取其剩余价值，还是抢占当前任务以接纳新到达请求，尤其当新请求即时奖励率较低但服务时长更长、可能超过一个接近完成的高奖励率任务时，决策更加微妙。为此，作者提出一个通用且简约的在线分配框架，其中抢占不可恢复且只能获得部分奖励。该框架推导出直观的 index-based policies，并在不依赖未来需求预测的情况下给出常数因子竞争比保证；文中表明两种朴素 index-based 策略分别具有 1/2 和另一常数的竞争比。其方法学贡献是构建一个可定义“quasiutilities”的灵活框架，将在线算法与离线算法的状态耦合起来，从而把在线 index-based 策略设计转化为离线几何问题，并据此优化 index 函数，得到竞争比提升至 0.68 的 exponential-index-based policy。论文还讨论了多种扩展并证明大部分分析是紧的，最后通过简要数值研究展示所提策略在非最坏情形随机需求序列下的较强实证表现。",
+    "keywords": [
+      "在线分配",
+      "容量约束",
+      "抢占",
+      "指数策略",
+      "竞争比"
+    ],
+    "ai_comment": "论文的亮点在于用 quasiutilities 框架把在线 index 策略设计转化为离线几何优化问题，并在无需求预测下给出竞争比保证，指数策略将竞争比提升至 0.68，兼具理论保证与实证表现。",
+    "topic": "其他"
+  },
+  {
+    "id": "10.1287/mnsc.2024.08930",
+    "title": "Machine Learning Vast Dynamic Conditional Covariance Matrices: The Spirit of “Divide and Conquer”",
+    "authors": [
+      "Zhoufan Zhu",
+      "Ke Zhu"
+    ],
+    "abstract": "Large-scale portfolio selection requires accurate forecasts of high-dimensional dynamic conditional covariance matrices (CCMs). This task is challenging because the number of covariance elements grows quickly with the number of assets, whereas the available time-series observations are limited and noisy. In this paper, we propose a novel graph-based quantiled (GRAND) CCM estimator in the spirit of “divide and conquer.” By extracting information from the extensive asset features, the GRAND method leverages a new graph-based deep learning network, called the self-grouping autoencoder (SGA), to learn the conditional quantiles of returns. Using those learned conditional quantiles, the GRAND method further learns (co)variances of CCM element-wisely via the quantiled conditional moment (QCM) method, and finally, it makes the resulting assembled CCM estimator positive semidefinite through a projection. Because of the use of the SGA network and the QCM method in an element-wise way, the GRAND method is blessing dimensionality in learning the CCM of a large-scale portfolio, while keeping the computation manageable and maintaining causal semantics. From an extensive empirical analysis of the Chinese stock market, we show that the GRAND method can produce much better tangency portfolios than its competitors, and provide dynamic causal graphs to study variance and quantile connectedness of all stocks for interpreting systemic risk and forecasting the business cycle. This paper was accepted by Kay Giesecke, finance. Funding: This work was supported by the National Natural Science Foundation of China [Grants 72503203 and 72573142]; the Natural Science Foundation of Fujian Province [Grants 2025J01036 and 2025J08009]; the Fundamental Research Funds for the Central Universities [Grant 20720251053]; and the Research Grants Council, University Grants Committee [Grants 17302424, 17304421, 17304723, and 17312622]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.08930 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.08930",
+    "published_date": "2026-11-25",
+    "source": "MS",
+    "first_seen": "2026-11-26",
+    "abstract_missing": false,
+    "summary": "针对大规模投资组合选择中高维动态条件协方差矩阵（CCM）难以准确估计的问题——协方差元素数量随资产数迅速增长，而可用的时间序列样本有限且噪声较大——本文提出了一种基于图的分位数（graph-based quantiled, GRAND）CCM 估计量，其思路是“分而治之”。GRAND 先从大量资产特征中提取信息，利用一种新的图深度学习网络 self-grouping autoencoder（SGA）学习收益率的条件分位数；再以这些学习到的条件分位数为输入，通过 quantiled conditional moment（QCM）方法逐元素地学习 CCM 中各元素的（协）方差；最后通过投影使组装得到的 CCM 估计量满足半正定性。由于 SGA 网络与 QCM 方法均以逐元素方式使用，GRAND 在大规模投资组合的 CCM 学习中具备应对维数困难的天然优势，同时计算量可控，并保留了因果语义。基于中国股票市场的大量实证分析表明，GRAND 能构造出显著优于对比方法的切点组合（tangency portfolio），并能提供动态因果图，用于研究全部股票的方差与分位数连通性，从而解释系统性风险并预测经济周期。",
+    "keywords": [
+      "高维协方差矩阵",
+      "图深度学习",
+      "分位数回归",
+      "投资组合选择",
+      "系统性风险"
+    ],
+    "ai_comment": "论文将“分而治之”思想落实为图自编码器学习条件分位数、再逐元素构造协方差并投影保证半正定的完整流程，兼具可扩展性与因果可解释性；在中国股市上不仅改进切点组合表现，还用动态因果图刻画风险连通性，拓展了高维协方差估计的应用边界。",
+    "topic": "金融计量/机器学习"
+  },
+  {
     "id": "10.1093/rfs/hhag101",
     "title": "Fintech Expansion",
     "authors": [
