@@ -1,5 +1,53 @@
 [
   {
+    "id": "10.1287/mnsc.2025.04971",
+    "title": "Inferential Theory for Pricing Errors with Latent Factors and Firm Characteristics",
+    "authors": [
+      "Jungjun Choi",
+      "Ming Yuan"
+    ],
+    "abstract": "We study factor models that combine latent factors with firm characteristics and propose a new framework for modeling, estimating, and inferring pricing errors. Following Zhang (2024), our approach decomposes mispricing into two distinct components: inside alpha, explained by firm characteristics but orthogonal to factor exposures, and outside alpha, orthogonal to both factors and characteristics. Our model generalizes those developed recently such as Kelly et al. (2019) and Zhang (2024), resolving issues of orthogonality, basis dependence, and unit sensitivity. Methodologically, we develop estimators grounded in low-rank methods with explicit debiasing, providing closed-form solutions and a rigorous inferential theory that accommodates a growing number of characteristics and relaxes standard assumptions on sample dimensions. Empirically, using U.S. stock returns from 2000 to 2019, we document strong evidence of both inside and outside alphas, with the former showing industry-level comovements and the latter reflecting idiosyncratic shocks beyond firm fundamentals. Our framework thus unifies statistical and characteristic-based approaches to factor modeling, offering both theoretical advances and new insights into the structure of pricing errors. This paper was accepted by Lukas Schmid, finance. Funding: This research was supported by the National Science Foundation [Grant DMS-2052955]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2025.04971 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.04971",
+    "published_date": "2026-11-26",
+    "source": "MS",
+    "first_seen": "2026-11-27",
+    "abstract_missing": false,
+    "summary": "本文研究将潜在因子（latent factors）与公司特征相结合的因子模型，并提出了一个对定价误差进行建模、估计与推断的新框架。沿用 Zhang（2024）的思路，作者将错误定价分解为两个互不相同的成分：inside alpha，即能被公司特征解释、但与因子暴露正交的部分；以及 outside alpha，即与因子和公司特征都正交的部分。该模型推广了 Kelly et al.（2019）与 Zhang（2024）等近期提出的模型，解决了正交性、基依赖性（basis dependence）和单位敏感性（unit sensitivity）等问题。方法上，作者基于低秩方法（low-rank methods）并显式加入去偏（debiasing）步骤来构造估计量，给出闭式解，并建立了严格的大样本推断理论；该理论允许公司特征个数随样本增长，同时放松了对样本维度的标准假设。实证方面，作者使用 2000 至 2019 年的美国股票收益数据，发现 inside alpha 与 outside alpha 均显著存在，其中 inside alpha 表现出行业层面的共同变动，而 outside alpha 则反映了超出公司基本面的特质冲击。该框架由此统一了因子建模的统计方法与基于特征的方法，既在理论上有所推进，也为理解定价误差的结构提供了新的洞见。",
+    "keywords": [
+      "因子模型",
+      "定价误差",
+      "潜在因子",
+      "公司特征",
+      "低秩方法"
+    ],
+    "ai_comment": "论文把定价误差拆成 inside alpha 与 outside alpha，并在低秩估计框架下给出闭式解与可容纳特征数发散的推断理论，理论上统一了统计因子与特征因子两条路线；实证上对两类 alpha 的行业共振与特质冲击来源给出了可检验的新证据。",
+    "topic": "资产定价"
+  },
+  {
+    "id": "10.1287/mnsc.2024.04758",
+    "title": "Correcting the Unobserved Textual Confounding Factors in Regression by BERT and Partially Linear Regression",
+    "authors": [
+      "Mengke Qiao",
+      "Ke-Wei Huang"
+    ],
+    "abstract": "In the last decade, there has been a surge of text-mining applications in the information systems literature. In these applications, researchers typically construct independent variables from documents by various text-mining techniques. The most prominent example could be using online review sentiments to investigate online word-of-mouth issues. Typically, most documents contain information richer than the independent variable, and researchers may construct control variables from the same documents to alleviate endogeneity issues. However, researchers need to manually craft these variables, and this process may not guarantee that all the important confounding factors are extracted and included in the regression model with a correct functional form. If useful textual information is overlooked and a valid identification strategy is not available, the omitted variable bias may occur. To solve this challenge, we propose a novel model that utilizes text embedding based on the state-of-the-art neural network language model (i.e., bidirectional encoder representations from transformers (BERT)) to automatically create a new control variable vector for controlling latent confounding factors in the absence of a valid identification strategy. Moreover, our approach can be considered a semiparametric approach in that our model contains a linear term of the key independent variable and an unknown functional term of the textual control variables. Our approach extends the semiparametric framework, double machine learning, by introducing a novel Neyman-orthogonal loss function in an integrated deep neural network to minimize the estimation bias. Our experiments demonstrate the effectiveness of controlling textual control variables by text embedding and improving the estimation performance by the novel loss function. This paper was accepted by Anindya Ghose, information systems. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.04758 .",
+    "url": "https://doi.org/10.1287/mnsc.2024.04758",
+    "published_date": "2026-11-26",
+    "source": "MS",
+    "first_seen": "2026-11-27",
+    "abstract_missing": false,
+    "summary": "本文关注信息系统研究中文本挖掘应用普遍面临的内生性问题：研究者通常从文档中构造自变量（如用在线评论情感研究网络口碑），但同一批文档中还包含比该自变量更丰富的信息，研究者往往需要手工构造控制变量以缓解遗漏变量偏误；手工构造既难以保证把所有重要混淆因素都提取出来，也难以保证以正确的函数形式纳入模型。如果关键文本信息被忽略、又缺乏有效的识别策略，就会产生遗漏变量偏误。为此，作者提出一个新模型：利用基于最先进神经网络语言模型 BERT 的文本嵌入（text embedding），在缺乏有效识别策略的情况下，自动构造一个新的控制变量向量，用以控制潜在的混淆因素。该方法属于半参数方法，模型中包含关键自变量的线性项和文本控制变量的未知函数项；作者进一步在端到端深度神经网络中引入新的 Neyman-orthogonal 损失函数，对 double machine learning 这一半参数框架进行扩展，以最小化估计偏误。实验结果表明，用文本嵌入控制文本类控制变量是有效的，且新的损失函数能够提升估计性能。",
+    "keywords": [
+      "文本嵌入",
+      "BERT",
+      "半参数模型",
+      "遗漏变量偏误",
+      "double machine learning"
+    ],
+    "ai_comment": "论文把 BERT 文本嵌入与半参数 double machine learning 框架结合，用 Neyman-orthogonal 损失函数自动构造控制变量以缓解文本遗漏变量偏误，为缺乏有效识别策略的文本挖掘实证研究提供了可操作的计量方案，方法学贡献较为突出。",
+    "topic": "金融计量/机器学习"
+  },
+  {
     "id": "10.1287/mnsc.2025.01063",
     "title": "When GenAI Increases Inequality: Evidence from a University Debating Competition",
     "authors": [
@@ -28808,6 +28856,24 @@
     "source": "SSRN",
     "doi": "10.2139/ssrn.7686567",
     "first_seen": "2026-11-14",
+    "abstract_missing": true,
+    "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
+    "keywords": [],
+    "ai_comment": "",
+    "topic": "其他"
+  },
+  {
+    "title": "Seemingly Anchored Inflation Expectations",
+    "authors": [
+      "Ulrike M. Malmendier",
+      "Stefan Nagel"
+    ],
+    "abstract": "",
+    "url": "https://doi.org/10.2139/ssrn.7063338",
+    "published_date": "2026-01-01",
+    "source": "SSRN",
+    "doi": "10.2139/ssrn.7063338",
+    "first_seen": "2026-11-27",
     "abstract_missing": true,
     "summary": "⚠️ 未能获取本文摘要（可能尚未发布或抓取失败），暂无自动摘要总结，请点击下方原文链接阅读。",
     "keywords": [],
