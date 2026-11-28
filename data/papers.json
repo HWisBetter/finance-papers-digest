@@ -1,5 +1,55 @@
 [
   {
+    "id": "10.1287/mnsc.2025.03691",
+    "title": "Does FinTech Innovation Improve Traditional Banks’ Operating Efficiency and Risk? Empirical Evidence from Patent Filings",
+    "authors": [
+      "Libing Fang",
+      "Xindan Li",
+      "Avanidhar Subrahmanyam",
+      "Ke Zhang"
+    ],
+    "abstract": "We empirically examine the link between bank-specific innovations in financial technology (FinTech) and traditional banks’ fundamentals. We propose a new measure for FinTech innovation as the textual similarity of banks’ patent filings to standard FinTech policy documents. We show that FinTech innovation implies enhanced efficiency, profitability, and operating capacity (e.g., cost management, funding and lending activity). FinTech also ameliorates banks’ risk measures, including overall risk (Z-score), the liquidity, and nonperforming loan ratios. Our heterogeneity analysis suggests that banks with stronger managerial capacity and higher labor intensity derive moderately greater benefits from FinTech innovations. Further analysis reveals that FinTech-driven lending expansions focus on unsecured and low-risk loans, with technological specializations in cloud computing. We also find supportive evidence that expanding innovation in artificial intelligence and blockchain can yield performance gains to commercial banks. This paper was accepted by Kay Giesecke, finance. Funding: X. Li acknowledges support by the National Natural Science Foundation of China [Grants 72495151 and 72342024]. L. Fang acknowledges support by the National Natural Science Foundation of China [Grants 72371126 and 72595843]. K. Zhang acknowledges support by the National Natural Science Foundation of China [Grants 72473063 and W2411065]. Supplemental Material: The online appendices and data files are available at https://doi.org/10.1287/mnsc.2025.03691 .",
+    "url": "https://doi.org/10.1287/mnsc.2025.03691",
+    "published_date": "2026-11-27",
+    "source": "MS",
+    "first_seen": "2026-11-28",
+    "abstract_missing": false,
+    "summary": "本文实证考察银行层面的金融科技创新与传统银行基本面之间的关系。在方法上，作者提出一种新的金融科技创新度量：以银行专利申请文本与标准金融科技政策文件之间的文本相似度来衡量银行的金融科技创新程度。研究发现，金融科技创新能够提升银行效率、盈利能力与经营能力（例如成本管理、融资与放贷活动）；同时改善银行的风险指标，包括整体风险（Z-score）、流动性比率与不良贷款率。异质性分析显示，管理能力更强、劳动密集度更高的银行从金融科技创新中获得的收益略大。进一步分析表明，由金融科技驱动的信贷扩张集中于无担保贷款与低风险贷款，技术专长则集中在云计算领域。作者还发现支持性证据：人工智能与区块链领域创新的扩张能够为商业银行带来绩效提升。",
+    "keywords": [
+      "金融科技",
+      "银行经营效率",
+      "专利文本分析",
+      "风险承担",
+      "人工智能"
+    ],
+    "ai_comment": "本文的亮点在于用专利文本与政策文件的相似度构造银行层面的金融科技创新度量，在一定程度上缓解了金融科技创新难以量化的难题，并同时考察效率提升与风险改善这两类结果，为“金融科技赋能传统银行”提供了较为细致的微观证据。",
+    "topic": "银行与金融中介"
+  },
+  {
+    "id": "10.1287/mnsc.2023.03394",
+    "title": "Payout Taxes Matter: The Financing R&amp;D Mechanism",
+    "authors": [
+      "James R. Brown",
+      "Gustav Martinsson"
+    ],
+    "abstract": "Higher taxes on corporate payouts increase the cost of financing with stock issues. As a result, corporate investments that rely on external equity financing should be particularly sensitive to payout tax rates. A large literature shows that firms rely extensively on stock issues to fund research and development (R&D), suggesting that the financing of R&D is a potentially important microlevel mechanism linking payout taxation with real corporate activity. We document a robust negative association between dividend tax rates and firm R&D investment in a broad sample of developed countries between 2000 and 2019. The negative relation between dividend taxes and R&D is concentrated in equity-dependent firms in high-R&D industries. R&D is more sensitive to dividend tax rates in countries with stock market–based financial systems. Dividend taxes are less important for investment in physical capital than for R&D. Higher dividend taxes are associated with less corporate financing with stock issues, particularly in firms with low internal cash flow. Our study highlights the importance of focusing on equity-dependent activities and firms to evaluate the real consequences of payout taxation. This paper was accepted by Gustavo Manso, finance. Supplemental Material: The data files are available at https://doi.org/10.1287/mnsc.2023.03394 .",
+    "url": "https://doi.org/10.1287/mnsc.2023.03394",
+    "published_date": "2026-11-27",
+    "source": "MS",
+    "first_seen": "2026-11-28",
+    "abstract_missing": false,
+    "summary": "本文研究公司派现（payout）税负如何通过股权融资成本影响企业的实际投资，尤其是研发（R&D）投资。作者指出，对派现征收更高的税会提高以股票发行融资的成本，因此依赖外部股权融资的投资应对派现税率特别敏感；而大量文献表明企业广泛依赖股票发行来为研发提供资金，这使研发融资成为连接派现税制与企业实际活动的一个潜在重要微观机制。作者使用 2000—2019 年广泛发达国家样本，记录了股利税率与企业研发投资之间稳健的负相关关系，且这一负相关集中在高研发行业中的股权依赖型企业；在股票市场主导型金融体系的国家，研发对股利税率更敏感；与研发相比，股利税对实物资本投资的重要性较低。进一步地，较高的股利税与较少的股票发行融资相关，这一效应在内部现金流较低的企业中尤为明显。研究强调，要评估派现税制的真实后果，应聚焦于股权依赖型的活动与企业。",
+    "keywords": [
+      "股利税",
+      "研发投资",
+      "股权融资",
+      "股票发行",
+      "股权依赖"
+    ],
+    "ai_comment": "论文将派现税制与研发融资这一微观渠道联系起来，并用跨国样本、行业与企业层面的异质性（股权依赖、金融体系类型、内部现金流）层层验证，为评估税收政策的实际效应提供了清晰而有力的证据。",
+    "topic": "公司金融"
+  },
+  {
     "id": "10.1287/mnsc.2025.04971",
     "title": "Inferential Theory for Pricing Errors with Latent Factors and Firm Characteristics",
     "authors": [
